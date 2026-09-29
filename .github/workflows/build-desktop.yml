@@ -1,12 +1,9 @@
 # ShinyApps desktop installers (Windows + macOS).
 # Place at ShinyApps/.github/workflows/build-desktop.yml
 #
-# Same shape as the per-app workflows you already use:
-#   prepare : build the app source packages (SeuratExplorer / scConvertShiny /
-#             scConvert) + grab presto, into one artifact.
-#   build   : per-platform Electron build (downloads tarballs -> dependency/ ->
-#             source build-suite.R).
-#   release : on a v* tag, attach installers + latest*.yml to a GitHub Release.
+# Option 1: the app source tarballs are committed under dependency/, so there is
+# no `prepare` job -- `build` checks out the repo (bringing dependency/) and runs
+# build-suite.R directly.
 #
 # Linux excluded: the `bundled` strategy ships portable R (macOS/Windows only).
 
@@ -18,41 +15,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  prepare:
-    name: Build app source tarballs
-    runs-on: ubuntu-latest
-    steps:
-      - name: Clone app sources
-        run: |
-          git clone --depth 1 https://github.com/fentouxungui/SeuratExplorer.git se
-          git clone --depth 1 https://github.com/fentouxungui/scConvertShiny.git sc
-          git clone --depth 1 https://github.com/mianaz/scConvert.git scconvert
-
-      - uses: r-lib/actions/setup-r@v2
-        with:
-          use-public-rspm: true
-
-      - name: R CMD build each app, normalize names into tarballs/
-        run: |
-          mkdir -p tarballs
-          R CMD build se        --no-build-vignettes --no-manual
-          R CMD build sc        --no-build-vignettes --no-manual
-          R CMD build scconvert --no-build-vignettes --no-manual
-          cp SeuratExplorer_*.tar.gz  tarballs/SeuratExplorer.tar.gz
-          cp scConvertShiny_*.tar.gz  tarballs/scConvertShiny.tar.gz
-          cp scConvert_*.tar.gz       tarballs/scConvert.tar.gz
-          cp se/dependency/presto-*.tar.gz tarballs/presto.tar.gz
-          ls -l tarballs
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: app-tarballs
-          if-no-files-found: error
-          path: tarballs/*.tar.gz
-
   build:
     name: Build (${{ matrix.platform }})
-    needs: prepare
     strategy:
       fail-fast: false
       matrix:
@@ -61,7 +25,7 @@ jobs:
           - { os: macos-latest,   platform: mac }
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5      # brings the committed dependency/*.tar.gz
 
       - uses: r-lib/actions/setup-r@v2
         with:
@@ -70,12 +34,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-
-      - name: Fetch the app source tarballs into dependency/
-        uses: actions/download-artifact@v5
-        with:
-          name: app-tarballs
-          path: dependency
 
       - name: Install shinyelectron (fork) and its runtime deps
         shell: Rscript {0}

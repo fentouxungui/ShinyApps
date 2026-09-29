@@ -1,11 +1,10 @@
 # ShinyApps suite -- root of the ShinyApps repo.
-# Build via build-suite.R, which the CI's `build` job runs after its `prepare`
-# job has populated dependency/ with fixed-named tarballs (see build-desktop.yml).
+# Option 1: the app tarballs are COMMITTED under dependency/ (no CI `prepare` job).
+# Build via build-suite.R, which the CI's `build` job runs.
 #
-# Dependency block mirrors the canonical per-app workflow/script pattern:
-# CRAN+Bioc closure in `extra_packages`, non-CRAN packages as local tarballs.
-# NOTE: install_local_packages() identifies packages from the DESCRIPTION inside
-# the tarball, not from the filename, so fixed names are safe.
+# install_local_packages() identifies packages from the DESCRIPTION inside each
+# tarball (not from the filename), and export() does not change the R process
+# working directory, so these repo-relative paths resolve correctly.
 
 app:
   name: "ShinyApps"
@@ -58,11 +57,11 @@ dependencies:
     # bundles published by build-app-bundle.yml (which uses the same 4.6.1).
     version: "4.6.1"
     local_packages:
-      # These 4 files are produced by the CI `prepare` job into dependency/.
-      - "dependency/SeuratExplorer.tar.gz"
-      - "dependency/presto.tar.gz"
-      - "dependency/scConvertShiny.tar.gz"
-      - "dependency/scConvert.tar.gz"
+      # Exactly the files committed under dependency/ (Option 1).
+      - "dependency/SeuratExplorer_0.1.9.tar.gz"
+      - "dependency/presto-1.1.0.tar.gz"
+      - "dependency/scConvertShiny_0.1.1.tar.gz"
+      - "dependency/scConvert-0.2.1.tar.gz"
 
 updates:
   enabled: true
@@ -83,10 +82,10 @@ apps:
     name: "SeuratExplorer"
     description: "Explore scRNA-seq data processed in Seurat"
     path: "./apps/seurat-explorer"
-    icon: "./icons/seurat-explorer.png"
+    # icon: "./icons/seurat-explorer.png"   # re-enable once icons are shipped
 
   - id: scconvert
     name: "scConvertShiny"
     description: "Convert single-cell formats (h5ad / h5Seurat / loom / MuData)"
     path: "./apps/scconvert"
-    icon: "./icons/scconvert.png"
+    # icon: "./icons/scconvert.png"         # re-enable once icons are shipped
