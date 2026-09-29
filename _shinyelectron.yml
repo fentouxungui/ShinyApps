@@ -1,0 +1,92 @@
+# ShinyApps suite -- root of the ShinyApps repo.
+# Build via build-suite.R, which the CI's `build` job runs after its `prepare`
+# job has populated dependency/ with fixed-named tarballs (see build-desktop.yml).
+#
+# Dependency block mirrors the canonical per-app workflow/script pattern:
+# CRAN+Bioc closure in `extra_packages`, non-CRAN packages as local tarballs.
+# NOTE: install_local_packages() identifies packages from the DESCRIPTION inside
+# the tarball, not from the filename, so fixed names are safe.
+
+app:
+  name: "ShinyApps"
+  version: "0.1.0"                 # shell version
+  slug: "shinyapps"
+  log_level: "info"
+  description: "Desktop launcher for single-cell Shiny apps"
+  author: "Zhang Yongchao"
+  email: "zhangyongchao@nibs.ac.cn"
+  homepage: "https://github.com/fentouxungui/ShinyApps"
+  copyright: "Copyright (c) 2026 Zhang Yongchao."
+
+build:
+  type: "r-shiny"
+  runtime_strategy: "bundled"
+
+window:
+  width: 1200
+  height: 800
+
+installer:
+  app_id: "com.shinyapps.desktop"
+  one_click: false
+  allow_to_change_installation_directory: true
+
+signing:
+  sign: false                      # enable later with CSC_LINK / CSC_KEY_PASSWORD
+
+dependencies:
+  # Full CRAN/Bioconductor closure + the two app package names.
+  # (renv auto-detect only sees `library(SeuratExplorer)` in app.R, not the
+  #  package's own Imports, so the closure must be listed explicitly.)
+  extra_packages:
+    - SeuratExplorer
+    - presto
+    - Seurat
+    - SeuratObject
+    - ggplot2
+    - DT
+    - scConvertShiny
+    - scConvert
+    - hdf5r
+    - crayon
+    - shiny
+    - shinydashboard
+    - callr
+    - zip
+  r:
+    # Lock the runtime R so the shell stays ABI-compatible with the app-layer
+    # bundles published by build-app-bundle.yml (which uses the same 4.6.1).
+    version: "4.6.1"
+    local_packages:
+      # These 4 files are produced by the CI `prepare` job into dependency/.
+      - "dependency/SeuratExplorer.tar.gz"
+      - "dependency/presto.tar.gz"
+      - "dependency/scConvertShiny.tar.gz"
+      - "dependency/scConvert.tar.gz"
+
+updates:
+  enabled: true
+  provider: "github"
+  check_on_startup: true
+  auto_download: true
+  auto_install: true
+  github:
+    owner: "fentouxungui"
+    repo: "ShinyApps"
+
+optimize:
+  r_library: true
+  r_runtime: true
+
+apps:
+  - id: seurat-explorer
+    name: "SeuratExplorer"
+    description: "Explore scRNA-seq data processed in Seurat"
+    path: "./apps/seurat-explorer"
+    icon: "./icons/seurat-explorer.png"
+
+  - id: scconvert
+    name: "scConvertShiny"
+    description: "Convert single-cell formats (h5ad / h5Seurat / loom / MuData)"
+    path: "./apps/scconvert"
+    icon: "./icons/scconvert.png"

@@ -1,0 +1,130 @@
+# ShinyApps desktop installers (Windows + macOS).
+# Place at ShinyApps/.github/workflows/build-desktop.yml
+#
+# Same shape as the per-app workflows you already use:
+#   prepare : build the app source packages (SeuratExplorer / scConvertShiny /
+#             scConvert) + grab presto, into one artifact.
+#   build   : per-platform Electron build (downloads tarballs -> dependency/ ->
+#             source build-suite.R).
+#   release : on a v* tag, attach installers + latest*.yml to a GitHub Release.
+#
+# Linux excluded: the `bundled` strategy ships portable R (macOS/Windows only).
+
+name: Build ShinyApps desktop
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+jobs:
+  prepare:
+    name: Build app source tarballs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone app sources
+        run: |
+          git clone --depth 1 https://github.com/fentouxungui/SeuratExplorer.git se
+          git clone --depth 1 https://github.com/fentouxungui/scConvertShiny.git sc
+          git clone --depth 1 https://github.com/mianaz/scConvert.git scconvert
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: R CMD build each app, normalize names into tarballs/
+        run: |
+          mkdir -p tarballs
+          R CMD build se        --no-build-vignettes --no-manual
+          R CMD build sc        --no-build-vignettes --no-manual
+          R CMD build scconvert --no-build-vignettes --no-manual
+          cp SeuratExplorer_*.tar.gz  tarballs/SeuratExplorer.tar.gz
+          cp scConvertShiny_*.tar.gz  tarballs/scConvertShiny.tar.gz
+          cp scConvert_*.tar.gz       tarballs/scConvert.tar.gz
+          cp se/dependency/presto-*.tar.gz tarballs/presto.tar.gz
+          ls -l tarballs
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: app-tarballs
+          if-no-files-found: error
+          path: tarballs/*.tar.gz
+
+  build:
+    name: Build (${{ matrix.platform }})
+    needs: prepare
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { os: windows-latest, platform: win }
+          - { os: macos-latest,   platform: mac }
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Fetch the app source tarballs into dependency/
+        uses: actions/download-artifact@v5
+        with:
+          name: app-tarballs
+          path: dependency
+
+      - name: Install shinyelectron (fork) and its runtime deps
+        shell: Rscript {0}
+        run: |
+          install.packages("pak")
+          pak::pak(c("fentouxungui/shinyelectron", "rlang", "withr", "renv"))
+
+      # scConvert compiles from source inside the bundled R runtime; its configure
+      # needs HDF5. On macOS provide a system HDF5 (Windows relies on hdf5r).
+      - name: Provide HDF5 for scConvert (macOS)
+        if: matrix.platform == 'mac'
+        run: |
+          brew install hdf5 pkg-config
+          H5="$(brew --prefix hdf5)"
+          echo "PKG_CONFIG_PATH=$H5/lib/pkgconfig" >> "$GITHUB_ENV"
+          echo "HDF5_CFLAGS=-I$H5/include" >> "$GITHUB_ENV"
+          echo "HDF5_LIBS=-L$H5/lib -lhdf5" >> "$GITHUB_ENV"
+
+      - name: Build the suite
+        shell: Rscript {0}
+        env:
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+        run: source("build-suite.R")
+
+      - name: Upload installers
+        uses: actions/upload-artifact@v4
+        with:
+          name: installer-${{ matrix.platform }}
+          if-no-files-found: error
+          # Top level of electron-builder's output only (* not **).
+          path: |
+            build/electron-app/dist/*.exe
+            build/electron-app/dist/*.exe.blockmap
+            build/electron-app/dist/*.dmg
+            build/electron-app/dist/*.dmg.blockmap
+            build/electron-app/dist/latest*.yml
+
+  release:
+    name: Release
+    needs: build
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v5
+        with:
+          path: artifacts
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: artifacts/**/*
+          generate_release_notes: true
