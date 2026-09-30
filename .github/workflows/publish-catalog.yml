@@ -1,0 +1,88 @@
+# Regenerate catalog.json from each app repo's latest release and publish it to
+# the gh-pages branch (served by GitHub Pages at a stable URL).
+# Place at  ShinyApps/.github/workflows/publish-catalog.yml
+
+name: Publish catalog
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [bundle-updated]
+  push:
+    branches: [main]
+    paths: ["catalog/apps.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build catalog.json from releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 -c "import yaml" 2>/dev/null || pip install --quiet pyyaml
+          python3 - <<'PY'
+          import json, os, subprocess, datetime
+          import yaml
+
+          reg = yaml.safe_load(open("catalog/apps.yml"))
+          apps = []
+          for a in reg["apps"]:
+              repo = a["repo"]
+              rel = json.loads(subprocess.check_output(
+                  ["gh", "api", f"repos/{repo}/releases/latest"], text=True))
+              ver = rel["tag_name"].lstrip("v")
+              arts = {}
+              for asset in rel.get("assets", []):
+                  n = asset["name"]
+                  if not n.endswith(".zip") or not n.startswith(a["id"] + "-"):
+                      continue
+                  toks = n[:-4][len(a["id"]) + 1:].split("-")
+                  if len(toks) < 3:
+                      continue
+                  plat = "-".join(toks[-2:])
+                  v = "-".join(toks[:-2])
+                  if v != ver:
+                      continue
+                  arts[plat] = {
+                      "url": asset["browser_download_url"],
+                      "size": asset["size"],
+                      "sha256": (asset.get("digest") or "").replace("sha256:", ""),
+                  }
+              app = {k: a[k] for k in a if k != "repo"}
+              app["version"] = ver
+              app["artifacts"] = arts
+              apps.append(app)
+
+          cat = {
+              "schema": 1,
+              "updated_at": datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
+              "shell_min_version": reg.get("shell_min_version", "0.1.0"),
+              "apps": apps,
+          }
+          os.makedirs("catalog", exist_ok=True)
+          json.dump(cat, open("catalog/catalog.json", "w"), indent=2)
+          print("apps:", [(x["id"], x["version"], list(x["artifacts"])) for x in apps])
+          PY
+
+      - name: Publish catalog.json to gh-pages
+        run: |
+          set -euo pipefail
+          git config user.name github-actions
+          git config user.email actions@github.com
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git fetch origin gh-pages
+            git worktree add pages origin/gh-pages
+          else
+            git worktree add --orphan -b gh-pages pages
+          fi
+          cp catalog/catalog.json pages/catalog.json
+          cd pages
+          git add catalog.json
+          git commit -m "catalog: update $(date -u +%FT%TZ)" || echo "no changes"
+          git push origin HEAD:gh-pages

@@ -1,0 +1,28 @@
+# ShinyApps app registry -- the single source of app metadata for the catalog.
+# Place at  ShinyApps/catalog/apps.yml
+# The publish-catalog workflow expands each entry with the latest release's
+# version + per-platform artifact url/size/sha256 and writes catalog.json.
+
+schema: 1
+shell_min_version: "0.1.0"
+
+apps:
+  - id: seurat-explorer
+    repo: fentouxungui/SeuratExplorer
+    name: SeuratExplorer
+    author: "Zhang Yongchao"
+    description: "Explore scRNA-seq data processed in Seurat"
+    homepage: "https://github.com/fentouxungui/SeuratExplorer"
+    license: "GPL-3.0-or-later"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png"
+    r_version: "4.6.1"
+
+  - id: scconvert
+    repo: fentouxungui/scConvertShiny
+    name: scConvertShiny
+    author: "Zhang Yongchao"
+    description: "Convert single-cell formats (h5ad / h5Seurat / loom / MuData)"
+    homepage: "https://github.com/fentouxungui/scConvertShiny"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/scconvert.png"
+    r_version: "4.6.1"
