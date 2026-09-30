@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "updated_at": "2026-09-30T00:00:00Z",
+  "shell_min_version": "0.1.0",
+  "apps": [
+    {
+      "id": "seurat-explorer",
+      "name": "SeuratExplorer",
+      "version": "0.1.9",
+      "author": "Zhang Yongchao",
+      "description": "Explore scRNA-seq data processed in Seurat",
+      "homepage": "https://github.com/fentouxungui/SeuratExplorer",
+      "license": "GPL-3.0-or-later",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png",
+      "r_version": "4.6.1",
+      "min_shell_version": "0.1.0",
+      "changelog": "Adjustable plot size; DEG fixes.",
+      "artifacts": {
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-win-x64.zip",
+          "size": 0,
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "min_shell_version": "0.1.0"
+        },
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-mac-arm64.zip",
+          "size": 0,
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "min_shell_version": "0.1.0"
+        }
+      }
+    },
+    {
+      "id": "scconvert",
+      "name": "scConvertShiny",
+      "version": "0.1.1",
+      "author": "Zhang Yongchao",
+      "description": "Convert single-cell formats (h5ad / h5Seurat / loom / MuData)",
+      "homepage": "https://github.com/fentouxungui/scConvertShiny",
+      "license": "MIT",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/scconvert.png",
+      "r_version": "4.6.1",
+      "min_shell_version": "0.1.0",
+      "changelog": "",
+      "artifacts": {}
+    }
+  ]
+}

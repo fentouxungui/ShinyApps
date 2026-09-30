@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://fentouxungui.github.io/ShinyApps/catalog.schema.json",
+  "title": "ShinyApps app catalog (hosted at a stable URL, e.g. GitHub Pages)",
+  "type": "object",
+  "required": ["schema", "apps"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": 1 },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "shell_min_version": { "type": "string" },
+    "apps": { "type": "array", "items": { "$ref": "#/definitions/app" } }
+  },
+  "definitions": {
+    "app": {
+      "type": "object",
+      "required": ["id", "name", "version", "artifacts"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "name": { "type": "string" },
+        "version": { "type": "string" },
+        "author": { "type": "string" },
+        "description": { "type": "string" },
+        "homepage": { "type": "string", "format": "uri" },
+        "license": { "type": "string" },
+        "icon": { "type": "string", "description": "Absolute URL to a PNG shown on the launcher card" },
+        "r_version": { "type": "string" },
+        "min_shell_version": { "type": "string" },
+        "changelog": { "type": "string" },
+        "artifacts": {
+          "type": "object",
+          "description": "One entry per platform that has a published bundle",
+          "propertyNames": { "enum": ["win-x64", "win-arm64", "mac-x64", "mac-arm64", "linux-x64"] },
+          "additionalProperties": { "$ref": "#/definitions/artifact" }
+        }
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "required": ["url", "sha256"],
+      "additionalProperties": false,
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "size": { "type": "integer", "minimum": 0 },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "min_shell_version": { "type": "string" }
+      }
+    }
+  }
+}

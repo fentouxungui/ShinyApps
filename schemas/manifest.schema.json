@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://fentouxungui.github.io/ShinyApps/manifest.schema.json",
+  "title": "ShinyApps app-layer bundle manifest (manifest.json inside the zip)",
+  "type": "object",
+  "required": ["schema", "id", "name", "version", "platform", "entry", "r_version", "packages"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "name": { "type": "string" },
+    "version": { "type": "string" },
+    "author": { "type": "string" },
+    "description": { "type": "string" },
+    "homepage": { "type": "string", "format": "uri" },
+    "license": { "type": "string" },
+    "runtime": { "type": "string", "enum": ["r-shiny", "py-shiny"] },
+    "entry": { "type": "string", "description": "Path to app.R/app.py inside the bundle, e.g. app/app.R" },
+    "platform": { "type": "string", "enum": ["win-x64", "win-arm64", "mac-x64", "mac-arm64", "linux-x64"] },
+    "r_version": { "type": "string", "description": "R version the packages were built against; MUST match the shell runtime" },
+    "min_shell_version": { "type": "string" },
+    "packages": {
+      "type": "array",
+      "description": "Resolved dependency closure. The client copies these into the shared library / private library and reference-counts by name.",
+      "items": {
+        "type": "object",
+        "required": ["name", "version", "path"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "version": { "type": "string" },
+          "path": { "type": "string", "description": "Directory inside the bundle, e.g. rlib/Seurat" },
+          "source": { "type": "string", "enum": ["cran", "bioc", "github", "local"] },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+        }
+      }
+    }
+  }
+}
