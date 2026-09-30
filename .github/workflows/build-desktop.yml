@@ -39,7 +39,7 @@ jobs:
         shell: Rscript {0}
         run: |
           install.packages("pak")
-          pak::pak(c("fentouxungui/shinyelectron", "rlang", "withr", "renv"))
+          pak::pak(c("fentouxungui/shinyelectron@multi-app-store", "rlang", "withr", "renv"))
 
       # scConvert compiles from source inside the bundled R runtime; its configure
       # needs HDF5. On macOS provide a system HDF5 (Windows relies on hdf5r).
