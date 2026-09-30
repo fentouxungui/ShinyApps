@@ -1,11 +1,11 @@
-# ShinyApps desktop installers (Windows + macOS).
+# ShinyApps shell installers (Windows + macOS).
 # Place at ShinyApps/.github/workflows/build-desktop.yml
 #
-# Option 1: the app source tarballs are committed under dependency/, so there is
-# no `prepare` job -- `build` checks out the repo (bringing dependency/) and runs
-# build-suite.R directly.
+# Builds the ShinyApps desktop shell (apps are whatever _shinyelectron.yml lists,
+# or none for a pure store shell) and attaches the installers to a GitHub Release.
 #
-# Linux excluded: the `bundled` strategy ships portable R (macOS/Windows only).
+# Attach to a release either by pushing a v* tag, or by running this workflow
+# manually and supplying the target `tag`.
 
 name: Build ShinyApps desktop
 
@@ -13,6 +13,15 @@ on:
   push:
     tags: ['v*']
   workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing tag to attach installers to"
+        required: false
+        type: string
+        default: "v0.1.1"
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -25,7 +34,7 @@ jobs:
           - { os: macos-latest,   platform: mac }
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v5      # brings the committed dependency/*.tar.gz
+      - uses: actions/checkout@v5
 
       - uses: r-lib/actions/setup-r@v2
         with:
@@ -41,8 +50,6 @@ jobs:
           install.packages("pak")
           pak::pak(c("fentouxungui/shinyelectron@multi-app-store", "rlang", "withr", "renv"))
 
-      # scConvert compiles from source inside the bundled R runtime; its configure
-      # needs HDF5. On macOS provide a system HDF5 (Windows relies on hdf5r).
       - name: Provide HDF5 for scConvert (macOS)
         if: matrix.platform == 'mac'
         run: |
@@ -63,7 +70,6 @@ jobs:
         with:
           name: installer-${{ matrix.platform }}
           if-no-files-found: error
-          # Top level of electron-builder's output only (* not **).
           path: |
             build/electron-app/dist/*.exe
             build/electron-app/dist/*.exe.blockmap
@@ -74,7 +80,7 @@ jobs:
   release:
     name: Release
     needs: build
-    if: startsWith(github.ref, 'refs/tags/v')
+    if: github.event_name == 'release' || startsWith(github.ref, 'refs/tags/v') || inputs.tag != ''
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -84,5 +90,6 @@ jobs:
           path: artifacts
       - uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ inputs.tag || github.ref_name }}
           files: artifacts/**/*
           generate_release_notes: true
