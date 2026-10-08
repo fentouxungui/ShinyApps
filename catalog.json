@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-09-30T07:24:06Z",
+  "updated_at": "2026-10-08T02:52:40Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -12,17 +12,17 @@
       "license": "GPL-3.0-or-later",
       "icon": "https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png",
       "r_version": "4.6.1",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-mac-arm64.zip",
-          "size": 199173732,
-          "sha256": "92bfcd82569418f8b58a4856be4818298462e1c285c321ee0a2b83be62d0ed11"
+          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.10/seurat-explorer-0.1.10-mac-arm64.zip",
+          "size": 32719910,
+          "sha256": "aa8a8b35560a771a48ee145a3518f286b84e19df107860d5f0e6e9d8f2e7b396"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-win-x64.zip",
-          "size": 214887946,
-          "sha256": "42da14532c6a4b685a55e60334430af70c2c36ed3932c30e6323ce353d4bcbca"
+          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.10/seurat-explorer-0.1.10-win-x64.zip",
+          "size": 34061899,
+          "sha256": "d08e9309323809dd5711730e462e8041de014ebce97747fadf6e51ef0a435d22"
         }
       }
     },
@@ -35,17 +35,17 @@
       "license": "MIT",
       "icon": "https://fentouxungui.github.io/ShinyApps/icons/scconvert.png",
       "r_version": "4.6.1",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.1/scconvert-0.1.1-mac-arm64.zip",
-          "size": 201993508,
-          "sha256": "889280922ddffbd931272cbc8837691218e0ba1936557d5848329b7a74ca2ff2"
+          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.2/scconvert-0.1.2-mac-arm64.zip",
+          "size": 198727236,
+          "sha256": "ec94eb0073897eaab4fdff3fcc68d77234c0a13610c919609b0078e3fa4170cb"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.1/scconvert-0.1.1-win-x64.zip",
-          "size": 217764929,
-          "sha256": "048a1c9a7fbcdb9a60fdbd84aefaa9d7761da3b9a7a88e257fce44fd154f00d3"
+          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.2/scconvert-0.1.2-win-x64.zip",
+          "size": 214116034,
+          "sha256": "a7130805b161b072554fcc1661f8205a38ac24a843db7934b7d7d5bf1a9375df"
         }
       }
     }
