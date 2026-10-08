@@ -62,12 +62,21 @@ if (identical(tolower(Sys.info()[["sysname"]]), "darwin")) {
   }
 }
 
+icon <- NULL
+if (.Platform$OS.type == "windows") {
+  f <- list.files("icons/ico", pattern = "[.]ico$", full.names = TRUE)
+  if (length(f)) icon <- f[[1]]
+} else {
+  f <- list.files("icons/mac", pattern = "[.]icns$", full.names = TRUE)
+  if (length(f)) icon <- f[[1]]
+}
+
 # ---- Build ------------------------------------------------------------
 export(
   appdir    = ws,                    # suite root; find_config() reads _shinyelectron.yml here
   destdir   = file.path(ws, "build"),
   app_name  = "ShinyApps",
-  icon      = NULL,                  # per-app icons come from apps[].icon
+  icon = icon,
   run_after = FALSE,
   overwrite = TRUE
 )
