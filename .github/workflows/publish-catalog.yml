@@ -1,27 +1,22 @@
-# Regenerate catalog.json from each app repo's latest release and publish it to
-# gh-pages.
+# Regenerate catalog.json from each app repo's latest release AND publish the
+# icons/ folder, both to gh-pages.
 #
-# Triggers:
-#   - every 10 minutes (GitHub may delay scheduled runs; minimum interval is 5m)
-#   - manual (Run workflow)
-#   - repository_dispatch [bundle-updated] (apps can notify on new bundles)
-#   - push to main touching catalog/apps.yml
+# Place at ShinyApps/.github/workflows/publish-catalog.yml
 #
-# Scheduled workflows only run on the default branch. To avoid a commit every
-# 10 minutes, it only commits when the catalog content actually changed
-# (ignoring the updated_at timestamp).
+# The launcher (store mode) reads icon URLs from catalog.json, so the PNGs must
+# be reachable at https://fentouxungui.github.io/ShinyApps/icons/<id>.png.
 
 name: Publish catalog
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '*/10 * * * *'
   workflow_dispatch:
   repository_dispatch:
     types: [bundle-updated]
   push:
     branches: [main]
-    paths: ["catalog/apps.yml"]
+    paths: ["catalog/apps.yml", "icons/**"]
 
 permissions:
   contents: write
@@ -81,7 +76,7 @@ jobs:
           print("apps:", [(x["id"], x["version"], list(x["artifacts"])) for x in apps])
           PY
 
-      - name: Publish catalog.json to gh-pages (only if changed)
+      - name: Publish catalog.json + icons to gh-pages
         run: |
           set -euo pipefail
           git config user.name github-actions
@@ -93,7 +88,8 @@ jobs:
             git worktree add --orphan -b gh-pages pages
           fi
 
-          # Exit 0 when the catalog (minus updated_at) is unchanged.
+          # 1) catalog.json: overwrite only when it changed (ignore updated_at),
+          #    so scheduled runs with no change create no new commit.
           if python3 - <<'PY'
           import json, sys
           new = json.load(open('catalog/catalog.json')); new.pop('updated_at', None)
@@ -104,11 +100,19 @@ jobs:
           sys.exit(0 if old == new else 1)
           PY
           then
-            echo "catalog unchanged; nothing to publish"
+            echo "catalog unchanged"
           else
             cp catalog/catalog.json pages/catalog.json
-            cd pages
-            git add catalog.json
-            git commit -m "catalog: update $(date -u +%FT%TZ)"
+          fi
+
+          # 2) icons: always sync so catalog icon URLs resolve.
+          if [ -d icons ]; then rm -rf pages/icons; cp -r icons pages/icons; fi
+
+          cd pages
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nothing to publish"
+          else
+            git commit -m "catalog/icons: update $(date -u +%FT%TZ)"
             git push origin HEAD:gh-pages
           fi
