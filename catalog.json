@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-08T05:09:22Z",
+  "updated_at": "2026-10-08T07:10:25Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -30,22 +30,22 @@
       "id": "scconvert",
       "name": "scConvertShiny",
       "author": "Zhang Yongchao",
-      "description": "Convert single-cell formats (h5ad / h5Seurat / loom / MuData)",
+      "description": "Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCellExperiment / Zarr etc.)",
       "homepage": "https://github.com/fentouxungui/scConvertShiny",
       "license": "MIT",
       "icon": "https://fentouxungui.github.io/ShinyApps/icons/scconvert.png",
       "r_version": "4.6.1",
-      "version": "0.1.2",
+      "version": "0.1.0",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.2/scconvert-0.1.2-mac-arm64.zip",
-          "size": 198727236,
-          "sha256": "ec94eb0073897eaab4fdff3fcc68d77234c0a13610c919609b0078e3fa4170cb"
+          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.0/scconvert-0.1.0-mac-arm64.zip",
+          "size": 198726509,
+          "sha256": "3d39c2ca3abad78953026ef3db392cafb2953cadbae456a52d748ef465bb7421"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.2/scconvert-0.1.2-win-x64.zip",
-          "size": 214116034,
-          "sha256": "a7130805b161b072554fcc1661f8205a38ac24a843db7934b7d7d5bf1a9375df"
+          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.0/scconvert-0.1.0-win-x64.zip",
+          "size": 214115647,
+          "sha256": "b977ccc26ce7f5658439c09c51b3736d122115d8ebf2547fb23f37ffc5d3d17c"
         }
       }
     }
