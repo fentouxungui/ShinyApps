@@ -1,10 +1,21 @@
 # Regenerate catalog.json from each app repo's latest release and publish it to
-# the gh-pages branch (served by GitHub Pages at a stable URL).
-# Place at  ShinyApps/.github/workflows/publish-catalog.yml
+# gh-pages.
+#
+# Triggers:
+#   - every 10 minutes (GitHub may delay scheduled runs; minimum interval is 5m)
+#   - manual (Run workflow)
+#   - repository_dispatch [bundle-updated] (apps can notify on new bundles)
+#   - push to main touching catalog/apps.yml
+#
+# Scheduled workflows only run on the default branch. To avoid a commit every
+# 10 minutes, it only commits when the catalog content actually changed
+# (ignoring the updated_at timestamp).
 
 name: Publish catalog
 
 on:
+  schedule:
+    - cron: '0 0 * * *'
   workflow_dispatch:
   repository_dispatch:
     types: [bundle-updated]
@@ -70,7 +81,7 @@ jobs:
           print("apps:", [(x["id"], x["version"], list(x["artifacts"])) for x in apps])
           PY
 
-      - name: Publish catalog.json to gh-pages
+      - name: Publish catalog.json to gh-pages (only if changed)
         run: |
           set -euo pipefail
           git config user.name github-actions
@@ -81,8 +92,23 @@ jobs:
           else
             git worktree add --orphan -b gh-pages pages
           fi
-          cp catalog/catalog.json pages/catalog.json
-          cd pages
-          git add catalog.json
-          git commit -m "catalog: update $(date -u +%FT%TZ)" || echo "no changes"
-          git push origin HEAD:gh-pages
+
+          # Exit 0 when the catalog (minus updated_at) is unchanged.
+          if python3 - <<'PY'
+          import json, sys
+          new = json.load(open('catalog/catalog.json')); new.pop('updated_at', None)
+          try:
+              old = json.load(open('pages/catalog.json')); old.pop('updated_at', None)
+          except Exception:
+              old = None
+          sys.exit(0 if old == new else 1)
+          PY
+          then
+            echo "catalog unchanged; nothing to publish"
+          else
+            cp catalog/catalog.json pages/catalog.json
+            cd pages
+            git add catalog.json
+            git commit -m "catalog: update $(date -u +%FT%TZ)"
+            git push origin HEAD:gh-pages
+          fi
