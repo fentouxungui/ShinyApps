@@ -1,8 +1,8 @@
 # ShinyApps shell installers (Windows + macOS).
 # Place at ShinyApps/.github/workflows/build-desktop.yml
 #
-# Builds the ShinyApps desktop shell (apps are whatever _shinyelectron.yml lists,
-# or none for a pure store shell) and attaches the installers to a GitHub Release.
+# The shell version is derived from the release tag (APP_VERSION) inside
+# build-suite.R, so you never edit app.version in _shinyelectron.yml by hand.
 #
 # Attach to a release either by pushing a v* tag, or by running this workflow
 # manually and supplying the target `tag`.
@@ -63,6 +63,7 @@ jobs:
         shell: Rscript {0}
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
+          APP_VERSION: ${{ inputs.tag || github.ref_name }}
         run: source("build-suite.R")
 
       - name: Upload installers

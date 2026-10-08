@@ -8,6 +8,9 @@
 #   dependency/scConvert_<v>.tar.gz
 #   icons/seurat-explorer.png, icons/scconvert.png
 #   _shinyelectron.yml, apps/seurat-explorer/app.R, apps/scconvert/app.R
+#
+# The shell version is taken from the APP_VERSION env var (the release tag);
+# you never need to edit app.version in _shinyelectron.yml by hand.
 
 library(shinyelectron)
 
@@ -15,7 +18,33 @@ ws <- Sys.getenv("GITHUB_WORKSPACE", unset = getwd())
 setwd(ws)
 options(timeout = 3600)   # bundled installs pull a lot of packages; be patient
 
-# ---- HDF5 for scConvert's configure step (macOS) ---------------------- 
+# ---- Version from the tag (do not edit _shinyelectron.yml manually) ----------
+cfg_path <- file.path(ws, "_shinyelectron.yml")
+ver <- sub("^v", "", Sys.getenv("APP_VERSION", unset = ""))
+if (grepl("^[0-9]+([.][0-9]+)*$", ver)) {
+  lines <- readLines(cfg_path, warn = FALSE)
+  in_app <- FALSE
+  patched <- FALSE
+  for (i in seq_along(lines)) {
+    if (grepl("^app:[[:space:]]*$", lines[i])) { in_app <- TRUE; next }
+    if (in_app && grepl("^[^[:space:]]", lines[i])) { in_app <- FALSE }
+    if (in_app && grepl("^[[:space:]]+version:", lines[i])) {
+      lines[i] <- sub("^[[:space:]]*version:.*$", paste0("  version: \"", ver, "\""), lines[i])
+      patched <- TRUE
+      break
+    }
+  }
+  if (patched) {
+    writeLines(lines, cfg_path)
+    message("app.version set to ", ver, " (from APP_VERSION)")
+  } else {
+    warning("Could not find app.version in _shinyelectron.yml to patch")
+  }
+} else {
+  message("APP_VERSION empty/not a version; keeping committed _shinyelectron.yml")
+}
+
+# ---- HDF5 for scConvert's configure step (macOS) ----------------------
 # scConvert compiles from source inside the bundled R runtime; its configure
 # needs HDF5. Provide it explicitly (mirrors the working scConvertShiny script).
 if (identical(tolower(Sys.info()[["sysname"]]), "darwin")) {
