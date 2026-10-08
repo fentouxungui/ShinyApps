@@ -21,7 +21,7 @@ apps:
     repo: fentouxungui/scConvertShiny
     name: scConvertShiny
     author: "Zhang Yongchao"
-    description: "Convert single-cell formats (h5ad / h5Seurat / loom / MuData)"
+    description: "Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCellExperiment / Zarr etc.)"
     homepage: "https://github.com/fentouxungui/scConvertShiny"
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/scconvert.png"
