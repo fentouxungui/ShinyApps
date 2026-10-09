@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-09T01:22:15Z",
+  "updated_at": "2026-10-09T02:34:59Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -16,13 +16,13 @@
       "artifacts": {
         "mac-arm64": {
           "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-mac-arm64.zip",
-          "size": 199173732,
-          "sha256": "92bfcd82569418f8b58a4856be4818298462e1c285c321ee0a2b83be62d0ed11"
+          "size": 199779699,
+          "sha256": "ff5bd78e127b488fa72780ac22cc1236882b6310831246a4de955dbb92e48636"
         },
         "win-x64": {
           "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-win-x64.zip",
-          "size": 214887946,
-          "sha256": "42da14532c6a4b685a55e60334430af70c2c36ed3932c30e6323ce353d4bcbca"
+          "size": 215698487,
+          "sha256": "92c42cc0b70cf75fd4b9c6dc8ed38d81ec474b3e980f368678d23584627edf78"
         }
       }
     },
@@ -39,13 +39,13 @@
       "artifacts": {
         "mac-arm64": {
           "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.0/scconvert-0.1.0-mac-arm64.zip",
-          "size": 198726509,
-          "sha256": "3d39c2ca3abad78953026ef3db392cafb2953cadbae456a52d748ef465bb7421"
+          "size": 198727223,
+          "sha256": "cd60276f0f59ed244c41743007f34c9ea9b92dbe642a9ad8007aab02afe83c62"
         },
         "win-x64": {
           "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.0/scconvert-0.1.0-win-x64.zip",
-          "size": 214115647,
-          "sha256": "b977ccc26ce7f5658439c09c51b3736d122115d8ebf2547fb23f37ffc5d3d17c"
+          "size": 214115760,
+          "sha256": "ce98e91772da9f9828dbd0a7af020bfef5130ffd895e82061625008a04bafeb8"
         }
       }
     }
