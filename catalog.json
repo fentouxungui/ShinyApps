@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-08T07:10:25Z",
+  "updated_at": "2026-10-09T01:22:15Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -12,17 +12,17 @@
       "license": "GPL-3.0-or-later",
       "icon": "https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png",
       "r_version": "4.6.1",
-      "version": "0.1.10",
+      "version": "0.1.9",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.10/seurat-explorer-0.1.10-mac-arm64.zip",
-          "size": 199743796,
-          "sha256": "871245982d5c86be0c0812dd32101b6e8cccbc5471bef55fdbf7c88ae03cb42d"
+          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-mac-arm64.zip",
+          "size": 199173732,
+          "sha256": "92bfcd82569418f8b58a4856be4818298462e1c285c321ee0a2b83be62d0ed11"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.10/seurat-explorer-0.1.10-win-x64.zip",
-          "size": 215698175,
-          "sha256": "ac4d818193c5bf7a82181ac19ccc77baed61172e5b5f2b13087c0aa2a7e59818"
+          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-win-x64.zip",
+          "size": 214887946,
+          "sha256": "42da14532c6a4b685a55e60334430af70c2c36ed3932c30e6323ce353d4bcbca"
         }
       }
     },
