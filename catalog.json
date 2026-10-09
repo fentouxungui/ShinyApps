@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-09T02:34:59Z",
+  "updated_at": "2026-10-09T06:07:25Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -9,6 +9,9 @@
       "author": "Zhang Yongchao",
       "description": "Explore scRNA-seq data processed in Seurat",
       "homepage": "https://github.com/fentouxungui/SeuratExplorer",
+      "docs": "https://github.com/fentouxungui/SeuratExplorer/wiki",
+      "email": "zhangyongchao@nibs.ac.cn",
+      "copyright": "(c) 2026 Zhang Yongchao",
       "license": "GPL-3.0-or-later",
       "icon": "https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png",
       "r_version": "4.6.1",
@@ -32,6 +35,9 @@
       "author": "Zhang Yongchao",
       "description": "Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCellExperiment / Zarr etc.)",
       "homepage": "https://github.com/fentouxungui/scConvertShiny",
+      "docs": "https://github.com/fentouxungui/scConvertShiny#readme",
+      "email": "zhangyongchao@nibs.ac.cn",
+      "copyright": "(c) 2026 Zhang Yongchao",
       "license": "MIT",
       "icon": "https://fentouxungui.github.io/ShinyApps/icons/scconvert.png",
       "r_version": "4.6.1",
