@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-10T01:25:11Z",
+  "updated_at": "2026-10-10T01:52:25Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -71,13 +71,13 @@
       "artifacts": {
         "mac-arm64": {
           "url": "https://github.com/fentouxungui/iSEE/releases/download/v0.1.0/isee-0.1.0-mac-arm64.zip",
-          "size": 105872415,
-          "sha256": "1a9d25797db73e0b1f1a33485783848eb755898ec9661730854cda87fecd22fe"
+          "size": 121816082,
+          "sha256": "a79257368c86d48e773f935feb29f351a45fae5802a51e4b8167e7f0851a7dc0"
         },
         "win-x64": {
           "url": "https://github.com/fentouxungui/iSEE/releases/download/v0.1.0/isee-0.1.0-win-x64.zip",
-          "size": 108136909,
-          "sha256": "45442112f3957d9de2e196c3bae6c4d64f5a0a7060757d3ecd107c2d945c05c5"
+          "size": 124283256,
+          "sha256": "7a6f8344c3f99e858704691be51a27e45b9b9eabb58123efde422997a47e7b69"
         }
       }
     }
