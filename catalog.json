@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-09T06:07:25Z",
+  "updated_at": "2026-10-10T01:25:11Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -52,6 +52,32 @@
           "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.0/scconvert-0.1.0-win-x64.zip",
           "size": 214115760,
           "sha256": "ce98e91772da9f9828dbd0a7af020bfef5130ffd895e82061625008a04bafeb8"
+        }
+      }
+    },
+    {
+      "id": "isee",
+      "name": "iSEE",
+      "author": "Kevin Rue-Albrecht, Federico Marini, Charlotte Soneson, Aaron Lun",
+      "description": "Interactive SummarizedExperiment Explorer",
+      "homepage": "https://github.com/fentouxungui/iSEE",
+      "docs": "https://isee.github.io/iSEE/",
+      "email": "kevinrue67@gmail.com",
+      "copyright": "(c) 2026 iSEE authors",
+      "license": "MIT",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/isee.png",
+      "r_version": "4.6.1",
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/iSEE/releases/download/v0.1.0/isee-0.1.0-mac-arm64.zip",
+          "size": 105872415,
+          "sha256": "1a9d25797db73e0b1f1a33485783848eb755898ec9661730854cda87fecd22fe"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/iSEE/releases/download/v0.1.0/isee-0.1.0-win-x64.zip",
+          "size": 108136909,
+          "sha256": "45442112f3957d9de2e196c3bae6c4d64f5a0a7060757d3ecd107c2d945c05c5"
         }
       }
     }
