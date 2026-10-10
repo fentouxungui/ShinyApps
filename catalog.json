@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-10T07:19:43Z",
+  "updated_at": "2026-10-10T07:59:50Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -106,6 +106,21 @@
           "sha256": "4825278cda0c016638eeda5764d42fdd0281c24819a366e4b5870a41c06ab6bf"
         }
       }
+    },
+    {
+      "id": "spatiallibd",
+      "name": "spatialLIBD",
+      "author": "Leonardo Collado-Torres, Brenda Pardo, Abby Spangler, Lukas M. Weber, Andrew E. Jaffe, Kristen R. Maynard, and the spatialLIBD contributors",
+      "description": "Interactive visualization of spatially-resolved transcriptomics data (10x Genomics Visium) from the LIBD human DLPFC project",
+      "homepage": "https://github.com/fentouxungui/spatialLIBD",
+      "docs": "http://research.libd.org/spatialLIBD/",
+      "email": "lcolladotor@gmail.com",
+      "copyright": "(c) 2026 spatialLIBD authors (Lieber Institute for Brain Development)",
+      "license": "Artistic-2.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png",
+      "r_version": "4.6.1",
+      "version": "0.1.0",
+      "artifacts": {}
     }
   ]
 }
