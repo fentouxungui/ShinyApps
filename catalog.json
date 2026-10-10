@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-10T06:43:48Z",
+  "updated_at": "2026-10-10T07:19:43Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -94,7 +94,18 @@
       "icon": "https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png",
       "r_version": "4.6.1",
       "version": "0.1.0",
-      "artifacts": {}
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/UCSCXenaShiny/releases/download/v0.1.0/xenashiny-0.1.0-mac-arm64.zip",
+          "size": 271991322,
+          "sha256": "b39e9c95be90b5feae993e2cd9fae3814bc0871e10c52ebe8c8065154b23ae0c"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/UCSCXenaShiny/releases/download/v0.1.0/xenashiny-0.1.0-win-x64.zip",
+          "size": 285624322,
+          "sha256": "4825278cda0c016638eeda5764d42fdd0281c24819a366e4b5870a41c06ab6bf"
+        }
+      }
     }
   ]
 }
