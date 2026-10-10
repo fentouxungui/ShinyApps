@@ -28,6 +28,9 @@ Currently integrated: **SeuratExplorer** and **scConvertShiny**.
 - **Two independent update channels** — the shell updates via `electron-updater`; each app updates via the catalog.
 - **Clean process lifecycle** — only one app runs at a time; returning to the launcher kills the whole R process tree (Windows `taskkill /T /F`).
 - **Cross-platform** — Windows (`win-x64`) and macOS (`mac-arm64`).
+- **Card links to each app's homepage** — hover an app name for “click to learn more”; click it to open the app's `homepage` in your browser.
+- **Visible install pipeline** — the card shows the current step (download % → verify → install) and, on failure, exactly which step failed and why (e.g. “size mismatch: catalog 12934112 bytes, downloaded 0 bytes”).
+- **Per-app Help / About** — the App menu label, Help > Documentation, and the About dialog (including Visit Website / Email / Check for Updates) follow the running app, using its catalog `docs` / `homepage` / `email` / `author` / `copyright`.
 
 ## 🚀 Quick start (users)
 

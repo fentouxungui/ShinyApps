@@ -26,6 +26,9 @@
 - **两条独立更新通道** —— 外壳通过 `electron-updater` 更新；每个应用通过 catalog 更新。
 - **干净的进程生命周期** —— 同时只跑一个应用；返回启动页会杀掉整棵 R 进程树（Windows `taskkill /T /F`）。
 - **跨平台** —— Windows（`win-x64`）与 macOS（`mac-arm64`）。
+- **卡片可跳转 App 主页** —— 鼠标悬停 App 名字显示 “click to learn more”，点击用浏览器打开该 App 的 `homepage`。
+- **安装过程可见** —— 卡片显示当前步骤（下载 % → 校验 → 安装），失败时明确显示哪一步出错及原因（如“大小不一致：catalog 12934112 字节，实际 0 字节”）。
+- **按 App 的 Help/About** —— App 菜单标签、Help ▸ Documentation、About 弹窗（含 Visit Website / Email / Check for Updates）都跟随当前运行的 App，取用其 catalog 的 `docs` / `homepage` / `email` / `author` / `copyright`。
 
 ## 🚀 快速开始（用户）
 

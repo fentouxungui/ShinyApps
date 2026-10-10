@@ -35,3 +35,17 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/scconvert.png"
     r_version: "4.6.1"
+
+    - id: isee
+    repo: fentouxungui/iSEE
+    name: iSEE
+    author: "Kevin Rue-Albrecht, Federico Marini, Charlotte Soneson, Aaron Lun"
+    description: "Interactive SummarizedExperiment Explorer"
+    homepage: "https://github.com/fentouxungui/iSEE"
+    docs: "https://isee.github.io/iSEE/"
+    email: "kevinrue67@gmail.com"
+    copyright: "(c) 2026 iSEE authors"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/isee.png"
+    r_version: "4.6.1"
+
