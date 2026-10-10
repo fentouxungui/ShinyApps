@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-10T02:12:08Z",
+  "updated_at": "2026-10-10T06:43:48Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -80,6 +80,21 @@
           "sha256": "575fe33a20ad80cdbdac4d6213bdebfeb9de314b0d36ace3e7953a2b4b7ad980"
         }
       }
+    },
+    {
+      "id": "xenashiny",
+      "name": "UCSCXenaShiny",
+      "author": "Shixiang Wang, Yi Xiong, Shensuo Li, Longfei Zhao, Kai Gu, Yuzhong Peng, Yin Li, Fei Zhao",
+      "description": "Interactive analysis and visualization of UCSC Xena cancer genomics data",
+      "homepage": "https://github.com/fentouxungui/UCSCXenaShiny",
+      "docs": "https://openbiox.github.io/UCSCXenaShiny/",
+      "email": "w_shixiang@163.com",
+      "copyright": "(c) 2026 openbiox authors",
+      "license": "GPL-3.0-or-later",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png",
+      "r_version": "4.6.1",
+      "version": "0.1.0",
+      "artifacts": {}
     }
   ]
 }
