@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-10T07:59:50Z",
+  "updated_at": "2026-10-10T08:01:01Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -120,7 +120,18 @@
       "icon": "https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png",
       "r_version": "4.6.1",
       "version": "0.1.0",
-      "artifacts": {}
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/spatialLIBD/releases/download/v0.1.0/spatiallibd-0.1.0-mac-arm64.zip",
+          "size": 294963258,
+          "sha256": "a1e3fa72611b3bf192845a07962a7e582d8bdf2d31105249590bbaba8e3cdad8"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/spatialLIBD/releases/download/v0.1.0/spatiallibd-0.1.0-win-x64.zip",
+          "size": 314780870,
+          "sha256": "e1886199a369cd66f5a026d2b2fac28c72e6a7ef9d2d7d440f920c510a01f061"
+        }
+      }
     }
   ]
 }
