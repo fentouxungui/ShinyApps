@@ -36,7 +36,7 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/scconvert.png"
     r_version: "4.6.1"
 
-    - id: isee
+  - id: isee
     repo: fentouxungui/iSEE
     name: iSEE
     author: "Kevin Rue-Albrecht, Federico Marini, Charlotte Soneson, Aaron Lun"
