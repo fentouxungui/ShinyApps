@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-10T01:52:25Z",
+  "updated_at": "2026-10-10T02:12:08Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -67,17 +67,17 @@
       "license": "MIT",
       "icon": "https://fentouxungui.github.io/ShinyApps/icons/isee.png",
       "r_version": "4.6.1",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/iSEE/releases/download/v0.1.0/isee-0.1.0-mac-arm64.zip",
-          "size": 121816082,
-          "sha256": "a79257368c86d48e773f935feb29f351a45fae5802a51e4b8167e7f0851a7dc0"
+          "url": "https://github.com/fentouxungui/iSEE/releases/download/v0.1.1/isee-0.1.1-mac-arm64.zip",
+          "size": 121817366,
+          "sha256": "8b5ed8a94f5149d76007b9b39079bdc93144584fe49e336d326d28dedfa9ab2d"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/iSEE/releases/download/v0.1.0/isee-0.1.0-win-x64.zip",
-          "size": 124283256,
-          "sha256": "7a6f8344c3f99e858704691be51a27e45b9b9eabb58123efde422997a47e7b69"
+          "url": "https://github.com/fentouxungui/iSEE/releases/download/v0.1.1/isee-0.1.1-win-x64.zip",
+          "size": 124283735,
+          "sha256": "575fe33a20ad80cdbdac4d6213bdebfeb9de314b0d36ace3e7953a2b4b7ad980"
         }
       }
     }
