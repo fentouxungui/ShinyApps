@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T03:07:56Z",
+  "updated_at": "2026-10-12T03:11:39Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -170,7 +170,18 @@
       "icon": "https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png",
       "r_version": "4.6.1",
       "version": "0.1.0",
-      "artifacts": {}
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/CSBB-Shiny/releases/download/v0.1.0/csbb-shiny-0.1.0-mac-arm64.zip",
+          "size": 1138931483,
+          "sha256": "d83f8d6a09f67592e690cfff6dbb4c6247166a28b92a36a26c891bb6044f5772"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/CSBB-Shiny/releases/download/v0.1.0/csbb-shiny-0.1.0-win-x64.zip",
+          "size": 1174945929,
+          "sha256": "a2de30d15f0d3c3017e837acd8815cf6986b19fcbb8974e81c1062497bc454e1"
+        }
+      }
     }
   ]
 }

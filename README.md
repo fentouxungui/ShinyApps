@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 7 — 6 ✅ 可用 / 1 ⛔ 不可用
+- **Apps:** 7
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-12 03:08:50 UTC
+- **Catalog last updated:** 2026-10-12 03:11:39 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -16,7 +16,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png" width="32" alt="UCSCXenaShiny"> | **UCSCXenaShiny**<br>Interactive analysis and visualization of UCSC Xena cancer genomics data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/UCSCXenaShiny) · [Docs](https://openbiox.github.io/UCSCXenaShiny/) · [Release](https://github.com/fentouxungui/UCSCXenaShiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png" width="32" alt="spatialLIBD"> | **spatialLIBD**<br>Interactive visualization of spatially-resolved transcriptomics data (10x Genomics Visium) from the LIBD human DLPFC project | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/spatialLIBD) · [Docs](http://research.libd.org/spatialLIBD/) · [Release](https://github.com/fentouxungui/spatialLIBD/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/beerapp.png" width="32" alt="beeRapp"> | **beeRapp**<br>Automated high-throughput explorative analysis of multivariate behavioral data (clustering, boxplots, PCA, heatmaps, correlations) | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/beeRapp) · [Docs](https://github.com/anmabu/beeRapp#readme) · [Release](https://github.com/fentouxungui/beeRapp/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png" width="32" alt="CSBB-Shiny"> | **CSBB-Shiny**<br>Computational Suite for Bioinformaticians and Biologists (CSBB): 8 downstream NGS modules - normalization, basic stats, differential expression, correlation profiles, functional/pathway enrichment, ChIP-ATAC seq and single-cell RNA-seq | ⛔ 不可用 | `0.1.0` | — | [Home](https://github.com/fentouxungui/CSBB-Shiny) · [Docs](https://github.com/praneet1988/CSBB-Shiny#readme) · [Release](https://github.com/fentouxungui/CSBB-Shiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png" width="32" alt="CSBB-Shiny"> | **CSBB-Shiny**<br>Computational Suite for Bioinformaticians and Biologists (CSBB): 8 downstream NGS modules - normalization, basic stats, differential expression, correlation profiles, functional/pathway enrichment, ChIP-ATAC seq and single-cell RNA-seq | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/CSBB-Shiny) · [Docs](https://github.com/praneet1988/CSBB-Shiny#readme) · [Release](https://github.com/fentouxungui/CSBB-Shiny/releases/tag/v0.1.0) |
 
 ---
 
@@ -161,8 +161,6 @@ Release: https://github.com/fentouxungui/beeRapp/releases/tag/v0.1.0
 
 ### CSBB-Shiny `0.1.0`
 
-**Status:** ⛔ 不可用 — no published release yet.
-
 Computational Suite for Bioinformaticians and Biologists (CSBB): 8 downstream NGS modules - normalization, basic stats, differential expression, correlation profiles, functional/pathway enrichment, ChIP-ATAC seq and single-cell RNA-seq
 
 | Field | Value |
@@ -173,6 +171,15 @@ Computational Suite for Bioinformaticians and Biologists (CSBB): 8 downstream NG
 | R version | 4.6.1 |
 
 Release: https://github.com/fentouxungui/CSBB-Shiny/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [csbb-shiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/CSBB-Shiny/releases/download/v0.1.0/csbb-shiny-0.1.0-mac-arm64.zip) | 1.1 GB | `d83f8d6a09f67592e690cfff6dbb4c6247166a28b92a36a26c891bb6044f5772` |
+| `win-x64` | [csbb-shiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/CSBB-Shiny/releases/download/v0.1.0/csbb-shiny-0.1.0-win-x64.zip) | 1.1 GB | `a2de30d15f0d3c3017e837acd8815cf6986b19fcbb8974e81c1062497bc454e1` |
+
+</details>
 
 ---
 
