@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md) | [Wiki](https://github.com/fentouxungui/ShinyApps/wiki)
 
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blue)](#) [![R](https://img.shields.io/badge/R-4.6.1-276DC3?logo=r)](#) [![Built on](https://img.shields.io/badge/built%20on-shinyelectron-8A2BE2)](https://github.com/coatless-rpkg/shinyelectron)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blue)](#) [![R](https://img.shields.io/badge/R-4.6.1-276DC3?logo=r)](#) [![Built on](https://img.shields.io/badge/built%20on-shinyelectron-8A2BE2)](https://github.com/coatless-rpkg/shinyelectron) [![App catalog](https://img.shields.io/badge/apps-live%20catalog-blue)](https://fentouxungui.github.io/ShinyApps/)
 
 > **ShinyApps is a desktop app store for R/Shiny apps.** It ships one lightweight
 > Electron shell, lets users **install, run, update, and uninstall** bundled Shiny
@@ -13,7 +13,7 @@ Instead of packaging every app into its own heavyweight desktop installer, Shiny
 separates a **thin shell** from **installable app bundles**: any Shiny app can be
 added later without rebuilding or redistributing the shell.
 
-Currently integrated: **SeuratExplorer** and **scConvertShiny**.
+Browse the **[live app catalog](https://fentouxungui.github.io/ShinyApps/)** for the current list of available apps.
 
 ---
 
@@ -136,12 +136,14 @@ schemas/*.json              # catalog / manifest / state contracts
 - **Infrastructure-bound** — relies on GitHub Actions, Releases, and Pages, and requires code signing for shell auto-update.
 - **License obligations** — the shell builds on **AGPL-3.0** `shinyelectron`; bundled apps bring their own licenses (e.g. GPL-3.0, MIT).
 
-## 📦 Current apps
+## 📦 Apps
 
-| App | Description | License |
-|---|---|---|
-| [SeuratExplorer](https://github.com/fentouxungui/SeuratExplorer) | Explore scRNA-seq data processed in Seurat | GPL-3.0-or-later |
-| [scConvertShiny](https://github.com/fentouxungui/scConvertShiny) | Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SCE / Zarr) | MIT |
+All available apps — with description, version, supported platforms, license, availability, and download links — are listed in the **live app catalog**, which is regenerated automatically on every publish:
+
+👉 **<https://fentouxungui.github.io/ShinyApps/>**
+
+- Machine-readable manifest: [`catalog.json`](https://fentouxungui.github.io/ShinyApps/catalog.json)
+- Register a new app in [`catalog/apps.yml`](catalog/apps.yml); it appears in the catalog after the next publish.
 
 ## 🗺️ Roadmap
 

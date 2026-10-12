@@ -2,7 +2,7 @@
 
 [English](README.md) | **简体中文** | [Wiki](https://github.com/fentouxungui/ShinyApps/wiki)
 
-[![平台](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blue)](#) [![R](https://img.shields.io/badge/R-4.6.1-276DC3?logo=r)](#) [![基于](https://img.shields.io/badge/built%20on-shinyelectron-8A2BE2)](https://github.com/coatless-rpkg/shinyelectron)
+[![平台](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blue)](#) [![R](https://img.shields.io/badge/R-4.6.1-276DC3?logo=r)](#) [![基于](https://img.shields.io/badge/built%20on-shinyelectron-8A2BE2)](https://github.com/coatless-rpkg/shinyelectron) [![应用目录](https://img.shields.io/badge/apps-%E5%9C%A8%E7%BA%BF%E7%9B%AE%E5%BD%95-blue)](https://fentouxungui.github.io/ShinyApps/)
 
 > **ShinyApps 是一个面向 R/Shiny 应用的桌面「应用商店」。** 它只装一个轻量 Electron
 > 外壳，用户从在线 catalog 按需**安装、运行、更新、卸载**打包好的 Shiny 应用，一次运行
@@ -11,7 +11,7 @@
 它不再把每个应用都做成一个庞大的独立桌面安装包，而是把**薄壳**与**可安装的应用 bundle**
 拆开：以后新增任何 Shiny 应用都无需重新构建、重新分发外壳。
 
-目前集成：**SeuratExplorer** 与 **scConvertShiny**。
+当前可用应用见 **[在线应用目录](https://fentouxungui.github.io/ShinyApps/)**。
 
 ---
 
@@ -133,12 +133,14 @@ schemas/*.json              # catalog / manifest / state 三份契约
 - **依赖基础设施** —— 依赖 GitHub Actions / Releases / Pages；外壳自动更新还需代码签名。
 - **许可义务** —— 外壳基于 **AGPL-3.0** 的 `shinyelectron`；各应用带来各自许可（如 GPL-3.0、MIT）。
 
-## 📦 当前应用
+## 📦 应用
 
-| 应用 | 描述 | 许可 |
-|---|---|---|
-| [SeuratExplorer](https://github.com/fentouxungui/SeuratExplorer) | 探索经 Seurat 处理的单细胞数据 | GPL-3.0-or-later |
-| [scConvertShiny](https://github.com/fentouxungui/scConvertShiny) | 单细胞格式转换（h5ad / h5Seurat / Loom / MuData / Seurat / SCE / Zarr） | MIT |
+所有可用应用（描述、版本、支持平台、许可、是否可用、下载链接）都在 **在线应用目录**里，每次发布自动重新生成：
+
+👉 **<https://fentouxungui.github.io/ShinyApps/>**
+
+- 机器可读清单：[`catalog.json`](https://fentouxungui.github.io/ShinyApps/catalog.json)
+- 新应用登记在 [`catalog/apps.yml`](catalog/apps.yml)，下次发布后即出现在目录中。
 
 ## 🗺️ 路线图
 
