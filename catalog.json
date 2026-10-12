@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T02:34:21Z",
+  "updated_at": "2026-10-12T03:07:56Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -157,6 +157,20 @@
           "sha256": "1f209c53043feed5b4d103b6df9d10bd12b3db8b5f9da6a81bd9aa5b51de64ae"
         }
       }
+    },
+    {
+      "id": "csbb-shiny",
+      "name": "CSBB-Shiny",
+      "author": "Praneet Chaturvedi",
+      "description": "Computational Suite for Bioinformaticians and Biologists (CSBB): 8 downstream NGS modules - normalization, basic stats, differential expression, correlation profiles, functional/pathway enrichment, ChIP-ATAC seq and single-cell RNA-seq",
+      "homepage": "https://github.com/fentouxungui/CSBB-Shiny",
+      "docs": "https://github.com/praneet1988/CSBB-Shiny#readme",
+      "copyright": "(c) 2026 Praneet Chaturvedi",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png",
+      "r_version": "4.6.1",
+      "version": "0.1.0",
+      "artifacts": {}
     }
   ]
 }
