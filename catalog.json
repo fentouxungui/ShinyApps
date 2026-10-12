@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T05:11:29Z",
+  "updated_at": "2026-10-12T05:21:24Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -231,6 +231,31 @@
           "url": "https://github.com/fentouxungui/shinyCircos-V2.0/releases/download/v0.1.0/shinycircos-0.1.0-win-x64.zip",
           "size": 152147145,
           "sha256": "60a0bf3b7dc30afc2b4969690329118b0ce0f2f92f65f27fecc21f2c258299be"
+        }
+      }
+    },
+    {
+      "id": "upsetr-shiny",
+      "name": "UpSetR-shiny",
+      "author": "Jake R Conway, Nils Gehlenborg",
+      "description": "Interactive UpSet plots of set intersections from file, list, or expression input (Shiny wrapper for the UpSetR R package)",
+      "homepage": "https://github.com/fentouxungui/UpSetR-shiny",
+      "docs": "https://github.com/hms-dbmi/UpSetR-shiny#readme",
+      "copyright": "(c) 2026 UpSetR-shiny authors (Harvard Medical School Department of Biomedical Informatics)",
+      "license": "Unspecified (upstream declares no license)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/upsetr-shiny.png",
+      "r_version": "4.6.1",
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/UpSetR-shiny/releases/download/v0.1.0/upsetr-shiny-0.1.0-mac-arm64.zip",
+          "size": 51681206,
+          "sha256": "f1dfef372fc082a8fc466efbad3e80c72e277afcdaded4534f635f30f68438bf"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/UpSetR-shiny/releases/download/v0.1.0/upsetr-shiny-0.1.0-win-x64.zip",
+          "size": 54024006,
+          "sha256": "3c070b8869dcbeacfedf11c657829142c18c5567c8d629ceba33a1e71da54072"
         }
       }
     }
