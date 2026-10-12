@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T05:21:24Z",
+  "updated_at": "2026-10-12T09:32:31Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -249,13 +249,13 @@
       "artifacts": {
         "mac-arm64": {
           "url": "https://github.com/fentouxungui/UpSetR-shiny/releases/download/v0.1.0/upsetr-shiny-0.1.0-mac-arm64.zip",
-          "size": 51681206,
-          "sha256": "f1dfef372fc082a8fc466efbad3e80c72e277afcdaded4534f635f30f68438bf"
+          "size": 51681332,
+          "sha256": "eac251ac233d05865ac4a987fee18fb539bb96390aa69a589359d96ca49f6442"
         },
         "win-x64": {
           "url": "https://github.com/fentouxungui/UpSetR-shiny/releases/download/v0.1.0/upsetr-shiny-0.1.0-win-x64.zip",
-          "size": 54024006,
-          "sha256": "3c070b8869dcbeacfedf11c657829142c18c5567c8d629ceba33a1e71da54072"
+          "size": 54024133,
+          "sha256": "76543b0c1229565d64a5bafb3f451a995ac1c268d1f298cdf76f01c2376b4891"
         }
       }
     }

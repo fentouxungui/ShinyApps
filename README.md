@@ -4,7 +4,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 
 - **Apps:** 10
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-12 08:47:50 UTC
+- **Catalog last updated:** 2026-10-12 09:32:31 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -246,8 +246,8 @@ Release: https://github.com/fentouxungui/UpSetR-shiny/releases/tag/v0.1.0
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
-| `mac-arm64` | [upsetr-shiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/UpSetR-shiny/releases/download/v0.1.0/upsetr-shiny-0.1.0-mac-arm64.zip) | 49.3 MB | `f1dfef372fc082a8fc466efbad3e80c72e277afcdaded4534f635f30f68438bf` |
-| `win-x64` | [upsetr-shiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/UpSetR-shiny/releases/download/v0.1.0/upsetr-shiny-0.1.0-win-x64.zip) | 51.5 MB | `3c070b8869dcbeacfedf11c657829142c18c5567c8d629ceba33a1e71da54072` |
+| `mac-arm64` | [upsetr-shiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/UpSetR-shiny/releases/download/v0.1.0/upsetr-shiny-0.1.0-mac-arm64.zip) | 49.3 MB | `eac251ac233d05865ac4a987fee18fb539bb96390aa69a589359d96ca49f6442` |
+| `win-x64` | [upsetr-shiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/UpSetR-shiny/releases/download/v0.1.0/upsetr-shiny-0.1.0-win-x64.zip) | 51.5 MB | `76543b0c1229565d64a5bafb3f451a995ac1c268d1f298cdf76f01c2376b4891` |
 
 </details>
 
