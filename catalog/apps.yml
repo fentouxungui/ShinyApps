@@ -99,6 +99,17 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png"
     r_version: "4.6.1"
 
+  - id: bestdeg
+    repo: fentouxungui/bestDEG
+    name: bestDEG
+    author: "Prasert Yodsawat, Unitsa Sangket"
+    description: "Automated precise prediction of differentially expressed genes (DEGs) from RNA-seq data by combining edgeR, DESeq2, NOISeq and EBSeq"
+    homepage: "https://github.com/fentouxungui/bestDEG"
+    docs: "https://github.com/unitsa-sangket/bestDEG#readme"
+    copyright: "(c) 2022 bestDEG authors"
+    license: "Unspecified (upstream declares no license)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/bestdeg.png"
+    r_version: "4.6.1"
 
 
 
