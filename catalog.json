@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T03:28:04Z",
+  "updated_at": "2026-10-12T05:11:29Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -205,6 +205,32 @@
           "url": "https://github.com/fentouxungui/bestDEG/releases/download/v0.1.0/bestdeg-0.1.0-win-x64.zip",
           "size": 141771842,
           "sha256": "f6f25cc5919b14363bec5ff7f9535bc3a53e943a1096e05f6d6301280a05d825"
+        }
+      }
+    },
+    {
+      "id": "shinycircos",
+      "name": "shinyCircos-V2.0",
+      "author": "Wen Yao, Yazhou Wang",
+      "description": "Interactive creation of Circos plots from genomic data - chromosome ideograms, tracks (bar/line/point/heatmap/rect), links and labels",
+      "homepage": "https://github.com/fentouxungui/shinyCircos-V2.0",
+      "docs": "https://github.com/YaoLab-Bioinfo/shinyCircos-V2.0#readme",
+      "email": "yaowen@henau.edu.cn",
+      "copyright": "(c) 2026 Wen Yao (Yao Lab, Henan Agricultural University)",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinycircos.png",
+      "r_version": "4.6.1",
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/shinyCircos-V2.0/releases/download/v0.1.0/shinycircos-0.1.0-mac-arm64.zip",
+          "size": 145203899,
+          "sha256": "e84e271287e86c82e804dae6bae1918e10e32d04591a010959c848901adae0b1"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/shinyCircos-V2.0/releases/download/v0.1.0/shinycircos-0.1.0-win-x64.zip",
+          "size": 152147145,
+          "sha256": "60a0bf3b7dc30afc2b4969690329118b0ce0f2f92f65f27fecc21f2c258299be"
         }
       }
     }

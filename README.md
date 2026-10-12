@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 8
+- **Apps:** 9
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-12 03:28:04 UTC
+- **Catalog last updated:** 2026-10-12 05:11:29 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -18,6 +18,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/beerapp.png" width="32" alt="beeRapp"> | **beeRapp**<br>Automated high-throughput explorative analysis of multivariate behavioral data (clustering, boxplots, PCA, heatmaps, correlations) | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/beeRapp) · [Docs](https://github.com/anmabu/beeRapp#readme) · [Release](https://github.com/fentouxungui/beeRapp/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png" width="32" alt="CSBB-Shiny"> | **CSBB-Shiny**<br>Computational Suite for Bioinformaticians and Biologists (CSBB): 8 downstream NGS modules - normalization, basic stats, differential expression, correlation profiles, functional/pathway enrichment, ChIP-ATAC seq and single-cell RNA-seq | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/CSBB-Shiny) · [Docs](https://github.com/praneet1988/CSBB-Shiny#readme) · [Release](https://github.com/fentouxungui/CSBB-Shiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/bestdeg.png" width="32" alt="bestDEG"> | **bestDEG**<br>Automated precise prediction of differentially expressed genes (DEGs) from RNA-seq data by combining edgeR, DESeq2, NOISeq and EBSeq | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/bestDEG) · [Docs](https://github.com/unitsa-sangket/bestDEG#readme) · [Release](https://github.com/fentouxungui/bestDEG/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinycircos.png" width="32" alt="shinyCircos-V2.0"> | **shinyCircos-V2.0**<br>Interactive creation of Circos plots from genomic data - chromosome ideograms, tracks (bar/line/point/heatmap/rect), links and labels | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/shinyCircos-V2.0) · [Docs](https://github.com/YaoLab-Bioinfo/shinyCircos-V2.0#readme) · [Release](https://github.com/fentouxungui/shinyCircos-V2.0/releases/tag/v0.1.0) |
 
 ---
 
@@ -201,6 +202,29 @@ Release: https://github.com/fentouxungui/bestDEG/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [bestdeg-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/bestDEG/releases/download/v0.1.0/bestdeg-0.1.0-mac-arm64.zip) | 134.0 MB | `ebcb777e34de967be7647b80a5f6c2ea44943832919686666308e85868c5a5ff` |
 | `win-x64` | [bestdeg-0.1.0-win-x64.zip](https://github.com/fentouxungui/bestDEG/releases/download/v0.1.0/bestdeg-0.1.0-win-x64.zip) | 135.2 MB | `f6f25cc5919b14363bec5ff7f9535bc3a53e943a1096e05f6d6301280a05d825` |
+
+</details>
+
+### shinyCircos-V2.0 `0.1.0`
+
+Interactive creation of Circos plots from genomic data - chromosome ideograms, tracks (bar/line/point/heatmap/rect), links and labels
+
+| Field | Value |
+|---|---|
+| Author | Wen Yao, Yazhou Wang |
+| License | GPL-3.0 |
+| Contact | yaowen@henau.edu.cn |
+| Copyright | (c) 2026 Wen Yao (Yao Lab, Henan Agricultural University) |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/shinyCircos-V2.0/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [shinycircos-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/shinyCircos-V2.0/releases/download/v0.1.0/shinycircos-0.1.0-mac-arm64.zip) | 138.5 MB | `e84e271287e86c82e804dae6bae1918e10e32d04591a010959c848901adae0b1` |
+| `win-x64` | [shinycircos-0.1.0-win-x64.zip](https://github.com/fentouxungui/shinyCircos-V2.0/releases/download/v0.1.0/shinycircos-0.1.0-win-x64.zip) | 145.1 MB | `60a0bf3b7dc30afc2b4969690329118b0ce0f2f92f65f27fecc21f2c258299be` |
 
 </details>
 
