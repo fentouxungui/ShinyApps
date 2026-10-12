@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-10T08:01:01Z",
+  "updated_at": "2026-10-12T02:34:21Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -130,6 +130,31 @@
           "url": "https://github.com/fentouxungui/spatialLIBD/releases/download/v0.1.0/spatiallibd-0.1.0-win-x64.zip",
           "size": 314780870,
           "sha256": "e1886199a369cd66f5a026d2b2fac28c72e6a7ef9d2d7d440f920c510a01f061"
+        }
+      }
+    },
+    {
+      "id": "beerapp",
+      "name": "beeRapp",
+      "author": "Anne Marie Busch, Irina Kovlyagina, Beat Lutz, Hristo Todorov, Susanne Gerber",
+      "description": "Automated high-throughput explorative analysis of multivariate behavioral data (clustering, boxplots, PCA, heatmaps, correlations)",
+      "homepage": "https://github.com/fentouxungui/beeRapp",
+      "docs": "https://github.com/anmabu/beeRapp#readme",
+      "copyright": "(c) 2026 beeRapp authors",
+      "license": "GPL-3.0-or-later",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/beerapp.png",
+      "r_version": "4.6.1",
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/beeRapp/releases/download/v0.1.0/beerapp-0.1.0-mac-arm64.zip",
+          "size": 248126448,
+          "sha256": "7c4b9c4e241b314f4f0bb245d567fec42759abfd5f1a30cb40d89b499cf266bf"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/beeRapp/releases/download/v0.1.0/beerapp-0.1.0-win-x64.zip",
+          "size": 257705654,
+          "sha256": "1f209c53043feed5b4d103b6df9d10bd12b3db8b5f9da6a81bd9aa5b51de64ae"
         }
       }
     }

@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 5
+- **Apps:** 6
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-12 01:50:17 UTC
+- **Catalog last updated:** 2026-10-12 02:34:21 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -15,6 +15,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/isee.png" width="32" alt="iSEE"> | **iSEE**<br>Interactive SummarizedExperiment Explorer | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/iSEE) · [Docs](https://isee.github.io/iSEE/) · [Release](https://github.com/fentouxungui/iSEE/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png" width="32" alt="UCSCXenaShiny"> | **UCSCXenaShiny**<br>Interactive analysis and visualization of UCSC Xena cancer genomics data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/UCSCXenaShiny) · [Docs](https://openbiox.github.io/UCSCXenaShiny/) · [Release](https://github.com/fentouxungui/UCSCXenaShiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png" width="32" alt="spatialLIBD"> | **spatialLIBD**<br>Interactive visualization of spatially-resolved transcriptomics data (10x Genomics Visium) from the LIBD human DLPFC project | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/spatialLIBD) · [Docs](http://research.libd.org/spatialLIBD/) · [Release](https://github.com/fentouxungui/spatialLIBD/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/beerapp.png" width="32" alt="beeRapp"> | **beeRapp**<br>Automated high-throughput explorative analysis of multivariate behavioral data (clustering, boxplots, PCA, heatmaps, correlations) | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/beeRapp) · [Docs](https://github.com/anmabu/beeRapp#readme) · [Release](https://github.com/fentouxungui/beeRapp/releases/tag/v0.1.0) |
 
 ---
 
@@ -132,6 +133,28 @@ Release: https://github.com/fentouxungui/spatialLIBD/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [spatiallibd-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/spatialLIBD/releases/download/v0.1.0/spatiallibd-0.1.0-mac-arm64.zip) | 281.3 MB | `a1e3fa72611b3bf192845a07962a7e582d8bdf2d31105249590bbaba8e3cdad8` |
 | `win-x64` | [spatiallibd-0.1.0-win-x64.zip](https://github.com/fentouxungui/spatialLIBD/releases/download/v0.1.0/spatiallibd-0.1.0-win-x64.zip) | 300.2 MB | `e1886199a369cd66f5a026d2b2fac28c72e6a7ef9d2d7d440f920c510a01f061` |
+
+</details>
+
+### beeRapp `0.1.0`
+
+Automated high-throughput explorative analysis of multivariate behavioral data (clustering, boxplots, PCA, heatmaps, correlations)
+
+| Field | Value |
+|---|---|
+| Author | Anne Marie Busch, Irina Kovlyagina, Beat Lutz, Hristo Todorov, Susanne Gerber |
+| License | GPL-3.0-or-later |
+| Copyright | (c) 2026 beeRapp authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/beeRapp/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [beerapp-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/beeRapp/releases/download/v0.1.0/beerapp-0.1.0-mac-arm64.zip) | 236.6 MB | `7c4b9c4e241b314f4f0bb245d567fec42759abfd5f1a30cb40d89b499cf266bf` |
+| `win-x64` | [beerapp-0.1.0-win-x64.zip](https://github.com/fentouxungui/beeRapp/releases/download/v0.1.0/beerapp-0.1.0-win-x64.zip) | 245.8 MB | `1f209c53043feed5b4d103b6df9d10bd12b3db8b5f9da6a81bd9aa5b51de64ae` |
 
 </details>
 
