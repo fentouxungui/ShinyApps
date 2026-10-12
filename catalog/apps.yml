@@ -111,5 +111,17 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/bestdeg.png"
     r_version: "4.6.1"
 
+  - id: shinycircos
+    repo: fentouxungui/shinyCircos-V2.0
+    name: shinyCircos-V2.0
+    author: "Wen Yao, Yazhou Wang"
+    description: "Interactive creation of Circos plots from genomic data - chromosome ideograms, tracks (bar/line/point/heatmap/rect), links and labels"
+    homepage: "https://github.com/fentouxungui/shinyCircos-V2.0"
+    docs: "https://github.com/YaoLab-Bioinfo/shinyCircos-V2.0#readme"
+    email: "yaowen@henau.edu.cn"
+    copyright: "(c) 2026 Wen Yao (Yao Lab, Henan Agricultural University)"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinycircos.png"
+    r_version: "4.6.1"
 
 
