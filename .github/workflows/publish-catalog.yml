@@ -1,10 +1,17 @@
 # Regenerate catalog.json from each app repo's latest release AND publish the
-# icons/ folder, both to gh-pages.
+# README + icons/ folder, all to gh-pages.
 #
 # Place at ShinyApps/.github/workflows/publish-catalog.yml
 #
 # The launcher (store mode) reads icon URLs from catalog.json, so the PNGs must
 # be reachable at https://fentouxungui.github.io/ShinyApps/icons/<id>.png.
+#
+# catalog/README.md is rendered from catalog/catalog.json by
+# catalog/render_readme.py and published to gh-pages as README.md.
+#
+# An app whose repo has no published release is kept in the catalog with an
+# empty version and no artifacts (rendered as "unavailable"), instead of
+# failing the whole job.
 
 name: Publish catalog
 
@@ -16,7 +23,7 @@ on:
     types: [bundle-updated]
   push:
     branches: [main]
-    paths: ["catalog/apps.yml", "icons/**"]
+    paths: ["catalog/apps.yml", "catalog/render_readme.py", "icons/**"]
 
 permissions:
   contents: write
@@ -33,50 +40,67 @@ jobs:
         run: |
           python3 -c "import yaml" 2>/dev/null || pip install --quiet pyyaml
           python3 - <<'PY'
-          import json, os, subprocess, datetime
+          import json, os, subprocess, sys, datetime
           import yaml
 
           reg = yaml.safe_load(open("catalog/apps.yml"))
           apps = []
           for a in reg["apps"]:
               repo = a["repo"]
-              rel = json.loads(subprocess.check_output(
-                  ["gh", "api", f"repos/{repo}/releases/latest"], text=True))
-              ver = rel["tag_name"].lstrip("v")
-              arts = {}
-              for asset in rel.get("assets", []):
-                  n = asset["name"]
-                  if not n.endswith(".zip") or not n.startswith(a["id"] + "-"):
-                      continue
-                  toks = n[:-4][len(a["id"]) + 1:].split("-")
-                  if len(toks) < 3:
-                      continue
-                  plat = "-".join(toks[-2:])
-                  v = "-".join(toks[:-2])
-                  if v != ver:
-                      continue
-                  arts[plat] = {
-                      "url": asset["browser_download_url"],
-                      "size": asset["size"],
-                      "sha256": (asset.get("digest") or "").replace("sha256:", ""),
-                  }
               app = {k: a[k] for k in a if k != "repo"}
+
+              # No published release -> keep the entry but mark it unavailable
+              # instead of aborting the whole catalog build.
+              try:
+                  rel = json.loads(subprocess.check_output(
+                      ["gh", "api", f"repos/{repo}/releases/latest"],
+                      text=True, stderr=subprocess.DEVNULL))
+              except subprocess.CalledProcessError as e:
+                  print(f"WARN: {a['id']} ({repo}): no published release "
+                        f"(gh exit {e.returncode}); marking unavailable",
+                        file=sys.stderr)
+                  rel = None
+
+              ver = ""
+              arts = {}
+              if rel is not None:
+                  ver = (rel.get("tag_name") or "").lstrip("v")
+                  for asset in rel.get("assets", []):
+                      n = asset["name"]
+                      if not n.endswith(".zip") or not n.startswith(a["id"] + "-"):
+                          continue
+                      toks = n[:-4][len(a["id"]) + 1:].split("-")
+                      if len(toks) < 3:
+                          continue
+                      plat = "-".join(toks[-2:])
+                      v = "-".join(toks[:-2])
+                      if v != ver:
+                          continue
+                      arts[plat] = {
+                          "url": asset["browser_download_url"],
+                          "size": asset["size"],
+                          "sha256": (asset.get("digest") or "").replace("sha256:", ""),
+                      }
+
               app["version"] = ver
               app["artifacts"] = arts
               apps.append(app)
 
           cat = {
               "schema": 1,
-              "updated_at": datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
+              "updated_at": datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
               "shell_min_version": reg.get("shell_min_version", "0.1.0"),
               "apps": apps,
           }
           os.makedirs("catalog", exist_ok=True)
           json.dump(cat, open("catalog/catalog.json", "w"), indent=2)
-          print("apps:", [(x["id"], x["version"], list(x["artifacts"])) for x in apps])
+          print("apps:", [(x["id"], x["version"] or "-", list(x["artifacts"])) for x in apps])
           PY
 
-      - name: Publish catalog.json + icons to gh-pages
+      - name: Render catalog/README.md
+        run: python3 catalog/render_readme.py
+
+      - name: Publish catalog.json + README.md + icons to gh-pages
         run: |
           set -euo pipefail
           git config user.name github-actions
@@ -105,7 +129,11 @@ jobs:
             cp catalog/catalog.json pages/catalog.json
           fi
 
-          # 2) icons: always sync so catalog icon URLs resolve.
+          # 2) README.md: deterministic render of catalog.json, so it only changes
+          #    when the app data changes (no volatile timestamp inside).
+          cp catalog/README.md pages/README.md
+
+          # 3) icons: always sync so catalog icon URLs resolve.
           if [ -d icons ]; then rm -rf pages/icons; cp -r icons pages/icons; fi
 
           cd pages
