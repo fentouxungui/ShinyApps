@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T09:32:31Z",
+  "updated_at": "2026-10-12T09:42:37Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -256,6 +256,32 @@
           "url": "https://github.com/fentouxungui/UpSetR-shiny/releases/download/v0.1.0/upsetr-shiny-0.1.0-win-x64.zip",
           "size": 54024133,
           "sha256": "76543b0c1229565d64a5bafb3f451a995ac1c268d1f298cdf76f01c2376b4891"
+        }
+      }
+    },
+    {
+      "id": "graphbio",
+      "name": "GraphBio",
+      "author": "Tao Zhao, Zhen Wang",
+      "description": "Modular Shiny dashboard for popular omics-data visualizations - heatmap, volcano, Venn, PCA, survival curve, ROC, GO dot plots, network, chord and more (15 modules)",
+      "homepage": "http://www.graphbio1.com/en/",
+      "docs": "https://github.com/databio2022/GraphBio#readme",
+      "email": "databio@163.com",
+      "copyright": "(c) 2022 Tao Zhao, Zhen Wang",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/graphbio.png",
+      "r_version": "4.6.1",
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/GraphBio/releases/download/v0.1.0/graphbio-0.1.0-mac-arm64.zip",
+          "size": 221094233,
+          "sha256": "f408d22dad2470b85da40785d7c5c15503ed9540849103a43f50a7326009351d"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/GraphBio/releases/download/v0.1.0/graphbio-0.1.0-win-x64.zip",
+          "size": 232683661,
+          "sha256": "24afd94b2e6bec0413101d0a8c6be11770b172852bf444f5b1c2f3610bee3b53"
         }
       }
     }
