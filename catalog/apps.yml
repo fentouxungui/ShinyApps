@@ -136,4 +136,19 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/upsetr-shiny.png"
     r_version: "4.6.1"
 
+  - id: graphbio
+    repo: fentouxungui/GraphBio
+    name: GraphBio
+    author: "Tao Zhao, Zhen Wang"
+    description: "Modular Shiny dashboard for popular omics-data visualizations - heatmap, volcano, Venn, PCA, survival curve, ROC, GO dot plots, network, chord and more (15 modules)"
+    homepage: "http://www.graphbio1.com/en/"
+    docs: "https://github.com/databio2022/GraphBio#readme"
+    email: "databio@163.com"
+    copyright: "(c) 2022 Tao Zhao, Zhen Wang"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/graphbio.png"
+    r_version: "4.6.1"
+
+
+
 
