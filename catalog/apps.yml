@@ -75,3 +75,16 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png"
     r_version: "4.6.1"
 
+  - id: beerapp
+    repo: fentouxungui/beeRapp
+    name: beeRapp
+    author: "Anne Marie Busch, Irina Kovlyagina, Beat Lutz, Hristo Todorov, Susanne Gerber"
+    description: "Automated high-throughput explorative analysis of multivariate behavioral data (clustering, boxplots, PCA, heatmaps, correlations)"
+    homepage: "https://github.com/fentouxungui/beeRapp"
+    docs: "https://github.com/anmabu/beeRapp#readme"
+    copyright: "(c) 2026 beeRapp authors"
+    license: "GPL-3.0-or-later"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/beerapp.png"
+    r_version: "4.6.1"
+
+
