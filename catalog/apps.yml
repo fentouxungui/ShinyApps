@@ -124,4 +124,16 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/shinycircos.png"
     r_version: "4.6.1"
 
+  - id: upsetr-shiny
+    repo: fentouxungui/UpSetR-shiny
+    name: UpSetR-shiny
+    author: "Jake R Conway, Nils Gehlenborg"
+    description: "Interactive UpSet plots of set intersections from file, list, or expression input (Shiny wrapper for the UpSetR R package)"
+    homepage: "https://github.com/fentouxungui/UpSetR-shiny"
+    docs: "https://github.com/hms-dbmi/UpSetR-shiny#readme"
+    copyright: "(c) 2026 UpSetR-shiny authors (Harvard Medical School Department of Biomedical Informatics)"
+    license: "Unspecified (upstream declares no license)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/upsetr-shiny.png"
+    r_version: "4.6.1"
+
 
