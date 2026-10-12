@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T03:11:39Z",
+  "updated_at": "2026-10-12T03:28:04Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -180,6 +180,31 @@
           "url": "https://github.com/fentouxungui/CSBB-Shiny/releases/download/v0.1.0/csbb-shiny-0.1.0-win-x64.zip",
           "size": 1174945929,
           "sha256": "a2de30d15f0d3c3017e837acd8815cf6986b19fcbb8974e81c1062497bc454e1"
+        }
+      }
+    },
+    {
+      "id": "bestdeg",
+      "name": "bestDEG",
+      "author": "Prasert Yodsawat, Unitsa Sangket",
+      "description": "Automated precise prediction of differentially expressed genes (DEGs) from RNA-seq data by combining edgeR, DESeq2, NOISeq and EBSeq",
+      "homepage": "https://github.com/fentouxungui/bestDEG",
+      "docs": "https://github.com/unitsa-sangket/bestDEG#readme",
+      "copyright": "(c) 2022 bestDEG authors",
+      "license": "Unspecified (upstream declares no license)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/bestdeg.png",
+      "r_version": "4.6.1",
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/bestDEG/releases/download/v0.1.0/bestdeg-0.1.0-mac-arm64.zip",
+          "size": 140531167,
+          "sha256": "ebcb777e34de967be7647b80a5f6c2ea44943832919686666308e85868c5a5ff"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/bestDEG/releases/download/v0.1.0/bestdeg-0.1.0-win-x64.zip",
+          "size": 141771842,
+          "sha256": "f6f25cc5919b14363bec5ff7f9535bc3a53e943a1096e05f6d6301280a05d825"
         }
       }
     }
