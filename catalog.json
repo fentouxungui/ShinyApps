@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-13T07:28:05Z",
+  "updated_at": "2026-10-13T08:00:19Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -378,6 +378,39 @@
           "url": "https://github.com/fentouxungui/splitKbCompare/releases/download/v0.1.0/splitkbcompare-0.1.0-win-x64.zip",
           "size": 94040984,
           "sha256": "b36542e9d4373c61872a4283d23a2e668ef6a79e085c9a9d530b9d49baf21d0a"
+        }
+      }
+    },
+    {
+      "id": "shinystan",
+      "name": "ShinyStan",
+      "author": "Jonah Gabry, Duco Veen, Stan Development Team",
+      "description": "Interactive visual and numerical diagnostics and posterior analysis for Bayesian models (MCMC), with extended support for Stan models",
+      "homepage": "https://mc-stan.org/shinystan/",
+      "docs": "https://mc-stan.org/shinystan/",
+      "email": "jgabry@gmail.com",
+      "copyright": "(c) 2025 Stan Development Team",
+      "license": "GPL-3.0-or-later",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinystan.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "bayesian",
+        "mcmc",
+        "diagnostics",
+        "stan",
+        "visualization"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/shinystan/releases/download/v0.1.0/shinystan-0.1.0-mac-arm64.zip",
+          "size": 151212774,
+          "sha256": "ad16437b178b77ca2456f2e09141f776814bcee24d47a18a8f93db2969c21d3f"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/shinystan/releases/download/v0.1.0/shinystan-0.1.0-win-x64.zip",
+          "size": 151496103,
+          "sha256": "8a6d4d8430ebb1804f24fe590e5b8cb8ef7a1e5ed00ace2234449981fcb26334"
         }
       }
     }

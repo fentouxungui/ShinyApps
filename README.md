@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 12
+- **Apps:** 13
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-13 07:28:05 UTC
+- **Catalog last updated:** 2026-10-13 08:00:19 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -22,6 +22,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/upsetr-shiny.png" width="32" alt="UpSetR-shiny"> | **UpSetR-shiny**<br>Interactive UpSet plots of set intersections from file, list, or expression input (Shiny wrapper for the UpSetR R package) | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/UpSetR-shiny) · [Docs](https://github.com/hms-dbmi/UpSetR-shiny#readme) · [Release](https://github.com/fentouxungui/UpSetR-shiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/graphbio.png" width="32" alt="GraphBio"> | **GraphBio**<br>Modular Shiny dashboard for popular omics-data visualizations - heatmap, volcano, Venn, PCA, survival curve, ROC, GO dot plots, network, chord and more (15 modules) | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](http://www.graphbio1.com/en/) · [Docs](https://github.com/databio2022/GraphBio#readme) · [Release](http://www.graphbio1.com/en/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/splitkbcompare.png" width="32" alt="splitKbCompare"> | **splitKbCompare**<br>Interactive comparison of split ergonomic keyboard layouts - filter by specs, overlay layouts at true scale with distinct colors, and export printable PDFs | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/jhelvy/splitKbCompare) · [Docs](https://github.com/jhelvy/splitKbCompare#readme) · [Release](https://github.com/jhelvy/splitKbCompare/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinystan.png" width="32" alt="ShinyStan"> | **ShinyStan**<br>Interactive visual and numerical diagnostics and posterior analysis for Bayesian models (MCMC), with extended support for Stan models | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://mc-stan.org/shinystan/) · [Docs](https://mc-stan.org/shinystan/) · [Release](https://mc-stan.org/shinystan/releases/tag/v0.1.0) |
 
 ---
 
@@ -295,6 +296,29 @@ Release: https://github.com/jhelvy/splitKbCompare/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [splitkbcompare-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/splitKbCompare/releases/download/v0.1.0/splitkbcompare-0.1.0-mac-arm64.zip) | 78.5 MB | `51732416ee00f85c44dbe08ed008c2c175b366e3300fecc4e6d2a44d2c904229` |
 | `win-x64` | [splitkbcompare-0.1.0-win-x64.zip](https://github.com/fentouxungui/splitKbCompare/releases/download/v0.1.0/splitkbcompare-0.1.0-win-x64.zip) | 89.7 MB | `b36542e9d4373c61872a4283d23a2e668ef6a79e085c9a9d530b9d49baf21d0a` |
+
+</details>
+
+### ShinyStan `0.1.0`
+
+Interactive visual and numerical diagnostics and posterior analysis for Bayesian models (MCMC), with extended support for Stan models
+
+| Field | Value |
+|---|---|
+| Author | Jonah Gabry, Duco Veen, Stan Development Team |
+| License | GPL-3.0-or-later |
+| Contact | jgabry@gmail.com |
+| Copyright | (c) 2025 Stan Development Team |
+| R version | 4.6.1 |
+
+Release: https://mc-stan.org/shinystan/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [shinystan-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/shinystan/releases/download/v0.1.0/shinystan-0.1.0-mac-arm64.zip) | 144.2 MB | `ad16437b178b77ca2456f2e09141f776814bcee24d47a18a8f93db2969c21d3f` |
+| `win-x64` | [shinystan-0.1.0-win-x64.zip](https://github.com/fentouxungui/shinystan/releases/download/v0.1.0/shinystan-0.1.0-win-x64.zip) | 144.5 MB | `8a6d4d8430ebb1804f24fe590e5b8cb8ef7a1e5ed00ace2234449981fcb26334` |
 
 </details>
 
