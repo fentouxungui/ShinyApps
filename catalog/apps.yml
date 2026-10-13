@@ -240,3 +240,81 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/explor.png"
     r_version: "4.6.1"
     tags: [pca, mca, multivariate, visualization, factominer]
+
+  - id: biodosetools
+    repo: fentouxungui/biodosetools
+    name: biodosetools
+    author: "biodosetools team"
+    description: "Statistical tools for biological dosimetry - chromosome aberration and micronucleus assays with dose estimation"
+    homepage: "https://biodosetools-team.github.io/biodosetools/"
+    docs: "https://biodosetools-team.github.io/biodosetools/"
+    copyright: "(c) 2026 biodosetools team"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/biodosetools.png"
+    r_version: "4.6.1"
+    tags: [biological-dosimetry, cytogenetics, statistics, radiation]
+
+  - id: phyloprofile
+    repo: fentouxungui/PhyloProfile
+    name: PhyloProfile
+    author: "Vinh Tran and contributors"
+    description: "Phylogenetic profile analysis - compare presence/absence and domain architecture of genes across species"
+    homepage: "https://github.com/BIONF/PhyloProfile"
+    docs: "https://github.com/BIONF/PhyloProfile#readme"
+    copyright: "(c) 2024 Vinh Tran"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/phyloprofile.png"
+    r_version: "4.6.1"
+    tags: [phylogenetics, comparative-genomics, evolution, bioinformatics]
+
+  - id: deseq2shiny
+    repo: fentouxungui/deseq2shiny
+    name: deseq2shiny
+    author: "Nasqar"
+    description: "Web app for DESeq2 differential expression analysis with boxplots, heatmaps and volcano plots"
+    homepage: "https://github.com/nasqar/deseq2shiny"
+    docs: "https://github.com/nasqar/deseq2shiny#readme"
+    copyright: "(c) Nasqar"
+    license: "Unspecified (upstream declares no license)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/deseq2shiny.png"
+    r_version: "4.6.1"
+    tags: [rna-seq, differential-expression, deseq2, visualization]
+
+  - id: clusterprofshinyora
+    repo: fentouxungui/ClusterProfShinyORA
+    name: ClusterProfShinyORA
+    author: "Nasqar"
+    description: "Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plus Pathview plots and wordcloud"
+    homepage: "https://github.com/nasqar/ClusterProfShinyORA"
+    docs: "https://github.com/nasqar/ClusterProfShinyORA#readme"
+    copyright: "(c) Nasqar"
+    license: "Unspecified (upstream declares no license)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png"
+    r_version: "4.6.1"
+    tags: [enrichment, gene-ontology, kegg, clusterprofiler]
+
+  - id: mutationexplorer
+    repo: fentouxungui/MutationExplorer
+    name: MutationExplorer
+    author: "Christoffer Brueffer"
+    description: "Lightweight interactive exploration of somatic mutation data for cancer genomics"
+    homepage: "https://github.com/cbrueffer/MutationExplorer"
+    docs: "https://github.com/cbrueffer/MutationExplorer#readme"
+    copyright: "(c) Christoffer Brueffer"
+    license: "BSD-2-Clause"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/mutationexplorer.png"
+    r_version: "4.6.1"
+    tags: [cancer-genomics, mutations, visualization, survival]
+
+  - id: genome-stats
+    repo: fentouxungui/shiny-genome-stats
+    name: shiny-genome-stats
+    author: "MPUSP"
+    description: "Basic feature statistics and visualization for microbial genomes"
+    homepage: "https://github.com/MPUSP/shiny-genome-stats"
+    docs: "https://github.com/MPUSP/shiny-genome-stats#readme"
+    copyright: "(c) MPUSP"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png"
+    r_version: "4.6.1"
+    tags: [microbial-genomics, genome-statistics, visualization]
