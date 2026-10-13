@@ -27,6 +27,7 @@
         "email": { "type": "string" },
         "copyright": { "type": "string" },
         "license": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } },
         "icon": { "type": "string", "description": "Absolute URL to a PNG shown on the launcher card" },
         "r_version": { "type": "string" },
         "min_shell_version": { "type": "string" },

@@ -22,6 +22,7 @@ apps:
     license: "GPL-3.0-or-later"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png"
     r_version: "4.6.1"
+    tags: [single-cell, seurat, exploration, visualization]
 
   - id: scconvert
     repo: fentouxungui/scConvertShiny
@@ -35,6 +36,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/scconvert.png"
     r_version: "4.6.1"
+    tags: [single-cell, conversion, formats, io]
 
   - id: isee
     repo: fentouxungui/iSEE
@@ -48,6 +50,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/isee.png"
     r_version: "4.6.1"
+    tags: [single-cell, visualization, interactive, summarizedexperiment]
 
   - id: xenashiny
     repo: fentouxungui/UCSCXenaShiny
@@ -61,6 +64,7 @@ apps:
     license: "GPL-3.0-or-later"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png"
     r_version: "4.6.1"
+    tags: [cancer, genomics, tcga, visualization]
 
   - id: spatiallibd
     repo: fentouxungui/spatialLIBD
@@ -74,6 +78,7 @@ apps:
     license: "Artistic-2.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png"
     r_version: "4.6.1"
+    tags: [spatial, transcriptomics, brain, visualization]
 
   - id: beerapp
     repo: fentouxungui/beeRapp
@@ -86,6 +91,7 @@ apps:
     license: "GPL-3.0-or-later"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/beerapp.png"
     r_version: "4.6.1"
+    tags: [behavior, statistics, clustering, visualization]
 
   - id: csbb-shiny
     repo: fentouxungui/CSBB-Shiny
@@ -98,6 +104,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png"
     r_version: "4.6.1"
+    tags: [ngs, rna-seq, differential-expression, enrichment, single-cell]
 
   - id: bestdeg
     repo: fentouxungui/bestDEG
@@ -110,6 +117,7 @@ apps:
     license: "Unspecified (upstream declares no license)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/bestdeg.png"
     r_version: "4.6.1"
+    tags: [rna-seq, differential-expression, statistics]
 
   - id: shinycircos
     repo: fentouxungui/shinyCircos-V2.0
@@ -123,6 +131,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/shinycircos.png"
     r_version: "4.6.1"
+    tags: [genomics, circos, visualization]
 
   - id: upsetr-shiny
     repo: fentouxungui/UpSetR-shiny
@@ -135,6 +144,7 @@ apps:
     license: "Unspecified (upstream declares no license)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/upsetr-shiny.png"
     r_version: "4.6.1"
+    tags: [visualization, sets, intersection]
 
   - id: graphbio
     repo: fentouxungui/GraphBio
@@ -148,6 +158,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/graphbio.png"
     r_version: "4.6.1"
+    tags: [omics, visualization, dashboard, survival, heatmap]
 
 
 
