@@ -186,3 +186,17 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/shinystan.png"
     r_version: "4.6.1"
     tags: [bayesian, mcmc, diagnostics, stan, visualization]
+
+  - id: esquisse
+    repo: fentouxungui/esquisse
+    name: esquisse
+    author: "Fanny Meyer, Victor Perrier (dreamRs)"
+    description: "Explore and visualize your data interactively - build ggplot2 figures with drag-and-drop mapping, then export or copy the reproducible code"
+    homepage: "https://dreamrs.github.io/esquisse/"
+    docs: "https://dreamrs.github.io/esquisse/"
+    email: "victor.perrier@dreamrs.fr"
+    copyright: "(c) 2018 dreamRs"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/esquisse.png"
+    r_version: "4.6.1"
+    tags: [visualization, ggplot2, interactive, data-exploration]
