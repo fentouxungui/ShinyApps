@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-13T07:11:57Z",
+  "updated_at": "2026-10-13T07:28:05Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -347,6 +347,37 @@
           "url": "https://github.com/fentouxungui/GraphBio/releases/download/v0.1.0/graphbio-0.1.0-win-x64.zip",
           "size": 232683661,
           "sha256": "24afd94b2e6bec0413101d0a8c6be11770b172852bf444f5b1c2f3610bee3b53"
+        }
+      }
+    },
+    {
+      "id": "splitkbcompare",
+      "name": "splitKbCompare",
+      "author": "John Helveston",
+      "description": "Interactive comparison of split ergonomic keyboard layouts - filter by specs, overlay layouts at true scale with distinct colors, and export printable PDFs",
+      "homepage": "https://github.com/jhelvy/splitKbCompare",
+      "docs": "https://github.com/jhelvy/splitKbCompare#readme",
+      "copyright": "(c) 2020 John Helveston",
+      "license": "MIT",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/splitkbcompare.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "keyboard",
+        "layout",
+        "comparison",
+        "visualization"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/splitKbCompare/releases/download/v0.1.0/splitkbcompare-0.1.0-mac-arm64.zip",
+          "size": 82277487,
+          "sha256": "51732416ee00f85c44dbe08ed008c2c175b366e3300fecc4e6d2a44d2c904229"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/splitKbCompare/releases/download/v0.1.0/splitkbcompare-0.1.0-win-x64.zip",
+          "size": 94040984,
+          "sha256": "b36542e9d4373c61872a4283d23a2e668ef6a79e085c9a9d530b9d49baf21d0a"
         }
       }
     }
