@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-13T06:30:16Z",
+  "updated_at": "2026-10-13T07:11:57Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -213,7 +213,18 @@
         "single-cell"
       ],
       "version": "0.1.1",
-      "artifacts": {}
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/CSBB-Shiny/releases/download/v0.1.1/csbb-shiny-0.1.1-mac-arm64.zip",
+          "size": 1138145327,
+          "sha256": "cc2922181efbef743d516413d4a49b2de6ac0459ae6409bb88261d0ff6d69cf8"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/CSBB-Shiny/releases/download/v0.1.1/csbb-shiny-0.1.1-win-x64.zip",
+          "size": 1175383186,
+          "sha256": "96a5fc3d181b7621dfabe73feb66a1a884eabd561e1e8586ad68fe8318402af2"
+        }
+      }
     },
     {
       "id": "bestdeg",

@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 11 — 10 ✅ 可用 / 1 ⛔ 不可用
+- **Apps:** 11
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-13 06:30:16 UTC
+- **Catalog last updated:** 2026-10-13 07:11:57 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -16,7 +16,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png" width="32" alt="UCSCXenaShiny"> | **UCSCXenaShiny**<br>Interactive analysis and visualization of UCSC Xena cancer genomics data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/UCSCXenaShiny) · [Docs](https://openbiox.github.io/UCSCXenaShiny/) · [Release](https://github.com/fentouxungui/UCSCXenaShiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png" width="32" alt="spatialLIBD"> | **spatialLIBD**<br>Interactive visualization of spatially-resolved transcriptomics data (10x Genomics Visium) from the LIBD human DLPFC project | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/spatialLIBD) · [Docs](http://research.libd.org/spatialLIBD/) · [Release](https://github.com/fentouxungui/spatialLIBD/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/beerapp.png" width="32" alt="beeRapp"> | **beeRapp**<br>Automated high-throughput explorative analysis of multivariate behavioral data (clustering, boxplots, PCA, heatmaps, correlations) | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/beeRapp) · [Docs](https://github.com/anmabu/beeRapp#readme) · [Release](https://github.com/fentouxungui/beeRapp/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png" width="32" alt="CSBB-Shiny"> | **CSBB-Shiny**<br>Computational Suite for Bioinformaticians and Biologists (CSBB): 8 downstream NGS modules - normalization, basic stats, differential expression, correlation profiles, functional/pathway enrichment, ChIP-ATAC seq and single-cell RNA-seq | ⛔ 不可用 | `0.1.1` | — | [Home](https://github.com/fentouxungui/CSBB-Shiny) · [Docs](https://github.com/praneet1988/CSBB-Shiny#readme) · [Release](https://github.com/fentouxungui/CSBB-Shiny/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png" width="32" alt="CSBB-Shiny"> | **CSBB-Shiny**<br>Computational Suite for Bioinformaticians and Biologists (CSBB): 8 downstream NGS modules - normalization, basic stats, differential expression, correlation profiles, functional/pathway enrichment, ChIP-ATAC seq and single-cell RNA-seq | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/CSBB-Shiny) · [Docs](https://github.com/praneet1988/CSBB-Shiny#readme) · [Release](https://github.com/fentouxungui/CSBB-Shiny/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/bestdeg.png" width="32" alt="bestDEG"> | **bestDEG**<br>Automated precise prediction of differentially expressed genes (DEGs) from RNA-seq data by combining edgeR, DESeq2, NOISeq and EBSeq | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/bestDEG) · [Docs](https://github.com/unitsa-sangket/bestDEG#readme) · [Release](https://github.com/fentouxungui/bestDEG/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/shinycircos.png" width="32" alt="shinyCircos-V2.0"> | **shinyCircos-V2.0**<br>Interactive creation of Circos plots from genomic data - chromosome ideograms, tracks (bar/line/point/heatmap/rect), links and labels | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/shinyCircos-V2.0) · [Docs](https://github.com/YaoLab-Bioinfo/shinyCircos-V2.0#readme) · [Release](https://github.com/fentouxungui/shinyCircos-V2.0/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/upsetr-shiny.png" width="32" alt="UpSetR-shiny"> | **UpSetR-shiny**<br>Interactive UpSet plots of set intersections from file, list, or expression input (Shiny wrapper for the UpSetR R package) | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/UpSetR-shiny) · [Docs](https://github.com/hms-dbmi/UpSetR-shiny#readme) · [Release](https://github.com/fentouxungui/UpSetR-shiny/releases/tag/v0.1.0) |
@@ -165,8 +165,6 @@ Release: https://github.com/fentouxungui/beeRapp/releases/tag/v0.1.0
 
 ### CSBB-Shiny `0.1.1`
 
-**Status:** ⛔ 不可用 — no published release yet.
-
 Computational Suite for Bioinformaticians and Biologists (CSBB): 8 downstream NGS modules - normalization, basic stats, differential expression, correlation profiles, functional/pathway enrichment, ChIP-ATAC seq and single-cell RNA-seq
 
 | Field | Value |
@@ -177,6 +175,15 @@ Computational Suite for Bioinformaticians and Biologists (CSBB): 8 downstream NG
 | R version | 4.6.1 |
 
 Release: https://github.com/fentouxungui/CSBB-Shiny/releases/tag/v0.1.1
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [csbb-shiny-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/CSBB-Shiny/releases/download/v0.1.1/csbb-shiny-0.1.1-mac-arm64.zip) | 1.1 GB | `cc2922181efbef743d516413d4a49b2de6ac0459ae6409bb88261d0ff6d69cf8` |
+| `win-x64` | [csbb-shiny-0.1.1-win-x64.zip](https://github.com/fentouxungui/CSBB-Shiny/releases/download/v0.1.1/csbb-shiny-0.1.1-win-x64.zip) | 1.1 GB | `96a5fc3d181b7621dfabe73feb66a1a884eabd561e1e8586ad68fe8318402af2` |
+
+</details>
 
 ### bestDEG `0.1.0`
 
