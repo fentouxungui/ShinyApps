@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-13T13:56:05Z",
+  "updated_at": "2026-10-13T18:25:37Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -538,6 +538,191 @@
           "url": "https://github.com/fentouxungui/explor/releases/download/v0.1.0/explor-0.1.0-win-x64.zip",
           "size": 152839963,
           "sha256": "ce416454b166e60cb5ca6716b87046898156b1e62bba885d6edcc0bcd7cf6386"
+        }
+      }
+    },
+    {
+      "id": "biodosetools",
+      "name": "biodosetools",
+      "author": "biodosetools team",
+      "description": "Statistical tools for biological dosimetry - chromosome aberration and micronucleus assays with dose estimation",
+      "homepage": "https://biodosetools-team.github.io/biodosetools/",
+      "docs": "https://biodosetools-team.github.io/biodosetools/",
+      "copyright": "(c) 2026 biodosetools team",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/biodosetools.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "biological-dosimetry",
+        "cytogenetics",
+        "statistics",
+        "radiation"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/biodosetools/releases/download/v0.1.0/biodosetools-0.1.0-mac-arm64.zip",
+          "size": 139208500,
+          "sha256": "90ea885455d03673350e1146470c932ded2f6af37941ed5a9d80ffd6e5851f0d"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/biodosetools/releases/download/v0.1.0/biodosetools-0.1.0-win-x64.zip",
+          "size": 149310455,
+          "sha256": "c3e834dfa952e4ab42ad4659cb76e6802bb203974ea573344f35cede058a1cec"
+        }
+      }
+    },
+    {
+      "id": "phyloprofile",
+      "name": "PhyloProfile",
+      "author": "Vinh Tran and contributors",
+      "description": "Phylogenetic profile analysis - compare presence/absence and domain architecture of genes across species",
+      "homepage": "https://github.com/BIONF/PhyloProfile",
+      "docs": "https://github.com/BIONF/PhyloProfile#readme",
+      "copyright": "(c) 2024 Vinh Tran",
+      "license": "MIT",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/phyloprofile.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "phylogenetics",
+        "comparative-genomics",
+        "evolution",
+        "bioinformatics"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/PhyloProfile/releases/download/v0.1.0/phyloprofile-0.1.0-mac-arm64.zip",
+          "size": 145917868,
+          "sha256": "37fc5c8f9aab63f103b6575a236f04fd133570c90739948611c3049ec6f65368"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/PhyloProfile/releases/download/v0.1.0/phyloprofile-0.1.0-win-x64.zip",
+          "size": 159743775,
+          "sha256": "02752f3c232fdca5d22ac9441e559d57460a469dc8660ee27565921159a61845"
+        }
+      }
+    },
+    {
+      "id": "deseq2shiny",
+      "name": "deseq2shiny",
+      "author": "Nasqar",
+      "description": "Web app for DESeq2 differential expression analysis with boxplots, heatmaps and volcano plots",
+      "homepage": "https://github.com/nasqar/deseq2shiny",
+      "docs": "https://github.com/nasqar/deseq2shiny#readme",
+      "copyright": "(c) Nasqar",
+      "license": "Unspecified (upstream declares no license)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/deseq2shiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "rna-seq",
+        "differential-expression",
+        "deseq2",
+        "visualization"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/deseq2shiny/releases/download/v0.1.0/deseq2shiny-0.1.0-mac-arm64.zip",
+          "size": 235016715,
+          "sha256": "82191f04db8c40d4e103902a926a15152bb0a2771ca8de8f05f182761ae27ccb"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/deseq2shiny/releases/download/v0.1.0/deseq2shiny-0.1.0-win-x64.zip",
+          "size": 245719319,
+          "sha256": "adf7f1a7d6163514fc9d6312a88639c454b975c8381e09ce070007d8984faef6"
+        }
+      }
+    },
+    {
+      "id": "clusterprofshinyora",
+      "name": "ClusterProfShinyORA",
+      "author": "Nasqar",
+      "description": "Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plus Pathview plots and wordcloud",
+      "homepage": "https://github.com/nasqar/ClusterProfShinyORA",
+      "docs": "https://github.com/nasqar/ClusterProfShinyORA#readme",
+      "copyright": "(c) Nasqar",
+      "license": "Unspecified (upstream declares no license)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "enrichment",
+        "gene-ontology",
+        "kegg",
+        "clusterprofiler"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.0/clusterprofshinyora-0.1.0-mac-arm64.zip",
+          "size": 326707693,
+          "sha256": "5e166bd3bb8f314d84bca06f5f05c34916e40d264ec1e1f23f2cf2cb17005d7b"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.0/clusterprofshinyora-0.1.0-win-x64.zip",
+          "size": 348732731,
+          "sha256": "d4443af5721f37035d28e65c5fff2baab00f6b120366c13f45307c14cde8e603"
+        }
+      }
+    },
+    {
+      "id": "mutationexplorer",
+      "name": "MutationExplorer",
+      "author": "Christoffer Brueffer",
+      "description": "Lightweight interactive exploration of somatic mutation data for cancer genomics",
+      "homepage": "https://github.com/cbrueffer/MutationExplorer",
+      "docs": "https://github.com/cbrueffer/MutationExplorer#readme",
+      "copyright": "(c) Christoffer Brueffer",
+      "license": "BSD-2-Clause",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/mutationexplorer.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "cancer-genomics",
+        "mutations",
+        "visualization",
+        "survival"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/MutationExplorer/releases/download/v0.1.0/mutationexplorer-0.1.0-mac-arm64.zip",
+          "size": 611708959,
+          "sha256": "2f2c8ae622db7cd7a91e4df78b7d2d0d6cffef83538e4cf629db57ce95baba25"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/MutationExplorer/releases/download/v0.1.0/mutationexplorer-0.1.0-win-x64.zip",
+          "size": 642732519,
+          "sha256": "5997afd533c8ea2f5ecee2c460a5f33cac375d2652a516d4143aca3cb96f3eaa"
+        }
+      }
+    },
+    {
+      "id": "genome-stats",
+      "name": "shiny-genome-stats",
+      "author": "MPUSP",
+      "description": "Basic feature statistics and visualization for microbial genomes",
+      "homepage": "https://github.com/MPUSP/shiny-genome-stats",
+      "docs": "https://github.com/MPUSP/shiny-genome-stats#readme",
+      "copyright": "(c) MPUSP",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "microbial-genomics",
+        "genome-statistics",
+        "visualization"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.0/genome-stats-0.1.0-mac-arm64.zip",
+          "size": 202050621,
+          "sha256": "769f8f44499cd95696dc335723aec1e4f3bf9d6f06f0f7c60066b17575122426"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.0/genome-stats-0.1.0-win-x64.zip",
+          "size": 226494541,
+          "sha256": "39c19e94fac30cd717f5b3a41eccff8af37b8e1041c2fc5442959af77e318527"
         }
       }
     }
