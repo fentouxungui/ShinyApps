@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-13T09:55:12Z",
+  "updated_at": "2026-10-13T12:59:43Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -411,6 +411,38 @@
           "url": "https://github.com/fentouxungui/shinystan/releases/download/v0.3.0/shinystan-0.3.0-win-x64.zip",
           "size": 115627714,
           "sha256": "4925bc514ae349242458582e586f14e88b7f99dd57e217b01549c47d6e3e211b"
+        }
+      }
+    },
+    {
+      "id": "esquisse",
+      "name": "esquisse",
+      "author": "Fanny Meyer, Victor Perrier (dreamRs)",
+      "description": "Explore and visualize your data interactively - build ggplot2 figures with drag-and-drop mapping, then export or copy the reproducible code",
+      "homepage": "https://dreamrs.github.io/esquisse/",
+      "docs": "https://dreamrs.github.io/esquisse/",
+      "email": "victor.perrier@dreamrs.fr",
+      "copyright": "(c) 2018 dreamRs",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/esquisse.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "visualization",
+        "ggplot2",
+        "interactive",
+        "data-exploration"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/esquisse/releases/download/v0.1.0/esquisse-0.1.0-mac-arm64.zip",
+          "size": 111359845,
+          "sha256": "ddf5638d49faeca9ca54d8775d282037057f2102d11ac155a9490e98a0a2bae5"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/esquisse/releases/download/v0.1.0/esquisse-0.1.0-win-x64.zip",
+          "size": 118408468,
+          "sha256": "b12968c540acefd74a18c881ff5f03153e247056fd09bd580306aa6e421e5736"
         }
       }
     }
