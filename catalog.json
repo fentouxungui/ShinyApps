@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-13T08:00:19Z",
+  "updated_at": "2026-10-13T09:55:12Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -400,17 +400,17 @@
         "stan",
         "visualization"
       ],
-      "version": "0.1.0",
+      "version": "0.3.0",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/shinystan/releases/download/v0.1.0/shinystan-0.1.0-mac-arm64.zip",
-          "size": 151212774,
-          "sha256": "ad16437b178b77ca2456f2e09141f776814bcee24d47a18a8f93db2969c21d3f"
+          "url": "https://github.com/fentouxungui/shinystan/releases/download/v0.3.0/shinystan-0.3.0-mac-arm64.zip",
+          "size": 110949905,
+          "sha256": "d17732b6e2a9e511a8d665de99ffc3439fd11cacb7e150798f0dfedd51eca898"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/shinystan/releases/download/v0.1.0/shinystan-0.1.0-win-x64.zip",
-          "size": 151496103,
-          "sha256": "8a6d4d8430ebb1804f24fe590e5b8cb8ef7a1e5ed00ace2234449981fcb26334"
+          "url": "https://github.com/fentouxungui/shinystan/releases/download/v0.3.0/shinystan-0.3.0-win-x64.zip",
+          "size": 115627714,
+          "sha256": "4925bc514ae349242458582e586f14e88b7f99dd57e217b01549c47d6e3e211b"
         }
       }
     }
