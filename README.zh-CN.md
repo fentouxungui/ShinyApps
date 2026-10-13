@@ -61,6 +61,7 @@
 能打成标准 R 源码包，并基于 **R 4.6.1** 构建。
 
 👉 完整指南见 **[使用手册（中文）](https://github.com/fentouxungui/ShinyApps/wiki/ManualZH)** · **[User Manual (EN)](https://github.com/fentouxungui/ShinyApps/wiki/ManualEN)**。
+🛠️ 自动化：使用可复用的上架工具包 — **[fentouxungui/shinyapps-onboarding](https://github.com/fentouxungui/shinyapps-onboarding)** — 从任意 Shiny 应用仓库到商店上架（fork → bundle 工作流 → release → catalog 登记 → PR）。
 
 ## 🏗️ 实现路径
 

@@ -64,6 +64,7 @@ The app must satisfy a small contract: its entry returns a **`shinyApp` object**
 `runApp()` itself), build as a standard R source package, and target **R 4.6.1**.
 
 👉 Full guide: **[User Manual (EN)](https://github.com/fentouxungui/ShinyApps/wiki/ManualEN)** · **[使用手册（中文）](https://github.com/fentouxungui/ShinyApps/wiki/ManualZH)**.
+🛠️ Automation: use the reusable onboarding toolkit — **[fentouxungui/shinyapps-onboarding](https://github.com/fentouxungui/shinyapps-onboarding)** — to go from any Shiny-app repo to a published store entry (fork → bundle workflow → release → catalog entry → PR).
 
 ## 🏗️ How it works
 
