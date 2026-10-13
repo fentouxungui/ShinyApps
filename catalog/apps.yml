@@ -172,3 +172,17 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/splitkbcompare.png"
     r_version: "4.6.1"
     tags: [keyboard, layout, comparison, visualization]
+
+  - id: shinystan
+    repo: fentouxungui/shinystan
+    name: ShinyStan
+    author: "Jonah Gabry, Duco Veen, Stan Development Team"
+    description: "Interactive visual and numerical diagnostics and posterior analysis for Bayesian models (MCMC), with extended support for Stan models"
+    homepage: "https://mc-stan.org/shinystan/"
+    docs: "https://mc-stan.org/shinystan/"
+    email: "jgabry@gmail.com"
+    copyright: "(c) 2025 Stan Development Team"
+    license: "GPL-3.0-or-later"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinystan.png"
+    r_version: "4.6.1"
+    tags: [bayesian, mcmc, diagnostics, stan, visualization]
