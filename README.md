@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 14
+- **Apps:** 17
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-13 12:59:43 UTC
+- **Catalog last updated:** 2026-10-13 13:56:05 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -24,6 +24,9 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/splitkbcompare.png" width="32" alt="splitKbCompare"> | **splitKbCompare**<br>Interactive comparison of split ergonomic keyboard layouts - filter by specs, overlay layouts at true scale with distinct colors, and export printable PDFs | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/jhelvy/splitKbCompare) · [Docs](https://github.com/jhelvy/splitKbCompare#readme) · [Release](https://github.com/jhelvy/splitKbCompare/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/shinystan.png" width="32" alt="ShinyStan"> | **ShinyStan**<br>Interactive visual and numerical diagnostics and posterior analysis for Bayesian models (MCMC), with extended support for Stan models | ✅ 可用 | `0.3.0` | `mac-arm64`, `win-x64` | [Home](https://mc-stan.org/shinystan/) · [Docs](https://mc-stan.org/shinystan/) · [Release](https://mc-stan.org/shinystan/releases/tag/v0.3.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/esquisse.png" width="32" alt="esquisse"> | **esquisse**<br>Explore and visualize your data interactively - build ggplot2 figures with drag-and-drop mapping, then export or copy the reproducible code | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://dreamrs.github.io/esquisse/) · [Docs](https://dreamrs.github.io/esquisse/) · [Release](https://dreamrs.github.io/esquisse/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/plotsofdata.png" width="32" alt="PlotsOfData"> | **PlotsOfData**<br>Visualize and compare data distributions - dot plots with summary statistics and 95% confidence intervals, from spreadsheet or tidy data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://huygens.science.uva.nl/PlotsOfData/) · [Docs](https://github.com/JoachimGoedhart/PlotsOfData#readme) · [Release](https://huygens.science.uva.nl/PlotsOfData/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/hexmake.png" width="32" alt="hexmake"> | **hexmake**<br>Create hex stickers for R packages - design a hex, add a logo and text, and export the sticker as PNG/PDF | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/ColinFay/hexmake) · [Docs](https://github.com/ColinFay/hexmake#readme) · [Release](https://github.com/ColinFay/hexmake/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/explor.png" width="32" alt="explor"> | **explor**<br>Interactive exploration of multivariate analysis results (PCA, MCA, CA) - a Shiny interface for FactoMineR / ade4 / MASS outputs | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://juba.github.io/explor/) · [Docs](https://juba.github.io/explor/) · [Release](https://juba.github.io/explor/releases/tag/v0.1.0) |
 
 ---
 
@@ -343,6 +346,73 @@ Release: https://dreamrs.github.io/esquisse/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [esquisse-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/esquisse/releases/download/v0.1.0/esquisse-0.1.0-mac-arm64.zip) | 106.2 MB | `ddf5638d49faeca9ca54d8775d282037057f2102d11ac155a9490e98a0a2bae5` |
 | `win-x64` | [esquisse-0.1.0-win-x64.zip](https://github.com/fentouxungui/esquisse/releases/download/v0.1.0/esquisse-0.1.0-win-x64.zip) | 112.9 MB | `b12968c540acefd74a18c881ff5f03153e247056fd09bd580306aa6e421e5736` |
+
+</details>
+
+### PlotsOfData `0.1.0`
+
+Visualize and compare data distributions - dot plots with summary statistics and 95% confidence intervals, from spreadsheet or tidy data
+
+| Field | Value |
+|---|---|
+| Author | Joachim Goedhart |
+| License | GPL-3.0 |
+| Copyright | (c) 2018 Joachim Goedhart |
+| R version | 4.6.1 |
+
+Release: https://huygens.science.uva.nl/PlotsOfData/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [plotsofdata-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/PlotsOfData/releases/download/v0.1.0/plotsofdata-0.1.0-mac-arm64.zip) | 113.9 MB | `5053ee49c62382abf044d18e74dc248629df42b2c4f8caa9f34e6300b7926f26` |
+| `win-x64` | [plotsofdata-0.1.0-win-x64.zip](https://github.com/fentouxungui/PlotsOfData/releases/download/v0.1.0/plotsofdata-0.1.0-win-x64.zip) | 129.0 MB | `b7930cb56a5b7e3f2d691649de5f2f88c1cac94dcf86a80a31665e019137223d` |
+
+</details>
+
+### hexmake `0.1.0`
+
+Create hex stickers for R packages - design a hex, add a logo and text, and export the sticker as PNG/PDF
+
+| Field | Value |
+|---|---|
+| Author | Colin Fay |
+| License | MIT |
+| Copyright | (c) 2019 Colin Fay |
+| R version | 4.6.1 |
+
+Release: https://github.com/ColinFay/hexmake/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [hexmake-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/hexmake/releases/download/v0.1.0/hexmake-0.1.0-mac-arm64.zip) | 102.5 MB | `785896252664abac1f53cb404800f7d6bf1fe19927f0fb1ab530bb7b0917861d` |
+| `win-x64` | [hexmake-0.1.0-win-x64.zip](https://github.com/fentouxungui/hexmake/releases/download/v0.1.0/hexmake-0.1.0-win-x64.zip) | 118.5 MB | `76562f6697c6f9be707da18e5ecf836c5c464ad8d1ff3741f3f15e675aa7798d` |
+
+</details>
+
+### explor `0.1.0`
+
+Interactive exploration of multivariate analysis results (PCA, MCA, CA) - a Shiny interface for FactoMineR / ade4 / MASS outputs
+
+| Field | Value |
+|---|---|
+| Author | Julien Barnier |
+| License | GPL-3.0 |
+| Contact | julien.barnier@cnrs.fr |
+| Copyright | (c) 2026 Julien Barnier |
+| R version | 4.6.1 |
+
+Release: https://juba.github.io/explor/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [explor-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/explor/releases/download/v0.1.0/explor-0.1.0-mac-arm64.zip) | 140.7 MB | `82e286d33205c81c854e4c2470f08e82129e8468524826de248b3c93abd49868` |
+| `win-x64` | [explor-0.1.0-win-x64.zip](https://github.com/fentouxungui/explor/releases/download/v0.1.0/explor-0.1.0-win-x64.zip) | 145.8 MB | `ce416454b166e60cb5ca6716b87046898156b1e62bba885d6edcc0bcd7cf6386` |
 
 </details>
 
