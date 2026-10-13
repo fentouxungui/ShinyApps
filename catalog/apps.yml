@@ -160,6 +160,15 @@ apps:
     r_version: "4.6.1"
     tags: [omics, visualization, dashboard, survival, heatmap]
 
-
-
-
+  - id: splitkbcompare
+    repo: fentouxungui/splitKbCompare
+    name: splitKbCompare
+    author: "John Helveston"
+    description: "Interactive comparison of split ergonomic keyboard layouts - filter by specs, overlay layouts at true scale with distinct colors, and export printable PDFs"
+    homepage: "https://github.com/jhelvy/splitKbCompare"
+    docs: "https://github.com/jhelvy/splitKbCompare#readme"
+    copyright: "(c) 2020 John Helveston"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/splitkbcompare.png"
+    r_version: "4.6.1"
+    tags: [keyboard, layout, comparison, visualization]
