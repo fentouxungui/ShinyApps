@@ -200,3 +200,43 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/esquisse.png"
     r_version: "4.6.1"
     tags: [visualization, ggplot2, interactive, data-exploration]
+
+  - id: plotsofdata
+    repo: fentouxungui/PlotsOfData
+    name: PlotsOfData
+    author: "Joachim Goedhart"
+    description: "Visualize and compare data distributions - dot plots with summary statistics and 95% confidence intervals, from spreadsheet or tidy data"
+    homepage: "https://huygens.science.uva.nl/PlotsOfData/"
+    docs: "https://github.com/JoachimGoedhart/PlotsOfData#readme"
+    copyright: "(c) 2018 Joachim Goedhart"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/plotsofdata.png"
+    r_version: "4.6.1"
+    tags: [visualization, dot-plot, statistics, data]
+
+  - id: hexmake
+    repo: fentouxungui/hexmake
+    name: hexmake
+    author: "Colin Fay"
+    description: "Create hex stickers for R packages - design a hex, add a logo and text, and export the sticker as PNG/PDF"
+    homepage: "https://github.com/ColinFay/hexmake"
+    docs: "https://github.com/ColinFay/hexmake#readme"
+    copyright: "(c) 2019 Colin Fay"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/hexmake.png"
+    r_version: "4.6.1"
+    tags: [hex-sticker, design, r-packaging, golem]
+
+  - id: explor
+    repo: fentouxungui/explor
+    name: explor
+    author: "Julien Barnier"
+    description: "Interactive exploration of multivariate analysis results (PCA, MCA, CA) - a Shiny interface for FactoMineR / ade4 / MASS outputs"
+    homepage: "https://juba.github.io/explor/"
+    docs: "https://juba.github.io/explor/"
+    email: "julien.barnier@cnrs.fr"
+    copyright: "(c) 2026 Julien Barnier"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/explor.png"
+    r_version: "4.6.1"
+    tags: [pca, mca, multivariate, visualization, factominer]
