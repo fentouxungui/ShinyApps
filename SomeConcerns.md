@@ -1,8 +1,8 @@
 # 一些考虑
 
-1. 基于已成功上架的Apps，构建一个上架skill
+1. 基于已成功上架的Apps，构建一个上架skill [done]
 2. Readme和wiki中，添加信息：如果你想上架自己的app，或者想上架别人的app，可以联系我，我可以帮助上架
 3. App Downloads 排行榜，或者launcher页面，每个app显示下载次数和github star counts
 4. 收录一些不方便上架的、或者无法上架的，但是已经在其它地方上架的Apps，列出app的信息，及访问使用链接，作为一个数据库来使用。可能需要要定制shinyelectron
-5. 
+5. 调研 CRAN/BiocManager 中有哪些值得上架的Shiny app R包，并且可行性要足够。
 
