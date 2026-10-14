@@ -292,29 +292,3 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png"
     r_version: "4.6.1"
     tags: [enrichment, gene-ontology, kegg, clusterprofiler]
-
-  - id: mutationexplorer
-    repo: fentouxungui/MutationExplorer
-    name: MutationExplorer
-    author: "Christoffer Brueffer"
-    description: "Lightweight interactive exploration of somatic mutation data for cancer genomics"
-    homepage: "https://github.com/cbrueffer/MutationExplorer"
-    docs: "https://github.com/cbrueffer/MutationExplorer#readme"
-    copyright: "(c) Christoffer Brueffer"
-    license: "BSD-2-Clause"
-    icon: "https://fentouxungui.github.io/ShinyApps/icons/mutationexplorer.png"
-    r_version: "4.6.1"
-    tags: [cancer-genomics, mutations, visualization, survival]
-
-  - id: genome-stats
-    repo: fentouxungui/shiny-genome-stats
-    name: shiny-genome-stats
-    author: "MPUSP"
-    description: "Basic feature statistics and visualization for microbial genomes"
-    homepage: "https://github.com/MPUSP/shiny-genome-stats"
-    docs: "https://github.com/MPUSP/shiny-genome-stats#readme"
-    copyright: "(c) MPUSP"
-    license: "GPL-3.0"
-    icon: "https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png"
-    r_version: "4.6.1"
-    tags: [microbial-genomics, genome-statistics, visualization]
