@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-14T09:47:05Z",
+  "updated_at": "2026-10-14T11:23:08Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -516,17 +516,17 @@
         "visualization",
         "factominer"
       ],
-      "version": "0.1.0",
+      "version": "0.1.2",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/explor/releases/download/v0.1.0/explor-0.1.0-mac-arm64.zip",
-          "size": 147499303,
-          "sha256": "82e286d33205c81c854e4c2470f08e82129e8468524826de248b3c93abd49868"
+          "url": "https://github.com/fentouxungui/explor/releases/download/v0.1.2/explor-0.1.2-mac-arm64.zip",
+          "size": 147499265,
+          "sha256": "5485e29137d9e597091e915f1201f178d00b25f3dbb9b5d5b2df754854e08143"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/explor/releases/download/v0.1.0/explor-0.1.0-win-x64.zip",
-          "size": 152839963,
-          "sha256": "ce416454b166e60cb5ca6716b87046898156b1e62bba885d6edcc0bcd7cf6386"
+          "url": "https://github.com/fentouxungui/explor/releases/download/v0.1.2/explor-0.1.2-win-x64.zip",
+          "size": 152838002,
+          "sha256": "adf83be83de71211bf7de27bfb5d96316dccce427136c4b734746eec41e067a7"
         }
       }
     },
@@ -609,17 +609,17 @@
         "deseq2",
         "visualization"
       ],
-      "version": "0.1.0",
+      "version": "0.1.3",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/deseq2shiny/releases/download/v0.1.0/deseq2shiny-0.1.0-mac-arm64.zip",
-          "size": 235016715,
-          "sha256": "82191f04db8c40d4e103902a926a15152bb0a2771ca8de8f05f182761ae27ccb"
+          "url": "https://github.com/fentouxungui/deseq2shiny/releases/download/v0.1.3/deseq2shiny-0.1.3-mac-arm64.zip",
+          "size": 247421508,
+          "sha256": "f555dd6ea2af6382dc86f4af9d557a92b18f3c05a1619c8fe2cbb924b1acb654"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/deseq2shiny/releases/download/v0.1.0/deseq2shiny-0.1.0-win-x64.zip",
-          "size": 245719319,
-          "sha256": "adf7f1a7d6163514fc9d6312a88639c454b975c8381e09ce070007d8984faef6"
+          "url": "https://github.com/fentouxungui/deseq2shiny/releases/download/v0.1.3/deseq2shiny-0.1.3-win-x64.zip",
+          "size": 259179310,
+          "sha256": "f08bc53a308a5015129bbe89a705a76e0dcd512c98b1a11b837c10ff02e9204a"
         }
       }
     },

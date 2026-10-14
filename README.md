@@ -4,7 +4,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 
 - **Apps:** 23 — 22 ✅ 可用 / 1 ⛔ 不可用
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-14 09:47:05 UTC
+- **Catalog last updated:** 2026-10-14 11:23:08 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -26,10 +26,10 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/esquisse.png" width="32" alt="esquisse"> | **esquisse**<br>Explore and visualize your data interactively - build ggplot2 figures with drag-and-drop mapping, then export or copy the reproducible code | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://dreamrs.github.io/esquisse/) · [Docs](https://dreamrs.github.io/esquisse/) · [Release](https://dreamrs.github.io/esquisse/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/plotsofdata.png" width="32" alt="PlotsOfData"> | **PlotsOfData**<br>Visualize and compare data distributions - dot plots with summary statistics and 95% confidence intervals, from spreadsheet or tidy data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://huygens.science.uva.nl/PlotsOfData/) · [Docs](https://github.com/JoachimGoedhart/PlotsOfData#readme) · [Release](https://huygens.science.uva.nl/PlotsOfData/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/hexmake.png" width="32" alt="hexmake"> | **hexmake**<br>Create hex stickers for R packages - design a hex, add a logo and text, and export the sticker as PNG/PDF | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/ColinFay/hexmake) · [Docs](https://github.com/ColinFay/hexmake#readme) · [Release](https://github.com/ColinFay/hexmake/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/explor.png" width="32" alt="explor"> | **explor**<br>Interactive exploration of multivariate analysis results (PCA, MCA, CA) - a Shiny interface for FactoMineR / ade4 / MASS outputs | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://juba.github.io/explor/) · [Docs](https://juba.github.io/explor/) · [Release](https://juba.github.io/explor/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/explor.png" width="32" alt="explor"> | **explor**<br>Interactive exploration of multivariate analysis results (PCA, MCA, CA) - a Shiny interface for FactoMineR / ade4 / MASS outputs | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://juba.github.io/explor/) · [Docs](https://juba.github.io/explor/) · [Release](https://juba.github.io/explor/releases/tag/v0.1.2) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/biodosetools.png" width="32" alt="biodosetools"> | **biodosetools**<br>Statistical tools for biological dosimetry - chromosome aberration and micronucleus assays with dose estimation | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://biodosetools-team.github.io/biodosetools/) · [Docs](https://biodosetools-team.github.io/biodosetools/) · [Release](https://biodosetools-team.github.io/biodosetools/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/phyloprofile.png" width="32" alt="PhyloProfile"> | **PhyloProfile**<br>Phylogenetic profile analysis - compare presence/absence and domain architecture of genes across species | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/BIONF/PhyloProfile) · [Docs](https://github.com/BIONF/PhyloProfile#readme) · [Release](https://github.com/BIONF/PhyloProfile/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/deseq2shiny.png" width="32" alt="deseq2shiny"> | **deseq2shiny**<br>Web app for DESeq2 differential expression analysis with boxplots, heatmaps and volcano plots | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/deseq2shiny) · [Docs](https://github.com/nasqar/deseq2shiny#readme) · [Release](https://github.com/nasqar/deseq2shiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/deseq2shiny.png" width="32" alt="deseq2shiny"> | **deseq2shiny**<br>Web app for DESeq2 differential expression analysis with boxplots, heatmaps and volcano plots | ✅ 可用 | `0.1.3` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/deseq2shiny) · [Docs](https://github.com/nasqar/deseq2shiny#readme) · [Release](https://github.com/nasqar/deseq2shiny/releases/tag/v0.1.3) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png" width="32" alt="ClusterProfShinyORA"> | **ClusterProfShinyORA**<br>Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plus Pathview plots and wordcloud | ✅ 可用 | `0.1.6` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/ClusterProfShinyORA) · [Docs](https://github.com/nasqar/ClusterProfShinyORA#readme) · [Release](https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.6) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/mutationexplorer.png" width="32" alt="MutationExplorer"> | **MutationExplorer**<br>Lightweight interactive exploration of somatic mutation data for cancer genomics | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cbrueffer/MutationExplorer) · [Docs](https://github.com/cbrueffer/MutationExplorer#readme) · [Release](https://github.com/cbrueffer/MutationExplorer/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png" width="32" alt="shiny-genome-stats"> | **shiny-genome-stats**<br>Basic feature statistics and visualization for microbial genomes | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/MPUSP/shiny-genome-stats) · [Docs](https://github.com/MPUSP/shiny-genome-stats#readme) · [Release](https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.0) |
@@ -392,7 +392,7 @@ Release: https://github.com/ColinFay/hexmake/releases/tag/v0.1.0
 
 </details>
 
-### explor `0.1.0`
+### explor `0.1.2`
 
 Interactive exploration of multivariate analysis results (PCA, MCA, CA) - a Shiny interface for FactoMineR / ade4 / MASS outputs
 
@@ -404,14 +404,14 @@ Interactive exploration of multivariate analysis results (PCA, MCA, CA) - a Shin
 | Copyright | (c) 2026 Julien Barnier |
 | R version | 4.6.1 |
 
-Release: https://juba.github.io/explor/releases/tag/v0.1.0
+Release: https://juba.github.io/explor/releases/tag/v0.1.2
 
 <details><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
-| `mac-arm64` | [explor-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/explor/releases/download/v0.1.0/explor-0.1.0-mac-arm64.zip) | 140.7 MB | `82e286d33205c81c854e4c2470f08e82129e8468524826de248b3c93abd49868` |
-| `win-x64` | [explor-0.1.0-win-x64.zip](https://github.com/fentouxungui/explor/releases/download/v0.1.0/explor-0.1.0-win-x64.zip) | 145.8 MB | `ce416454b166e60cb5ca6716b87046898156b1e62bba885d6edcc0bcd7cf6386` |
+| `mac-arm64` | [explor-0.1.2-mac-arm64.zip](https://github.com/fentouxungui/explor/releases/download/v0.1.2/explor-0.1.2-mac-arm64.zip) | 140.7 MB | `5485e29137d9e597091e915f1201f178d00b25f3dbb9b5d5b2df754854e08143` |
+| `win-x64` | [explor-0.1.2-win-x64.zip](https://github.com/fentouxungui/explor/releases/download/v0.1.2/explor-0.1.2-win-x64.zip) | 145.8 MB | `adf83be83de71211bf7de27bfb5d96316dccce427136c4b734746eec41e067a7` |
 
 </details>
 
@@ -459,7 +459,7 @@ Release: https://github.com/BIONF/PhyloProfile/releases/tag/v0.1.0
 
 </details>
 
-### deseq2shiny `0.1.0`
+### deseq2shiny `0.1.3`
 
 Web app for DESeq2 differential expression analysis with boxplots, heatmaps and volcano plots
 
@@ -470,14 +470,14 @@ Web app for DESeq2 differential expression analysis with boxplots, heatmaps and 
 | Copyright | (c) Nasqar |
 | R version | 4.6.1 |
 
-Release: https://github.com/nasqar/deseq2shiny/releases/tag/v0.1.0
+Release: https://github.com/nasqar/deseq2shiny/releases/tag/v0.1.3
 
 <details><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
-| `mac-arm64` | [deseq2shiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/deseq2shiny/releases/download/v0.1.0/deseq2shiny-0.1.0-mac-arm64.zip) | 224.1 MB | `82191f04db8c40d4e103902a926a15152bb0a2771ca8de8f05f182761ae27ccb` |
-| `win-x64` | [deseq2shiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/deseq2shiny/releases/download/v0.1.0/deseq2shiny-0.1.0-win-x64.zip) | 234.3 MB | `adf7f1a7d6163514fc9d6312a88639c454b975c8381e09ce070007d8984faef6` |
+| `mac-arm64` | [deseq2shiny-0.1.3-mac-arm64.zip](https://github.com/fentouxungui/deseq2shiny/releases/download/v0.1.3/deseq2shiny-0.1.3-mac-arm64.zip) | 236.0 MB | `f555dd6ea2af6382dc86f4af9d557a92b18f3c05a1619c8fe2cbb924b1acb654` |
+| `win-x64` | [deseq2shiny-0.1.3-win-x64.zip](https://github.com/fentouxungui/deseq2shiny/releases/download/v0.1.3/deseq2shiny-0.1.3-win-x64.zip) | 247.2 MB | `f08bc53a308a5015129bbe89a705a76e0dcd512c98b1a11b837c10ff02e9204a` |
 
 </details>
 
