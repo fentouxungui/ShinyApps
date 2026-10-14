@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-13T18:25:37Z",
+  "updated_at": "2026-10-14T08:38:05Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -651,17 +651,17 @@
         "kegg",
         "clusterprofiler"
       ],
-      "version": "0.1.0",
+      "version": "0.1.6",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.0/clusterprofshinyora-0.1.0-mac-arm64.zip",
-          "size": 326707693,
-          "sha256": "5e166bd3bb8f314d84bca06f5f05c34916e40d264ec1e1f23f2cf2cb17005d7b"
+          "url": "https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.6/clusterprofshinyora-0.1.6-mac-arm64.zip",
+          "size": 339112898,
+          "sha256": "541d6860e49a88efb64e0b2744c05fce3851cab853af493900296fb61390d888"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.0/clusterprofshinyora-0.1.0-win-x64.zip",
-          "size": 348732731,
-          "sha256": "d4443af5721f37035d28e65c5fff2baab00f6b120366c13f45307c14cde8e603"
+          "url": "https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.6/clusterprofshinyora-0.1.6-win-x64.zip",
+          "size": 362193371,
+          "sha256": "daa1638ec218c6bd9d814518731f5e8941213cffe04ade5f41e88a370d657645"
         }
       }
     },

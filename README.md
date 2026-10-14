@@ -4,7 +4,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 
 - **Apps:** 23
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-14 04:41:22 UTC
+- **Catalog last updated:** 2026-10-14 08:38:05 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -30,7 +30,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/biodosetools.png" width="32" alt="biodosetools"> | **biodosetools**<br>Statistical tools for biological dosimetry - chromosome aberration and micronucleus assays with dose estimation | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://biodosetools-team.github.io/biodosetools/) · [Docs](https://biodosetools-team.github.io/biodosetools/) · [Release](https://biodosetools-team.github.io/biodosetools/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/phyloprofile.png" width="32" alt="PhyloProfile"> | **PhyloProfile**<br>Phylogenetic profile analysis - compare presence/absence and domain architecture of genes across species | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/BIONF/PhyloProfile) · [Docs](https://github.com/BIONF/PhyloProfile#readme) · [Release](https://github.com/BIONF/PhyloProfile/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/deseq2shiny.png" width="32" alt="deseq2shiny"> | **deseq2shiny**<br>Web app for DESeq2 differential expression analysis with boxplots, heatmaps and volcano plots | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/deseq2shiny) · [Docs](https://github.com/nasqar/deseq2shiny#readme) · [Release](https://github.com/nasqar/deseq2shiny/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png" width="32" alt="ClusterProfShinyORA"> | **ClusterProfShinyORA**<br>Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plus Pathview plots and wordcloud | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/ClusterProfShinyORA) · [Docs](https://github.com/nasqar/ClusterProfShinyORA#readme) · [Release](https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png" width="32" alt="ClusterProfShinyORA"> | **ClusterProfShinyORA**<br>Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plus Pathview plots and wordcloud | ✅ 可用 | `0.1.6` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/ClusterProfShinyORA) · [Docs](https://github.com/nasqar/ClusterProfShinyORA#readme) · [Release](https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.6) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/mutationexplorer.png" width="32" alt="MutationExplorer"> | **MutationExplorer**<br>Lightweight interactive exploration of somatic mutation data for cancer genomics | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cbrueffer/MutationExplorer) · [Docs](https://github.com/cbrueffer/MutationExplorer#readme) · [Release](https://github.com/cbrueffer/MutationExplorer/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png" width="32" alt="shiny-genome-stats"> | **shiny-genome-stats**<br>Basic feature statistics and visualization for microbial genomes | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/MPUSP/shiny-genome-stats) · [Docs](https://github.com/MPUSP/shiny-genome-stats#readme) · [Release](https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.0) |
 
@@ -488,7 +488,7 @@ Release: https://github.com/nasqar/deseq2shiny/releases/tag/v0.1.0
 
 </details>
 
-### ClusterProfShinyORA `0.1.0`
+### ClusterProfShinyORA `0.1.6`
 
 Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plus Pathview plots and wordcloud
 
@@ -499,14 +499,14 @@ Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plu
 | Copyright | (c) Nasqar |
 | R version | 4.6.1 |
 
-Release: https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.0
+Release: https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.6
 
 <details><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
-| `mac-arm64` | [clusterprofshinyora-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.0/clusterprofshinyora-0.1.0-mac-arm64.zip) | 311.6 MB | `5e166bd3bb8f314d84bca06f5f05c34916e40d264ec1e1f23f2cf2cb17005d7b` |
-| `win-x64` | [clusterprofshinyora-0.1.0-win-x64.zip](https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.0/clusterprofshinyora-0.1.0-win-x64.zip) | 332.6 MB | `d4443af5721f37035d28e65c5fff2baab00f6b120366c13f45307c14cde8e603` |
+| `mac-arm64` | [clusterprofshinyora-0.1.6-mac-arm64.zip](https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.6/clusterprofshinyora-0.1.6-mac-arm64.zip) | 323.4 MB | `541d6860e49a88efb64e0b2744c05fce3851cab853af493900296fb61390d888` |
+| `win-x64` | [clusterprofshinyora-0.1.6-win-x64.zip](https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.6/clusterprofshinyora-0.1.6-win-x64.zip) | 345.4 MB | `daa1638ec218c6bd9d814518731f5e8941213cffe04ade5f41e88a370d657645` |
 
 </details>
 
