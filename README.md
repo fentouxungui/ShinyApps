@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 23
+- **Apps:** 21
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-14 12:07:00 UTC
+- **Catalog last updated:** 2026-10-14 13:40:45 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -31,8 +31,6 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/phyloprofile.png" width="32" alt="PhyloProfile"> | **PhyloProfile**<br>Phylogenetic profile analysis - compare presence/absence and domain architecture of genes across species | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/BIONF/PhyloProfile) · [Docs](https://github.com/BIONF/PhyloProfile#readme) · [Release](https://github.com/BIONF/PhyloProfile/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/deseq2shiny.png" width="32" alt="deseq2shiny"> | **deseq2shiny**<br>Web app for DESeq2 differential expression analysis with boxplots, heatmaps and volcano plots | ✅ 可用 | `0.1.3` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/deseq2shiny) · [Docs](https://github.com/nasqar/deseq2shiny#readme) · [Release](https://github.com/nasqar/deseq2shiny/releases/tag/v0.1.3) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png" width="32" alt="ClusterProfShinyORA"> | **ClusterProfShinyORA**<br>Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plus Pathview plots and wordcloud | ✅ 可用 | `0.1.6` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/ClusterProfShinyORA) · [Docs](https://github.com/nasqar/ClusterProfShinyORA#readme) · [Release](https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.6) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/mutationexplorer.png" width="32" alt="MutationExplorer"> | **MutationExplorer**<br>Lightweight interactive exploration of somatic mutation data for cancer genomics | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cbrueffer/MutationExplorer) · [Docs](https://github.com/cbrueffer/MutationExplorer#readme) · [Release](https://github.com/cbrueffer/MutationExplorer/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png" width="32" alt="shiny-genome-stats"> | **shiny-genome-stats**<br>Basic feature statistics and visualization for microbial genomes | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/MPUSP/shiny-genome-stats) · [Docs](https://github.com/MPUSP/shiny-genome-stats#readme) · [Release](https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.0) |
 
 ---
 
@@ -507,50 +505,6 @@ Release: https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.6
 |---|---|---:|---|
 | `mac-arm64` | [clusterprofshinyora-0.1.6-mac-arm64.zip](https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.6/clusterprofshinyora-0.1.6-mac-arm64.zip) | 323.4 MB | `541d6860e49a88efb64e0b2744c05fce3851cab853af493900296fb61390d888` |
 | `win-x64` | [clusterprofshinyora-0.1.6-win-x64.zip](https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.6/clusterprofshinyora-0.1.6-win-x64.zip) | 345.4 MB | `daa1638ec218c6bd9d814518731f5e8941213cffe04ade5f41e88a370d657645` |
-
-</details>
-
-### MutationExplorer `0.1.0`
-
-Lightweight interactive exploration of somatic mutation data for cancer genomics
-
-| Field | Value |
-|---|---|
-| Author | Christoffer Brueffer |
-| License | BSD-2-Clause |
-| Copyright | (c) Christoffer Brueffer |
-| R version | 4.6.1 |
-
-Release: https://github.com/cbrueffer/MutationExplorer/releases/tag/v0.1.0
-
-<details><summary>Downloads &amp; checksums</summary>
-
-| Platform | File | Size | SHA-256 |
-|---|---|---:|---|
-| `mac-arm64` | [mutationexplorer-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/MutationExplorer/releases/download/v0.1.0/mutationexplorer-0.1.0-mac-arm64.zip) | 583.4 MB | `2f2c8ae622db7cd7a91e4df78b7d2d0d6cffef83538e4cf629db57ce95baba25` |
-| `win-x64` | [mutationexplorer-0.1.0-win-x64.zip](https://github.com/fentouxungui/MutationExplorer/releases/download/v0.1.0/mutationexplorer-0.1.0-win-x64.zip) | 613.0 MB | `5997afd533c8ea2f5ecee2c460a5f33cac375d2652a516d4143aca3cb96f3eaa` |
-
-</details>
-
-### shiny-genome-stats `0.1.0`
-
-Basic feature statistics and visualization for microbial genomes
-
-| Field | Value |
-|---|---|
-| Author | MPUSP |
-| License | GPL-3.0 |
-| Copyright | (c) MPUSP |
-| R version | 4.6.1 |
-
-Release: https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.0
-
-<details><summary>Downloads &amp; checksums</summary>
-
-| Platform | File | Size | SHA-256 |
-|---|---|---:|---|
-| `mac-arm64` | [genome-stats-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.0/genome-stats-0.1.0-mac-arm64.zip) | 192.7 MB | `769f8f44499cd95696dc335723aec1e4f3bf9d6f06f0f7c60066b17575122426` |
-| `win-x64` | [genome-stats-0.1.0-win-x64.zip](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.0/genome-stats-0.1.0-win-x64.zip) | 216.0 MB | `39c19e94fac30cd717f5b3a41eccff8af37b8e1041c2fc5442959af77e318527` |
 
 </details>
 

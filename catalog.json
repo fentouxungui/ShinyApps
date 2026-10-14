@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-14T12:07:00Z",
+  "updated_at": "2026-10-14T13:40:45Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -662,67 +662,6 @@
           "url": "https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.6/clusterprofshinyora-0.1.6-win-x64.zip",
           "size": 362193371,
           "sha256": "daa1638ec218c6bd9d814518731f5e8941213cffe04ade5f41e88a370d657645"
-        }
-      }
-    },
-    {
-      "id": "mutationexplorer",
-      "name": "MutationExplorer",
-      "author": "Christoffer Brueffer",
-      "description": "Lightweight interactive exploration of somatic mutation data for cancer genomics",
-      "homepage": "https://github.com/cbrueffer/MutationExplorer",
-      "docs": "https://github.com/cbrueffer/MutationExplorer#readme",
-      "copyright": "(c) Christoffer Brueffer",
-      "license": "BSD-2-Clause",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/mutationexplorer.png",
-      "r_version": "4.6.1",
-      "tags": [
-        "cancer-genomics",
-        "mutations",
-        "visualization",
-        "survival"
-      ],
-      "version": "0.1.0",
-      "artifacts": {
-        "mac-arm64": {
-          "url": "https://github.com/fentouxungui/MutationExplorer/releases/download/v0.1.0/mutationexplorer-0.1.0-mac-arm64.zip",
-          "size": 611708959,
-          "sha256": "2f2c8ae622db7cd7a91e4df78b7d2d0d6cffef83538e4cf629db57ce95baba25"
-        },
-        "win-x64": {
-          "url": "https://github.com/fentouxungui/MutationExplorer/releases/download/v0.1.0/mutationexplorer-0.1.0-win-x64.zip",
-          "size": 642732519,
-          "sha256": "5997afd533c8ea2f5ecee2c460a5f33cac375d2652a516d4143aca3cb96f3eaa"
-        }
-      }
-    },
-    {
-      "id": "genome-stats",
-      "name": "shiny-genome-stats",
-      "author": "MPUSP",
-      "description": "Basic feature statistics and visualization for microbial genomes",
-      "homepage": "https://github.com/MPUSP/shiny-genome-stats",
-      "docs": "https://github.com/MPUSP/shiny-genome-stats#readme",
-      "copyright": "(c) MPUSP",
-      "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png",
-      "r_version": "4.6.1",
-      "tags": [
-        "microbial-genomics",
-        "genome-statistics",
-        "visualization"
-      ],
-      "version": "0.1.0",
-      "artifacts": {
-        "mac-arm64": {
-          "url": "https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.0/genome-stats-0.1.0-mac-arm64.zip",
-          "size": 202050621,
-          "sha256": "769f8f44499cd95696dc335723aec1e4f3bf9d6f06f0f7c60066b17575122426"
-        },
-        "win-x64": {
-          "url": "https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.0/genome-stats-0.1.0-win-x64.zip",
-          "size": 226494541,
-          "sha256": "39c19e94fac30cd717f5b3a41eccff8af37b8e1041c2fc5442959af77e318527"
         }
       }
     }
