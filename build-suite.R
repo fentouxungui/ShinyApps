@@ -2,12 +2,10 @@
 # Runs locally (Rscript build-suite.R) and in GitHub Actions.
 #
 # Prep (must exist before running):
-#   dependency/SeuratExplorer_<v>.tar.gz
-#   dependency/presto-1.1.0.tar.gz
-#   dependency/scConvertShiny_<v>.tar.gz
-#   dependency/scConvert_<v>.tar.gz
-#   icons/seurat-explorer.png, icons/scconvert.png
-#   _shinyelectron.yml, apps/seurat-explorer/app.R, apps/scconvert/app.R
+#   icons/ico/*.ico (Windows) or icons/mac/*.icns (macOS)
+#   _shinyelectron.yml, apps/welcome/app.R, apps/about/app.R
+# The shell bundles only R + shiny + zip; applications are delivered as store
+# bundles (catalog/apps.yml), not baked into the shell.
 #
 # The shell version is taken from the APP_VERSION env var (the release tag);
 # you never need to edit app.version in _shinyelectron.yml by hand.
@@ -44,23 +42,6 @@ if (grepl("^[0-9]+([.][0-9]+)*$", ver)) {
   message("APP_VERSION empty/not a version; keeping committed _shinyelectron.yml")
 }
 
-# ---- HDF5 for scConvert's configure step (macOS) ----------------------
-# scConvert compiles from source inside the bundled R runtime; its configure
-# needs HDF5. Provide it explicitly (mirrors the working scConvertShiny script).
-if (identical(tolower(Sys.info()[["sysname"]]), "darwin")) {
-  system("brew install hdf5 pkg-config")            # idempotent
-  h5 <- tryCatch(system("brew --prefix hdf5", intern = TRUE), error = function(e) character(0))
-  if (length(h5) == 1 && dir.exists(h5)) {
-    Sys.setenv(
-      PKG_CONFIG_PATH = file.path(h5, "lib", "pkgconfig"),
-      HDF5_CFLAGS     = paste0("-I", file.path(h5, "include")),
-      HDF5_LIBS       = paste0("-L", file.path(h5, "lib"), " -lhdf5")
-    )
-    message("HDF5 from Homebrew: ", h5)
-  } else {
-    warning("Homebrew hdf5 not found; scConvert may fail to configure.")
-  }
-}
 
 icon <- NULL
 if (.Platform$OS.type == "windows") {

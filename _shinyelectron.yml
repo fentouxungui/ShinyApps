@@ -37,34 +37,19 @@ signing:
   sign: false                      # enable later with CSC_LINK / CSC_KEY_PASSWORD
 
 dependencies:
-  # Full CRAN/Bioconductor closure + the two app package names.
-  # (renv auto-detect only sees `library(SeuratExplorer)` in app.R, not the
-  #  package's own Imports, so the closure must be listed explicitly.)
+  # The shell ships ONLY the R runtime plus the minimal packages the launcher and
+  # backend need. Each store app's bundle carries its own resolved closure
+  # (see shared-library-policy.md); the shell no longer bundles app packages.
+  # `shiny` is required by the R backend (shiny::runApp). `zip` is kept because
+  # the app-bundle CI excludes packages present in its own toolchain, so zip must
+  # be provided here when an app needs it at runtime.
   extra_packages:
-    - SeuratExplorer
-    - presto
-    - Seurat
-    - SeuratObject
-    - ggplot2
-    - DT
-    - scConvertShiny
-    - scConvert
-    - hdf5r
-    - crayon
     - shiny
-    - shinydashboard
-    - callr
     - zip
   r:
     # Lock the runtime R so the shell stays ABI-compatible with the app-layer
     # bundles published by build-app-bundle.yml (which uses the same 4.6.1).
     version: "4.6.1"
-    local_packages:
-      # Exactly the files committed under dependency/ (Option 1).
-      - "dependency/SeuratExplorer_0.1.9.tar.gz"
-      - "dependency/presto-1.1.0.tar.gz"
-      - "dependency/scConvertShiny_0.1.1.tar.gz"
-      - "dependency/scConvert-0.2.1.tar.gz"
 
 updates:
   enabled: true
@@ -81,14 +66,15 @@ optimize:
   r_runtime: true
 
 apps:
-  - id: seurat-explorer
-    name: "SeuratExplorer"
-    description: "Explore scRNA-seq data processed in Seurat"
-    path: "./apps/seurat-explorer"
-    # icon: "./icons/seurat-explorer.png"   # re-enable once icons are shipped
+  # Lightweight placeholder apps that keep the build a multi-app suite
+  # (is_multi_app requires >= 2 entries). Real applications are delivered as
+  # store bundles (catalog/apps.yml), not baked into the shell.
+  - id: welcome
+    name: "Welcome"
+    description: "ShinyApps launcher welcome"
+    path: "./apps/welcome"
 
-  - id: scconvert
-    name: "scConvertShiny"
-    description: "Convert single-cell formats (h5ad / h5Seurat / loom / MuData)"
-    path: "./apps/scconvert"
-    # icon: "./icons/scconvert.png"         # re-enable once icons are shipped
+  - id: about
+    name: "About"
+    description: "About ShinyApps"
+    path: "./apps/about"
