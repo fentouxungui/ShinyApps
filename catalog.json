@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-14T13:40:45Z",
+  "updated_at": "2026-10-15T10:03:27Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -25,13 +25,13 @@
       "artifacts": {
         "mac-arm64": {
           "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-mac-arm64.zip",
-          "size": 199752349,
-          "sha256": "1eeaf1bc2bc968cac7096914bfdeefae72089b87354e64cf3306361a59e01cc4"
+          "size": 221550961,
+          "sha256": "8eab6036c4c43ad4d4a43d55400731253c89439fbb4163001fc8cc6e7e7254f3"
         },
         "win-x64": {
           "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-win-x64.zip",
-          "size": 215708042,
-          "sha256": "f56c17ed50bec47469b84e2890b0edcf23af0e7680ae20c23dfe948ed7931500"
+          "size": 237667028,
+          "sha256": "6286d766838012f6bab53a57a1f2c75be1edadef68fd1627e8d0967542a3a8ce"
         }
       }
     },
@@ -53,17 +53,17 @@
         "formats",
         "io"
       ],
-      "version": "0.1.0",
+      "version": "0.1.2",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.0/scconvert-0.1.0-mac-arm64.zip",
-          "size": 198727223,
-          "sha256": "cd60276f0f59ed244c41743007f34c9ea9b92dbe642a9ad8007aab02afe83c62"
+          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.2/scconvert-0.1.2-mac-arm64.zip",
+          "size": 220535795,
+          "sha256": "1aa5c85e6992a73ac7f37830c83f1661ae1eefa27534e49153c57d25a6a2348c"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.0/scconvert-0.1.0-win-x64.zip",
-          "size": 214115760,
-          "sha256": "ce98e91772da9f9828dbd0a7af020bfef5130ffd895e82061625008a04bafeb8"
+          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.2/scconvert-0.1.2-win-x64.zip",
+          "size": 236082816,
+          "sha256": "7a842737c33abe7b938e390526b125d15fadb3004bbf332cebe4ba383bd0b0cb"
         }
       }
     },
