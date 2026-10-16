@@ -309,3 +309,20 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/stminsights.png"
     r_version: "4.6.1"
     tags: [topic-modeling,nlp,visualization,shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: pomashiny
+    repo: fentouxungui/POMAShiny
+    name: POMAShiny
+    author: "Pol Castellano-Escuder"
+    description: "Web-based workflow for metabolomics and proteomics data analysis"
+    homepage: "https://github.com/pcastellanoescuder/POMAShiny"
+    docs: "https://github.com/pcastellanoescuder/POMAShiny#readme"
+    copyright: "(c) 2020 Pol Castellano-Escuder"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/pomashiny.png"
+    r_version: "4.6.1"
+    tags: [metabolomics,proteomics,statistics,shiny]
