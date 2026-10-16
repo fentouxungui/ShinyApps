@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-15T10:03:27Z",
+  "updated_at": "2026-10-16T06:15:16Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -589,17 +589,17 @@
         "evolution",
         "bioinformatics"
       ],
-      "version": "0.1.0",
+      "version": "0.1.1",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/PhyloProfile/releases/download/v0.1.0/phyloprofile-0.1.0-mac-arm64.zip",
-          "size": 145917868,
-          "sha256": "37fc5c8f9aab63f103b6575a236f04fd133570c90739948611c3049ec6f65368"
+          "url": "https://github.com/fentouxungui/PhyloProfile/releases/download/v0.1.1/phyloprofile-0.1.1-mac-arm64.zip",
+          "size": 178482799,
+          "sha256": "c48a89652d7033f36fc4f2ef5e471f04a22d079992de88580063a99f6401d880"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/PhyloProfile/releases/download/v0.1.0/phyloprofile-0.1.0-win-x64.zip",
-          "size": 159743775,
-          "sha256": "02752f3c232fdca5d22ac9441e559d57460a469dc8660ee27565921159a61845"
+          "url": "https://github.com/fentouxungui/PhyloProfile/releases/download/v0.1.1/phyloprofile-0.1.1-win-x64.zip",
+          "size": 192362653,
+          "sha256": "fb2d1b74aec30d985b33427c28fdd7fcd408a442d94dccdca97e440a481c9128"
         }
       }
     },

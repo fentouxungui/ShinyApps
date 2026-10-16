@@ -4,7 +4,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 
 - **Apps:** 21
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-16 04:54:07 UTC
+- **Catalog last updated:** 2026-10-16 06:15:16 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -28,7 +28,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/hexmake.png" width="32" alt="hexmake"> | **hexmake**<br>Create hex stickers for R packages - design a hex, add a logo and text, and export the sticker as PNG/PDF | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/ColinFay/hexmake) · [Docs](https://github.com/ColinFay/hexmake#readme) · [Release](https://github.com/ColinFay/hexmake/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/explor.png" width="32" alt="explor"> | **explor**<br>Interactive exploration of multivariate analysis results (PCA, MCA, CA) - a Shiny interface for FactoMineR / ade4 / MASS outputs | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://juba.github.io/explor/) · [Docs](https://juba.github.io/explor/) · [Release](https://juba.github.io/explor/releases/tag/v0.1.2) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/biodosetools.png" width="32" alt="biodosetools"> | **biodosetools**<br>Statistical tools for biological dosimetry - chromosome aberration and micronucleus assays with dose estimation | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://biodosetools-team.github.io/biodosetools/) · [Docs](https://biodosetools-team.github.io/biodosetools/) · [Release](https://biodosetools-team.github.io/biodosetools/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/phyloprofile.png" width="32" alt="PhyloProfile"> | **PhyloProfile**<br>Phylogenetic profile analysis - compare presence/absence and domain architecture of genes across species | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/BIONF/PhyloProfile) · [Docs](https://github.com/BIONF/PhyloProfile#readme) · [Release](https://github.com/BIONF/PhyloProfile/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/phyloprofile.png" width="32" alt="PhyloProfile"> | **PhyloProfile**<br>Phylogenetic profile analysis - compare presence/absence and domain architecture of genes across species | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/BIONF/PhyloProfile) · [Docs](https://github.com/BIONF/PhyloProfile#readme) · [Release](https://github.com/BIONF/PhyloProfile/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/deseq2shiny.png" width="32" alt="deseq2shiny"> | **deseq2shiny**<br>Web app for DESeq2 differential expression analysis with boxplots, heatmaps and volcano plots | ✅ 可用 | `0.1.3` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/deseq2shiny) · [Docs](https://github.com/nasqar/deseq2shiny#readme) · [Release](https://github.com/nasqar/deseq2shiny/releases/tag/v0.1.3) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png" width="32" alt="ClusterProfShinyORA"> | **ClusterProfShinyORA**<br>Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plus Pathview plots and wordcloud | ✅ 可用 | `0.1.6` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/ClusterProfShinyORA) · [Docs](https://github.com/nasqar/ClusterProfShinyORA#readme) · [Release](https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.6) |
 
@@ -442,7 +442,7 @@ Release: https://biodosetools-team.github.io/biodosetools/releases/tag/v0.1.0
 
 </details>
 
-### PhyloProfile `0.1.0`
+### PhyloProfile `0.1.1`
 
 Phylogenetic profile analysis - compare presence/absence and domain architecture of genes across species
 
@@ -453,14 +453,14 @@ Phylogenetic profile analysis - compare presence/absence and domain architecture
 | Copyright | (c) 2024 Vinh Tran |
 | R version | 4.6.1 |
 
-Release: https://github.com/BIONF/PhyloProfile/releases/tag/v0.1.0
+Release: https://github.com/BIONF/PhyloProfile/releases/tag/v0.1.1
 
 <details><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
-| `mac-arm64` | [phyloprofile-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/PhyloProfile/releases/download/v0.1.0/phyloprofile-0.1.0-mac-arm64.zip) | 139.2 MB | `37fc5c8f9aab63f103b6575a236f04fd133570c90739948611c3049ec6f65368` |
-| `win-x64` | [phyloprofile-0.1.0-win-x64.zip](https://github.com/fentouxungui/PhyloProfile/releases/download/v0.1.0/phyloprofile-0.1.0-win-x64.zip) | 152.3 MB | `02752f3c232fdca5d22ac9441e559d57460a469dc8660ee27565921159a61845` |
+| `mac-arm64` | [phyloprofile-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/PhyloProfile/releases/download/v0.1.1/phyloprofile-0.1.1-mac-arm64.zip) | 170.2 MB | `c48a89652d7033f36fc4f2ef5e471f04a22d079992de88580063a99f6401d880` |
+| `win-x64` | [phyloprofile-0.1.1-win-x64.zip](https://github.com/fentouxungui/PhyloProfile/releases/download/v0.1.1/phyloprofile-0.1.1-win-x64.zip) | 183.5 MB | `fb2d1b74aec30d985b33427c28fdd7fcd408a442d94dccdca97e440a481c9128` |
 
 </details>
 
