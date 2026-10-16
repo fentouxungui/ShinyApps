@@ -378,3 +378,20 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png"
     r_version: "4.6.1"
     tags: [microbial-genomics, genome, visualization, shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: metaboseek
+    repo: fentouxungui/Metaboseek
+    name: Metaboseek
+    author: "Maximilian Helf"
+    description: "Interactive analysis and browsing of mass spectrometry data"
+    homepage: "https://metaboseek.com"
+    docs: "https://github.com/mjhelf/Metaboseek#readme"
+    copyright: "(c) 2017 Maximilian Helf"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png"
+    r_version: "4.6.1"
+    tags: [mass-spectrometry,metabolomics,visualization,shiny]
