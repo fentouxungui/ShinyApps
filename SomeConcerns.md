@@ -13,7 +13,14 @@ Readme和wiki中，添加信息：如果你想上架自己的app，或者想上�
 收录一些ShinyApps不方便上架的、或者无法上架的，但是已经在其它地方上架的Apps，列出这些app的信息，及使用链接，作为一个数据库集成到ShinyApps中，供大家检索和通过网页链接来访问。可能需要要定制shinyelectron
 
 - [ ] ShinyApps and skills
--调研 CRAN/BiocManager 中有哪些值得上架的Shiny app R包，并且可行性要足够。
+调研 CRAN/BiocManager 中有哪些值得上架的Shiny app R包，并且可行性要足够。
+
+- [ ] ShinyApps and skills
+调研 CRAN/BiocManager 中有哪些包可以较容易的打包为Shiny App，可参考我将scConvert包装为scConvertShiny的过程。
+
+- [ ] ShinyApps and skills
+
+  调研已发表的文献，有哪些哪些值得上架的Shiny app R包（未被CRAN/BiocManager收录的），并且可行性要足够。
 
 - [x] skill
 我在ShinyApps中测试ClusterProfShinyORA 时，发现app无法正常启动成功，请参考更新后的onboarding skill更新一下fentouxungui/ClusterProfShinyORA里的build app bundle workflow，加入冒烟测试job，然后重新release一下，测试一下新加入的冒烟测试工作能否正常运行，并且发现问题，最后如果发现了问题，请协助解决问题。
@@ -32,3 +39,5 @@ Readme和wiki中，添加信息：如果你想上架自己的app，或者想上�
 - [x] shinyelectron
 可不可以加一个手动下载功能，就是自行从某个app的release页面下载bundle页面到本地，然后，让ShinyApps安装本地的软件，安装需要检查是否符合条件，比如R版本，并且允许安装非ShinyApps上架的App。
 
+- [ ] shinyelectron
+  目前ShinyApps只允许使用一个Catalog URL，后续考虑允许使用多个，对于Catalog里面重复的app id进行处理，按照Catalog URL的优先顺序，仅保留优先出现的app。
