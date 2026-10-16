@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-16T08:52:08Z",
+  "updated_at": "2026-10-16T09:02:11Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -724,6 +724,99 @@
           "url": "https://github.com/fentouxungui/POMAShiny/releases/download/v0.1.0/pomashiny-0.1.0-win-x64.zip",
           "size": 470520812,
           "sha256": "66ed71e9651c1fc13396124c1d161bb393a3fefaa80861821e6f77af208feefb"
+        }
+      }
+    },
+    {
+      "id": "portfoliooptimizer",
+      "name": "Portfolio Optimizer",
+      "author": "Marc Schoenhart",
+      "description": "Portfolio optimization and Black-Litterman allocation",
+      "homepage": "https://github.com/mschoenhart/portfoliooptimizer",
+      "docs": "https://github.com/mschoenhart/portfoliooptimizer#readme",
+      "copyright": "(c) 2021 Marc Schoenhart",
+      "license": "MIT",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/portfoliooptimizer.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "finance",
+        "portfolio",
+        "optimization",
+        "shiny"
+      ],
+      "version": "0.1.4",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/portfoliooptimizer/releases/download/v0.1.4/portfoliooptimizer-0.1.4-mac-arm64.zip",
+          "size": 146556022,
+          "sha256": "85ef47ce6b26fa2508d4a33f8f14dad8ae833f081222636f3689ab8beea1c20e"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/portfoliooptimizer/releases/download/v0.1.4/portfoliooptimizer-0.1.4-win-x64.zip",
+          "size": 160783795,
+          "sha256": "1ba81ca4fde02a74df8cceac1d4070e752beae550fa1f04381f1104321c36343"
+        }
+      }
+    },
+    {
+      "id": "pepfunk",
+      "name": "pepFunk",
+      "author": "northomics (iMetaLab)",
+      "description": "Peptide-centric functional enrichment workflow for metaproteomics",
+      "homepage": "https://github.com/northomics/pepFunk",
+      "docs": "https://github.com/northomics/pepFunk#readme",
+      "copyright": "(c) 2021 pepFunk authors",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/pepfunk.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "metaproteomics",
+        "enrichment",
+        "kegg",
+        "shiny"
+      ],
+      "version": "0.1.1",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/pepFunk/releases/download/v0.1.1/pepfunk-0.1.1-mac-arm64.zip",
+          "size": 342340833,
+          "sha256": "61851bf8c137aa34618d8f35a71fff0a20f3c3576433b41a709045c862f86171"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/pepFunk/releases/download/v0.1.1/pepfunk-0.1.1-win-x64.zip",
+          "size": 360306072,
+          "sha256": "2d573ca0339d470b28bedb70fd434ff1541d7e21c2779b4fc73881470e894585"
+        }
+      }
+    },
+    {
+      "id": "miadash",
+      "name": "miaDash",
+      "author": "Giulio Benedetti, Leo Lahti",
+      "description": "Dashboard for interactive analysis and exploration of microbiome data (mia + iSEE)",
+      "homepage": "https://github.com/microbiome/miaDash",
+      "docs": "https://microbiome.github.io/miaDash/",
+      "copyright": "(c) 2024 Giulio Benedetti",
+      "license": "Artistic-2.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/miadash.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "microbiome",
+        "dashboard",
+        "bioconductor",
+        "shiny"
+      ],
+      "version": "0.1.1",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/miaDash/releases/download/v0.1.1/miadash-0.1.1-mac-arm64.zip",
+          "size": 335969909,
+          "sha256": "ac5c01943ade22afa0e4c817ba679957ea80348aed86653ebd79b69581f16fd9"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/miaDash/releases/download/v0.1.1/miadash-0.1.1-win-x64.zip",
+          "size": 332587159,
+          "sha256": "d28a1bf08713a0fbb4d6d7514563aec05a83df3ab0e59ac9dace69f72e1bc3e5"
         }
       }
     }

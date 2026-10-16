@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 23
+- **Apps:** 26
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-16 08:52:08 UTC
+- **Catalog last updated:** 2026-10-16 09:02:11 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -33,6 +33,9 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png" width="32" alt="ClusterProfShinyORA"> | **ClusterProfShinyORA**<br>Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plus Pathview plots and wordcloud | ✅ 可用 | `0.1.6` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/ClusterProfShinyORA) · [Docs](https://github.com/nasqar/ClusterProfShinyORA#readme) · [Release](https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.6) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/stminsights.png" width="32" alt="stminsights"> | **stminsights**<br>Interactive validation and visualization of structural topic models (stm) | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://cschwem2er.github.io/stminsights) · [Docs](https://cschwem2er.github.io/stminsights) · [Release](https://cschwem2er.github.io/stminsights/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/pomashiny.png" width="32" alt="POMAShiny"> | **POMAShiny**<br>Web-based workflow for metabolomics and proteomics data analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/pcastellanoescuder/POMAShiny) · [Docs](https://github.com/pcastellanoescuder/POMAShiny#readme) · [Release](https://github.com/pcastellanoescuder/POMAShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/portfoliooptimizer.png" width="32" alt="Portfolio Optimizer"> | **Portfolio Optimizer**<br>Portfolio optimization and Black-Litterman allocation | ✅ 可用 | `0.1.4` | `mac-arm64`, `win-x64` | [Home](https://github.com/mschoenhart/portfoliooptimizer) · [Docs](https://github.com/mschoenhart/portfoliooptimizer#readme) · [Release](https://github.com/mschoenhart/portfoliooptimizer/releases/tag/v0.1.4) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/pepfunk.png" width="32" alt="pepFunk"> | **pepFunk**<br>Peptide-centric functional enrichment workflow for metaproteomics | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/northomics/pepFunk) · [Docs](https://github.com/northomics/pepFunk#readme) · [Release](https://github.com/northomics/pepFunk/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/miadash.png" width="32" alt="miaDash"> | **miaDash**<br>Dashboard for interactive analysis and exploration of microbiome data (mia + iSEE) | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/microbiome/miaDash) · [Docs](https://microbiome.github.io/miaDash/) · [Release](https://github.com/microbiome/miaDash/releases/tag/v0.1.1) |
 
 ---
 
@@ -551,6 +554,72 @@ Release: https://github.com/pcastellanoescuder/POMAShiny/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [pomashiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/POMAShiny/releases/download/v0.1.0/pomashiny-0.1.0-mac-arm64.zip) | 433.5 MB | `8995bce227f2e6dd30dff9135b27581d0331725512b9b376946450ec9f393af8` |
 | `win-x64` | [pomashiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/POMAShiny/releases/download/v0.1.0/pomashiny-0.1.0-win-x64.zip) | 448.7 MB | `66ed71e9651c1fc13396124c1d161bb393a3fefaa80861821e6f77af208feefb` |
+
+</details>
+
+### Portfolio Optimizer `0.1.4`
+
+Portfolio optimization and Black-Litterman allocation
+
+| Field | Value |
+|---|---|
+| Author | Marc Schoenhart |
+| License | MIT |
+| Copyright | (c) 2021 Marc Schoenhart |
+| R version | 4.6.1 |
+
+Release: https://github.com/mschoenhart/portfoliooptimizer/releases/tag/v0.1.4
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [portfoliooptimizer-0.1.4-mac-arm64.zip](https://github.com/fentouxungui/portfoliooptimizer/releases/download/v0.1.4/portfoliooptimizer-0.1.4-mac-arm64.zip) | 139.8 MB | `85ef47ce6b26fa2508d4a33f8f14dad8ae833f081222636f3689ab8beea1c20e` |
+| `win-x64` | [portfoliooptimizer-0.1.4-win-x64.zip](https://github.com/fentouxungui/portfoliooptimizer/releases/download/v0.1.4/portfoliooptimizer-0.1.4-win-x64.zip) | 153.3 MB | `1ba81ca4fde02a74df8cceac1d4070e752beae550fa1f04381f1104321c36343` |
+
+</details>
+
+### pepFunk `0.1.1`
+
+Peptide-centric functional enrichment workflow for metaproteomics
+
+| Field | Value |
+|---|---|
+| Author | northomics (iMetaLab) |
+| License | GPL-3.0 |
+| Copyright | (c) 2021 pepFunk authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/northomics/pepFunk/releases/tag/v0.1.1
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [pepfunk-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/pepFunk/releases/download/v0.1.1/pepfunk-0.1.1-mac-arm64.zip) | 326.5 MB | `61851bf8c137aa34618d8f35a71fff0a20f3c3576433b41a709045c862f86171` |
+| `win-x64` | [pepfunk-0.1.1-win-x64.zip](https://github.com/fentouxungui/pepFunk/releases/download/v0.1.1/pepfunk-0.1.1-win-x64.zip) | 343.6 MB | `2d573ca0339d470b28bedb70fd434ff1541d7e21c2779b4fc73881470e894585` |
+
+</details>
+
+### miaDash `0.1.1`
+
+Dashboard for interactive analysis and exploration of microbiome data (mia + iSEE)
+
+| Field | Value |
+|---|---|
+| Author | Giulio Benedetti, Leo Lahti |
+| License | Artistic-2.0 |
+| Copyright | (c) 2024 Giulio Benedetti |
+| R version | 4.6.1 |
+
+Release: https://github.com/microbiome/miaDash/releases/tag/v0.1.1
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [miadash-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/miaDash/releases/download/v0.1.1/miadash-0.1.1-mac-arm64.zip) | 320.4 MB | `ac5c01943ade22afa0e4c817ba679957ea80348aed86653ebd79b69581f16fd9` |
+| `win-x64` | [miadash-0.1.1-win-x64.zip](https://github.com/fentouxungui/miaDash/releases/download/v0.1.1/miadash-0.1.1-win-x64.zip) | 317.2 MB | `d28a1bf08713a0fbb4d6d7514563aec05a83df3ab0e59ac9dace69f72e1bc3e5` |
 
 </details>
 
