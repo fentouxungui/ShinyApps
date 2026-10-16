@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShinyApps User Guide</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1e293b; --muted:#64748b; --card:#f8fafc; --border:#e2e8f0;
+    --brand:#2563eb; --code:#f1f5f9; --code-fg:#0f172a; --link:#2563eb;
+  }
+  :root[data-theme="dark"]{
+    --bg:#0f172a; --fg:#e2e8f0; --muted:#94a3b8; --card:#1e293b; --border:#334155;
+    --brand:#60a5fa; --code:#1e293b; --code-fg:#e2e8f0; --link:#60a5fa;
+  }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; background:var(--bg); color:var(--fg);
+    font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Microsoft YaHei","PingFang SC",sans-serif; }
+  header{ position:sticky; top:0; z-index:10; display:flex; align-items:center; gap:12px;
+    padding:12px 24px; background:var(--card); border-bottom:1px solid var(--border); }
+  header h1{ font-size:16px; margin:0; font-weight:600; flex:1; }
+  .langs{ display:flex; gap:6px; }
+  .langs button{ font:inherit; font-size:13px; padding:4px 12px; border:1px solid var(--border);
+    background:var(--bg); color:var(--fg); border-radius:8px; cursor:pointer; }
+  .langs button.active{ background:var(--brand); border-color:var(--brand); color:#fff; }
+  main{ max-width:860px; margin:0 auto; padding:28px 24px 80px; }
+  h2{ font-size:20px; margin:32px 0 10px; }
+  h3{ font-size:16px; margin:20px 0 8px; }
+  p,li{ color:var(--fg); }
+  ul,ol{ padding-left:22px; }
+  li{ margin:3px 0; }
+  a{ color:var(--link); }
+  code{ background:var(--code); color:var(--code-fg); padding:1px 5px; border-radius:5px; font-size:13px; }
+  table{ border-collapse:collapse; width:100%; margin:10px 0; }
+  th,td{ text-align:left; padding:6px 10px; border-bottom:1px solid var(--border); }
+  .lead{ color:var(--muted); }
+  .note{ background:var(--card); border:1px solid var(--border); border-radius:10px; padding:10px 14px; margin:12px 0; color:var(--muted); }
+  footer{ border-top:1px solid var(--border); padding:18px 24px; color:var(--muted); font-size:13px; }
+  footer a{ margin-right:16px; }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="ui-title">ShinyApps User Guide</h1>
+  <div class="langs">
+    <button id="btn-en" type="button">English</button>
+    <button id="btn-zh" type="button">中文</button>
+  </div>
+</header>
+
+<!-- ============================ ENGLISH ============================ -->
+<main id="lang-en">
+  <p class="lead">ShinyApps is a lightweight desktop <b>app store for R / Shiny applications</b>.
+  The installed program (the <i>shell</i>) provides a launcher, a shared R runtime and an installer.
+  Individual apps are downloaded <b>on demand</b> from an online catalog, so new apps appear without
+  reinstalling ShinyApps.</p>
+
+  <h2>1. Getting ShinyApps</h2>
+  <h3>Download</h3>
+  <p>Go to the Releases page: <a href="https://github.com/fentouxungui/ShinyApps/releases" target="_blank" rel="noopener">github.com/fentouxungui/ShinyApps/releases</a></p>
+  <ul>
+    <li><b>Windows:</b> download <code>shinyapps-Setup-&lt;version&gt;-x64.exe</code>.</li>
+    <li><b>macOS (Apple silicon):</b> download the <code>.dmg</code>.</li>
+  </ul>
+  <h3>Install</h3>
+  <ul>
+    <li><b>Windows:</b> run the installer; you may choose the installation folder.</li>
+    <li><b>macOS:</b> open the <code>.dmg</code> and drag <b>ShinyApps</b> into <b>Applications</b>.</li>
+  </ul>
+  <h3>First launch (unsigned builds)</h3>
+  <ul>
+    <li><b>Windows:</b> SmartScreen may show <i>"Windows protected your PC"</i> &rarr; <b>More info &rarr; Run anyway</b>.</li>
+    <li><b>macOS:</b> Gatekeeper may block it &rarr; <b>right-click the app &rarr; Open</b>, or allow it in <b>System Settings &rarr; Privacy &amp; Security</b>.</li>
+  </ul>
+
+  <h2>2. Updating ShinyApps (the shell)</h2>
+  <ul>
+    <li>ShinyApps checks for a new shell version at startup and downloads it automatically.</li>
+    <li>Automatically <i>installing</i> an update requires a <b>signed</b> build. On unsigned builds the update can be downloaded but Windows/macOS will refuse to apply it &mdash; update by re-running the latest installer from Releases.</li>
+    <li>Your installed apps and settings are kept across updates.</li>
+  </ul>
+
+  <h2>3. The launcher at a glance</h2>
+  <ul>
+    <li>Every catalog app is a <b>card</b> (or a <b>row</b> in <i>List</i> view).</li>
+    <li><b>Search</b> by name, description or author (<code>Ctrl/Cmd+F</code>).</li>
+    <li><b>Filters:</b> tag, <b>Sort</b> (Name / Recently used / Most used), <b>Favorites</b> (&starf;), <b>Clear</b>.</li>
+    <li>Favorites are pinned to the top; <b>Apps &rarr; Quick Run</b> lists favorites / most-used first.</li>
+    <li>Toggle <b>Cards / List</b> layout (remembered).</li>
+    <li><b>Manage apps</b> opens the manager (tabs: Installed / All / Updates / Running).</li>
+  </ul>
+
+  <h2>4. Installing apps</h2>
+  <h3>From the catalog</h3>
+  <ol><li>Find the app and click <b>Install</b>.</li>
+      <li>The card shows live progress: <b>download % &rarr; verify &rarr; install</b>.</li>
+      <li>When it finishes, the card shows <b>Run</b>.</li></ol>
+  <h3>From a file</h3>
+  <p><b>Apps &rarr; Install from Bundle&hellip;</b> (or <b>Install from file&hellip;</b> in the manager), then pick a <code>*.zip</code> bundle.</p>
+  <h3>From a URL</h3>
+  <p><b>Apps &rarr; Install from URL&hellip;</b>, paste a direct link to a bundle <code>.zip</code>.</p>
+  <div class="note">Downloads are resumable and verified (size + SHA-256) before installing. Only one
+  install/update/uninstall runs at a time; a banner lets you <b>Cancel</b> the current one.</div>
+
+  <h2>5. Running apps</h2>
+  <ul>
+    <li>Click <b>Run</b> (or <b>Open</b> if already loaded). Only <b>one app runs at a time</b>.</li>
+    <li>Return with <b>Apps &rarr; Back to Launcher</b> or <code>Ctrl/Cmd+L</code>; unsaved work is confirmed first.</li>
+    <li>Closing the app window / quitting ShinyApps stops the running app.</li>
+  </ul>
+
+  <h2>6. Updating apps</h2>
+  <ul>
+    <li>On every launch, ShinyApps compares each installed app with the catalog.</li>
+    <li>If a newer version exists, the card shows <b>Update</b> (and <b>Manage apps (N)</b> shows the count). Click it: the app is stopped, the new bundle is fetched and verified, then swapped in place.</li>
+    <li>Updating an app does <b>not</b> touch your app data.</li>
+  </ul>
+
+  <h2>7. Uninstalling apps</h2>
+  <ul>
+    <li>Open the card's <b>&hellip;</b> menu &rarr; <b>Uninstall</b> (or use the manager), then confirm.</li>
+    <li>This removes the installed copy and its private packages. <b>Your app data is kept.</b></li>
+    <li>To remove ShinyApps itself, see section 12.</li>
+  </ul>
+
+  <h2>8. Storage and clean-up</h2>
+  <ul>
+    <li><b>Settings &rarr; Storage&hellip;</b> shows installed apps, shared packages, download cache, incomplete items and free disk.</li>
+    <li><b>Clean up</b> removes the download cache and unused shared packages.</li>
+    <li><b>Open folder</b> opens the data directory in your file manager.</li>
+    <li><b>Reset local data&hellip;</b> removes all installed apps, shared packages, caches and logs (settings are kept); a progress overlay is shown.</li>
+  </ul>
+
+  <h2>9. Changing the app data directory</h2>
+  <p>By default, apps and data live under <code>%LOCALAPPDATA%\ShinyApps</code> (Windows) or the app's
+  application-support folder (macOS). To move them:</p>
+  <ol>
+    <li><b>Settings &rarr; App Data Location&hellip;</b> (or <b>Storage&hellip; &rarr; Change data location&hellip;</b>).</li>
+    <li>Choose a folder.</li>
+    <li><b>Move existing data</b> (copies apps and libraries) or <b>Use empty folder</b> (start fresh).
+        If the folder already holds ShinyApps data: <b>Use existing data</b> or <b>Overwrite with current data</b>.</li>
+    <li>ShinyApps <b>restarts</b> to apply the change.</li>
+  </ol>
+
+  <h2>10. Appearance and privacy</h2>
+  <ul>
+    <li><b>Settings &rarr; Theme:</b> System / Light / Dark.</li>
+    <li><b>Settings &rarr; Save Crash Reports Locally:</b> writes crash reports to the local <code>crashes</code> folder. They are <b>never uploaded automatically</b>.</li>
+  </ul>
+
+  <h2>11. Logs and diagnostics</h2>
+  <ul>
+    <li><b>Help &rarr; View Logs</b> opens the log folder.</li>
+    <li>Per app, the <b>&hellip;</b> menu offers <b>View log</b>, <b>Open app folder</b>, <b>Copy diagnostics</b>.</li>
+    <li>Logs (and crash reports) are the first thing to include when reporting a problem.</li>
+  </ul>
+
+  <h2>12. Uninstalling ShinyApps</h2>
+  <ul>
+    <li><b>Settings &rarr; Uninstall ShinyApps&hellip;</b>.</li>
+    <li>Choose <b>Uninstall</b> (keep apps &amp; data) or <b>Uninstall and remove all apps &amp; data</b>.</li>
+    <li>If ShinyApps was not installed from a release, no uninstaller exists &mdash; remove the app folder manually.</li>
+  </ul>
+
+  <h2>13. Reporting a bug / getting help</h2>
+  <ol>
+    <li>Reproduce the problem and note exactly what you did and what happened.</li>
+    <li><b>Help &rarr; View Logs</b>; copy the relevant log, plus any crash report from the <code>crashes</code> folder.</li>
+    <li>Open an issue: <a href="https://github.com/fentouxungui/ShinyApps/issues" target="_blank" rel="noopener">github.com/fentouxungui/ShinyApps/issues</a> with:
+      <ul>
+        <li>ShinyApps version (<b>Help &rarr; About</b>) and your OS;</li>
+        <li>the app name/version if app-specific;</li>
+        <li>steps to reproduce, expected vs. actual;</li>
+        <li>the relevant log excerpt.</li>
+      </ul>
+    </li>
+  </ol>
+
+  <h2>14. Keyboard shortcuts</h2>
+  <table>
+    <tr><th>Shortcut</th><th>Action</th></tr>
+    <tr><td><code>Ctrl/Cmd+F</code></td><td>Focus search (opens the manager)</td></tr>
+    <tr><td><code>Ctrl/Cmd+L</code></td><td>Back to Launcher</td></tr>
+    <tr><td><code>Ctrl/Cmd+Shift+M</code></td><td>Manage apps</td></tr>
+  </table>
+
+  <h2>15. Where things are stored</h2>
+  <ul>
+    <li><b>Data root</b> (changeable in Settings): Windows <code>%LOCALAPPDATA%\ShinyApps</code>; macOS the app support folder.</li>
+    <li><code>apps/&lt;id&gt;/</code> each installed app &middot; <code>lib/</code> shared packages &middot; <code>private/</code> app-private packages &middot; <code>store-cache/</code> download cache &middot; <code>state.json</code> state.</li>
+    <li>Logs and crash reports live in the shell's user-data folder (<code>logs/</code>, <code>crashes/</code>).</li>
+  </ul>
+
+  <h2>16. Glossary</h2>
+  <ul>
+    <li><b>Shell</b> &mdash; the installed ShinyApps program.</li>
+    <li><b>Catalog</b> &mdash; the online list of available apps.</li>
+    <li><b>Bundle</b> &mdash; a <code>&lt;id&gt;-&lt;version&gt;-&lt;platform&gt;.zip</code> holding <code>app/</code> + <code>rlib/</code> + <code>manifest.json</code>.</li>
+    <li><b>Shared library</b> &mdash; packages used by two or more apps, stored once.</li>
+  </ul>
+</main>
+
+<!-- ============================ 中文 ============================ -->
+<main id="lang-zh" hidden>
+  <p class="lead">ShinyApps 是一个轻量的桌面 <b>R / Shiny 应用商店</b>。已安装的程序（<i>外壳</i>）提供启动器、
+  共享 R 运行时和安装器；各个应用从在线目录<b>按需下载</b>，因此新增应用无需重新安装 ShinyApps。</p>
+
+  <h2>1. 获取 ShinyApps</h2>
+  <h3>下载</h3>
+  <p>打开 Releases 页面：<a href="https://github.com/fentouxungui/ShinyApps/releases" target="_blank" rel="noopener">github.com/fentouxungui/ShinyApps/releases</a></p>
+  <ul>
+    <li><b>Windows：</b>下载 <code>shinyapps-Setup-&lt;版本&gt;-x64.exe</code>。</li>
+    <li><b>macOS（Apple 芯片）：</b>下载 <code>.dmg</code>。</li>
+  </ul>
+  <h3>安装</h3>
+  <ul>
+    <li><b>Windows：</b>运行安装程序，可选择安装目录。</li>
+    <li><b>macOS：</b>打开 <code>.dmg</code>，把 <b>ShinyApps</b> 拖入 <b>应用程序</b>。</li>
+  </ul>
+  <h3>首次启动（未签名版本）</h3>
+  <ul>
+    <li><b>Windows：</b>SmartScreen 可能提示“Windows 已保护你的电脑” &rarr; <b>更多信息 &rarr; 仍要运行</b>。</li>
+    <li><b>macOS：</b>Gatekeeper 可能拦截 &rarr; <b>右键应用 &rarr; 打开</b>，或在 <b>系统设置 &rarr; 隐私与安全性</b> 中放行。</li>
+  </ul>
+
+  <h2>2. 更新 ShinyApps（外壳）</h2>
+  <ul>
+    <li>启动时会检查是否有新的外壳版本并自动下载。</li>
+    <li>自动<i>安装</i>更新需要<b>已签名</b>构建。未签名版本能下载更新，但 Windows/macOS 会拒绝应用 &mdash; 请从 Releases 重新运行最新安装程序来更新。</li>
+    <li>更新不会影响已安装的应用与设置。</li>
+  </ul>
+
+  <h2>3. 启动页导览</h2>
+  <ul>
+    <li>目录中的每个应用是一张<b>卡片</b>（<i>列表</i>视图下为一行）。</li>
+    <li>按名称、描述或作者<b>搜索</b>（<code>Ctrl/Cmd+F</code>）。</li>
+    <li><b>筛选：</b>标签、<b>排序</b>（名称 / 最近使用 / 最常用）、<b>收藏</b>（&starf;）、<b>清除</b>。</li>
+    <li>收藏会置顶；<b>Apps &rarr; Quick Run</b> 把收藏 / 最常用排在前面。</li>
+    <li>切换<b>卡片 / 列表</b>布局（会记住）。</li>
+    <li><b>Manage apps</b> 打开管理视图（标签页：Installed / All / Updates / Running）。</li>
+  </ul>
+
+  <h2>4. 安装应用</h2>
+  <h3>从目录安装</h3>
+  <ol><li>找到应用，点击 <b>Install</b>。</li>
+      <li>卡片显示实时进度：<b>下载 % &rarr; 校验 &rarr; 安装</b>。</li>
+      <li>完成后卡片显示 <b>Run</b>。</li></ol>
+  <h3>从文件安装</h3>
+  <p><b>Apps &rarr; Install from Bundle&hellip;</b>（或管理视图里的 <b>Install from file&hellip;</b>），选择 <code>*.zip</code> 捆绑包。</p>
+  <h3>从 URL 安装</h3>
+  <p><b>Apps &rarr; Install from URL&hellip;</b>，粘贴捆绑包 <code>.zip</code> 的直接链接。</p>
+  <div class="note">下载支持断点续传，并在安装前校验（大小 + SHA-256）。同一时刻只运行一个 安装/更新/卸载
+  任务；横幅上可 <b>Cancel</b> 当前任务。</div>
+
+  <h2>5. 运行应用</h2>
+  <ul>
+    <li>点击 <b>Run</b>（若已加载则显示 <b>Open</b>）。同一时刻仅运行<b>一个应用</b>。</li>
+    <li>用 <b>Apps &rarr; Back to Launcher</b> 或 <code>Ctrl/Cmd+L</code> 返回；若有未保存内容会先确认。</li>
+    <li>关闭应用窗口 / 退出 ShinyApps 会停止正在运行的应用。</li>
+  </ul>
+
+  <h2>6. 更新应用</h2>
+  <ul>
+    <li>每次启动都会把已安装应用与目录对比。</li>
+    <li>若有新版本，卡片显示 <b>Update</b>（<b>Manage apps (N)</b> 显示数量）。点击后：停止该应用 &rarr; 拉取并校验新捆绑包 &rarr; 原地替换。</li>
+    <li>更新应用<b>不会</b>动到你的应用数据。</li>
+  </ul>
+
+  <h2>7. 卸载应用</h2>
+  <ul>
+    <li>打开卡片的 <b>&hellip;</b> 菜单 &rarr; <b>Uninstall</b>（或用管理视图），然后确认。</li>
+    <li>会移除已安装副本及其私有包，<b>你的应用数据会保留</b>。</li>
+    <li>卸载 ShinyApps 本身见第 12 节。</li>
+  </ul>
+
+  <h2>8. 存储与清理</h2>
+  <ul>
+    <li><b>Settings &rarr; Storage&hellip;</b> 显示：已安装应用、共享包、下载缓存、未完成项、可用磁盘。</li>
+    <li><b>Clean up</b> 清除下载缓存与未使用的共享包。</li>
+    <li><b>Open folder</b> 在文件管理器中打开数据目录。</li>
+    <li><b>Reset local data&hellip;</b> 移除所有已安装应用、共享包、缓存与日志（设置保留）；过程中显示进度遮罩。</li>
+  </ul>
+
+  <h2>9. 修改应用数据目录</h2>
+  <p>默认数据位于 <code>%LOCALAPPDATA%\ShinyApps</code>（Windows）或应用的支持目录（macOS）。迁移方式：</p>
+  <ol>
+    <li><b>Settings &rarr; App Data Location&hellip;</b>（或 <b>Storage&hellip; &rarr; Change data location&hellip;</b>）。</li>
+    <li>选择目标文件夹。</li>
+    <li>选 <b>Move existing data</b>（复制应用与库）或 <b>Use empty folder</b>（全新开始）。
+        若目标已有 ShinyApps 数据：<b>Use existing data</b> 或 <b>Overwrite with current data</b>。</li>
+    <li>ShinyApps 会<b>重启</b>以生效。</li>
+  </ol>
+
+  <h2>10. 外观与隐私</h2>
+  <ul>
+    <li><b>Settings &rarr; Theme：</b>System / Light / Dark。</li>
+    <li><b>Settings &rarr; Save Crash Reports Locally：</b>把崩溃报告写入本地 <code>crashes</code> 目录，<b>绝不自动上传</b>。</li>
+  </ul>
+
+  <h2>11. 日志与诊断</h2>
+  <ul>
+    <li><b>Help &rarr; View Logs</b> 打开日志目录。</li>
+    <li>每个应用的 <b>&hellip;</b> 菜单提供 <b>View log</b>、<b>Open app folder</b>、<b>Copy diagnostics</b>。</li>
+    <li>报告问题时，请优先附上日志（与崩溃报告）。</li>
+  </ul>
+
+  <h2>12. 卸载 ShinyApps</h2>
+  <ul>
+    <li><b>Settings &rarr; Uninstall ShinyApps&hellip;</b>。</li>
+    <li>可选 <b>Uninstall</b>（保留应用与数据）或 <b>Uninstall and remove all apps &amp; data</b>。</li>
+    <li>若 ShinyApps 不是通过安装包安装（如从源码运行），没有卸载器 &mdash; 请手动删除程序目录。</li>
+  </ul>
+
+  <h2>13. 报告 Bug / 获取帮助</h2>
+  <ol>
+    <li>复现问题，记录你的操作与现象。</li>
+    <li><b>Help &rarr; View Logs</b>；复制相关日志，以及 <code>crashes</code> 目录中的崩溃报告。</li>
+    <li>到 <a href="https://github.com/fentouxungui/ShinyApps/issues" target="_blank" rel="noopener">github.com/fentouxungui/ShinyApps/issues</a> 提交 Issue，附：
+      <ul>
+        <li>ShinyApps 版本（<b>Help &rarr; About</b>）与操作系统；</li>
+        <li>涉及具体应用时，附应用名 / 版本；</li>
+        <li>复现步骤、期望结果与实际结果；</li>
+        <li>相关日志片段。</li>
+      </ul>
+    </li>
+  </ol>
+
+  <h2>14. 快捷键</h2>
+  <table>
+    <tr><th>快捷键</th><th>操作</th></tr>
+    <tr><td><code>Ctrl/Cmd+F</code></td><td>聚焦搜索框（进入管理视图）</td></tr>
+    <tr><td><code>Ctrl/Cmd+L</code></td><td>返回启动页</td></tr>
+    <tr><td><code>Ctrl/Cmd+Shift+M</code></td><td>打开管理视图</td></tr>
+  </table>
+
+  <h2>15. 数据存放位置</h2>
+  <ul>
+    <li><b>数据根目录</b>（可在设置中修改）：Windows <code>%LOCALAPPDATA%\ShinyApps</code>；macOS 为应用支持目录。</li>
+    <li><code>apps/&lt;id&gt;/</code> 各应用 &middot; <code>lib/</code> 共享包 &middot; <code>private/</code> 应用私有包 &middot; <code>store-cache/</code> 下载缓存 &middot; <code>state.json</code> 状态。</li>
+    <li>日志与崩溃报告位于外壳的用户数据目录（<code>logs/</code>、<code>crashes/</code>）。</li>
+  </ul>
+
+  <h2>16. 术语表</h2>
+  <ul>
+    <li><b>外壳（Shell）</b> &mdash; 已安装的 ShinyApps 程序。</li>
+    <li><b>目录（Catalog）</b> &mdash; 在线可安装应用列表。</li>
+    <li><b>捆绑包（Bundle）</b> &mdash; 含 <code>app/</code> + <code>rlib/</code> + <code>manifest.json</code> 的 <code>&lt;id&gt;-&lt;版本&gt;-&lt;平台&gt;.zip</code>。</li>
+    <li><b>共享库</b> &mdash; 被两个及以上应用使用的包，只存一份。</li>
+  </ul>
+</main>
+
+<footer>
+  <a href="https://github.com/fentouxungui/ShinyApps/wiki" target="_blank" rel="noopener">Developer Guide</a>
+  <a href="https://github.com/fentouxungui/ShinyApps/issues" target="_blank" rel="noopener">Report an issue</a>
+  <a href="https://github.com/fentouxungui/ShinyApps" target="_blank" rel="noopener">ShinyApps on GitHub</a>
+</footer>
+
+<script>
+  (function () {
+    var q = new URLSearchParams(location.search);
+    var theme = q.get('theme') || 'system';
+    if (theme !== 'dark' && theme !== 'light') {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', theme);
+
+    var en = document.getElementById('lang-en');
+    var zh = document.getElementById('lang-zh');
+    var ben = document.getElementById('btn-en');
+    var bzh = document.getElementById('btn-zh');
+    var title = document.getElementById('ui-title');
+
+    function setLang(lang) {
+      var isZh = (lang === 'zh');
+      en.hidden = isZh;
+      zh.hidden = !isZh;
+      ben.className = isZh ? '' : 'active';
+      bzh.className = isZh ? 'active' : '';
+      document.documentElement.setAttribute('lang', isZh ? 'zh-CN' : 'en');
+      title.textContent = isZh ? 'ShinyApps 用户指南' : 'ShinyApps User Guide';
+      try { localStorage.setItem('shinyapps.guide.lang', isZh ? 'zh' : 'en'); } catch (e) {}
+    }
+    ben.addEventListener('click', function () { setLang('en'); });
+    bzh.addEventListener('click', function () { setLang('zh'); });
+
+    var saved = null;
+    try { saved = localStorage.getItem('shinyapps.guide.lang'); } catch (e) {}
+    var lang = saved || (((navigator.language || 'en').toLowerCase().indexOf('zh') === 0) ? 'zh' : 'en');
+    setLang(lang);
+  })();
+</script>
+</body>
+</html>

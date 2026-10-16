@@ -4,18 +4,18 @@
 基于已成功上架的Apps，构建一个上架skill
 
 - [ ] ShinyApps
-Readme和wiki中，添加信息：如果你想上架自己的app，或者想上架别人的app，可以联系我，我可以帮助上架
+Readme和wiki中，添加信息：如果你想上架自己的app，或者想上架别人的app，如果不想自己折腾上架流程，也可以联系我，我可以帮助上架你的或你感兴趣的app
 
 - [ ] shinyelectron
-App Downloads 排行榜，或者launcher页面，每个app显示下载次数和github star counts
+只在All页面显示每个app的下载次数和 github star counts。非ShinyApps官方收录的app，如果没有github和download url，就不显示。
 
 - [ ] ShinyApps and shinyelectron
-收录一些不方便上架的、或者无法上架的，但是已经在其它地方上架的Apps，列出app的信息，及访问使用链接，作为一个数据库来使用。可能需要要定制shinyelectron
+收录一些ShinyApps不方便上架的、或者无法上架的，但是已经在其它地方上架的Apps，列出这些app的信息，及使用链接，作为一个数据库集成到ShinyApps中，供大家检索和通过网页链接来访问。可能需要要定制shinyelectron
 
 - [ ] ShinyApps and skills
 -调研 CRAN/BiocManager 中有哪些值得上架的Shiny app R包，并且可行性要足够。
 
-- [ ] skill
+- [x] skill
 我在ShinyApps中测试ClusterProfShinyORA 时，发现app无法正常启动成功，请参考更新后的onboarding skill更新一下fentouxungui/ClusterProfShinyORA里的build app bundle workflow，加入冒烟测试job，然后重新release一下，测试一下新加入的冒烟测试工作能否正常运行，并且发现问题，最后如果发现了问题，请协助解决问题。
 
 - [x] shinyelectron

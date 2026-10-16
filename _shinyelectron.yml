@@ -27,6 +27,7 @@ window:
 
 menu:
   help_url: "https://github.com/fentouxungui/ShinyApps/wiki"
+  user_guide: "userguide.html"
   
 installer:
   app_id: "com.shinyapps.desktop"
