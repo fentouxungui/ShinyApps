@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 28
+- **Apps:** 29
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-16 14:14:19 UTC
+- **Catalog last updated:** 2026-10-16 14:29:06 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -38,6 +38,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/miadash.png" width="32" alt="miaDash"> | **miaDash**<br>Dashboard for interactive analysis and exploration of microbiome data (mia + iSEE) | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/microbiome/miaDash) · [Docs](https://microbiome.github.io/miaDash/) · [Release](https://github.com/microbiome/miaDash/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png" width="32" alt="shiny-genome-stats"> | **shiny-genome-stats**<br>Interactive visualization of basic microbial genome features | ✅ 可用 | `0.1.7` | `mac-arm64`, `win-x64` | [Home](https://github.com/MPUSP/shiny-genome-stats) · [Docs](https://github.com/MPUSP/shiny-genome-stats#readme) · [Release](https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.7) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png" width="32" alt="Metaboseek"> | **Metaboseek**<br>Interactive analysis and browsing of mass spectrometry data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://metaboseek.com) · [Docs](https://github.com/mjhelf/Metaboseek#readme) · [Release](https://metaboseek.com/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png" width="32" alt="GateLabR"> | **GateLabR**<br>Interactive manual gating of flow / mass cytometry on SingleCellExperiment objects | ✅ 可用 | `0.2.1` | `mac-arm64`, `win-x64` | [Home](https://david-priest.github.io/GateLabR) · [Docs](https://david-priest.github.io/GateLabR) · [Release](https://david-priest.github.io/GateLabR/releases/tag/v0.2.1) |
 
 ---
 
@@ -666,6 +667,28 @@ Release: https://metaboseek.com/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [metaboseek-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/Metaboseek/releases/download/v0.1.0/metaboseek-0.1.0-mac-arm64.zip) | 374.9 MB | `813061d5ae345644700f1080087b663f557cb360ba85a0e1ea148a9c4322f9e3` |
 | `win-x64` | [metaboseek-0.1.0-win-x64.zip](https://github.com/fentouxungui/Metaboseek/releases/download/v0.1.0/metaboseek-0.1.0-win-x64.zip) | 373.6 MB | `c65a0de2b04b07b3b5bac82a605f751f495a2519fbd8f664305eda8f00b019c2` |
+
+</details>
+
+### GateLabR `0.2.1`
+
+Interactive manual gating of flow / mass cytometry on SingleCellExperiment objects
+
+| Field | Value |
+|---|---|
+| Author | David G. Priest |
+| License | MIT |
+| Copyright | (c) 2026 David G. Priest |
+| R version | 4.6.1 |
+
+Release: https://david-priest.github.io/GateLabR/releases/tag/v0.2.1
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [gatelabr-0.2.1-mac-arm64.zip](https://github.com/fentouxungui/GateLabR/releases/download/v0.2.1/gatelabr-0.2.1-mac-arm64.zip) | 164.5 MB | `cec141776a43af229325f6a42f60f20a4ea6021d9a1969bec88886118f8d9e2e` |
+| `win-x64` | [gatelabr-0.2.1-win-x64.zip](https://github.com/fentouxungui/GateLabR/releases/download/v0.2.1/gatelabr-0.2.1-win-x64.zip) | 150.3 MB | `b1e943b12b933054e55f5c5cbc846a67dd6ff4d2e45262f7985dbc15480b0259` |
 
 </details>
 

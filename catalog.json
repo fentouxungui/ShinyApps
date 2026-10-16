@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-16T10:26:39Z",
+  "updated_at": "2026-10-16T14:29:06Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -879,6 +879,38 @@
           "url": "https://github.com/fentouxungui/Metaboseek/releases/download/v0.1.0/metaboseek-0.1.0-win-x64.zip",
           "size": 391728991,
           "sha256": "c65a0de2b04b07b3b5bac82a605f751f495a2519fbd8f664305eda8f00b019c2"
+        }
+      }
+    },
+    {
+      "id": "gatelabr",
+      "name": "GateLabR",
+      "author": "David G. Priest",
+      "description": "Interactive manual gating of flow / mass cytometry on SingleCellExperiment objects",
+      "homepage": "https://david-priest.github.io/GateLabR",
+      "docs": "https://david-priest.github.io/GateLabR",
+      "copyright": "(c) 2026 David G. Priest",
+      "license": "MIT",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "cytometry",
+        "cytof",
+        "gating",
+        "single-cell",
+        "shiny"
+      ],
+      "version": "0.2.1",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/GateLabR/releases/download/v0.2.1/gatelabr-0.2.1-mac-arm64.zip",
+          "size": 172444141,
+          "sha256": "cec141776a43af229325f6a42f60f20a4ea6021d9a1969bec88886118f8d9e2e"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/GateLabR/releases/download/v0.2.1/gatelabr-0.2.1-win-x64.zip",
+          "size": 157593111,
+          "sha256": "b1e943b12b933054e55f5c5cbc846a67dd6ff4d2e45262f7985dbc15480b0259"
         }
       }
     }
