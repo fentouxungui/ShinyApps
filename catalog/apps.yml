@@ -292,3 +292,76 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png"
     r_version: "4.6.1"
     tags: [enrichment, gene-ontology, kegg, clusterprofiler]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: stminsights
+    repo: fentouxungui/stminsights
+    name: stminsights
+    author: "Carsten Schwemmer"
+    description: "Interactive validation and visualization of structural topic models (stm)"
+    homepage: "https://cschwem2er.github.io/stminsights"
+    docs: "https://cschwem2er.github.io/stminsights"
+    copyright: "(c) 2016 Carsten Schwemmer"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/stminsights.png"
+    r_version: "4.6.1"
+    tags: [topic-modeling,nlp,visualization,shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: pomashiny
+    repo: fentouxungui/POMAShiny
+    name: POMAShiny
+    author: "Pol Castellano-Escuder"
+    description: "Web-based workflow for metabolomics and proteomics data analysis"
+    homepage: "https://github.com/pcastellanoescuder/POMAShiny"
+    docs: "https://github.com/pcastellanoescuder/POMAShiny#readme"
+    copyright: "(c) 2020 Pol Castellano-Escuder"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/pomashiny.png"
+    r_version: "4.6.1"
+    tags: [metabolomics,proteomics,statistics,shiny]
+
+  - id: portfoliooptimizer
+    repo: fentouxungui/portfoliooptimizer
+    name: Portfolio Optimizer
+    author: "Marc Schoenhart"
+    description: "Portfolio optimization and Black-Litterman allocation"
+    homepage: "https://github.com/mschoenhart/portfoliooptimizer"
+    docs: "https://github.com/mschoenhart/portfoliooptimizer#readme"
+    copyright: "(c) 2021 Marc Schoenhart"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/portfoliooptimizer.png"
+    r_version: "4.6.1"
+    tags: [finance, portfolio, optimization, shiny]
+
+  - id: pepfunk
+    repo: fentouxungui/pepFunk
+    name: pepFunk
+    author: "northomics (iMetaLab)"
+    description: "Peptide-centric functional enrichment workflow for metaproteomics"
+    homepage: "https://github.com/northomics/pepFunk"
+    docs: "https://github.com/northomics/pepFunk#readme"
+    copyright: "(c) 2021 pepFunk authors"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/pepfunk.png"
+    r_version: "4.6.1"
+    tags: [metaproteomics, enrichment, kegg, shiny]
+
+  - id: miadash
+    repo: fentouxungui/miaDash
+    name: miaDash
+    author: "Giulio Benedetti, Leo Lahti"
+    description: "Dashboard for interactive analysis and exploration of microbiome data (mia + iSEE)"
+    homepage: "https://github.com/microbiome/miaDash"
+    docs: "https://microbiome.github.io/miaDash/"
+    copyright: "(c) 2024 Giulio Benedetti"
+    license: "Artistic-2.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/miadash.png"
+    r_version: "4.6.1"
+    tags: [microbiome, dashboard, bioconductor, shiny]
