@@ -365,3 +365,16 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/miadash.png"
     r_version: "4.6.1"
     tags: [microbiome, dashboard, bioconductor, shiny]
+
+  - id: genome-stats
+    repo: fentouxungui/shiny-genome-stats
+    name: shiny-genome-stats
+    author: "Michael Jahn (MPUSP)"
+    description: "Interactive visualization of basic microbial genome features"
+    homepage: "https://github.com/MPUSP/shiny-genome-stats"
+    docs: "https://github.com/MPUSP/shiny-genome-stats#readme"
+    copyright: "(c) 2024 Michael Jahn"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png"
+    r_version: "4.6.1"
+    tags: [microbial-genomics, genome, visualization, shiny]
