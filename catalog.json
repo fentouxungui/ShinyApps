@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-16T10:18:08Z",
+  "updated_at": "2026-10-16T10:26:39Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -848,6 +848,37 @@
           "url": "https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-win-x64.zip",
           "size": 226582740,
           "sha256": "908966589f74624d758fd980400f13acaa779fcb3133a4218c530b2df168a561"
+        }
+      }
+    },
+    {
+      "id": "metaboseek",
+      "name": "Metaboseek",
+      "author": "Maximilian Helf",
+      "description": "Interactive analysis and browsing of mass spectrometry data",
+      "homepage": "https://metaboseek.com",
+      "docs": "https://github.com/mjhelf/Metaboseek#readme",
+      "copyright": "(c) 2017 Maximilian Helf",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "mass-spectrometry",
+        "metabolomics",
+        "visualization",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/Metaboseek/releases/download/v0.1.0/metaboseek-0.1.0-mac-arm64.zip",
+          "size": 393097852,
+          "sha256": "813061d5ae345644700f1080087b663f557cb360ba85a0e1ea148a9c4322f9e3"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/Metaboseek/releases/download/v0.1.0/metaboseek-0.1.0-win-x64.zip",
+          "size": 391728991,
+          "sha256": "c65a0de2b04b07b3b5bac82a605f751f495a2519fbd8f664305eda8f00b019c2"
         }
       }
     }

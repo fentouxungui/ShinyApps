@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 27
+- **Apps:** 28
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-16 10:18:08 UTC
+- **Catalog last updated:** 2026-10-16 10:26:39 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -37,6 +37,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/pepfunk.png" width="32" alt="pepFunk"> | **pepFunk**<br>Peptide-centric functional enrichment workflow for metaproteomics | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/northomics/pepFunk) · [Docs](https://github.com/northomics/pepFunk#readme) · [Release](https://github.com/northomics/pepFunk/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/miadash.png" width="32" alt="miaDash"> | **miaDash**<br>Dashboard for interactive analysis and exploration of microbiome data (mia + iSEE) | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/microbiome/miaDash) · [Docs](https://microbiome.github.io/miaDash/) · [Release](https://github.com/microbiome/miaDash/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png" width="32" alt="shiny-genome-stats"> | **shiny-genome-stats**<br>Interactive visualization of basic microbial genome features | ✅ 可用 | `0.1.7` | `mac-arm64`, `win-x64` | [Home](https://github.com/MPUSP/shiny-genome-stats) · [Docs](https://github.com/MPUSP/shiny-genome-stats#readme) · [Release](https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.7) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png" width="32" alt="Metaboseek"> | **Metaboseek**<br>Interactive analysis and browsing of mass spectrometry data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://metaboseek.com) · [Docs](https://github.com/mjhelf/Metaboseek#readme) · [Release](https://metaboseek.com/releases/tag/v0.1.0) |
 
 ---
 
@@ -643,6 +644,28 @@ Release: https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.7
 |---|---|---:|---|
 | `mac-arm64` | [genome-stats-0.1.7-mac-arm64.zip](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-mac-arm64.zip) | 192.7 MB | `e4548c9a798a17881e47b0ef1c1c73008a495b0c22ee4d672cd35f900b48d6aa` |
 | `win-x64` | [genome-stats-0.1.7-win-x64.zip](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-win-x64.zip) | 216.1 MB | `908966589f74624d758fd980400f13acaa779fcb3133a4218c530b2df168a561` |
+
+</details>
+
+### Metaboseek `0.1.0`
+
+Interactive analysis and browsing of mass spectrometry data
+
+| Field | Value |
+|---|---|
+| Author | Maximilian Helf |
+| License | GPL-3.0 |
+| Copyright | (c) 2017 Maximilian Helf |
+| R version | 4.6.1 |
+
+Release: https://metaboseek.com/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [metaboseek-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/Metaboseek/releases/download/v0.1.0/metaboseek-0.1.0-mac-arm64.zip) | 374.9 MB | `813061d5ae345644700f1080087b663f557cb360ba85a0e1ea148a9c4322f9e3` |
+| `win-x64` | [metaboseek-0.1.0-win-x64.zip](https://github.com/fentouxungui/Metaboseek/releases/download/v0.1.0/metaboseek-0.1.0-win-x64.zip) | 373.6 MB | `c65a0de2b04b07b3b5bac82a605f751f495a2519fbd8f664305eda8f00b019c2` |
 
 </details>
 
