@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-16T08:44:24Z",
+  "updated_at": "2026-10-16T08:52:08Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -693,6 +693,37 @@
           "url": "https://github.com/fentouxungui/stminsights/releases/download/v0.1.0/stminsights-0.1.0-win-x64.zip",
           "size": 149761572,
           "sha256": "2bbd7ae98543af7f905ac1c045d3cb81c661c872e21f443b18df0aab757e3818"
+        }
+      }
+    },
+    {
+      "id": "pomashiny",
+      "name": "POMAShiny",
+      "author": "Pol Castellano-Escuder",
+      "description": "Web-based workflow for metabolomics and proteomics data analysis",
+      "homepage": "https://github.com/pcastellanoescuder/POMAShiny",
+      "docs": "https://github.com/pcastellanoescuder/POMAShiny#readme",
+      "copyright": "(c) 2020 Pol Castellano-Escuder",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/pomashiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "metabolomics",
+        "proteomics",
+        "statistics",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/POMAShiny/releases/download/v0.1.0/pomashiny-0.1.0-mac-arm64.zip",
+          "size": 454607872,
+          "sha256": "8995bce227f2e6dd30dff9135b27581d0331725512b9b376946450ec9f393af8"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/POMAShiny/releases/download/v0.1.0/pomashiny-0.1.0-win-x64.zip",
+          "size": 470520812,
+          "sha256": "66ed71e9651c1fc13396124c1d161bb393a3fefaa80861821e6f77af208feefb"
         }
       }
     }
