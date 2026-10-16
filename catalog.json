@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-16T09:02:11Z",
+  "updated_at": "2026-10-16T10:18:08Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -817,6 +817,37 @@
           "url": "https://github.com/fentouxungui/miaDash/releases/download/v0.1.1/miadash-0.1.1-win-x64.zip",
           "size": 332587159,
           "sha256": "d28a1bf08713a0fbb4d6d7514563aec05a83df3ab0e59ac9dace69f72e1bc3e5"
+        }
+      }
+    },
+    {
+      "id": "genome-stats",
+      "name": "shiny-genome-stats",
+      "author": "Michael Jahn (MPUSP)",
+      "description": "Interactive visualization of basic microbial genome features",
+      "homepage": "https://github.com/MPUSP/shiny-genome-stats",
+      "docs": "https://github.com/MPUSP/shiny-genome-stats#readme",
+      "copyright": "(c) 2024 Michael Jahn",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "microbial-genomics",
+        "genome",
+        "visualization",
+        "shiny"
+      ],
+      "version": "0.1.7",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-mac-arm64.zip",
+          "size": 202082478,
+          "sha256": "e4548c9a798a17881e47b0ef1c1c73008a495b0c22ee4d672cd35f900b48d6aa"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-win-x64.zip",
+          "size": 226582740,
+          "sha256": "908966589f74624d758fd980400f13acaa779fcb3133a4218c530b2df168a561"
         }
       }
     }

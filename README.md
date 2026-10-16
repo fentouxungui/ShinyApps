@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 26
+- **Apps:** 27
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-16 09:33:27 UTC
+- **Catalog last updated:** 2026-10-16 10:18:08 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -36,6 +36,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/portfoliooptimizer.png" width="32" alt="Portfolio Optimizer"> | **Portfolio Optimizer**<br>Portfolio optimization and Black-Litterman allocation | ✅ 可用 | `0.1.4` | `mac-arm64`, `win-x64` | [Home](https://github.com/mschoenhart/portfoliooptimizer) · [Docs](https://github.com/mschoenhart/portfoliooptimizer#readme) · [Release](https://github.com/mschoenhart/portfoliooptimizer/releases/tag/v0.1.4) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/pepfunk.png" width="32" alt="pepFunk"> | **pepFunk**<br>Peptide-centric functional enrichment workflow for metaproteomics | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/northomics/pepFunk) · [Docs](https://github.com/northomics/pepFunk#readme) · [Release](https://github.com/northomics/pepFunk/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/miadash.png" width="32" alt="miaDash"> | **miaDash**<br>Dashboard for interactive analysis and exploration of microbiome data (mia + iSEE) | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/microbiome/miaDash) · [Docs](https://microbiome.github.io/miaDash/) · [Release](https://github.com/microbiome/miaDash/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png" width="32" alt="shiny-genome-stats"> | **shiny-genome-stats**<br>Interactive visualization of basic microbial genome features | ✅ 可用 | `0.1.7` | `mac-arm64`, `win-x64` | [Home](https://github.com/MPUSP/shiny-genome-stats) · [Docs](https://github.com/MPUSP/shiny-genome-stats#readme) · [Release](https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.7) |
 
 ---
 
@@ -620,6 +621,28 @@ Release: https://github.com/microbiome/miaDash/releases/tag/v0.1.1
 |---|---|---:|---|
 | `mac-arm64` | [miadash-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/miaDash/releases/download/v0.1.1/miadash-0.1.1-mac-arm64.zip) | 320.4 MB | `ac5c01943ade22afa0e4c817ba679957ea80348aed86653ebd79b69581f16fd9` |
 | `win-x64` | [miadash-0.1.1-win-x64.zip](https://github.com/fentouxungui/miaDash/releases/download/v0.1.1/miadash-0.1.1-win-x64.zip) | 317.2 MB | `d28a1bf08713a0fbb4d6d7514563aec05a83df3ab0e59ac9dace69f72e1bc3e5` |
+
+</details>
+
+### shiny-genome-stats `0.1.7`
+
+Interactive visualization of basic microbial genome features
+
+| Field | Value |
+|---|---|
+| Author | Michael Jahn (MPUSP) |
+| License | GPL-3.0 |
+| Copyright | (c) 2024 Michael Jahn |
+| R version | 4.6.1 |
+
+Release: https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.7
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [genome-stats-0.1.7-mac-arm64.zip](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-mac-arm64.zip) | 192.7 MB | `e4548c9a798a17881e47b0ef1c1c73008a495b0c22ee4d672cd35f900b48d6aa` |
+| `win-x64` | [genome-stats-0.1.7-win-x64.zip](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-win-x64.zip) | 216.1 MB | `908966589f74624d758fd980400f13acaa779fcb3133a4218c530b2df168a561` |
 
 </details>
 
