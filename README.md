@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 21
+- **Apps:** 22
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-16 06:15:16 UTC
+- **Catalog last updated:** 2026-10-16 08:44:24 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -31,6 +31,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/phyloprofile.png" width="32" alt="PhyloProfile"> | **PhyloProfile**<br>Phylogenetic profile analysis - compare presence/absence and domain architecture of genes across species | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/BIONF/PhyloProfile) · [Docs](https://github.com/BIONF/PhyloProfile#readme) · [Release](https://github.com/BIONF/PhyloProfile/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/deseq2shiny.png" width="32" alt="deseq2shiny"> | **deseq2shiny**<br>Web app for DESeq2 differential expression analysis with boxplots, heatmaps and volcano plots | ✅ 可用 | `0.1.3` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/deseq2shiny) · [Docs](https://github.com/nasqar/deseq2shiny#readme) · [Release](https://github.com/nasqar/deseq2shiny/releases/tag/v0.1.3) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png" width="32" alt="ClusterProfShinyORA"> | **ClusterProfShinyORA**<br>Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plus Pathview plots and wordcloud | ✅ 可用 | `0.1.6` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/ClusterProfShinyORA) · [Docs](https://github.com/nasqar/ClusterProfShinyORA#readme) · [Release](https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.6) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/stminsights.png" width="32" alt="stminsights"> | **stminsights**<br>Interactive validation and visualization of structural topic models (stm) | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://cschwem2er.github.io/stminsights) · [Docs](https://cschwem2er.github.io/stminsights) · [Release](https://cschwem2er.github.io/stminsights/releases/tag/v0.1.0) |
 
 ---
 
@@ -505,6 +506,28 @@ Release: https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.6
 |---|---|---:|---|
 | `mac-arm64` | [clusterprofshinyora-0.1.6-mac-arm64.zip](https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.6/clusterprofshinyora-0.1.6-mac-arm64.zip) | 323.4 MB | `541d6860e49a88efb64e0b2744c05fce3851cab853af493900296fb61390d888` |
 | `win-x64` | [clusterprofshinyora-0.1.6-win-x64.zip](https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.6/clusterprofshinyora-0.1.6-win-x64.zip) | 345.4 MB | `daa1638ec218c6bd9d814518731f5e8941213cffe04ade5f41e88a370d657645` |
+
+</details>
+
+### stminsights `0.1.0`
+
+Interactive validation and visualization of structural topic models (stm)
+
+| Field | Value |
+|---|---|
+| Author | Carsten Schwemmer |
+| License | MIT |
+| Copyright | (c) 2016 Carsten Schwemmer |
+| R version | 4.6.1 |
+
+Release: https://cschwem2er.github.io/stminsights/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [stminsights-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/stminsights/releases/download/v0.1.0/stminsights-0.1.0-mac-arm64.zip) | 133.8 MB | `be42d2b977f982d6c999921e8119da5ae01f18a149c1be735574f707a476e8df` |
+| `win-x64` | [stminsights-0.1.0-win-x64.zip](https://github.com/fentouxungui/stminsights/releases/download/v0.1.0/stminsights-0.1.0-win-x64.zip) | 142.8 MB | `2bbd7ae98543af7f905ac1c045d3cb81c661c872e21f443b18df0aab757e3818` |
 
 </details>
 

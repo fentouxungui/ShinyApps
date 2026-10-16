@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-16T06:15:16Z",
+  "updated_at": "2026-10-16T08:44:24Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -662,6 +662,37 @@
           "url": "https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.6/clusterprofshinyora-0.1.6-win-x64.zip",
           "size": 362193371,
           "sha256": "daa1638ec218c6bd9d814518731f5e8941213cffe04ade5f41e88a370d657645"
+        }
+      }
+    },
+    {
+      "id": "stminsights",
+      "name": "stminsights",
+      "author": "Carsten Schwemmer",
+      "description": "Interactive validation and visualization of structural topic models (stm)",
+      "homepage": "https://cschwem2er.github.io/stminsights",
+      "docs": "https://cschwem2er.github.io/stminsights",
+      "copyright": "(c) 2016 Carsten Schwemmer",
+      "license": "MIT",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/stminsights.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "topic-modeling",
+        "nlp",
+        "visualization",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/stminsights/releases/download/v0.1.0/stminsights-0.1.0-mac-arm64.zip",
+          "size": 140248611,
+          "sha256": "be42d2b977f982d6c999921e8119da5ae01f18a149c1be735574f707a476e8df"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/stminsights/releases/download/v0.1.0/stminsights-0.1.0-win-x64.zip",
+          "size": 149761572,
+          "sha256": "2bbd7ae98543af7f905ac1c045d3cb81c661c872e21f443b18df0aab757e3818"
         }
       }
     }
