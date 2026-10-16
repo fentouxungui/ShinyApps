@@ -395,3 +395,16 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png"
     r_version: "4.6.1"
     tags: [mass-spectrometry,metabolomics,visualization,shiny]
+
+  - id: gatelabr
+    repo: fentouxungui/GateLabR
+    name: GateLabR
+    author: "David G. Priest"
+    description: "Interactive manual gating of flow / mass cytometry on SingleCellExperiment objects"
+    homepage: "https://david-priest.github.io/GateLabR"
+    docs: "https://david-priest.github.io/GateLabR"
+    copyright: "(c) 2026 David G. Priest"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png"
+    r_version: "4.6.1"
+    tags: [cytometry, cytof, gating, single-cell, shiny]
