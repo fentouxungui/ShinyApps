@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T14:44:04Z",
+  "updated_at": "2026-10-17T14:55:45Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -1470,6 +1470,26 @@
           "sha256": "77455f65631a3c5dd09f83e2f5219fee8d74836ed31f6ec55b91e2304f17defb"
         }
       }
+    },
+    {
+      "id": "greymodels",
+      "name": "Greymodels",
+      "author": "Havisha J.",
+      "description": "Shiny app for Grey forecasting models",
+      "homepage": "https://github.com/havishaJ/Greymodels",
+      "docs": "https://github.com/havishaJ/Greymodels#readme",
+      "copyright": "(c) 2025 Havisha J.",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/greymodels.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "forecasting",
+        "grey-model",
+        "statistics",
+        "shiny"
+      ],
+      "version": "",
+      "artifacts": {}
     }
   ]
 }

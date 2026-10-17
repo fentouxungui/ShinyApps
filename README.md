@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 47
+- **Apps:** 48 — 47 ✅ 可用 / 1 ⛔ 不可用
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 14:44:04 UTC
+- **Catalog last updated:** 2026-10-17 14:55:45 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -57,6 +57,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png" width="32" alt="shinyMergely"> | **shinyMergely**<br>Compare and merge two files with a Shiny app | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/stla/shinyMergely) · [Docs](https://github.com/stla/shinyMergely#readme) · [Release](https://github.com/stla/shinyMergely/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png" width="32" alt="DiagnostySize"> | **DiagnostySize**<br>App for calculating the sample size in a diagnostic study | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/JanaW09/DiagnostySize_App) · [Docs](https://github.com/JanaW09/DiagnostySize_App#readme) · [Release](https://github.com/JanaW09/DiagnostySize_App/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/lavaanshiny.png" width="32" alt="lavaan.shiny"> | **lavaan.shiny**<br>Latent variable analysis with Shiny | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/kylehamilton/lavaan.shiny) · [Docs](https://github.com/kylehamilton/lavaan.shiny#readme) · [Release](https://github.com/kylehamilton/lavaan.shiny/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/greymodels.png" width="32" alt="Greymodels"> | **Greymodels**<br>Shiny app for Grey forecasting models | ⛔ 不可用 | — | — | [Home](https://github.com/havishaJ/Greymodels) · [Docs](https://github.com/havishaJ/Greymodels#readme) |
 
 ---
 
@@ -1105,6 +1106,19 @@ Release: https://github.com/kylehamilton/lavaan.shiny/releases/tag/v0.1.1
 | `win-x64` | [lavaanshiny-0.1.1-win-x64.zip](https://github.com/fentouxungui/lavaan.shiny/releases/download/v0.1.1/lavaanshiny-0.1.1-win-x64.zip) | 112.6 MB | `77455f65631a3c5dd09f83e2f5219fee8d74836ed31f6ec55b91e2304f17defb` |
 
 </details>
+
+### Greymodels
+
+**Status:** ⛔ 不可用 — no published release yet.
+
+Shiny app for Grey forecasting models
+
+| Field | Value |
+|---|---|
+| Author | Havisha J. |
+| License | See upstream |
+| Copyright | (c) 2025 Havisha J. |
+| R version | 4.6.1 |
 
 ---
 
