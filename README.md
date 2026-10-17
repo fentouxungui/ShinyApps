@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 57
+- **Apps:** 58
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 15:51:07 UTC
+- **Catalog last updated:** 2026-10-17 16:08:37 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -67,6 +67,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/repplabshiny.png" width="32" alt="REPPlabShiny"> | **REPPlabShiny**<br>REPPlab via a Shiny application | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/REPPlabShiny) · [Docs](https://github.com/cran/REPPlabShiny#readme) · [Release](https://github.com/cran/REPPlabShiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/stmgui.png" width="32" alt="stmgui"> | **stmgui**<br>Shiny application for creating STM models | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/dzangri/stmGUI) · [Docs](https://github.com/dzangri/stmGUI#readme) · [Release](https://github.com/dzangri/stmGUI/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/difshiny.png" width="32" alt="DIFshiny"> | **DIFshiny**<br>Differential item functioning via a Shiny application | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/DIFshiny) · [Docs](https://github.com/cran/DIFshiny#readme) · [Release](https://github.com/cran/DIFshiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/channelattributionapp.png" width="32" alt="ChannelAttributionApp"> | **ChannelAttributionApp**<br>Shiny web application for the multichannel attribution problem | ✅ 可用 | `0.3.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/ChannelAttributionApp) · [Docs](https://github.com/cran/ChannelAttributionApp#readme) · [Release](https://github.com/cran/ChannelAttributionApp/releases/tag/v0.3.0) |
 
 ---
 
@@ -1333,6 +1334,28 @@ Release: https://github.com/cran/DIFshiny/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [difshiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/DIFshiny/releases/download/v0.1.0/difshiny-0.1.0-mac-arm64.zip) | 162.9 MB | `a9ce24394f024d7013756e9b09424b0e7bdea2721545ba87e65dcae0c969fc8d` |
 | `win-x64` | [difshiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/DIFshiny/releases/download/v0.1.0/difshiny-0.1.0-win-x64.zip) | 174.8 MB | `7701b67b7e53a779395a7144e7b5338d8c6dcf6a9e3c1bfdf3cae7f5d208220e` |
+
+</details>
+
+### ChannelAttributionApp `0.3.0`
+
+Shiny web application for the multichannel attribution problem
+
+| Field | Value |
+|---|---|
+| Author | Davide Altomare, David Loris |
+| License | GPL-3.0 |
+| Copyright | (c) 2020 Davide Altomare |
+| R version | 4.6.1 |
+
+Release: https://github.com/cran/ChannelAttributionApp/releases/tag/v0.3.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [channelattributionapp-0.3.0-mac-arm64.zip](https://github.com/fentouxungui/ChannelAttributionApp/releases/download/v0.3.0/channelattributionapp-0.3.0-mac-arm64.zip) | 48.2 MB | `4a08befe6243adfa94e9411e022a05df188c3db73477920dbbb85e427bddbba7` |
+| `win-x64` | [channelattributionapp-0.3.0-win-x64.zip](https://github.com/fentouxungui/ChannelAttributionApp/releases/download/v0.3.0/channelattributionapp-0.3.0-win-x64.zip) | 50.4 MB | `cb082351ede817c12ffe9c9e3bcecbceeeea15fe0df8029726ccedc7d53f55b1` |
 
 </details>
 

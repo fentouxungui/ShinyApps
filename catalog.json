@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T15:51:07Z",
+  "updated_at": "2026-10-17T16:08:37Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -1776,6 +1776,37 @@
           "url": "https://github.com/fentouxungui/DIFshiny/releases/download/v0.1.0/difshiny-0.1.0-win-x64.zip",
           "size": 183343149,
           "sha256": "7701b67b7e53a779395a7144e7b5338d8c6dcf6a9e3c1bfdf3cae7f5d208220e"
+        }
+      }
+    },
+    {
+      "id": "channelattributionapp",
+      "name": "ChannelAttributionApp",
+      "author": "Davide Altomare, David Loris",
+      "description": "Shiny web application for the multichannel attribution problem",
+      "homepage": "https://github.com/cran/ChannelAttributionApp",
+      "docs": "https://github.com/cran/ChannelAttributionApp#readme",
+      "copyright": "(c) 2020 Davide Altomare",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/channelattributionapp.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "attribution",
+        "marketing",
+        "markov",
+        "shiny"
+      ],
+      "version": "0.3.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/ChannelAttributionApp/releases/download/v0.3.0/channelattributionapp-0.3.0-mac-arm64.zip",
+          "size": 50543877,
+          "sha256": "4a08befe6243adfa94e9411e022a05df188c3db73477920dbbb85e427bddbba7"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/ChannelAttributionApp/releases/download/v0.3.0/channelattributionapp-0.3.0-win-x64.zip",
+          "size": 52876619,
+          "sha256": "cb082351ede817c12ffe9c9e3bcecbceeeea15fe0df8029726ccedc7d53f55b1"
         }
       }
     }
