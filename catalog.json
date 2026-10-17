@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T14:19:44Z",
+  "updated_at": "2026-10-17T14:40:27Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -1408,6 +1408,26 @@
           "sha256": "eba458517f60d981d7331cdc4677039389f75af2048ec5777ddb592fa1df996e"
         }
       }
+    },
+    {
+      "id": "diagnostysize",
+      "name": "DiagnostySize",
+      "author": "Jana W.",
+      "description": "App for calculating the sample size in a diagnostic study",
+      "homepage": "https://github.com/JanaW09/DiagnostySize_App",
+      "docs": "https://github.com/JanaW09/DiagnostySize_App#readme",
+      "copyright": "(c) 2025 Jana W.",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "sample-size",
+        "diagnostics",
+        "statistics",
+        "shiny"
+      ],
+      "version": "",
+      "artifacts": {}
     }
   ]
 }

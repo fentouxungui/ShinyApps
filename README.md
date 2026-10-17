@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 45
+- **Apps:** 46 — 45 ✅ 可用 / 1 ⛔ 不可用
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 14:19:44 UTC
+- **Catalog last updated:** 2026-10-17 14:40:27 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -55,6 +55,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/nacho.png" width="32" alt="NACHO"> | **NACHO**<br>NanoString quality control dashboard | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/mcanouil/NACHO) · [Docs](https://mcanouil.github.io/NACHO/) · [Release](https://github.com/mcanouil/NACHO/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/reliashiny.png" width="32" alt="ReliaShiny"> | **ReliaShiny**<br>Shiny app for reliability analysis | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/paulgovan/ReliaShiny) · [Docs](https://github.com/paulgovan/ReliaShiny#readme) · [Release](https://github.com/paulgovan/ReliaShiny/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png" width="32" alt="shinyMergely"> | **shinyMergely**<br>Compare and merge two files with a Shiny app | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/stla/shinyMergely) · [Docs](https://github.com/stla/shinyMergely#readme) · [Release](https://github.com/stla/shinyMergely/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png" width="32" alt="DiagnostySize"> | **DiagnostySize**<br>App for calculating the sample size in a diagnostic study | ⛔ 不可用 | — | — | [Home](https://github.com/JanaW09/DiagnostySize_App) · [Docs](https://github.com/JanaW09/DiagnostySize_App#readme) |
 
 ---
 
@@ -1059,6 +1060,19 @@ Release: https://github.com/stla/shinyMergely/releases/tag/v0.1.1
 | `win-x64` | [shinymergely-0.1.1-win-x64.zip](https://github.com/fentouxungui/shinyMergely/releases/download/v0.1.1/shinymergely-0.1.1-win-x64.zip) | 37.3 MB | `eba458517f60d981d7331cdc4677039389f75af2048ec5777ddb592fa1df996e` |
 
 </details>
+
+### DiagnostySize
+
+**Status:** ⛔ 不可用 — no published release yet.
+
+App for calculating the sample size in a diagnostic study
+
+| Field | Value |
+|---|---|
+| Author | Jana W. |
+| License | See upstream |
+| Copyright | (c) 2025 Jana W. |
+| R version | 4.6.1 |
 
 ---
 
