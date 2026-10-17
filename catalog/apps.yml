@@ -861,3 +861,29 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/somenv.png"
     r_version: "4.6.1"
     tags: [som, environment, gis, shiny]
+
+  - id: gwsdat
+    repo: fentouxungui/GWSDAT
+    name: GWSDAT
+    author: "GWSDAT authors"
+    description: "GroundWater Spatiotemporal Data Analysis Tool"
+    homepage: "https://github.com/fentouxungui/GWSDAT"
+    docs: "https://github.com/fentouxungui/GWSDAT#readme"
+    copyright: "(c) 2025 GWSDAT authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/gwsdat.png"
+    r_version: "4.6.1"
+    tags: [groundwater, spatial, environmental, shiny]
+
+  - id: expandar
+    repo: fentouxungui/ExPanDaR
+    name: ExPanDaR
+    author: "Joachim Gassen"
+    description: "Interactive exploratory panel data analysis"
+    homepage: "https://github.com/fentouxungui/ExPanDaR"
+    docs: "https://github.com/fentouxungui/ExPanDaR#readme"
+    copyright: "(c) 2025 ExPanDaR authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/expandar.png"
+    r_version: "4.6.1"
+    tags: [panel-data, exploratory, data-analysis, shiny]
