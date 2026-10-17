@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 62
+- **Apps:** 64
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 17:30:02 UTC
+- **Catalog last updated:** 2026-10-17 17:39:25 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -72,6 +72,8 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/html2r.png" width="32" alt="html2R"> | **html2R**<br>Convert HTML to R Shiny applications | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/html2R) · [Docs](https://github.com/fentouxungui/html2R#readme) · [Release](https://github.com/fentouxungui/html2R/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/sombrero.png" width="32" alt="SOMbrero"> | **SOMbrero**<br>SOMbrero self-organizing map GUI | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SOMbrero) · [Docs](https://github.com/fentouxungui/SOMbrero#readme) · [Release](https://github.com/fentouxungui/SOMbrero/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/somenv.png" width="32" alt="SOMEnv"> | **SOMEnv**<br>Self-organizing map environment analysis GUI | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SOMEnv) · [Docs](https://github.com/fentouxungui/SOMEnv#readme) · [Release](https://github.com/fentouxungui/SOMEnv/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/gwsdat.png" width="32" alt="GWSDAT"> | **GWSDAT**<br>GroundWater Spatiotemporal Data Analysis Tool | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/GWSDAT) · [Docs](https://github.com/fentouxungui/GWSDAT#readme) · [Release](https://github.com/fentouxungui/GWSDAT/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/expandar.png" width="32" alt="ExPanDaR"> | **ExPanDaR**<br>Interactive exploratory panel data analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ExPanDaR) · [Docs](https://github.com/fentouxungui/ExPanDaR#readme) · [Release](https://github.com/fentouxungui/ExPanDaR/releases/tag/v0.1.0) |
 
 ---
 
@@ -1448,6 +1450,50 @@ Release: https://github.com/fentouxungui/SOMEnv/releases/tag/v0.2.0
 |---|---|---:|---|
 | `mac-arm64` | [somenv-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/SOMEnv/releases/download/v0.2.0/somenv-0.2.0-mac-arm64.zip) | 104.0 MB | `a97b3394598098e12ba372cd991333b1992ea4588935bbfc11746f7d75a2c753` |
 | `win-x64` | [somenv-0.2.0-win-x64.zip](https://github.com/fentouxungui/SOMEnv/releases/download/v0.2.0/somenv-0.2.0-win-x64.zip) | 109.2 MB | `c5eec5a2ace2a33c8b10919730758c1efd170bd1ed940b6a83b5c4f4fe807408` |
+
+</details>
+
+### GWSDAT `0.1.0`
+
+GroundWater Spatiotemporal Data Analysis Tool
+
+| Field | Value |
+|---|---|
+| Author | GWSDAT authors |
+| License | See upstream |
+| Copyright | (c) 2025 GWSDAT authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/GWSDAT/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [gwsdat-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/GWSDAT/releases/download/v0.1.0/gwsdat-0.1.0-mac-arm64.zip) | 162.5 MB | `4f7c2992348e1a6ea123936a8ffafec15dc89107e6784c48e21330a4e2ae6db2` |
+| `win-x64` | [gwsdat-0.1.0-win-x64.zip](https://github.com/fentouxungui/GWSDAT/releases/download/v0.1.0/gwsdat-0.1.0-win-x64.zip) | 210.4 MB | `70bc15b27917ea7e037f0b12967ab0f0c0346c6bb75c210a47e90607b8cde86c` |
+
+</details>
+
+### ExPanDaR `0.1.0`
+
+Interactive exploratory panel data analysis
+
+| Field | Value |
+|---|---|
+| Author | Joachim Gassen |
+| License | See upstream |
+| Copyright | (c) 2025 ExPanDaR authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/ExPanDaR/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [expandar-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/ExPanDaR/releases/download/v0.1.0/expandar-0.1.0-mac-arm64.zip) | 135.4 MB | `e28ff787940e4afbd219db19af804217157d4c40eb8e2d7532b79e9eca693f2c` |
+| `win-x64` | [expandar-0.1.0-win-x64.zip](https://github.com/fentouxungui/ExPanDaR/releases/download/v0.1.0/expandar-0.1.0-win-x64.zip) | 145.0 MB | `75d6f59783303bf9b3ae186e9d90fc2292564bf781fd9238f3f357d0b6a9e84a` |
 
 </details>
 

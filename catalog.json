@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T17:30:02Z",
+  "updated_at": "2026-10-17T17:39:25Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -1930,6 +1930,68 @@
           "url": "https://github.com/fentouxungui/SOMEnv/releases/download/v0.2.0/somenv-0.2.0-win-x64.zip",
           "size": 114532183,
           "sha256": "c5eec5a2ace2a33c8b10919730758c1efd170bd1ed940b6a83b5c4f4fe807408"
+        }
+      }
+    },
+    {
+      "id": "gwsdat",
+      "name": "GWSDAT",
+      "author": "GWSDAT authors",
+      "description": "GroundWater Spatiotemporal Data Analysis Tool",
+      "homepage": "https://github.com/fentouxungui/GWSDAT",
+      "docs": "https://github.com/fentouxungui/GWSDAT#readme",
+      "copyright": "(c) 2025 GWSDAT authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/gwsdat.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "groundwater",
+        "spatial",
+        "environmental",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/GWSDAT/releases/download/v0.1.0/gwsdat-0.1.0-mac-arm64.zip",
+          "size": 170424867,
+          "sha256": "4f7c2992348e1a6ea123936a8ffafec15dc89107e6784c48e21330a4e2ae6db2"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/GWSDAT/releases/download/v0.1.0/gwsdat-0.1.0-win-x64.zip",
+          "size": 220571132,
+          "sha256": "70bc15b27917ea7e037f0b12967ab0f0c0346c6bb75c210a47e90607b8cde86c"
+        }
+      }
+    },
+    {
+      "id": "expandar",
+      "name": "ExPanDaR",
+      "author": "Joachim Gassen",
+      "description": "Interactive exploratory panel data analysis",
+      "homepage": "https://github.com/fentouxungui/ExPanDaR",
+      "docs": "https://github.com/fentouxungui/ExPanDaR#readme",
+      "copyright": "(c) 2025 ExPanDaR authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/expandar.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "panel-data",
+        "exploratory",
+        "data-analysis",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/ExPanDaR/releases/download/v0.1.0/expandar-0.1.0-mac-arm64.zip",
+          "size": 142017988,
+          "sha256": "e28ff787940e4afbd219db19af804217157d4c40eb8e2d7532b79e9eca693f2c"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/ExPanDaR/releases/download/v0.1.0/expandar-0.1.0-win-x64.zip",
+          "size": 152022451,
+          "sha256": "75d6f59783303bf9b3ae186e9d90fc2292564bf781fd9238f3f357d0b6a9e84a"
         }
       }
     }
