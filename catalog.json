@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T15:26:11Z",
+  "updated_at": "2026-10-17T15:51:07Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -1745,6 +1745,37 @@
           "url": "https://github.com/fentouxungui/stmGUI/releases/download/v0.1.0/stmgui-0.1.0-win-x64.zip",
           "size": 121218192,
           "sha256": "0e220e6fe0fefc77f07bc55c75521137e36e7b083c3288b06bf537a7a4c9f847"
+        }
+      }
+    },
+    {
+      "id": "difshiny",
+      "name": "DIFshiny",
+      "author": "DIFshiny authors",
+      "description": "Differential item functioning via a Shiny application",
+      "homepage": "https://github.com/cran/DIFshiny",
+      "docs": "https://github.com/cran/DIFshiny#readme",
+      "copyright": "(c) 2025 DIFshiny authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/difshiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "dif",
+        "psychometrics",
+        "statistics",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/DIFshiny/releases/download/v0.1.0/difshiny-0.1.0-mac-arm64.zip",
+          "size": 170827084,
+          "sha256": "a9ce24394f024d7013756e9b09424b0e7bdea2721545ba87e65dcae0c969fc8d"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/DIFshiny/releases/download/v0.1.0/difshiny-0.1.0-win-x64.zip",
+          "size": 183343149,
+          "sha256": "7701b67b7e53a779395a7144e7b5338d8c6dcf6a9e3c1bfdf3cae7f5d208220e"
         }
       }
     }

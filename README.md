@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 56
+- **Apps:** 57
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 15:26:11 UTC
+- **Catalog last updated:** 2026-10-17 15:51:07 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -66,6 +66,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/metsizer.png" width="32" alt="MetSizeR"> | **MetSizeR**<br>Shiny app for sample size estimation in metabolomic experiments | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/1danjordan/MetSizeR) · [Docs](https://github.com/1danjordan/MetSizeR#readme) · [Release](https://github.com/1danjordan/MetSizeR/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/repplabshiny.png" width="32" alt="REPPlabShiny"> | **REPPlabShiny**<br>REPPlab via a Shiny application | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/REPPlabShiny) · [Docs](https://github.com/cran/REPPlabShiny#readme) · [Release](https://github.com/cran/REPPlabShiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/stmgui.png" width="32" alt="stmgui"> | **stmgui**<br>Shiny application for creating STM models | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/dzangri/stmGUI) · [Docs](https://github.com/dzangri/stmGUI#readme) · [Release](https://github.com/dzangri/stmGUI/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/difshiny.png" width="32" alt="DIFshiny"> | **DIFshiny**<br>Differential item functioning via a Shiny application | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/DIFshiny) · [Docs](https://github.com/cran/DIFshiny#readme) · [Release](https://github.com/cran/DIFshiny/releases/tag/v0.1.0) |
 
 ---
 
@@ -1310,6 +1311,28 @@ Release: https://github.com/dzangri/stmGUI/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [stmgui-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/stmGUI/releases/download/v0.1.0/stmgui-0.1.0-mac-arm64.zip) | 111.8 MB | `8ef3afc62f8d747432cde27306b1ef30d4afe1bace443d46cc4fe73441c15957` |
 | `win-x64` | [stmgui-0.1.0-win-x64.zip](https://github.com/fentouxungui/stmGUI/releases/download/v0.1.0/stmgui-0.1.0-win-x64.zip) | 115.6 MB | `0e220e6fe0fefc77f07bc55c75521137e36e7b083c3288b06bf537a7a4c9f847` |
+
+</details>
+
+### DIFshiny `0.1.0`
+
+Differential item functioning via a Shiny application
+
+| Field | Value |
+|---|---|
+| Author | DIFshiny authors |
+| License | See upstream |
+| Copyright | (c) 2025 DIFshiny authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/cran/DIFshiny/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [difshiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/DIFshiny/releases/download/v0.1.0/difshiny-0.1.0-mac-arm64.zip) | 162.9 MB | `a9ce24394f024d7013756e9b09424b0e7bdea2721545ba87e65dcae0c969fc8d` |
+| `win-x64` | [difshiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/DIFshiny/releases/download/v0.1.0/difshiny-0.1.0-win-x64.zip) | 174.8 MB | `7701b67b7e53a779395a7144e7b5338d8c6dcf6a9e3c1bfdf3cae7f5d208220e` |
 
 </details>
 
