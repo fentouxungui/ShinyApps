@@ -675,3 +675,107 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/greymodels.png"
     r_version: "4.6.1"
     tags: [forecasting,grey-model,statistics,shiny]
+
+  - id: fossilsimshiny
+    repo: fentouxungui/FossilSimShiny
+    name: FossilSimShiny
+    author: "FossilSim authors"
+    description: "Shiny app for FossilSim"
+    homepage: "https://github.com/fossilsim/FossilSimShiny"
+    docs: "https://github.com/fossilsim/FossilSimShiny#readme"
+    copyright: "(c) 2025 FossilSimShiny authors"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/fossilsimshiny.png"
+    r_version: "4.6.1"
+    tags: [paleontology, fossils, simulation, shiny]
+
+  - id: genest
+    repo: fentouxungui/GenEst
+    name: GenEst
+    author: "Daniel Dalthorp"
+    description: "Generalized mortality estimator"
+    homepage: "https://github.com/ddalthorp/GenEst"
+    docs: "https://github.com/ddalthorp/GenEst#readme"
+    copyright: "(c) 2025 GenEst authors"
+    license: "CC0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/genest.png"
+    r_version: "4.6.1"
+    tags: [mortality, statistics, estimation, shiny]
+
+  - id: icsshiny
+    repo: fentouxungui/ICSShiny
+    name: ICSShiny
+    author: "Aurore Archimbaud, Klaus Nordhausen"
+    description: "ICS via a Shiny application"
+    homepage: "https://github.com/cran/ICSShiny"
+    docs: "https://github.com/cran/ICSShiny#readme"
+    copyright: "(c) 2025 ICSShiny authors"
+    license: "GPL-2.0-or-later"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/icsshiny.png"
+    r_version: "4.6.1"
+    tags: [independent-components, statistics, shiny]
+
+  - id: irtshiny
+    repo: fentouxungui/IRTShiny
+    name: IRTShiny
+    author: "W. Kyle Hamilton"
+    description: "Item response theory via Shiny"
+    homepage: "https://github.com/kylehamilton/IRTShiny"
+    docs: "https://github.com/kylehamilton/IRTShiny#readme"
+    copyright: "(c) 2025 IRTShiny authors"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/irtshiny.png"
+    r_version: "4.6.1"
+    tags: [irt, psychometrics, statistics, shiny]
+
+  - id: kappagui
+    repo: fentouxungui/KappaGUI
+    name: KappaGUI
+    author: "Frederic Santos"
+    description: "Shiny application for Cohen and Fleiss kappa"
+    homepage: "https://github.com/cran/KappaGUI"
+    docs: "https://github.com/cran/KappaGUI#readme"
+    copyright: "(c) 2025 KappaGUI authors"
+    license: "GPL-2.0-or-later"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/kappagui.png"
+    r_version: "4.6.1"
+    tags: [agreement, kappa, statistics, shiny]
+
+  - id: metsizer
+    repo: fentouxungui/MetSizeR
+    name: MetSizeR
+    author: "Dan Jordan"
+    description: "Shiny app for sample size estimation in metabolomic experiments"
+    homepage: "https://github.com/1danjordan/MetSizeR"
+    docs: "https://github.com/1danjordan/MetSizeR#readme"
+    copyright: "(c) 2025 MetSizeR authors"
+    license: "GPL-2.0-or-later"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/metsizer.png"
+    r_version: "4.6.1"
+    tags: [metabolomics, sample-size, statistics, shiny]
+
+  - id: repplabshiny
+    repo: fentouxungui/REPPlabShiny
+    name: REPPlabShiny
+    author: "Thomas Janka, Klaus Nordhausen"
+    description: "REPPlab via a Shiny application"
+    homepage: "https://github.com/cran/REPPlabShiny"
+    docs: "https://github.com/cran/REPPlabShiny#readme"
+    copyright: "(c) 2025 REPPlabShiny authors"
+    license: "GPL-2.0-or-later"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/repplabshiny.png"
+    r_version: "4.6.1"
+    tags: [projection-pursuit, statistics, shiny]
+
+  - id: stmgui
+    repo: fentouxungui/stmGUI
+    name: stmgui
+    author: "Dan Zangri"
+    description: "Shiny application for creating STM models"
+    homepage: "https://github.com/dzangri/stmGUI"
+    docs: "https://github.com/dzangri/stmGUI#readme"
+    copyright: "(c) 2025 stmgui authors"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/stmgui.png"
+    r_version: "4.6.1"
+    tags: [topic-modeling, stm, text, shiny]
