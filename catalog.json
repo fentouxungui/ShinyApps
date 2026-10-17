@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T12:16:52Z",
+  "updated_at": "2026-10-17T13:16:05Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -973,6 +973,183 @@
           "url": "https://github.com/fentouxungui/FielDHub/releases/download/v0.1.0/fieldhub-0.1.0-win-x64.zip",
           "size": 107341256,
           "sha256": "444eea2672f573aece5374e410f027c00fa2aa41317dbb5b2ec9d2de344b055f"
+        }
+      }
+    },
+    {
+      "id": "fluxtools",
+      "name": "fluxtools",
+      "author": "Kesondra Key",
+      "description": "Shiny app for reproducible QA/QC of eddy covariance data",
+      "homepage": "https://github.com/kesondrakey/fluxtools",
+      "docs": "https://github.com/kesondrakey/fluxtools#readme",
+      "copyright": "(c) 2025 Kesondra Key",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fluxtools.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "eddy-covariance",
+        "qaqc",
+        "environmental",
+        "shiny"
+      ],
+      "version": "",
+      "artifacts": {}
+    },
+    {
+      "id": "biascorrector",
+      "name": "BiasCorrector",
+      "author": "Lorenz A. Kapsner",
+      "description": "GUI to correct measurement bias in DNA methylation analyses",
+      "homepage": "https://github.com/kapsner/BiasCorrector",
+      "docs": "https://github.com/kapsner/BiasCorrector#readme",
+      "copyright": "(c) 2025 Lorenz A. Kapsner",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/biascorrector.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "methylation",
+        "epigenetics",
+        "bias",
+        "gui",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/BiasCorrector/releases/download/v0.1.0/biascorrector-0.1.0-mac-arm64.zip",
+          "size": 62258369,
+          "sha256": "0ec5cf48a332acec6927c496bfce44fbcc0f79753ea20a1af637067dfb040a51"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/BiasCorrector/releases/download/v0.1.0/biascorrector-0.1.0-win-x64.zip",
+          "size": 64438349,
+          "sha256": "982dab1287936bb46be8083b0861fa11c7999a66ae2bf2e29ad4b3e2a5a50395"
+        }
+      }
+    },
+    {
+      "id": "quickexplore",
+      "name": "QuickExplore",
+      "author": "Ramsas",
+      "description": "Interactive dataset explorer for R, SAS and other data formats",
+      "homepage": "https://github.com/ramsas88/QuickExplore",
+      "docs": "https://github.com/ramsas88/QuickExplore#readme",
+      "copyright": "(c) 2025 Ramsas",
+      "license": "MIT",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/quickexplore.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "data-exploration",
+        "viewer",
+        "shiny"
+      ],
+      "version": "0.1.2",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/QuickExplore/releases/download/v0.1.2/quickexplore-0.1.2-mac-arm64.zip",
+          "size": 48294514,
+          "sha256": "5dd93476c696ae69c3c8cd1a85e39cc1efb680a41ed13ac1c7ca13670b088cf2"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/QuickExplore/releases/download/v0.1.2/quickexplore-0.1.2-win-x64.zip",
+          "size": 51500163,
+          "sha256": "5e867ba33007ae382af9f0c39485269512c8e18f4fbf484f875371d2220a9be7"
+        }
+      }
+    },
+    {
+      "id": "associationexplorer2",
+      "name": "AssociationExplorer2",
+      "author": "Antoine Soetewey",
+      "description": "Shiny application for exploring associations and visual patterns",
+      "homepage": "https://github.com/AntoineSoetewey/AssociationExplorer2",
+      "docs": "https://github.com/AntoineSoetewey/AssociationExplorer2#readme",
+      "copyright": "(c) 2025 Antoine Soetewey",
+      "license": "MIT",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/associationexplorer2.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "statistics",
+        "association",
+        "visualization",
+        "shiny"
+      ],
+      "version": "0.1.2",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/AssociationExplorer2/releases/download/v0.1.2/associationexplorer2-0.1.2-mac-arm64.zip",
+          "size": 96919749,
+          "sha256": "d904b6ec3a8bc5048c71d61e4b8c753b6564cdc8f47ec44e65f71b2675fd1e4a"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/AssociationExplorer2/releases/download/v0.1.2/associationexplorer2-0.1.2-win-x64.zip",
+          "size": 105393003,
+          "sha256": "acbd118f54c5083f51dfb1a0f0861dd2515b06a2b22bd8687c583fee150921be"
+        }
+      }
+    },
+    {
+      "id": "hiviz",
+      "name": "HIViz",
+      "author": "Atefeh Rashidi",
+      "description": "Interactive dashboard for HIV data visualization",
+      "homepage": "https://github.com/Atefehrashidi/HIViz",
+      "docs": "https://github.com/Atefehrashidi/HIViz#readme",
+      "copyright": "(c) 2025 Atefeh Rashidi",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/hiviz.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "hiv",
+        "epidemiology",
+        "visualization",
+        "dashboard",
+        "shiny"
+      ],
+      "version": "0.1.2",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/HIViz/releases/download/v0.1.2/hiviz-0.1.2-mac-arm64.zip",
+          "size": 99291212,
+          "sha256": "518e231f9a8b56a921151d11cb1122abe75c0c76a5b66454454c3a4c51e7e515"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/HIViz/releases/download/v0.1.2/hiviz-0.1.2-win-x64.zip",
+          "size": 105577199,
+          "sha256": "08e4c92c42db5d8718f00bb41ec2ef107a85c4fe858e6ca7cc5e826def371faa"
+        }
+      }
+    },
+    {
+      "id": "distplotter",
+      "name": "DistPlotter",
+      "author": "Cameron C. S. C.",
+      "description": "Graphical user interface for plotting common univariate distributions",
+      "homepage": "https://github.com/ccasement/DistPlotter",
+      "docs": "https://github.com/ccasement/DistPlotter#readme",
+      "copyright": "(c) 2025 DistPlotter authors",
+      "license": "MIT",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/distplotter.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "distributions",
+        "plotting",
+        "education",
+        "gui",
+        "shiny"
+      ],
+      "version": "0.1.2",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/DistPlotter/releases/download/v0.1.2/distplotter-0.1.2-mac-arm64.zip",
+          "size": 98227378,
+          "sha256": "e39fbc5236e70ace469ed7a65d0a2670ef847752e47c61a5bf07cac6b35de54e"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/DistPlotter/releases/download/v0.1.2/distplotter-0.1.2-win-x64.zip",
+          "size": 104180505,
+          "sha256": "2a784d60d07d7a08232199a4123a0efb4544802567eec0821803fc66def38413"
         }
       }
     }

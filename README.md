@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 31
+- **Apps:** 37 — 36 ✅ 可用 / 1 ⛔ 不可用
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 12:16:52 UTC
+- **Catalog last updated:** 2026-10-17 13:16:05 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -41,6 +41,12 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png" width="32" alt="GateLabR"> | **GateLabR**<br>Interactive manual gating of flow / mass cytometry on SingleCellExperiment objects | ✅ 可用 | `0.2.1` | `mac-arm64`, `win-x64` | [Home](https://david-priest.github.io/GateLabR) · [Docs](https://david-priest.github.io/GateLabR) · [Release](https://david-priest.github.io/GateLabR/releases/tag/v0.2.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/familia.png" width="32" alt="Familia"> | **Familia**<br>Shiny application for population structure and ancestry assessments | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/Breeding-Insight/Familia) · [Docs](https://github.com/Breeding-Insight/Familia#readme) · [Release](https://github.com/Breeding-Insight/Familia/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/fieldhub.png" width="32" alt="FielDHub"> | **FielDHub**<br>A Shiny app for design of experiments in life sciences | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/DidierMurilloF/FielDHub) · [Docs](https://didier-murillo.com/FielDHub/) · [Release](https://github.com/DidierMurilloF/FielDHub/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/fluxtools.png" width="32" alt="fluxtools"> | **fluxtools**<br>Shiny app for reproducible QA/QC of eddy covariance data | ⛔ 不可用 | — | — | [Home](https://github.com/kesondrakey/fluxtools) · [Docs](https://github.com/kesondrakey/fluxtools#readme) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/biascorrector.png" width="32" alt="BiasCorrector"> | **BiasCorrector**<br>GUI to correct measurement bias in DNA methylation analyses | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/kapsner/BiasCorrector) · [Docs](https://github.com/kapsner/BiasCorrector#readme) · [Release](https://github.com/kapsner/BiasCorrector/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/quickexplore.png" width="32" alt="QuickExplore"> | **QuickExplore**<br>Interactive dataset explorer for R, SAS and other data formats | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/ramsas88/QuickExplore) · [Docs](https://github.com/ramsas88/QuickExplore#readme) · [Release](https://github.com/ramsas88/QuickExplore/releases/tag/v0.1.2) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/associationexplorer2.png" width="32" alt="AssociationExplorer2"> | **AssociationExplorer2**<br>Shiny application for exploring associations and visual patterns | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/AntoineSoetewey/AssociationExplorer2) · [Docs](https://github.com/AntoineSoetewey/AssociationExplorer2#readme) · [Release](https://github.com/AntoineSoetewey/AssociationExplorer2/releases/tag/v0.1.2) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/hiviz.png" width="32" alt="HIViz"> | **HIViz**<br>Interactive dashboard for HIV data visualization | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/Atefehrashidi/HIViz) · [Docs](https://github.com/Atefehrashidi/HIViz#readme) · [Release](https://github.com/Atefehrashidi/HIViz/releases/tag/v0.1.2) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/distplotter.png" width="32" alt="DistPlotter"> | **DistPlotter**<br>Graphical user interface for plotting common univariate distributions | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/ccasement/DistPlotter) · [Docs](https://github.com/ccasement/DistPlotter#readme) · [Release](https://github.com/ccasement/DistPlotter/releases/tag/v0.1.2) |
 
 ---
 
@@ -735,6 +741,129 @@ Release: https://github.com/DidierMurilloF/FielDHub/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [fieldhub-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/FielDHub/releases/download/v0.1.0/fieldhub-0.1.0-mac-arm64.zip) | 97.0 MB | `83d46e06118251250694549609d9828154cc6c04b4defe4bd5279f5daa61f832` |
 | `win-x64` | [fieldhub-0.1.0-win-x64.zip](https://github.com/fentouxungui/FielDHub/releases/download/v0.1.0/fieldhub-0.1.0-win-x64.zip) | 102.4 MB | `444eea2672f573aece5374e410f027c00fa2aa41317dbb5b2ec9d2de344b055f` |
+
+</details>
+
+### fluxtools
+
+**Status:** ⛔ 不可用 — no published release yet.
+
+Shiny app for reproducible QA/QC of eddy covariance data
+
+| Field | Value |
+|---|---|
+| Author | Kesondra Key |
+| License | GPL-3.0 |
+| Copyright | (c) 2025 Kesondra Key |
+| R version | 4.6.1 |
+
+### BiasCorrector `0.1.0`
+
+GUI to correct measurement bias in DNA methylation analyses
+
+| Field | Value |
+|---|---|
+| Author | Lorenz A. Kapsner |
+| License | GPL-3.0 |
+| Copyright | (c) 2025 Lorenz A. Kapsner |
+| R version | 4.6.1 |
+
+Release: https://github.com/kapsner/BiasCorrector/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [biascorrector-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/BiasCorrector/releases/download/v0.1.0/biascorrector-0.1.0-mac-arm64.zip) | 59.4 MB | `0ec5cf48a332acec6927c496bfce44fbcc0f79753ea20a1af637067dfb040a51` |
+| `win-x64` | [biascorrector-0.1.0-win-x64.zip](https://github.com/fentouxungui/BiasCorrector/releases/download/v0.1.0/biascorrector-0.1.0-win-x64.zip) | 61.5 MB | `982dab1287936bb46be8083b0861fa11c7999a66ae2bf2e29ad4b3e2a5a50395` |
+
+</details>
+
+### QuickExplore `0.1.2`
+
+Interactive dataset explorer for R, SAS and other data formats
+
+| Field | Value |
+|---|---|
+| Author | Ramsas |
+| License | MIT |
+| Copyright | (c) 2025 Ramsas |
+| R version | 4.6.1 |
+
+Release: https://github.com/ramsas88/QuickExplore/releases/tag/v0.1.2
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [quickexplore-0.1.2-mac-arm64.zip](https://github.com/fentouxungui/QuickExplore/releases/download/v0.1.2/quickexplore-0.1.2-mac-arm64.zip) | 46.1 MB | `5dd93476c696ae69c3c8cd1a85e39cc1efb680a41ed13ac1c7ca13670b088cf2` |
+| `win-x64` | [quickexplore-0.1.2-win-x64.zip](https://github.com/fentouxungui/QuickExplore/releases/download/v0.1.2/quickexplore-0.1.2-win-x64.zip) | 49.1 MB | `5e867ba33007ae382af9f0c39485269512c8e18f4fbf484f875371d2220a9be7` |
+
+</details>
+
+### AssociationExplorer2 `0.1.2`
+
+Shiny application for exploring associations and visual patterns
+
+| Field | Value |
+|---|---|
+| Author | Antoine Soetewey |
+| License | MIT |
+| Copyright | (c) 2025 Antoine Soetewey |
+| R version | 4.6.1 |
+
+Release: https://github.com/AntoineSoetewey/AssociationExplorer2/releases/tag/v0.1.2
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [associationexplorer2-0.1.2-mac-arm64.zip](https://github.com/fentouxungui/AssociationExplorer2/releases/download/v0.1.2/associationexplorer2-0.1.2-mac-arm64.zip) | 92.4 MB | `d904b6ec3a8bc5048c71d61e4b8c753b6564cdc8f47ec44e65f71b2675fd1e4a` |
+| `win-x64` | [associationexplorer2-0.1.2-win-x64.zip](https://github.com/fentouxungui/AssociationExplorer2/releases/download/v0.1.2/associationexplorer2-0.1.2-win-x64.zip) | 100.5 MB | `acbd118f54c5083f51dfb1a0f0861dd2515b06a2b22bd8687c583fee150921be` |
+
+</details>
+
+### HIViz `0.1.2`
+
+Interactive dashboard for HIV data visualization
+
+| Field | Value |
+|---|---|
+| Author | Atefeh Rashidi |
+| License | GPL-3.0 |
+| Copyright | (c) 2025 Atefeh Rashidi |
+| R version | 4.6.1 |
+
+Release: https://github.com/Atefehrashidi/HIViz/releases/tag/v0.1.2
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [hiviz-0.1.2-mac-arm64.zip](https://github.com/fentouxungui/HIViz/releases/download/v0.1.2/hiviz-0.1.2-mac-arm64.zip) | 94.7 MB | `518e231f9a8b56a921151d11cb1122abe75c0c76a5b66454454c3a4c51e7e515` |
+| `win-x64` | [hiviz-0.1.2-win-x64.zip](https://github.com/fentouxungui/HIViz/releases/download/v0.1.2/hiviz-0.1.2-win-x64.zip) | 100.7 MB | `08e4c92c42db5d8718f00bb41ec2ef107a85c4fe858e6ca7cc5e826def371faa` |
+
+</details>
+
+### DistPlotter `0.1.2`
+
+Graphical user interface for plotting common univariate distributions
+
+| Field | Value |
+|---|---|
+| Author | Cameron C. S. C. |
+| License | MIT |
+| Copyright | (c) 2025 DistPlotter authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/ccasement/DistPlotter/releases/tag/v0.1.2
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [distplotter-0.1.2-mac-arm64.zip](https://github.com/fentouxungui/DistPlotter/releases/download/v0.1.2/distplotter-0.1.2-mac-arm64.zip) | 93.7 MB | `e39fbc5236e70ace469ed7a65d0a2670ef847752e47c61a5bf07cac6b35de54e` |
+| `win-x64` | [distplotter-0.1.2-win-x64.zip](https://github.com/fentouxungui/DistPlotter/releases/download/v0.1.2/distplotter-0.1.2-win-x64.zip) | 99.4 MB | `2a784d60d07d7a08232199a4123a0efb4544802567eec0821803fc66def38413` |
 
 </details>
 
