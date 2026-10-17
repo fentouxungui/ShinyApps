@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T14:55:45Z",
+  "updated_at": "2026-10-17T15:26:11Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -1488,8 +1488,265 @@
         "statistics",
         "shiny"
       ],
-      "version": "",
-      "artifacts": {}
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/Greymodels/releases/download/v0.1.0/greymodels-0.1.0-mac-arm64.zip",
+          "size": 101473414,
+          "sha256": "1173053a7405c58ffb3918d799ee4b958f2fa9d0df427aa5899e5ef4c660eb16"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/Greymodels/releases/download/v0.1.0/greymodels-0.1.0-win-x64.zip",
+          "size": 106969076,
+          "sha256": "fea6be1f8c34399bb14136dd745c3134baa5e01e5dd6b9626794458f8b08bc3f"
+        }
+      }
+    },
+    {
+      "id": "fossilsimshiny",
+      "name": "FossilSimShiny",
+      "author": "FossilSim authors",
+      "description": "Shiny app for FossilSim",
+      "homepage": "https://github.com/fossilsim/FossilSimShiny",
+      "docs": "https://github.com/fossilsim/FossilSimShiny#readme",
+      "copyright": "(c) 2025 FossilSimShiny authors",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fossilsimshiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "paleontology",
+        "fossils",
+        "simulation",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/FossilSimShiny/releases/download/v0.1.0/fossilsimshiny-0.1.0-mac-arm64.zip",
+          "size": 103430868,
+          "sha256": "fa9bba72cb6fc504084070ee699cc9981cdf798ff0b54af151eb713ee8f11388"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/FossilSimShiny/releases/download/v0.1.0/fossilsimshiny-0.1.0-win-x64.zip",
+          "size": 107515164,
+          "sha256": "382b420b8c4968a385a26715f8e2d1ba7c3ac4406924bd392728eebef3e60c4b"
+        }
+      }
+    },
+    {
+      "id": "genest",
+      "name": "GenEst",
+      "author": "Daniel Dalthorp",
+      "description": "Generalized mortality estimator",
+      "homepage": "https://github.com/ddalthorp/GenEst",
+      "docs": "https://github.com/ddalthorp/GenEst#readme",
+      "copyright": "(c) 2025 GenEst authors",
+      "license": "CC0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/genest.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "mortality",
+        "statistics",
+        "estimation",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/GenEst/releases/download/v0.1.0/genest-0.1.0-mac-arm64.zip",
+          "size": 60376655,
+          "sha256": "694c17b34f1eb6e1ae3e22c71fd58252aab5d763af98715fedba8c3817cdd346"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/GenEst/releases/download/v0.1.0/genest-0.1.0-win-x64.zip",
+          "size": 62576984,
+          "sha256": "79f0e9a426a9b9ac3f94d811b9fafa35eb78fe197ce8810b540100b0237f8b25"
+        }
+      }
+    },
+    {
+      "id": "icsshiny",
+      "name": "ICSShiny",
+      "author": "Aurore Archimbaud, Klaus Nordhausen",
+      "description": "ICS via a Shiny application",
+      "homepage": "https://github.com/cran/ICSShiny",
+      "docs": "https://github.com/cran/ICSShiny#readme",
+      "copyright": "(c) 2025 ICSShiny authors",
+      "license": "GPL-2.0-or-later",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/icsshiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "independent-components",
+        "statistics",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/ICSShiny/releases/download/v0.1.0/icsshiny-0.1.0-mac-arm64.zip",
+          "size": 72293300,
+          "sha256": "7f5d40ceddbcb23a747623bdd32a6f8dc6b0ad0ff7f88a47c20c6663db94f0bd"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/ICSShiny/releases/download/v0.1.0/icsshiny-0.1.0-win-x64.zip",
+          "size": 74516414,
+          "sha256": "000b40777d8c1b4ecfcdf64973a0e4b69ecbe4f326a5b6699176da958f452e79"
+        }
+      }
+    },
+    {
+      "id": "irtshiny",
+      "name": "IRTShiny",
+      "author": "W. Kyle Hamilton",
+      "description": "Item response theory via Shiny",
+      "homepage": "https://github.com/kylehamilton/IRTShiny",
+      "docs": "https://github.com/kylehamilton/IRTShiny#readme",
+      "copyright": "(c) 2025 IRTShiny authors",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/irtshiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "irt",
+        "psychometrics",
+        "statistics",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/IRTShiny/releases/download/v0.1.0/irtshiny-0.1.0-mac-arm64.zip",
+          "size": 62015870,
+          "sha256": "847203cb86f558cc8de9be9239140d6a3f2a1742e102f8fc365bd92f1f50c4f3"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/IRTShiny/releases/download/v0.1.0/irtshiny-0.1.0-win-x64.zip",
+          "size": 63753527,
+          "sha256": "bc94777062ef9d8b6e442c76be14d4e5dbba5851a0e450007b85497c7951e436"
+        }
+      }
+    },
+    {
+      "id": "kappagui",
+      "name": "KappaGUI",
+      "author": "Frederic Santos",
+      "description": "Shiny application for Cohen and Fleiss kappa",
+      "homepage": "https://github.com/cran/KappaGUI",
+      "docs": "https://github.com/cran/KappaGUI#readme",
+      "copyright": "(c) 2025 KappaGUI authors",
+      "license": "GPL-2.0-or-later",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/kappagui.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "agreement",
+        "kappa",
+        "statistics",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/KappaGUI/releases/download/v0.1.0/kappagui-0.1.0-mac-arm64.zip",
+          "size": 28705394,
+          "sha256": "6a35866b4c5454bdefddb1d02cdbd6e70814d4f09b418f4a8dfa84d5bfa449de"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/KappaGUI/releases/download/v0.1.0/kappagui-0.1.0-win-x64.zip",
+          "size": 30282813,
+          "sha256": "241c691d435439f301397a6db754c42875140015010dfea8f21205f306d2581e"
+        }
+      }
+    },
+    {
+      "id": "metsizer",
+      "name": "MetSizeR",
+      "author": "Dan Jordan",
+      "description": "Shiny app for sample size estimation in metabolomic experiments",
+      "homepage": "https://github.com/1danjordan/MetSizeR",
+      "docs": "https://github.com/1danjordan/MetSizeR#readme",
+      "copyright": "(c) 2025 MetSizeR authors",
+      "license": "GPL-2.0-or-later",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/metsizer.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "metabolomics",
+        "sample-size",
+        "statistics",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/MetSizeR/releases/download/v0.1.0/metsizer-0.1.0-mac-arm64.zip",
+          "size": 69769387,
+          "sha256": "435bb1420681ff1e3b9072ec3b9c1079809e4cb507334d18d286f03651a7e66e"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/MetSizeR/releases/download/v0.1.0/metsizer-0.1.0-win-x64.zip",
+          "size": 74724469,
+          "sha256": "f65c6a4e608fa300de597fb51c6c238c434c39be9cc755c1814dfce93b8ba575"
+        }
+      }
+    },
+    {
+      "id": "repplabshiny",
+      "name": "REPPlabShiny",
+      "author": "Thomas Janka, Klaus Nordhausen",
+      "description": "REPPlab via a Shiny application",
+      "homepage": "https://github.com/cran/REPPlabShiny",
+      "docs": "https://github.com/cran/REPPlabShiny#readme",
+      "copyright": "(c) 2025 REPPlabShiny authors",
+      "license": "GPL-2.0-or-later",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/repplabshiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "projection-pursuit",
+        "statistics",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/REPPlabShiny/releases/download/v0.1.0/repplabshiny-0.1.0-mac-arm64.zip",
+          "size": 40166689,
+          "sha256": "8f4d943dcb0f594f8b6a880d9b70d1248a16546f85249242bc37427f60c0823e"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/REPPlabShiny/releases/download/v0.1.0/repplabshiny-0.1.0-win-x64.zip",
+          "size": 41707228,
+          "sha256": "46285222080cd4217a4bf215a17540c6cd65e276295d1252a857a533fc1f6a0c"
+        }
+      }
+    },
+    {
+      "id": "stmgui",
+      "name": "stmgui",
+      "author": "Dan Zangri",
+      "description": "Shiny application for creating STM models",
+      "homepage": "https://github.com/dzangri/stmGUI",
+      "docs": "https://github.com/dzangri/stmGUI#readme",
+      "copyright": "(c) 2025 stmgui authors",
+      "license": "MIT",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/stmgui.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "topic-modeling",
+        "stm",
+        "text",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/stmGUI/releases/download/v0.1.0/stmgui-0.1.0-mac-arm64.zip",
+          "size": 117207752,
+          "sha256": "8ef3afc62f8d747432cde27306b1ef30d4afe1bace443d46cc4fe73441c15957"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/stmGUI/releases/download/v0.1.0/stmgui-0.1.0-win-x64.zip",
+          "size": 121218192,
+          "sha256": "0e220e6fe0fefc77f07bc55c75521137e36e7b083c3288b06bf537a7a4c9f847"
+        }
+      }
     }
   ]
 }

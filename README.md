@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 48 — 47 ✅ 可用 / 1 ⛔ 不可用
+- **Apps:** 56
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 14:55:45 UTC
+- **Catalog last updated:** 2026-10-17 15:26:11 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -57,7 +57,15 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png" width="32" alt="shinyMergely"> | **shinyMergely**<br>Compare and merge two files with a Shiny app | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/stla/shinyMergely) · [Docs](https://github.com/stla/shinyMergely#readme) · [Release](https://github.com/stla/shinyMergely/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png" width="32" alt="DiagnostySize"> | **DiagnostySize**<br>App for calculating the sample size in a diagnostic study | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/JanaW09/DiagnostySize_App) · [Docs](https://github.com/JanaW09/DiagnostySize_App#readme) · [Release](https://github.com/JanaW09/DiagnostySize_App/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/lavaanshiny.png" width="32" alt="lavaan.shiny"> | **lavaan.shiny**<br>Latent variable analysis with Shiny | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/kylehamilton/lavaan.shiny) · [Docs](https://github.com/kylehamilton/lavaan.shiny#readme) · [Release](https://github.com/kylehamilton/lavaan.shiny/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/greymodels.png" width="32" alt="Greymodels"> | **Greymodels**<br>Shiny app for Grey forecasting models | ⛔ 不可用 | — | — | [Home](https://github.com/havishaJ/Greymodels) · [Docs](https://github.com/havishaJ/Greymodels#readme) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/greymodels.png" width="32" alt="Greymodels"> | **Greymodels**<br>Shiny app for Grey forecasting models | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/havishaJ/Greymodels) · [Docs](https://github.com/havishaJ/Greymodels#readme) · [Release](https://github.com/havishaJ/Greymodels/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/fossilsimshiny.png" width="32" alt="FossilSimShiny"> | **FossilSimShiny**<br>Shiny app for FossilSim | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fossilsim/FossilSimShiny) · [Docs](https://github.com/fossilsim/FossilSimShiny#readme) · [Release](https://github.com/fossilsim/FossilSimShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/genest.png" width="32" alt="GenEst"> | **GenEst**<br>Generalized mortality estimator | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/ddalthorp/GenEst) · [Docs](https://github.com/ddalthorp/GenEst#readme) · [Release](https://github.com/ddalthorp/GenEst/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/icsshiny.png" width="32" alt="ICSShiny"> | **ICSShiny**<br>ICS via a Shiny application | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/ICSShiny) · [Docs](https://github.com/cran/ICSShiny#readme) · [Release](https://github.com/cran/ICSShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/irtshiny.png" width="32" alt="IRTShiny"> | **IRTShiny**<br>Item response theory via Shiny | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/kylehamilton/IRTShiny) · [Docs](https://github.com/kylehamilton/IRTShiny#readme) · [Release](https://github.com/kylehamilton/IRTShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/kappagui.png" width="32" alt="KappaGUI"> | **KappaGUI**<br>Shiny application for Cohen and Fleiss kappa | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/KappaGUI) · [Docs](https://github.com/cran/KappaGUI#readme) · [Release](https://github.com/cran/KappaGUI/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/metsizer.png" width="32" alt="MetSizeR"> | **MetSizeR**<br>Shiny app for sample size estimation in metabolomic experiments | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/1danjordan/MetSizeR) · [Docs](https://github.com/1danjordan/MetSizeR#readme) · [Release](https://github.com/1danjordan/MetSizeR/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/repplabshiny.png" width="32" alt="REPPlabShiny"> | **REPPlabShiny**<br>REPPlab via a Shiny application | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/REPPlabShiny) · [Docs](https://github.com/cran/REPPlabShiny#readme) · [Release](https://github.com/cran/REPPlabShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/stmgui.png" width="32" alt="stmgui"> | **stmgui**<br>Shiny application for creating STM models | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/dzangri/stmGUI) · [Docs](https://github.com/dzangri/stmGUI#readme) · [Release](https://github.com/dzangri/stmGUI/releases/tag/v0.1.0) |
 
 ---
 
@@ -1107,9 +1115,7 @@ Release: https://github.com/kylehamilton/lavaan.shiny/releases/tag/v0.1.1
 
 </details>
 
-### Greymodels
-
-**Status:** ⛔ 不可用 — no published release yet.
+### Greymodels `0.1.0`
 
 Shiny app for Grey forecasting models
 
@@ -1119,6 +1125,193 @@ Shiny app for Grey forecasting models
 | License | See upstream |
 | Copyright | (c) 2025 Havisha J. |
 | R version | 4.6.1 |
+
+Release: https://github.com/havishaJ/Greymodels/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [greymodels-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/Greymodels/releases/download/v0.1.0/greymodels-0.1.0-mac-arm64.zip) | 96.8 MB | `1173053a7405c58ffb3918d799ee4b958f2fa9d0df427aa5899e5ef4c660eb16` |
+| `win-x64` | [greymodels-0.1.0-win-x64.zip](https://github.com/fentouxungui/Greymodels/releases/download/v0.1.0/greymodels-0.1.0-win-x64.zip) | 102.0 MB | `fea6be1f8c34399bb14136dd745c3134baa5e01e5dd6b9626794458f8b08bc3f` |
+
+</details>
+
+### FossilSimShiny `0.1.0`
+
+Shiny app for FossilSim
+
+| Field | Value |
+|---|---|
+| Author | FossilSim authors |
+| License | GPL-3.0 |
+| Copyright | (c) 2025 FossilSimShiny authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fossilsim/FossilSimShiny/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [fossilsimshiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/FossilSimShiny/releases/download/v0.1.0/fossilsimshiny-0.1.0-mac-arm64.zip) | 98.6 MB | `fa9bba72cb6fc504084070ee699cc9981cdf798ff0b54af151eb713ee8f11388` |
+| `win-x64` | [fossilsimshiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/FossilSimShiny/releases/download/v0.1.0/fossilsimshiny-0.1.0-win-x64.zip) | 102.5 MB | `382b420b8c4968a385a26715f8e2d1ba7c3ac4406924bd392728eebef3e60c4b` |
+
+</details>
+
+### GenEst `0.1.0`
+
+Generalized mortality estimator
+
+| Field | Value |
+|---|---|
+| Author | Daniel Dalthorp |
+| License | CC0 |
+| Copyright | (c) 2025 GenEst authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/ddalthorp/GenEst/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [genest-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/GenEst/releases/download/v0.1.0/genest-0.1.0-mac-arm64.zip) | 57.6 MB | `694c17b34f1eb6e1ae3e22c71fd58252aab5d763af98715fedba8c3817cdd346` |
+| `win-x64` | [genest-0.1.0-win-x64.zip](https://github.com/fentouxungui/GenEst/releases/download/v0.1.0/genest-0.1.0-win-x64.zip) | 59.7 MB | `79f0e9a426a9b9ac3f94d811b9fafa35eb78fe197ce8810b540100b0237f8b25` |
+
+</details>
+
+### ICSShiny `0.1.0`
+
+ICS via a Shiny application
+
+| Field | Value |
+|---|---|
+| Author | Aurore Archimbaud, Klaus Nordhausen |
+| License | GPL-2.0-or-later |
+| Copyright | (c) 2025 ICSShiny authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/cran/ICSShiny/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [icsshiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/ICSShiny/releases/download/v0.1.0/icsshiny-0.1.0-mac-arm64.zip) | 68.9 MB | `7f5d40ceddbcb23a747623bdd32a6f8dc6b0ad0ff7f88a47c20c6663db94f0bd` |
+| `win-x64` | [icsshiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/ICSShiny/releases/download/v0.1.0/icsshiny-0.1.0-win-x64.zip) | 71.1 MB | `000b40777d8c1b4ecfcdf64973a0e4b69ecbe4f326a5b6699176da958f452e79` |
+
+</details>
+
+### IRTShiny `0.1.0`
+
+Item response theory via Shiny
+
+| Field | Value |
+|---|---|
+| Author | W. Kyle Hamilton |
+| License | GPL-3.0 |
+| Copyright | (c) 2025 IRTShiny authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/kylehamilton/IRTShiny/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [irtshiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/IRTShiny/releases/download/v0.1.0/irtshiny-0.1.0-mac-arm64.zip) | 59.1 MB | `847203cb86f558cc8de9be9239140d6a3f2a1742e102f8fc365bd92f1f50c4f3` |
+| `win-x64` | [irtshiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/IRTShiny/releases/download/v0.1.0/irtshiny-0.1.0-win-x64.zip) | 60.8 MB | `bc94777062ef9d8b6e442c76be14d4e5dbba5851a0e450007b85497c7951e436` |
+
+</details>
+
+### KappaGUI `0.1.0`
+
+Shiny application for Cohen and Fleiss kappa
+
+| Field | Value |
+|---|---|
+| Author | Frederic Santos |
+| License | GPL-2.0-or-later |
+| Copyright | (c) 2025 KappaGUI authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/cran/KappaGUI/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [kappagui-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/KappaGUI/releases/download/v0.1.0/kappagui-0.1.0-mac-arm64.zip) | 27.4 MB | `6a35866b4c5454bdefddb1d02cdbd6e70814d4f09b418f4a8dfa84d5bfa449de` |
+| `win-x64` | [kappagui-0.1.0-win-x64.zip](https://github.com/fentouxungui/KappaGUI/releases/download/v0.1.0/kappagui-0.1.0-win-x64.zip) | 28.9 MB | `241c691d435439f301397a6db754c42875140015010dfea8f21205f306d2581e` |
+
+</details>
+
+### MetSizeR `0.1.0`
+
+Shiny app for sample size estimation in metabolomic experiments
+
+| Field | Value |
+|---|---|
+| Author | Dan Jordan |
+| License | GPL-2.0-or-later |
+| Copyright | (c) 2025 MetSizeR authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/1danjordan/MetSizeR/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [metsizer-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/MetSizeR/releases/download/v0.1.0/metsizer-0.1.0-mac-arm64.zip) | 66.5 MB | `435bb1420681ff1e3b9072ec3b9c1079809e4cb507334d18d286f03651a7e66e` |
+| `win-x64` | [metsizer-0.1.0-win-x64.zip](https://github.com/fentouxungui/MetSizeR/releases/download/v0.1.0/metsizer-0.1.0-win-x64.zip) | 71.3 MB | `f65c6a4e608fa300de597fb51c6c238c434c39be9cc755c1814dfce93b8ba575` |
+
+</details>
+
+### REPPlabShiny `0.1.0`
+
+REPPlab via a Shiny application
+
+| Field | Value |
+|---|---|
+| Author | Thomas Janka, Klaus Nordhausen |
+| License | GPL-2.0-or-later |
+| Copyright | (c) 2025 REPPlabShiny authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/cran/REPPlabShiny/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [repplabshiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/REPPlabShiny/releases/download/v0.1.0/repplabshiny-0.1.0-mac-arm64.zip) | 38.3 MB | `8f4d943dcb0f594f8b6a880d9b70d1248a16546f85249242bc37427f60c0823e` |
+| `win-x64` | [repplabshiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/REPPlabShiny/releases/download/v0.1.0/repplabshiny-0.1.0-win-x64.zip) | 39.8 MB | `46285222080cd4217a4bf215a17540c6cd65e276295d1252a857a533fc1f6a0c` |
+
+</details>
+
+### stmgui `0.1.0`
+
+Shiny application for creating STM models
+
+| Field | Value |
+|---|---|
+| Author | Dan Zangri |
+| License | MIT |
+| Copyright | (c) 2025 stmgui authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/dzangri/stmGUI/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [stmgui-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/stmGUI/releases/download/v0.1.0/stmgui-0.1.0-mac-arm64.zip) | 111.8 MB | `8ef3afc62f8d747432cde27306b1ef30d4afe1bace443d46cc4fe73441c15957` |
+| `win-x64` | [stmgui-0.1.0-win-x64.zip](https://github.com/fentouxungui/stmGUI/releases/download/v0.1.0/stmgui-0.1.0-win-x64.zip) | 115.6 MB | `0e220e6fe0fefc77f07bc55c75521137e36e7b083c3288b06bf537a7a4c9f847` |
+
+</details>
 
 ---
 
