@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 29
+- **Apps:** 30
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 11:07:40 UTC
+- **Catalog last updated:** 2026-10-17 11:43:39 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -39,6 +39,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png" width="32" alt="shiny-genome-stats"> | **shiny-genome-stats**<br>Interactive visualization of basic microbial genome features | ✅ 可用 | `0.1.7` | `mac-arm64`, `win-x64` | [Home](https://github.com/MPUSP/shiny-genome-stats) · [Docs](https://github.com/MPUSP/shiny-genome-stats#readme) · [Release](https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.7) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png" width="32" alt="Metaboseek"> | **Metaboseek**<br>Interactive analysis and browsing of mass spectrometry data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://metaboseek.com) · [Docs](https://github.com/mjhelf/Metaboseek#readme) · [Release](https://metaboseek.com/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png" width="32" alt="GateLabR"> | **GateLabR**<br>Interactive manual gating of flow / mass cytometry on SingleCellExperiment objects | ✅ 可用 | `0.2.1` | `mac-arm64`, `win-x64` | [Home](https://david-priest.github.io/GateLabR) · [Docs](https://david-priest.github.io/GateLabR) · [Release](https://david-priest.github.io/GateLabR/releases/tag/v0.2.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/familia.png" width="32" alt="Familia"> | **Familia**<br>Shiny application for population structure and ancestry assessments | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/Breeding-Insight/Familia) · [Docs](https://github.com/Breeding-Insight/Familia#readme) · [Release](https://github.com/Breeding-Insight/Familia/releases/tag/v0.1.0) |
 
 ---
 
@@ -689,6 +690,28 @@ Release: https://david-priest.github.io/GateLabR/releases/tag/v0.2.1
 |---|---|---:|---|
 | `mac-arm64` | [gatelabr-0.2.1-mac-arm64.zip](https://github.com/fentouxungui/GateLabR/releases/download/v0.2.1/gatelabr-0.2.1-mac-arm64.zip) | 164.5 MB | `cec141776a43af229325f6a42f60f20a4ea6021d9a1969bec88886118f8d9e2e` |
 | `win-x64` | [gatelabr-0.2.1-win-x64.zip](https://github.com/fentouxungui/GateLabR/releases/download/v0.2.1/gatelabr-0.2.1-win-x64.zip) | 150.3 MB | `b1e943b12b933054e55f5c5cbc846a67dd6ff4d2e45262f7985dbc15480b0259` |
+
+</details>
+
+### Familia `0.1.0`
+
+Shiny application for population structure and ancestry assessments
+
+| Field | Value |
+|---|---|
+| Author | Breeding Insight |
+| License | Apache-2.0 |
+| Copyright | (c) 2025 Breeding Insight |
+| R version | 4.6.1 |
+
+Release: https://github.com/Breeding-Insight/Familia/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [familia-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/familia/releases/download/v0.1.0/familia-0.1.0-mac-arm64.zip) | 118.7 MB | `c750fd414238e6acd03f2ef1221e826065b7886ec256217adca90e55cfb1c016` |
+| `win-x64` | [familia-0.1.0-win-x64.zip](https://github.com/fentouxungui/familia/releases/download/v0.1.0/familia-0.1.0-win-x64.zip) | 125.2 MB | `cd94690ec4c225321d55aae72e64a8561af4e3d934ea4c34feda346dca2ee5f7` |
 
 </details>
 
