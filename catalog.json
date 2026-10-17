@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T17:24:29Z",
+  "updated_at": "2026-10-17T17:30:02Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -1899,6 +1899,37 @@
           "url": "https://github.com/fentouxungui/SOMbrero/releases/download/v0.1.0/sombrero-0.1.0-win-x64.zip",
           "size": 174906953,
           "sha256": "ffb42a13a0a6a2245e86291e063c235af893725f653eb6a114634684ffb47613"
+        }
+      }
+    },
+    {
+      "id": "somenv",
+      "name": "SOMEnv",
+      "author": "SOMEnv authors",
+      "description": "Self-organizing map environment analysis GUI",
+      "homepage": "https://github.com/fentouxungui/SOMEnv",
+      "docs": "https://github.com/fentouxungui/SOMEnv#readme",
+      "copyright": "(c) 2025 SOMEnv authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/somenv.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "som",
+        "environment",
+        "gis",
+        "shiny"
+      ],
+      "version": "0.2.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/SOMEnv/releases/download/v0.2.0/somenv-0.2.0-mac-arm64.zip",
+          "size": 109016827,
+          "sha256": "a97b3394598098e12ba372cd991333b1992ea4588935bbfc11746f7d75a2c753"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/SOMEnv/releases/download/v0.2.0/somenv-0.2.0-win-x64.zip",
+          "size": 114532183,
+          "sha256": "c5eec5a2ace2a33c8b10919730758c1efd170bd1ed940b6a83b5c4f4fe807408"
         }
       }
     }

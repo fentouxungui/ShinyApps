@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 61
+- **Apps:** 62
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 17:24:29 UTC
+- **Catalog last updated:** 2026-10-17 17:30:02 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -71,6 +71,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/squeakr.png" width="32" alt="SqueakR"> | **SqueakR**<br>Shiny dashboard for SqueakR behavioural analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SqueakR) · [Docs](https://github.com/fentouxungui/SqueakR#readme) · [Release](https://github.com/fentouxungui/SqueakR/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/html2r.png" width="32" alt="html2R"> | **html2R**<br>Convert HTML to R Shiny applications | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/html2R) · [Docs](https://github.com/fentouxungui/html2R#readme) · [Release](https://github.com/fentouxungui/html2R/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/sombrero.png" width="32" alt="SOMbrero"> | **SOMbrero**<br>SOMbrero self-organizing map GUI | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SOMbrero) · [Docs](https://github.com/fentouxungui/SOMbrero#readme) · [Release](https://github.com/fentouxungui/SOMbrero/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/somenv.png" width="32" alt="SOMEnv"> | **SOMEnv**<br>Self-organizing map environment analysis GUI | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SOMEnv) · [Docs](https://github.com/fentouxungui/SOMEnv#readme) · [Release](https://github.com/fentouxungui/SOMEnv/releases/tag/v0.2.0) |
 
 ---
 
@@ -1425,6 +1426,28 @@ Release: https://github.com/fentouxungui/SOMbrero/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [sombrero-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/SOMbrero/releases/download/v0.1.0/sombrero-0.1.0-mac-arm64.zip) | 136.1 MB | `a208f1b0dbbc64eae2390748c75b01a5fb3dc98236d51e28008f686cbaacbe6b` |
 | `win-x64` | [sombrero-0.1.0-win-x64.zip](https://github.com/fentouxungui/SOMbrero/releases/download/v0.1.0/sombrero-0.1.0-win-x64.zip) | 166.8 MB | `ffb42a13a0a6a2245e86291e063c235af893725f653eb6a114634684ffb47613` |
+
+</details>
+
+### SOMEnv `0.2.0`
+
+Self-organizing map environment analysis GUI
+
+| Field | Value |
+|---|---|
+| Author | SOMEnv authors |
+| License | See upstream |
+| Copyright | (c) 2025 SOMEnv authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/SOMEnv/releases/tag/v0.2.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [somenv-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/SOMEnv/releases/download/v0.2.0/somenv-0.2.0-mac-arm64.zip) | 104.0 MB | `a97b3394598098e12ba372cd991333b1992ea4588935bbfc11746f7d75a2c753` |
+| `win-x64` | [somenv-0.2.0-win-x64.zip](https://github.com/fentouxungui/SOMEnv/releases/download/v0.2.0/somenv-0.2.0-win-x64.zip) | 109.2 MB | `c5eec5a2ace2a33c8b10919730758c1efd170bd1ed940b6a83b5c4f4fe807408` |
 
 </details>
 
