@@ -978,3 +978,68 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/holi.png"
     r_version: "4.6.1"
     tags: [likelihood-inference, statistics, web-app, shiny]
+
+  - id: shinybrms
+    repo: fentouxungui/shinybrms
+    name: shinybrms
+    author: "shinybrms authors"
+    description: "Shiny interface for brms Bayesian models"
+    homepage: "https://github.com/fentouxungui/shinybrms"
+    docs: "https://github.com/fentouxungui/shinybrms#readme"
+    copyright: "(c) 2025 shinybrms authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinybrms.png"
+    r_version: "4.6.1"
+    tags: [bayesian, brms, modeling, shiny]
+
+  - id: lande
+    repo: fentouxungui/lande
+    name: lande
+    author: "lande authors"
+    description: "Landscape analysis and visualization"
+    homepage: "https://github.com/fentouxungui/lande"
+    docs: "https://github.com/fentouxungui/lande#readme"
+    copyright: "(c) 2025 lande authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/lande.png"
+    r_version: "4.6.1"
+    tags: [landscape, ecology, analysis, shiny]
+
+  - id: mispitools
+    repo: fentouxungui/mispitools
+    name: mispitools
+    author: "mispitools authors"
+    description: "Missing person identification tools"
+    homepage: "https://github.com/fentouxungui/mispitools"
+    docs: "https://github.com/fentouxungui/mispitools#readme"
+    copyright: "(c) 2025 mispitools authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/mispitools.png"
+    r_version: "4.6.1"
+    tags: [forensics, identification, missing-persons, shiny]
+
+  - id: ggplotgui
+    repo: fentouxungui/ggplotgui
+    name: ggplotgui
+    author: "Gert Stulp"
+    description: "Create ggplot2 plots interactively"
+    homepage: "https://github.com/fentouxungui/ggplotgui"
+    docs: "https://github.com/fentouxungui/ggplotgui#readme"
+    copyright: "(c) 2025 ggplotgui authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/ggplotgui.png"
+    r_version: "4.6.1"
+    tags: [ggplot2, visualization, interactive, shiny]
+
+  - id: mmibain
+    repo: fentouxungui/mmibain
+    name: mmibain
+    author: "Mighty Metrika"
+    description: "Bayes factors for informed hypotheses"
+    homepage: "https://github.com/fentouxungui/mmibain"
+    docs: "https://github.com/fentouxungui/mmibain#readme"
+    copyright: "(c) 2025 mmibain authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/mmibain.png"
+    r_version: "4.6.1"
+    tags: [bayes-factors, hypothesis-testing, statistics, shiny]
