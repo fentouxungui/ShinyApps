@@ -645,3 +645,16 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png"
     r_version: "4.6.1"
     tags: [sample-size, diagnostics, statistics, shiny]
+
+  - id: lavaanshiny
+    repo: fentouxungui/lavaan.shiny
+    name: lavaan.shiny
+    author: "William Kyle Hamilton"
+    description: "Latent variable analysis with Shiny"
+    homepage: "https://github.com/kylehamilton/lavaan.shiny"
+    docs: "https://github.com/kylehamilton/lavaan.shiny#readme"
+    copyright: "(c) 2025 William Kyle Hamilton"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/lavaanshiny.png"
+    r_version: "4.6.1"
+    tags: [sem, latent-variable, statistics, shiny]
