@@ -546,3 +546,85 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/dqagui.png"
     r_version: "4.6.1"
     tags: [data-quality, assessment, gui, shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: taipan
+    repo: fentouxungui/taipan
+    name: taipan
+    author: "Sam Cobain"
+    description: "Tool for annotating images in preparation for analysis"
+    homepage: "https://github.com/srkobakian/taipan"
+    docs: "https://github.com/srkobakian/taipan#readme"
+    copyright: "(c) 2025 Sam Cobain"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/taipan.png"
+    r_version: "4.6.1"
+    tags: [image-annotation,imaging,shiny]
+
+  - id: allelobin
+    repo: fentouxungui/AlleloBin
+    name: AlleloBin
+    author: "V. Prasanth"
+    description: "Shiny application for allele binning in microsatellite markers"
+    homepage: "https://github.com/vpprasanth/AlleloBin"
+    docs: "https://github.com/vpprasanth/AlleloBin#readme"
+    copyright: "(c) 2025 V. Prasanth"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/allelobin.png"
+    r_version: "4.6.1"
+    tags: [genetics, allele-binning, shiny]
+
+  - id: metaanalyser
+    repo: fentouxungui/MetaAnalyser
+    name: MetaAnalyser
+    author: "Christopher Jackson"
+    description: "Interactive visualisation of meta-analysis"
+    homepage: "https://github.com/chjackson/MetaAnalyser"
+    docs: "https://github.com/chjackson/MetaAnalyser#readme"
+    copyright: "(c) 2025 Christopher Jackson"
+    license: "GPL-2.0-or-later"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/metaanalyser.png"
+    r_version: "4.6.1"
+    tags: [meta-analysis, statistics, visualization, shiny]
+
+  - id: nacho
+    repo: fentouxungui/NACHO
+    name: NACHO
+    author: "Mickael Canouil"
+    description: "NanoString quality control dashboard"
+    homepage: "https://github.com/mcanouil/NACHO"
+    docs: "https://mcanouil.github.io/NACHO/"
+    copyright: "(c) 2025 Mickael Canouil"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/nacho.png"
+    r_version: "4.6.1"
+    tags: [nanostring, qc, dashboard, shiny]
+
+  - id: reliashiny
+    repo: fentouxungui/ReliaShiny
+    name: ReliaShiny
+    author: "Paul Govan"
+    description: "Shiny app for reliability analysis"
+    homepage: "https://github.com/paulgovan/ReliaShiny"
+    docs: "https://github.com/paulgovan/ReliaShiny#readme"
+    copyright: "(c) 2025 Paul Govan"
+    license: "CC-BY-4.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/reliashiny.png"
+    r_version: "4.6.1"
+    tags: [reliability, statistics, shiny]
+
+  - id: shinymergely
+    repo: fentouxungui/shinyMergely
+    name: shinyMergely
+    author: "Stephane Laurent"
+    description: "Compare and merge two files with a Shiny app"
+    homepage: "https://github.com/stla/shinyMergely"
+    docs: "https://github.com/stla/shinyMergely#readme"
+    copyright: "(c) 2025 Stephane Laurent"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png"
+    r_version: "4.6.1"
+    tags: [diff, merge, text, shiny]
