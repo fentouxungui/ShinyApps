@@ -533,3 +533,16 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/ngstoolkit.png"
     r_version: "4.6.1"
     tags: [rna-seq, genomics, visualization, shiny]
+
+  - id: dqagui
+    repo: fentouxungui/dqa-dqagui
+    name: DQAgui
+    author: "miracum"
+    description: "Graphical user interface for data quality assessment"
+    homepage: "https://github.com/miracum/dqa-dqagui"
+    docs: "https://github.com/miracum/dqa-dqagui#readme"
+    copyright: "(c) 2025 miracum"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/dqagui.png"
+    r_version: "4.6.1"
+    tags: [data-quality, assessment, gui, shiny]
