@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T14:40:27Z",
+  "updated_at": "2026-10-17T14:44:04Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -1426,8 +1426,50 @@
         "statistics",
         "shiny"
       ],
-      "version": "",
-      "artifacts": {}
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/DiagnostySize_App/releases/download/v0.1.0/diagnostysize-0.1.0-mac-arm64.zip",
+          "size": 37769939,
+          "sha256": "c3348222c58a96028414cbbf1fcdda995f64543e8b89ec7a314de68dfa1e61ec"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/DiagnostySize_App/releases/download/v0.1.0/diagnostysize-0.1.0-win-x64.zip",
+          "size": 39417965,
+          "sha256": "04caa696c0bd628eab6c1909241c759c87c59122139a17bb0cfaee8715711335"
+        }
+      }
+    },
+    {
+      "id": "lavaanshiny",
+      "name": "lavaan.shiny",
+      "author": "William Kyle Hamilton",
+      "description": "Latent variable analysis with Shiny",
+      "homepage": "https://github.com/kylehamilton/lavaan.shiny",
+      "docs": "https://github.com/kylehamilton/lavaan.shiny#readme",
+      "copyright": "(c) 2025 William Kyle Hamilton",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/lavaanshiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "sem",
+        "latent-variable",
+        "statistics",
+        "shiny"
+      ],
+      "version": "0.1.1",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/lavaan.shiny/releases/download/v0.1.1/lavaanshiny-0.1.1-mac-arm64.zip",
+          "size": 112944336,
+          "sha256": "53a27b66a4c77cb9fd1c6f642ad3afebea034b9d3e04e3290fc617780b0aa5cc"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/lavaan.shiny/releases/download/v0.1.1/lavaanshiny-0.1.1-win-x64.zip",
+          "size": 118114784,
+          "sha256": "77455f65631a3c5dd09f83e2f5219fee8d74836ed31f6ec55b91e2304f17defb"
+        }
+      }
     }
   ]
 }

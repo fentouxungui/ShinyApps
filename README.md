@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 46 — 45 ✅ 可用 / 1 ⛔ 不可用
+- **Apps:** 47
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 14:40:27 UTC
+- **Catalog last updated:** 2026-10-17 14:44:04 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -55,7 +55,8 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/nacho.png" width="32" alt="NACHO"> | **NACHO**<br>NanoString quality control dashboard | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/mcanouil/NACHO) · [Docs](https://mcanouil.github.io/NACHO/) · [Release](https://github.com/mcanouil/NACHO/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/reliashiny.png" width="32" alt="ReliaShiny"> | **ReliaShiny**<br>Shiny app for reliability analysis | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/paulgovan/ReliaShiny) · [Docs](https://github.com/paulgovan/ReliaShiny#readme) · [Release](https://github.com/paulgovan/ReliaShiny/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png" width="32" alt="shinyMergely"> | **shinyMergely**<br>Compare and merge two files with a Shiny app | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/stla/shinyMergely) · [Docs](https://github.com/stla/shinyMergely#readme) · [Release](https://github.com/stla/shinyMergely/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png" width="32" alt="DiagnostySize"> | **DiagnostySize**<br>App for calculating the sample size in a diagnostic study | ⛔ 不可用 | — | — | [Home](https://github.com/JanaW09/DiagnostySize_App) · [Docs](https://github.com/JanaW09/DiagnostySize_App#readme) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png" width="32" alt="DiagnostySize"> | **DiagnostySize**<br>App for calculating the sample size in a diagnostic study | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/JanaW09/DiagnostySize_App) · [Docs](https://github.com/JanaW09/DiagnostySize_App#readme) · [Release](https://github.com/JanaW09/DiagnostySize_App/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/lavaanshiny.png" width="32" alt="lavaan.shiny"> | **lavaan.shiny**<br>Latent variable analysis with Shiny | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/kylehamilton/lavaan.shiny) · [Docs](https://github.com/kylehamilton/lavaan.shiny#readme) · [Release](https://github.com/kylehamilton/lavaan.shiny/releases/tag/v0.1.1) |
 
 ---
 
@@ -1061,9 +1062,7 @@ Release: https://github.com/stla/shinyMergely/releases/tag/v0.1.1
 
 </details>
 
-### DiagnostySize
-
-**Status:** ⛔ 不可用 — no published release yet.
+### DiagnostySize `0.1.0`
 
 App for calculating the sample size in a diagnostic study
 
@@ -1073,6 +1072,39 @@ App for calculating the sample size in a diagnostic study
 | License | See upstream |
 | Copyright | (c) 2025 Jana W. |
 | R version | 4.6.1 |
+
+Release: https://github.com/JanaW09/DiagnostySize_App/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [diagnostysize-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/DiagnostySize_App/releases/download/v0.1.0/diagnostysize-0.1.0-mac-arm64.zip) | 36.0 MB | `c3348222c58a96028414cbbf1fcdda995f64543e8b89ec7a314de68dfa1e61ec` |
+| `win-x64` | [diagnostysize-0.1.0-win-x64.zip](https://github.com/fentouxungui/DiagnostySize_App/releases/download/v0.1.0/diagnostysize-0.1.0-win-x64.zip) | 37.6 MB | `04caa696c0bd628eab6c1909241c759c87c59122139a17bb0cfaee8715711335` |
+
+</details>
+
+### lavaan.shiny `0.1.1`
+
+Latent variable analysis with Shiny
+
+| Field | Value |
+|---|---|
+| Author | William Kyle Hamilton |
+| License | GPL-3.0 |
+| Copyright | (c) 2025 William Kyle Hamilton |
+| R version | 4.6.1 |
+
+Release: https://github.com/kylehamilton/lavaan.shiny/releases/tag/v0.1.1
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [lavaanshiny-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/lavaan.shiny/releases/download/v0.1.1/lavaanshiny-0.1.1-mac-arm64.zip) | 107.7 MB | `53a27b66a4c77cb9fd1c6f642ad3afebea034b9d3e04e3290fc617780b0aa5cc` |
+| `win-x64` | [lavaanshiny-0.1.1-win-x64.zip](https://github.com/fentouxungui/lavaan.shiny/releases/download/v0.1.1/lavaanshiny-0.1.1-win-x64.zip) | 112.6 MB | `77455f65631a3c5dd09f83e2f5219fee8d74836ed31f6ec55b91e2304f17defb` |
+
+</details>
 
 ---
 
