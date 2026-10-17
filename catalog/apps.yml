@@ -779,3 +779,20 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/stmgui.png"
     r_version: "4.6.1"
     tags: [topic-modeling, stm, text, shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: difshiny
+    repo: fentouxungui/DIFshiny
+    name: DIFshiny
+    author: "DIFshiny authors"
+    description: "Differential item functioning via a Shiny application"
+    homepage: "https://github.com/cran/DIFshiny"
+    docs: "https://github.com/cran/DIFshiny#readme"
+    copyright: "(c) 2025 DIFshiny authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/difshiny.png"
+    r_version: "4.6.1"
+    tags: [dif,psychometrics,statistics,shiny]
