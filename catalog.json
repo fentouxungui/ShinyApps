@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T17:39:25Z",
+  "updated_at": "2026-10-17T18:50:03Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -1992,6 +1992,223 @@
           "url": "https://github.com/fentouxungui/ExPanDaR/releases/download/v0.1.0/expandar-0.1.0-win-x64.zip",
           "size": 152022451,
           "sha256": "75d6f59783303bf9b3ae186e9d90fc2292564bf781fd9238f3f357d0b6a9e84a"
+        }
+      }
+    },
+    {
+      "id": "deepdep",
+      "name": "deepdep",
+      "author": "Dominik Rafacz",
+      "description": "Visualise and explore the deep dependencies of R packages",
+      "homepage": "https://github.com/fentouxungui/deepdep",
+      "docs": "https://github.com/fentouxungui/deepdep#readme",
+      "copyright": "(c) 2025 deepdep authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/deepdep.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "dependency",
+        "visualization",
+        "packages",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/deepdep/releases/download/v0.1.0/deepdep-0.1.0-mac-arm64.zip",
+          "size": 34407932,
+          "sha256": "39610b1b3864f478a4d22546e0143b5be3d9613220ed7ed8d10ab4368ea453f9"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/deepdep/releases/download/v0.1.0/deepdep-0.1.0-win-x64.zip",
+          "size": 38381408,
+          "sha256": "4763660fd6f59d7e165d4d9559ba46155dae28954a3ea516736f3e0a3f42886b"
+        }
+      }
+    },
+    {
+      "id": "r3dmol",
+      "name": "r3dmol",
+      "author": "Wei Su",
+      "description": "Interactive 3D visualization of molecular data",
+      "homepage": "https://github.com/fentouxungui/r3dmol",
+      "docs": "https://github.com/fentouxungui/r3dmol#readme",
+      "copyright": "(c) 2025 r3dmol authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/r3dmol.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "molecular",
+        "3d",
+        "visualization",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/r3dmol/releases/download/v0.1.0/r3dmol-0.1.0-mac-arm64.zip",
+          "size": 60237687,
+          "sha256": "0fb64edf0da9df6b7d5702b07802fa8aa1a870f981eedfd425c70242a0272060"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/r3dmol/releases/download/v0.1.0/r3dmol-0.1.0-win-x64.zip",
+          "size": 62674106,
+          "sha256": "bfd8fed03521807f1b9e1699fbc8c0ffde7e5dd5f8a1af7e40ec63bd5bced82a"
+        }
+      }
+    },
+    {
+      "id": "shinyinvoice",
+      "name": "shinyInvoice",
+      "author": "Fernando Roa",
+      "description": "Generate a PDF invoice with Rmarkdown",
+      "homepage": "https://github.com/fentouxungui/invoice-public",
+      "docs": "https://github.com/fentouxungui/invoice-public#readme",
+      "copyright": "(c) 2025 shinyInvoice authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinyinvoice.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "invoice",
+        "pdf",
+        "rmarkdown",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/invoice-public/releases/download/v0.1.0/shinyinvoice-0.1.0-mac-arm64.zip",
+          "size": 125142366,
+          "sha256": "27855b15e42fd8d03111dd25877f438190f74dc1fc64af2c83378bd85eb42c83"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/invoice-public/releases/download/v0.1.0/shinyinvoice-0.1.0-win-x64.zip",
+          "size": 123103518,
+          "sha256": "38ab08096b8deb269aea5912d5fbea5eed91636df1131dfd62e69599d8d11827"
+        }
+      }
+    },
+    {
+      "id": "olympicrshiny",
+      "name": "OlympicRshiny",
+      "author": "Amalan Mahendran",
+      "description": "Shiny application for Olympic data",
+      "homepage": "https://github.com/fentouxungui/OlympicRshiny",
+      "docs": "https://github.com/fentouxungui/OlympicRshiny#readme",
+      "copyright": "(c) 2025 OlympicRshiny authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/olympicrshiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "olympics",
+        "data",
+        "visualization",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/OlympicRshiny/releases/download/v0.1.0/olympicrshiny-0.1.0-mac-arm64.zip",
+          "size": 166067944,
+          "sha256": "6bacce2a969c06fffd3e5aee4641a499ed928cfa2bbfe250e8254f2e5c2c5aab"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/OlympicRshiny/releases/download/v0.1.0/olympicrshiny-0.1.0-win-x64.zip",
+          "size": 144525554,
+          "sha256": "df73f70e4151d45e7cbad28b256acbfefe07f63bc83d2a255c9f913bafc4de0d"
+        }
+      }
+    },
+    {
+      "id": "easysdctable",
+      "name": "easySdcTable",
+      "author": "Statistics Norway",
+      "description": "Easy interface to statistical disclosure control",
+      "homepage": "https://github.com/fentouxungui/ssb-easysdctable",
+      "docs": "https://github.com/fentouxungui/ssb-easysdctable#readme",
+      "copyright": "(c) 2025 easySdcTable authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/easysdctable.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "disclosure",
+        "statistics",
+        "gui",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/ssb-easysdctable/releases/download/v0.1.0/easysdctable-0.1.0-mac-arm64.zip",
+          "size": 73330450,
+          "sha256": "94d432f0cee1a46c72e550c163b33b5535b8f3dc6cb483c85f790cafc949330b"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/ssb-easysdctable/releases/download/v0.1.0/easysdctable-0.1.0-win-x64.zip",
+          "size": 74094383,
+          "sha256": "b405ac8e78c7bbab70ef4570da39f979cbfdf90cd55627f1e25cb5627eca162b"
+        }
+      }
+    },
+    {
+      "id": "mmirestriktor",
+      "name": "mmirestriktor",
+      "author": "Mighty Metrika",
+      "description": "Informative hypothesis testing web applications",
+      "homepage": "https://github.com/fentouxungui/mmirestriktor",
+      "docs": "https://github.com/fentouxungui/mmirestriktor#readme",
+      "copyright": "(c) 2025 mmirestriktor authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/mmirestriktor.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "hypothesis-testing",
+        "statistics",
+        "web-app",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/mmirestriktor/releases/download/v0.1.0/mmirestriktor-0.1.0-mac-arm64.zip",
+          "size": 89125243,
+          "sha256": "d7a780f0a99ca8f3c7d20f861df8f675681841ac27809e93b61d667a57092c98"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/mmirestriktor/releases/download/v0.1.0/mmirestriktor-0.1.0-win-x64.zip",
+          "size": 92395758,
+          "sha256": "ef5f3e340677b117b7c91e8862a20c758d4654e5297765d6b8fd6d1049883a9a"
+        }
+      }
+    },
+    {
+      "id": "holi",
+      "name": "holi",
+      "author": "Mighty Metrika",
+      "description": "Higher order likelihood inference web applications",
+      "homepage": "https://github.com/fentouxungui/holi",
+      "docs": "https://github.com/fentouxungui/holi#readme",
+      "copyright": "(c) 2025 holi authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/holi.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "likelihood-inference",
+        "statistics",
+        "web-app",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/holi/releases/download/v0.1.0/holi-0.1.0-mac-arm64.zip",
+          "size": 90223345,
+          "sha256": "77801dec47b43310aee00cd662dadbb78ba5fb24d081468b605a930e01820700"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/holi/releases/download/v0.1.0/holi-0.1.0-win-x64.zip",
+          "size": 93236174,
+          "sha256": "554ad1c63fb1ff55eac194a447906077a7f83186f66248adf4c6c8d9903d856a"
         }
       }
     }

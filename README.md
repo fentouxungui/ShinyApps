@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 64
+- **Apps:** 71
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 17:39:25 UTC
+- **Catalog last updated:** 2026-10-17 18:50:03 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -74,6 +74,13 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/somenv.png" width="32" alt="SOMEnv"> | **SOMEnv**<br>Self-organizing map environment analysis GUI | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SOMEnv) · [Docs](https://github.com/fentouxungui/SOMEnv#readme) · [Release](https://github.com/fentouxungui/SOMEnv/releases/tag/v0.2.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/gwsdat.png" width="32" alt="GWSDAT"> | **GWSDAT**<br>GroundWater Spatiotemporal Data Analysis Tool | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/GWSDAT) · [Docs](https://github.com/fentouxungui/GWSDAT#readme) · [Release](https://github.com/fentouxungui/GWSDAT/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/expandar.png" width="32" alt="ExPanDaR"> | **ExPanDaR**<br>Interactive exploratory panel data analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ExPanDaR) · [Docs](https://github.com/fentouxungui/ExPanDaR#readme) · [Release](https://github.com/fentouxungui/ExPanDaR/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/deepdep.png" width="32" alt="deepdep"> | **deepdep**<br>Visualise and explore the deep dependencies of R packages | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/deepdep) · [Docs](https://github.com/fentouxungui/deepdep#readme) · [Release](https://github.com/fentouxungui/deepdep/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/r3dmol.png" width="32" alt="r3dmol"> | **r3dmol**<br>Interactive 3D visualization of molecular data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/r3dmol) · [Docs](https://github.com/fentouxungui/r3dmol#readme) · [Release](https://github.com/fentouxungui/r3dmol/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinyinvoice.png" width="32" alt="shinyInvoice"> | **shinyInvoice**<br>Generate a PDF invoice with Rmarkdown | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/invoice-public) · [Docs](https://github.com/fentouxungui/invoice-public#readme) · [Release](https://github.com/fentouxungui/invoice-public/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/olympicrshiny.png" width="32" alt="OlympicRshiny"> | **OlympicRshiny**<br>Shiny application for Olympic data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/OlympicRshiny) · [Docs](https://github.com/fentouxungui/OlympicRshiny#readme) · [Release](https://github.com/fentouxungui/OlympicRshiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/easysdctable.png" width="32" alt="easySdcTable"> | **easySdcTable**<br>Easy interface to statistical disclosure control | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ssb-easysdctable) · [Docs](https://github.com/fentouxungui/ssb-easysdctable#readme) · [Release](https://github.com/fentouxungui/ssb-easysdctable/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/mmirestriktor.png" width="32" alt="mmirestriktor"> | **mmirestriktor**<br>Informative hypothesis testing web applications | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/mmirestriktor) · [Docs](https://github.com/fentouxungui/mmirestriktor#readme) · [Release](https://github.com/fentouxungui/mmirestriktor/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/holi.png" width="32" alt="holi"> | **holi**<br>Higher order likelihood inference web applications | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/holi) · [Docs](https://github.com/fentouxungui/holi#readme) · [Release](https://github.com/fentouxungui/holi/releases/tag/v0.1.0) |
 
 ---
 
@@ -1494,6 +1501,160 @@ Release: https://github.com/fentouxungui/ExPanDaR/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [expandar-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/ExPanDaR/releases/download/v0.1.0/expandar-0.1.0-mac-arm64.zip) | 135.4 MB | `e28ff787940e4afbd219db19af804217157d4c40eb8e2d7532b79e9eca693f2c` |
 | `win-x64` | [expandar-0.1.0-win-x64.zip](https://github.com/fentouxungui/ExPanDaR/releases/download/v0.1.0/expandar-0.1.0-win-x64.zip) | 145.0 MB | `75d6f59783303bf9b3ae186e9d90fc2292564bf781fd9238f3f357d0b6a9e84a` |
+
+</details>
+
+### deepdep `0.1.0`
+
+Visualise and explore the deep dependencies of R packages
+
+| Field | Value |
+|---|---|
+| Author | Dominik Rafacz |
+| License | See upstream |
+| Copyright | (c) 2025 deepdep authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/deepdep/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [deepdep-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/deepdep/releases/download/v0.1.0/deepdep-0.1.0-mac-arm64.zip) | 32.8 MB | `39610b1b3864f478a4d22546e0143b5be3d9613220ed7ed8d10ab4368ea453f9` |
+| `win-x64` | [deepdep-0.1.0-win-x64.zip](https://github.com/fentouxungui/deepdep/releases/download/v0.1.0/deepdep-0.1.0-win-x64.zip) | 36.6 MB | `4763660fd6f59d7e165d4d9559ba46155dae28954a3ea516736f3e0a3f42886b` |
+
+</details>
+
+### r3dmol `0.1.0`
+
+Interactive 3D visualization of molecular data
+
+| Field | Value |
+|---|---|
+| Author | Wei Su |
+| License | See upstream |
+| Copyright | (c) 2025 r3dmol authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/r3dmol/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [r3dmol-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/r3dmol/releases/download/v0.1.0/r3dmol-0.1.0-mac-arm64.zip) | 57.4 MB | `0fb64edf0da9df6b7d5702b07802fa8aa1a870f981eedfd425c70242a0272060` |
+| `win-x64` | [r3dmol-0.1.0-win-x64.zip](https://github.com/fentouxungui/r3dmol/releases/download/v0.1.0/r3dmol-0.1.0-win-x64.zip) | 59.8 MB | `bfd8fed03521807f1b9e1699fbc8c0ffde7e5dd5f8a1af7e40ec63bd5bced82a` |
+
+</details>
+
+### shinyInvoice `0.1.0`
+
+Generate a PDF invoice with Rmarkdown
+
+| Field | Value |
+|---|---|
+| Author | Fernando Roa |
+| License | See upstream |
+| Copyright | (c) 2025 shinyInvoice authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/invoice-public/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [shinyinvoice-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/invoice-public/releases/download/v0.1.0/shinyinvoice-0.1.0-mac-arm64.zip) | 119.3 MB | `27855b15e42fd8d03111dd25877f438190f74dc1fc64af2c83378bd85eb42c83` |
+| `win-x64` | [shinyinvoice-0.1.0-win-x64.zip](https://github.com/fentouxungui/invoice-public/releases/download/v0.1.0/shinyinvoice-0.1.0-win-x64.zip) | 117.4 MB | `38ab08096b8deb269aea5912d5fbea5eed91636df1131dfd62e69599d8d11827` |
+
+</details>
+
+### OlympicRshiny `0.1.0`
+
+Shiny application for Olympic data
+
+| Field | Value |
+|---|---|
+| Author | Amalan Mahendran |
+| License | See upstream |
+| Copyright | (c) 2025 OlympicRshiny authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/OlympicRshiny/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [olympicrshiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/OlympicRshiny/releases/download/v0.1.0/olympicrshiny-0.1.0-mac-arm64.zip) | 158.4 MB | `6bacce2a969c06fffd3e5aee4641a499ed928cfa2bbfe250e8254f2e5c2c5aab` |
+| `win-x64` | [olympicrshiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/OlympicRshiny/releases/download/v0.1.0/olympicrshiny-0.1.0-win-x64.zip) | 137.8 MB | `df73f70e4151d45e7cbad28b256acbfefe07f63bc83d2a255c9f913bafc4de0d` |
+
+</details>
+
+### easySdcTable `0.1.0`
+
+Easy interface to statistical disclosure control
+
+| Field | Value |
+|---|---|
+| Author | Statistics Norway |
+| License | See upstream |
+| Copyright | (c) 2025 easySdcTable authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/ssb-easysdctable/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [easysdctable-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/ssb-easysdctable/releases/download/v0.1.0/easysdctable-0.1.0-mac-arm64.zip) | 69.9 MB | `94d432f0cee1a46c72e550c163b33b5535b8f3dc6cb483c85f790cafc949330b` |
+| `win-x64` | [easysdctable-0.1.0-win-x64.zip](https://github.com/fentouxungui/ssb-easysdctable/releases/download/v0.1.0/easysdctable-0.1.0-win-x64.zip) | 70.7 MB | `b405ac8e78c7bbab70ef4570da39f979cbfdf90cd55627f1e25cb5627eca162b` |
+
+</details>
+
+### mmirestriktor `0.1.0`
+
+Informative hypothesis testing web applications
+
+| Field | Value |
+|---|---|
+| Author | Mighty Metrika |
+| License | See upstream |
+| Copyright | (c) 2025 mmirestriktor authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/mmirestriktor/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [mmirestriktor-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/mmirestriktor/releases/download/v0.1.0/mmirestriktor-0.1.0-mac-arm64.zip) | 85.0 MB | `d7a780f0a99ca8f3c7d20f861df8f675681841ac27809e93b61d667a57092c98` |
+| `win-x64` | [mmirestriktor-0.1.0-win-x64.zip](https://github.com/fentouxungui/mmirestriktor/releases/download/v0.1.0/mmirestriktor-0.1.0-win-x64.zip) | 88.1 MB | `ef5f3e340677b117b7c91e8862a20c758d4654e5297765d6b8fd6d1049883a9a` |
+
+</details>
+
+### holi `0.1.0`
+
+Higher order likelihood inference web applications
+
+| Field | Value |
+|---|---|
+| Author | Mighty Metrika |
+| License | See upstream |
+| Copyright | (c) 2025 holi authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/holi/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [holi-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/holi/releases/download/v0.1.0/holi-0.1.0-mac-arm64.zip) | 86.0 MB | `77801dec47b43310aee00cd662dadbb78ba5fb24d081468b605a930e01820700` |
+| `win-x64` | [holi-0.1.0-win-x64.zip](https://github.com/fentouxungui/holi/releases/download/v0.1.0/holi-0.1.0-win-x64.zip) | 88.9 MB | `554ad1c63fb1ff55eac194a447906077a7f83186f66248adf4c6c8d9903d856a` |
 
 </details>
 
