@@ -658,3 +658,20 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/lavaanshiny.png"
     r_version: "4.6.1"
     tags: [sem, latent-variable, statistics, shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: greymodels
+    repo: fentouxungui/Greymodels
+    name: Greymodels
+    author: "Havisha J."
+    description: "Shiny app for Grey forecasting models"
+    homepage: "https://github.com/havishaJ/Greymodels"
+    docs: "https://github.com/havishaJ/Greymodels#readme"
+    copyright: "(c) 2025 Havisha J."
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/greymodels.png"
+    r_version: "4.6.1"
+    tags: [forecasting,grey-model,statistics,shiny]
