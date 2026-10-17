@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 58
+- **Apps:** 61
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 17:07:11 UTC
+- **Catalog last updated:** 2026-10-17 17:24:29 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -68,6 +68,9 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/stmgui.png" width="32" alt="stmgui"> | **stmgui**<br>Shiny application for creating STM models | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/dzangri/stmGUI) · [Docs](https://github.com/dzangri/stmGUI#readme) · [Release](https://github.com/dzangri/stmGUI/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/difshiny.png" width="32" alt="DIFshiny"> | **DIFshiny**<br>Differential item functioning via a Shiny application | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/DIFshiny) · [Docs](https://github.com/cran/DIFshiny#readme) · [Release](https://github.com/cran/DIFshiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/channelattributionapp.png" width="32" alt="ChannelAttributionApp"> | **ChannelAttributionApp**<br>Shiny web application for the multichannel attribution problem | ✅ 可用 | `0.3.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/ChannelAttributionApp) · [Docs](https://github.com/cran/ChannelAttributionApp#readme) · [Release](https://github.com/cran/ChannelAttributionApp/releases/tag/v0.3.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/squeakr.png" width="32" alt="SqueakR"> | **SqueakR**<br>Shiny dashboard for SqueakR behavioural analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SqueakR) · [Docs](https://github.com/fentouxungui/SqueakR#readme) · [Release](https://github.com/fentouxungui/SqueakR/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/html2r.png" width="32" alt="html2R"> | **html2R**<br>Convert HTML to R Shiny applications | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/html2R) · [Docs](https://github.com/fentouxungui/html2R#readme) · [Release](https://github.com/fentouxungui/html2R/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/sombrero.png" width="32" alt="SOMbrero"> | **SOMbrero**<br>SOMbrero self-organizing map GUI | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SOMbrero) · [Docs](https://github.com/fentouxungui/SOMbrero#readme) · [Release](https://github.com/fentouxungui/SOMbrero/releases/tag/v0.1.0) |
 
 ---
 
@@ -1356,6 +1359,72 @@ Release: https://github.com/cran/ChannelAttributionApp/releases/tag/v0.3.0
 |---|---|---:|---|
 | `mac-arm64` | [channelattributionapp-0.3.0-mac-arm64.zip](https://github.com/fentouxungui/ChannelAttributionApp/releases/download/v0.3.0/channelattributionapp-0.3.0-mac-arm64.zip) | 48.2 MB | `4a08befe6243adfa94e9411e022a05df188c3db73477920dbbb85e427bddbba7` |
 | `win-x64` | [channelattributionapp-0.3.0-win-x64.zip](https://github.com/fentouxungui/ChannelAttributionApp/releases/download/v0.3.0/channelattributionapp-0.3.0-win-x64.zip) | 50.4 MB | `cb082351ede817c12ffe9c9e3bcecbceeeea15fe0df8029726ccedc7d53f55b1` |
+
+</details>
+
+### SqueakR `0.1.0`
+
+Shiny dashboard for SqueakR behavioural analysis
+
+| Field | Value |
+|---|---|
+| Author | SqueakR authors |
+| License | See upstream |
+| Copyright | (c) 2025 SqueakR authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/SqueakR/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [squeakr-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/SqueakR/releases/download/v0.1.0/squeakr-0.1.0-mac-arm64.zip) | 180.0 MB | `35db280c89d30dbe09846ab6557da04bccb055e05f51c4b718d2b70534c9f8e9` |
+| `win-x64` | [squeakr-0.1.0-win-x64.zip](https://github.com/fentouxungui/SqueakR/releases/download/v0.1.0/squeakr-0.1.0-win-x64.zip) | 188.1 MB | `dba964df952a905b208ccba27adfaf649e62ea0bac833cadb5f99a8ffe9c7a37` |
+
+</details>
+
+### html2R `0.1.0`
+
+Convert HTML to R Shiny applications
+
+| Field | Value |
+|---|---|
+| Author | html2R authors |
+| License | See upstream |
+| Copyright | (c) 2025 html2R authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/html2R/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [html2r-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/html2R/releases/download/v0.1.0/html2r-0.1.0-mac-arm64.zip) | 35.9 MB | `5e98d7b54af82c932477723623b8ac7bdceed674bfd771b46194dcfdc56205c5` |
+| `win-x64` | [html2r-0.1.0-win-x64.zip](https://github.com/fentouxungui/html2R/releases/download/v0.1.0/html2r-0.1.0-win-x64.zip) | 37.5 MB | `21fae37528920f668d1d806a1b4c22529ee678336ef669aa712cb69362e5a31e` |
+
+</details>
+
+### SOMbrero `0.1.0`
+
+SOMbrero self-organizing map GUI
+
+| Field | Value |
+|---|---|
+| Author | SOMbrero authors |
+| License | See upstream |
+| Copyright | (c) 2025 SOMbrero authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/SOMbrero/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [sombrero-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/SOMbrero/releases/download/v0.1.0/sombrero-0.1.0-mac-arm64.zip) | 136.1 MB | `a208f1b0dbbc64eae2390748c75b01a5fb3dc98236d51e28008f686cbaacbe6b` |
+| `win-x64` | [sombrero-0.1.0-win-x64.zip](https://github.com/fentouxungui/SOMbrero/releases/download/v0.1.0/sombrero-0.1.0-win-x64.zip) | 166.8 MB | `ffb42a13a0a6a2245e86291e063c235af893725f653eb6a114634684ffb47613` |
 
 </details>
 

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T16:08:37Z",
+  "updated_at": "2026-10-17T17:24:29Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -1807,6 +1807,98 @@
           "url": "https://github.com/fentouxungui/ChannelAttributionApp/releases/download/v0.3.0/channelattributionapp-0.3.0-win-x64.zip",
           "size": 52876619,
           "sha256": "cb082351ede817c12ffe9c9e3bcecbceeeea15fe0df8029726ccedc7d53f55b1"
+        }
+      }
+    },
+    {
+      "id": "squeakr",
+      "name": "SqueakR",
+      "author": "SqueakR authors",
+      "description": "Shiny dashboard for SqueakR behavioural analysis",
+      "homepage": "https://github.com/fentouxungui/SqueakR",
+      "docs": "https://github.com/fentouxungui/SqueakR#readme",
+      "copyright": "(c) 2025 SqueakR authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/squeakr.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "behaviour",
+        "dashboard",
+        "analysis",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/SqueakR/releases/download/v0.1.0/squeakr-0.1.0-mac-arm64.zip",
+          "size": 188796105,
+          "sha256": "35db280c89d30dbe09846ab6557da04bccb055e05f51c4b718d2b70534c9f8e9"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/SqueakR/releases/download/v0.1.0/squeakr-0.1.0-win-x64.zip",
+          "size": 197220666,
+          "sha256": "dba964df952a905b208ccba27adfaf649e62ea0bac833cadb5f99a8ffe9c7a37"
+        }
+      }
+    },
+    {
+      "id": "html2r",
+      "name": "html2R",
+      "author": "html2R authors",
+      "description": "Convert HTML to R Shiny applications",
+      "homepage": "https://github.com/fentouxungui/html2R",
+      "docs": "https://github.com/fentouxungui/html2R#readme",
+      "copyright": "(c) 2025 html2R authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/html2r.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "html",
+        "code-generation",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/html2R/releases/download/v0.1.0/html2r-0.1.0-mac-arm64.zip",
+          "size": 37690808,
+          "sha256": "5e98d7b54af82c932477723623b8ac7bdceed674bfd771b46194dcfdc56205c5"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/html2R/releases/download/v0.1.0/html2r-0.1.0-win-x64.zip",
+          "size": 39280827,
+          "sha256": "21fae37528920f668d1d806a1b4c22529ee678336ef669aa712cb69362e5a31e"
+        }
+      }
+    },
+    {
+      "id": "sombrero",
+      "name": "SOMbrero",
+      "author": "SOMbrero authors",
+      "description": "SOMbrero self-organizing map GUI",
+      "homepage": "https://github.com/fentouxungui/SOMbrero",
+      "docs": "https://github.com/fentouxungui/SOMbrero#readme",
+      "copyright": "(c) 2025 SOMbrero authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/sombrero.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "som",
+        "clustering",
+        "visualization",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/SOMbrero/releases/download/v0.1.0/sombrero-0.1.0-mac-arm64.zip",
+          "size": 142739686,
+          "sha256": "a208f1b0dbbc64eae2390748c75b01a5fb3dc98236d51e28008f686cbaacbe6b"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/SOMbrero/releases/download/v0.1.0/sombrero-0.1.0-win-x64.zip",
+          "size": 174906953,
+          "sha256": "ffb42a13a0a6a2245e86291e063c235af893725f653eb6a114634684ffb47613"
         }
       }
     }
