@@ -796,3 +796,16 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/difshiny.png"
     r_version: "4.6.1"
     tags: [dif,psychometrics,statistics,shiny]
+
+  - id: channelattributionapp
+    repo: fentouxungui/ChannelAttributionApp
+    name: ChannelAttributionApp
+    author: "Davide Altomare, David Loris"
+    description: "Shiny web application for the multichannel attribution problem"
+    homepage: "https://github.com/cran/ChannelAttributionApp"
+    docs: "https://github.com/cran/ChannelAttributionApp#readme"
+    copyright: "(c) 2020 Davide Altomare"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/channelattributionapp.png"
+    r_version: "4.6.1"
+    tags: [attribution, marketing, markov, shiny]
