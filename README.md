@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 71
+- **Apps:** 76
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 23:25:43 UTC
+- **Catalog last updated:** 2026-10-17 23:49:20 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -81,6 +81,11 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/easysdctable.png" width="32" alt="easySdcTable"> | **easySdcTable**<br>Easy interface to statistical disclosure control | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ssb-easysdctable) · [Docs](https://github.com/fentouxungui/ssb-easysdctable#readme) · [Release](https://github.com/fentouxungui/ssb-easysdctable/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/mmirestriktor.png" width="32" alt="mmirestriktor"> | **mmirestriktor**<br>Informative hypothesis testing web applications | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/mmirestriktor) · [Docs](https://github.com/fentouxungui/mmirestriktor#readme) · [Release](https://github.com/fentouxungui/mmirestriktor/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/holi.png" width="32" alt="holi"> | **holi**<br>Higher order likelihood inference web applications | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/holi) · [Docs](https://github.com/fentouxungui/holi#readme) · [Release](https://github.com/fentouxungui/holi/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinybrms.png" width="32" alt="shinybrms"> | **shinybrms**<br>Shiny interface for brms Bayesian models | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/shinybrms) · [Docs](https://github.com/fentouxungui/shinybrms#readme) · [Release](https://github.com/fentouxungui/shinybrms/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/lande.png" width="32" alt="lande"> | **lande**<br>Landscape analysis and visualization | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/lande) · [Docs](https://github.com/fentouxungui/lande#readme) · [Release](https://github.com/fentouxungui/lande/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/mispitools.png" width="32" alt="mispitools"> | **mispitools**<br>Missing person identification tools | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/mispitools) · [Docs](https://github.com/fentouxungui/mispitools#readme) · [Release](https://github.com/fentouxungui/mispitools/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/ggplotgui.png" width="32" alt="ggplotgui"> | **ggplotgui**<br>Create ggplot2 plots interactively | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ggplotgui) · [Docs](https://github.com/fentouxungui/ggplotgui#readme) · [Release](https://github.com/fentouxungui/ggplotgui/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/mmibain.png" width="32" alt="mmibain"> | **mmibain**<br>Bayes factors for informed hypotheses | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/mmibain) · [Docs](https://github.com/fentouxungui/mmibain#readme) · [Release](https://github.com/fentouxungui/mmibain/releases/tag/v0.1.0) |
 
 ---
 
@@ -1655,6 +1660,116 @@ Release: https://github.com/fentouxungui/holi/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [holi-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/holi/releases/download/v0.1.0/holi-0.1.0-mac-arm64.zip) | 86.0 MB | `77801dec47b43310aee00cd662dadbb78ba5fb24d081468b605a930e01820700` |
 | `win-x64` | [holi-0.1.0-win-x64.zip](https://github.com/fentouxungui/holi/releases/download/v0.1.0/holi-0.1.0-win-x64.zip) | 88.9 MB | `554ad1c63fb1ff55eac194a447906077a7f83186f66248adf4c6c8d9903d856a` |
+
+</details>
+
+### shinybrms `0.1.0`
+
+Shiny interface for brms Bayesian models
+
+| Field | Value |
+|---|---|
+| Author | shinybrms authors |
+| License | See upstream |
+| Copyright | (c) 2025 shinybrms authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/shinybrms/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [shinybrms-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/shinybrms/releases/download/v0.1.0/shinybrms-0.1.0-mac-arm64.zip) | 187.0 MB | `acfffe8a9e8be2faf008e8455fbd1b3a2a6a3984cc7ee4944035d6ba504684b3` |
+| `win-x64` | [shinybrms-0.1.0-win-x64.zip](https://github.com/fentouxungui/shinybrms/releases/download/v0.1.0/shinybrms-0.1.0-win-x64.zip) | 190.1 MB | `2366a9204026a499e52a6febcdb70852f51296ce64d528bc9f5ddb668edaa48c` |
+
+</details>
+
+### lande `0.1.0`
+
+Landscape analysis and visualization
+
+| Field | Value |
+|---|---|
+| Author | lande authors |
+| License | See upstream |
+| Copyright | (c) 2025 lande authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/lande/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [lande-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/lande/releases/download/v0.1.0/lande-0.1.0-mac-arm64.zip) | 117.4 MB | `34cdb1be3d4c1862fa4d7b45f60d6c25124027e218f1e81ecbc5279cb1ab0c5e` |
+| `win-x64` | [lande-0.1.0-win-x64.zip](https://github.com/fentouxungui/lande/releases/download/v0.1.0/lande-0.1.0-win-x64.zip) | 125.0 MB | `0cccd87531a96ef0fe54f176093d67f43cbdb97eafd8a73831129669a4cdea5f` |
+
+</details>
+
+### mispitools `0.1.0`
+
+Missing person identification tools
+
+| Field | Value |
+|---|---|
+| Author | mispitools authors |
+| License | See upstream |
+| Copyright | (c) 2025 mispitools authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/mispitools/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [mispitools-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/mispitools/releases/download/v0.1.0/mispitools-0.1.0-mac-arm64.zip) | 82.0 MB | `abf65dd4b0b24ad93c2b22cb649ce421c0ba0adbd4883249317eac25d61be279` |
+| `win-x64` | [mispitools-0.1.0-win-x64.zip](https://github.com/fentouxungui/mispitools/releases/download/v0.1.0/mispitools-0.1.0-win-x64.zip) | 84.9 MB | `37ee6fcc7e30ef5b989978948a67ccb1b8b8a26fffe71405495b9232f3964917` |
+
+</details>
+
+### ggplotgui `0.1.0`
+
+Create ggplot2 plots interactively
+
+| Field | Value |
+|---|---|
+| Author | Gert Stulp |
+| License | See upstream |
+| Copyright | (c) 2025 ggplotgui authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/ggplotgui/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [ggplotgui-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/ggplotgui/releases/download/v0.1.0/ggplotgui-0.1.0-mac-arm64.zip) | 87.8 MB | `b78576ccf300b5687f6f345daee58c1e6ce96a18d8dbfd90f7960034c61abbd6` |
+| `win-x64` | [ggplotgui-0.1.0-win-x64.zip](https://github.com/fentouxungui/ggplotgui/releases/download/v0.1.0/ggplotgui-0.1.0-win-x64.zip) | 93.2 MB | `353c058dfb7433d355d6f287117c4d8d94b657a0a1e1542f92dce4fef6ef8d6e` |
+
+</details>
+
+### mmibain `0.1.0`
+
+Bayes factors for informed hypotheses
+
+| Field | Value |
+|---|---|
+| Author | Mighty Metrika |
+| License | See upstream |
+| Copyright | (c) 2025 mmibain authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/mmibain/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [mmibain-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/mmibain/releases/download/v0.1.0/mmibain-0.1.0-mac-arm64.zip) | 147.7 MB | `f9f55ef2e3a0d2051c2264207e1f3b5701423f80b427d9831dd26709e3f08e2e` |
+| `win-x64` | [mmibain-0.1.0-win-x64.zip](https://github.com/fentouxungui/mmibain/releases/download/v0.1.0/mmibain-0.1.0-win-x64.zip) | 153.3 MB | `9d5fbcd7de6779f15ce97692d6065740f9e21ae2b5dc66ee1525b0cc6094e766` |
 
 </details>
 
