@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T13:46:27Z",
+  "updated_at": "2026-10-17T14:19:44Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -1223,6 +1223,189 @@
           "url": "https://github.com/fentouxungui/dqa-dqagui/releases/download/v0.1.0/dqagui-0.1.0-win-x64.zip",
           "size": 135492396,
           "sha256": "86f0719124ea12b53c5f3895422b66926410049d37add519b30a0f523693bd9a"
+        }
+      }
+    },
+    {
+      "id": "taipan",
+      "name": "taipan",
+      "author": "Sam Cobain",
+      "description": "Tool for annotating images in preparation for analysis",
+      "homepage": "https://github.com/srkobakian/taipan",
+      "docs": "https://github.com/srkobakian/taipan#readme",
+      "copyright": "(c) 2025 Sam Cobain",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/taipan.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "image-annotation",
+        "imaging",
+        "shiny"
+      ],
+      "version": "0.1.1",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/taipan/releases/download/v0.1.1/taipan-0.1.1-mac-arm64.zip",
+          "size": 47011960,
+          "sha256": "9d284b6e211c85165cfd6ced9d46d4dad0eb75ca12a8083515050c9d9ed3d0f0"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/taipan/releases/download/v0.1.1/taipan-0.1.1-win-x64.zip",
+          "size": 49029418,
+          "sha256": "2d9a19950af84110d154f0c5e953b0f662eebded1b8d77b5e485f8d0d1dad0d6"
+        }
+      }
+    },
+    {
+      "id": "allelobin",
+      "name": "AlleloBin",
+      "author": "V. Prasanth",
+      "description": "Shiny application for allele binning in microsatellite markers",
+      "homepage": "https://github.com/vpprasanth/AlleloBin",
+      "docs": "https://github.com/vpprasanth/AlleloBin#readme",
+      "copyright": "(c) 2025 V. Prasanth",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/allelobin.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "genetics",
+        "allele-binning",
+        "shiny"
+      ],
+      "version": "0.1.1",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/AlleloBin/releases/download/v0.1.1/allelobin-0.1.1-mac-arm64.zip",
+          "size": 63398157,
+          "sha256": "debe7ba6ede33a973d06fb32dd994add7426f14a0a2ac3c1f82dfb9f228a359c"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/AlleloBin/releases/download/v0.1.1/allelobin-0.1.1-win-x64.zip",
+          "size": 65348667,
+          "sha256": "870b57718042363612269de3ec3fa2c34d1e35520d2eb577be768e261c512961"
+        }
+      }
+    },
+    {
+      "id": "metaanalyser",
+      "name": "MetaAnalyser",
+      "author": "Christopher Jackson",
+      "description": "Interactive visualisation of meta-analysis",
+      "homepage": "https://github.com/chjackson/MetaAnalyser",
+      "docs": "https://github.com/chjackson/MetaAnalyser#readme",
+      "copyright": "(c) 2025 Christopher Jackson",
+      "license": "GPL-2.0-or-later",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/metaanalyser.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "meta-analysis",
+        "statistics",
+        "visualization",
+        "shiny"
+      ],
+      "version": "0.1.1",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/MetaAnalyser/releases/download/v0.1.1/metaanalyser-0.1.1-mac-arm64.zip",
+          "size": 43497957,
+          "sha256": "74fe34041f1a8fb8a9c906f93ce3b6d620d76d828f717c7c66d6b3cd36c453c3"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/MetaAnalyser/releases/download/v0.1.1/metaanalyser-0.1.1-win-x64.zip",
+          "size": 45197064,
+          "sha256": "ac3729f491885fc426a11e3ef9b2b86bf068ad82e10ba1c3fae86e2ff609be8b"
+        }
+      }
+    },
+    {
+      "id": "nacho",
+      "name": "NACHO",
+      "author": "Mickael Canouil",
+      "description": "NanoString quality control dashboard",
+      "homepage": "https://github.com/mcanouil/NACHO",
+      "docs": "https://mcanouil.github.io/NACHO/",
+      "copyright": "(c) 2025 Mickael Canouil",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/nacho.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "nanostring",
+        "qc",
+        "dashboard",
+        "shiny"
+      ],
+      "version": "0.1.1",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/NACHO/releases/download/v0.1.1/nacho-0.1.1-mac-arm64.zip",
+          "size": 63301888,
+          "sha256": "2d85e44184061150b4c8ede33ba4bebd362de3142a9b44a26040743f00e0c86e"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/NACHO/releases/download/v0.1.1/nacho-0.1.1-win-x64.zip",
+          "size": 66781968,
+          "sha256": "952f49d808f258e2afd7d5bda079fa399ac8ea69f660795921354dd6c7b925bb"
+        }
+      }
+    },
+    {
+      "id": "reliashiny",
+      "name": "ReliaShiny",
+      "author": "Paul Govan",
+      "description": "Shiny app for reliability analysis",
+      "homepage": "https://github.com/paulgovan/ReliaShiny",
+      "docs": "https://github.com/paulgovan/ReliaShiny#readme",
+      "copyright": "(c) 2025 Paul Govan",
+      "license": "CC-BY-4.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/reliashiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "reliability",
+        "statistics",
+        "shiny"
+      ],
+      "version": "0.1.1",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/ReliaShiny/releases/download/v0.1.1/reliashiny-0.1.1-mac-arm64.zip",
+          "size": 118784595,
+          "sha256": "377d018000a0035321d61c26a9a357699081c5bdae29130c8ded369c92336d39"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/ReliaShiny/releases/download/v0.1.1/reliashiny-0.1.1-win-x64.zip",
+          "size": 125121109,
+          "sha256": "de14f3c01a72c2d4792d138d0aa2ed4a4f99deb97ed50cef24a60e6a681ced4a"
+        }
+      }
+    },
+    {
+      "id": "shinymergely",
+      "name": "shinyMergely",
+      "author": "Stephane Laurent",
+      "description": "Compare and merge two files with a Shiny app",
+      "homepage": "https://github.com/stla/shinyMergely",
+      "docs": "https://github.com/stla/shinyMergely#readme",
+      "copyright": "(c) 2025 Stephane Laurent",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "diff",
+        "merge",
+        "text",
+        "shiny"
+      ],
+      "version": "0.1.1",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/shinyMergely/releases/download/v0.1.1/shinymergely-0.1.1-mac-arm64.zip",
+          "size": 37510072,
+          "sha256": "f7b97a42ee29dc22d4cd0d38cb1e7e9559ac8624fc32a1ef0f657fc8ff345c8c"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/shinyMergely/releases/download/v0.1.1/shinymergely-0.1.1-win-x64.zip",
+          "size": 39103829,
+          "sha256": "eba458517f60d981d7331cdc4677039389f75af2048ec5777ddb592fa1df996e"
         }
       }
     }

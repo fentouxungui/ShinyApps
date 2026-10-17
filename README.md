@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 39
+- **Apps:** 45
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 14:06:16 UTC
+- **Catalog last updated:** 2026-10-17 14:19:44 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -49,6 +49,12 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/distplotter.png" width="32" alt="DistPlotter"> | **DistPlotter**<br>Graphical user interface for plotting common univariate distributions | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/ccasement/DistPlotter) · [Docs](https://github.com/ccasement/DistPlotter#readme) · [Release](https://github.com/ccasement/DistPlotter/releases/tag/v0.1.2) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/ngstoolkit.png" width="32" alt="NGSToolKit"> | **NGSToolKit**<br>RNA-Seq analysis and genome visualization Shiny platform | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/bigfacilityiisr/NGS-Tool-Kit) · [Docs](https://github.com/bigfacilityiisr/NGS-Tool-Kit#readme) · [Release](https://github.com/bigfacilityiisr/NGS-Tool-Kit/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/dqagui.png" width="32" alt="DQAgui"> | **DQAgui**<br>Graphical user interface for data quality assessment | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/miracum/dqa-dqagui) · [Docs](https://github.com/miracum/dqa-dqagui#readme) · [Release](https://github.com/miracum/dqa-dqagui/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/taipan.png" width="32" alt="taipan"> | **taipan**<br>Tool for annotating images in preparation for analysis | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/srkobakian/taipan) · [Docs](https://github.com/srkobakian/taipan#readme) · [Release](https://github.com/srkobakian/taipan/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/allelobin.png" width="32" alt="AlleloBin"> | **AlleloBin**<br>Shiny application for allele binning in microsatellite markers | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/vpprasanth/AlleloBin) · [Docs](https://github.com/vpprasanth/AlleloBin#readme) · [Release](https://github.com/vpprasanth/AlleloBin/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/metaanalyser.png" width="32" alt="MetaAnalyser"> | **MetaAnalyser**<br>Interactive visualisation of meta-analysis | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/chjackson/MetaAnalyser) · [Docs](https://github.com/chjackson/MetaAnalyser#readme) · [Release](https://github.com/chjackson/MetaAnalyser/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/nacho.png" width="32" alt="NACHO"> | **NACHO**<br>NanoString quality control dashboard | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/mcanouil/NACHO) · [Docs](https://mcanouil.github.io/NACHO/) · [Release](https://github.com/mcanouil/NACHO/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/reliashiny.png" width="32" alt="ReliaShiny"> | **ReliaShiny**<br>Shiny app for reliability analysis | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/paulgovan/ReliaShiny) · [Docs](https://github.com/paulgovan/ReliaShiny#readme) · [Release](https://github.com/paulgovan/ReliaShiny/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png" width="32" alt="shinyMergely"> | **shinyMergely**<br>Compare and merge two files with a Shiny app | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/stla/shinyMergely) · [Docs](https://github.com/stla/shinyMergely#readme) · [Release](https://github.com/stla/shinyMergely/releases/tag/v0.1.1) |
 
 ---
 
@@ -919,6 +925,138 @@ Release: https://github.com/miracum/dqa-dqagui/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [dqagui-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/dqa-dqagui/releases/download/v0.1.0/dqagui-0.1.0-mac-arm64.zip) | 121.1 MB | `8fd241c1138695d6159bbb6965acac1f92d82a2222bcd67bce6b6716b4a4e8ff` |
 | `win-x64` | [dqagui-0.1.0-win-x64.zip](https://github.com/fentouxungui/dqa-dqagui/releases/download/v0.1.0/dqagui-0.1.0-win-x64.zip) | 129.2 MB | `86f0719124ea12b53c5f3895422b66926410049d37add519b30a0f523693bd9a` |
+
+</details>
+
+### taipan `0.1.1`
+
+Tool for annotating images in preparation for analysis
+
+| Field | Value |
+|---|---|
+| Author | Sam Cobain |
+| License | GPL-3.0 |
+| Copyright | (c) 2025 Sam Cobain |
+| R version | 4.6.1 |
+
+Release: https://github.com/srkobakian/taipan/releases/tag/v0.1.1
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [taipan-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/taipan/releases/download/v0.1.1/taipan-0.1.1-mac-arm64.zip) | 44.8 MB | `9d284b6e211c85165cfd6ced9d46d4dad0eb75ca12a8083515050c9d9ed3d0f0` |
+| `win-x64` | [taipan-0.1.1-win-x64.zip](https://github.com/fentouxungui/taipan/releases/download/v0.1.1/taipan-0.1.1-win-x64.zip) | 46.8 MB | `2d9a19950af84110d154f0c5e953b0f662eebded1b8d77b5e485f8d0d1dad0d6` |
+
+</details>
+
+### AlleloBin `0.1.1`
+
+Shiny application for allele binning in microsatellite markers
+
+| Field | Value |
+|---|---|
+| Author | V. Prasanth |
+| License | GPL-3.0 |
+| Copyright | (c) 2025 V. Prasanth |
+| R version | 4.6.1 |
+
+Release: https://github.com/vpprasanth/AlleloBin/releases/tag/v0.1.1
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [allelobin-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/AlleloBin/releases/download/v0.1.1/allelobin-0.1.1-mac-arm64.zip) | 60.5 MB | `debe7ba6ede33a973d06fb32dd994add7426f14a0a2ac3c1f82dfb9f228a359c` |
+| `win-x64` | [allelobin-0.1.1-win-x64.zip](https://github.com/fentouxungui/AlleloBin/releases/download/v0.1.1/allelobin-0.1.1-win-x64.zip) | 62.3 MB | `870b57718042363612269de3ec3fa2c34d1e35520d2eb577be768e261c512961` |
+
+</details>
+
+### MetaAnalyser `0.1.1`
+
+Interactive visualisation of meta-analysis
+
+| Field | Value |
+|---|---|
+| Author | Christopher Jackson |
+| License | GPL-2.0-or-later |
+| Copyright | (c) 2025 Christopher Jackson |
+| R version | 4.6.1 |
+
+Release: https://github.com/chjackson/MetaAnalyser/releases/tag/v0.1.1
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [metaanalyser-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/MetaAnalyser/releases/download/v0.1.1/metaanalyser-0.1.1-mac-arm64.zip) | 41.5 MB | `74fe34041f1a8fb8a9c906f93ce3b6d620d76d828f717c7c66d6b3cd36c453c3` |
+| `win-x64` | [metaanalyser-0.1.1-win-x64.zip](https://github.com/fentouxungui/MetaAnalyser/releases/download/v0.1.1/metaanalyser-0.1.1-win-x64.zip) | 43.1 MB | `ac3729f491885fc426a11e3ef9b2b86bf068ad82e10ba1c3fae86e2ff609be8b` |
+
+</details>
+
+### NACHO `0.1.1`
+
+NanoString quality control dashboard
+
+| Field | Value |
+|---|---|
+| Author | Mickael Canouil |
+| License | GPL-3.0 |
+| Copyright | (c) 2025 Mickael Canouil |
+| R version | 4.6.1 |
+
+Release: https://github.com/mcanouil/NACHO/releases/tag/v0.1.1
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [nacho-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/NACHO/releases/download/v0.1.1/nacho-0.1.1-mac-arm64.zip) | 60.4 MB | `2d85e44184061150b4c8ede33ba4bebd362de3142a9b44a26040743f00e0c86e` |
+| `win-x64` | [nacho-0.1.1-win-x64.zip](https://github.com/fentouxungui/NACHO/releases/download/v0.1.1/nacho-0.1.1-win-x64.zip) | 63.7 MB | `952f49d808f258e2afd7d5bda079fa399ac8ea69f660795921354dd6c7b925bb` |
+
+</details>
+
+### ReliaShiny `0.1.1`
+
+Shiny app for reliability analysis
+
+| Field | Value |
+|---|---|
+| Author | Paul Govan |
+| License | CC-BY-4.0 |
+| Copyright | (c) 2025 Paul Govan |
+| R version | 4.6.1 |
+
+Release: https://github.com/paulgovan/ReliaShiny/releases/tag/v0.1.1
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [reliashiny-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/ReliaShiny/releases/download/v0.1.1/reliashiny-0.1.1-mac-arm64.zip) | 113.3 MB | `377d018000a0035321d61c26a9a357699081c5bdae29130c8ded369c92336d39` |
+| `win-x64` | [reliashiny-0.1.1-win-x64.zip](https://github.com/fentouxungui/ReliaShiny/releases/download/v0.1.1/reliashiny-0.1.1-win-x64.zip) | 119.3 MB | `de14f3c01a72c2d4792d138d0aa2ed4a4f99deb97ed50cef24a60e6a681ced4a` |
+
+</details>
+
+### shinyMergely `0.1.1`
+
+Compare and merge two files with a Shiny app
+
+| Field | Value |
+|---|---|
+| Author | Stephane Laurent |
+| License | GPL-3.0 |
+| Copyright | (c) 2025 Stephane Laurent |
+| R version | 4.6.1 |
+
+Release: https://github.com/stla/shinyMergely/releases/tag/v0.1.1
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [shinymergely-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/shinyMergely/releases/download/v0.1.1/shinymergely-0.1.1-mac-arm64.zip) | 35.8 MB | `f7b97a42ee29dc22d4cd0d38cb1e7e9559ac8624fc32a1ef0f657fc8ff345c8c` |
+| `win-x64` | [shinymergely-0.1.1-win-x64.zip](https://github.com/fentouxungui/shinyMergely/releases/download/v0.1.1/shinymergely-0.1.1-win-x64.zip) | 37.3 MB | `eba458517f60d981d7331cdc4677039389f75af2048ec5777ddb592fa1df996e` |
 
 </details>
 
