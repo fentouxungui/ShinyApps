@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 38
+- **Apps:** 39
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 13:46:19 UTC
+- **Catalog last updated:** 2026-10-17 13:46:27 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -48,6 +48,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/hiviz.png" width="32" alt="HIViz"> | **HIViz**<br>Interactive dashboard for HIV data visualization | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/Atefehrashidi/HIViz) · [Docs](https://github.com/Atefehrashidi/HIViz#readme) · [Release](https://github.com/Atefehrashidi/HIViz/releases/tag/v0.1.2) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/distplotter.png" width="32" alt="DistPlotter"> | **DistPlotter**<br>Graphical user interface for plotting common univariate distributions | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/ccasement/DistPlotter) · [Docs](https://github.com/ccasement/DistPlotter#readme) · [Release](https://github.com/ccasement/DistPlotter/releases/tag/v0.1.2) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/ngstoolkit.png" width="32" alt="NGSToolKit"> | **NGSToolKit**<br>RNA-Seq analysis and genome visualization Shiny platform | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/bigfacilityiisr/NGS-Tool-Kit) · [Docs](https://github.com/bigfacilityiisr/NGS-Tool-Kit#readme) · [Release](https://github.com/bigfacilityiisr/NGS-Tool-Kit/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/dqagui.png" width="32" alt="DQAgui"> | **DQAgui**<br>Graphical user interface for data quality assessment | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/miracum/dqa-dqagui) · [Docs](https://github.com/miracum/dqa-dqagui#readme) · [Release](https://github.com/miracum/dqa-dqagui/releases/tag/v0.1.0) |
 
 ---
 
@@ -896,6 +897,28 @@ Release: https://github.com/bigfacilityiisr/NGS-Tool-Kit/releases/tag/v0.1.1
 |---|---|---:|---|
 | `mac-arm64` | [ngstoolkit-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/NGS-Tool-Kit/releases/download/v0.1.1/ngstoolkit-0.1.1-mac-arm64.zip) | 156.3 MB | `fbaef7aa8dd6aa65fca8215271de44869cf00c9684ce575c45cde242a71aae18` |
 | `win-x64` | [ngstoolkit-0.1.1-win-x64.zip](https://github.com/fentouxungui/NGS-Tool-Kit/releases/download/v0.1.1/ngstoolkit-0.1.1-win-x64.zip) | 165.9 MB | `8cffe32af62bccc69af9fbafe357bc483beb987114868cdc601c8d0e0a0b58ea` |
+
+</details>
+
+### DQAgui `0.1.0`
+
+Graphical user interface for data quality assessment
+
+| Field | Value |
+|---|---|
+| Author | miracum |
+| License | GPL-3.0 |
+| Copyright | (c) 2025 miracum |
+| R version | 4.6.1 |
+
+Release: https://github.com/miracum/dqa-dqagui/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [dqagui-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/dqa-dqagui/releases/download/v0.1.0/dqagui-0.1.0-mac-arm64.zip) | 121.1 MB | `8fd241c1138695d6159bbb6965acac1f92d82a2222bcd67bce6b6716b4a4e8ff` |
+| `win-x64` | [dqagui-0.1.0-win-x64.zip](https://github.com/fentouxungui/dqa-dqagui/releases/download/v0.1.0/dqagui-0.1.0-win-x64.zip) | 129.2 MB | `86f0719124ea12b53c5f3895422b66926410049d37add519b30a0f523693bd9a` |
 
 </details>
 

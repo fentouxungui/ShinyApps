@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T13:46:19Z",
+  "updated_at": "2026-10-17T13:46:27Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -1192,6 +1192,37 @@
           "url": "https://github.com/fentouxungui/NGS-Tool-Kit/releases/download/v0.1.1/ngstoolkit-0.1.1-win-x64.zip",
           "size": 173992331,
           "sha256": "8cffe32af62bccc69af9fbafe357bc483beb987114868cdc601c8d0e0a0b58ea"
+        }
+      }
+    },
+    {
+      "id": "dqagui",
+      "name": "DQAgui",
+      "author": "miracum",
+      "description": "Graphical user interface for data quality assessment",
+      "homepage": "https://github.com/miracum/dqa-dqagui",
+      "docs": "https://github.com/miracum/dqa-dqagui#readme",
+      "copyright": "(c) 2025 miracum",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/dqagui.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "data-quality",
+        "assessment",
+        "gui",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/dqa-dqagui/releases/download/v0.1.0/dqagui-0.1.0-mac-arm64.zip",
+          "size": 126988131,
+          "sha256": "8fd241c1138695d6159bbb6965acac1f92d82a2222bcd67bce6b6716b4a4e8ff"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/dqa-dqagui/releases/download/v0.1.0/dqagui-0.1.0-win-x64.zip",
+          "size": 135492396,
+          "sha256": "86f0719124ea12b53c5f3895422b66926410049d37add519b30a0f523693bd9a"
         }
       }
     }
