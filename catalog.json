@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T13:16:05Z",
+  "updated_at": "2026-10-17T13:46:19Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -993,8 +993,19 @@
         "environmental",
         "shiny"
       ],
-      "version": "",
-      "artifacts": {}
+      "version": "0.1.3",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/fluxtools/releases/download/v0.1.3/fluxtools-0.1.3-mac-arm64.zip",
+          "size": 91023519,
+          "sha256": "399c21d3ac4487d97e42102715fae515ef50c59492ab68fac7c3b9f1cbaf0295"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/fluxtools/releases/download/v0.1.3/fluxtools-0.1.3-win-x64.zip",
+          "size": 96433669,
+          "sha256": "22bfac872cb3d410adce8f52b0e71a1a8f4021e96b27477e1aeaa5d16523ed23"
+        }
+      }
     },
     {
       "id": "biascorrector",
@@ -1150,6 +1161,37 @@
           "url": "https://github.com/fentouxungui/DistPlotter/releases/download/v0.1.2/distplotter-0.1.2-win-x64.zip",
           "size": 104180505,
           "sha256": "2a784d60d07d7a08232199a4123a0efb4544802567eec0821803fc66def38413"
+        }
+      }
+    },
+    {
+      "id": "ngstoolkit",
+      "name": "NGSToolKit",
+      "author": "Sona Charles, Febin T Nabeel",
+      "description": "RNA-Seq analysis and genome visualization Shiny platform",
+      "homepage": "https://github.com/bigfacilityiisr/NGS-Tool-Kit",
+      "docs": "https://github.com/bigfacilityiisr/NGS-Tool-Kit#readme",
+      "copyright": "(c) 2025 Sona Charles",
+      "license": "GPL-3.0",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/ngstoolkit.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "rna-seq",
+        "genomics",
+        "visualization",
+        "shiny"
+      ],
+      "version": "0.1.1",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/NGS-Tool-Kit/releases/download/v0.1.1/ngstoolkit-0.1.1-mac-arm64.zip",
+          "size": 163870686,
+          "sha256": "fbaef7aa8dd6aa65fca8215271de44869cf00c9684ce575c45cde242a71aae18"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/NGS-Tool-Kit/releases/download/v0.1.1/ngstoolkit-0.1.1-win-x64.zip",
+          "size": 173992331,
+          "sha256": "8cffe32af62bccc69af9fbafe357bc483beb987114868cdc601c8d0e0a0b58ea"
         }
       }
     }

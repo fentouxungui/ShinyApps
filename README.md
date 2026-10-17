@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 37 — 36 ✅ 可用 / 1 ⛔ 不可用
+- **Apps:** 38
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 13:16:05 UTC
+- **Catalog last updated:** 2026-10-17 13:46:19 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -41,12 +41,13 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png" width="32" alt="GateLabR"> | **GateLabR**<br>Interactive manual gating of flow / mass cytometry on SingleCellExperiment objects | ✅ 可用 | `0.2.1` | `mac-arm64`, `win-x64` | [Home](https://david-priest.github.io/GateLabR) · [Docs](https://david-priest.github.io/GateLabR) · [Release](https://david-priest.github.io/GateLabR/releases/tag/v0.2.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/familia.png" width="32" alt="Familia"> | **Familia**<br>Shiny application for population structure and ancestry assessments | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/Breeding-Insight/Familia) · [Docs](https://github.com/Breeding-Insight/Familia#readme) · [Release](https://github.com/Breeding-Insight/Familia/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/fieldhub.png" width="32" alt="FielDHub"> | **FielDHub**<br>A Shiny app for design of experiments in life sciences | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/DidierMurilloF/FielDHub) · [Docs](https://didier-murillo.com/FielDHub/) · [Release](https://github.com/DidierMurilloF/FielDHub/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/fluxtools.png" width="32" alt="fluxtools"> | **fluxtools**<br>Shiny app for reproducible QA/QC of eddy covariance data | ⛔ 不可用 | — | — | [Home](https://github.com/kesondrakey/fluxtools) · [Docs](https://github.com/kesondrakey/fluxtools#readme) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/fluxtools.png" width="32" alt="fluxtools"> | **fluxtools**<br>Shiny app for reproducible QA/QC of eddy covariance data | ✅ 可用 | `0.1.3` | `mac-arm64`, `win-x64` | [Home](https://github.com/kesondrakey/fluxtools) · [Docs](https://github.com/kesondrakey/fluxtools#readme) · [Release](https://github.com/kesondrakey/fluxtools/releases/tag/v0.1.3) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/biascorrector.png" width="32" alt="BiasCorrector"> | **BiasCorrector**<br>GUI to correct measurement bias in DNA methylation analyses | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/kapsner/BiasCorrector) · [Docs](https://github.com/kapsner/BiasCorrector#readme) · [Release](https://github.com/kapsner/BiasCorrector/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/quickexplore.png" width="32" alt="QuickExplore"> | **QuickExplore**<br>Interactive dataset explorer for R, SAS and other data formats | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/ramsas88/QuickExplore) · [Docs](https://github.com/ramsas88/QuickExplore#readme) · [Release](https://github.com/ramsas88/QuickExplore/releases/tag/v0.1.2) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/associationexplorer2.png" width="32" alt="AssociationExplorer2"> | **AssociationExplorer2**<br>Shiny application for exploring associations and visual patterns | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/AntoineSoetewey/AssociationExplorer2) · [Docs](https://github.com/AntoineSoetewey/AssociationExplorer2#readme) · [Release](https://github.com/AntoineSoetewey/AssociationExplorer2/releases/tag/v0.1.2) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/hiviz.png" width="32" alt="HIViz"> | **HIViz**<br>Interactive dashboard for HIV data visualization | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/Atefehrashidi/HIViz) · [Docs](https://github.com/Atefehrashidi/HIViz#readme) · [Release](https://github.com/Atefehrashidi/HIViz/releases/tag/v0.1.2) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/distplotter.png" width="32" alt="DistPlotter"> | **DistPlotter**<br>Graphical user interface for plotting common univariate distributions | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/ccasement/DistPlotter) · [Docs](https://github.com/ccasement/DistPlotter#readme) · [Release](https://github.com/ccasement/DistPlotter/releases/tag/v0.1.2) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/ngstoolkit.png" width="32" alt="NGSToolKit"> | **NGSToolKit**<br>RNA-Seq analysis and genome visualization Shiny platform | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/bigfacilityiisr/NGS-Tool-Kit) · [Docs](https://github.com/bigfacilityiisr/NGS-Tool-Kit#readme) · [Release](https://github.com/bigfacilityiisr/NGS-Tool-Kit/releases/tag/v0.1.1) |
 
 ---
 
@@ -744,9 +745,7 @@ Release: https://github.com/DidierMurilloF/FielDHub/releases/tag/v0.1.0
 
 </details>
 
-### fluxtools
-
-**Status:** ⛔ 不可用 — no published release yet.
+### fluxtools `0.1.3`
 
 Shiny app for reproducible QA/QC of eddy covariance data
 
@@ -756,6 +755,17 @@ Shiny app for reproducible QA/QC of eddy covariance data
 | License | GPL-3.0 |
 | Copyright | (c) 2025 Kesondra Key |
 | R version | 4.6.1 |
+
+Release: https://github.com/kesondrakey/fluxtools/releases/tag/v0.1.3
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [fluxtools-0.1.3-mac-arm64.zip](https://github.com/fentouxungui/fluxtools/releases/download/v0.1.3/fluxtools-0.1.3-mac-arm64.zip) | 86.8 MB | `399c21d3ac4487d97e42102715fae515ef50c59492ab68fac7c3b9f1cbaf0295` |
+| `win-x64` | [fluxtools-0.1.3-win-x64.zip](https://github.com/fentouxungui/fluxtools/releases/download/v0.1.3/fluxtools-0.1.3-win-x64.zip) | 92.0 MB | `22bfac872cb3d410adce8f52b0e71a1a8f4021e96b27477e1aeaa5d16523ed23` |
+
+</details>
 
 ### BiasCorrector `0.1.0`
 
@@ -864,6 +874,28 @@ Release: https://github.com/ccasement/DistPlotter/releases/tag/v0.1.2
 |---|---|---:|---|
 | `mac-arm64` | [distplotter-0.1.2-mac-arm64.zip](https://github.com/fentouxungui/DistPlotter/releases/download/v0.1.2/distplotter-0.1.2-mac-arm64.zip) | 93.7 MB | `e39fbc5236e70ace469ed7a65d0a2670ef847752e47c61a5bf07cac6b35de54e` |
 | `win-x64` | [distplotter-0.1.2-win-x64.zip](https://github.com/fentouxungui/DistPlotter/releases/download/v0.1.2/distplotter-0.1.2-win-x64.zip) | 99.4 MB | `2a784d60d07d7a08232199a4123a0efb4544802567eec0821803fc66def38413` |
+
+</details>
+
+### NGSToolKit `0.1.1`
+
+RNA-Seq analysis and genome visualization Shiny platform
+
+| Field | Value |
+|---|---|
+| Author | Sona Charles, Febin T Nabeel |
+| License | GPL-3.0 |
+| Copyright | (c) 2025 Sona Charles |
+| R version | 4.6.1 |
+
+Release: https://github.com/bigfacilityiisr/NGS-Tool-Kit/releases/tag/v0.1.1
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [ngstoolkit-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/NGS-Tool-Kit/releases/download/v0.1.1/ngstoolkit-0.1.1-mac-arm64.zip) | 156.3 MB | `fbaef7aa8dd6aa65fca8215271de44869cf00c9684ce575c45cde242a71aae18` |
+| `win-x64` | [ngstoolkit-0.1.1-win-x64.zip](https://github.com/fentouxungui/NGS-Tool-Kit/releases/download/v0.1.1/ngstoolkit-0.1.1-win-x64.zip) | 165.9 MB | `8cffe32af62bccc69af9fbafe357bc483beb987114868cdc601c8d0e0a0b58ea` |
 
 </details>
 
