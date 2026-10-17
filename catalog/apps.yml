@@ -887,3 +887,94 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/expandar.png"
     r_version: "4.6.1"
     tags: [panel-data, exploratory, data-analysis, shiny]
+
+  - id: deepdep
+    repo: fentouxungui/deepdep
+    name: deepdep
+    author: "Dominik Rafacz"
+    description: "Visualise and explore the deep dependencies of R packages"
+    homepage: "https://github.com/fentouxungui/deepdep"
+    docs: "https://github.com/fentouxungui/deepdep#readme"
+    copyright: "(c) 2025 deepdep authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/deepdep.png"
+    r_version: "4.6.1"
+    tags: [dependency, visualization, packages, shiny]
+
+  - id: r3dmol
+    repo: fentouxungui/r3dmol
+    name: r3dmol
+    author: "Wei Su"
+    description: "Interactive 3D visualization of molecular data"
+    homepage: "https://github.com/fentouxungui/r3dmol"
+    docs: "https://github.com/fentouxungui/r3dmol#readme"
+    copyright: "(c) 2025 r3dmol authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/r3dmol.png"
+    r_version: "4.6.1"
+    tags: [molecular, 3d, visualization, shiny]
+
+  - id: shinyinvoice
+    repo: fentouxungui/invoice-public
+    name: shinyInvoice
+    author: "Fernando Roa"
+    description: "Generate a PDF invoice with Rmarkdown"
+    homepage: "https://github.com/fentouxungui/invoice-public"
+    docs: "https://github.com/fentouxungui/invoice-public#readme"
+    copyright: "(c) 2025 shinyInvoice authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinyinvoice.png"
+    r_version: "4.6.1"
+    tags: [invoice, pdf, rmarkdown, shiny]
+
+  - id: olympicrshiny
+    repo: fentouxungui/OlympicRshiny
+    name: OlympicRshiny
+    author: "Amalan Mahendran"
+    description: "Shiny application for Olympic data"
+    homepage: "https://github.com/fentouxungui/OlympicRshiny"
+    docs: "https://github.com/fentouxungui/OlympicRshiny#readme"
+    copyright: "(c) 2025 OlympicRshiny authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/olympicrshiny.png"
+    r_version: "4.6.1"
+    tags: [olympics, data, visualization, shiny]
+
+  - id: easysdctable
+    repo: fentouxungui/ssb-easysdctable
+    name: easySdcTable
+    author: "Statistics Norway"
+    description: "Easy interface to statistical disclosure control"
+    homepage: "https://github.com/fentouxungui/ssb-easysdctable"
+    docs: "https://github.com/fentouxungui/ssb-easysdctable#readme"
+    copyright: "(c) 2025 easySdcTable authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/easysdctable.png"
+    r_version: "4.6.1"
+    tags: [disclosure, statistics, gui, shiny]
+
+  - id: mmirestriktor
+    repo: fentouxungui/mmirestriktor
+    name: mmirestriktor
+    author: "Mighty Metrika"
+    description: "Informative hypothesis testing web applications"
+    homepage: "https://github.com/fentouxungui/mmirestriktor"
+    docs: "https://github.com/fentouxungui/mmirestriktor#readme"
+    copyright: "(c) 2025 mmirestriktor authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/mmirestriktor.png"
+    r_version: "4.6.1"
+    tags: [hypothesis-testing, statistics, web-app, shiny]
+
+  - id: holi
+    repo: fentouxungui/holi
+    name: holi
+    author: "Mighty Metrika"
+    description: "Higher order likelihood inference web applications"
+    homepage: "https://github.com/fentouxungui/holi"
+    docs: "https://github.com/fentouxungui/holi#readme"
+    copyright: "(c) 2025 holi authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/holi.png"
+    r_version: "4.6.1"
+    tags: [likelihood-inference, statistics, web-app, shiny]
