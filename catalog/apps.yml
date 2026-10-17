@@ -438,3 +438,85 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/fieldhub.png"
     r_version: "4.6.1"
     tags: [experimental-design, agriculture, statistics, shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: fluxtools
+    repo: fentouxungui/fluxtools
+    name: fluxtools
+    author: "Kesondra Key"
+    description: "Shiny app for reproducible QA/QC of eddy covariance data"
+    homepage: "https://github.com/kesondrakey/fluxtools"
+    docs: "https://github.com/kesondrakey/fluxtools#readme"
+    copyright: "(c) 2025 Kesondra Key"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/fluxtools.png"
+    r_version: "4.6.1"
+    tags: [eddy-covariance,qaqc,environmental,shiny]
+
+  - id: biascorrector
+    repo: fentouxungui/BiasCorrector
+    name: BiasCorrector
+    author: "Lorenz A. Kapsner"
+    description: "GUI to correct measurement bias in DNA methylation analyses"
+    homepage: "https://github.com/kapsner/BiasCorrector"
+    docs: "https://github.com/kapsner/BiasCorrector#readme"
+    copyright: "(c) 2025 Lorenz A. Kapsner"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/biascorrector.png"
+    r_version: "4.6.1"
+    tags: [methylation, epigenetics, bias, gui, shiny]
+
+  - id: quickexplore
+    repo: fentouxungui/QuickExplore
+    name: QuickExplore
+    author: "Ramsas"
+    description: "Interactive dataset explorer for R, SAS and other data formats"
+    homepage: "https://github.com/ramsas88/QuickExplore"
+    docs: "https://github.com/ramsas88/QuickExplore#readme"
+    copyright: "(c) 2025 Ramsas"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/quickexplore.png"
+    r_version: "4.6.1"
+    tags: [data-exploration, viewer, shiny]
+
+  - id: associationexplorer2
+    repo: fentouxungui/AssociationExplorer2
+    name: AssociationExplorer2
+    author: "Antoine Soetewey"
+    description: "Shiny application for exploring associations and visual patterns"
+    homepage: "https://github.com/AntoineSoetewey/AssociationExplorer2"
+    docs: "https://github.com/AntoineSoetewey/AssociationExplorer2#readme"
+    copyright: "(c) 2025 Antoine Soetewey"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/associationexplorer2.png"
+    r_version: "4.6.1"
+    tags: [statistics, association, visualization, shiny]
+
+  - id: hiviz
+    repo: fentouxungui/HIViz
+    name: HIViz
+    author: "Atefeh Rashidi"
+    description: "Interactive dashboard for HIV data visualization"
+    homepage: "https://github.com/Atefehrashidi/HIViz"
+    docs: "https://github.com/Atefehrashidi/HIViz#readme"
+    copyright: "(c) 2025 Atefeh Rashidi"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/hiviz.png"
+    r_version: "4.6.1"
+    tags: [hiv, epidemiology, visualization, dashboard, shiny]
+
+  - id: distplotter
+    repo: fentouxungui/DistPlotter
+    name: DistPlotter
+    author: "Cameron C. S. C."
+    description: "Graphical user interface for plotting common univariate distributions"
+    homepage: "https://github.com/ccasement/DistPlotter"
+    docs: "https://github.com/ccasement/DistPlotter#readme"
+    copyright: "(c) 2025 DistPlotter authors"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/distplotter.png"
+    r_version: "4.6.1"
+    tags: [distributions, plotting, education, gui, shiny]
