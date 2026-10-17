@@ -809,3 +809,42 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/channelattributionapp.png"
     r_version: "4.6.1"
     tags: [attribution, marketing, markov, shiny]
+
+  - id: squeakr
+    repo: fentouxungui/SqueakR
+    name: SqueakR
+    author: "SqueakR authors"
+    description: "Shiny dashboard for SqueakR behavioural analysis"
+    homepage: "https://github.com/fentouxungui/SqueakR"
+    docs: "https://github.com/fentouxungui/SqueakR#readme"
+    copyright: "(c) 2025 SqueakR authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/squeakr.png"
+    r_version: "4.6.1"
+    tags: [behaviour, dashboard, analysis, shiny]
+
+  - id: html2r
+    repo: fentouxungui/html2R
+    name: html2R
+    author: "html2R authors"
+    description: "Convert HTML to R Shiny applications"
+    homepage: "https://github.com/fentouxungui/html2R"
+    docs: "https://github.com/fentouxungui/html2R#readme"
+    copyright: "(c) 2025 html2R authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/html2r.png"
+    r_version: "4.6.1"
+    tags: [html, code-generation, shiny]
+
+  - id: sombrero
+    repo: fentouxungui/SOMbrero
+    name: SOMbrero
+    author: "SOMbrero authors"
+    description: "SOMbrero self-organizing map GUI"
+    homepage: "https://github.com/fentouxungui/SOMbrero"
+    docs: "https://github.com/fentouxungui/SOMbrero#readme"
+    copyright: "(c) 2025 SOMbrero authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/sombrero.png"
+    r_version: "4.6.1"
+    tags: [som, clustering, visualization, shiny]
