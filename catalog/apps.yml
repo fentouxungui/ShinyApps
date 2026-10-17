@@ -628,3 +628,20 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png"
     r_version: "4.6.1"
     tags: [diff, merge, text, shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: diagnostysize
+    repo: fentouxungui/DiagnostySize_App
+    name: DiagnostySize
+    author: "Jana W."
+    description: "App for calculating the sample size in a diagnostic study"
+    homepage: "https://github.com/JanaW09/DiagnostySize_App"
+    docs: "https://github.com/JanaW09/DiagnostySize_App#readme"
+    copyright: "(c) 2025 Jana W."
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png"
+    r_version: "4.6.1"
+    tags: [sample-size, diagnostics, statistics, shiny]
