@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 30
+- **Apps:** 31
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 11:43:39 UTC
+- **Catalog last updated:** 2026-10-17 12:16:52 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -40,6 +40,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png" width="32" alt="Metaboseek"> | **Metaboseek**<br>Interactive analysis and browsing of mass spectrometry data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://metaboseek.com) · [Docs](https://github.com/mjhelf/Metaboseek#readme) · [Release](https://metaboseek.com/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png" width="32" alt="GateLabR"> | **GateLabR**<br>Interactive manual gating of flow / mass cytometry on SingleCellExperiment objects | ✅ 可用 | `0.2.1` | `mac-arm64`, `win-x64` | [Home](https://david-priest.github.io/GateLabR) · [Docs](https://david-priest.github.io/GateLabR) · [Release](https://david-priest.github.io/GateLabR/releases/tag/v0.2.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/familia.png" width="32" alt="Familia"> | **Familia**<br>Shiny application for population structure and ancestry assessments | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/Breeding-Insight/Familia) · [Docs](https://github.com/Breeding-Insight/Familia#readme) · [Release](https://github.com/Breeding-Insight/Familia/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/fieldhub.png" width="32" alt="FielDHub"> | **FielDHub**<br>A Shiny app for design of experiments in life sciences | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/DidierMurilloF/FielDHub) · [Docs](https://didier-murillo.com/FielDHub/) · [Release](https://github.com/DidierMurilloF/FielDHub/releases/tag/v0.1.0) |
 
 ---
 
@@ -712,6 +713,28 @@ Release: https://github.com/Breeding-Insight/Familia/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [familia-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/familia/releases/download/v0.1.0/familia-0.1.0-mac-arm64.zip) | 118.7 MB | `c750fd414238e6acd03f2ef1221e826065b7886ec256217adca90e55cfb1c016` |
 | `win-x64` | [familia-0.1.0-win-x64.zip](https://github.com/fentouxungui/familia/releases/download/v0.1.0/familia-0.1.0-win-x64.zip) | 125.2 MB | `cd94690ec4c225321d55aae72e64a8561af4e3d934ea4c34feda346dca2ee5f7` |
+
+</details>
+
+### FielDHub `0.1.0`
+
+A Shiny app for design of experiments in life sciences
+
+| Field | Value |
+|---|---|
+| Author | Didier Murillo |
+| License | MIT |
+| Copyright | (c) 2025 Didier Murillo |
+| R version | 4.6.1 |
+
+Release: https://github.com/DidierMurilloF/FielDHub/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [fieldhub-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/FielDHub/releases/download/v0.1.0/fieldhub-0.1.0-mac-arm64.zip) | 97.0 MB | `83d46e06118251250694549609d9828154cc6c04b4defe4bd5279f5daa61f832` |
+| `win-x64` | [fieldhub-0.1.0-win-x64.zip](https://github.com/fentouxungui/FielDHub/releases/download/v0.1.0/fieldhub-0.1.0-win-x64.zip) | 102.4 MB | `444eea2672f573aece5374e410f027c00fa2aa41317dbb5b2ec9d2de344b055f` |
 
 </details>
 

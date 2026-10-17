@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T11:43:39Z",
+  "updated_at": "2026-10-17T12:16:52Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -942,6 +942,37 @@
           "url": "https://github.com/fentouxungui/familia/releases/download/v0.1.0/familia-0.1.0-win-x64.zip",
           "size": 131322829,
           "sha256": "cd94690ec4c225321d55aae72e64a8561af4e3d934ea4c34feda346dca2ee5f7"
+        }
+      }
+    },
+    {
+      "id": "fieldhub",
+      "name": "FielDHub",
+      "author": "Didier Murillo",
+      "description": "A Shiny app for design of experiments in life sciences",
+      "homepage": "https://github.com/DidierMurilloF/FielDHub",
+      "docs": "https://didier-murillo.com/FielDHub/",
+      "copyright": "(c) 2025 Didier Murillo",
+      "license": "MIT",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fieldhub.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "experimental-design",
+        "agriculture",
+        "statistics",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/FielDHub/releases/download/v0.1.0/fieldhub-0.1.0-mac-arm64.zip",
+          "size": 101684813,
+          "sha256": "83d46e06118251250694549609d9828154cc6c04b4defe4bd5279f5daa61f832"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/FielDHub/releases/download/v0.1.0/fieldhub-0.1.0-win-x64.zip",
+          "size": 107341256,
+          "sha256": "444eea2672f573aece5374e410f027c00fa2aa41317dbb5b2ec9d2de344b055f"
         }
       }
     }
