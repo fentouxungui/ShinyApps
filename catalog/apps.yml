@@ -520,3 +520,16 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/distplotter.png"
     r_version: "4.6.1"
     tags: [distributions, plotting, education, gui, shiny]
+
+  - id: ngstoolkit
+    repo: fentouxungui/NGS-Tool-Kit
+    name: NGSToolKit
+    author: "Sona Charles, Febin T Nabeel"
+    description: "RNA-Seq analysis and genome visualization Shiny platform"
+    homepage: "https://github.com/bigfacilityiisr/NGS-Tool-Kit"
+    docs: "https://github.com/bigfacilityiisr/NGS-Tool-Kit#readme"
+    copyright: "(c) 2025 Sona Charles"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/ngstoolkit.png"
+    r_version: "4.6.1"
+    tags: [rna-seq, genomics, visualization, shiny]
