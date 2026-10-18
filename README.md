@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 94
+- **Apps:** 99
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-18 06:25:45 UTC
+- **Catalog last updated:** 2026-10-18 06:57:22 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -104,6 +104,11 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/seasonalview.png" width="32" alt="seasonalview"> | **seasonalview**<br>Seasonal adjustment viewer | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/seasonalview) · [Docs](https://github.com/fentouxungui/seasonalview#readme) · [Release](https://github.com/fentouxungui/seasonalview/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/memapp.png" width="32" alt="memapp"> | **memapp**<br>Morphometric analysis app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/memapp) · [Docs](https://github.com/fentouxungui/memapp#readme) · [Release](https://github.com/fentouxungui/memapp/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/elaborator.png" width="32" alt="elaborator"> | **elaborator**<br>Visual exploration of laboratory data | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/elaborator) · [Docs](https://github.com/fentouxungui/elaborator#readme) · [Release](https://github.com/fentouxungui/elaborator/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/dqcheckrgui.png" width="32" alt="dqcheckrGUI"> | **dqcheckrGUI**<br>Data quality checks GUI | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/dqcheckrGUI) · [Docs](https://github.com/fentouxungui/dqcheckrGUI#readme) · [Release](https://github.com/fentouxungui/dqcheckrGUI/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/visxhclust.png" width="32" alt="visxhclust"> | **visxhclust**<br>Visual exploration of hierarchical clustering | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/visxhclust) · [Docs](https://github.com/fentouxungui/visxhclust#readme) · [Release](https://github.com/fentouxungui/visxhclust/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/phecodemap.png" width="32" alt="phecodemap"> | **phecodemap**<br>Phenotype code mapping | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/phecodemap) · [Docs](https://github.com/fentouxungui/phecodemap#readme) · [Release](https://github.com/fentouxungui/phecodemap/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/fdapaceshiny.png" width="32" alt="fdapaceShiny"> | **fdapaceShiny**<br>Functional data analysis app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/fdapaceShiny) · [Docs](https://github.com/fentouxungui/fdapaceShiny#readme) · [Release](https://github.com/fentouxungui/fdapaceShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/glossa.png" width="32" alt="glossa"> | **glossa**<br>Glossary and ontology exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/glossa) · [Docs](https://github.com/fentouxungui/glossa#readme) · [Release](https://github.com/fentouxungui/glossa/releases/tag/v0.1.0) |
 
 ---
 
@@ -2184,6 +2189,116 @@ Release: https://github.com/fentouxungui/elaborator/releases/tag/v0.2.0
 |---|---|---:|---|
 | `mac-arm64` | [elaborator-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/elaborator/releases/download/v0.2.0/elaborator-0.2.0-mac-arm64.zip) | 102.8 MB | `32e88412e6e1edd69330e7b947ed7347a52a0306054603495f2b4a8aeb7cb916` |
 | `win-x64` | [elaborator-0.2.0-win-x64.zip](https://github.com/fentouxungui/elaborator/releases/download/v0.2.0/elaborator-0.2.0-win-x64.zip) | 107.2 MB | `26aa139a5204cc632608ddf8246e6f86942278d1f0aab1b522a6e9ec691441aa` |
+
+</details>
+
+### dqcheckrGUI `0.1.0`
+
+Data quality checks GUI
+
+| Field | Value |
+|---|---|
+| Author | dqcheckrGUI authors |
+| License | See upstream |
+| Copyright | (c) 2025 dqcheckrGUI authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/dqcheckrGUI/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [dqcheckrgui-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/dqcheckrGUI/releases/download/v0.1.0/dqcheckrgui-0.1.0-mac-arm64.zip) | 90.3 MB | `7f20f9ddab49eead7aa31f3f0aba88309b098342a49525ac424a12886f04e72a` |
+| `win-x64` | [dqcheckrgui-0.1.0-win-x64.zip](https://github.com/fentouxungui/dqcheckrGUI/releases/download/v0.1.0/dqcheckrgui-0.1.0-win-x64.zip) | 100.5 MB | `58f1223cc7b257d842e1053d254aecc6a9a3eea3c9244dbd42b5012542bfe8ed` |
+
+</details>
+
+### visxhclust `0.1.0`
+
+Visual exploration of hierarchical clustering
+
+| Field | Value |
+|---|---|
+| Author | visxhclust authors |
+| License | See upstream |
+| Copyright | (c) 2025 visxhclust authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/visxhclust/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [visxhclust-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/visxhclust/releases/download/v0.1.0/visxhclust-0.1.0-mac-arm64.zip) | 116.5 MB | `0d54d1ad7ca2f8b4bcbe0a14aba66886096c9d17786b163a168bf8ab6871c5ec` |
+| `win-x64` | [visxhclust-0.1.0-win-x64.zip](https://github.com/fentouxungui/visxhclust/releases/download/v0.1.0/visxhclust-0.1.0-win-x64.zip) | 122.7 MB | `bd252c57bcda32323fd0d9e6649a965e7cd985a8e872bb5994358d8fe0526fc4` |
+
+</details>
+
+### phecodemap `0.1.0`
+
+Phenotype code mapping
+
+| Field | Value |
+|---|---|
+| Author | phecodemap authors |
+| License | See upstream |
+| Copyright | (c) 2025 phecodemap authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/phecodemap/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [phecodemap-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/phecodemap/releases/download/v0.1.0/phecodemap-0.1.0-mac-arm64.zip) | 97.5 MB | `b173bc99d851db39502d807f6a38be59bd6855731228f99091a033c55436f5be` |
+| `win-x64` | [phecodemap-0.1.0-win-x64.zip](https://github.com/fentouxungui/phecodemap/releases/download/v0.1.0/phecodemap-0.1.0-win-x64.zip) | 103.0 MB | `1438622bebdd8aab435ec5515c57158c5c47ea136f5960bbd5f4f0c24785176a` |
+
+</details>
+
+### fdapaceShiny `0.1.0`
+
+Functional data analysis app
+
+| Field | Value |
+|---|---|
+| Author | fdapaceShiny authors |
+| License | See upstream |
+| Copyright | (c) 2025 fdapaceShiny authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/fdapaceShiny/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [fdapaceshiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/fdapaceShiny/releases/download/v0.1.0/fdapaceshiny-0.1.0-mac-arm64.zip) | 114.0 MB | `6b07c8ca92d4fd90eede0acdc68ca694cd7c0caf1d04bea372872e4a4b5bccb8` |
+| `win-x64` | [fdapaceshiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/fdapaceShiny/releases/download/v0.1.0/fdapaceshiny-0.1.0-win-x64.zip) | 119.9 MB | `1a0ef21cfde7db89a12444294b446d61c892e3136dad9f1e8de6987a2b21dad5` |
+
+</details>
+
+### glossa `0.1.0`
+
+Glossary and ontology exploration
+
+| Field | Value |
+|---|---|
+| Author | glossa authors |
+| License | See upstream |
+| Copyright | (c) 2025 glossa authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/glossa/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [glossa-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/glossa/releases/download/v0.1.0/glossa-0.1.0-mac-arm64.zip) | 253.1 MB | `e54e3d7a2c15275437e86c623476176468c42db8adaf966b863314319de8a17d` |
+| `win-x64` | [glossa-0.1.0-win-x64.zip](https://github.com/fentouxungui/glossa/releases/download/v0.1.0/glossa-0.1.0-win-x64.zip) | 304.8 MB | `93eb64b2117c95a55c0b95792efdcb4c27c72110b899f9325247ff98e6bb686a` |
 
 </details>
 

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T04:46:14Z",
+  "updated_at": "2026-10-18T06:57:22Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -2922,6 +2922,160 @@
           "url": "https://github.com/fentouxungui/elaborator/releases/download/v0.2.0/elaborator-0.2.0-win-x64.zip",
           "size": 112445366,
           "sha256": "26aa139a5204cc632608ddf8246e6f86942278d1f0aab1b522a6e9ec691441aa"
+        }
+      }
+    },
+    {
+      "id": "dqcheckrgui",
+      "name": "dqcheckrGUI",
+      "author": "dqcheckrGUI authors",
+      "description": "Data quality checks GUI",
+      "homepage": "https://github.com/fentouxungui/dqcheckrGUI",
+      "docs": "https://github.com/fentouxungui/dqcheckrGUI#readme",
+      "copyright": "(c) 2025 dqcheckrGUI authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/dqcheckrgui.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "data-quality",
+        "checks",
+        "gui",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/dqcheckrGUI/releases/download/v0.1.0/dqcheckrgui-0.1.0-mac-arm64.zip",
+          "size": 94639175,
+          "sha256": "7f20f9ddab49eead7aa31f3f0aba88309b098342a49525ac424a12886f04e72a"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/dqcheckrGUI/releases/download/v0.1.0/dqcheckrgui-0.1.0-win-x64.zip",
+          "size": 105367814,
+          "sha256": "58f1223cc7b257d842e1053d254aecc6a9a3eea3c9244dbd42b5012542bfe8ed"
+        }
+      }
+    },
+    {
+      "id": "visxhclust",
+      "name": "visxhclust",
+      "author": "visxhclust authors",
+      "description": "Visual exploration of hierarchical clustering",
+      "homepage": "https://github.com/fentouxungui/visxhclust",
+      "docs": "https://github.com/fentouxungui/visxhclust#readme",
+      "copyright": "(c) 2025 visxhclust authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/visxhclust.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "clustering",
+        "visualization",
+        "hierarchical",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/visxhclust/releases/download/v0.1.0/visxhclust-0.1.0-mac-arm64.zip",
+          "size": 122119894,
+          "sha256": "0d54d1ad7ca2f8b4bcbe0a14aba66886096c9d17786b163a168bf8ab6871c5ec"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/visxhclust/releases/download/v0.1.0/visxhclust-0.1.0-win-x64.zip",
+          "size": 128708504,
+          "sha256": "bd252c57bcda32323fd0d9e6649a965e7cd985a8e872bb5994358d8fe0526fc4"
+        }
+      }
+    },
+    {
+      "id": "phecodemap",
+      "name": "phecodemap",
+      "author": "phecodemap authors",
+      "description": "Phenotype code mapping",
+      "homepage": "https://github.com/fentouxungui/phecodemap",
+      "docs": "https://github.com/fentouxungui/phecodemap#readme",
+      "copyright": "(c) 2025 phecodemap authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/phecodemap.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "phenotype",
+        "codes",
+        "mapping",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/phecodemap/releases/download/v0.1.0/phecodemap-0.1.0-mac-arm64.zip",
+          "size": 102251619,
+          "sha256": "b173bc99d851db39502d807f6a38be59bd6855731228f99091a033c55436f5be"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/phecodemap/releases/download/v0.1.0/phecodemap-0.1.0-win-x64.zip",
+          "size": 108009530,
+          "sha256": "1438622bebdd8aab435ec5515c57158c5c47ea136f5960bbd5f4f0c24785176a"
+        }
+      }
+    },
+    {
+      "id": "fdapaceshiny",
+      "name": "fdapaceShiny",
+      "author": "fdapaceShiny authors",
+      "description": "Functional data analysis app",
+      "homepage": "https://github.com/fentouxungui/fdapaceShiny",
+      "docs": "https://github.com/fentouxungui/fdapaceShiny#readme",
+      "copyright": "(c) 2025 fdapaceShiny authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fdapaceshiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "functional-data",
+        "analysis",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/fdapaceShiny/releases/download/v0.1.0/fdapaceshiny-0.1.0-mac-arm64.zip",
+          "size": 119522253,
+          "sha256": "6b07c8ca92d4fd90eede0acdc68ca694cd7c0caf1d04bea372872e4a4b5bccb8"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/fdapaceShiny/releases/download/v0.1.0/fdapaceshiny-0.1.0-win-x64.zip",
+          "size": 125678957,
+          "sha256": "1a0ef21cfde7db89a12444294b446d61c892e3136dad9f1e8de6987a2b21dad5"
+        }
+      }
+    },
+    {
+      "id": "glossa",
+      "name": "glossa",
+      "author": "glossa authors",
+      "description": "Glossary and ontology exploration",
+      "homepage": "https://github.com/fentouxungui/glossa",
+      "docs": "https://github.com/fentouxungui/glossa#readme",
+      "copyright": "(c) 2025 glossa authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/glossa.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "glossary",
+        "ontology",
+        "exploration",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/glossa/releases/download/v0.1.0/glossa-0.1.0-mac-arm64.zip",
+          "size": 265374457,
+          "sha256": "e54e3d7a2c15275437e86c623476176468c42db8adaf966b863314319de8a17d"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/glossa/releases/download/v0.1.0/glossa-0.1.0-win-x64.zip",
+          "size": 319569289,
+          "sha256": "93eb64b2117c95a55c0b95792efdcb4c27c72110b899f9325247ff98e6bb686a"
         }
       }
     }
