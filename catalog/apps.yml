@@ -1433,3 +1433,42 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/assumpsure.png"
     r_version: "4.6.1"
     tags: [assumptions, statistics, diagnostics, shiny]
+
+  - id: activanalyzer
+    repo: "fentouxungui/activAnalyzer"
+    name: "activAnalyzer"
+    author: "Pierre-Yves de Müllenheim"
+    description: "Analyze accelerometer-measured daily physical behavior data"
+    homepage: "https://github.com/fentouxungui/activAnalyzer"
+    docs: "https://github.com/fentouxungui/activAnalyzer#readme"
+    copyright: "(c) 2025 activAnalyzer authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/activanalyzer.png"
+    r_version: "4.6.1"
+    tags: [accelerometer, physical-activity, health, shiny]
+
+  - id: catascience
+    repo: "fentouxungui/cataScience"
+    name: "cataScience"
+    author: "Shanlong Ding"
+    description: "Interactive training app for data science and AI skills"
+    homepage: "https://github.com/fentouxungui/cataScience"
+    docs: "https://github.com/fentouxungui/cataScience#readme"
+    copyright: "(c) 2025 cataScience authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/catascience.png"
+    r_version: "4.6.1"
+    tags: [data-science, teaching, training, shiny]
+
+  - id: shinysbm
+    repo: "fentouxungui/shinySbm"
+    name: "shinySbm"
+    author: "Julie Aubert"
+    description: "Shiny interface for the stochastic block model"
+    homepage: "https://github.com/fentouxungui/shinySbm"
+    docs: "https://github.com/fentouxungui/shinySbm#readme"
+    copyright: "(c) 2025 shinySbm authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinysbm.png"
+    r_version: "4.6.1"
+    tags: [network, stochastic-block-model, clustering, shiny]
