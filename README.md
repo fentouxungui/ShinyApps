@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 93
+- **Apps:** 94
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-18 04:35:22 UTC
+- **Catalog last updated:** 2026-10-18 04:46:14 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -103,6 +103,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/gde.png" width="32" alt="gde"> | **gde**<br>Graphical data exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/gde) · [Docs](https://github.com/fentouxungui/gde#readme) · [Release](https://github.com/fentouxungui/gde/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/seasonalview.png" width="32" alt="seasonalview"> | **seasonalview**<br>Seasonal adjustment viewer | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/seasonalview) · [Docs](https://github.com/fentouxungui/seasonalview#readme) · [Release](https://github.com/fentouxungui/seasonalview/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/memapp.png" width="32" alt="memapp"> | **memapp**<br>Morphometric analysis app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/memapp) · [Docs](https://github.com/fentouxungui/memapp#readme) · [Release](https://github.com/fentouxungui/memapp/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/elaborator.png" width="32" alt="elaborator"> | **elaborator**<br>Visual exploration of laboratory data | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/elaborator) · [Docs](https://github.com/fentouxungui/elaborator#readme) · [Release](https://github.com/fentouxungui/elaborator/releases/tag/v0.2.0) |
 
 ---
 
@@ -2161,6 +2162,28 @@ Release: https://github.com/fentouxungui/memapp/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [memapp-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/memapp/releases/download/v0.1.0/memapp-0.1.0-mac-arm64.zip) | 128.0 MB | `4394ed31ba532676da9861df762bff99bb7609f014dd63d7e3848ce1c9694024` |
 | `win-x64` | [memapp-0.1.0-win-x64.zip](https://github.com/fentouxungui/memapp/releases/download/v0.1.0/memapp-0.1.0-win-x64.zip) | 141.1 MB | `9e6e8e5db96c484ebde472af18e70817ff8ef223a9325b2bcd71bef0ca6e61e0` |
+
+</details>
+
+### elaborator `0.2.0`
+
+Visual exploration of laboratory data
+
+| Field | Value |
+|---|---|
+| Author | elaborator authors |
+| License | See upstream |
+| Copyright | (c) 2025 elaborator authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/elaborator/releases/tag/v0.2.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [elaborator-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/elaborator/releases/download/v0.2.0/elaborator-0.2.0-mac-arm64.zip) | 102.8 MB | `32e88412e6e1edd69330e7b947ed7347a52a0306054603495f2b4a8aeb7cb916` |
+| `win-x64` | [elaborator-0.2.0-win-x64.zip](https://github.com/fentouxungui/elaborator/releases/download/v0.2.0/elaborator-0.2.0-win-x64.zip) | 107.2 MB | `26aa139a5204cc632608ddf8246e6f86942278d1f0aab1b522a6e9ec691441aa` |
 
 </details>
 

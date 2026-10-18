@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T04:35:22Z",
+  "updated_at": "2026-10-18T04:46:14Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -2891,6 +2891,37 @@
           "url": "https://github.com/fentouxungui/memapp/releases/download/v0.1.0/memapp-0.1.0-win-x64.zip",
           "size": 147992501,
           "sha256": "9e6e8e5db96c484ebde472af18e70817ff8ef223a9325b2bcd71bef0ca6e61e0"
+        }
+      }
+    },
+    {
+      "id": "elaborator",
+      "name": "elaborator",
+      "author": "elaborator authors",
+      "description": "Visual exploration of laboratory data",
+      "homepage": "https://github.com/fentouxungui/elaborator",
+      "docs": "https://github.com/fentouxungui/elaborator#readme",
+      "copyright": "(c) 2025 elaborator authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/elaborator.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "laboratory",
+        "visualization",
+        "exploration",
+        "shiny"
+      ],
+      "version": "0.2.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/elaborator/releases/download/v0.2.0/elaborator-0.2.0-mac-arm64.zip",
+          "size": 107790501,
+          "sha256": "32e88412e6e1edd69330e7b947ed7347a52a0306054603495f2b4a8aeb7cb916"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/elaborator/releases/download/v0.2.0/elaborator-0.2.0-win-x64.zip",
+          "size": 112445366,
+          "sha256": "26aa139a5204cc632608ddf8246e6f86942278d1f0aab1b522a6e9ec691441aa"
         }
       }
     }
