@@ -1082,3 +1082,29 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/vvdoctor.png"
     r_version: "4.6.1"
     tags: [diagnostics, data-quality, models, shiny]
+
+  - id: sdstudio
+    repo: "fentouxungui/sdstudio"
+    name: "sdstudio"
+    author: "sdstudio authors"
+    description: "Interactive survey data studio"
+    homepage: "https://github.com/fentouxungui/sdstudio"
+    docs: "https://github.com/fentouxungui/sdstudio#readme"
+    copyright: "(c) 2025 sdstudio authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/sdstudio.png"
+    r_version: "4.6.1"
+    tags: [survey, data, studio, shiny]
+
+  - id: quallmer-app
+    repo: "fentouxungui/quallmer.app"
+    name: "quallmer.app"
+    author: "quallmer.app authors"
+    description: "Qualitative coding comparison app"
+    homepage: "https://github.com/fentouxungui/quallmer.app"
+    docs: "https://github.com/fentouxungui/quallmer.app#readme"
+    copyright: "(c) 2025 quallmer.app authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/quallmer-app.png"
+    r_version: "4.6.1"
+    tags: [qualitative, coding, comparison, shiny]
