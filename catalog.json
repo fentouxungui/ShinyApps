@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T07:18:45Z",
+  "updated_at": "2026-10-18T12:23:54Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -3107,6 +3107,192 @@
           "url": "https://github.com/fentouxungui/aNCA/releases/download/v0.2.0/anca-0.2.0-win-x64.zip",
           "size": 239711810,
           "sha256": "d7d43105e6dc0bbd8f6d88b13f2419a6b4bf22a1abbb96038ac0a47557473b66"
+        }
+      }
+    },
+    {
+      "id": "shinymixr",
+      "name": "shinyMixR",
+      "author": "Richard Hooijmaijers",
+      "description": "Interactive mixed-effects model exploration",
+      "homepage": "https://github.com/fentouxungui/shinyMixR",
+      "docs": "https://github.com/fentouxungui/shinyMixR#readme",
+      "copyright": "(c) 2025 shinyMixR authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinymixr.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "pharmacometrics",
+        "modeling",
+        "mixed-effects",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/shinyMixR/releases/download/v0.1.0/shinymixr-0.1.0-mac-arm64.zip",
+          "size": 194812777,
+          "sha256": "9718def0e3c00b27e3ef3095d95e10b2835dd6390c56d768f4d9928a354330e9"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/shinyMixR/releases/download/v0.1.0/shinymixr-0.1.0-win-x64.zip",
+          "size": 184462230,
+          "sha256": "8f17d701ae25407783a0b52ed007cb8734b7ae94f3fa35c1dc4ceaff5122b978"
+        }
+      }
+    },
+    {
+      "id": "kesernetwork",
+      "name": "kesernetwork",
+      "author": "kesernetwork authors",
+      "description": "Knowledge graph network explorer",
+      "homepage": "https://github.com/fentouxungui/kesernetwork",
+      "docs": "https://github.com/fentouxungui/kesernetwork#readme",
+      "copyright": "(c) 2025 kesernetwork authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/kesernetwork.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "knowledge-graph",
+        "network",
+        "exploration",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/kesernetwork/releases/download/v0.1.0/kesernetwork-0.1.0-mac-arm64.zip",
+          "size": 102072131,
+          "sha256": "421cebd50952a82aaf27e829dff0c3b2365e19a6c9869df1a24ba9c0492b78fe"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/kesernetwork/releases/download/v0.1.0/kesernetwork-0.1.0-win-x64.zip",
+          "size": 106725029,
+          "sha256": "d35241e44c745ee33ba37a56d2f9762b577053a61d31b06948e816fc5c3b5d00"
+        }
+      }
+    },
+    {
+      "id": "shinykgode",
+      "name": "shinyKGode",
+      "author": "shinyKGode authors",
+      "description": "Interactive ODE parameter estimation",
+      "homepage": "https://github.com/fentouxungui/shinyKGode",
+      "docs": "https://github.com/fentouxungui/shinyKGode#readme",
+      "copyright": "(c) 2025 shinyKGode authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinykgode.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "ode",
+        "parameter-estimation",
+        "modeling",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/shinyKGode/releases/download/v0.1.0/shinykgode-0.1.0-mac-arm64.zip",
+          "size": 67860985,
+          "sha256": "9f7853f4d364721277adb9130766fa39839c7a653fe5cd8c2e3cf0b3b6ba5709"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/shinyKGode/releases/download/v0.1.0/shinykgode-0.1.0-win-x64.zip",
+          "size": 71755640,
+          "sha256": "886f7c3963746ba06ad623d1f6528afe75f7b9aef377c5d46efd73c46975a5cc"
+        }
+      }
+    },
+    {
+      "id": "viewpoly",
+      "name": "viewpoly",
+      "author": "Breeding Insight",
+      "description": "Visualize polyploid genetic data",
+      "homepage": "https://github.com/fentouxungui/viewpoly",
+      "docs": "https://github.com/fentouxungui/viewpoly#readme",
+      "copyright": "(c) 2025 viewpoly authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/viewpoly.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "polyploid",
+        "genetics",
+        "visualization",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/viewpoly/releases/download/v0.1.0/viewpoly-0.1.0-mac-arm64.zip",
+          "size": 187899528,
+          "sha256": "7cc10e8b51610854bfa87062e75ae21ab1ba5f9e13bfc7d6ed4059f2041e5027"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/viewpoly/releases/download/v0.1.0/viewpoly-0.1.0-win-x64.zip",
+          "size": 196679463,
+          "sha256": "3cd12d90ad9fcd6ee510d5272b426b907b68fc6d588eb7dde52b4acb0fe23533"
+        }
+      }
+    },
+    {
+      "id": "normalityassessment",
+      "name": "NormalityAssessment",
+      "author": "NormalityAssessment authors",
+      "description": "Assess normality of data",
+      "homepage": "https://github.com/fentouxungui/NormalityAssessment",
+      "docs": "https://github.com/fentouxungui/NormalityAssessment#readme",
+      "copyright": "(c) 2025 NormalityAssessment authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/normalityassessment.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "normality",
+        "statistics",
+        "diagnostics",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/NormalityAssessment/releases/download/v0.1.0/normalityassessment-0.1.0-mac-arm64.zip",
+          "size": 95751342,
+          "sha256": "2d7002274bec4d38ba965a5adf757210ea5aa49af63fcd9a4e7a9f73e3032156"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/NormalityAssessment/releases/download/v0.1.0/normalityassessment-0.1.0-win-x64.zip",
+          "size": 101322826,
+          "sha256": "8753a7701c67586c8cb1107484d5dd1fc9cf8339749b12e745eba801bc8954d5"
+        }
+      }
+    },
+    {
+      "id": "assumpsure",
+      "name": "AssumpSure",
+      "author": "AssumpSure authors",
+      "description": "Check statistical assumptions",
+      "homepage": "https://github.com/fentouxungui/AssumpSure",
+      "docs": "https://github.com/fentouxungui/AssumpSure#readme",
+      "copyright": "(c) 2025 AssumpSure authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/assumpsure.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "assumptions",
+        "statistics",
+        "diagnostics",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/AssumpSure/releases/download/v0.1.0/assumpsure-0.1.0-mac-arm64.zip",
+          "size": 303660786,
+          "sha256": "00888b65150ad5c26af19e2038395bf9cd01553da366043bb738ee1e1ecf0eff"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/AssumpSure/releases/download/v0.1.0/assumpsure-0.1.0-win-x64.zip",
+          "size": 321375187,
+          "sha256": "e4ab94553677515a1203c1c04deb3537d8de2e9cb7fb7d862aef4ac7f147afda"
         }
       }
     }

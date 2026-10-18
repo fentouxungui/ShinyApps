@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 100
+- **Apps:** 106
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-18 11:35:10 UTC
+- **Catalog last updated:** 2026-10-18 12:23:54 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -110,6 +110,12 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/fdapaceshiny.png" width="32" alt="fdapaceShiny"> | **fdapaceShiny**<br>Functional data analysis app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/fdapaceShiny) · [Docs](https://github.com/fentouxungui/fdapaceShiny#readme) · [Release](https://github.com/fentouxungui/fdapaceShiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/glossa.png" width="32" alt="glossa"> | **glossa**<br>Glossary and ontology exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/glossa) · [Docs](https://github.com/fentouxungui/glossa#readme) · [Release](https://github.com/fentouxungui/glossa/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/anca.png" width="32" alt="aNCA"> | **aNCA**<br>Non-compartmental analysis | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/aNCA) · [Docs](https://github.com/fentouxungui/aNCA#readme) · [Release](https://github.com/fentouxungui/aNCA/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinymixr.png" width="32" alt="shinyMixR"> | **shinyMixR**<br>Interactive mixed-effects model exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/shinyMixR) · [Docs](https://github.com/fentouxungui/shinyMixR#readme) · [Release](https://github.com/fentouxungui/shinyMixR/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/kesernetwork.png" width="32" alt="kesernetwork"> | **kesernetwork**<br>Knowledge graph network explorer | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/kesernetwork) · [Docs](https://github.com/fentouxungui/kesernetwork#readme) · [Release](https://github.com/fentouxungui/kesernetwork/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinykgode.png" width="32" alt="shinyKGode"> | **shinyKGode**<br>Interactive ODE parameter estimation | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/shinyKGode) · [Docs](https://github.com/fentouxungui/shinyKGode#readme) · [Release](https://github.com/fentouxungui/shinyKGode/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/viewpoly.png" width="32" alt="viewpoly"> | **viewpoly**<br>Visualize polyploid genetic data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/viewpoly) · [Docs](https://github.com/fentouxungui/viewpoly#readme) · [Release](https://github.com/fentouxungui/viewpoly/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/normalityassessment.png" width="32" alt="NormalityAssessment"> | **NormalityAssessment**<br>Assess normality of data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/NormalityAssessment) · [Docs](https://github.com/fentouxungui/NormalityAssessment#readme) · [Release](https://github.com/fentouxungui/NormalityAssessment/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/assumpsure.png" width="32" alt="AssumpSure"> | **AssumpSure**<br>Check statistical assumptions | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/AssumpSure) · [Docs](https://github.com/fentouxungui/AssumpSure#readme) · [Release](https://github.com/fentouxungui/AssumpSure/releases/tag/v0.1.0) |
 
 ---
 
@@ -2322,6 +2328,138 @@ Release: https://github.com/fentouxungui/aNCA/releases/tag/v0.2.0
 |---|---|---:|---|
 | `mac-arm64` | [anca-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/aNCA/releases/download/v0.2.0/anca-0.2.0-mac-arm64.zip) | 213.9 MB | `d5b08b0ae572a0887d5f4973cf7efa8bf70a7c5f2e22ff6a2b88a187c4811c4b` |
 | `win-x64` | [anca-0.2.0-win-x64.zip](https://github.com/fentouxungui/aNCA/releases/download/v0.2.0/anca-0.2.0-win-x64.zip) | 228.6 MB | `d7d43105e6dc0bbd8f6d88b13f2419a6b4bf22a1abbb96038ac0a47557473b66` |
+
+</details>
+
+### shinyMixR `0.1.0`
+
+Interactive mixed-effects model exploration
+
+| Field | Value |
+|---|---|
+| Author | Richard Hooijmaijers |
+| License | See upstream |
+| Copyright | (c) 2025 shinyMixR authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/shinyMixR/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [shinymixr-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/shinyMixR/releases/download/v0.1.0/shinymixr-0.1.0-mac-arm64.zip) | 185.8 MB | `9718def0e3c00b27e3ef3095d95e10b2835dd6390c56d768f4d9928a354330e9` |
+| `win-x64` | [shinymixr-0.1.0-win-x64.zip](https://github.com/fentouxungui/shinyMixR/releases/download/v0.1.0/shinymixr-0.1.0-win-x64.zip) | 175.9 MB | `8f17d701ae25407783a0b52ed007cb8734b7ae94f3fa35c1dc4ceaff5122b978` |
+
+</details>
+
+### kesernetwork `0.1.0`
+
+Knowledge graph network explorer
+
+| Field | Value |
+|---|---|
+| Author | kesernetwork authors |
+| License | See upstream |
+| Copyright | (c) 2025 kesernetwork authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/kesernetwork/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [kesernetwork-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/kesernetwork/releases/download/v0.1.0/kesernetwork-0.1.0-mac-arm64.zip) | 97.3 MB | `421cebd50952a82aaf27e829dff0c3b2365e19a6c9869df1a24ba9c0492b78fe` |
+| `win-x64` | [kesernetwork-0.1.0-win-x64.zip](https://github.com/fentouxungui/kesernetwork/releases/download/v0.1.0/kesernetwork-0.1.0-win-x64.zip) | 101.8 MB | `d35241e44c745ee33ba37a56d2f9762b577053a61d31b06948e816fc5c3b5d00` |
+
+</details>
+
+### shinyKGode `0.1.0`
+
+Interactive ODE parameter estimation
+
+| Field | Value |
+|---|---|
+| Author | shinyKGode authors |
+| License | See upstream |
+| Copyright | (c) 2025 shinyKGode authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/shinyKGode/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [shinykgode-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/shinyKGode/releases/download/v0.1.0/shinykgode-0.1.0-mac-arm64.zip) | 64.7 MB | `9f7853f4d364721277adb9130766fa39839c7a653fe5cd8c2e3cf0b3b6ba5709` |
+| `win-x64` | [shinykgode-0.1.0-win-x64.zip](https://github.com/fentouxungui/shinyKGode/releases/download/v0.1.0/shinykgode-0.1.0-win-x64.zip) | 68.4 MB | `886f7c3963746ba06ad623d1f6528afe75f7b9aef377c5d46efd73c46975a5cc` |
+
+</details>
+
+### viewpoly `0.1.0`
+
+Visualize polyploid genetic data
+
+| Field | Value |
+|---|---|
+| Author | Breeding Insight |
+| License | See upstream |
+| Copyright | (c) 2025 viewpoly authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/viewpoly/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [viewpoly-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/viewpoly/releases/download/v0.1.0/viewpoly-0.1.0-mac-arm64.zip) | 179.2 MB | `7cc10e8b51610854bfa87062e75ae21ab1ba5f9e13bfc7d6ed4059f2041e5027` |
+| `win-x64` | [viewpoly-0.1.0-win-x64.zip](https://github.com/fentouxungui/viewpoly/releases/download/v0.1.0/viewpoly-0.1.0-win-x64.zip) | 187.6 MB | `3cd12d90ad9fcd6ee510d5272b426b907b68fc6d588eb7dde52b4acb0fe23533` |
+
+</details>
+
+### NormalityAssessment `0.1.0`
+
+Assess normality of data
+
+| Field | Value |
+|---|---|
+| Author | NormalityAssessment authors |
+| License | See upstream |
+| Copyright | (c) 2025 NormalityAssessment authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/NormalityAssessment/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [normalityassessment-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/NormalityAssessment/releases/download/v0.1.0/normalityassessment-0.1.0-mac-arm64.zip) | 91.3 MB | `2d7002274bec4d38ba965a5adf757210ea5aa49af63fcd9a4e7a9f73e3032156` |
+| `win-x64` | [normalityassessment-0.1.0-win-x64.zip](https://github.com/fentouxungui/NormalityAssessment/releases/download/v0.1.0/normalityassessment-0.1.0-win-x64.zip) | 96.6 MB | `8753a7701c67586c8cb1107484d5dd1fc9cf8339749b12e745eba801bc8954d5` |
+
+</details>
+
+### AssumpSure `0.1.0`
+
+Check statistical assumptions
+
+| Field | Value |
+|---|---|
+| Author | AssumpSure authors |
+| License | See upstream |
+| Copyright | (c) 2025 AssumpSure authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/AssumpSure/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [assumpsure-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/AssumpSure/releases/download/v0.1.0/assumpsure-0.1.0-mac-arm64.zip) | 289.6 MB | `00888b65150ad5c26af19e2038395bf9cd01553da366043bb738ee1e1ecf0eff` |
+| `win-x64` | [assumpsure-0.1.0-win-x64.zip](https://github.com/fentouxungui/AssumpSure/releases/download/v0.1.0/assumpsure-0.1.0-win-x64.zip) | 306.5 MB | `e4ab94553677515a1203c1c04deb3537d8de2e9cb7fb7d862aef4ac7f147afda` |
 
 </details>
 
