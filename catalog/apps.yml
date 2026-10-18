@@ -1563,3 +1563,42 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/paramgui.png"
     r_version: "4.6.1"
     tags: [parameter-estimation, spectroscopy, modeling, shiny]
+
+  - id: statteacherassistant
+    repo: "fentouxungui/StatTeacherAssistant"
+    name: "StatTeacherAssistant"
+    author: "Christopher Casement"
+    description: "Teaching assistant for introductory statistics"
+    homepage: "https://github.com/fentouxungui/StatTeacherAssistant"
+    docs: "https://github.com/fentouxungui/StatTeacherAssistant#readme"
+    copyright: "(c) 2026 StatTeacherAssistant authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/statteacherassistant.png"
+    r_version: "4.6.1"
+    tags: [statistics, teaching, education, shiny]
+
+  - id: vosondash
+    repo: "fentouxungui/VOSONDash"
+    name: "VOSONDash"
+    author: "Bryan Gertzel"
+    description: "Visualise and analyse social networks"
+    homepage: "https://github.com/fentouxungui/VOSONDash"
+    docs: "https://github.com/fentouxungui/VOSONDash#readme"
+    copyright: "(c) 2026 VOSONDash authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/vosondash.png"
+    r_version: "4.6.1"
+    tags: [social-network, network-analysis, visualization, shiny]
+
+  - id: zscorer
+    repo: "fentouxungui/zscorer"
+    name: "zscorer"
+    author: "Ernest Guevarra"
+    description: "Child anthropometry z-score calculator"
+    homepage: "https://github.com/fentouxungui/zscorer"
+    docs: "https://github.com/fentouxungui/zscorer#readme"
+    copyright: "(c) 2026 zscorer authors"
+    license: "AGPL-3"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/zscorer.png"
+    r_version: "4.6.1"
+    tags: [anthropometry, child-health, z-score, shiny]
