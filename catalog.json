@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-17T23:49:20Z",
+  "updated_at": "2026-10-18T00:06:09Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -2364,6 +2364,99 @@
           "url": "https://github.com/fentouxungui/mmibain/releases/download/v0.1.0/mmibain-0.1.0-win-x64.zip",
           "size": 160781004,
           "sha256": "9d5fbcd7de6779f15ce97692d6065740f9e21ae2b5dc66ee1525b0cc6094e766"
+        }
+      }
+    },
+    {
+      "id": "archeofrag-gui",
+      "name": "archeofrag.gui",
+      "author": "Sebastien Plutniak",
+      "description": "GUI for the archeofrag fragmentation analysis",
+      "homepage": "https://github.com/fentouxungui/archeofrag.gui",
+      "docs": "https://github.com/fentouxungui/archeofrag.gui#readme",
+      "copyright": "(c) 2025 archeofrag.gui authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/archeofrag-gui.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "archaeology",
+        "fragmentation",
+        "network",
+        "shiny"
+      ],
+      "version": "0.2.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/archeofrag.gui/releases/download/v0.2.0/archeofrag-gui-0.2.0-mac-arm64.zip",
+          "size": 77833567,
+          "sha256": "71b7b98db3ab1b5e60f23780c17d53f79ceb0f3605b5481d47a6278f7d800be6"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/archeofrag.gui/releases/download/v0.2.0/archeofrag-gui-0.2.0-win-x64.zip",
+          "size": 81349488,
+          "sha256": "15fed5562758a126365973eeec61513ea81d94a4744341e0f9d9aa5e0c970dbe"
+        }
+      }
+    },
+    {
+      "id": "cocktailapp",
+      "name": "cocktailApp",
+      "author": "Modesto Escobar",
+      "description": "Cocktail party effect visualization",
+      "homepage": "https://github.com/fentouxungui/cocktailApp",
+      "docs": "https://github.com/fentouxungui/cocktailApp#readme",
+      "copyright": "(c) 2025 cocktailApp authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/cocktailapp.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "visualization",
+        "survey",
+        "cocktail",
+        "shiny"
+      ],
+      "version": "0.2.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/cocktailApp/releases/download/v0.2.0/cocktailapp-0.2.0-mac-arm64.zip",
+          "size": 77281236,
+          "sha256": "045249680fb2159ae7b5dc61604043919f877c80389bad9d69dedebbf7f3ec8e"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/cocktailApp/releases/download/v0.2.0/cocktailapp-0.2.0-win-x64.zip",
+          "size": 79402957,
+          "sha256": "a714e0a438fa06afbc6bcb89c27e609d7c024fb1adaeb4583c4c057d144bcf5c"
+        }
+      }
+    },
+    {
+      "id": "vvdoctor",
+      "name": "vvdoctor",
+      "author": "vvdoctor authors",
+      "description": "Diagnose data and model problems",
+      "homepage": "https://github.com/fentouxungui/vvdoctor",
+      "docs": "https://github.com/fentouxungui/vvdoctor#readme",
+      "copyright": "(c) 2025 vvdoctor authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/vvdoctor.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "diagnostics",
+        "data-quality",
+        "models",
+        "shiny"
+      ],
+      "version": "0.2.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/vvdoctor/releases/download/v0.2.0/vvdoctor-0.2.0-mac-arm64.zip",
+          "size": 186937013,
+          "sha256": "c715d47648be979942e01c895dc789c1c63c943c98b8675bdee3f5edd6b8cc16"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/vvdoctor/releases/download/v0.2.0/vvdoctor-0.2.0-win-x64.zip",
+          "size": 196010688,
+          "sha256": "b739f68469b770f6f8da14c8370cd3d676feda78893d145938243e0ecd77315c"
         }
       }
     }

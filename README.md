@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 76
+- **Apps:** 79
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-17 23:49:20 UTC
+- **Catalog last updated:** 2026-10-18 00:06:09 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -86,6 +86,9 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/mispitools.png" width="32" alt="mispitools"> | **mispitools**<br>Missing person identification tools | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/mispitools) · [Docs](https://github.com/fentouxungui/mispitools#readme) · [Release](https://github.com/fentouxungui/mispitools/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/ggplotgui.png" width="32" alt="ggplotgui"> | **ggplotgui**<br>Create ggplot2 plots interactively | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ggplotgui) · [Docs](https://github.com/fentouxungui/ggplotgui#readme) · [Release](https://github.com/fentouxungui/ggplotgui/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/mmibain.png" width="32" alt="mmibain"> | **mmibain**<br>Bayes factors for informed hypotheses | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/mmibain) · [Docs](https://github.com/fentouxungui/mmibain#readme) · [Release](https://github.com/fentouxungui/mmibain/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/archeofrag-gui.png" width="32" alt="archeofrag.gui"> | **archeofrag.gui**<br>GUI for the archeofrag fragmentation analysis | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/archeofrag.gui) · [Docs](https://github.com/fentouxungui/archeofrag.gui#readme) · [Release](https://github.com/fentouxungui/archeofrag.gui/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/cocktailapp.png" width="32" alt="cocktailApp"> | **cocktailApp**<br>Cocktail party effect visualization | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/cocktailApp) · [Docs](https://github.com/fentouxungui/cocktailApp#readme) · [Release](https://github.com/fentouxungui/cocktailApp/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/vvdoctor.png" width="32" alt="vvdoctor"> | **vvdoctor**<br>Diagnose data and model problems | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/vvdoctor) · [Docs](https://github.com/fentouxungui/vvdoctor#readme) · [Release](https://github.com/fentouxungui/vvdoctor/releases/tag/v0.2.0) |
 
 ---
 
@@ -1770,6 +1773,72 @@ Release: https://github.com/fentouxungui/mmibain/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [mmibain-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/mmibain/releases/download/v0.1.0/mmibain-0.1.0-mac-arm64.zip) | 147.7 MB | `f9f55ef2e3a0d2051c2264207e1f3b5701423f80b427d9831dd26709e3f08e2e` |
 | `win-x64` | [mmibain-0.1.0-win-x64.zip](https://github.com/fentouxungui/mmibain/releases/download/v0.1.0/mmibain-0.1.0-win-x64.zip) | 153.3 MB | `9d5fbcd7de6779f15ce97692d6065740f9e21ae2b5dc66ee1525b0cc6094e766` |
+
+</details>
+
+### archeofrag.gui `0.2.0`
+
+GUI for the archeofrag fragmentation analysis
+
+| Field | Value |
+|---|---|
+| Author | Sebastien Plutniak |
+| License | See upstream |
+| Copyright | (c) 2025 archeofrag.gui authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/archeofrag.gui/releases/tag/v0.2.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [archeofrag-gui-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/archeofrag.gui/releases/download/v0.2.0/archeofrag-gui-0.2.0-mac-arm64.zip) | 74.2 MB | `71b7b98db3ab1b5e60f23780c17d53f79ceb0f3605b5481d47a6278f7d800be6` |
+| `win-x64` | [archeofrag-gui-0.2.0-win-x64.zip](https://github.com/fentouxungui/archeofrag.gui/releases/download/v0.2.0/archeofrag-gui-0.2.0-win-x64.zip) | 77.6 MB | `15fed5562758a126365973eeec61513ea81d94a4744341e0f9d9aa5e0c970dbe` |
+
+</details>
+
+### cocktailApp `0.2.0`
+
+Cocktail party effect visualization
+
+| Field | Value |
+|---|---|
+| Author | Modesto Escobar |
+| License | See upstream |
+| Copyright | (c) 2025 cocktailApp authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/cocktailApp/releases/tag/v0.2.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [cocktailapp-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/cocktailApp/releases/download/v0.2.0/cocktailapp-0.2.0-mac-arm64.zip) | 73.7 MB | `045249680fb2159ae7b5dc61604043919f877c80389bad9d69dedebbf7f3ec8e` |
+| `win-x64` | [cocktailapp-0.2.0-win-x64.zip](https://github.com/fentouxungui/cocktailApp/releases/download/v0.2.0/cocktailapp-0.2.0-win-x64.zip) | 75.7 MB | `a714e0a438fa06afbc6bcb89c27e609d7c024fb1adaeb4583c4c057d144bcf5c` |
+
+</details>
+
+### vvdoctor `0.2.0`
+
+Diagnose data and model problems
+
+| Field | Value |
+|---|---|
+| Author | vvdoctor authors |
+| License | See upstream |
+| Copyright | (c) 2025 vvdoctor authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/vvdoctor/releases/tag/v0.2.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [vvdoctor-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/vvdoctor/releases/download/v0.2.0/vvdoctor-0.2.0-mac-arm64.zip) | 178.3 MB | `c715d47648be979942e01c895dc789c1c63c943c98b8675bdee3f5edd6b8cc16` |
+| `win-x64` | [vvdoctor-0.2.0-win-x64.zip](https://github.com/fentouxungui/vvdoctor/releases/download/v0.2.0/vvdoctor-0.2.0-win-x64.zip) | 186.9 MB | `b739f68469b770f6f8da14c8370cd3d676feda78893d145938243e0ecd77315c` |
 
 </details>
 
