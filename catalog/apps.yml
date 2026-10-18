@@ -1160,3 +1160,16 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/censuspyrid.png"
     r_version: "4.6.1"
     tags: [census, puerto-rico, data, shiny]
+
+  - id: fitodbodrshiny
+    repo: "fentouxungui/fitODBODRshiny"
+    name: "fitODBODRshiny"
+    author: "fitODBODRshiny authors"
+    description: "Fit ODBOD distributions interactively"
+    homepage: "https://github.com/fentouxungui/fitODBODRshiny"
+    docs: "https://github.com/fentouxungui/fitODBODRshiny#readme"
+    copyright: "(c) 2025 fitODBODRshiny authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/fitodbodrshiny.png"
+    r_version: "4.6.1"
+    tags: [distribution, fitting, statistics, shiny]
