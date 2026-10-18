@@ -1342,3 +1342,16 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/glossa.png"
     r_version: "4.6.1"
     tags: [glossary, ontology, exploration, shiny]
+
+  - id: anca
+    repo: "fentouxungui/aNCA"
+    name: "aNCA"
+    author: "aNCA authors"
+    description: "Non-compartmental analysis"
+    homepage: "https://github.com/fentouxungui/aNCA"
+    docs: "https://github.com/fentouxungui/aNCA#readme"
+    copyright: "(c) 2025 aNCA authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/anca.png"
+    r_version: "4.6.1"
+    tags: [pharmacokinetics, nca, analysis, shiny]
