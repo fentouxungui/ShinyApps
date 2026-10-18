@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T00:06:09Z",
+  "updated_at": "2026-10-18T00:51:20Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -2457,6 +2457,68 @@
           "url": "https://github.com/fentouxungui/vvdoctor/releases/download/v0.2.0/vvdoctor-0.2.0-win-x64.zip",
           "size": 196010688,
           "sha256": "b739f68469b770f6f8da14c8370cd3d676feda78893d145938243e0ecd77315c"
+        }
+      }
+    },
+    {
+      "id": "sdstudio",
+      "name": "sdstudio",
+      "author": "sdstudio authors",
+      "description": "Interactive survey data studio",
+      "homepage": "https://github.com/fentouxungui/sdstudio",
+      "docs": "https://github.com/fentouxungui/sdstudio#readme",
+      "copyright": "(c) 2025 sdstudio authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/sdstudio.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "survey",
+        "data",
+        "studio",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/sdstudio/releases/download/v0.1.0/sdstudio-0.1.0-mac-arm64.zip",
+          "size": 65263504,
+          "sha256": "7eeefe0ce7c1e149de00a9e4393e225d1cd931859facbdd5e6d76886d15a1b6d"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/sdstudio/releases/download/v0.1.0/sdstudio-0.1.0-win-x64.zip",
+          "size": 71536494,
+          "sha256": "801a82c9a2067e31f85d25d6f12aa21e85f95bb592caf87172049d4b0aa00c79"
+        }
+      }
+    },
+    {
+      "id": "quallmer-app",
+      "name": "quallmer.app",
+      "author": "quallmer.app authors",
+      "description": "Qualitative coding comparison app",
+      "homepage": "https://github.com/fentouxungui/quallmer.app",
+      "docs": "https://github.com/fentouxungui/quallmer.app#readme",
+      "copyright": "(c) 2025 quallmer.app authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/quallmer-app.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "qualitative",
+        "coding",
+        "comparison",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/quallmer.app/releases/download/v0.1.0/quallmer-app-0.1.0-mac-arm64.zip",
+          "size": 62526548,
+          "sha256": "6961415ca1c12008a594b04a04a471a336e67171a0581f4773d4e485b55869b1"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/quallmer.app/releases/download/v0.1.0/quallmer-app-0.1.0-win-x64.zip",
+          "size": 66619631,
+          "sha256": "e18c7b03f027ca9dfa664d2dd401caef2217aa5ad588e7fd7673370059496879"
         }
       }
     }

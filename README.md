@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 79
+- **Apps:** 81
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-18 00:06:09 UTC
+- **Catalog last updated:** 2026-10-18 00:51:20 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -89,6 +89,8 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/archeofrag-gui.png" width="32" alt="archeofrag.gui"> | **archeofrag.gui**<br>GUI for the archeofrag fragmentation analysis | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/archeofrag.gui) · [Docs](https://github.com/fentouxungui/archeofrag.gui#readme) · [Release](https://github.com/fentouxungui/archeofrag.gui/releases/tag/v0.2.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/cocktailapp.png" width="32" alt="cocktailApp"> | **cocktailApp**<br>Cocktail party effect visualization | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/cocktailApp) · [Docs](https://github.com/fentouxungui/cocktailApp#readme) · [Release](https://github.com/fentouxungui/cocktailApp/releases/tag/v0.2.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/vvdoctor.png" width="32" alt="vvdoctor"> | **vvdoctor**<br>Diagnose data and model problems | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/vvdoctor) · [Docs](https://github.com/fentouxungui/vvdoctor#readme) · [Release](https://github.com/fentouxungui/vvdoctor/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/sdstudio.png" width="32" alt="sdstudio"> | **sdstudio**<br>Interactive survey data studio | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/sdstudio) · [Docs](https://github.com/fentouxungui/sdstudio#readme) · [Release](https://github.com/fentouxungui/sdstudio/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/quallmer-app.png" width="32" alt="quallmer.app"> | **quallmer.app**<br>Qualitative coding comparison app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/quallmer.app) · [Docs](https://github.com/fentouxungui/quallmer.app#readme) · [Release](https://github.com/fentouxungui/quallmer.app/releases/tag/v0.1.0) |
 
 ---
 
@@ -1839,6 +1841,50 @@ Release: https://github.com/fentouxungui/vvdoctor/releases/tag/v0.2.0
 |---|---|---:|---|
 | `mac-arm64` | [vvdoctor-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/vvdoctor/releases/download/v0.2.0/vvdoctor-0.2.0-mac-arm64.zip) | 178.3 MB | `c715d47648be979942e01c895dc789c1c63c943c98b8675bdee3f5edd6b8cc16` |
 | `win-x64` | [vvdoctor-0.2.0-win-x64.zip](https://github.com/fentouxungui/vvdoctor/releases/download/v0.2.0/vvdoctor-0.2.0-win-x64.zip) | 186.9 MB | `b739f68469b770f6f8da14c8370cd3d676feda78893d145938243e0ecd77315c` |
+
+</details>
+
+### sdstudio `0.1.0`
+
+Interactive survey data studio
+
+| Field | Value |
+|---|---|
+| Author | sdstudio authors |
+| License | See upstream |
+| Copyright | (c) 2025 sdstudio authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/sdstudio/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [sdstudio-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/sdstudio/releases/download/v0.1.0/sdstudio-0.1.0-mac-arm64.zip) | 62.2 MB | `7eeefe0ce7c1e149de00a9e4393e225d1cd931859facbdd5e6d76886d15a1b6d` |
+| `win-x64` | [sdstudio-0.1.0-win-x64.zip](https://github.com/fentouxungui/sdstudio/releases/download/v0.1.0/sdstudio-0.1.0-win-x64.zip) | 68.2 MB | `801a82c9a2067e31f85d25d6f12aa21e85f95bb592caf87172049d4b0aa00c79` |
+
+</details>
+
+### quallmer.app `0.1.0`
+
+Qualitative coding comparison app
+
+| Field | Value |
+|---|---|
+| Author | quallmer.app authors |
+| License | See upstream |
+| Copyright | (c) 2025 quallmer.app authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/quallmer.app/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [quallmer-app-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/quallmer.app/releases/download/v0.1.0/quallmer-app-0.1.0-mac-arm64.zip) | 59.6 MB | `6961415ca1c12008a594b04a04a471a336e67171a0581f4773d4e485b55869b1` |
+| `win-x64` | [quallmer-app-0.1.0-win-x64.zip](https://github.com/fentouxungui/quallmer.app/releases/download/v0.1.0/quallmer-app-0.1.0-win-x64.zip) | 63.5 MB | `e18c7b03f027ca9dfa664d2dd401caef2217aa5ad588e7fd7673370059496879` |
 
 </details>
 
