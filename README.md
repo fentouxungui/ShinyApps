@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 116
+- **Apps:** 119
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-18 21:54:43 UTC
+- **Catalog last updated:** 2026-10-18 23:46:38 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -126,6 +126,9 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/insane.png" width="32" alt="insane"> | **insane**<br>Analyse glucose-stimulated insulin secretion assays | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/insane) · [Docs](https://github.com/fentouxungui/insane#readme) · [Release](https://github.com/fentouxungui/insane/releases/tag/v0.2.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/monobinshiny.png" width="32" alt="monobinShiny"> | **monobinShiny**<br>Shiny interface for the monobin package | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/monobinShiny) · [Docs](https://github.com/fentouxungui/monobinShiny#readme) · [Release](https://github.com/fentouxungui/monobinShiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/paramgui.png" width="32" alt="paramGUI"> | **paramGUI**<br>Shiny GUI for parameter estimation examples | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/paramGUI) · [Docs](https://github.com/fentouxungui/paramGUI#readme) · [Release](https://github.com/fentouxungui/paramGUI/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/statteacherassistant.png" width="32" alt="StatTeacherAssistant"> | **StatTeacherAssistant**<br>Teaching assistant for introductory statistics | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/StatTeacherAssistant) · [Docs](https://github.com/fentouxungui/StatTeacherAssistant#readme) · [Release](https://github.com/fentouxungui/StatTeacherAssistant/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/vosondash.png" width="32" alt="VOSONDash"> | **VOSONDash**<br>Visualise and analyse social networks | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/VOSONDash) · [Docs](https://github.com/fentouxungui/VOSONDash#readme) · [Release](https://github.com/fentouxungui/VOSONDash/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/zscorer.png" width="32" alt="zscorer"> | **zscorer**<br>Child anthropometry z-score calculator | ✅ 可用 | `0.3.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/zscorer) · [Docs](https://github.com/fentouxungui/zscorer#readme) · [Release](https://github.com/fentouxungui/zscorer/releases/tag/v0.3.2) |
 
 ---
 
@@ -2690,6 +2693,72 @@ Release: https://github.com/fentouxungui/paramGUI/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [paramgui-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/paramGUI/releases/download/v0.1.0/paramgui-0.1.0-mac-arm64.zip) | 61.7 MB | `980f7c78725ac27b73c720615202001f7ac4eb0ea1c9253961bede751b9b38de` |
 | `win-x64` | [paramgui-0.1.0-win-x64.zip](https://github.com/fentouxungui/paramGUI/releases/download/v0.1.0/paramgui-0.1.0-win-x64.zip) | 63.8 MB | `4dbe049ded6dd132bd8decb79f4ddcc09e6ba06474e9c43f98c8ff13415c4d84` |
+
+</details>
+
+### StatTeacherAssistant `0.1.0`
+
+Teaching assistant for introductory statistics
+
+| Field | Value |
+|---|---|
+| Author | Christopher Casement |
+| License | MIT + file LICENSE |
+| Copyright | (c) 2026 StatTeacherAssistant authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/StatTeacherAssistant/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [statteacherassistant-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/StatTeacherAssistant/releases/download/v0.1.0/statteacherassistant-0.1.0-mac-arm64.zip) | 126.0 MB | `f5bc4d87c84b496aa1adc34916d29ac07360e493698d9658b9467eda1822e955` |
+| `win-x64` | [statteacherassistant-0.1.0-win-x64.zip](https://github.com/fentouxungui/StatTeacherAssistant/releases/download/v0.1.0/statteacherassistant-0.1.0-win-x64.zip) | 131.9 MB | `e1cdb0f5c106ecd4a1c2a0e0d3aa3a52c09ef716f487cc1c3cc2b2ecf993da14` |
+
+</details>
+
+### VOSONDash `0.1.0`
+
+Visualise and analyse social networks
+
+| Field | Value |
+|---|---|
+| Author | Bryan Gertzel |
+| License | GPL (>= 3) |
+| Copyright | (c) 2026 VOSONDash authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/VOSONDash/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [vosondash-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/VOSONDash/releases/download/v0.1.0/vosondash-0.1.0-mac-arm64.zip) | 115.8 MB | `ca4c35e997f2684923855eb0028f0d9e1518b4783667c8b350da61a7b1b36c8d` |
+| `win-x64` | [vosondash-0.1.0-win-x64.zip](https://github.com/fentouxungui/VOSONDash/releases/download/v0.1.0/vosondash-0.1.0-win-x64.zip) | 123.1 MB | `92d989896508204a4c90a07a692a653e20fc4efb3179ecc28ad773fec364fd15` |
+
+</details>
+
+### zscorer `0.3.2`
+
+Child anthropometry z-score calculator
+
+| Field | Value |
+|---|---|
+| Author | Ernest Guevarra |
+| License | AGPL-3 |
+| Copyright | (c) 2026 zscorer authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/zscorer/releases/tag/v0.3.2
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [zscorer-0.3.2-mac-arm64.zip](https://github.com/fentouxungui/zscorer/releases/download/v0.3.2/zscorer-0.3.2-mac-arm64.zip) | 38.2 MB | `d0642b5e84d34724410ae8da0dc1f6dd3f94048d499b0548134ab825be7d590d` |
+| `win-x64` | [zscorer-0.3.2-win-x64.zip](https://github.com/fentouxungui/zscorer/releases/download/v0.3.2/zscorer-0.3.2-win-x64.zip) | 39.7 MB | `5f760f77e3c6e52288ebd1557065e05b031539e5e02ffef882b1f8763c2ce598` |
 
 </details>
 

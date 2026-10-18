@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T14:52:44Z",
+  "updated_at": "2026-10-18T23:46:38Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -3603,6 +3603,99 @@
           "url": "https://github.com/fentouxungui/paramGUI/releases/download/v0.1.0/paramgui-0.1.0-win-x64.zip",
           "size": 66914732,
           "sha256": "4dbe049ded6dd132bd8decb79f4ddcc09e6ba06474e9c43f98c8ff13415c4d84"
+        }
+      }
+    },
+    {
+      "id": "statteacherassistant",
+      "name": "StatTeacherAssistant",
+      "author": "Christopher Casement",
+      "description": "Teaching assistant for introductory statistics",
+      "homepage": "https://github.com/fentouxungui/StatTeacherAssistant",
+      "docs": "https://github.com/fentouxungui/StatTeacherAssistant#readme",
+      "copyright": "(c) 2026 StatTeacherAssistant authors",
+      "license": "MIT + file LICENSE",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/statteacherassistant.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "statistics",
+        "teaching",
+        "education",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/StatTeacherAssistant/releases/download/v0.1.0/statteacherassistant-0.1.0-mac-arm64.zip",
+          "size": 132110362,
+          "sha256": "f5bc4d87c84b496aa1adc34916d29ac07360e493698d9658b9467eda1822e955"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/StatTeacherAssistant/releases/download/v0.1.0/statteacherassistant-0.1.0-win-x64.zip",
+          "size": 138258764,
+          "sha256": "e1cdb0f5c106ecd4a1c2a0e0d3aa3a52c09ef716f487cc1c3cc2b2ecf993da14"
+        }
+      }
+    },
+    {
+      "id": "vosondash",
+      "name": "VOSONDash",
+      "author": "Bryan Gertzel",
+      "description": "Visualise and analyse social networks",
+      "homepage": "https://github.com/fentouxungui/VOSONDash",
+      "docs": "https://github.com/fentouxungui/VOSONDash#readme",
+      "copyright": "(c) 2026 VOSONDash authors",
+      "license": "GPL (>= 3)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/vosondash.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "social-network",
+        "network-analysis",
+        "visualization",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/VOSONDash/releases/download/v0.1.0/vosondash-0.1.0-mac-arm64.zip",
+          "size": 121385686,
+          "sha256": "ca4c35e997f2684923855eb0028f0d9e1518b4783667c8b350da61a7b1b36c8d"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/VOSONDash/releases/download/v0.1.0/vosondash-0.1.0-win-x64.zip",
+          "size": 129090960,
+          "sha256": "92d989896508204a4c90a07a692a653e20fc4efb3179ecc28ad773fec364fd15"
+        }
+      }
+    },
+    {
+      "id": "zscorer",
+      "name": "zscorer",
+      "author": "Ernest Guevarra",
+      "description": "Child anthropometry z-score calculator",
+      "homepage": "https://github.com/fentouxungui/zscorer",
+      "docs": "https://github.com/fentouxungui/zscorer#readme",
+      "copyright": "(c) 2026 zscorer authors",
+      "license": "AGPL-3",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/zscorer.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "anthropometry",
+        "child-health",
+        "z-score",
+        "shiny"
+      ],
+      "version": "0.3.2",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/zscorer/releases/download/v0.3.2/zscorer-0.3.2-mac-arm64.zip",
+          "size": 40052862,
+          "sha256": "d0642b5e84d34724410ae8da0dc1f6dd3f94048d499b0548134ab825be7d590d"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/zscorer/releases/download/v0.3.2/zscorer-0.3.2-win-x64.zip",
+          "size": 41649808,
+          "sha256": "5f760f77e3c6e52288ebd1557065e05b031539e5e02ffef882b1f8763c2ce598"
         }
       }
     }
