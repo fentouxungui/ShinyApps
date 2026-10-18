@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T14:06:23Z",
+  "updated_at": "2026-10-18T14:52:44Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -3386,6 +3386,223 @@
           "url": "https://github.com/fentouxungui/shinySbm/releases/download/v0.2.0/shinysbm-0.2.0-win-x64.zip",
           "size": 163011571,
           "sha256": "890d2e437760751284d8adc3aa0887a93283f7e7ec42761da43eac537eacd04f"
+        }
+      }
+    },
+    {
+      "id": "complexr",
+      "name": "complexr",
+      "author": "Stalyn Guerrero",
+      "description": "Interactive survey data analysis",
+      "homepage": "https://github.com/fentouxungui/complexr",
+      "docs": "https://github.com/fentouxungui/complexr#readme",
+      "copyright": "(c) 2026 complexr authors",
+      "license": "GPL (>= 3)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/complexr.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "survey",
+        "statistics",
+        "data-analysis",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/complexr/releases/download/v0.1.0/complexr-0.1.0-mac-arm64.zip",
+          "size": 108639131,
+          "sha256": "6aa22b7529a07154f7d906d9be77fbb168cecb825b20ef0238efff0e0251a2a1"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/complexr/releases/download/v0.1.0/complexr-0.1.0-win-x64.zip",
+          "size": 112363710,
+          "sha256": "41121faf93a98810be1f0abf37711d0c9424d128c68e26920c7b8cf849bd3f19"
+        }
+      }
+    },
+    {
+      "id": "dataviewr",
+      "name": "dataviewR",
+      "author": "Madhan Kumar N",
+      "description": "Interactive viewer for data frames",
+      "homepage": "https://github.com/fentouxungui/dataviewR",
+      "docs": "https://github.com/fentouxungui/dataviewR#readme",
+      "copyright": "(c) 2026 dataviewR authors",
+      "license": "MIT + file LICENSE",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/dataviewr.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "data-viewer",
+        "exploration",
+        "tables",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/dataviewR/releases/download/v0.1.0/dataviewr-0.1.0-mac-arm64.zip",
+          "size": 91782992,
+          "sha256": "24a18a3ba1994171391faa7e5e9e131a1c6a081c3ca0a4ac369fd9f6c37e32cf"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/dataviewR/releases/download/v0.1.0/dataviewr-0.1.0-win-x64.zip",
+          "size": 97891750,
+          "sha256": "89afcd8bbf1b02dc09fcd8d02837fe2dc10136879ebb3ad69ef5f355e762e86c"
+        }
+      }
+    },
+    {
+      "id": "drdata",
+      "name": "DrData",
+      "author": "Mohsen Mehdinia",
+      "description": "End-to-end interactive data science platform",
+      "homepage": "https://github.com/fentouxungui/DrData",
+      "docs": "https://github.com/fentouxungui/DrData#readme",
+      "copyright": "(c) 2026 DrData authors",
+      "license": "MIT + file LICENSE",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/drdata.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "data-science",
+        "machine-learning",
+        "teaching",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/DrData/releases/download/v0.1.0/drdata-0.1.0-mac-arm64.zip",
+          "size": 195627139,
+          "sha256": "82136f53647fb112052c107442678e738f34c41c48a52d52b639d97bfced341c"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/DrData/releases/download/v0.1.0/drdata-0.1.0-win-x64.zip",
+          "size": 205903321,
+          "sha256": "5cf447b40768aba390849259821443f380d839d243fd5249d5ef7b1a2922a0ca"
+        }
+      }
+    },
+    {
+      "id": "exmort",
+      "name": "exmort",
+      "author": "Shanlong Ding",
+      "description": "All-cause and excess mortality calculator",
+      "homepage": "https://github.com/fentouxungui/exmort",
+      "docs": "https://github.com/fentouxungui/exmort#readme",
+      "copyright": "(c) 2026 exmort authors",
+      "license": "GPL-3",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/exmort.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "mortality",
+        "epidemiology",
+        "public-health",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/exmort/releases/download/v0.1.0/exmort-0.1.0-mac-arm64.zip",
+          "size": 153779994,
+          "sha256": "5c930fa9d1042538f48f465961c16f2ae405691268cb20aa0dba3e20dc203c6c"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/exmort/releases/download/v0.1.0/exmort-0.1.0-win-x64.zip",
+          "size": 165988198,
+          "sha256": "9ed58062141a561d5ee1d934815dcb7384725bd8824971171788fdde095d123b"
+        }
+      }
+    },
+    {
+      "id": "insane",
+      "name": "insane",
+      "author": "Micka\u00ebl Canouil",
+      "description": "Analyse glucose-stimulated insulin secretion assays",
+      "homepage": "https://github.com/fentouxungui/insane",
+      "docs": "https://github.com/fentouxungui/insane#readme",
+      "copyright": "(c) 2026 insane authors",
+      "license": "MIT + file LICENSE",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/insane.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "insulin",
+        "assay",
+        "biology",
+        "shiny"
+      ],
+      "version": "0.2.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/insane/releases/download/v0.2.0/insane-0.2.0-mac-arm64.zip",
+          "size": 150189368,
+          "sha256": "6376cffbe0bee74cb5e27b269f82ddeff9d5ce937d4cdf68ecc5d24b54f16aed"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/insane/releases/download/v0.2.0/insane-0.2.0-win-x64.zip",
+          "size": 154184603,
+          "sha256": "5d505cf44983c846557f1017f70442dd01a751d593acf76df6dfdabc8dc88322"
+        }
+      }
+    },
+    {
+      "id": "monobinshiny",
+      "name": "monobinShiny",
+      "author": "Andrija Djurovic",
+      "description": "Shiny interface for the monobin package",
+      "homepage": "https://github.com/fentouxungui/monobinShiny",
+      "docs": "https://github.com/fentouxungui/monobinShiny#readme",
+      "copyright": "(c) 2026 monobinShiny authors",
+      "license": "GPL (>= 3)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/monobinshiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "binning",
+        "credit-scoring",
+        "monobin",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/monobinShiny/releases/download/v0.1.0/monobinshiny-0.1.0-mac-arm64.zip",
+          "size": 87166915,
+          "sha256": "c709b0afd85d45669ca26ef01fb4e07ffaf9331f46d4d9d6e536ba408731fdb6"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/monobinShiny/releases/download/v0.1.0/monobinshiny-0.1.0-win-x64.zip",
+          "size": 89485231,
+          "sha256": "d69cd8f3bc2585ee9811c8dcaca97df911ff63ad9c0c4eb648062749e5a47abf"
+        }
+      }
+    },
+    {
+      "id": "paramgui",
+      "name": "paramGUI",
+      "author": "Joris Snellenburg",
+      "description": "Shiny GUI for parameter estimation examples",
+      "homepage": "https://github.com/fentouxungui/paramGUI",
+      "docs": "https://github.com/fentouxungui/paramGUI#readme",
+      "copyright": "(c) 2026 paramGUI authors",
+      "license": "GPL (>= 2)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/paramgui.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "parameter-estimation",
+        "spectroscopy",
+        "modeling",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/paramGUI/releases/download/v0.1.0/paramgui-0.1.0-mac-arm64.zip",
+          "size": 64666971,
+          "sha256": "980f7c78725ac27b73c720615202001f7ac4eb0ea1c9253961bede751b9b38de"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/paramGUI/releases/download/v0.1.0/paramgui-0.1.0-win-x64.zip",
+          "size": 66914732,
+          "sha256": "4dbe049ded6dd132bd8decb79f4ddcc09e6ba06474e9c43f98c8ff13415c4d84"
         }
       }
     }

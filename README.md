@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 109
+- **Apps:** 116
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-18 14:48:26 UTC
+- **Catalog last updated:** 2026-10-18 14:52:44 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -119,6 +119,13 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/activanalyzer.png" width="32" alt="activAnalyzer"> | **activAnalyzer**<br>Analyze accelerometer-measured daily physical behavior data | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/activAnalyzer) · [Docs](https://github.com/fentouxungui/activAnalyzer#readme) · [Release](https://github.com/fentouxungui/activAnalyzer/releases/tag/v0.2.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/catascience.png" width="32" alt="cataScience"> | **cataScience**<br>Interactive training app for data science and AI skills | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/cataScience) · [Docs](https://github.com/fentouxungui/cataScience#readme) · [Release](https://github.com/fentouxungui/cataScience/releases/tag/v0.2.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/shinysbm.png" width="32" alt="shinySbm"> | **shinySbm**<br>Shiny interface for the stochastic block model | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/shinySbm) · [Docs](https://github.com/fentouxungui/shinySbm#readme) · [Release](https://github.com/fentouxungui/shinySbm/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/complexr.png" width="32" alt="complexr"> | **complexr**<br>Interactive survey data analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/complexr) · [Docs](https://github.com/fentouxungui/complexr#readme) · [Release](https://github.com/fentouxungui/complexr/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/dataviewr.png" width="32" alt="dataviewR"> | **dataviewR**<br>Interactive viewer for data frames | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/dataviewR) · [Docs](https://github.com/fentouxungui/dataviewR#readme) · [Release](https://github.com/fentouxungui/dataviewR/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/drdata.png" width="32" alt="DrData"> | **DrData**<br>End-to-end interactive data science platform | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/DrData) · [Docs](https://github.com/fentouxungui/DrData#readme) · [Release](https://github.com/fentouxungui/DrData/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/exmort.png" width="32" alt="exmort"> | **exmort**<br>All-cause and excess mortality calculator | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/exmort) · [Docs](https://github.com/fentouxungui/exmort#readme) · [Release](https://github.com/fentouxungui/exmort/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/insane.png" width="32" alt="insane"> | **insane**<br>Analyse glucose-stimulated insulin secretion assays | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/insane) · [Docs](https://github.com/fentouxungui/insane#readme) · [Release](https://github.com/fentouxungui/insane/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/monobinshiny.png" width="32" alt="monobinShiny"> | **monobinShiny**<br>Shiny interface for the monobin package | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/monobinShiny) · [Docs](https://github.com/fentouxungui/monobinShiny#readme) · [Release](https://github.com/fentouxungui/monobinShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/paramgui.png" width="32" alt="paramGUI"> | **paramGUI**<br>Shiny GUI for parameter estimation examples | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/paramGUI) · [Docs](https://github.com/fentouxungui/paramGUI#readme) · [Release](https://github.com/fentouxungui/paramGUI/releases/tag/v0.1.0) |
 
 ---
 
@@ -2529,6 +2536,160 @@ Release: https://github.com/fentouxungui/shinySbm/releases/tag/v0.2.0
 |---|---|---:|---|
 | `mac-arm64` | [shinysbm-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/shinySbm/releases/download/v0.2.0/shinysbm-0.2.0-mac-arm64.zip) | 145.6 MB | `16dda0c7d9eebace9f8bb7b91e3a8e76f5022c666473f679f6aed29299e7af67` |
 | `win-x64` | [shinysbm-0.2.0-win-x64.zip](https://github.com/fentouxungui/shinySbm/releases/download/v0.2.0/shinysbm-0.2.0-win-x64.zip) | 155.5 MB | `890d2e437760751284d8adc3aa0887a93283f7e7ec42761da43eac537eacd04f` |
+
+</details>
+
+### complexr `0.1.0`
+
+Interactive survey data analysis
+
+| Field | Value |
+|---|---|
+| Author | Stalyn Guerrero |
+| License | GPL (>= 3) |
+| Copyright | (c) 2026 complexr authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/complexr/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [complexr-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/complexr/releases/download/v0.1.0/complexr-0.1.0-mac-arm64.zip) | 103.6 MB | `6aa22b7529a07154f7d906d9be77fbb168cecb825b20ef0238efff0e0251a2a1` |
+| `win-x64` | [complexr-0.1.0-win-x64.zip](https://github.com/fentouxungui/complexr/releases/download/v0.1.0/complexr-0.1.0-win-x64.zip) | 107.2 MB | `41121faf93a98810be1f0abf37711d0c9424d128c68e26920c7b8cf849bd3f19` |
+
+</details>
+
+### dataviewR `0.1.0`
+
+Interactive viewer for data frames
+
+| Field | Value |
+|---|---|
+| Author | Madhan Kumar N |
+| License | MIT + file LICENSE |
+| Copyright | (c) 2026 dataviewR authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/dataviewR/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [dataviewr-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/dataviewR/releases/download/v0.1.0/dataviewr-0.1.0-mac-arm64.zip) | 87.5 MB | `24a18a3ba1994171391faa7e5e9e131a1c6a081c3ca0a4ac369fd9f6c37e32cf` |
+| `win-x64` | [dataviewr-0.1.0-win-x64.zip](https://github.com/fentouxungui/dataviewR/releases/download/v0.1.0/dataviewr-0.1.0-win-x64.zip) | 93.4 MB | `89afcd8bbf1b02dc09fcd8d02837fe2dc10136879ebb3ad69ef5f355e762e86c` |
+
+</details>
+
+### DrData `0.1.0`
+
+End-to-end interactive data science platform
+
+| Field | Value |
+|---|---|
+| Author | Mohsen Mehdinia |
+| License | MIT + file LICENSE |
+| Copyright | (c) 2026 DrData authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/DrData/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [drdata-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/DrData/releases/download/v0.1.0/drdata-0.1.0-mac-arm64.zip) | 186.6 MB | `82136f53647fb112052c107442678e738f34c41c48a52d52b639d97bfced341c` |
+| `win-x64` | [drdata-0.1.0-win-x64.zip](https://github.com/fentouxungui/DrData/releases/download/v0.1.0/drdata-0.1.0-win-x64.zip) | 196.4 MB | `5cf447b40768aba390849259821443f380d839d243fd5249d5ef7b1a2922a0ca` |
+
+</details>
+
+### exmort `0.1.0`
+
+All-cause and excess mortality calculator
+
+| Field | Value |
+|---|---|
+| Author | Shanlong Ding |
+| License | GPL-3 |
+| Copyright | (c) 2026 exmort authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/exmort/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [exmort-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/exmort/releases/download/v0.1.0/exmort-0.1.0-mac-arm64.zip) | 146.7 MB | `5c930fa9d1042538f48f465961c16f2ae405691268cb20aa0dba3e20dc203c6c` |
+| `win-x64` | [exmort-0.1.0-win-x64.zip](https://github.com/fentouxungui/exmort/releases/download/v0.1.0/exmort-0.1.0-win-x64.zip) | 158.3 MB | `9ed58062141a561d5ee1d934815dcb7384725bd8824971171788fdde095d123b` |
+
+</details>
+
+### insane `0.2.0`
+
+Analyse glucose-stimulated insulin secretion assays
+
+| Field | Value |
+|---|---|
+| Author | Mickaël Canouil |
+| License | MIT + file LICENSE |
+| Copyright | (c) 2026 insane authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/insane/releases/tag/v0.2.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [insane-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/insane/releases/download/v0.2.0/insane-0.2.0-mac-arm64.zip) | 143.2 MB | `6376cffbe0bee74cb5e27b269f82ddeff9d5ce937d4cdf68ecc5d24b54f16aed` |
+| `win-x64` | [insane-0.2.0-win-x64.zip](https://github.com/fentouxungui/insane/releases/download/v0.2.0/insane-0.2.0-win-x64.zip) | 147.0 MB | `5d505cf44983c846557f1017f70442dd01a751d593acf76df6dfdabc8dc88322` |
+
+</details>
+
+### monobinShiny `0.1.0`
+
+Shiny interface for the monobin package
+
+| Field | Value |
+|---|---|
+| Author | Andrija Djurovic |
+| License | GPL (>= 3) |
+| Copyright | (c) 2026 monobinShiny authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/monobinShiny/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [monobinshiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/monobinShiny/releases/download/v0.1.0/monobinshiny-0.1.0-mac-arm64.zip) | 83.1 MB | `c709b0afd85d45669ca26ef01fb4e07ffaf9331f46d4d9d6e536ba408731fdb6` |
+| `win-x64` | [monobinshiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/monobinShiny/releases/download/v0.1.0/monobinshiny-0.1.0-win-x64.zip) | 85.3 MB | `d69cd8f3bc2585ee9811c8dcaca97df911ff63ad9c0c4eb648062749e5a47abf` |
+
+</details>
+
+### paramGUI `0.1.0`
+
+Shiny GUI for parameter estimation examples
+
+| Field | Value |
+|---|---|
+| Author | Joris Snellenburg |
+| License | GPL (>= 2) |
+| Copyright | (c) 2026 paramGUI authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/paramGUI/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [paramgui-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/paramGUI/releases/download/v0.1.0/paramgui-0.1.0-mac-arm64.zip) | 61.7 MB | `980f7c78725ac27b73c720615202001f7ac4eb0ea1c9253961bede751b9b38de` |
+| `win-x64` | [paramgui-0.1.0-win-x64.zip](https://github.com/fentouxungui/paramGUI/releases/download/v0.1.0/paramgui-0.1.0-win-x64.zip) | 63.8 MB | `4dbe049ded6dd132bd8decb79f4ddcc09e6ba06474e9c43f98c8ff13415c4d84` |
 
 </details>
 
