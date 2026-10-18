@@ -1043,3 +1043,42 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/mmibain.png"
     r_version: "4.6.1"
     tags: [bayes-factors, hypothesis-testing, statistics, shiny]
+
+  - id: archeofrag-gui
+    repo: "fentouxungui/archeofrag.gui"
+    name: "archeofrag.gui"
+    author: "Sebastien Plutniak"
+    description: "GUI for the archeofrag fragmentation analysis"
+    homepage: "https://github.com/fentouxungui/archeofrag.gui"
+    docs: "https://github.com/fentouxungui/archeofrag.gui#readme"
+    copyright: "(c) 2025 archeofrag.gui authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/archeofrag-gui.png"
+    r_version: "4.6.1"
+    tags: [archaeology, fragmentation, network, shiny]
+
+  - id: cocktailapp
+    repo: "fentouxungui/cocktailApp"
+    name: "cocktailApp"
+    author: "Modesto Escobar"
+    description: "Cocktail party effect visualization"
+    homepage: "https://github.com/fentouxungui/cocktailApp"
+    docs: "https://github.com/fentouxungui/cocktailApp#readme"
+    copyright: "(c) 2025 cocktailApp authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/cocktailapp.png"
+    r_version: "4.6.1"
+    tags: [visualization, survey, cocktail, shiny]
+
+  - id: vvdoctor
+    repo: "fentouxungui/vvdoctor"
+    name: "vvdoctor"
+    author: "vvdoctor authors"
+    description: "Diagnose data and model problems"
+    homepage: "https://github.com/fentouxungui/vvdoctor"
+    docs: "https://github.com/fentouxungui/vvdoctor#readme"
+    copyright: "(c) 2025 vvdoctor authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/vvdoctor.png"
+    r_version: "4.6.1"
+    tags: [diagnostics, data-quality, models, shiny]
