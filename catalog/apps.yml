@@ -1472,3 +1472,94 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/shinysbm.png"
     r_version: "4.6.1"
     tags: [network, stochastic-block-model, clustering, shiny]
+
+  - id: complexr
+    repo: "fentouxungui/complexr"
+    name: "complexr"
+    author: "Stalyn Guerrero"
+    description: "Interactive survey data analysis"
+    homepage: "https://github.com/fentouxungui/complexr"
+    docs: "https://github.com/fentouxungui/complexr#readme"
+    copyright: "(c) 2026 complexr authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/complexr.png"
+    r_version: "4.6.1"
+    tags: [survey, statistics, data-analysis, shiny]
+
+  - id: dataviewr
+    repo: "fentouxungui/dataviewR"
+    name: "dataviewR"
+    author: "Madhan Kumar N"
+    description: "Interactive viewer for data frames"
+    homepage: "https://github.com/fentouxungui/dataviewR"
+    docs: "https://github.com/fentouxungui/dataviewR#readme"
+    copyright: "(c) 2026 dataviewR authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/dataviewr.png"
+    r_version: "4.6.1"
+    tags: [data-viewer, exploration, tables, shiny]
+
+  - id: drdata
+    repo: "fentouxungui/DrData"
+    name: "DrData"
+    author: "Mohsen Mehdinia"
+    description: "End-to-end interactive data science platform"
+    homepage: "https://github.com/fentouxungui/DrData"
+    docs: "https://github.com/fentouxungui/DrData#readme"
+    copyright: "(c) 2026 DrData authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/drdata.png"
+    r_version: "4.6.1"
+    tags: [data-science, machine-learning, teaching, shiny]
+
+  - id: exmort
+    repo: "fentouxungui/exmort"
+    name: "exmort"
+    author: "Shanlong Ding"
+    description: "All-cause and excess mortality calculator"
+    homepage: "https://github.com/fentouxungui/exmort"
+    docs: "https://github.com/fentouxungui/exmort#readme"
+    copyright: "(c) 2026 exmort authors"
+    license: "GPL-3"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/exmort.png"
+    r_version: "4.6.1"
+    tags: [mortality, epidemiology, public-health, shiny]
+
+  - id: insane
+    repo: "fentouxungui/insane"
+    name: "insane"
+    author: "Mickaël Canouil"
+    description: "Analyse glucose-stimulated insulin secretion assays"
+    homepage: "https://github.com/fentouxungui/insane"
+    docs: "https://github.com/fentouxungui/insane#readme"
+    copyright: "(c) 2026 insane authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/insane.png"
+    r_version: "4.6.1"
+    tags: [insulin, assay, biology, shiny]
+
+  - id: monobinshiny
+    repo: "fentouxungui/monobinShiny"
+    name: "monobinShiny"
+    author: "Andrija Djurovic"
+    description: "Shiny interface for the monobin package"
+    homepage: "https://github.com/fentouxungui/monobinShiny"
+    docs: "https://github.com/fentouxungui/monobinShiny#readme"
+    copyright: "(c) 2026 monobinShiny authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/monobinshiny.png"
+    r_version: "4.6.1"
+    tags: [binning, credit-scoring, monobin, shiny]
+
+  - id: paramgui
+    repo: "fentouxungui/paramGUI"
+    name: "paramGUI"
+    author: "Joris Snellenburg"
+    description: "Shiny GUI for parameter estimation examples"
+    homepage: "https://github.com/fentouxungui/paramGUI"
+    docs: "https://github.com/fentouxungui/paramGUI#readme"
+    copyright: "(c) 2026 paramGUI authors"
+    license: "GPL (>= 2)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/paramgui.png"
+    r_version: "4.6.1"
+    tags: [parameter-estimation, spectroscopy, modeling, shiny]
