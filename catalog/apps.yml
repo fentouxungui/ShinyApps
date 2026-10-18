@@ -1121,3 +1121,42 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/pressfreedom.png"
     r_version: "4.6.1"
     tags: [press-freedom, media, data, shiny]
+
+  - id: ggraptr
+    repo: "fentouxungui/ggraptR"
+    name: "ggraptR"
+    author: "ggraptR authors"
+    description: "Interactive ggplot2 exploration"
+    homepage: "https://github.com/fentouxungui/ggraptR"
+    docs: "https://github.com/fentouxungui/ggraptR#readme"
+    copyright: "(c) 2025 ggraptR authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/ggraptr.png"
+    r_version: "4.6.1"
+    tags: [ggplot2, visualization, interactive, shiny]
+
+  - id: yuima-gui
+    repo: "fentouxungui/yuimaGUI"
+    name: "yuimaGUI"
+    author: "yuimaGUI authors"
+    description: "GUI for the yuima stochastic process package"
+    homepage: "https://github.com/fentouxungui/yuimaGUI"
+    docs: "https://github.com/fentouxungui/yuimaGUI#readme"
+    copyright: "(c) 2025 yuimaGUI authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/yuima-gui.png"
+    r_version: "4.6.1"
+    tags: [stochastic, time-series, gui, shiny]
+
+  - id: censuspyrid
+    repo: "fentouxungui/censuspyrID"
+    name: "censuspyrID"
+    author: "censuspyrID authors"
+    description: "Census data explorer for Puerto Rico"
+    homepage: "https://github.com/fentouxungui/censuspyrID"
+    docs: "https://github.com/fentouxungui/censuspyrID#readme"
+    copyright: "(c) 2025 censuspyrID authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/censuspyrid.png"
+    r_version: "4.6.1"
+    tags: [census, puerto-rico, data, shiny]
