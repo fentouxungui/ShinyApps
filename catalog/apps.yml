@@ -1108,3 +1108,16 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/quallmer-app.png"
     r_version: "4.6.1"
     tags: [qualitative, coding, comparison, shiny]
+
+  - id: pressfreedom
+    repo: "fentouxungui/pressfreedom"
+    name: "pressfreedom"
+    author: "pressfreedom authors"
+    description: "Press freedom data explorer"
+    homepage: "https://github.com/fentouxungui/pressfreedom"
+    docs: "https://github.com/fentouxungui/pressfreedom#readme"
+    copyright: "(c) 2025 pressfreedom authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/pressfreedom.png"
+    r_version: "4.6.1"
+    tags: [press-freedom, media, data, shiny]
