@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T03:29:10Z",
+  "updated_at": "2026-10-18T03:36:23Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -2643,6 +2643,37 @@
           "url": "https://github.com/fentouxungui/censuspyrID/releases/download/v0.1.0/censuspyrid-0.1.0-win-x64.zip",
           "size": 97485014,
           "sha256": "c2a7b5688fd4dcfa152373ff3a970371c13cdc60bca8e62d00fcfd91deb79dde"
+        }
+      }
+    },
+    {
+      "id": "fitodbodrshiny",
+      "name": "fitODBODRshiny",
+      "author": "fitODBODRshiny authors",
+      "description": "Fit ODBOD distributions interactively",
+      "homepage": "https://github.com/fentouxungui/fitODBODRshiny",
+      "docs": "https://github.com/fentouxungui/fitODBODRshiny#readme",
+      "copyright": "(c) 2025 fitODBODRshiny authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fitodbodrshiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "distribution",
+        "fitting",
+        "statistics",
+        "shiny"
+      ],
+      "version": "0.2.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/fitODBODRshiny/releases/download/v0.2.0/fitodbodrshiny-0.2.0-mac-arm64.zip",
+          "size": 103845147,
+          "sha256": "7d330beeef08be989999a1e19c15f215827ad030c176cfb4861ee17c576bda61"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/fitODBODRshiny/releases/download/v0.2.0/fitodbodrshiny-0.2.0-win-x64.zip",
+          "size": 111241124,
+          "sha256": "8842d0dc14abe2aeaa78f29b6e525704d7663bdce4ede97dcaa7431f8e262c93"
         }
       }
     }

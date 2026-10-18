@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 85
+- **Apps:** 86
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-18 03:29:10 UTC
+- **Catalog last updated:** 2026-10-18 03:36:23 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -95,6 +95,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/ggraptr.png" width="32" alt="ggraptR"> | **ggraptR**<br>Interactive ggplot2 exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ggraptR) · [Docs](https://github.com/fentouxungui/ggraptR#readme) · [Release](https://github.com/fentouxungui/ggraptR/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/yuima-gui.png" width="32" alt="yuimaGUI"> | **yuimaGUI**<br>GUI for the yuima stochastic process package | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/yuimaGUI) · [Docs](https://github.com/fentouxungui/yuimaGUI#readme) · [Release](https://github.com/fentouxungui/yuimaGUI/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/censuspyrid.png" width="32" alt="censuspyrID"> | **censuspyrID**<br>Census data explorer for Puerto Rico | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/censuspyrID) · [Docs](https://github.com/fentouxungui/censuspyrID#readme) · [Release](https://github.com/fentouxungui/censuspyrID/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/fitodbodrshiny.png" width="32" alt="fitODBODRshiny"> | **fitODBODRshiny**<br>Fit ODBOD distributions interactively | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/fitODBODRshiny) · [Docs](https://github.com/fentouxungui/fitODBODRshiny#readme) · [Release](https://github.com/fentouxungui/fitODBODRshiny/releases/tag/v0.2.0) |
 
 ---
 
@@ -1977,6 +1978,28 @@ Release: https://github.com/fentouxungui/censuspyrID/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [censuspyrid-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/censuspyrID/releases/download/v0.1.0/censuspyrid-0.1.0-mac-arm64.zip) | 89.5 MB | `26f85cafef241dd15bee3ef1e49acc2099f6b1b2e4b7dc89b4fb8be0b3fa9f7a` |
 | `win-x64` | [censuspyrid-0.1.0-win-x64.zip](https://github.com/fentouxungui/censuspyrID/releases/download/v0.1.0/censuspyrid-0.1.0-win-x64.zip) | 93.0 MB | `c2a7b5688fd4dcfa152373ff3a970371c13cdc60bca8e62d00fcfd91deb79dde` |
+
+</details>
+
+### fitODBODRshiny `0.2.0`
+
+Fit ODBOD distributions interactively
+
+| Field | Value |
+|---|---|
+| Author | fitODBODRshiny authors |
+| License | See upstream |
+| Copyright | (c) 2025 fitODBODRshiny authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/fitODBODRshiny/releases/tag/v0.2.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [fitodbodrshiny-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/fitODBODRshiny/releases/download/v0.2.0/fitodbodrshiny-0.2.0-mac-arm64.zip) | 99.0 MB | `7d330beeef08be989999a1e19c15f215827ad030c176cfb4861ee17c576bda61` |
+| `win-x64` | [fitodbodrshiny-0.2.0-win-x64.zip](https://github.com/fentouxungui/fitODBODRshiny/releases/download/v0.2.0/fitodbodrshiny-0.2.0-win-x64.zip) | 106.1 MB | `8842d0dc14abe2aeaa78f29b6e525704d7663bdce4ede97dcaa7431f8e262c93` |
 
 </details>
 
