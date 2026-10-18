@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 81
+- **Apps:** 82
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-18 00:51:20 UTC
+- **Catalog last updated:** 2026-10-18 01:13:44 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -91,6 +91,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/vvdoctor.png" width="32" alt="vvdoctor"> | **vvdoctor**<br>Diagnose data and model problems | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/vvdoctor) · [Docs](https://github.com/fentouxungui/vvdoctor#readme) · [Release](https://github.com/fentouxungui/vvdoctor/releases/tag/v0.2.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/sdstudio.png" width="32" alt="sdstudio"> | **sdstudio**<br>Interactive survey data studio | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/sdstudio) · [Docs](https://github.com/fentouxungui/sdstudio#readme) · [Release](https://github.com/fentouxungui/sdstudio/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/quallmer-app.png" width="32" alt="quallmer.app"> | **quallmer.app**<br>Qualitative coding comparison app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/quallmer.app) · [Docs](https://github.com/fentouxungui/quallmer.app#readme) · [Release](https://github.com/fentouxungui/quallmer.app/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/pressfreedom.png" width="32" alt="pressfreedom"> | **pressfreedom**<br>Press freedom data explorer | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/pressfreedom) · [Docs](https://github.com/fentouxungui/pressfreedom#readme) · [Release](https://github.com/fentouxungui/pressfreedom/releases/tag/v0.1.0) |
 
 ---
 
@@ -1885,6 +1886,28 @@ Release: https://github.com/fentouxungui/quallmer.app/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [quallmer-app-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/quallmer.app/releases/download/v0.1.0/quallmer-app-0.1.0-mac-arm64.zip) | 59.6 MB | `6961415ca1c12008a594b04a04a471a336e67171a0581f4773d4e485b55869b1` |
 | `win-x64` | [quallmer-app-0.1.0-win-x64.zip](https://github.com/fentouxungui/quallmer.app/releases/download/v0.1.0/quallmer-app-0.1.0-win-x64.zip) | 63.5 MB | `e18c7b03f027ca9dfa664d2dd401caef2217aa5ad588e7fd7673370059496879` |
+
+</details>
+
+### pressfreedom `0.1.0`
+
+Press freedom data explorer
+
+| Field | Value |
+|---|---|
+| Author | pressfreedom authors |
+| License | See upstream |
+| Copyright | (c) 2025 pressfreedom authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/pressfreedom/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [pressfreedom-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/pressfreedom/releases/download/v0.1.0/pressfreedom-0.1.0-mac-arm64.zip) | 88.4 MB | `d625ce07b92a11d7b4dc858994669f113315307c1aa238bf5119eb120173d18d` |
+| `win-x64` | [pressfreedom-0.1.0-win-x64.zip](https://github.com/fentouxungui/pressfreedom/releases/download/v0.1.0/pressfreedom-0.1.0-win-x64.zip) | 93.9 MB | `d7deeb57f75fd45bfe92e34e24b6261f83ff531ee863a3249cae8462a491cd72` |
 
 </details>
 

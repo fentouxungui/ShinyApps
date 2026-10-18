@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T00:51:20Z",
+  "updated_at": "2026-10-18T01:13:44Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -2519,6 +2519,37 @@
           "url": "https://github.com/fentouxungui/quallmer.app/releases/download/v0.1.0/quallmer-app-0.1.0-win-x64.zip",
           "size": 66619631,
           "sha256": "e18c7b03f027ca9dfa664d2dd401caef2217aa5ad588e7fd7673370059496879"
+        }
+      }
+    },
+    {
+      "id": "pressfreedom",
+      "name": "pressfreedom",
+      "author": "pressfreedom authors",
+      "description": "Press freedom data explorer",
+      "homepage": "https://github.com/fentouxungui/pressfreedom",
+      "docs": "https://github.com/fentouxungui/pressfreedom#readme",
+      "copyright": "(c) 2025 pressfreedom authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/pressfreedom.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "press-freedom",
+        "media",
+        "data",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/pressfreedom/releases/download/v0.1.0/pressfreedom-0.1.0-mac-arm64.zip",
+          "size": 92718470,
+          "sha256": "d625ce07b92a11d7b4dc858994669f113315307c1aa238bf5119eb120173d18d"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/pressfreedom/releases/download/v0.1.0/pressfreedom-0.1.0-win-x64.zip",
+          "size": 98477993,
+          "sha256": "d7deeb57f75fd45bfe92e34e24b6261f83ff531ee863a3249cae8462a491cd72"
         }
       }
     }
