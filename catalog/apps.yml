@@ -1173,3 +1173,94 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/fitodbodrshiny.png"
     r_version: "4.6.1"
     tags: [distribution, fitting, statistics, shiny]
+
+  - id: esdm
+    repo: "fentouxungui/eSDM"
+    name: "eSDM"
+    author: "eSDM authors"
+    description: "Species distribution models for marine data"
+    homepage: "https://github.com/fentouxungui/eSDM"
+    docs: "https://github.com/fentouxungui/eSDM#readme"
+    copyright: "(c) 2025 eSDM authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/esdm.png"
+    r_version: "4.6.1"
+    tags: [species-distribution, marine, modeling, shiny]
+
+  - id: adverseevents
+    repo: "fentouxungui/AdverseEvents"
+    name: "AdverseEvents"
+    author: "AdverseEvents authors"
+    description: "Adverse event data exploration"
+    homepage: "https://github.com/fentouxungui/AdverseEvents"
+    docs: "https://github.com/fentouxungui/AdverseEvents#readme"
+    copyright: "(c) 2025 AdverseEvents authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/adverseevents.png"
+    r_version: "4.6.1"
+    tags: [adverse-events, clinical, exploration, shiny]
+
+  - id: isocor
+    repo: "fentouxungui/IsoCor"
+    name: "IsoCor"
+    author: "IsoCor authors"
+    description: "Isotope correction for mass spectrometry"
+    homepage: "https://github.com/fentouxungui/IsoCor"
+    docs: "https://github.com/fentouxungui/IsoCor#readme"
+    copyright: "(c) 2025 IsoCor authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/isocor.png"
+    r_version: "4.6.1"
+    tags: [isotope, mass-spectrometry, correction, shiny]
+
+  - id: minmeta
+    repo: "fentouxungui/miniMeta"
+    name: "miniMeta"
+    author: "miniMeta authors"
+    description: "Minimal meta-analysis app"
+    homepage: "https://github.com/fentouxungui/miniMeta"
+    docs: "https://github.com/fentouxungui/miniMeta#readme"
+    copyright: "(c) 2025 miniMeta authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/minmeta.png"
+    r_version: "4.6.1"
+    tags: [meta-analysis, statistics, visualization, shiny]
+
+  - id: gde
+    repo: "fentouxungui/gde"
+    name: "gde"
+    author: "gde authors"
+    description: "Graphical data exploration"
+    homepage: "https://github.com/fentouxungui/gde"
+    docs: "https://github.com/fentouxungui/gde#readme"
+    copyright: "(c) 2025 gde authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/gde.png"
+    r_version: "4.6.1"
+    tags: [data-exploration, graphical, gui, shiny]
+
+  - id: seasonalview
+    repo: "fentouxungui/seasonalview"
+    name: "seasonalview"
+    author: "seasonalview authors"
+    description: "Seasonal adjustment viewer"
+    homepage: "https://github.com/fentouxungui/seasonalview"
+    docs: "https://github.com/fentouxungui/seasonalview#readme"
+    copyright: "(c) 2025 seasonalview authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/seasonalview.png"
+    r_version: "4.6.1"
+    tags: [seasonal-adjustment, time-series, visualization, shiny]
+
+  - id: memapp
+    repo: "fentouxungui/memapp"
+    name: "memapp"
+    author: "memapp authors"
+    description: "Morphometric analysis app"
+    homepage: "https://github.com/fentouxungui/memapp"
+    docs: "https://github.com/fentouxungui/memapp#readme"
+    copyright: "(c) 2025 memapp authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/memapp.png"
+    r_version: "4.6.1"
+    tags: [morphometrics, analysis, app, shiny]
