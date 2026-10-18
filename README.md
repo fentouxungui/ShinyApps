@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 86
+- **Apps:** 93
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-18 03:36:23 UTC
+- **Catalog last updated:** 2026-10-18 04:35:22 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -96,6 +96,13 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/yuima-gui.png" width="32" alt="yuimaGUI"> | **yuimaGUI**<br>GUI for the yuima stochastic process package | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/yuimaGUI) · [Docs](https://github.com/fentouxungui/yuimaGUI#readme) · [Release](https://github.com/fentouxungui/yuimaGUI/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/censuspyrid.png" width="32" alt="censuspyrID"> | **censuspyrID**<br>Census data explorer for Puerto Rico | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/censuspyrID) · [Docs](https://github.com/fentouxungui/censuspyrID#readme) · [Release](https://github.com/fentouxungui/censuspyrID/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/fitodbodrshiny.png" width="32" alt="fitODBODRshiny"> | **fitODBODRshiny**<br>Fit ODBOD distributions interactively | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/fitODBODRshiny) · [Docs](https://github.com/fentouxungui/fitODBODRshiny#readme) · [Release](https://github.com/fentouxungui/fitODBODRshiny/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/esdm.png" width="32" alt="eSDM"> | **eSDM**<br>Species distribution models for marine data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/eSDM) · [Docs](https://github.com/fentouxungui/eSDM#readme) · [Release](https://github.com/fentouxungui/eSDM/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/adverseevents.png" width="32" alt="AdverseEvents"> | **AdverseEvents**<br>Adverse event data exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/AdverseEvents) · [Docs](https://github.com/fentouxungui/AdverseEvents#readme) · [Release](https://github.com/fentouxungui/AdverseEvents/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/isocor.png" width="32" alt="IsoCor"> | **IsoCor**<br>Isotope correction for mass spectrometry | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/IsoCor) · [Docs](https://github.com/fentouxungui/IsoCor#readme) · [Release](https://github.com/fentouxungui/IsoCor/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/minmeta.png" width="32" alt="miniMeta"> | **miniMeta**<br>Minimal meta-analysis app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/miniMeta) · [Docs](https://github.com/fentouxungui/miniMeta#readme) · [Release](https://github.com/fentouxungui/miniMeta/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/gde.png" width="32" alt="gde"> | **gde**<br>Graphical data exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/gde) · [Docs](https://github.com/fentouxungui/gde#readme) · [Release](https://github.com/fentouxungui/gde/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/seasonalview.png" width="32" alt="seasonalview"> | **seasonalview**<br>Seasonal adjustment viewer | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/seasonalview) · [Docs](https://github.com/fentouxungui/seasonalview#readme) · [Release](https://github.com/fentouxungui/seasonalview/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/memapp.png" width="32" alt="memapp"> | **memapp**<br>Morphometric analysis app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/memapp) · [Docs](https://github.com/fentouxungui/memapp#readme) · [Release](https://github.com/fentouxungui/memapp/releases/tag/v0.1.0) |
 
 ---
 
@@ -2000,6 +2007,160 @@ Release: https://github.com/fentouxungui/fitODBODRshiny/releases/tag/v0.2.0
 |---|---|---:|---|
 | `mac-arm64` | [fitodbodrshiny-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/fitODBODRshiny/releases/download/v0.2.0/fitodbodrshiny-0.2.0-mac-arm64.zip) | 99.0 MB | `7d330beeef08be989999a1e19c15f215827ad030c176cfb4861ee17c576bda61` |
 | `win-x64` | [fitodbodrshiny-0.2.0-win-x64.zip](https://github.com/fentouxungui/fitODBODRshiny/releases/download/v0.2.0/fitodbodrshiny-0.2.0-win-x64.zip) | 106.1 MB | `8842d0dc14abe2aeaa78f29b6e525704d7663bdce4ede97dcaa7431f8e262c93` |
+
+</details>
+
+### eSDM `0.1.0`
+
+Species distribution models for marine data
+
+| Field | Value |
+|---|---|
+| Author | eSDM authors |
+| License | See upstream |
+| Copyright | (c) 2025 eSDM authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/eSDM/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [esdm-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/eSDM/releases/download/v0.1.0/esdm-0.1.0-mac-arm64.zip) | 188.1 MB | `d57b0f97e9bf9b0893c50bbdf723dec6c841a7d7e335ea2d107b74e84899159c` |
+| `win-x64` | [esdm-0.1.0-win-x64.zip](https://github.com/fentouxungui/eSDM/releases/download/v0.1.0/esdm-0.1.0-win-x64.zip) | 245.6 MB | `4ca54ddc0e5b7bbf845ee9f582a4f03aedd72886aba9882be1f1ea1753434eed` |
+
+</details>
+
+### AdverseEvents `0.1.0`
+
+Adverse event data exploration
+
+| Field | Value |
+|---|---|
+| Author | AdverseEvents authors |
+| License | See upstream |
+| Copyright | (c) 2025 AdverseEvents authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/AdverseEvents/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [adverseevents-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/AdverseEvents/releases/download/v0.1.0/adverseevents-0.1.0-mac-arm64.zip) | 197.9 MB | `2c634391bef22b99cad6c9f75b44834c653ceca5f80d1b867bef5c6287bf789a` |
+| `win-x64` | [adverseevents-0.1.0-win-x64.zip](https://github.com/fentouxungui/AdverseEvents/releases/download/v0.1.0/adverseevents-0.1.0-win-x64.zip) | 209.9 MB | `7f2f9915e5330e16415eea1b051e051cb754d3149088c765d050c3b22ae1a747` |
+
+</details>
+
+### IsoCor `0.1.0`
+
+Isotope correction for mass spectrometry
+
+| Field | Value |
+|---|---|
+| Author | IsoCor authors |
+| License | See upstream |
+| Copyright | (c) 2025 IsoCor authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/IsoCor/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [isocor-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/IsoCor/releases/download/v0.1.0/isocor-0.1.0-mac-arm64.zip) | 45.4 MB | `4a26d5b1458c716f1c7c1daf488e1027a16bd2054f9fc41a82a842ce58f097dc` |
+| `win-x64` | [isocor-0.1.0-win-x64.zip](https://github.com/fentouxungui/IsoCor/releases/download/v0.1.0/isocor-0.1.0-win-x64.zip) | 47.2 MB | `fcb64297ca84fe43e7d29dc4c907f99266f2bf96a90add03d637814274094f40` |
+
+</details>
+
+### miniMeta `0.1.0`
+
+Minimal meta-analysis app
+
+| Field | Value |
+|---|---|
+| Author | miniMeta authors |
+| License | See upstream |
+| Copyright | (c) 2025 miniMeta authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/miniMeta/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [minmeta-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/miniMeta/releases/download/v0.1.0/minmeta-0.1.0-mac-arm64.zip) | 126.0 MB | `8c34bd25a5fee7a85c8af93c43f0cd503432f4e88bcc0f64670728893a170c21` |
+| `win-x64` | [minmeta-0.1.0-win-x64.zip](https://github.com/fentouxungui/miniMeta/releases/download/v0.1.0/minmeta-0.1.0-win-x64.zip) | 133.2 MB | `91863d5e0f51b1962789e729a2d91ac48c24b962547aa536c572442a45eb19fc` |
+
+</details>
+
+### gde `0.1.0`
+
+Graphical data exploration
+
+| Field | Value |
+|---|---|
+| Author | gde authors |
+| License | See upstream |
+| Copyright | (c) 2025 gde authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/gde/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [gde-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/gde/releases/download/v0.1.0/gde-0.1.0-mac-arm64.zip) | 165.0 MB | `37f78cf84cf3ef93f24cc89baea9ee308ee66cf72cc67e6f02ca4fd84578938b` |
+| `win-x64` | [gde-0.1.0-win-x64.zip](https://github.com/fentouxungui/gde/releases/download/v0.1.0/gde-0.1.0-win-x64.zip) | 219.8 MB | `100dc81df7c67ebaff3d9294b4815deae2d3f77b5c975e27010b7d85bf6f3649` |
+
+</details>
+
+### seasonalview `0.1.0`
+
+Seasonal adjustment viewer
+
+| Field | Value |
+|---|---|
+| Author | seasonalview authors |
+| License | See upstream |
+| Copyright | (c) 2025 seasonalview authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/seasonalview/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [seasonalview-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/seasonalview/releases/download/v0.1.0/seasonalview-0.1.0-mac-arm64.zip) | 93.2 MB | `0a07319792fbf64fed11ba57776a97e08d92110ed88925d5b3b623ee74bb5750` |
+| `win-x64` | [seasonalview-0.1.0-win-x64.zip](https://github.com/fentouxungui/seasonalview/releases/download/v0.1.0/seasonalview-0.1.0-win-x64.zip) | 105.6 MB | `6c47c0277980dfa419042e851cc5d01946e5f8cde932cf8164218c975349c6c4` |
+
+</details>
+
+### memapp `0.1.0`
+
+Morphometric analysis app
+
+| Field | Value |
+|---|---|
+| Author | memapp authors |
+| License | See upstream |
+| Copyright | (c) 2025 memapp authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/memapp/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [memapp-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/memapp/releases/download/v0.1.0/memapp-0.1.0-mac-arm64.zip) | 128.0 MB | `4394ed31ba532676da9861df762bff99bb7609f014dd63d7e3848ce1c9694024` |
+| `win-x64` | [memapp-0.1.0-win-x64.zip](https://github.com/fentouxungui/memapp/releases/download/v0.1.0/memapp-0.1.0-win-x64.zip) | 141.1 MB | `9e6e8e5db96c484ebde472af18e70817ff8ef223a9325b2bcd71bef0ca6e61e0` |
 
 </details>
 

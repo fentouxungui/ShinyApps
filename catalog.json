@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T03:36:23Z",
+  "updated_at": "2026-10-18T04:35:22Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -2674,6 +2674,223 @@
           "url": "https://github.com/fentouxungui/fitODBODRshiny/releases/download/v0.2.0/fitodbodrshiny-0.2.0-win-x64.zip",
           "size": 111241124,
           "sha256": "8842d0dc14abe2aeaa78f29b6e525704d7663bdce4ede97dcaa7431f8e262c93"
+        }
+      }
+    },
+    {
+      "id": "esdm",
+      "name": "eSDM",
+      "author": "eSDM authors",
+      "description": "Species distribution models for marine data",
+      "homepage": "https://github.com/fentouxungui/eSDM",
+      "docs": "https://github.com/fentouxungui/eSDM#readme",
+      "copyright": "(c) 2025 eSDM authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/esdm.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "species-distribution",
+        "marine",
+        "modeling",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/eSDM/releases/download/v0.1.0/esdm-0.1.0-mac-arm64.zip",
+          "size": 197271177,
+          "sha256": "d57b0f97e9bf9b0893c50bbdf723dec6c841a7d7e335ea2d107b74e84899159c"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/eSDM/releases/download/v0.1.0/esdm-0.1.0-win-x64.zip",
+          "size": 257481606,
+          "sha256": "4ca54ddc0e5b7bbf845ee9f582a4f03aedd72886aba9882be1f1ea1753434eed"
+        }
+      }
+    },
+    {
+      "id": "adverseevents",
+      "name": "AdverseEvents",
+      "author": "AdverseEvents authors",
+      "description": "Adverse event data exploration",
+      "homepage": "https://github.com/fentouxungui/AdverseEvents",
+      "docs": "https://github.com/fentouxungui/AdverseEvents#readme",
+      "copyright": "(c) 2025 AdverseEvents authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/adverseevents.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "adverse-events",
+        "clinical",
+        "exploration",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/AdverseEvents/releases/download/v0.1.0/adverseevents-0.1.0-mac-arm64.zip",
+          "size": 207551095,
+          "sha256": "2c634391bef22b99cad6c9f75b44834c653ceca5f80d1b867bef5c6287bf789a"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/AdverseEvents/releases/download/v0.1.0/adverseevents-0.1.0-win-x64.zip",
+          "size": 220141334,
+          "sha256": "7f2f9915e5330e16415eea1b051e051cb754d3149088c765d050c3b22ae1a747"
+        }
+      }
+    },
+    {
+      "id": "isocor",
+      "name": "IsoCor",
+      "author": "IsoCor authors",
+      "description": "Isotope correction for mass spectrometry",
+      "homepage": "https://github.com/fentouxungui/IsoCor",
+      "docs": "https://github.com/fentouxungui/IsoCor#readme",
+      "copyright": "(c) 2025 IsoCor authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/isocor.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "isotope",
+        "mass-spectrometry",
+        "correction",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/IsoCor/releases/download/v0.1.0/isocor-0.1.0-mac-arm64.zip",
+          "size": 47590516,
+          "sha256": "4a26d5b1458c716f1c7c1daf488e1027a16bd2054f9fc41a82a842ce58f097dc"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/IsoCor/releases/download/v0.1.0/isocor-0.1.0-win-x64.zip",
+          "size": 49522781,
+          "sha256": "fcb64297ca84fe43e7d29dc4c907f99266f2bf96a90add03d637814274094f40"
+        }
+      }
+    },
+    {
+      "id": "minmeta",
+      "name": "miniMeta",
+      "author": "miniMeta authors",
+      "description": "Minimal meta-analysis app",
+      "homepage": "https://github.com/fentouxungui/miniMeta",
+      "docs": "https://github.com/fentouxungui/miniMeta#readme",
+      "copyright": "(c) 2025 miniMeta authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/minmeta.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "meta-analysis",
+        "statistics",
+        "visualization",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/miniMeta/releases/download/v0.1.0/minmeta-0.1.0-mac-arm64.zip",
+          "size": 132071629,
+          "sha256": "8c34bd25a5fee7a85c8af93c43f0cd503432f4e88bcc0f64670728893a170c21"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/miniMeta/releases/download/v0.1.0/minmeta-0.1.0-win-x64.zip",
+          "size": 139704856,
+          "sha256": "91863d5e0f51b1962789e729a2d91ac48c24b962547aa536c572442a45eb19fc"
+        }
+      }
+    },
+    {
+      "id": "gde",
+      "name": "gde",
+      "author": "gde authors",
+      "description": "Graphical data exploration",
+      "homepage": "https://github.com/fentouxungui/gde",
+      "docs": "https://github.com/fentouxungui/gde#readme",
+      "copyright": "(c) 2025 gde authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/gde.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "data-exploration",
+        "graphical",
+        "gui",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/gde/releases/download/v0.1.0/gde-0.1.0-mac-arm64.zip",
+          "size": 173033003,
+          "sha256": "37f78cf84cf3ef93f24cc89baea9ee308ee66cf72cc67e6f02ca4fd84578938b"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/gde/releases/download/v0.1.0/gde-0.1.0-win-x64.zip",
+          "size": 230451651,
+          "sha256": "100dc81df7c67ebaff3d9294b4815deae2d3f77b5c975e27010b7d85bf6f3649"
+        }
+      }
+    },
+    {
+      "id": "seasonalview",
+      "name": "seasonalview",
+      "author": "seasonalview authors",
+      "description": "Seasonal adjustment viewer",
+      "homepage": "https://github.com/fentouxungui/seasonalview",
+      "docs": "https://github.com/fentouxungui/seasonalview#readme",
+      "copyright": "(c) 2025 seasonalview authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/seasonalview.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "seasonal-adjustment",
+        "time-series",
+        "visualization",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/seasonalview/releases/download/v0.1.0/seasonalview-0.1.0-mac-arm64.zip",
+          "size": 97718992,
+          "sha256": "0a07319792fbf64fed11ba57776a97e08d92110ed88925d5b3b623ee74bb5750"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/seasonalview/releases/download/v0.1.0/seasonalview-0.1.0-win-x64.zip",
+          "size": 110730471,
+          "sha256": "6c47c0277980dfa419042e851cc5d01946e5f8cde932cf8164218c975349c6c4"
+        }
+      }
+    },
+    {
+      "id": "memapp",
+      "name": "memapp",
+      "author": "memapp authors",
+      "description": "Morphometric analysis app",
+      "homepage": "https://github.com/fentouxungui/memapp",
+      "docs": "https://github.com/fentouxungui/memapp#readme",
+      "copyright": "(c) 2025 memapp authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/memapp.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "morphometrics",
+        "analysis",
+        "app",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/memapp/releases/download/v0.1.0/memapp-0.1.0-mac-arm64.zip",
+          "size": 134241347,
+          "sha256": "4394ed31ba532676da9861df762bff99bb7609f014dd63d7e3848ce1c9694024"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/memapp/releases/download/v0.1.0/memapp-0.1.0-win-x64.zip",
+          "size": 147992501,
+          "sha256": "9e6e8e5db96c484ebde472af18e70817ff8ef223a9325b2bcd71bef0ca6e61e0"
         }
       }
     }
