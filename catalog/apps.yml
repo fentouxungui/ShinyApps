@@ -1355,3 +1355,81 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/anca.png"
     r_version: "4.6.1"
     tags: [pharmacokinetics, nca, analysis, shiny]
+
+  - id: shinymixr
+    repo: "fentouxungui/shinyMixR"
+    name: "shinyMixR"
+    author: "Richard Hooijmaijers"
+    description: "Interactive mixed-effects model exploration"
+    homepage: "https://github.com/fentouxungui/shinyMixR"
+    docs: "https://github.com/fentouxungui/shinyMixR#readme"
+    copyright: "(c) 2025 shinyMixR authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinymixr.png"
+    r_version: "4.6.1"
+    tags: [pharmacometrics, modeling, mixed-effects, shiny]
+
+  - id: kesernetwork
+    repo: "fentouxungui/kesernetwork"
+    name: "kesernetwork"
+    author: "kesernetwork authors"
+    description: "Knowledge graph network explorer"
+    homepage: "https://github.com/fentouxungui/kesernetwork"
+    docs: "https://github.com/fentouxungui/kesernetwork#readme"
+    copyright: "(c) 2025 kesernetwork authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/kesernetwork.png"
+    r_version: "4.6.1"
+    tags: [knowledge-graph, network, exploration, shiny]
+
+  - id: shinykgode
+    repo: "fentouxungui/shinyKGode"
+    name: "shinyKGode"
+    author: "shinyKGode authors"
+    description: "Interactive ODE parameter estimation"
+    homepage: "https://github.com/fentouxungui/shinyKGode"
+    docs: "https://github.com/fentouxungui/shinyKGode#readme"
+    copyright: "(c) 2025 shinyKGode authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinykgode.png"
+    r_version: "4.6.1"
+    tags: [ode, parameter-estimation, modeling, shiny]
+
+  - id: viewpoly
+    repo: "fentouxungui/viewpoly"
+    name: "viewpoly"
+    author: "Breeding Insight"
+    description: "Visualize polyploid genetic data"
+    homepage: "https://github.com/fentouxungui/viewpoly"
+    docs: "https://github.com/fentouxungui/viewpoly#readme"
+    copyright: "(c) 2025 viewpoly authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/viewpoly.png"
+    r_version: "4.6.1"
+    tags: [polyploid, genetics, visualization, shiny]
+
+  - id: normalityassessment
+    repo: "fentouxungui/NormalityAssessment"
+    name: "NormalityAssessment"
+    author: "NormalityAssessment authors"
+    description: "Assess normality of data"
+    homepage: "https://github.com/fentouxungui/NormalityAssessment"
+    docs: "https://github.com/fentouxungui/NormalityAssessment#readme"
+    copyright: "(c) 2025 NormalityAssessment authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/normalityassessment.png"
+    r_version: "4.6.1"
+    tags: [normality, statistics, diagnostics, shiny]
+
+  - id: assumpsure
+    repo: "fentouxungui/AssumpSure"
+    name: "AssumpSure"
+    author: "AssumpSure authors"
+    description: "Check statistical assumptions"
+    homepage: "https://github.com/fentouxungui/AssumpSure"
+    docs: "https://github.com/fentouxungui/AssumpSure#readme"
+    copyright: "(c) 2025 AssumpSure authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/assumpsure.png"
+    r_version: "4.6.1"
+    tags: [assumptions, statistics, diagnostics, shiny]
