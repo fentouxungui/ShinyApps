@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T12:23:54Z",
+  "updated_at": "2026-10-18T14:06:23Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -3293,6 +3293,99 @@
           "url": "https://github.com/fentouxungui/AssumpSure/releases/download/v0.1.0/assumpsure-0.1.0-win-x64.zip",
           "size": 321375187,
           "sha256": "e4ab94553677515a1203c1c04deb3537d8de2e9cb7fb7d862aef4ac7f147afda"
+        }
+      }
+    },
+    {
+      "id": "activanalyzer",
+      "name": "activAnalyzer",
+      "author": "Pierre-Yves de M\u00fcllenheim",
+      "description": "Analyze accelerometer-measured daily physical behavior data",
+      "homepage": "https://github.com/fentouxungui/activAnalyzer",
+      "docs": "https://github.com/fentouxungui/activAnalyzer#readme",
+      "copyright": "(c) 2025 activAnalyzer authors",
+      "license": "GPL (>= 3)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/activanalyzer.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "accelerometer",
+        "physical-activity",
+        "health",
+        "shiny"
+      ],
+      "version": "0.2.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/activAnalyzer/releases/download/v0.2.0/activanalyzer-0.2.0-mac-arm64.zip",
+          "size": 127762834,
+          "sha256": "ce51a2d6a328055d998abb13c4cb714310d168f9f2e3ab482ef485642f867ed9"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/activAnalyzer/releases/download/v0.2.0/activanalyzer-0.2.0-win-x64.zip",
+          "size": 140765327,
+          "sha256": "33a6c00776375e3ac18e683b35d2b9778353a9df45e49366c7022a69935350ae"
+        }
+      }
+    },
+    {
+      "id": "catascience",
+      "name": "cataScience",
+      "author": "Shanlong Ding",
+      "description": "Interactive training app for data science and AI skills",
+      "homepage": "https://github.com/fentouxungui/cataScience",
+      "docs": "https://github.com/fentouxungui/cataScience#readme",
+      "copyright": "(c) 2025 cataScience authors",
+      "license": "MIT + file LICENSE",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/catascience.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "data-science",
+        "teaching",
+        "training",
+        "shiny"
+      ],
+      "version": "0.2.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/cataScience/releases/download/v0.2.0/catascience-0.2.0-mac-arm64.zip",
+          "size": 227646784,
+          "sha256": "e882c9eff40a13e6aee6133602fb6fd8e22af57fe35a270d2164bd88a76907dc"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/cataScience/releases/download/v0.2.0/catascience-0.2.0-win-x64.zip",
+          "size": 205306185,
+          "sha256": "1272afac2f758f28afa2f9f351d339a0800114a49be92491a4cd1317ddbe5af9"
+        }
+      }
+    },
+    {
+      "id": "shinysbm",
+      "name": "shinySbm",
+      "author": "Julie Aubert",
+      "description": "Shiny interface for the stochastic block model",
+      "homepage": "https://github.com/fentouxungui/shinySbm",
+      "docs": "https://github.com/fentouxungui/shinySbm#readme",
+      "copyright": "(c) 2025 shinySbm authors",
+      "license": "MIT + file LICENSE",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinysbm.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "network",
+        "stochastic-block-model",
+        "clustering",
+        "shiny"
+      ],
+      "version": "0.2.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/shinySbm/releases/download/v0.2.0/shinysbm-0.2.0-mac-arm64.zip",
+          "size": 152685229,
+          "sha256": "16dda0c7d9eebace9f8bb7b91e3a8e76f5022c666473f679f6aed29299e7af67"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/shinySbm/releases/download/v0.2.0/shinysbm-0.2.0-win-x64.zip",
+          "size": 163011571,
+          "sha256": "890d2e437760751284d8adc3aa0887a93283f7e7ec42761da43eac537eacd04f"
         }
       }
     }
