@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T01:13:44Z",
+  "updated_at": "2026-10-18T03:29:10Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -2550,6 +2550,99 @@
           "url": "https://github.com/fentouxungui/pressfreedom/releases/download/v0.1.0/pressfreedom-0.1.0-win-x64.zip",
           "size": 98477993,
           "sha256": "d7deeb57f75fd45bfe92e34e24b6261f83ff531ee863a3249cae8462a491cd72"
+        }
+      }
+    },
+    {
+      "id": "ggraptr",
+      "name": "ggraptR",
+      "author": "ggraptR authors",
+      "description": "Interactive ggplot2 exploration",
+      "homepage": "https://github.com/fentouxungui/ggraptR",
+      "docs": "https://github.com/fentouxungui/ggraptR#readme",
+      "copyright": "(c) 2025 ggraptR authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/ggraptr.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "ggplot2",
+        "visualization",
+        "interactive",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/ggraptR/releases/download/v0.1.0/ggraptr-0.1.0-mac-arm64.zip",
+          "size": 97987048,
+          "sha256": "8643850c53a3ffe8fec7d5d157c7c0fd3170ddd70f296103063d91c54d4d2da7"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/ggraptR/releases/download/v0.1.0/ggraptr-0.1.0-win-x64.zip",
+          "size": 102822252,
+          "sha256": "68fbc1bc4371dace366406766050a4ced2b3d5e4554a41645fa71291cab36f97"
+        }
+      }
+    },
+    {
+      "id": "yuima-gui",
+      "name": "yuimaGUI",
+      "author": "yuimaGUI authors",
+      "description": "GUI for the yuima stochastic process package",
+      "homepage": "https://github.com/fentouxungui/yuimaGUI",
+      "docs": "https://github.com/fentouxungui/yuimaGUI#readme",
+      "copyright": "(c) 2025 yuimaGUI authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/yuima-gui.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "stochastic",
+        "time-series",
+        "gui",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/yuimaGUI/releases/download/v0.1.0/yuima-gui-0.1.0-mac-arm64.zip",
+          "size": 143856177,
+          "sha256": "ef2acf1da8e90e7bbc31ea357052f4bd1cb7e52e8bca78f2f9d73ef84db64f50"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/yuimaGUI/releases/download/v0.1.0/yuima-gui-0.1.0-win-x64.zip",
+          "size": 155453283,
+          "sha256": "10c611d41735eff2ddb22e4d9c4671706683ee1cb69e9c35812e71e8bc9076a8"
+        }
+      }
+    },
+    {
+      "id": "censuspyrid",
+      "name": "censuspyrID",
+      "author": "censuspyrID authors",
+      "description": "Census data explorer for Puerto Rico",
+      "homepage": "https://github.com/fentouxungui/censuspyrID",
+      "docs": "https://github.com/fentouxungui/censuspyrID#readme",
+      "copyright": "(c) 2025 censuspyrID authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/censuspyrid.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "census",
+        "puerto-rico",
+        "data",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/censuspyrID/releases/download/v0.1.0/censuspyrid-0.1.0-mac-arm64.zip",
+          "size": 93869680,
+          "sha256": "26f85cafef241dd15bee3ef1e49acc2099f6b1b2e4b7dc89b4fb8be0b3fa9f7a"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/censuspyrID/releases/download/v0.1.0/censuspyrid-0.1.0-win-x64.zip",
+          "size": 97485014,
+          "sha256": "c2a7b5688fd4dcfa152373ff3a970371c13cdc60bca8e62d00fcfd91deb79dde"
         }
       }
     }

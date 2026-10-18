@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 82
+- **Apps:** 85
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-18 01:25:15 UTC
+- **Catalog last updated:** 2026-10-18 03:29:10 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -92,6 +92,9 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/sdstudio.png" width="32" alt="sdstudio"> | **sdstudio**<br>Interactive survey data studio | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/sdstudio) · [Docs](https://github.com/fentouxungui/sdstudio#readme) · [Release](https://github.com/fentouxungui/sdstudio/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/quallmer-app.png" width="32" alt="quallmer.app"> | **quallmer.app**<br>Qualitative coding comparison app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/quallmer.app) · [Docs](https://github.com/fentouxungui/quallmer.app#readme) · [Release](https://github.com/fentouxungui/quallmer.app/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/pressfreedom.png" width="32" alt="pressfreedom"> | **pressfreedom**<br>Press freedom data explorer | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/pressfreedom) · [Docs](https://github.com/fentouxungui/pressfreedom#readme) · [Release](https://github.com/fentouxungui/pressfreedom/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/ggraptr.png" width="32" alt="ggraptR"> | **ggraptR**<br>Interactive ggplot2 exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ggraptR) · [Docs](https://github.com/fentouxungui/ggraptR#readme) · [Release](https://github.com/fentouxungui/ggraptR/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/yuima-gui.png" width="32" alt="yuimaGUI"> | **yuimaGUI**<br>GUI for the yuima stochastic process package | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/yuimaGUI) · [Docs](https://github.com/fentouxungui/yuimaGUI#readme) · [Release](https://github.com/fentouxungui/yuimaGUI/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/censuspyrid.png" width="32" alt="censuspyrID"> | **censuspyrID**<br>Census data explorer for Puerto Rico | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/censuspyrID) · [Docs](https://github.com/fentouxungui/censuspyrID#readme) · [Release](https://github.com/fentouxungui/censuspyrID/releases/tag/v0.1.0) |
 
 ---
 
@@ -1908,6 +1911,72 @@ Release: https://github.com/fentouxungui/pressfreedom/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [pressfreedom-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/pressfreedom/releases/download/v0.1.0/pressfreedom-0.1.0-mac-arm64.zip) | 88.4 MB | `d625ce07b92a11d7b4dc858994669f113315307c1aa238bf5119eb120173d18d` |
 | `win-x64` | [pressfreedom-0.1.0-win-x64.zip](https://github.com/fentouxungui/pressfreedom/releases/download/v0.1.0/pressfreedom-0.1.0-win-x64.zip) | 93.9 MB | `d7deeb57f75fd45bfe92e34e24b6261f83ff531ee863a3249cae8462a491cd72` |
+
+</details>
+
+### ggraptR `0.1.0`
+
+Interactive ggplot2 exploration
+
+| Field | Value |
+|---|---|
+| Author | ggraptR authors |
+| License | See upstream |
+| Copyright | (c) 2025 ggraptR authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/ggraptR/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [ggraptr-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/ggraptR/releases/download/v0.1.0/ggraptr-0.1.0-mac-arm64.zip) | 93.4 MB | `8643850c53a3ffe8fec7d5d157c7c0fd3170ddd70f296103063d91c54d4d2da7` |
+| `win-x64` | [ggraptr-0.1.0-win-x64.zip](https://github.com/fentouxungui/ggraptR/releases/download/v0.1.0/ggraptr-0.1.0-win-x64.zip) | 98.1 MB | `68fbc1bc4371dace366406766050a4ced2b3d5e4554a41645fa71291cab36f97` |
+
+</details>
+
+### yuimaGUI `0.1.0`
+
+GUI for the yuima stochastic process package
+
+| Field | Value |
+|---|---|
+| Author | yuimaGUI authors |
+| License | See upstream |
+| Copyright | (c) 2025 yuimaGUI authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/yuimaGUI/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [yuima-gui-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/yuimaGUI/releases/download/v0.1.0/yuima-gui-0.1.0-mac-arm64.zip) | 137.2 MB | `ef2acf1da8e90e7bbc31ea357052f4bd1cb7e52e8bca78f2f9d73ef84db64f50` |
+| `win-x64` | [yuima-gui-0.1.0-win-x64.zip](https://github.com/fentouxungui/yuimaGUI/releases/download/v0.1.0/yuima-gui-0.1.0-win-x64.zip) | 148.3 MB | `10c611d41735eff2ddb22e4d9c4671706683ee1cb69e9c35812e71e8bc9076a8` |
+
+</details>
+
+### censuspyrID `0.1.0`
+
+Census data explorer for Puerto Rico
+
+| Field | Value |
+|---|---|
+| Author | censuspyrID authors |
+| License | See upstream |
+| Copyright | (c) 2025 censuspyrID authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/censuspyrID/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [censuspyrid-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/censuspyrID/releases/download/v0.1.0/censuspyrid-0.1.0-mac-arm64.zip) | 89.5 MB | `26f85cafef241dd15bee3ef1e49acc2099f6b1b2e4b7dc89b4fb8be0b3fa9f7a` |
+| `win-x64` | [censuspyrid-0.1.0-win-x64.zip](https://github.com/fentouxungui/censuspyrID/releases/download/v0.1.0/censuspyrid-0.1.0-win-x64.zip) | 93.0 MB | `c2a7b5688fd4dcfa152373ff3a970371c13cdc60bca8e62d00fcfd91deb79dde` |
 
 </details>
 
