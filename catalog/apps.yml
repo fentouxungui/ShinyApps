@@ -1277,3 +1277,68 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/elaborator.png"
     r_version: "4.6.1"
     tags: [laboratory, visualization, exploration, shiny]
+
+  - id: dqcheckrgui
+    repo: "fentouxungui/dqcheckrGUI"
+    name: "dqcheckrGUI"
+    author: "dqcheckrGUI authors"
+    description: "Data quality checks GUI"
+    homepage: "https://github.com/fentouxungui/dqcheckrGUI"
+    docs: "https://github.com/fentouxungui/dqcheckrGUI#readme"
+    copyright: "(c) 2025 dqcheckrGUI authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/dqcheckrgui.png"
+    r_version: "4.6.1"
+    tags: [data-quality, checks, gui, shiny]
+
+  - id: visxhclust
+    repo: "fentouxungui/visxhclust"
+    name: "visxhclust"
+    author: "visxhclust authors"
+    description: "Visual exploration of hierarchical clustering"
+    homepage: "https://github.com/fentouxungui/visxhclust"
+    docs: "https://github.com/fentouxungui/visxhclust#readme"
+    copyright: "(c) 2025 visxhclust authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/visxhclust.png"
+    r_version: "4.6.1"
+    tags: [clustering, visualization, hierarchical, shiny]
+
+  - id: phecodemap
+    repo: "fentouxungui/phecodemap"
+    name: "phecodemap"
+    author: "phecodemap authors"
+    description: "Phenotype code mapping"
+    homepage: "https://github.com/fentouxungui/phecodemap"
+    docs: "https://github.com/fentouxungui/phecodemap#readme"
+    copyright: "(c) 2025 phecodemap authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/phecodemap.png"
+    r_version: "4.6.1"
+    tags: [phenotype, codes, mapping, shiny]
+
+  - id: fdapaceshiny
+    repo: "fentouxungui/fdapaceShiny"
+    name: "fdapaceShiny"
+    author: "fdapaceShiny authors"
+    description: "Functional data analysis app"
+    homepage: "https://github.com/fentouxungui/fdapaceShiny"
+    docs: "https://github.com/fentouxungui/fdapaceShiny#readme"
+    copyright: "(c) 2025 fdapaceShiny authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/fdapaceshiny.png"
+    r_version: "4.6.1"
+    tags: [functional-data, analysis, shiny]
+
+  - id: glossa
+    repo: "fentouxungui/glossa"
+    name: "glossa"
+    author: "glossa authors"
+    description: "Glossary and ontology exploration"
+    homepage: "https://github.com/fentouxungui/glossa"
+    docs: "https://github.com/fentouxungui/glossa#readme"
+    copyright: "(c) 2025 glossa authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/glossa.png"
+    r_version: "4.6.1"
+    tags: [glossary, ontology, exploration, shiny]
