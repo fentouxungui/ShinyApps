@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 99
+- **Apps:** 100
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-18 06:57:22 UTC
+- **Catalog last updated:** 2026-10-18 07:18:45 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -109,6 +109,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/phecodemap.png" width="32" alt="phecodemap"> | **phecodemap**<br>Phenotype code mapping | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/phecodemap) · [Docs](https://github.com/fentouxungui/phecodemap#readme) · [Release](https://github.com/fentouxungui/phecodemap/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/fdapaceshiny.png" width="32" alt="fdapaceShiny"> | **fdapaceShiny**<br>Functional data analysis app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/fdapaceShiny) · [Docs](https://github.com/fentouxungui/fdapaceShiny#readme) · [Release](https://github.com/fentouxungui/fdapaceShiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/glossa.png" width="32" alt="glossa"> | **glossa**<br>Glossary and ontology exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/glossa) · [Docs](https://github.com/fentouxungui/glossa#readme) · [Release](https://github.com/fentouxungui/glossa/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/anca.png" width="32" alt="aNCA"> | **aNCA**<br>Non-compartmental analysis | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/aNCA) · [Docs](https://github.com/fentouxungui/aNCA#readme) · [Release](https://github.com/fentouxungui/aNCA/releases/tag/v0.2.0) |
 
 ---
 
@@ -2299,6 +2300,28 @@ Release: https://github.com/fentouxungui/glossa/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [glossa-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/glossa/releases/download/v0.1.0/glossa-0.1.0-mac-arm64.zip) | 253.1 MB | `e54e3d7a2c15275437e86c623476176468c42db8adaf966b863314319de8a17d` |
 | `win-x64` | [glossa-0.1.0-win-x64.zip](https://github.com/fentouxungui/glossa/releases/download/v0.1.0/glossa-0.1.0-win-x64.zip) | 304.8 MB | `93eb64b2117c95a55c0b95792efdcb4c27c72110b899f9325247ff98e6bb686a` |
+
+</details>
+
+### aNCA `0.2.0`
+
+Non-compartmental analysis
+
+| Field | Value |
+|---|---|
+| Author | aNCA authors |
+| License | See upstream |
+| Copyright | (c) 2025 aNCA authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/aNCA/releases/tag/v0.2.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [anca-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/aNCA/releases/download/v0.2.0/anca-0.2.0-mac-arm64.zip) | 213.9 MB | `d5b08b0ae572a0887d5f4973cf7efa8bf70a7c5f2e22ff6a2b88a187c4811c4b` |
+| `win-x64` | [anca-0.2.0-win-x64.zip](https://github.com/fentouxungui/aNCA/releases/download/v0.2.0/anca-0.2.0-win-x64.zip) | 228.6 MB | `d7d43105e6dc0bbd8f6d88b13f2419a6b4bf22a1abbb96038ac0a47557473b66` |
 
 </details>
 

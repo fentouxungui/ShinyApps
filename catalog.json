@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T06:57:22Z",
+  "updated_at": "2026-10-18T07:18:45Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -3076,6 +3076,37 @@
           "url": "https://github.com/fentouxungui/glossa/releases/download/v0.1.0/glossa-0.1.0-win-x64.zip",
           "size": 319569289,
           "sha256": "93eb64b2117c95a55c0b95792efdcb4c27c72110b899f9325247ff98e6bb686a"
+        }
+      }
+    },
+    {
+      "id": "anca",
+      "name": "aNCA",
+      "author": "aNCA authors",
+      "description": "Non-compartmental analysis",
+      "homepage": "https://github.com/fentouxungui/aNCA",
+      "docs": "https://github.com/fentouxungui/aNCA#readme",
+      "copyright": "(c) 2025 aNCA authors",
+      "license": "See upstream",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/anca.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "pharmacokinetics",
+        "nca",
+        "analysis",
+        "shiny"
+      ],
+      "version": "0.2.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/aNCA/releases/download/v0.2.0/anca-0.2.0-mac-arm64.zip",
+          "size": 224260546,
+          "sha256": "d5b08b0ae572a0887d5f4973cf7efa8bf70a7c5f2e22ff6a2b88a187c4811c4b"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/aNCA/releases/download/v0.2.0/anca-0.2.0-win-x64.zip",
+          "size": 239711810,
+          "sha256": "d7d43105e6dc0bbd8f6d88b13f2419a6b4bf22a1abbb96038ac0a47557473b66"
         }
       }
     }
