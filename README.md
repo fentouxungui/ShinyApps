@@ -4,7 +4,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 
 - **Apps:** 127
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-19 02:42:44 UTC
+- **Catalog last updated:** 2026-10-19 04:27:29 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
