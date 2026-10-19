@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 127
+- **Apps:** 129
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-19 00:50:58 UTC
+- **Catalog last updated:** 2026-10-19 01:44:02 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -137,6 +137,8 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/datacompare.png" width="32" alt="dataCompare"> | **dataCompare**<br>Compare two data frames | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/dataCompare) · [Docs](https://github.com/fentouxungui/dataCompare#readme) · [Release](https://github.com/fentouxungui/dataCompare/releases/tag/v0.2.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/projectlsa.png" width="32" alt="projectLSA"> | **projectLSA**<br>Latent structure analysis with a graphical interface | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/projectLSA) · [Docs](https://github.com/fentouxungui/projectLSA#readme) · [Release](https://github.com/fentouxungui/projectLSA/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/southparkrshiny.png" width="32" alt="SouthParkRshiny"> | **SouthParkRshiny**<br>Explore data from the TV show South Park | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SouthParkRshiny) · [Docs](https://github.com/fentouxungui/SouthParkRshiny#readme) · [Release](https://github.com/fentouxungui/SouthParkRshiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/handwriterapp.png" width="32" alt="handwriterApp"> | **handwriterApp**<br>Handwriting analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/handwriterApp) · [Docs](https://github.com/fentouxungui/handwriterApp#readme) · [Release](https://github.com/fentouxungui/handwriterApp/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png" width="32" alt="tfrmtbuilder"> | **tfrmtbuilder**<br>Build and modify tfrmt table specifications | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/tfrmtbuilder-1) · [Docs](https://github.com/GSK-Biostatistics/tfrmtbuilder#readme) · [Release](https://github.com/fentouxungui/tfrmtbuilder-1/releases/tag/v0.1.0) |
 
 ---
 
@@ -2943,6 +2945,50 @@ Release: https://github.com/fentouxungui/SouthParkRshiny/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [southparkrshiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/SouthParkRshiny/releases/download/v0.1.0/southparkrshiny-0.1.0-mac-arm64.zip) | 255.7 MB | `3268424a4109cb72696368d5881605cabbd91ab524e0893649a1b7dca4920bea` |
 | `win-x64` | [southparkrshiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/SouthParkRshiny/releases/download/v0.1.0/southparkrshiny-0.1.0-win-x64.zip) | 230.4 MB | `3853f7959fd3ae44e7cc7ef81e8ad87d5ca463cdffe385be117d31c5ed6c3cdb` |
+
+</details>
+
+### handwriterApp `0.1.0`
+
+Handwriting analysis
+
+| Field | Value |
+|---|---|
+| Author | CSAFE |
+| License | GPL (>= 3) |
+| Copyright | (c) 2026 handwriterApp authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/handwriterApp/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [handwriterapp-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/handwriterApp/releases/download/v0.1.0/handwriterapp-0.1.0-mac-arm64.zip) | 177.3 MB | `3c26d1e61d2230515b76c0e731c73683159854c5858a2ade78c4b12f8f6fa745` |
+| `win-x64` | [handwriterapp-0.1.0-win-x64.zip](https://github.com/fentouxungui/handwriterApp/releases/download/v0.1.0/handwriterapp-0.1.0-win-x64.zip) | 194.5 MB | `ea2b2dd328f2f8f622b16e0dc9a192d34a3dff13263f4c79eea009b9ba065ab8` |
+
+</details>
+
+### tfrmtbuilder `0.1.0`
+
+Build and modify tfrmt table specifications
+
+| Field | Value |
+|---|---|
+| Author | GSK Biostatistics |
+| License | Apache License (>= 2) |
+| Copyright | (c) 2026 tfrmtbuilder authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/tfrmtbuilder-1/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [tfrmtbuilder-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-mac-arm64.zip) | 127.7 MB | `5e5414f7c2c6173339594aa056ea5369acb4e8678ee6ad9d49fe89809e6a63c2` |
+| `win-x64` | [tfrmtbuilder-0.1.0-win-x64.zip](https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-win-x64.zip) | 136.0 MB | `75c5207eb64963d06c87417d0ab5de1f1e1f03c2a55046c436e7be62fe4f4df8` |
 
 </details>
 

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T00:50:58Z",
+  "updated_at": "2026-10-19T01:44:02Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -3944,6 +3944,68 @@
           "url": "https://github.com/fentouxungui/SouthParkRshiny/releases/download/v0.1.0/southparkrshiny-0.1.0-win-x64.zip",
           "size": 241601151,
           "sha256": "3853f7959fd3ae44e7cc7ef81e8ad87d5ca463cdffe385be117d31c5ed6c3cdb"
+        }
+      }
+    },
+    {
+      "id": "handwriterapp",
+      "name": "handwriterApp",
+      "author": "CSAFE",
+      "description": "Handwriting analysis",
+      "homepage": "https://github.com/fentouxungui/handwriterApp",
+      "docs": "https://github.com/fentouxungui/handwriterApp#readme",
+      "copyright": "(c) 2026 handwriterApp authors",
+      "license": "GPL (>= 3)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/handwriterapp.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "handwriting",
+        "forensics",
+        "statistics",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/handwriterApp/releases/download/v0.1.0/handwriterapp-0.1.0-mac-arm64.zip",
+          "size": 185930664,
+          "sha256": "3c26d1e61d2230515b76c0e731c73683159854c5858a2ade78c4b12f8f6fa745"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/handwriterApp/releases/download/v0.1.0/handwriterapp-0.1.0-win-x64.zip",
+          "size": 203987220,
+          "sha256": "ea2b2dd328f2f8f622b16e0dc9a192d34a3dff13263f4c79eea009b9ba065ab8"
+        }
+      }
+    },
+    {
+      "id": "tfrmtbuilder",
+      "name": "tfrmtbuilder",
+      "author": "GSK Biostatistics",
+      "description": "Build and modify tfrmt table specifications",
+      "homepage": "https://github.com/fentouxungui/tfrmtbuilder-1",
+      "docs": "https://github.com/GSK-Biostatistics/tfrmtbuilder#readme",
+      "copyright": "(c) 2026 tfrmtbuilder authors",
+      "license": "Apache License (>= 2)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "tables",
+        "clinical-reporting",
+        "standards",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-mac-arm64.zip",
+          "size": 133915411,
+          "sha256": "5e5414f7c2c6173339594aa056ea5369acb4e8678ee6ad9d49fe89809e6a63c2"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-win-x64.zip",
+          "size": 142617531,
+          "sha256": "75c5207eb64963d06c87417d0ab5de1f1e1f03c2a55046c436e7be62fe4f4df8"
         }
       }
     }
