@@ -590,19 +590,6 @@ apps:
     r_version: "4.6.1"
     tags: [meta-analysis, statistics, visualization, shiny]
 
-  - id: nacho
-    repo: fentouxungui/NACHO
-    name: NACHO
-    author: "Mickael Canouil"
-    description: "NanoString quality control dashboard"
-    homepage: "https://github.com/mcanouil/NACHO"
-    docs: "https://mcanouil.github.io/NACHO/"
-    copyright: "(c) 2025 Mickael Canouil"
-    license: "GPL-3.0"
-    icon: "https://fentouxungui.github.io/ShinyApps/icons/nacho.png"
-    r_version: "4.6.1"
-    tags: [nanostring, qc, dashboard, shiny]
-
   - id: reliashiny
     repo: fentouxungui/ReliaShiny
     name: ReliaShiny
@@ -1524,19 +1511,6 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/exmort.png"
     r_version: "4.6.1"
     tags: [mortality, epidemiology, public-health, shiny]
-
-  - id: insane
-    repo: "fentouxungui/insane"
-    name: "insane"
-    author: "Mickaël Canouil"
-    description: "Analyse glucose-stimulated insulin secretion assays"
-    homepage: "https://github.com/fentouxungui/insane"
-    docs: "https://github.com/fentouxungui/insane#readme"
-    copyright: "(c) 2026 insane authors"
-    license: "MIT + file LICENSE"
-    icon: "https://fentouxungui.github.io/ShinyApps/icons/insane.png"
-    r_version: "4.6.1"
-    tags: [insulin, assay, biology, shiny]
 
   - id: monobinshiny
     repo: "fentouxungui/monobinShiny"
