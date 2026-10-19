@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 129
+- **Apps:** 127
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-19 01:44:02 UTC
+- **Catalog last updated:** 2026-10-19 01:50:51 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -52,7 +52,6 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/taipan.png" width="32" alt="taipan"> | **taipan**<br>Tool for annotating images in preparation for analysis | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/srkobakian/taipan) · [Docs](https://github.com/srkobakian/taipan#readme) · [Release](https://github.com/srkobakian/taipan/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/allelobin.png" width="32" alt="AlleloBin"> | **AlleloBin**<br>Shiny application for allele binning in microsatellite markers | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/vpprasanth/AlleloBin) · [Docs](https://github.com/vpprasanth/AlleloBin#readme) · [Release](https://github.com/vpprasanth/AlleloBin/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/metaanalyser.png" width="32" alt="MetaAnalyser"> | **MetaAnalyser**<br>Interactive visualisation of meta-analysis | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/chjackson/MetaAnalyser) · [Docs](https://github.com/chjackson/MetaAnalyser#readme) · [Release](https://github.com/chjackson/MetaAnalyser/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/nacho.png" width="32" alt="NACHO"> | **NACHO**<br>NanoString quality control dashboard | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/mcanouil/NACHO) · [Docs](https://mcanouil.github.io/NACHO/) · [Release](https://github.com/mcanouil/NACHO/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/reliashiny.png" width="32" alt="ReliaShiny"> | **ReliaShiny**<br>Shiny app for reliability analysis | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/paulgovan/ReliaShiny) · [Docs](https://github.com/paulgovan/ReliaShiny#readme) · [Release](https://github.com/paulgovan/ReliaShiny/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png" width="32" alt="shinyMergely"> | **shinyMergely**<br>Compare and merge two files with a Shiny app | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/stla/shinyMergely) · [Docs](https://github.com/stla/shinyMergely#readme) · [Release](https://github.com/stla/shinyMergely/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png" width="32" alt="DiagnostySize"> | **DiagnostySize**<br>App for calculating the sample size in a diagnostic study | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/JanaW09/DiagnostySize_App) · [Docs](https://github.com/JanaW09/DiagnostySize_App#readme) · [Release](https://github.com/JanaW09/DiagnostySize_App/releases/tag/v0.1.0) |
@@ -123,7 +122,6 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/dataviewr.png" width="32" alt="dataviewR"> | **dataviewR**<br>Interactive viewer for data frames | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/dataviewR) · [Docs](https://github.com/fentouxungui/dataviewR#readme) · [Release](https://github.com/fentouxungui/dataviewR/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/drdata.png" width="32" alt="DrData"> | **DrData**<br>End-to-end interactive data science platform | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/DrData) · [Docs](https://github.com/fentouxungui/DrData#readme) · [Release](https://github.com/fentouxungui/DrData/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/exmort.png" width="32" alt="exmort"> | **exmort**<br>All-cause and excess mortality calculator | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/exmort) · [Docs](https://github.com/fentouxungui/exmort#readme) · [Release](https://github.com/fentouxungui/exmort/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/insane.png" width="32" alt="insane"> | **insane**<br>Analyse glucose-stimulated insulin secretion assays | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/insane) · [Docs](https://github.com/fentouxungui/insane#readme) · [Release](https://github.com/fentouxungui/insane/releases/tag/v0.2.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/monobinshiny.png" width="32" alt="monobinShiny"> | **monobinShiny**<br>Shiny interface for the monobin package | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/monobinShiny) · [Docs](https://github.com/fentouxungui/monobinShiny#readme) · [Release](https://github.com/fentouxungui/monobinShiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/paramgui.png" width="32" alt="paramGUI"> | **paramGUI**<br>Shiny GUI for parameter estimation examples | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/paramGUI) · [Docs](https://github.com/fentouxungui/paramGUI#readme) · [Release](https://github.com/fentouxungui/paramGUI/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/statteacherassistant.png" width="32" alt="StatTeacherAssistant"> | **StatTeacherAssistant**<br>Teaching assistant for introductory statistics | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/StatTeacherAssistant) · [Docs](https://github.com/fentouxungui/StatTeacherAssistant#readme) · [Release](https://github.com/fentouxungui/StatTeacherAssistant/releases/tag/v0.1.0) |
@@ -1075,28 +1073,6 @@ Release: https://github.com/chjackson/MetaAnalyser/releases/tag/v0.1.1
 |---|---|---:|---|
 | `mac-arm64` | [metaanalyser-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/MetaAnalyser/releases/download/v0.1.1/metaanalyser-0.1.1-mac-arm64.zip) | 41.5 MB | `74fe34041f1a8fb8a9c906f93ce3b6d620d76d828f717c7c66d6b3cd36c453c3` |
 | `win-x64` | [metaanalyser-0.1.1-win-x64.zip](https://github.com/fentouxungui/MetaAnalyser/releases/download/v0.1.1/metaanalyser-0.1.1-win-x64.zip) | 43.1 MB | `ac3729f491885fc426a11e3ef9b2b86bf068ad82e10ba1c3fae86e2ff609be8b` |
-
-</details>
-
-### NACHO `0.1.1`
-
-NanoString quality control dashboard
-
-| Field | Value |
-|---|---|
-| Author | Mickael Canouil |
-| License | GPL-3.0 |
-| Copyright | (c) 2025 Mickael Canouil |
-| R version | 4.6.1 |
-
-Release: https://github.com/mcanouil/NACHO/releases/tag/v0.1.1
-
-<details><summary>Downloads &amp; checksums</summary>
-
-| Platform | File | Size | SHA-256 |
-|---|---|---:|---|
-| `mac-arm64` | [nacho-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/NACHO/releases/download/v0.1.1/nacho-0.1.1-mac-arm64.zip) | 60.4 MB | `2d85e44184061150b4c8ede33ba4bebd362de3142a9b44a26040743f00e0c86e` |
-| `win-x64` | [nacho-0.1.1-win-x64.zip](https://github.com/fentouxungui/NACHO/releases/download/v0.1.1/nacho-0.1.1-win-x64.zip) | 63.7 MB | `952f49d808f258e2afd7d5bda079fa399ac8ea69f660795921354dd6c7b925bb` |
 
 </details>
 
@@ -2637,28 +2613,6 @@ Release: https://github.com/fentouxungui/exmort/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [exmort-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/exmort/releases/download/v0.1.0/exmort-0.1.0-mac-arm64.zip) | 146.7 MB | `5c930fa9d1042538f48f465961c16f2ae405691268cb20aa0dba3e20dc203c6c` |
 | `win-x64` | [exmort-0.1.0-win-x64.zip](https://github.com/fentouxungui/exmort/releases/download/v0.1.0/exmort-0.1.0-win-x64.zip) | 158.3 MB | `9ed58062141a561d5ee1d934815dcb7384725bd8824971171788fdde095d123b` |
-
-</details>
-
-### insane `0.2.0`
-
-Analyse glucose-stimulated insulin secretion assays
-
-| Field | Value |
-|---|---|
-| Author | Mickaël Canouil |
-| License | MIT + file LICENSE |
-| Copyright | (c) 2026 insane authors |
-| R version | 4.6.1 |
-
-Release: https://github.com/fentouxungui/insane/releases/tag/v0.2.0
-
-<details><summary>Downloads &amp; checksums</summary>
-
-| Platform | File | Size | SHA-256 |
-|---|---|---:|---|
-| `mac-arm64` | [insane-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/insane/releases/download/v0.2.0/insane-0.2.0-mac-arm64.zip) | 143.2 MB | `6376cffbe0bee74cb5e27b269f82ddeff9d5ce937d4cdf68ecc5d24b54f16aed` |
-| `win-x64` | [insane-0.2.0-win-x64.zip](https://github.com/fentouxungui/insane/releases/download/v0.2.0/insane-0.2.0-win-x64.zip) | 147.0 MB | `5d505cf44983c846557f1017f70442dd01a751d593acf76df6dfdabc8dc88322` |
 
 </details>
 

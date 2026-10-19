@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T01:44:02Z",
+  "updated_at": "2026-10-19T01:50:51Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -1314,37 +1314,6 @@
           "url": "https://github.com/fentouxungui/MetaAnalyser/releases/download/v0.1.1/metaanalyser-0.1.1-win-x64.zip",
           "size": 45197064,
           "sha256": "ac3729f491885fc426a11e3ef9b2b86bf068ad82e10ba1c3fae86e2ff609be8b"
-        }
-      }
-    },
-    {
-      "id": "nacho",
-      "name": "NACHO",
-      "author": "Mickael Canouil",
-      "description": "NanoString quality control dashboard",
-      "homepage": "https://github.com/mcanouil/NACHO",
-      "docs": "https://mcanouil.github.io/NACHO/",
-      "copyright": "(c) 2025 Mickael Canouil",
-      "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/nacho.png",
-      "r_version": "4.6.1",
-      "tags": [
-        "nanostring",
-        "qc",
-        "dashboard",
-        "shiny"
-      ],
-      "version": "0.1.1",
-      "artifacts": {
-        "mac-arm64": {
-          "url": "https://github.com/fentouxungui/NACHO/releases/download/v0.1.1/nacho-0.1.1-mac-arm64.zip",
-          "size": 63301888,
-          "sha256": "2d85e44184061150b4c8ede33ba4bebd362de3142a9b44a26040743f00e0c86e"
-        },
-        "win-x64": {
-          "url": "https://github.com/fentouxungui/NACHO/releases/download/v0.1.1/nacho-0.1.1-win-x64.zip",
-          "size": 66781968,
-          "sha256": "952f49d808f258e2afd7d5bda079fa399ac8ea69f660795921354dd6c7b925bb"
         }
       }
     },
@@ -3510,37 +3479,6 @@
           "url": "https://github.com/fentouxungui/exmort/releases/download/v0.1.0/exmort-0.1.0-win-x64.zip",
           "size": 165988198,
           "sha256": "9ed58062141a561d5ee1d934815dcb7384725bd8824971171788fdde095d123b"
-        }
-      }
-    },
-    {
-      "id": "insane",
-      "name": "insane",
-      "author": "Micka\u00ebl Canouil",
-      "description": "Analyse glucose-stimulated insulin secretion assays",
-      "homepage": "https://github.com/fentouxungui/insane",
-      "docs": "https://github.com/fentouxungui/insane#readme",
-      "copyright": "(c) 2026 insane authors",
-      "license": "MIT + file LICENSE",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/insane.png",
-      "r_version": "4.6.1",
-      "tags": [
-        "insulin",
-        "assay",
-        "biology",
-        "shiny"
-      ],
-      "version": "0.2.0",
-      "artifacts": {
-        "mac-arm64": {
-          "url": "https://github.com/fentouxungui/insane/releases/download/v0.2.0/insane-0.2.0-mac-arm64.zip",
-          "size": 150189368,
-          "sha256": "6376cffbe0bee74cb5e27b269f82ddeff9d5ce937d4cdf68ecc5d24b54f16aed"
-        },
-        "win-x64": {
-          "url": "https://github.com/fentouxungui/insane/releases/download/v0.2.0/insane-0.2.0-win-x64.zip",
-          "size": 154184603,
-          "sha256": "5d505cf44983c846557f1017f70442dd01a751d593acf76df6dfdabc8dc88322"
         }
       }
     },
