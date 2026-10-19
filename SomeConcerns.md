@@ -3,7 +3,7 @@
 - [x] skill
 基于已成功上架的Apps，构建一个上架skill
 
-- [ ] ShinyApps
+- [x] ShinyApps
 Readme和wiki中，添加信息：如果你想上架自己的app，或者想上架别人的app，如果不想自己折腾上架流程，也可以联系我，我可以帮助上架你的或你感兴趣的app
 
 - [ ] shinyelectron
@@ -12,13 +12,13 @@ Readme和wiki中，添加信息：如果你想上架自己的app，或者想上�
 - [ ] ShinyApps and shinyelectron
 收录一些ShinyApps不方便上架的、或者无法上架的，但是已经在其它地方上架的Apps，列出这些app的信息，及使用链接，作为一个数据库集成到ShinyApps中，供大家检索和通过网页链接来访问。可能需要要定制shinyelectron
 
-- [ ] ShinyApps and skills
+- [ ] ShinyApps and skills - **放弃**
 调研 CRAN/BiocManager 中有哪些值得上架的Shiny app R包，并且可行性要足够。
 
-- [ ] ShinyApps and skills
+- [ ] ShinyApps and skills- **放弃**
 调研 CRAN/BiocManager 中有哪些包可以较容易的打包为Shiny App，可参考我将scConvert包装为scConvertShiny的过程。
 
-- [ ] ShinyApps and skills
+- [ ] ShinyApps and skills- **放弃**
 
   调研已发表的文献，有哪些哪些值得上架的Shiny app R包（未被CRAN/BiocManager收录的），并且可行性要足够。
 
@@ -41,3 +41,6 @@ Readme和wiki中，添加信息：如果你想上架自己的app，或者想上�
 
 - [ ] shinyelectron
   目前ShinyApps只允许使用一个Catalog URL，后续考虑允许使用多个，对于Catalog里面重复的app id进行处理，按照Catalog URL的优先顺序，仅保留优先出现的app。
+  
+- [ ] shinyelectron and shinyapps
+  如果原app提供网页版应用，则在catlog中收录这个url，可以是多个，然后再...中显示official online app，点击链接到网页上。

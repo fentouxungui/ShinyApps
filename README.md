@@ -15,6 +15,10 @@ added later without rebuilding or redistributing the shell.
 
 Browse the **[live app catalog](https://fentouxungui.github.io/ShinyApps/)** for the current list of available apps.
 
+> **The AI-based automated scouting and app-listing workflow has stopped.** Developers can now submit their apps independently by following the **developer documentation**. Of course, you can also just shoot me an email, and I’ll be happy to help you set it up.
+>
+> If you already have an app on the store and want it taken down, I will gladly do so upon request. That said, I really believe this project is a great way to promote your app and make it easy for users to run on their desktops.
+
 ---
 
 ## ✨ Features
