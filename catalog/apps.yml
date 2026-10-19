@@ -1706,3 +1706,29 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/southparkrshiny.png"
     r_version: "4.6.1"
     tags: [data-visualization, entertainment, teaching, shiny]
+
+  - id: handwriterapp
+    repo: "fentouxungui/handwriterApp"
+    name: "handwriterApp"
+    author: "CSAFE"
+    description: "Handwriting analysis"
+    homepage: "https://github.com/fentouxungui/handwriterApp"
+    docs: "https://github.com/fentouxungui/handwriterApp#readme"
+    copyright: "(c) 2026 handwriterApp authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/handwriterapp.png"
+    r_version: "4.6.1"
+    tags: [handwriting, forensics, statistics, shiny]
+
+  - id: tfrmtbuilder
+    repo: "fentouxungui/tfrmtbuilder-1"
+    name: "tfrmtbuilder"
+    author: "GSK Biostatistics"
+    description: "Build and modify tfrmt table specifications"
+    homepage: "https://github.com/fentouxungui/tfrmtbuilder-1"
+    docs: "https://github.com/GSK-Biostatistics/tfrmtbuilder#readme"
+    copyright: "(c) 2026 tfrmtbuilder authors"
+    license: "Apache License (>= 2)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png"
+    r_version: "4.6.1"
+    tags: [tables, clinical-reporting, standards, shiny]
