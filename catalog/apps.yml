@@ -1602,3 +1602,107 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/zscorer.png"
     r_version: "4.6.1"
     tags: [anthropometry, child-health, z-score, shiny]
+
+  - id: earthui
+    repo: "fentouxungui/earthui"
+    name: "earthUI"
+    author: "William Craytor"
+    description: "Interactive GUI for the earth package"
+    homepage: "https://github.com/fentouxungui/earthui"
+    docs: "https://github.com/fentouxungui/earthui#readme"
+    copyright: "(c) 2026 earthUI authors"
+    license: "AGPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/earthui.png"
+    r_version: "4.6.1"
+    tags: [regression, modeling, gui, shiny]
+
+  - id: statnetweb
+    repo: "fentouxungui/statnetWeb"
+    name: "statnetWeb"
+    author: "Statnet Development Team"
+    description: "Network modeling with statnet"
+    homepage: "https://github.com/fentouxungui/statnetWeb"
+    docs: "https://github.com/fentouxungui/statnetWeb#readme"
+    copyright: "(c) 2026 statnetWeb authors"
+    license: "GPL-3"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/statnetweb.png"
+    r_version: "4.6.1"
+    tags: [network, statistics, modeling, shiny]
+
+  - id: parcc
+    repo: "fentouxungui/ParCC"
+    name: "ParCC"
+    author: "ParCC authors"
+    description: "Parameter converter and calculator for health technology assessment"
+    homepage: "https://github.com/fentouxungui/ParCC"
+    docs: "https://github.com/fentouxungui/ParCC#readme"
+    copyright: "(c) 2026 ParCC authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/parcc.png"
+    r_version: "4.6.1"
+    tags: [health-economics, survival, calculator, shiny]
+
+  - id: holomics
+    repo: "fentouxungui/Holomics"
+    name: "Holomics"
+    author: "Holomics authors"
+    description: "Multi-omics data integration and analysis"
+    homepage: "https://github.com/fentouxungui/Holomics"
+    docs: "https://github.com/fentouxungui/Holomics#readme"
+    copyright: "(c) 2026 Holomics authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/holomics.png"
+    r_version: "4.6.1"
+    tags: [multi-omics, integration, bioinformatics, shiny]
+
+  - id: testanaapp
+    repo: "fentouxungui/TestAnaAPP"
+    name: "TestAnaAPP"
+    author: "Jiang Youxiang"
+    description: "Interactive test analysis and visualization"
+    homepage: "https://github.com/fentouxungui/TestAnaAPP"
+    docs: "https://github.com/fentouxungui/TestAnaAPP#readme"
+    copyright: "(c) 2026 TestAnaAPP authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/testanaapp.png"
+    r_version: "4.6.1"
+    tags: [psychometrics, test-analysis, education, shiny]
+
+  - id: datacompare
+    repo: "fentouxungui/dataCompare"
+    name: "dataCompare"
+    author: "dataCompare authors"
+    description: "Compare two data frames"
+    homepage: "https://github.com/fentouxungui/dataCompare"
+    docs: "https://github.com/fentouxungui/dataCompare#readme"
+    copyright: "(c) 2026 dataCompare authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/datacompare.png"
+    r_version: "4.6.1"
+    tags: [data-validation, comparison, tables, shiny]
+
+  - id: projectlsa
+    repo: "fentouxungui/projectLSA"
+    name: "projectLSA"
+    author: "Hasan Djidu"
+    description: "Latent structure analysis with a graphical interface"
+    homepage: "https://github.com/fentouxungui/projectLSA"
+    docs: "https://github.com/fentouxungui/projectLSA#readme"
+    copyright: "(c) 2026 projectLSA authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/projectlsa.png"
+    r_version: "4.6.1"
+    tags: [latent-class, structural-equation, statistics, shiny]
+
+  - id: southparkrshiny
+    repo: "fentouxungui/SouthParkRshiny"
+    name: "SouthParkRshiny"
+    author: "Amalan Con-Stat"
+    description: "Explore data from the TV show South Park"
+    homepage: "https://github.com/fentouxungui/SouthParkRshiny"
+    docs: "https://github.com/fentouxungui/SouthParkRshiny#readme"
+    copyright: "(c) 2026 SouthParkRshiny authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/southparkrshiny.png"
+    r_version: "4.6.1"
+    tags: [data-visualization, entertainment, teaching, shiny]
