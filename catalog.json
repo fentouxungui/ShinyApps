@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-18T23:46:38Z",
+  "updated_at": "2026-10-19T00:50:58Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -3696,6 +3696,254 @@
           "url": "https://github.com/fentouxungui/zscorer/releases/download/v0.3.2/zscorer-0.3.2-win-x64.zip",
           "size": 41649808,
           "sha256": "5f760f77e3c6e52288ebd1557065e05b031539e5e02ffef882b1f8763c2ce598"
+        }
+      }
+    },
+    {
+      "id": "earthui",
+      "name": "earthUI",
+      "author": "William Craytor",
+      "description": "Interactive GUI for the earth package",
+      "homepage": "https://github.com/fentouxungui/earthui",
+      "docs": "https://github.com/fentouxungui/earthui#readme",
+      "copyright": "(c) 2026 earthUI authors",
+      "license": "AGPL (>= 3)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/earthui.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "regression",
+        "modeling",
+        "gui",
+        "shiny"
+      ],
+      "version": "0.12.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/earthui/releases/download/v0.12.0/earthui-0.12.0-mac-arm64.zip",
+          "size": 128162618,
+          "sha256": "b610a30bbfdf76ec77eaef168d569fde4e947b8f95369ee81006cc426faaa977"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/earthui/releases/download/v0.12.0/earthui-0.12.0-win-x64.zip",
+          "size": 140386236,
+          "sha256": "97c9684b5bfa853dc32b50eb430fccebc5ac5bc005d3d3ff36a7ed161485663e"
+        }
+      }
+    },
+    {
+      "id": "statnetweb",
+      "name": "statnetWeb",
+      "author": "Statnet Development Team",
+      "description": "Network modeling with statnet",
+      "homepage": "https://github.com/fentouxungui/statnetWeb",
+      "docs": "https://github.com/fentouxungui/statnetWeb#readme",
+      "copyright": "(c) 2026 statnetWeb authors",
+      "license": "GPL-3",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/statnetweb.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "network",
+        "statistics",
+        "modeling",
+        "shiny"
+      ],
+      "version": "0.7.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/statnetWeb/releases/download/v0.7.0/statnetweb-0.7.0-mac-arm64.zip",
+          "size": 82936654,
+          "sha256": "dc5462274f069ed95a34941f79c0ae03a85e05021f733deccf5ebc372527eaa2"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/statnetWeb/releases/download/v0.7.0/statnetweb-0.7.0-win-x64.zip",
+          "size": 85255336,
+          "sha256": "f674841a2ba1cf26239d654fad5d3e7102d5970780477dcd1fa4acee194347b4"
+        }
+      }
+    },
+    {
+      "id": "parcc",
+      "name": "ParCC",
+      "author": "ParCC authors",
+      "description": "Parameter converter and calculator for health technology assessment",
+      "homepage": "https://github.com/fentouxungui/ParCC",
+      "docs": "https://github.com/fentouxungui/ParCC#readme",
+      "copyright": "(c) 2026 ParCC authors",
+      "license": "MIT + file LICENSE",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/parcc.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "health-economics",
+        "survival",
+        "calculator",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/ParCC/releases/download/v0.1.0/parcc-0.1.0-mac-arm64.zip",
+          "size": 87799095,
+          "sha256": "93afb2d84cb20b03f052765d9317bdbbc8de2be16ea15a91dfd62670a86d4b15"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/ParCC/releases/download/v0.1.0/parcc-0.1.0-win-x64.zip",
+          "size": 92462359,
+          "sha256": "b9c89e7ac3ac0138614e2790e277dfc9971b0683deb455aaec81ff187afd2a51"
+        }
+      }
+    },
+    {
+      "id": "holomics",
+      "name": "Holomics",
+      "author": "Holomics authors",
+      "description": "Multi-omics data integration and analysis",
+      "homepage": "https://github.com/fentouxungui/Holomics",
+      "docs": "https://github.com/fentouxungui/Holomics#readme",
+      "copyright": "(c) 2026 Holomics authors",
+      "license": "GPL (>= 3)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/holomics.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "multi-omics",
+        "integration",
+        "bioinformatics",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/Holomics/releases/download/v0.1.0/holomics-0.1.0-mac-arm64.zip",
+          "size": 168839314,
+          "sha256": "9105330568fdfca5ea773c8ea078f2b44a529aae19d5d5b4193d71364a78d241"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/Holomics/releases/download/v0.1.0/holomics-0.1.0-win-x64.zip",
+          "size": 175534285,
+          "sha256": "537359146446b168a09416ff60077348c34630142284aa2db358d053d0017c6f"
+        }
+      }
+    },
+    {
+      "id": "testanaapp",
+      "name": "TestAnaAPP",
+      "author": "Jiang Youxiang",
+      "description": "Interactive test analysis and visualization",
+      "homepage": "https://github.com/fentouxungui/TestAnaAPP",
+      "docs": "https://github.com/fentouxungui/TestAnaAPP#readme",
+      "copyright": "(c) 2026 TestAnaAPP authors",
+      "license": "GPL (>= 3)",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/testanaapp.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "psychometrics",
+        "test-analysis",
+        "education",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/TestAnaAPP/releases/download/v0.1.0/testanaapp-0.1.0-mac-arm64.zip",
+          "size": 309142963,
+          "sha256": "ae4760c14e2d6f311814f5f9021cfc8ef219f0362316c5bbe559474ba24e5187"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/TestAnaAPP/releases/download/v0.1.0/testanaapp-0.1.0-win-x64.zip",
+          "size": 331806361,
+          "sha256": "f60004d3cc4b38d0ff3c9836e32f32961618f18019b128f46367966360ec0074"
+        }
+      }
+    },
+    {
+      "id": "datacompare",
+      "name": "dataCompare",
+      "author": "dataCompare authors",
+      "description": "Compare two data frames",
+      "homepage": "https://github.com/fentouxungui/dataCompare",
+      "docs": "https://github.com/fentouxungui/dataCompare#readme",
+      "copyright": "(c) 2026 dataCompare authors",
+      "license": "MIT + file LICENSE",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/datacompare.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "data-validation",
+        "comparison",
+        "tables",
+        "shiny"
+      ],
+      "version": "0.2.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/dataCompare/releases/download/v0.2.0/datacompare-0.2.0-mac-arm64.zip",
+          "size": 138450885,
+          "sha256": "b0d641490e1c41ca970d29ae92752a6c0695e512491232bee2680c12eb55057a"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/dataCompare/releases/download/v0.2.0/datacompare-0.2.0-win-x64.zip",
+          "size": 151339480,
+          "sha256": "df87377d0cf2cb48db5cb55c4b0b002542ae847e0b51e51f3e2478071d875b3e"
+        }
+      }
+    },
+    {
+      "id": "projectlsa",
+      "name": "projectLSA",
+      "author": "Hasan Djidu",
+      "description": "Latent structure analysis with a graphical interface",
+      "homepage": "https://github.com/fentouxungui/projectLSA",
+      "docs": "https://github.com/fentouxungui/projectLSA#readme",
+      "copyright": "(c) 2026 projectLSA authors",
+      "license": "MIT + file LICENSE",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/projectlsa.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "latent-class",
+        "structural-equation",
+        "statistics",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/projectLSA/releases/download/v0.1.0/projectlsa-0.1.0-mac-arm64.zip",
+          "size": 273713269,
+          "sha256": "487da29c171f4e129a9ebe7b036456fc23a8ac3d2b0fb531244a18a8ff8a37c0"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/projectLSA/releases/download/v0.1.0/projectlsa-0.1.0-win-x64.zip",
+          "size": 251448370,
+          "sha256": "1fa5d588cc33361b9cf2035bb9a6a89b9f30e3930efe414286b6970782c4ae50"
+        }
+      }
+    },
+    {
+      "id": "southparkrshiny",
+      "name": "SouthParkRshiny",
+      "author": "Amalan Con-Stat",
+      "description": "Explore data from the TV show South Park",
+      "homepage": "https://github.com/fentouxungui/SouthParkRshiny",
+      "docs": "https://github.com/fentouxungui/SouthParkRshiny#readme",
+      "copyright": "(c) 2026 SouthParkRshiny authors",
+      "license": "MIT + file LICENSE",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/southparkrshiny.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "data-visualization",
+        "entertainment",
+        "teaching",
+        "shiny"
+      ],
+      "version": "0.1.0",
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/SouthParkRshiny/releases/download/v0.1.0/southparkrshiny-0.1.0-mac-arm64.zip",
+          "size": 268166438,
+          "sha256": "3268424a4109cb72696368d5881605cabbd91ab524e0893649a1b7dca4920bea"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/SouthParkRshiny/releases/download/v0.1.0/southparkrshiny-0.1.0-win-x64.zip",
+          "size": 241601151,
+          "sha256": "3853f7959fd3ae44e7cc7ef81e8ad87d5ca463cdffe385be117d31c5ed6c3cdb"
         }
       }
     }

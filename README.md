@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 119
+- **Apps:** 127
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-18 23:58:56 UTC
+- **Catalog last updated:** 2026-10-19 00:50:58 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -129,6 +129,14 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/statteacherassistant.png" width="32" alt="StatTeacherAssistant"> | **StatTeacherAssistant**<br>Teaching assistant for introductory statistics | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/StatTeacherAssistant) · [Docs](https://github.com/fentouxungui/StatTeacherAssistant#readme) · [Release](https://github.com/fentouxungui/StatTeacherAssistant/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/vosondash.png" width="32" alt="VOSONDash"> | **VOSONDash**<br>Visualise and analyse social networks | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/VOSONDash) · [Docs](https://github.com/fentouxungui/VOSONDash#readme) · [Release](https://github.com/fentouxungui/VOSONDash/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/zscorer.png" width="32" alt="zscorer"> | **zscorer**<br>Child anthropometry z-score calculator | ✅ 可用 | `0.3.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/zscorer) · [Docs](https://github.com/fentouxungui/zscorer#readme) · [Release](https://github.com/fentouxungui/zscorer/releases/tag/v0.3.2) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/earthui.png" width="32" alt="earthUI"> | **earthUI**<br>Interactive GUI for the earth package | ✅ 可用 | `0.12.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/earthui) · [Docs](https://github.com/fentouxungui/earthui#readme) · [Release](https://github.com/fentouxungui/earthui/releases/tag/v0.12.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/statnetweb.png" width="32" alt="statnetWeb"> | **statnetWeb**<br>Network modeling with statnet | ✅ 可用 | `0.7.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/statnetWeb) · [Docs](https://github.com/fentouxungui/statnetWeb#readme) · [Release](https://github.com/fentouxungui/statnetWeb/releases/tag/v0.7.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/parcc.png" width="32" alt="ParCC"> | **ParCC**<br>Parameter converter and calculator for health technology assessment | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ParCC) · [Docs](https://github.com/fentouxungui/ParCC#readme) · [Release](https://github.com/fentouxungui/ParCC/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/holomics.png" width="32" alt="Holomics"> | **Holomics**<br>Multi-omics data integration and analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/Holomics) · [Docs](https://github.com/fentouxungui/Holomics#readme) · [Release](https://github.com/fentouxungui/Holomics/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/testanaapp.png" width="32" alt="TestAnaAPP"> | **TestAnaAPP**<br>Interactive test analysis and visualization | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/TestAnaAPP) · [Docs](https://github.com/fentouxungui/TestAnaAPP#readme) · [Release](https://github.com/fentouxungui/TestAnaAPP/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/datacompare.png" width="32" alt="dataCompare"> | **dataCompare**<br>Compare two data frames | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/dataCompare) · [Docs](https://github.com/fentouxungui/dataCompare#readme) · [Release](https://github.com/fentouxungui/dataCompare/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/projectlsa.png" width="32" alt="projectLSA"> | **projectLSA**<br>Latent structure analysis with a graphical interface | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/projectLSA) · [Docs](https://github.com/fentouxungui/projectLSA#readme) · [Release](https://github.com/fentouxungui/projectLSA/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/southparkrshiny.png" width="32" alt="SouthParkRshiny"> | **SouthParkRshiny**<br>Explore data from the TV show South Park | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SouthParkRshiny) · [Docs](https://github.com/fentouxungui/SouthParkRshiny#readme) · [Release](https://github.com/fentouxungui/SouthParkRshiny/releases/tag/v0.1.0) |
 
 ---
 
@@ -2759,6 +2767,182 @@ Release: https://github.com/fentouxungui/zscorer/releases/tag/v0.3.2
 |---|---|---:|---|
 | `mac-arm64` | [zscorer-0.3.2-mac-arm64.zip](https://github.com/fentouxungui/zscorer/releases/download/v0.3.2/zscorer-0.3.2-mac-arm64.zip) | 38.2 MB | `d0642b5e84d34724410ae8da0dc1f6dd3f94048d499b0548134ab825be7d590d` |
 | `win-x64` | [zscorer-0.3.2-win-x64.zip](https://github.com/fentouxungui/zscorer/releases/download/v0.3.2/zscorer-0.3.2-win-x64.zip) | 39.7 MB | `5f760f77e3c6e52288ebd1557065e05b031539e5e02ffef882b1f8763c2ce598` |
+
+</details>
+
+### earthUI `0.12.0`
+
+Interactive GUI for the earth package
+
+| Field | Value |
+|---|---|
+| Author | William Craytor |
+| License | AGPL (>= 3) |
+| Copyright | (c) 2026 earthUI authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/earthui/releases/tag/v0.12.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [earthui-0.12.0-mac-arm64.zip](https://github.com/fentouxungui/earthui/releases/download/v0.12.0/earthui-0.12.0-mac-arm64.zip) | 122.2 MB | `b610a30bbfdf76ec77eaef168d569fde4e947b8f95369ee81006cc426faaa977` |
+| `win-x64` | [earthui-0.12.0-win-x64.zip](https://github.com/fentouxungui/earthui/releases/download/v0.12.0/earthui-0.12.0-win-x64.zip) | 133.9 MB | `97c9684b5bfa853dc32b50eb430fccebc5ac5bc005d3d3ff36a7ed161485663e` |
+
+</details>
+
+### statnetWeb `0.7.0`
+
+Network modeling with statnet
+
+| Field | Value |
+|---|---|
+| Author | Statnet Development Team |
+| License | GPL-3 |
+| Copyright | (c) 2026 statnetWeb authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/statnetWeb/releases/tag/v0.7.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [statnetweb-0.7.0-mac-arm64.zip](https://github.com/fentouxungui/statnetWeb/releases/download/v0.7.0/statnetweb-0.7.0-mac-arm64.zip) | 79.1 MB | `dc5462274f069ed95a34941f79c0ae03a85e05021f733deccf5ebc372527eaa2` |
+| `win-x64` | [statnetweb-0.7.0-win-x64.zip](https://github.com/fentouxungui/statnetWeb/releases/download/v0.7.0/statnetweb-0.7.0-win-x64.zip) | 81.3 MB | `f674841a2ba1cf26239d654fad5d3e7102d5970780477dcd1fa4acee194347b4` |
+
+</details>
+
+### ParCC `0.1.0`
+
+Parameter converter and calculator for health technology assessment
+
+| Field | Value |
+|---|---|
+| Author | ParCC authors |
+| License | MIT + file LICENSE |
+| Copyright | (c) 2026 ParCC authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/ParCC/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [parcc-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/ParCC/releases/download/v0.1.0/parcc-0.1.0-mac-arm64.zip) | 83.7 MB | `93afb2d84cb20b03f052765d9317bdbbc8de2be16ea15a91dfd62670a86d4b15` |
+| `win-x64` | [parcc-0.1.0-win-x64.zip](https://github.com/fentouxungui/ParCC/releases/download/v0.1.0/parcc-0.1.0-win-x64.zip) | 88.2 MB | `b9c89e7ac3ac0138614e2790e277dfc9971b0683deb455aaec81ff187afd2a51` |
+
+</details>
+
+### Holomics `0.1.0`
+
+Multi-omics data integration and analysis
+
+| Field | Value |
+|---|---|
+| Author | Holomics authors |
+| License | GPL (>= 3) |
+| Copyright | (c) 2026 Holomics authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/Holomics/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [holomics-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/Holomics/releases/download/v0.1.0/holomics-0.1.0-mac-arm64.zip) | 161.0 MB | `9105330568fdfca5ea773c8ea078f2b44a529aae19d5d5b4193d71364a78d241` |
+| `win-x64` | [holomics-0.1.0-win-x64.zip](https://github.com/fentouxungui/Holomics/releases/download/v0.1.0/holomics-0.1.0-win-x64.zip) | 167.4 MB | `537359146446b168a09416ff60077348c34630142284aa2db358d053d0017c6f` |
+
+</details>
+
+### TestAnaAPP `0.1.0`
+
+Interactive test analysis and visualization
+
+| Field | Value |
+|---|---|
+| Author | Jiang Youxiang |
+| License | GPL (>= 3) |
+| Copyright | (c) 2026 TestAnaAPP authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/TestAnaAPP/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [testanaapp-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/TestAnaAPP/releases/download/v0.1.0/testanaapp-0.1.0-mac-arm64.zip) | 294.8 MB | `ae4760c14e2d6f311814f5f9021cfc8ef219f0362316c5bbe559474ba24e5187` |
+| `win-x64` | [testanaapp-0.1.0-win-x64.zip](https://github.com/fentouxungui/TestAnaAPP/releases/download/v0.1.0/testanaapp-0.1.0-win-x64.zip) | 316.4 MB | `f60004d3cc4b38d0ff3c9836e32f32961618f18019b128f46367966360ec0074` |
+
+</details>
+
+### dataCompare `0.2.0`
+
+Compare two data frames
+
+| Field | Value |
+|---|---|
+| Author | dataCompare authors |
+| License | MIT + file LICENSE |
+| Copyright | (c) 2026 dataCompare authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/dataCompare/releases/tag/v0.2.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [datacompare-0.2.0-mac-arm64.zip](https://github.com/fentouxungui/dataCompare/releases/download/v0.2.0/datacompare-0.2.0-mac-arm64.zip) | 132.0 MB | `b0d641490e1c41ca970d29ae92752a6c0695e512491232bee2680c12eb55057a` |
+| `win-x64` | [datacompare-0.2.0-win-x64.zip](https://github.com/fentouxungui/dataCompare/releases/download/v0.2.0/datacompare-0.2.0-win-x64.zip) | 144.3 MB | `df87377d0cf2cb48db5cb55c4b0b002542ae847e0b51e51f3e2478071d875b3e` |
+
+</details>
+
+### projectLSA `0.1.0`
+
+Latent structure analysis with a graphical interface
+
+| Field | Value |
+|---|---|
+| Author | Hasan Djidu |
+| License | MIT + file LICENSE |
+| Copyright | (c) 2026 projectLSA authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/projectLSA/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [projectlsa-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/projectLSA/releases/download/v0.1.0/projectlsa-0.1.0-mac-arm64.zip) | 261.0 MB | `487da29c171f4e129a9ebe7b036456fc23a8ac3d2b0fb531244a18a8ff8a37c0` |
+| `win-x64` | [projectlsa-0.1.0-win-x64.zip](https://github.com/fentouxungui/projectLSA/releases/download/v0.1.0/projectlsa-0.1.0-win-x64.zip) | 239.8 MB | `1fa5d588cc33361b9cf2035bb9a6a89b9f30e3930efe414286b6970782c4ae50` |
+
+</details>
+
+### SouthParkRshiny `0.1.0`
+
+Explore data from the TV show South Park
+
+| Field | Value |
+|---|---|
+| Author | Amalan Con-Stat |
+| License | MIT + file LICENSE |
+| Copyright | (c) 2026 SouthParkRshiny authors |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/SouthParkRshiny/releases/tag/v0.1.0
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [southparkrshiny-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/SouthParkRshiny/releases/download/v0.1.0/southparkrshiny-0.1.0-mac-arm64.zip) | 255.7 MB | `3268424a4109cb72696368d5881605cabbd91ab524e0893649a1b7dca4920bea` |
+| `win-x64` | [southparkrshiny-0.1.0-win-x64.zip](https://github.com/fentouxungui/SouthParkRshiny/releases/download/v0.1.0/southparkrshiny-0.1.0-win-x64.zip) | 230.4 MB | `3853f7959fd3ae44e7cc7ef81e8ad87d5ca463cdffe385be117d31c5ed6c3cdb` |
 
 </details>
 
