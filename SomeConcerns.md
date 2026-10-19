@@ -1,6 +1,7 @@
 # 一些考虑
 
 - [x] skill
+
   基于已成功上架的Apps，构建一个上架skill
 
 - [x] ShinyApps
