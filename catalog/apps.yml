@@ -365,3 +365,1344 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/miadash.png"
     r_version: "4.6.1"
     tags: [microbiome, dashboard, bioconductor, shiny]
+
+  - id: genome-stats
+    repo: fentouxungui/shiny-genome-stats
+    name: shiny-genome-stats
+    author: "Michael Jahn (MPUSP)"
+    description: "Interactive visualization of basic microbial genome features"
+    homepage: "https://github.com/MPUSP/shiny-genome-stats"
+    docs: "https://github.com/MPUSP/shiny-genome-stats#readme"
+    copyright: "(c) 2024 Michael Jahn"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png"
+    r_version: "4.6.1"
+    tags: [microbial-genomics, genome, visualization, shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: metaboseek
+    repo: fentouxungui/Metaboseek
+    name: Metaboseek
+    author: "Maximilian Helf"
+    description: "Interactive analysis and browsing of mass spectrometry data"
+    homepage: "https://metaboseek.com"
+    docs: "https://github.com/mjhelf/Metaboseek#readme"
+    copyright: "(c) 2017 Maximilian Helf"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png"
+    r_version: "4.6.1"
+    tags: [mass-spectrometry,metabolomics,visualization,shiny]
+
+  - id: gatelabr
+    repo: fentouxungui/GateLabR
+    name: GateLabR
+    author: "David G. Priest"
+    description: "Interactive manual gating of flow / mass cytometry on SingleCellExperiment objects"
+    homepage: "https://david-priest.github.io/GateLabR"
+    docs: "https://david-priest.github.io/GateLabR"
+    copyright: "(c) 2026 David G. Priest"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png"
+    r_version: "4.6.1"
+    tags: [cytometry, cytof, gating, single-cell, shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: familia
+    repo: fentouxungui/Familia
+    name: Familia
+    author: "Breeding Insight"
+    description: "Shiny application for population structure and ancestry assessments"
+    homepage: "https://github.com/Breeding-Insight/Familia"
+    docs: "https://github.com/Breeding-Insight/Familia#readme"
+    copyright: "(c) 2025 Breeding Insight"
+    license: "Apache-2.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/familia.png"
+    r_version: "4.6.1"
+    tags: [genomics,population-structure,ancestry,shiny]
+
+  - id: fieldhub
+    repo: fentouxungui/FielDHub
+    name: FielDHub
+    author: "Didier Murillo"
+    description: "A Shiny app for design of experiments in life sciences"
+    homepage: "https://github.com/DidierMurilloF/FielDHub"
+    docs: "https://didier-murillo.com/FielDHub/"
+    copyright: "(c) 2025 Didier Murillo"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/fieldhub.png"
+    r_version: "4.6.1"
+    tags: [experimental-design, agriculture, statistics, shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: fluxtools
+    repo: fentouxungui/fluxtools
+    name: fluxtools
+    author: "Kesondra Key"
+    description: "Shiny app for reproducible QA/QC of eddy covariance data"
+    homepage: "https://github.com/kesondrakey/fluxtools"
+    docs: "https://github.com/kesondrakey/fluxtools#readme"
+    copyright: "(c) 2025 Kesondra Key"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/fluxtools.png"
+    r_version: "4.6.1"
+    tags: [eddy-covariance,qaqc,environmental,shiny]
+
+  - id: biascorrector
+    repo: fentouxungui/BiasCorrector
+    name: BiasCorrector
+    author: "Lorenz A. Kapsner"
+    description: "GUI to correct measurement bias in DNA methylation analyses"
+    homepage: "https://github.com/kapsner/BiasCorrector"
+    docs: "https://github.com/kapsner/BiasCorrector#readme"
+    copyright: "(c) 2025 Lorenz A. Kapsner"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/biascorrector.png"
+    r_version: "4.6.1"
+    tags: [methylation, epigenetics, bias, gui, shiny]
+
+  - id: quickexplore
+    repo: fentouxungui/QuickExplore
+    name: QuickExplore
+    author: "Ramsas"
+    description: "Interactive dataset explorer for R, SAS and other data formats"
+    homepage: "https://github.com/ramsas88/QuickExplore"
+    docs: "https://github.com/ramsas88/QuickExplore#readme"
+    copyright: "(c) 2025 Ramsas"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/quickexplore.png"
+    r_version: "4.6.1"
+    tags: [data-exploration, viewer, shiny]
+
+  - id: associationexplorer2
+    repo: fentouxungui/AssociationExplorer2
+    name: AssociationExplorer2
+    author: "Antoine Soetewey"
+    description: "Shiny application for exploring associations and visual patterns"
+    homepage: "https://github.com/AntoineSoetewey/AssociationExplorer2"
+    docs: "https://github.com/AntoineSoetewey/AssociationExplorer2#readme"
+    copyright: "(c) 2025 Antoine Soetewey"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/associationexplorer2.png"
+    r_version: "4.6.1"
+    tags: [statistics, association, visualization, shiny]
+
+  - id: hiviz
+    repo: fentouxungui/HIViz
+    name: HIViz
+    author: "Atefeh Rashidi"
+    description: "Interactive dashboard for HIV data visualization"
+    homepage: "https://github.com/Atefehrashidi/HIViz"
+    docs: "https://github.com/Atefehrashidi/HIViz#readme"
+    copyright: "(c) 2025 Atefeh Rashidi"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/hiviz.png"
+    r_version: "4.6.1"
+    tags: [hiv, epidemiology, visualization, dashboard, shiny]
+
+  - id: distplotter
+    repo: fentouxungui/DistPlotter
+    name: DistPlotter
+    author: "Cameron C. S. C."
+    description: "Graphical user interface for plotting common univariate distributions"
+    homepage: "https://github.com/ccasement/DistPlotter"
+    docs: "https://github.com/ccasement/DistPlotter#readme"
+    copyright: "(c) 2025 DistPlotter authors"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/distplotter.png"
+    r_version: "4.6.1"
+    tags: [distributions, plotting, education, gui, shiny]
+
+  - id: ngstoolkit
+    repo: fentouxungui/NGS-Tool-Kit
+    name: NGSToolKit
+    author: "Sona Charles, Febin T Nabeel"
+    description: "RNA-Seq analysis and genome visualization Shiny platform"
+    homepage: "https://github.com/bigfacilityiisr/NGS-Tool-Kit"
+    docs: "https://github.com/bigfacilityiisr/NGS-Tool-Kit#readme"
+    copyright: "(c) 2025 Sona Charles"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/ngstoolkit.png"
+    r_version: "4.6.1"
+    tags: [rna-seq, genomics, visualization, shiny]
+
+  - id: dqagui
+    repo: fentouxungui/dqa-dqagui
+    name: DQAgui
+    author: "miracum"
+    description: "Graphical user interface for data quality assessment"
+    homepage: "https://github.com/miracum/dqa-dqagui"
+    docs: "https://github.com/miracum/dqa-dqagui#readme"
+    copyright: "(c) 2025 miracum"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/dqagui.png"
+    r_version: "4.6.1"
+    tags: [data-quality, assessment, gui, shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: taipan
+    repo: fentouxungui/taipan
+    name: taipan
+    author: "Sam Cobain"
+    description: "Tool for annotating images in preparation for analysis"
+    homepage: "https://github.com/srkobakian/taipan"
+    docs: "https://github.com/srkobakian/taipan#readme"
+    copyright: "(c) 2025 Sam Cobain"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/taipan.png"
+    r_version: "4.6.1"
+    tags: [image-annotation,imaging,shiny]
+
+  - id: allelobin
+    repo: fentouxungui/AlleloBin
+    name: AlleloBin
+    author: "V. Prasanth"
+    description: "Shiny application for allele binning in microsatellite markers"
+    homepage: "https://github.com/vpprasanth/AlleloBin"
+    docs: "https://github.com/vpprasanth/AlleloBin#readme"
+    copyright: "(c) 2025 V. Prasanth"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/allelobin.png"
+    r_version: "4.6.1"
+    tags: [genetics, allele-binning, shiny]
+
+  - id: metaanalyser
+    repo: fentouxungui/MetaAnalyser
+    name: MetaAnalyser
+    author: "Christopher Jackson"
+    description: "Interactive visualisation of meta-analysis"
+    homepage: "https://github.com/chjackson/MetaAnalyser"
+    docs: "https://github.com/chjackson/MetaAnalyser#readme"
+    copyright: "(c) 2025 Christopher Jackson"
+    license: "GPL-2.0-or-later"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/metaanalyser.png"
+    r_version: "4.6.1"
+    tags: [meta-analysis, statistics, visualization, shiny]
+
+  - id: reliashiny
+    repo: fentouxungui/ReliaShiny
+    name: ReliaShiny
+    author: "Paul Govan"
+    description: "Shiny app for reliability analysis"
+    homepage: "https://github.com/paulgovan/ReliaShiny"
+    docs: "https://github.com/paulgovan/ReliaShiny#readme"
+    copyright: "(c) 2025 Paul Govan"
+    license: "CC-BY-4.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/reliashiny.png"
+    r_version: "4.6.1"
+    tags: [reliability, statistics, shiny]
+
+  - id: shinymergely
+    repo: fentouxungui/shinyMergely
+    name: shinyMergely
+    author: "Stephane Laurent"
+    description: "Compare and merge two files with a Shiny app"
+    homepage: "https://github.com/stla/shinyMergely"
+    docs: "https://github.com/stla/shinyMergely#readme"
+    copyright: "(c) 2025 Stephane Laurent"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png"
+    r_version: "4.6.1"
+    tags: [diff, merge, text, shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: diagnostysize
+    repo: fentouxungui/DiagnostySize_App
+    name: DiagnostySize
+    author: "Jana W."
+    description: "App for calculating the sample size in a diagnostic study"
+    homepage: "https://github.com/JanaW09/DiagnostySize_App"
+    docs: "https://github.com/JanaW09/DiagnostySize_App#readme"
+    copyright: "(c) 2025 Jana W."
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png"
+    r_version: "4.6.1"
+    tags: [sample-size, diagnostics, statistics, shiny]
+
+  - id: lavaanshiny
+    repo: fentouxungui/lavaan.shiny
+    name: lavaan.shiny
+    author: "William Kyle Hamilton"
+    description: "Latent variable analysis with Shiny"
+    homepage: "https://github.com/kylehamilton/lavaan.shiny"
+    docs: "https://github.com/kylehamilton/lavaan.shiny#readme"
+    copyright: "(c) 2025 William Kyle Hamilton"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/lavaanshiny.png"
+    r_version: "4.6.1"
+    tags: [sem, latent-variable, statistics, shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: greymodels
+    repo: fentouxungui/Greymodels
+    name: Greymodels
+    author: "Havisha J."
+    description: "Shiny app for Grey forecasting models"
+    homepage: "https://github.com/havishaJ/Greymodels"
+    docs: "https://github.com/havishaJ/Greymodels#readme"
+    copyright: "(c) 2025 Havisha J."
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/greymodels.png"
+    r_version: "4.6.1"
+    tags: [forecasting,grey-model,statistics,shiny]
+
+  - id: fossilsimshiny
+    repo: fentouxungui/FossilSimShiny
+    name: FossilSimShiny
+    author: "FossilSim authors"
+    description: "Shiny app for FossilSim"
+    homepage: "https://github.com/fossilsim/FossilSimShiny"
+    docs: "https://github.com/fossilsim/FossilSimShiny#readme"
+    copyright: "(c) 2025 FossilSimShiny authors"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/fossilsimshiny.png"
+    r_version: "4.6.1"
+    tags: [paleontology, fossils, simulation, shiny]
+
+  - id: genest
+    repo: fentouxungui/GenEst
+    name: GenEst
+    author: "Daniel Dalthorp"
+    description: "Generalized mortality estimator"
+    homepage: "https://github.com/ddalthorp/GenEst"
+    docs: "https://github.com/ddalthorp/GenEst#readme"
+    copyright: "(c) 2025 GenEst authors"
+    license: "CC0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/genest.png"
+    r_version: "4.6.1"
+    tags: [mortality, statistics, estimation, shiny]
+
+  - id: icsshiny
+    repo: fentouxungui/ICSShiny
+    name: ICSShiny
+    author: "Aurore Archimbaud, Klaus Nordhausen"
+    description: "ICS via a Shiny application"
+    homepage: "https://github.com/cran/ICSShiny"
+    docs: "https://github.com/cran/ICSShiny#readme"
+    copyright: "(c) 2025 ICSShiny authors"
+    license: "GPL-2.0-or-later"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/icsshiny.png"
+    r_version: "4.6.1"
+    tags: [independent-components, statistics, shiny]
+
+  - id: irtshiny
+    repo: fentouxungui/IRTShiny
+    name: IRTShiny
+    author: "W. Kyle Hamilton"
+    description: "Item response theory via Shiny"
+    homepage: "https://github.com/kylehamilton/IRTShiny"
+    docs: "https://github.com/kylehamilton/IRTShiny#readme"
+    copyright: "(c) 2025 IRTShiny authors"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/irtshiny.png"
+    r_version: "4.6.1"
+    tags: [irt, psychometrics, statistics, shiny]
+
+  - id: kappagui
+    repo: fentouxungui/KappaGUI
+    name: KappaGUI
+    author: "Frederic Santos"
+    description: "Shiny application for Cohen and Fleiss kappa"
+    homepage: "https://github.com/cran/KappaGUI"
+    docs: "https://github.com/cran/KappaGUI#readme"
+    copyright: "(c) 2025 KappaGUI authors"
+    license: "GPL-2.0-or-later"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/kappagui.png"
+    r_version: "4.6.1"
+    tags: [agreement, kappa, statistics, shiny]
+
+  - id: metsizer
+    repo: fentouxungui/MetSizeR
+    name: MetSizeR
+    author: "Dan Jordan"
+    description: "Shiny app for sample size estimation in metabolomic experiments"
+    homepage: "https://github.com/1danjordan/MetSizeR"
+    docs: "https://github.com/1danjordan/MetSizeR#readme"
+    copyright: "(c) 2025 MetSizeR authors"
+    license: "GPL-2.0-or-later"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/metsizer.png"
+    r_version: "4.6.1"
+    tags: [metabolomics, sample-size, statistics, shiny]
+
+  - id: repplabshiny
+    repo: fentouxungui/REPPlabShiny
+    name: REPPlabShiny
+    author: "Thomas Janka, Klaus Nordhausen"
+    description: "REPPlab via a Shiny application"
+    homepage: "https://github.com/cran/REPPlabShiny"
+    docs: "https://github.com/cran/REPPlabShiny#readme"
+    copyright: "(c) 2025 REPPlabShiny authors"
+    license: "GPL-2.0-or-later"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/repplabshiny.png"
+    r_version: "4.6.1"
+    tags: [projection-pursuit, statistics, shiny]
+
+  - id: stmgui
+    repo: fentouxungui/stmGUI
+    name: stmgui
+    author: "Dan Zangri"
+    description: "Shiny application for creating STM models"
+    homepage: "https://github.com/dzangri/stmGUI"
+    docs: "https://github.com/dzangri/stmGUI#readme"
+    copyright: "(c) 2025 stmgui authors"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/stmgui.png"
+    r_version: "4.6.1"
+    tags: [topic-modeling, stm, text, shiny]
+
+# Append this block under `apps:` in ShinyApps/catalog/apps.yml
+# (two-space indent before the dash), add the icon at ShinyApps/icons/<id>.png,
+# then let publish-catalog run. The id MUST equal the release asset prefix
+# (<id>-<version>-<platform>.zip).
+  - id: difshiny
+    repo: fentouxungui/DIFshiny
+    name: DIFshiny
+    author: "DIFshiny authors"
+    description: "Differential item functioning via a Shiny application"
+    homepage: "https://github.com/cran/DIFshiny"
+    docs: "https://github.com/cran/DIFshiny#readme"
+    copyright: "(c) 2025 DIFshiny authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/difshiny.png"
+    r_version: "4.6.1"
+    tags: [dif,psychometrics,statistics,shiny]
+
+  - id: channelattributionapp
+    repo: fentouxungui/ChannelAttributionApp
+    name: ChannelAttributionApp
+    author: "Davide Altomare, David Loris"
+    description: "Shiny web application for the multichannel attribution problem"
+    homepage: "https://github.com/cran/ChannelAttributionApp"
+    docs: "https://github.com/cran/ChannelAttributionApp#readme"
+    copyright: "(c) 2020 Davide Altomare"
+    license: "GPL-3.0"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/channelattributionapp.png"
+    r_version: "4.6.1"
+    tags: [attribution, marketing, markov, shiny]
+
+  - id: squeakr
+    repo: fentouxungui/SqueakR
+    name: SqueakR
+    author: "SqueakR authors"
+    description: "Shiny dashboard for SqueakR behavioural analysis"
+    homepage: "https://github.com/fentouxungui/SqueakR"
+    docs: "https://github.com/fentouxungui/SqueakR#readme"
+    copyright: "(c) 2025 SqueakR authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/squeakr.png"
+    r_version: "4.6.1"
+    tags: [behaviour, dashboard, analysis, shiny]
+
+  - id: html2r
+    repo: fentouxungui/html2R
+    name: html2R
+    author: "html2R authors"
+    description: "Convert HTML to R Shiny applications"
+    homepage: "https://github.com/fentouxungui/html2R"
+    docs: "https://github.com/fentouxungui/html2R#readme"
+    copyright: "(c) 2025 html2R authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/html2r.png"
+    r_version: "4.6.1"
+    tags: [html, code-generation, shiny]
+
+  - id: sombrero
+    repo: fentouxungui/SOMbrero
+    name: SOMbrero
+    author: "SOMbrero authors"
+    description: "SOMbrero self-organizing map GUI"
+    homepage: "https://github.com/fentouxungui/SOMbrero"
+    docs: "https://github.com/fentouxungui/SOMbrero#readme"
+    copyright: "(c) 2025 SOMbrero authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/sombrero.png"
+    r_version: "4.6.1"
+    tags: [som, clustering, visualization, shiny]
+
+  - id: somenv
+    repo: fentouxungui/SOMEnv
+    name: SOMEnv
+    author: "SOMEnv authors"
+    description: "Self-organizing map environment analysis GUI"
+    homepage: "https://github.com/fentouxungui/SOMEnv"
+    docs: "https://github.com/fentouxungui/SOMEnv#readme"
+    copyright: "(c) 2025 SOMEnv authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/somenv.png"
+    r_version: "4.6.1"
+    tags: [som, environment, gis, shiny]
+
+  - id: gwsdat
+    repo: fentouxungui/GWSDAT
+    name: GWSDAT
+    author: "GWSDAT authors"
+    description: "GroundWater Spatiotemporal Data Analysis Tool"
+    homepage: "https://github.com/fentouxungui/GWSDAT"
+    docs: "https://github.com/fentouxungui/GWSDAT#readme"
+    copyright: "(c) 2025 GWSDAT authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/gwsdat.png"
+    r_version: "4.6.1"
+    tags: [groundwater, spatial, environmental, shiny]
+
+  - id: expandar
+    repo: fentouxungui/ExPanDaR
+    name: ExPanDaR
+    author: "Joachim Gassen"
+    description: "Interactive exploratory panel data analysis"
+    homepage: "https://github.com/fentouxungui/ExPanDaR"
+    docs: "https://github.com/fentouxungui/ExPanDaR#readme"
+    copyright: "(c) 2025 ExPanDaR authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/expandar.png"
+    r_version: "4.6.1"
+    tags: [panel-data, exploratory, data-analysis, shiny]
+
+  - id: deepdep
+    repo: fentouxungui/deepdep
+    name: deepdep
+    author: "Dominik Rafacz"
+    description: "Visualise and explore the deep dependencies of R packages"
+    homepage: "https://github.com/fentouxungui/deepdep"
+    docs: "https://github.com/fentouxungui/deepdep#readme"
+    copyright: "(c) 2025 deepdep authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/deepdep.png"
+    r_version: "4.6.1"
+    tags: [dependency, visualization, packages, shiny]
+
+  - id: r3dmol
+    repo: fentouxungui/r3dmol
+    name: r3dmol
+    author: "Wei Su"
+    description: "Interactive 3D visualization of molecular data"
+    homepage: "https://github.com/fentouxungui/r3dmol"
+    docs: "https://github.com/fentouxungui/r3dmol#readme"
+    copyright: "(c) 2025 r3dmol authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/r3dmol.png"
+    r_version: "4.6.1"
+    tags: [molecular, 3d, visualization, shiny]
+
+  - id: shinyinvoice
+    repo: fentouxungui/invoice-public
+    name: shinyInvoice
+    author: "Fernando Roa"
+    description: "Generate a PDF invoice with Rmarkdown"
+    homepage: "https://github.com/fentouxungui/invoice-public"
+    docs: "https://github.com/fentouxungui/invoice-public#readme"
+    copyright: "(c) 2025 shinyInvoice authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinyinvoice.png"
+    r_version: "4.6.1"
+    tags: [invoice, pdf, rmarkdown, shiny]
+
+  - id: olympicrshiny
+    repo: fentouxungui/OlympicRshiny
+    name: OlympicRshiny
+    author: "Amalan Mahendran"
+    description: "Shiny application for Olympic data"
+    homepage: "https://github.com/fentouxungui/OlympicRshiny"
+    docs: "https://github.com/fentouxungui/OlympicRshiny#readme"
+    copyright: "(c) 2025 OlympicRshiny authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/olympicrshiny.png"
+    r_version: "4.6.1"
+    tags: [olympics, data, visualization, shiny]
+
+  - id: easysdctable
+    repo: fentouxungui/ssb-easysdctable
+    name: easySdcTable
+    author: "Statistics Norway"
+    description: "Easy interface to statistical disclosure control"
+    homepage: "https://github.com/fentouxungui/ssb-easysdctable"
+    docs: "https://github.com/fentouxungui/ssb-easysdctable#readme"
+    copyright: "(c) 2025 easySdcTable authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/easysdctable.png"
+    r_version: "4.6.1"
+    tags: [disclosure, statistics, gui, shiny]
+
+  - id: mmirestriktor
+    repo: fentouxungui/mmirestriktor
+    name: mmirestriktor
+    author: "Mighty Metrika"
+    description: "Informative hypothesis testing web applications"
+    homepage: "https://github.com/fentouxungui/mmirestriktor"
+    docs: "https://github.com/fentouxungui/mmirestriktor#readme"
+    copyright: "(c) 2025 mmirestriktor authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/mmirestriktor.png"
+    r_version: "4.6.1"
+    tags: [hypothesis-testing, statistics, web-app, shiny]
+
+  - id: holi
+    repo: fentouxungui/holi
+    name: holi
+    author: "Mighty Metrika"
+    description: "Higher order likelihood inference web applications"
+    homepage: "https://github.com/fentouxungui/holi"
+    docs: "https://github.com/fentouxungui/holi#readme"
+    copyright: "(c) 2025 holi authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/holi.png"
+    r_version: "4.6.1"
+    tags: [likelihood-inference, statistics, web-app, shiny]
+
+  - id: shinybrms
+    repo: fentouxungui/shinybrms
+    name: shinybrms
+    author: "shinybrms authors"
+    description: "Shiny interface for brms Bayesian models"
+    homepage: "https://github.com/fentouxungui/shinybrms"
+    docs: "https://github.com/fentouxungui/shinybrms#readme"
+    copyright: "(c) 2025 shinybrms authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinybrms.png"
+    r_version: "4.6.1"
+    tags: [bayesian, brms, modeling, shiny]
+
+  - id: lande
+    repo: fentouxungui/lande
+    name: lande
+    author: "lande authors"
+    description: "Landscape analysis and visualization"
+    homepage: "https://github.com/fentouxungui/lande"
+    docs: "https://github.com/fentouxungui/lande#readme"
+    copyright: "(c) 2025 lande authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/lande.png"
+    r_version: "4.6.1"
+    tags: [landscape, ecology, analysis, shiny]
+
+  - id: mispitools
+    repo: fentouxungui/mispitools
+    name: mispitools
+    author: "mispitools authors"
+    description: "Missing person identification tools"
+    homepage: "https://github.com/fentouxungui/mispitools"
+    docs: "https://github.com/fentouxungui/mispitools#readme"
+    copyright: "(c) 2025 mispitools authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/mispitools.png"
+    r_version: "4.6.1"
+    tags: [forensics, identification, missing-persons, shiny]
+
+  - id: ggplotgui
+    repo: fentouxungui/ggplotgui
+    name: ggplotgui
+    author: "Gert Stulp"
+    description: "Create ggplot2 plots interactively"
+    homepage: "https://github.com/fentouxungui/ggplotgui"
+    docs: "https://github.com/fentouxungui/ggplotgui#readme"
+    copyright: "(c) 2025 ggplotgui authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/ggplotgui.png"
+    r_version: "4.6.1"
+    tags: [ggplot2, visualization, interactive, shiny]
+
+  - id: mmibain
+    repo: fentouxungui/mmibain
+    name: mmibain
+    author: "Mighty Metrika"
+    description: "Bayes factors for informed hypotheses"
+    homepage: "https://github.com/fentouxungui/mmibain"
+    docs: "https://github.com/fentouxungui/mmibain#readme"
+    copyright: "(c) 2025 mmibain authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/mmibain.png"
+    r_version: "4.6.1"
+    tags: [bayes-factors, hypothesis-testing, statistics, shiny]
+
+  - id: archeofrag-gui
+    repo: "fentouxungui/archeofrag.gui"
+    name: "archeofrag.gui"
+    author: "Sebastien Plutniak"
+    description: "GUI for the archeofrag fragmentation analysis"
+    homepage: "https://github.com/fentouxungui/archeofrag.gui"
+    docs: "https://github.com/fentouxungui/archeofrag.gui#readme"
+    copyright: "(c) 2025 archeofrag.gui authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/archeofrag-gui.png"
+    r_version: "4.6.1"
+    tags: [archaeology, fragmentation, network, shiny]
+
+  - id: cocktailapp
+    repo: "fentouxungui/cocktailApp"
+    name: "cocktailApp"
+    author: "Modesto Escobar"
+    description: "Cocktail party effect visualization"
+    homepage: "https://github.com/fentouxungui/cocktailApp"
+    docs: "https://github.com/fentouxungui/cocktailApp#readme"
+    copyright: "(c) 2025 cocktailApp authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/cocktailapp.png"
+    r_version: "4.6.1"
+    tags: [visualization, survey, cocktail, shiny]
+
+  - id: vvdoctor
+    repo: "fentouxungui/vvdoctor"
+    name: "vvdoctor"
+    author: "vvdoctor authors"
+    description: "Diagnose data and model problems"
+    homepage: "https://github.com/fentouxungui/vvdoctor"
+    docs: "https://github.com/fentouxungui/vvdoctor#readme"
+    copyright: "(c) 2025 vvdoctor authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/vvdoctor.png"
+    r_version: "4.6.1"
+    tags: [diagnostics, data-quality, models, shiny]
+
+  - id: sdstudio
+    repo: "fentouxungui/sdstudio"
+    name: "sdstudio"
+    author: "sdstudio authors"
+    description: "Interactive survey data studio"
+    homepage: "https://github.com/fentouxungui/sdstudio"
+    docs: "https://github.com/fentouxungui/sdstudio#readme"
+    copyright: "(c) 2025 sdstudio authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/sdstudio.png"
+    r_version: "4.6.1"
+    tags: [survey, data, studio, shiny]
+
+  - id: quallmer-app
+    repo: "fentouxungui/quallmer.app"
+    name: "quallmer.app"
+    author: "quallmer.app authors"
+    description: "Qualitative coding comparison app"
+    homepage: "https://github.com/fentouxungui/quallmer.app"
+    docs: "https://github.com/fentouxungui/quallmer.app#readme"
+    copyright: "(c) 2025 quallmer.app authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/quallmer-app.png"
+    r_version: "4.6.1"
+    tags: [qualitative, coding, comparison, shiny]
+
+  - id: pressfreedom
+    repo: "fentouxungui/pressfreedom"
+    name: "pressfreedom"
+    author: "pressfreedom authors"
+    description: "Press freedom data explorer"
+    homepage: "https://github.com/fentouxungui/pressfreedom"
+    docs: "https://github.com/fentouxungui/pressfreedom#readme"
+    copyright: "(c) 2025 pressfreedom authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/pressfreedom.png"
+    r_version: "4.6.1"
+    tags: [press-freedom, media, data, shiny]
+
+  - id: ggraptr
+    repo: "fentouxungui/ggraptR"
+    name: "ggraptR"
+    author: "ggraptR authors"
+    description: "Interactive ggplot2 exploration"
+    homepage: "https://github.com/fentouxungui/ggraptR"
+    docs: "https://github.com/fentouxungui/ggraptR#readme"
+    copyright: "(c) 2025 ggraptR authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/ggraptr.png"
+    r_version: "4.6.1"
+    tags: [ggplot2, visualization, interactive, shiny]
+
+  - id: yuima-gui
+    repo: "fentouxungui/yuimaGUI"
+    name: "yuimaGUI"
+    author: "yuimaGUI authors"
+    description: "GUI for the yuima stochastic process package"
+    homepage: "https://github.com/fentouxungui/yuimaGUI"
+    docs: "https://github.com/fentouxungui/yuimaGUI#readme"
+    copyright: "(c) 2025 yuimaGUI authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/yuima-gui.png"
+    r_version: "4.6.1"
+    tags: [stochastic, time-series, gui, shiny]
+
+  - id: censuspyrid
+    repo: "fentouxungui/censuspyrID"
+    name: "censuspyrID"
+    author: "censuspyrID authors"
+    description: "Census data explorer for Puerto Rico"
+    homepage: "https://github.com/fentouxungui/censuspyrID"
+    docs: "https://github.com/fentouxungui/censuspyrID#readme"
+    copyright: "(c) 2025 censuspyrID authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/censuspyrid.png"
+    r_version: "4.6.1"
+    tags: [census, puerto-rico, data, shiny]
+
+  - id: fitodbodrshiny
+    repo: "fentouxungui/fitODBODRshiny"
+    name: "fitODBODRshiny"
+    author: "fitODBODRshiny authors"
+    description: "Fit ODBOD distributions interactively"
+    homepage: "https://github.com/fentouxungui/fitODBODRshiny"
+    docs: "https://github.com/fentouxungui/fitODBODRshiny#readme"
+    copyright: "(c) 2025 fitODBODRshiny authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/fitodbodrshiny.png"
+    r_version: "4.6.1"
+    tags: [distribution, fitting, statistics, shiny]
+
+  - id: esdm
+    repo: "fentouxungui/eSDM"
+    name: "eSDM"
+    author: "eSDM authors"
+    description: "Species distribution models for marine data"
+    homepage: "https://github.com/fentouxungui/eSDM"
+    docs: "https://github.com/fentouxungui/eSDM#readme"
+    copyright: "(c) 2025 eSDM authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/esdm.png"
+    r_version: "4.6.1"
+    tags: [species-distribution, marine, modeling, shiny]
+
+  - id: adverseevents
+    repo: "fentouxungui/AdverseEvents"
+    name: "AdverseEvents"
+    author: "AdverseEvents authors"
+    description: "Adverse event data exploration"
+    homepage: "https://github.com/fentouxungui/AdverseEvents"
+    docs: "https://github.com/fentouxungui/AdverseEvents#readme"
+    copyright: "(c) 2025 AdverseEvents authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/adverseevents.png"
+    r_version: "4.6.1"
+    tags: [adverse-events, clinical, exploration, shiny]
+
+  - id: isocor
+    repo: "fentouxungui/IsoCor"
+    name: "IsoCor"
+    author: "IsoCor authors"
+    description: "Isotope correction for mass spectrometry"
+    homepage: "https://github.com/fentouxungui/IsoCor"
+    docs: "https://github.com/fentouxungui/IsoCor#readme"
+    copyright: "(c) 2025 IsoCor authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/isocor.png"
+    r_version: "4.6.1"
+    tags: [isotope, mass-spectrometry, correction, shiny]
+
+  - id: minmeta
+    repo: "fentouxungui/miniMeta"
+    name: "miniMeta"
+    author: "miniMeta authors"
+    description: "Minimal meta-analysis app"
+    homepage: "https://github.com/fentouxungui/miniMeta"
+    docs: "https://github.com/fentouxungui/miniMeta#readme"
+    copyright: "(c) 2025 miniMeta authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/minmeta.png"
+    r_version: "4.6.1"
+    tags: [meta-analysis, statistics, visualization, shiny]
+
+  - id: gde
+    repo: "fentouxungui/gde"
+    name: "gde"
+    author: "gde authors"
+    description: "Graphical data exploration"
+    homepage: "https://github.com/fentouxungui/gde"
+    docs: "https://github.com/fentouxungui/gde#readme"
+    copyright: "(c) 2025 gde authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/gde.png"
+    r_version: "4.6.1"
+    tags: [data-exploration, graphical, gui, shiny]
+
+  - id: seasonalview
+    repo: "fentouxungui/seasonalview"
+    name: "seasonalview"
+    author: "seasonalview authors"
+    description: "Seasonal adjustment viewer"
+    homepage: "https://github.com/fentouxungui/seasonalview"
+    docs: "https://github.com/fentouxungui/seasonalview#readme"
+    copyright: "(c) 2025 seasonalview authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/seasonalview.png"
+    r_version: "4.6.1"
+    tags: [seasonal-adjustment, time-series, visualization, shiny]
+
+  - id: memapp
+    repo: "fentouxungui/memapp"
+    name: "memapp"
+    author: "memapp authors"
+    description: "Morphometric analysis app"
+    homepage: "https://github.com/fentouxungui/memapp"
+    docs: "https://github.com/fentouxungui/memapp#readme"
+    copyright: "(c) 2025 memapp authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/memapp.png"
+    r_version: "4.6.1"
+    tags: [morphometrics, analysis, app, shiny]
+
+  - id: elaborator
+    repo: "fentouxungui/elaborator"
+    name: "elaborator"
+    author: "elaborator authors"
+    description: "Visual exploration of laboratory data"
+    homepage: "https://github.com/fentouxungui/elaborator"
+    docs: "https://github.com/fentouxungui/elaborator#readme"
+    copyright: "(c) 2025 elaborator authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/elaborator.png"
+    r_version: "4.6.1"
+    tags: [laboratory, visualization, exploration, shiny]
+
+  - id: dqcheckrgui
+    repo: "fentouxungui/dqcheckrGUI"
+    name: "dqcheckrGUI"
+    author: "dqcheckrGUI authors"
+    description: "Data quality checks GUI"
+    homepage: "https://github.com/fentouxungui/dqcheckrGUI"
+    docs: "https://github.com/fentouxungui/dqcheckrGUI#readme"
+    copyright: "(c) 2025 dqcheckrGUI authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/dqcheckrgui.png"
+    r_version: "4.6.1"
+    tags: [data-quality, checks, gui, shiny]
+
+  - id: visxhclust
+    repo: "fentouxungui/visxhclust"
+    name: "visxhclust"
+    author: "visxhclust authors"
+    description: "Visual exploration of hierarchical clustering"
+    homepage: "https://github.com/fentouxungui/visxhclust"
+    docs: "https://github.com/fentouxungui/visxhclust#readme"
+    copyright: "(c) 2025 visxhclust authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/visxhclust.png"
+    r_version: "4.6.1"
+    tags: [clustering, visualization, hierarchical, shiny]
+
+  - id: phecodemap
+    repo: "fentouxungui/phecodemap"
+    name: "phecodemap"
+    author: "phecodemap authors"
+    description: "Phenotype code mapping"
+    homepage: "https://github.com/fentouxungui/phecodemap"
+    docs: "https://github.com/fentouxungui/phecodemap#readme"
+    copyright: "(c) 2025 phecodemap authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/phecodemap.png"
+    r_version: "4.6.1"
+    tags: [phenotype, codes, mapping, shiny]
+
+  - id: fdapaceshiny
+    repo: "fentouxungui/fdapaceShiny"
+    name: "fdapaceShiny"
+    author: "fdapaceShiny authors"
+    description: "Functional data analysis app"
+    homepage: "https://github.com/fentouxungui/fdapaceShiny"
+    docs: "https://github.com/fentouxungui/fdapaceShiny#readme"
+    copyright: "(c) 2025 fdapaceShiny authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/fdapaceshiny.png"
+    r_version: "4.6.1"
+    tags: [functional-data, analysis, shiny]
+
+  - id: glossa
+    repo: "fentouxungui/glossa"
+    name: "glossa"
+    author: "glossa authors"
+    description: "Glossary and ontology exploration"
+    homepage: "https://github.com/fentouxungui/glossa"
+    docs: "https://github.com/fentouxungui/glossa#readme"
+    copyright: "(c) 2025 glossa authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/glossa.png"
+    r_version: "4.6.1"
+    tags: [glossary, ontology, exploration, shiny]
+
+  - id: anca
+    repo: "fentouxungui/aNCA"
+    name: "aNCA"
+    author: "aNCA authors"
+    description: "Non-compartmental analysis"
+    homepage: "https://github.com/fentouxungui/aNCA"
+    docs: "https://github.com/fentouxungui/aNCA#readme"
+    copyright: "(c) 2025 aNCA authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/anca.png"
+    r_version: "4.6.1"
+    tags: [pharmacokinetics, nca, analysis, shiny]
+
+  - id: shinymixr
+    repo: "fentouxungui/shinyMixR"
+    name: "shinyMixR"
+    author: "Richard Hooijmaijers"
+    description: "Interactive mixed-effects model exploration"
+    homepage: "https://github.com/fentouxungui/shinyMixR"
+    docs: "https://github.com/fentouxungui/shinyMixR#readme"
+    copyright: "(c) 2025 shinyMixR authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinymixr.png"
+    r_version: "4.6.1"
+    tags: [pharmacometrics, modeling, mixed-effects, shiny]
+
+  - id: kesernetwork
+    repo: "fentouxungui/kesernetwork"
+    name: "kesernetwork"
+    author: "kesernetwork authors"
+    description: "Knowledge graph network explorer"
+    homepage: "https://github.com/fentouxungui/kesernetwork"
+    docs: "https://github.com/fentouxungui/kesernetwork#readme"
+    copyright: "(c) 2025 kesernetwork authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/kesernetwork.png"
+    r_version: "4.6.1"
+    tags: [knowledge-graph, network, exploration, shiny]
+
+  - id: shinykgode
+    repo: "fentouxungui/shinyKGode"
+    name: "shinyKGode"
+    author: "shinyKGode authors"
+    description: "Interactive ODE parameter estimation"
+    homepage: "https://github.com/fentouxungui/shinyKGode"
+    docs: "https://github.com/fentouxungui/shinyKGode#readme"
+    copyright: "(c) 2025 shinyKGode authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinykgode.png"
+    r_version: "4.6.1"
+    tags: [ode, parameter-estimation, modeling, shiny]
+
+  - id: viewpoly
+    repo: "fentouxungui/viewpoly"
+    name: "viewpoly"
+    author: "Breeding Insight"
+    description: "Visualize polyploid genetic data"
+    homepage: "https://github.com/fentouxungui/viewpoly"
+    docs: "https://github.com/fentouxungui/viewpoly#readme"
+    copyright: "(c) 2025 viewpoly authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/viewpoly.png"
+    r_version: "4.6.1"
+    tags: [polyploid, genetics, visualization, shiny]
+
+  - id: normalityassessment
+    repo: "fentouxungui/NormalityAssessment"
+    name: "NormalityAssessment"
+    author: "NormalityAssessment authors"
+    description: "Assess normality of data"
+    homepage: "https://github.com/fentouxungui/NormalityAssessment"
+    docs: "https://github.com/fentouxungui/NormalityAssessment#readme"
+    copyright: "(c) 2025 NormalityAssessment authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/normalityassessment.png"
+    r_version: "4.6.1"
+    tags: [normality, statistics, diagnostics, shiny]
+
+  - id: assumpsure
+    repo: "fentouxungui/AssumpSure"
+    name: "AssumpSure"
+    author: "AssumpSure authors"
+    description: "Check statistical assumptions"
+    homepage: "https://github.com/fentouxungui/AssumpSure"
+    docs: "https://github.com/fentouxungui/AssumpSure#readme"
+    copyright: "(c) 2025 AssumpSure authors"
+    license: "See upstream"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/assumpsure.png"
+    r_version: "4.6.1"
+    tags: [assumptions, statistics, diagnostics, shiny]
+
+  - id: activanalyzer
+    repo: "fentouxungui/activAnalyzer"
+    name: "activAnalyzer"
+    author: "Pierre-Yves de Müllenheim"
+    description: "Analyze accelerometer-measured daily physical behavior data"
+    homepage: "https://github.com/fentouxungui/activAnalyzer"
+    docs: "https://github.com/fentouxungui/activAnalyzer#readme"
+    copyright: "(c) 2025 activAnalyzer authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/activanalyzer.png"
+    r_version: "4.6.1"
+    tags: [accelerometer, physical-activity, health, shiny]
+
+  - id: catascience
+    repo: "fentouxungui/cataScience"
+    name: "cataScience"
+    author: "Shanlong Ding"
+    description: "Interactive training app for data science and AI skills"
+    homepage: "https://github.com/fentouxungui/cataScience"
+    docs: "https://github.com/fentouxungui/cataScience#readme"
+    copyright: "(c) 2025 cataScience authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/catascience.png"
+    r_version: "4.6.1"
+    tags: [data-science, teaching, training, shiny]
+
+  - id: shinysbm
+    repo: "fentouxungui/shinySbm"
+    name: "shinySbm"
+    author: "Julie Aubert"
+    description: "Shiny interface for the stochastic block model"
+    homepage: "https://github.com/fentouxungui/shinySbm"
+    docs: "https://github.com/fentouxungui/shinySbm#readme"
+    copyright: "(c) 2025 shinySbm authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/shinysbm.png"
+    r_version: "4.6.1"
+    tags: [network, stochastic-block-model, clustering, shiny]
+
+  - id: complexr
+    repo: "fentouxungui/complexr"
+    name: "complexr"
+    author: "Stalyn Guerrero"
+    description: "Interactive survey data analysis"
+    homepage: "https://github.com/fentouxungui/complexr"
+    docs: "https://github.com/fentouxungui/complexr#readme"
+    copyright: "(c) 2026 complexr authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/complexr.png"
+    r_version: "4.6.1"
+    tags: [survey, statistics, data-analysis, shiny]
+
+  - id: dataviewr
+    repo: "fentouxungui/dataviewR"
+    name: "dataviewR"
+    author: "Madhan Kumar N"
+    description: "Interactive viewer for data frames"
+    homepage: "https://github.com/fentouxungui/dataviewR"
+    docs: "https://github.com/fentouxungui/dataviewR#readme"
+    copyright: "(c) 2026 dataviewR authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/dataviewr.png"
+    r_version: "4.6.1"
+    tags: [data-viewer, exploration, tables, shiny]
+
+  - id: drdata
+    repo: "fentouxungui/DrData"
+    name: "DrData"
+    author: "Mohsen Mehdinia"
+    description: "End-to-end interactive data science platform"
+    homepage: "https://github.com/fentouxungui/DrData"
+    docs: "https://github.com/fentouxungui/DrData#readme"
+    copyright: "(c) 2026 DrData authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/drdata.png"
+    r_version: "4.6.1"
+    tags: [data-science, machine-learning, teaching, shiny]
+
+  - id: exmort
+    repo: "fentouxungui/exmort"
+    name: "exmort"
+    author: "Shanlong Ding"
+    description: "All-cause and excess mortality calculator"
+    homepage: "https://github.com/fentouxungui/exmort"
+    docs: "https://github.com/fentouxungui/exmort#readme"
+    copyright: "(c) 2026 exmort authors"
+    license: "GPL-3"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/exmort.png"
+    r_version: "4.6.1"
+    tags: [mortality, epidemiology, public-health, shiny]
+
+  - id: monobinshiny
+    repo: "fentouxungui/monobinShiny"
+    name: "monobinShiny"
+    author: "Andrija Djurovic"
+    description: "Shiny interface for the monobin package"
+    homepage: "https://github.com/fentouxungui/monobinShiny"
+    docs: "https://github.com/fentouxungui/monobinShiny#readme"
+    copyright: "(c) 2026 monobinShiny authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/monobinshiny.png"
+    r_version: "4.6.1"
+    tags: [binning, credit-scoring, monobin, shiny]
+
+  - id: paramgui
+    repo: "fentouxungui/paramGUI"
+    name: "paramGUI"
+    author: "Joris Snellenburg"
+    description: "Shiny GUI for parameter estimation examples"
+    homepage: "https://github.com/fentouxungui/paramGUI"
+    docs: "https://github.com/fentouxungui/paramGUI#readme"
+    copyright: "(c) 2026 paramGUI authors"
+    license: "GPL (>= 2)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/paramgui.png"
+    r_version: "4.6.1"
+    tags: [parameter-estimation, spectroscopy, modeling, shiny]
+
+  - id: statteacherassistant
+    repo: "fentouxungui/StatTeacherAssistant"
+    name: "StatTeacherAssistant"
+    author: "Christopher Casement"
+    description: "Teaching assistant for introductory statistics"
+    homepage: "https://github.com/fentouxungui/StatTeacherAssistant"
+    docs: "https://github.com/fentouxungui/StatTeacherAssistant#readme"
+    copyright: "(c) 2026 StatTeacherAssistant authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/statteacherassistant.png"
+    r_version: "4.6.1"
+    tags: [statistics, teaching, education, shiny]
+
+  - id: vosondash
+    repo: "fentouxungui/VOSONDash"
+    name: "VOSONDash"
+    author: "Bryan Gertzel"
+    description: "Visualise and analyse social networks"
+    homepage: "https://github.com/fentouxungui/VOSONDash"
+    docs: "https://github.com/fentouxungui/VOSONDash#readme"
+    copyright: "(c) 2026 VOSONDash authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/vosondash.png"
+    r_version: "4.6.1"
+    tags: [social-network, network-analysis, visualization, shiny]
+
+  - id: zscorer
+    repo: "fentouxungui/zscorer"
+    name: "zscorer"
+    author: "Ernest Guevarra"
+    description: "Child anthropometry z-score calculator"
+    homepage: "https://github.com/fentouxungui/zscorer"
+    docs: "https://github.com/fentouxungui/zscorer#readme"
+    copyright: "(c) 2026 zscorer authors"
+    license: "AGPL-3"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/zscorer.png"
+    r_version: "4.6.1"
+    tags: [anthropometry, child-health, z-score, shiny]
+
+  - id: earthui
+    repo: "fentouxungui/earthui"
+    name: "earthUI"
+    author: "William Craytor"
+    description: "Interactive GUI for the earth package"
+    homepage: "https://github.com/fentouxungui/earthui"
+    docs: "https://github.com/fentouxungui/earthui#readme"
+    copyright: "(c) 2026 earthUI authors"
+    license: "AGPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/earthui.png"
+    r_version: "4.6.1"
+    tags: [regression, modeling, gui, shiny]
+
+  - id: statnetweb
+    repo: "fentouxungui/statnetWeb"
+    name: "statnetWeb"
+    author: "Statnet Development Team"
+    description: "Network modeling with statnet"
+    homepage: "https://github.com/fentouxungui/statnetWeb"
+    docs: "https://github.com/fentouxungui/statnetWeb#readme"
+    copyright: "(c) 2026 statnetWeb authors"
+    license: "GPL-3"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/statnetweb.png"
+    r_version: "4.6.1"
+    tags: [network, statistics, modeling, shiny]
+
+  - id: parcc
+    repo: "fentouxungui/ParCC"
+    name: "ParCC"
+    author: "ParCC authors"
+    description: "Parameter converter and calculator for health technology assessment"
+    homepage: "https://github.com/fentouxungui/ParCC"
+    docs: "https://github.com/fentouxungui/ParCC#readme"
+    copyright: "(c) 2026 ParCC authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/parcc.png"
+    r_version: "4.6.1"
+    tags: [health-economics, survival, calculator, shiny]
+
+  - id: holomics
+    repo: "fentouxungui/Holomics"
+    name: "Holomics"
+    author: "Holomics authors"
+    description: "Multi-omics data integration and analysis"
+    homepage: "https://github.com/fentouxungui/Holomics"
+    docs: "https://github.com/fentouxungui/Holomics#readme"
+    copyright: "(c) 2026 Holomics authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/holomics.png"
+    r_version: "4.6.1"
+    tags: [multi-omics, integration, bioinformatics, shiny]
+
+  - id: testanaapp
+    repo: "fentouxungui/TestAnaAPP"
+    name: "TestAnaAPP"
+    author: "Jiang Youxiang"
+    description: "Interactive test analysis and visualization"
+    homepage: "https://github.com/fentouxungui/TestAnaAPP"
+    docs: "https://github.com/fentouxungui/TestAnaAPP#readme"
+    copyright: "(c) 2026 TestAnaAPP authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/testanaapp.png"
+    r_version: "4.6.1"
+    tags: [psychometrics, test-analysis, education, shiny]
+
+  - id: datacompare
+    repo: "fentouxungui/dataCompare"
+    name: "dataCompare"
+    author: "dataCompare authors"
+    description: "Compare two data frames"
+    homepage: "https://github.com/fentouxungui/dataCompare"
+    docs: "https://github.com/fentouxungui/dataCompare#readme"
+    copyright: "(c) 2026 dataCompare authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/datacompare.png"
+    r_version: "4.6.1"
+    tags: [data-validation, comparison, tables, shiny]
+
+  - id: projectlsa
+    repo: "fentouxungui/projectLSA"
+    name: "projectLSA"
+    author: "Hasan Djidu"
+    description: "Latent structure analysis with a graphical interface"
+    homepage: "https://github.com/fentouxungui/projectLSA"
+    docs: "https://github.com/fentouxungui/projectLSA#readme"
+    copyright: "(c) 2026 projectLSA authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/projectlsa.png"
+    r_version: "4.6.1"
+    tags: [latent-class, structural-equation, statistics, shiny]
+
+  - id: southparkrshiny
+    repo: "fentouxungui/SouthParkRshiny"
+    name: "SouthParkRshiny"
+    author: "Amalan Con-Stat"
+    description: "Explore data from the TV show South Park"
+    homepage: "https://github.com/fentouxungui/SouthParkRshiny"
+    docs: "https://github.com/fentouxungui/SouthParkRshiny#readme"
+    copyright: "(c) 2026 SouthParkRshiny authors"
+    license: "MIT + file LICENSE"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/southparkrshiny.png"
+    r_version: "4.6.1"
+    tags: [data-visualization, entertainment, teaching, shiny]
+
+  - id: handwriterapp
+    repo: "fentouxungui/handwriterApp"
+    name: "handwriterApp"
+    author: "CSAFE"
+    description: "Handwriting analysis"
+    homepage: "https://github.com/fentouxungui/handwriterApp"
+    docs: "https://github.com/fentouxungui/handwriterApp#readme"
+    copyright: "(c) 2026 handwriterApp authors"
+    license: "GPL (>= 3)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/handwriterapp.png"
+    r_version: "4.6.1"
+    tags: [handwriting, forensics, statistics, shiny]
+
+  - id: tfrmtbuilder
+    repo: "fentouxungui/tfrmtbuilder-1"
+    name: "tfrmtbuilder"
+    author: "GSK Biostatistics"
+    description: "Build and modify tfrmt table specifications"
+    homepage: "https://github.com/fentouxungui/tfrmtbuilder-1"
+    docs: "https://github.com/GSK-Biostatistics/tfrmtbuilder#readme"
+    copyright: "(c) 2026 tfrmtbuilder authors"
+    license: "Apache License (>= 2)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png"
+    r_version: "4.6.1"
+    tags: [tables, clinical-reporting, standards, shiny]
