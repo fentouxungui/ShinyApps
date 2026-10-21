@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-20T12:20:48Z",
+  "updated_at": "2026-10-21T02:16:05Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -3215,17 +3215,17 @@
         "statistics",
         "clinical-health"
       ],
-      "version": "0.1.0",
+      "version": "0.1.1",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/exmort/releases/download/v0.1.0/exmort-0.1.0-mac-arm64.zip",
-          "size": 153779994,
-          "sha256": "5c930fa9d1042538f48f465961c16f2ae405691268cb20aa0dba3e20dc203c6c"
+          "url": "https://github.com/fentouxungui/exmort/releases/download/v0.1.1/exmort-0.1.1-mac-arm64.zip",
+          "size": 152358081,
+          "sha256": "969405cfcd86770944458cad58cd5fc1314d100d8881bd6c049de9f52f6a7b92"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/exmort/releases/download/v0.1.0/exmort-0.1.0-win-x64.zip",
-          "size": 165988198,
-          "sha256": "9ed58062141a561d5ee1d934815dcb7384725bd8824971171788fdde095d123b"
+          "url": "https://github.com/fentouxungui/exmort/releases/download/v0.1.1/exmort-0.1.1-win-x64.zip",
+          "size": 165969598,
+          "sha256": "1f4f8b01dfac6fc06f181b626c95cd1384b401688525c8ed3013001203531f41"
         }
       }
     },

@@ -4,7 +4,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 
 - **Apps:** 127
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-21 00:55:24 UTC
+- **Catalog last updated:** 2026-10-21 02:16:05 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -121,7 +121,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/complexr.png" width="32" alt="complexr"> | **complexr**<br>Interactive survey data analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/complexr) · [Docs](https://github.com/fentouxungui/complexr#readme) · [Release](https://github.com/fentouxungui/complexr/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/dataviewr.png" width="32" alt="dataviewR"> | **dataviewR**<br>Interactive viewer for data frames | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/dataviewR) · [Docs](https://github.com/fentouxungui/dataviewR#readme) · [Release](https://github.com/fentouxungui/dataviewR/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/drdata.png" width="32" alt="DrData"> | **DrData**<br>End-to-end interactive data science platform | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/DrData) · [Docs](https://github.com/fentouxungui/DrData#readme) · [Release](https://github.com/fentouxungui/DrData/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/exmort.png" width="32" alt="exmort"> | **exmort**<br>All-cause and excess mortality calculator | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/exmort) · [Docs](https://github.com/fentouxungui/exmort#readme) · [Release](https://github.com/fentouxungui/exmort/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/exmort.png" width="32" alt="exmort"> | **exmort**<br>All-cause and excess mortality calculator | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/exmort) · [Docs](https://github.com/fentouxungui/exmort#readme) · [Release](https://github.com/fentouxungui/exmort/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/monobinshiny.png" width="32" alt="monobinShiny"> | **monobinShiny**<br>Shiny interface for the monobin package | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/monobinShiny) · [Docs](https://github.com/fentouxungui/monobinShiny#readme) · [Release](https://github.com/fentouxungui/monobinShiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/paramgui.png" width="32" alt="paramGUI"> | **paramGUI**<br>Shiny GUI for parameter estimation examples | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/paramGUI) · [Docs](https://github.com/fentouxungui/paramGUI#readme) · [Release](https://github.com/fentouxungui/paramGUI/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/statteacherassistant.png" width="32" alt="StatTeacherAssistant"> | **StatTeacherAssistant**<br>Teaching assistant for introductory statistics | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/StatTeacherAssistant) · [Docs](https://github.com/fentouxungui/StatTeacherAssistant#readme) · [Release](https://github.com/fentouxungui/StatTeacherAssistant/releases/tag/v0.1.0) |
@@ -2594,7 +2594,7 @@ Release: https://github.com/fentouxungui/DrData/releases/tag/v0.1.0
 
 </details>
 
-### exmort `0.1.0`
+### exmort `0.1.1`
 
 All-cause and excess mortality calculator
 
@@ -2605,14 +2605,14 @@ All-cause and excess mortality calculator
 | Copyright | (c) 2026 exmort authors |
 | R version | 4.6.1 |
 
-Release: https://github.com/fentouxungui/exmort/releases/tag/v0.1.0
+Release: https://github.com/fentouxungui/exmort/releases/tag/v0.1.1
 
 <details><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
-| `mac-arm64` | [exmort-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/exmort/releases/download/v0.1.0/exmort-0.1.0-mac-arm64.zip) | 146.7 MB | `5c930fa9d1042538f48f465961c16f2ae405691268cb20aa0dba3e20dc203c6c` |
-| `win-x64` | [exmort-0.1.0-win-x64.zip](https://github.com/fentouxungui/exmort/releases/download/v0.1.0/exmort-0.1.0-win-x64.zip) | 158.3 MB | `9ed58062141a561d5ee1d934815dcb7384725bd8824971171788fdde095d123b` |
+| `mac-arm64` | [exmort-0.1.1-mac-arm64.zip](https://github.com/fentouxungui/exmort/releases/download/v0.1.1/exmort-0.1.1-mac-arm64.zip) | 145.3 MB | `969405cfcd86770944458cad58cd5fc1314d100d8881bd6c049de9f52f6a7b92` |
+| `win-x64` | [exmort-0.1.1-win-x64.zip](https://github.com/fentouxungui/exmort/releases/download/v0.1.1/exmort-0.1.1-win-x64.zip) | 158.3 MB | `1f4f8b01dfac6fc06f181b626c95cd1384b401688525c8ed3013001203531f41` |
 
 </details>
 
