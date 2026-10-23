@@ -45,7 +45,7 @@
   如何给在ShinyApps上架的App添加一个收录的标志，可以是徽章吗，比如在其github介绍页面，添加一个badge，可以显示status（ShinyApps Catalog里的）和“ShinyApps Store”字符，然后点击后可以链接到shinyapp软件的下载页面，这样可以吗，你有什么更好的建议？先讨论一下。
   
   在skill中作为一个option选项？如果作者愿意，可以复制一行代码到app的readme文件中，就可以显示该徽章了，
-话说，如何制作为ShinyApps制作一个好看的徽章。然后如果走徽章这条路，可以拿我github账号中复刻的各个仓库为例，通过修改Readme文件，加入徽章，测试效果。
+  话说，如何制作为ShinyApps制作一个好看的徽章。然后如果走徽章这条路，可以拿我github账号中复刻的各个仓库为例，通过修改Readme文件，加入徽章，测试效果。
 
 - [x] shinyelectron
   
@@ -58,6 +58,10 @@
 - [ ] shinyelectron and shinyapps
   
   如果原app提供网页版应用，则在catlog中收录这个url，可以是多个，然后再...中显示official online app，点击链接到网页上。
+  
+- [ ] ShinyApps and skills
+
+​	基于Strok邮件中ShinyApps的挖掘，目前挑选了xOmicsShiny（已提Issue）、ScRDAVis（Release build好了，未提Issue）、ERSAtool和EasyPubPlot，由于免费MAC使用额度已经用尽，只能下个月继续尝试了。
 
 # 备注
 
