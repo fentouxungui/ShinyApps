@@ -60,8 +60,12 @@
   如果原app提供网页版应用，则在catlog中收录这个url，可以是多个，然后再...中显示official online app，点击链接到网页上。
   
 - [ ] ShinyApps and skills
+  
+  基于Strok邮件中ShinyApps的挖掘，目前挑选了xOmicsShiny（已提Issue）、ScRDAVis（Release build好了，未提Issue）、ERSAtool和EasyPubPlot，由于免费MAC使用额度已经用尽，只能下个月继续尝试了。
 
-​	基于Strok邮件中ShinyApps的挖掘，目前挑选了xOmicsShiny（已提Issue）、ScRDAVis（Release build好了，未提Issue）、ERSAtool和EasyPubPlot，由于免费MAC使用额度已经用尽，只能下个月继续尝试了。
+- [ ] ShinyApps and skills and shinyelectron
+  
+  让AI预测一下每个App运行时对硬件的需求，添加到catalog中，显示到ShinyApps卡片中
 
 # 备注
 
