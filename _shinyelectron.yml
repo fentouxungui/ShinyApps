@@ -8,6 +8,7 @@
 
 app:
   name: "ShinyApps"
+  launcher_title: "Shiny Applications"   # heading on the launcher page
   version: "0.1.0"                 # shell version
   slug: "shinyapps"
   log_level: "info"
