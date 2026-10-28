@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-28T05:42:34Z",
+  "updated_at": "2026-10-28T06:46:08Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -897,17 +897,17 @@
         "ecology-environment",
         "statistics"
       ],
-      "version": "0.1.0",
+      "version": "0.1.6",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/FielDHub/releases/download/v0.1.0/fieldhub-0.1.0-mac-arm64.zip",
-          "size": 101684813,
-          "sha256": "83d46e06118251250694549609d9828154cc6c04b4defe4bd5279f5daa61f832"
+          "url": "https://github.com/fentouxungui/FielDHub/releases/download/v0.1.6/fieldhub-0.1.6-mac-arm64.zip",
+          "size": 101685042,
+          "sha256": "062acdc4a033a66aab85e570bc0985d3a45a67488182c3ea797feb13e34d7189"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/FielDHub/releases/download/v0.1.0/fieldhub-0.1.0-win-x64.zip",
-          "size": 107341256,
-          "sha256": "444eea2672f573aece5374e410f027c00fa2aa41317dbb5b2ec9d2de344b055f"
+          "url": "https://github.com/fentouxungui/FielDHub/releases/download/v0.1.6/fieldhub-0.1.6-win-x64.zip",
+          "size": 107341274,
+          "sha256": "997bd0c8894ecde2a410a7cca32858f9f9f31f94250083a2d0a7bdbf13bbd375"
         }
       }
     },
