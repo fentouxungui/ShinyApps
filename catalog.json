@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-21T02:16:05Z",
+  "updated_at": "2026-10-28T05:42:34Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -49,17 +49,17 @@
         "single-cell",
         "data-wrangling"
       ],
-      "version": "0.1.2",
+      "version": "0.1.3",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.2/scconvert-0.1.2-mac-arm64.zip",
-          "size": 220535795,
-          "sha256": "1aa5c85e6992a73ac7f37830c83f1661ae1eefa27534e49153c57d25a6a2348c"
+          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-mac-arm64.zip",
+          "size": 205331201,
+          "sha256": "f67806abf764d9fc2c347938c05698e57d52b692deed916e156833a40ae00b23"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.2/scconvert-0.1.2-win-x64.zip",
-          "size": 236082816,
-          "sha256": "7a842737c33abe7b938e390526b125d15fadb3004bbf332cebe4ba383bd0b0cb"
+          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-win-x64.zip",
+          "size": 221413257,
+          "sha256": "9e05f88613d11c528a734647e07eeb8884955b0cd330d3d0c3db2b1c1c6552fc"
         }
       }
     },

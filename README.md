@@ -4,14 +4,14 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 
 - **Apps:** 127
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-28 02:15:42 UTC
+- **Catalog last updated:** 2026-10-28 05:42:34 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
 | Icon | App | Status | Version | Platforms | Links |
 |:---:|---|:---:|---:|---|---|
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png" width="32" alt="SeuratExplorer"> | **SeuratExplorer**<br>Explore scRNA-seq data processed in Seurat | ✅ 可用 | `0.1.9` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SeuratExplorer) · [Docs](https://github.com/fentouxungui/SeuratExplorer/wiki) · [Release](https://github.com/fentouxungui/SeuratExplorer/releases/tag/v0.1.9) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/scconvert.png" width="32" alt="scConvertShiny"> | **scConvertShiny**<br>Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCellExperiment / Zarr etc.) | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/scConvertShiny) · [Docs](https://github.com/fentouxungui/scConvertShiny#readme) · [Release](https://github.com/fentouxungui/scConvertShiny/releases/tag/v0.1.2) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/scconvert.png" width="32" alt="scConvertShiny"> | **scConvertShiny**<br>Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCellExperiment / Zarr etc.) | ✅ 可用 | `0.1.3` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/scConvertShiny) · [Docs](https://github.com/fentouxungui/scConvertShiny#readme) · [Release](https://github.com/fentouxungui/scConvertShiny/releases/tag/v0.1.3) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/isee.png" width="32" alt="iSEE"> | **iSEE**<br>Interactive SummarizedExperiment Explorer | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/iSEE) · [Docs](https://isee.github.io/iSEE/) · [Release](https://github.com/fentouxungui/iSEE/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png" width="32" alt="UCSCXenaShiny"> | **UCSCXenaShiny**<br>Interactive analysis and visualization of UCSC Xena cancer genomics data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/UCSCXenaShiny) · [Docs](https://openbiox.github.io/UCSCXenaShiny/) · [Release](https://github.com/fentouxungui/UCSCXenaShiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png" width="32" alt="spatialLIBD"> | **spatialLIBD**<br>Interactive visualization of spatially-resolved transcriptomics data (10x Genomics Visium) from the LIBD human DLPFC project | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/spatialLIBD) · [Docs](http://research.libd.org/spatialLIBD/) · [Release](https://github.com/fentouxungui/spatialLIBD/releases/tag/v0.1.0) |
@@ -165,7 +165,7 @@ Release: https://github.com/fentouxungui/SeuratExplorer/releases/tag/v0.1.9
 
 </details>
 
-### scConvertShiny `0.1.2`
+### scConvertShiny `0.1.3`
 
 Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCellExperiment / Zarr etc.)
 
@@ -177,14 +177,14 @@ Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCe
 | Copyright | (c) 2026 Zhang Yongchao |
 | R version | 4.6.1 |
 
-Release: https://github.com/fentouxungui/scConvertShiny/releases/tag/v0.1.2
+Release: https://github.com/fentouxungui/scConvertShiny/releases/tag/v0.1.3
 
 <details><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
-| `mac-arm64` | [scconvert-0.1.2-mac-arm64.zip](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.2/scconvert-0.1.2-mac-arm64.zip) | 210.3 MB | `1aa5c85e6992a73ac7f37830c83f1661ae1eefa27534e49153c57d25a6a2348c` |
-| `win-x64` | [scconvert-0.1.2-win-x64.zip](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.2/scconvert-0.1.2-win-x64.zip) | 225.1 MB | `7a842737c33abe7b938e390526b125d15fadb3004bbf332cebe4ba383bd0b0cb` |
+| `mac-arm64` | [scconvert-0.1.3-mac-arm64.zip](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-mac-arm64.zip) | 195.8 MB | `f67806abf764d9fc2c347938c05698e57d52b692deed916e156833a40ae00b23` |
+| `win-x64` | [scconvert-0.1.3-win-x64.zip](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-win-x64.zip) | 211.2 MB | `9e05f88613d11c528a734647e07eeb8884955b0cd330d3d0c3db2b1c1c6552fc` |
 
 </details>
 
