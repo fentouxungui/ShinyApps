@@ -12,7 +12,7 @@ app:
   version: "0.1.0"                 # shell version
   slug: "shinyapps"
   log_level: "info"
-  description: "Desktop launcher for Shiny apps"
+  description: "Desktop launcher for Shiny Applications"
   author: "Zhang Yongchao"
   email: "zhangyongchao@nibs.ac.cn"
   homepage: "https://github.com/fentouxungui/ShinyApps"

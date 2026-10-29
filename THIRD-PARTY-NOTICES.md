@@ -33,21 +33,7 @@ under. It is provided for attribution and redistribution compliance.
 
 ---
 
-## 2. App dependency tarballs committed under `dependency/`
-
-These tarballs are committed to this repository and/or installed into the
-bundled R library at build time.
-
-| Bundle file | Package | License | Source |
-|---|---|---|---|
-| `SeuratExplorer_0.1.9.tar.gz` | SeuratExplorer | **GPL-3.0-or-later** (`GPL (>= 3)`) | <https://github.com/fentouxungui/SeuratExplorer> |
-| `presto-1.1.0.tar.gz` | presto | **GPL-3.0** (`GPL-3`) | <https://github.com/immunogenomics/presto> |
-| `scConvertShiny_0.1.1.tar.gz` | scConvertShiny | **MIT** (`MIT + file LICENSE`) | <https://github.com/fentouxungui/scConvertShiny> |
-| `scConvert-0.2.1.tar.gz` | scConvert | **GPL-3.0** (`GPL-3 | file LICENSE`) | <https://github.com/mianaz/scConvert> |
-
----
-
-## 3. Catalog apps (installable bundles, published from their own repos)
+## 2. Catalog apps (installable bundles, published from their own repos)
 
 These apps are registered in `catalog/apps.yml` and delivered as on-demand
 bundles from their own GitHub Releases. Each app retains its own license; the
@@ -62,7 +48,7 @@ ShinyApps shell does not relicense them.
 
 ---
 
-## 4. CRAN / Bioconductor dependency closure
+## 3. CRAN / Bioconductor dependency closure
 
 The shell and app bundles ship **prebuilt binary R packages** for their full
 dependency closure (configured via `_shinyelectron.yml`; e.g. `Seurat`,
@@ -85,7 +71,7 @@ Representative examples (verify per version against the package `DESCRIPTION`):
 
 ---
 
-## 5. Redistribution obligations
+## 4. Redistribution obligations
 
 - **AGPL-3.0 (shell).** The shell installers are object-code distributions of
   a work containing `shinyelectron` (AGPL-3.0). Under AGPL-3.0 §6 you must
@@ -108,7 +94,7 @@ Representative examples (verify per version against the package `DESCRIPTION`):
 
 ---
 
-## 6. Notes
+## 5. Notes
 
 - License names above follow SPDX identifiers where possible.
 - This notice covers the repository contents and the built artifacts at the
