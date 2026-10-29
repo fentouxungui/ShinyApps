@@ -4,7 +4,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 
 - **Apps:** 127
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-29 00:23:44 UTC
+- **Catalog last updated:** 2026-10-29 01:41:59 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -39,7 +39,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png" width="32" alt="shiny-genome-stats"> | **shiny-genome-stats**<br>Interactive visualization of basic microbial genome features | ✅ 可用 | `0.1.7` | `mac-arm64`, `win-x64` | [Home](https://github.com/MPUSP/shiny-genome-stats) · [Docs](https://github.com/MPUSP/shiny-genome-stats#readme) · [Release](https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.7) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png" width="32" alt="Metaboseek"> | **Metaboseek**<br>Interactive analysis and browsing of mass spectrometry data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://metaboseek.com) · [Docs](https://github.com/mjhelf/Metaboseek#readme) · [Release](https://metaboseek.com/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png" width="32" alt="GateLabR"> | **GateLabR**<br>Interactive manual gating of flow / mass cytometry on SingleCellExperiment objects | ✅ 可用 | `0.2.1` | `mac-arm64`, `win-x64` | [Home](https://david-priest.github.io/GateLabR) · [Docs](https://david-priest.github.io/GateLabR) · [Release](https://david-priest.github.io/GateLabR/releases/tag/v0.2.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/familia.png" width="32" alt="Familia"> | **Familia**<br>Shiny application for population structure and ancestry assessments | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/Breeding-Insight/Familia) · [Docs](https://github.com/Breeding-Insight/Familia#readme) · [Release](https://github.com/Breeding-Insight/Familia/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/familia.png" width="32" alt="Familia"> | **Familia**<br>Shiny application for population structure and ancestry assessments | ✅ 可用 | `2.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/Breeding-Insight/Familia) · [Docs](https://github.com/Breeding-Insight/Familia#readme) · [Release](https://github.com/Breeding-Insight/Familia/releases/tag/v2.2.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/fieldhub.png" width="32" alt="FielDHub"> | **FielDHub**<br>A Shiny app for design of experiments in life sciences | ✅ 可用 | `0.1.6` | `mac-arm64`, `win-x64` | [Home](https://github.com/DidierMurilloF/FielDHub) · [Docs](https://didier-murillo.com/FielDHub/) · [Release](https://github.com/DidierMurilloF/FielDHub/releases/tag/v0.1.6) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/fluxtools.png" width="32" alt="fluxtools"> | **fluxtools**<br>Shiny app for reproducible QA/QC of eddy covariance data | ✅ 可用 | `0.1.3` | `mac-arm64`, `win-x64` | [Home](https://github.com/kesondrakey/fluxtools) · [Docs](https://github.com/kesondrakey/fluxtools#readme) · [Release](https://github.com/kesondrakey/fluxtools/releases/tag/v0.1.3) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/biascorrector.png" width="32" alt="BiasCorrector"> | **BiasCorrector**<br>GUI to correct measurement bias in DNA methylation analyses | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/kapsner/BiasCorrector) · [Docs](https://github.com/kapsner/BiasCorrector#readme) · [Release](https://github.com/kapsner/BiasCorrector/releases/tag/v0.1.0) |
@@ -790,7 +790,7 @@ Release: https://david-priest.github.io/GateLabR/releases/tag/v0.2.1
 
 </details>
 
-### Familia `0.1.0`
+### Familia `2.2.0`
 
 Shiny application for population structure and ancestry assessments
 
@@ -801,14 +801,14 @@ Shiny application for population structure and ancestry assessments
 | Copyright | (c) 2025 Breeding Insight |
 | R version | 4.6.1 |
 
-Release: https://github.com/Breeding-Insight/Familia/releases/tag/v0.1.0
+Release: https://github.com/Breeding-Insight/Familia/releases/tag/v2.2.0
 
 <details><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
-| `mac-arm64` | [familia-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/familia/releases/download/v0.1.0/familia-0.1.0-mac-arm64.zip) | 118.7 MB | `c750fd414238e6acd03f2ef1221e826065b7886ec256217adca90e55cfb1c016` |
-| `win-x64` | [familia-0.1.0-win-x64.zip](https://github.com/fentouxungui/familia/releases/download/v0.1.0/familia-0.1.0-win-x64.zip) | 125.2 MB | `cd94690ec4c225321d55aae72e64a8561af4e3d934ea4c34feda346dca2ee5f7` |
+| `mac-arm64` | [familia-2.2.0-mac-arm64.zip](https://github.com/fentouxungui/familia/releases/download/v2.2.0/familia-2.2.0-mac-arm64.zip) | 108.0 MB | `6c8fca742b5b541e0df952bead8723fc14ab457f9ea050272b2d0d0522b950ae` |
+| `win-x64` | [familia-2.2.0-win-x64.zip](https://github.com/fentouxungui/familia/releases/download/v2.2.0/familia-2.2.0-win-x64.zip) | 125.7 MB | `6668423fe37a6ad71357a957fced0565b49701852dfd384a6cef8305fa7b07d9` |
 
 </details>
 
