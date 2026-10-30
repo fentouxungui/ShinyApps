@@ -1715,3 +1715,17 @@ apps:
     icon: "https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png"
     r_version: "4.6.1"
     tags: [clinical-health, data-wrangling]
+
+  - id: scrnatoolvis
+    repo: "fentouxungui/scRNAtoolVis"
+    name: "scRNAtoolVis"
+    author: "Jun Zhang"
+    description: "Interactive parameter exploration and publication-ready visualization of single-cell RNA-seq data"
+    homepage: "https://github.com/fentouxungui/scRNAtoolVis"
+    docs: "https://github.com/fentouxungui/scRNAtoolVis#readme"
+    email: "3219030654@stu.cpu.edu.cn"
+    copyright: "(c) 2026 Jun Zhang"
+    license: "MIT"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/scrnatoolvis.png"
+    r_version: "4.6.1"
+    tags: [single-cell, visualization]
