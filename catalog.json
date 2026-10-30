@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-30T07:47:58Z",
+  "updated_at": "2026-10-30T12:07:15Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -3659,6 +3659,31 @@
           "url": "https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-win-x64.zip",
           "size": 142617531,
           "sha256": "75c5207eb64963d06c87417d0ab5de1f1e1f03c2a55046c436e7be62fe4f4df8"
+        }
+      }
+    },
+    {
+      "id": "scrnatoolvis",
+      "name": "scRNAtoolVis",
+      "author": "Jun Zhang",
+      "description": "Interactive parameter exploration and publication-ready visualization of single-cell RNA-seq data",
+      "homepage": "https://github.com/fentouxungui/scRNAtoolVis",
+      "docs": "https://github.com/fentouxungui/scRNAtoolVis#readme",
+      "email": "3219030654@stu.cpu.edu.cn",
+      "copyright": "(c) 2026 Jun Zhang",
+      "license": "MIT",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/scrnatoolvis.png",
+      "r_version": "4.6.1",
+      "tags": [
+        "single-cell",
+        "visualization"
+      ],
+      "version": "0.1.1",
+      "artifacts": {
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-win-x64.zip",
+          "size": 343478327,
+          "sha256": "0e8ff9d45299deadc4849572a944f35715d9d2682a962fb1c1a46849469ce2e7"
         }
       }
     }

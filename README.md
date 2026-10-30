@@ -2,9 +2,9 @@
 
 A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 127
+- **Apps:** 128
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-10-30 09:04:13 UTC
+- **Catalog last updated:** 2026-10-30 12:07:15 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -137,6 +137,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/southparkrshiny.png" width="32" alt="SouthParkRshiny"> | **SouthParkRshiny**<br>Explore data from the TV show South Park | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SouthParkRshiny) · [Docs](https://github.com/fentouxungui/SouthParkRshiny#readme) · [Release](https://github.com/fentouxungui/SouthParkRshiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/handwriterapp.png" width="32" alt="handwriterApp"> | **handwriterApp**<br>Handwriting analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/handwriterApp) · [Docs](https://github.com/fentouxungui/handwriterApp#readme) · [Release](https://github.com/fentouxungui/handwriterApp/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png" width="32" alt="tfrmtbuilder"> | **tfrmtbuilder**<br>Build and modify tfrmt table specifications | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/tfrmtbuilder-1) · [Docs](https://github.com/GSK-Biostatistics/tfrmtbuilder#readme) · [Release](https://github.com/fentouxungui/tfrmtbuilder-1/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/scrnatoolvis.png" width="32" alt="scRNAtoolVis"> | **scRNAtoolVis**<br>Interactive parameter exploration and publication-ready visualization of single-cell RNA-seq data | ✅ 可用 | `0.1.1` | `win-x64` | [Home](https://github.com/fentouxungui/scRNAtoolVis) · [Docs](https://github.com/fentouxungui/scRNAtoolVis#readme) · [Release](https://github.com/fentouxungui/scRNAtoolVis/releases/tag/v0.1.1) |
 
 ---
 
@@ -2943,6 +2944,28 @@ Release: https://github.com/fentouxungui/tfrmtbuilder-1/releases/tag/v0.1.0
 |---|---|---:|---|
 | `mac-arm64` | [tfrmtbuilder-0.1.0-mac-arm64.zip](https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-mac-arm64.zip) | 127.7 MB | `5e5414f7c2c6173339594aa056ea5369acb4e8678ee6ad9d49fe89809e6a63c2` |
 | `win-x64` | [tfrmtbuilder-0.1.0-win-x64.zip](https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-win-x64.zip) | 136.0 MB | `75c5207eb64963d06c87417d0ab5de1f1e1f03c2a55046c436e7be62fe4f4df8` |
+
+</details>
+
+### scRNAtoolVis `0.1.1`
+
+Interactive parameter exploration and publication-ready visualization of single-cell RNA-seq data
+
+| Field | Value |
+|---|---|
+| Author | Jun Zhang |
+| License | MIT |
+| Contact | 3219030654@stu.cpu.edu.cn |
+| Copyright | (c) 2026 Jun Zhang |
+| R version | 4.6.1 |
+
+Release: https://github.com/fentouxungui/scRNAtoolVis/releases/tag/v0.1.1
+
+<details><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `win-x64` | [scrnatoolvis-0.1.1-win-x64.zip](https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-win-x64.zip) | 327.6 MB | `0e8ff9d45299deadc4849572a944f35715d9d2682a962fb1c1a46849469ce2e7` |
 
 </details>
 
