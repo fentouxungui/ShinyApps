@@ -4,7 +4,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 
 - **Apps:** 128
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-11-01 23:57:37 UTC
+- **Catalog last updated:** 2026-11-02 03:36:05 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -161,8 +161,8 @@ Release: https://github.com/fentouxungui/SeuratExplorer/releases/tag/v0.1.9
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
-| `mac-arm64` | [seurat-explorer-0.1.9-mac-arm64.zip](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-mac-arm64.zip) | 295.6 MB | `a5c025da4ed33b12015b9e4865f912dc3143951ecf902a8278347756e5a49502` |
-| `win-x64` | [seurat-explorer-0.1.9-win-x64.zip](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-win-x64.zip) | 334.9 MB | `50bdd8958e60db5da9cbac5148ce770274ddb5ed65d13b1cde126fbce6f1b248` |
+| `mac-arm64` | [seurat-explorer-0.1.9-mac-arm64.zip](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-mac-arm64.zip) | 311.3 MB | `42355f7f9e7bd99f82d60a77e4fdd918b5ffe0f411a7e886689a0e501568b52f` |
+| `win-x64` | [seurat-explorer-0.1.9-win-x64.zip](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-win-x64.zip) | 334.9 MB | `50bc6039afb19821206d7ec3617391864c4093426d5a6b3099ca0a0fbee58e15` |
 
 </details>
 
