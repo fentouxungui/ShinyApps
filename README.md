@@ -4,140 +4,155 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 
 - **Apps:** 128
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-11-03 11:24:47 UTC
+- **Catalog last updated:** 2026-11-03 12:21:32 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
-| Icon | App | Status | Version | Platforms | Links |
+## How to install an app
+
+1. Download the ZIP for your platform from the table below.
+2. Open ShinyApps.
+3. Go to **Apps → Install from Bundle…** and select the ZIP (or drag it onto the launcher).
+4. The app appears in the launcher and runs locally — no R installation and no data upload.
+
+The ZIP is a ShinyApps app bundle, not a standalone application.
+
+Windows: Windows 10/11 x64. macOS: Apple Silicon (M1 or newer), macOS 14+; Intel Macs are not supported.
+
+Don't have ShinyApps yet? Download it from the [latest release](https://github.com/fentouxungui/ShinyApps/releases/latest).
+
+| Icon | App | Status | Version | Download | Links |
 |:---:|---|:---:|---:|---|---|
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png" width="32" alt="SeuratExplorer"> | **SeuratExplorer**<br>Explore scRNA-seq data processed in Seurat | ✅ 可用 | `0.1.9` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SeuratExplorer) · [Docs](https://github.com/fentouxungui/SeuratExplorer/wiki) · [Release](https://github.com/fentouxungui/SeuratExplorer/releases/tag/v0.1.9) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/scconvert.png" width="32" alt="scConvertShiny"> | **scConvertShiny**<br>Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCellExperiment / Zarr etc.) | ✅ 可用 | `0.1.3` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/scConvertShiny) · [Docs](https://github.com/fentouxungui/scConvertShiny#readme) · [Release](https://github.com/fentouxungui/scConvertShiny/releases/tag/v0.1.3) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/isee.png" width="32" alt="iSEE"> | **iSEE**<br>Interactive SummarizedExperiment Explorer | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/iSEE) · [Docs](https://isee.github.io/iSEE/) · [Release](https://github.com/fentouxungui/iSEE/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png" width="32" alt="UCSCXenaShiny"> | **UCSCXenaShiny**<br>Interactive analysis and visualization of UCSC Xena cancer genomics data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/UCSCXenaShiny) · [Docs](https://openbiox.github.io/UCSCXenaShiny/) · [Release](https://github.com/fentouxungui/UCSCXenaShiny/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png" width="32" alt="spatialLIBD"> | **spatialLIBD**<br>Interactive visualization of spatially-resolved transcriptomics data (10x Genomics Visium) from the LIBD human DLPFC project | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/spatialLIBD) · [Docs](http://research.libd.org/spatialLIBD/) · [Release](https://github.com/fentouxungui/spatialLIBD/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/beerapp.png" width="32" alt="beeRapp"> | **beeRapp**<br>Automated high-throughput explorative analysis of multivariate behavioral data (clustering, boxplots, PCA, heatmaps, correlations) | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/beeRapp) · [Docs](https://github.com/anmabu/beeRapp#readme) · [Release](https://github.com/fentouxungui/beeRapp/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png" width="32" alt="CSBB-Shiny"> | **CSBB-Shiny**<br>Computational Suite for Bioinformaticians and Biologists (CSBB): 8 downstream NGS modules - normalization, basic stats, differential expression, correlation profiles, functional/pathway enrichment, ChIP-ATAC seq and single-cell RNA-seq | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/CSBB-Shiny) · [Docs](https://github.com/praneet1988/CSBB-Shiny#readme) · [Release](https://github.com/fentouxungui/CSBB-Shiny/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/bestdeg.png" width="32" alt="bestDEG"> | **bestDEG**<br>Automated precise prediction of differentially expressed genes (DEGs) from RNA-seq data by combining edgeR, DESeq2, NOISeq and EBSeq | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/bestDEG) · [Docs](https://github.com/unitsa-sangket/bestDEG#readme) · [Release](https://github.com/fentouxungui/bestDEG/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinycircos.png" width="32" alt="shinyCircos-V2.0"> | **shinyCircos-V2.0**<br>Interactive creation of Circos plots from genomic data - chromosome ideograms, tracks (bar/line/point/heatmap/rect), links and labels | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/YaoLab-Bioinfo/shinyCircos-V2.0) · [Docs](https://github.com/YaoLab-Bioinfo/shinyCircos-V2.0#readme) · [Release](https://github.com/YaoLab-Bioinfo/shinyCircos-V2.0/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/upsetr-shiny.png" width="32" alt="UpSetR-shiny"> | **UpSetR-shiny**<br>Interactive UpSet plots of set intersections from file, list, or expression input (Shiny wrapper for the UpSetR R package) | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/UpSetR-shiny) · [Docs](https://github.com/hms-dbmi/UpSetR-shiny#readme) · [Release](https://github.com/fentouxungui/UpSetR-shiny/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/graphbio.png" width="32" alt="GraphBio"> | **GraphBio**<br>Modular Shiny dashboard for popular omics-data visualizations - heatmap, volcano, Venn, PCA, survival curve, ROC, GO dot plots, network, chord and more (15 modules) | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](http://www.graphbio1.com/en/) · [Docs](https://github.com/databio2022/GraphBio#readme) · [Release](http://www.graphbio1.com/en/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/splitkbcompare.png" width="32" alt="splitKbCompare"> | **splitKbCompare**<br>Interactive comparison of split ergonomic keyboard layouts - filter by specs, overlay layouts at true scale with distinct colors, and export printable PDFs | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/jhelvy/splitKbCompare) · [Docs](https://github.com/jhelvy/splitKbCompare#readme) · [Release](https://github.com/jhelvy/splitKbCompare/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinystan.png" width="32" alt="ShinyStan"> | **ShinyStan**<br>Interactive visual and numerical diagnostics and posterior analysis for Bayesian models (MCMC), with extended support for Stan models | ✅ 可用 | `0.3.0` | `mac-arm64`, `win-x64` | [Home](https://mc-stan.org/shinystan/) · [Docs](https://mc-stan.org/shinystan/) · [Release](https://mc-stan.org/shinystan/releases/tag/v0.3.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/esquisse.png" width="32" alt="esquisse"> | **esquisse**<br>Explore and visualize your data interactively - build ggplot2 figures with drag-and-drop mapping, then export or copy the reproducible code | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://dreamrs.github.io/esquisse/) · [Docs](https://dreamrs.github.io/esquisse/) · [Release](https://dreamrs.github.io/esquisse/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/plotsofdata.png" width="32" alt="PlotsOfData"> | **PlotsOfData**<br>Visualize and compare data distributions - dot plots with summary statistics and 95% confidence intervals, from spreadsheet or tidy data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://huygens.science.uva.nl/PlotsOfData/) · [Docs](https://github.com/JoachimGoedhart/PlotsOfData#readme) · [Release](https://huygens.science.uva.nl/PlotsOfData/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/hexmake.png" width="32" alt="hexmake"> | **hexmake**<br>Create hex stickers for R packages - design a hex, add a logo and text, and export the sticker as PNG/PDF | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/ColinFay/hexmake) · [Docs](https://github.com/ColinFay/hexmake#readme) · [Release](https://github.com/ColinFay/hexmake/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/explor.png" width="32" alt="explor"> | **explor**<br>Interactive exploration of multivariate analysis results (PCA, MCA, CA) - a Shiny interface for FactoMineR / ade4 / MASS outputs | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://juba.github.io/explor/) · [Docs](https://juba.github.io/explor/) · [Release](https://juba.github.io/explor/releases/tag/v0.1.2) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/biodosetools.png" width="32" alt="biodosetools"> | **biodosetools**<br>Statistical tools for biological dosimetry - chromosome aberration and micronucleus assays with dose estimation | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://biodosetools-team.github.io/biodosetools/) · [Docs](https://biodosetools-team.github.io/biodosetools/) · [Release](https://biodosetools-team.github.io/biodosetools/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/phyloprofile.png" width="32" alt="PhyloProfile"> | **PhyloProfile**<br>Phylogenetic profile analysis - compare presence/absence and domain architecture of genes across species | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/BIONF/PhyloProfile) · [Docs](https://github.com/BIONF/PhyloProfile#readme) · [Release](https://github.com/BIONF/PhyloProfile/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/deseq2shiny.png" width="32" alt="deseq2shiny"> | **deseq2shiny**<br>Web app for DESeq2 differential expression analysis with boxplots, heatmaps and volcano plots | ✅ 可用 | `0.1.3` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/deseq2shiny) · [Docs](https://github.com/nasqar/deseq2shiny#readme) · [Release](https://github.com/nasqar/deseq2shiny/releases/tag/v0.1.3) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png" width="32" alt="ClusterProfShinyORA"> | **ClusterProfShinyORA**<br>Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plus Pathview plots and wordcloud | ✅ 可用 | `0.1.6` | `mac-arm64`, `win-x64` | [Home](https://github.com/nasqar/ClusterProfShinyORA) · [Docs](https://github.com/nasqar/ClusterProfShinyORA#readme) · [Release](https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.6) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/stminsights.png" width="32" alt="stminsights"> | **stminsights**<br>Interactive validation and visualization of structural topic models (stm) | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://cschwem2er.github.io/stminsights) · [Docs](https://cschwem2er.github.io/stminsights) · [Release](https://cschwem2er.github.io/stminsights/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/pomashiny.png" width="32" alt="POMAShiny"> | **POMAShiny**<br>Web-based workflow for metabolomics and proteomics data analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/pcastellanoescuder/POMAShiny) · [Docs](https://github.com/pcastellanoescuder/POMAShiny#readme) · [Release](https://github.com/pcastellanoescuder/POMAShiny/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/portfoliooptimizer.png" width="32" alt="Portfolio Optimizer"> | **Portfolio Optimizer**<br>Portfolio optimization and Black-Litterman allocation | ✅ 可用 | `0.1.4` | `mac-arm64`, `win-x64` | [Home](https://github.com/mschoenhart/portfoliooptimizer) · [Docs](https://github.com/mschoenhart/portfoliooptimizer#readme) · [Release](https://github.com/mschoenhart/portfoliooptimizer/releases/tag/v0.1.4) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/pepfunk.png" width="32" alt="pepFunk"> | **pepFunk**<br>Peptide-centric functional enrichment workflow for metaproteomics | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/northomics/pepFunk) · [Docs](https://github.com/northomics/pepFunk#readme) · [Release](https://github.com/northomics/pepFunk/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/miadash.png" width="32" alt="miaDash"> | **miaDash**<br>Dashboard for interactive analysis and exploration of microbiome data (mia + iSEE) | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/microbiome/miaDash) · [Docs](https://microbiome.github.io/miaDash/) · [Release](https://github.com/microbiome/miaDash/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png" width="32" alt="shiny-genome-stats"> | **shiny-genome-stats**<br>Interactive visualization of basic microbial genome features | ✅ 可用 | `0.1.7` | `mac-arm64`, `win-x64` | [Home](https://github.com/MPUSP/shiny-genome-stats) · [Docs](https://github.com/MPUSP/shiny-genome-stats#readme) · [Release](https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.7) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png" width="32" alt="Metaboseek"> | **Metaboseek**<br>Interactive analysis and browsing of mass spectrometry data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://metaboseek.com) · [Docs](https://github.com/mjhelf/Metaboseek#readme) · [Release](https://metaboseek.com/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png" width="32" alt="GateLabR"> | **GateLabR**<br>Interactive manual gating of flow / mass cytometry on SingleCellExperiment objects | ✅ 可用 | `0.2.1` | `mac-arm64`, `win-x64` | [Home](https://david-priest.github.io/GateLabR) · [Docs](https://david-priest.github.io/GateLabR) · [Release](https://david-priest.github.io/GateLabR/releases/tag/v0.2.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/familia.png" width="32" alt="Familia"> | **Familia**<br>Shiny application for population structure and ancestry assessments | ✅ 可用 | `2.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/Breeding-Insight/Familia) · [Docs](https://github.com/Breeding-Insight/Familia#readme) · [Release](https://github.com/Breeding-Insight/Familia/releases/tag/v2.2.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/fieldhub.png" width="32" alt="FielDHub"> | **FielDHub**<br>A Shiny app for design of experiments in life sciences | ✅ 可用 | `0.1.6` | `mac-arm64`, `win-x64` | [Home](https://github.com/DidierMurilloF/FielDHub) · [Docs](https://didier-murillo.com/FielDHub/) · [Release](https://github.com/DidierMurilloF/FielDHub/releases/tag/v0.1.6) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/fluxtools.png" width="32" alt="fluxtools"> | **fluxtools**<br>Shiny app for reproducible QA/QC of eddy covariance data | ✅ 可用 | `0.1.3` | `mac-arm64`, `win-x64` | [Home](https://github.com/kesondrakey/fluxtools) · [Docs](https://github.com/kesondrakey/fluxtools#readme) · [Release](https://github.com/kesondrakey/fluxtools/releases/tag/v0.1.3) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/biascorrector.png" width="32" alt="BiasCorrector"> | **BiasCorrector**<br>GUI to correct measurement bias in DNA methylation analyses | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/kapsner/BiasCorrector) · [Docs](https://github.com/kapsner/BiasCorrector#readme) · [Release](https://github.com/kapsner/BiasCorrector/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/quickexplore.png" width="32" alt="QuickExplore"> | **QuickExplore**<br>Interactive dataset explorer for R, SAS and other data formats | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/ramsas88/QuickExplore) · [Docs](https://github.com/ramsas88/QuickExplore#readme) · [Release](https://github.com/ramsas88/QuickExplore/releases/tag/v0.1.2) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/associationexplorer2.png" width="32" alt="AssociationExplorer2"> | **AssociationExplorer2**<br>Shiny application for exploring associations and visual patterns | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/AntoineSoetewey/AssociationExplorer2) · [Docs](https://github.com/AntoineSoetewey/AssociationExplorer2#readme) · [Release](https://github.com/AntoineSoetewey/AssociationExplorer2/releases/tag/v0.1.2) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/hiviz.png" width="32" alt="HIViz"> | **HIViz**<br>Interactive dashboard for HIV data visualization | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/Atefehrashidi/HIViz) · [Docs](https://github.com/Atefehrashidi/HIViz#readme) · [Release](https://github.com/Atefehrashidi/HIViz/releases/tag/v0.1.2) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/distplotter.png" width="32" alt="DistPlotter"> | **DistPlotter**<br>Graphical user interface for plotting common univariate distributions | ✅ 可用 | `0.1.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/ccasement/DistPlotter) · [Docs](https://github.com/ccasement/DistPlotter#readme) · [Release](https://github.com/ccasement/DistPlotter/releases/tag/v0.1.2) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/ngstoolkit.png" width="32" alt="NGSToolKit"> | **NGSToolKit**<br>RNA-Seq analysis and genome visualization Shiny platform | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/bigfacilityiisr/NGS-Tool-Kit) · [Docs](https://github.com/bigfacilityiisr/NGS-Tool-Kit#readme) · [Release](https://github.com/bigfacilityiisr/NGS-Tool-Kit/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/dqagui.png" width="32" alt="DQAgui"> | **DQAgui**<br>Graphical user interface for data quality assessment | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/miracum/dqa-dqagui) · [Docs](https://github.com/miracum/dqa-dqagui#readme) · [Release](https://github.com/miracum/dqa-dqagui/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/taipan.png" width="32" alt="taipan"> | **taipan**<br>Tool for annotating images in preparation for analysis | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/srkobakian/taipan) · [Docs](https://github.com/srkobakian/taipan#readme) · [Release](https://github.com/srkobakian/taipan/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/allelobin.png" width="32" alt="AlleloBin"> | **AlleloBin**<br>Shiny application for allele binning in microsatellite markers | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/vpprasanth/AlleloBin) · [Docs](https://github.com/vpprasanth/AlleloBin#readme) · [Release](https://github.com/vpprasanth/AlleloBin/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/metaanalyser.png" width="32" alt="MetaAnalyser"> | **MetaAnalyser**<br>Interactive visualisation of meta-analysis | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/chjackson/MetaAnalyser) · [Docs](https://github.com/chjackson/MetaAnalyser#readme) · [Release](https://github.com/chjackson/MetaAnalyser/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/reliashiny.png" width="32" alt="ReliaShiny"> | **ReliaShiny**<br>Shiny app for reliability analysis | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/paulgovan/ReliaShiny) · [Docs](https://github.com/paulgovan/ReliaShiny#readme) · [Release](https://github.com/paulgovan/ReliaShiny/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png" width="32" alt="shinyMergely"> | **shinyMergely**<br>Compare and merge two files with a Shiny app | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/stla/shinyMergely) · [Docs](https://github.com/stla/shinyMergely#readme) · [Release](https://github.com/stla/shinyMergely/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png" width="32" alt="DiagnostySize"> | **DiagnostySize**<br>App for calculating the sample size in a diagnostic study | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/JanaW09/DiagnostySize_App) · [Docs](https://github.com/JanaW09/DiagnostySize_App#readme) · [Release](https://github.com/JanaW09/DiagnostySize_App/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/lavaanshiny.png" width="32" alt="lavaan.shiny"> | **lavaan.shiny**<br>Latent variable analysis with Shiny | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/kylehamilton/lavaan.shiny) · [Docs](https://github.com/kylehamilton/lavaan.shiny#readme) · [Release](https://github.com/kylehamilton/lavaan.shiny/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/greymodels.png" width="32" alt="Greymodels"> | **Greymodels**<br>Shiny app for Grey forecasting models | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/havishaJ/Greymodels) · [Docs](https://github.com/havishaJ/Greymodels#readme) · [Release](https://github.com/havishaJ/Greymodels/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/fossilsimshiny.png" width="32" alt="FossilSimShiny"> | **FossilSimShiny**<br>Shiny app for FossilSim | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fossilsim/FossilSimShiny) · [Docs](https://github.com/fossilsim/FossilSimShiny#readme) · [Release](https://github.com/fossilsim/FossilSimShiny/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/genest.png" width="32" alt="GenEst"> | **GenEst**<br>Generalized mortality estimator | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/ddalthorp/GenEst) · [Docs](https://github.com/ddalthorp/GenEst#readme) · [Release](https://github.com/ddalthorp/GenEst/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/icsshiny.png" width="32" alt="ICSShiny"> | **ICSShiny**<br>ICS via a Shiny application | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/ICSShiny) · [Docs](https://github.com/cran/ICSShiny#readme) · [Release](https://github.com/cran/ICSShiny/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/irtshiny.png" width="32" alt="IRTShiny"> | **IRTShiny**<br>Item response theory via Shiny | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/kylehamilton/IRTShiny) · [Docs](https://github.com/kylehamilton/IRTShiny#readme) · [Release](https://github.com/kylehamilton/IRTShiny/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/kappagui.png" width="32" alt="KappaGUI"> | **KappaGUI**<br>Shiny application for Cohen and Fleiss kappa | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/KappaGUI) · [Docs](https://github.com/cran/KappaGUI#readme) · [Release](https://github.com/cran/KappaGUI/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/metsizer.png" width="32" alt="MetSizeR"> | **MetSizeR**<br>Shiny app for sample size estimation in metabolomic experiments | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/1danjordan/MetSizeR) · [Docs](https://github.com/1danjordan/MetSizeR#readme) · [Release](https://github.com/1danjordan/MetSizeR/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/repplabshiny.png" width="32" alt="REPPlabShiny"> | **REPPlabShiny**<br>REPPlab via a Shiny application | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/REPPlabShiny) · [Docs](https://github.com/cran/REPPlabShiny#readme) · [Release](https://github.com/cran/REPPlabShiny/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/stmgui.png" width="32" alt="stmgui"> | **stmgui**<br>Shiny application for creating STM models | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/dzangri/stmGUI) · [Docs](https://github.com/dzangri/stmGUI#readme) · [Release](https://github.com/dzangri/stmGUI/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/difshiny.png" width="32" alt="DIFshiny"> | **DIFshiny**<br>Differential item functioning via a Shiny application | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/DIFshiny) · [Docs](https://github.com/cran/DIFshiny#readme) · [Release](https://github.com/cran/DIFshiny/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/channelattributionapp.png" width="32" alt="ChannelAttributionApp"> | **ChannelAttributionApp**<br>Shiny web application for the multichannel attribution problem | ✅ 可用 | `0.3.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/cran/ChannelAttributionApp) · [Docs](https://github.com/cran/ChannelAttributionApp#readme) · [Release](https://github.com/cran/ChannelAttributionApp/releases/tag/v0.3.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/squeakr.png" width="32" alt="SqueakR"> | **SqueakR**<br>Shiny dashboard for SqueakR behavioural analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SqueakR) · [Docs](https://github.com/fentouxungui/SqueakR#readme) · [Release](https://github.com/fentouxungui/SqueakR/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/html2r.png" width="32" alt="html2R"> | **html2R**<br>Convert HTML to R Shiny applications | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/html2R) · [Docs](https://github.com/fentouxungui/html2R#readme) · [Release](https://github.com/fentouxungui/html2R/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/sombrero.png" width="32" alt="SOMbrero"> | **SOMbrero**<br>SOMbrero self-organizing map GUI | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SOMbrero) · [Docs](https://github.com/fentouxungui/SOMbrero#readme) · [Release](https://github.com/fentouxungui/SOMbrero/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/somenv.png" width="32" alt="SOMEnv"> | **SOMEnv**<br>Self-organizing map environment analysis GUI | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SOMEnv) · [Docs](https://github.com/fentouxungui/SOMEnv#readme) · [Release](https://github.com/fentouxungui/SOMEnv/releases/tag/v0.2.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/gwsdat.png" width="32" alt="GWSDAT"> | **GWSDAT**<br>GroundWater Spatiotemporal Data Analysis Tool | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/GWSDAT) · [Docs](https://github.com/fentouxungui/GWSDAT#readme) · [Release](https://github.com/fentouxungui/GWSDAT/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/expandar.png" width="32" alt="ExPanDaR"> | **ExPanDaR**<br>Interactive exploratory panel data analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ExPanDaR) · [Docs](https://github.com/fentouxungui/ExPanDaR#readme) · [Release](https://github.com/fentouxungui/ExPanDaR/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/deepdep.png" width="32" alt="deepdep"> | **deepdep**<br>Visualise and explore the deep dependencies of R packages | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/deepdep) · [Docs](https://github.com/fentouxungui/deepdep#readme) · [Release](https://github.com/fentouxungui/deepdep/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/r3dmol.png" width="32" alt="r3dmol"> | **r3dmol**<br>Interactive 3D visualization of molecular data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/r3dmol) · [Docs](https://github.com/fentouxungui/r3dmol#readme) · [Release](https://github.com/fentouxungui/r3dmol/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinyinvoice.png" width="32" alt="shinyInvoice"> | **shinyInvoice**<br>Generate a PDF invoice with Rmarkdown | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/invoice-public) · [Docs](https://github.com/fentouxungui/invoice-public#readme) · [Release](https://github.com/fentouxungui/invoice-public/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/olympicrshiny.png" width="32" alt="OlympicRshiny"> | **OlympicRshiny**<br>Shiny application for Olympic data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/OlympicRshiny) · [Docs](https://github.com/fentouxungui/OlympicRshiny#readme) · [Release](https://github.com/fentouxungui/OlympicRshiny/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/easysdctable.png" width="32" alt="easySdcTable"> | **easySdcTable**<br>Easy interface to statistical disclosure control | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ssb-easysdctable) · [Docs](https://github.com/fentouxungui/ssb-easysdctable#readme) · [Release](https://github.com/fentouxungui/ssb-easysdctable/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/mmirestriktor.png" width="32" alt="mmirestriktor"> | **mmirestriktor**<br>Informative hypothesis testing web applications | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/mmirestriktor) · [Docs](https://github.com/fentouxungui/mmirestriktor#readme) · [Release](https://github.com/fentouxungui/mmirestriktor/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/holi.png" width="32" alt="holi"> | **holi**<br>Higher order likelihood inference web applications | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/holi) · [Docs](https://github.com/fentouxungui/holi#readme) · [Release](https://github.com/fentouxungui/holi/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinybrms.png" width="32" alt="shinybrms"> | **shinybrms**<br>Shiny interface for brms Bayesian models | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/shinybrms) · [Docs](https://github.com/fentouxungui/shinybrms#readme) · [Release](https://github.com/fentouxungui/shinybrms/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/lande.png" width="32" alt="lande"> | **lande**<br>Landscape analysis and visualization | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/lande) · [Docs](https://github.com/fentouxungui/lande#readme) · [Release](https://github.com/fentouxungui/lande/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/mispitools.png" width="32" alt="mispitools"> | **mispitools**<br>Missing person identification tools | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/mispitools) · [Docs](https://github.com/fentouxungui/mispitools#readme) · [Release](https://github.com/fentouxungui/mispitools/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/ggplotgui.png" width="32" alt="ggplotgui"> | **ggplotgui**<br>Create ggplot2 plots interactively | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ggplotgui) · [Docs](https://github.com/fentouxungui/ggplotgui#readme) · [Release](https://github.com/fentouxungui/ggplotgui/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/mmibain.png" width="32" alt="mmibain"> | **mmibain**<br>Bayes factors for informed hypotheses | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/mmibain) · [Docs](https://github.com/fentouxungui/mmibain#readme) · [Release](https://github.com/fentouxungui/mmibain/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/archeofrag-gui.png" width="32" alt="archeofrag.gui"> | **archeofrag.gui**<br>GUI for the archeofrag fragmentation analysis | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/archeofrag.gui) · [Docs](https://github.com/fentouxungui/archeofrag.gui#readme) · [Release](https://github.com/fentouxungui/archeofrag.gui/releases/tag/v0.2.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/cocktailapp.png" width="32" alt="cocktailApp"> | **cocktailApp**<br>Cocktail party effect visualization | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/cocktailApp) · [Docs](https://github.com/fentouxungui/cocktailApp#readme) · [Release](https://github.com/fentouxungui/cocktailApp/releases/tag/v0.2.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/vvdoctor.png" width="32" alt="vvdoctor"> | **vvdoctor**<br>Diagnose data and model problems | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/vvdoctor) · [Docs](https://github.com/fentouxungui/vvdoctor#readme) · [Release](https://github.com/fentouxungui/vvdoctor/releases/tag/v0.2.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/sdstudio.png" width="32" alt="sdstudio"> | **sdstudio**<br>Interactive survey data studio | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/sdstudio) · [Docs](https://github.com/fentouxungui/sdstudio#readme) · [Release](https://github.com/fentouxungui/sdstudio/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/quallmer-app.png" width="32" alt="quallmer.app"> | **quallmer.app**<br>Qualitative coding comparison app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/quallmer.app) · [Docs](https://github.com/fentouxungui/quallmer.app#readme) · [Release](https://github.com/fentouxungui/quallmer.app/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/pressfreedom.png" width="32" alt="pressfreedom"> | **pressfreedom**<br>Press freedom data explorer | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/pressfreedom) · [Docs](https://github.com/fentouxungui/pressfreedom#readme) · [Release](https://github.com/fentouxungui/pressfreedom/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/ggraptr.png" width="32" alt="ggraptR"> | **ggraptR**<br>Interactive ggplot2 exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ggraptR) · [Docs](https://github.com/fentouxungui/ggraptR#readme) · [Release](https://github.com/fentouxungui/ggraptR/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/yuima-gui.png" width="32" alt="yuimaGUI"> | **yuimaGUI**<br>GUI for the yuima stochastic process package | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/yuimaGUI) · [Docs](https://github.com/fentouxungui/yuimaGUI#readme) · [Release](https://github.com/fentouxungui/yuimaGUI/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/censuspyrid.png" width="32" alt="censuspyrID"> | **censuspyrID**<br>Census data explorer for Puerto Rico | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/censuspyrID) · [Docs](https://github.com/fentouxungui/censuspyrID#readme) · [Release](https://github.com/fentouxungui/censuspyrID/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/fitodbodrshiny.png" width="32" alt="fitODBODRshiny"> | **fitODBODRshiny**<br>Fit ODBOD distributions interactively | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/fitODBODRshiny) · [Docs](https://github.com/fentouxungui/fitODBODRshiny#readme) · [Release](https://github.com/fentouxungui/fitODBODRshiny/releases/tag/v0.2.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/esdm.png" width="32" alt="eSDM"> | **eSDM**<br>Species distribution models for marine data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/eSDM) · [Docs](https://github.com/fentouxungui/eSDM#readme) · [Release](https://github.com/fentouxungui/eSDM/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/adverseevents.png" width="32" alt="AdverseEvents"> | **AdverseEvents**<br>Adverse event data exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/AdverseEvents) · [Docs](https://github.com/fentouxungui/AdverseEvents#readme) · [Release](https://github.com/fentouxungui/AdverseEvents/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/isocor.png" width="32" alt="IsoCor"> | **IsoCor**<br>Isotope correction for mass spectrometry | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/IsoCor) · [Docs](https://github.com/fentouxungui/IsoCor#readme) · [Release](https://github.com/fentouxungui/IsoCor/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/minmeta.png" width="32" alt="miniMeta"> | **miniMeta**<br>Minimal meta-analysis app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/miniMeta) · [Docs](https://github.com/fentouxungui/miniMeta#readme) · [Release](https://github.com/fentouxungui/miniMeta/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/gde.png" width="32" alt="gde"> | **gde**<br>Graphical data exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/gde) · [Docs](https://github.com/fentouxungui/gde#readme) · [Release](https://github.com/fentouxungui/gde/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/seasonalview.png" width="32" alt="seasonalview"> | **seasonalview**<br>Seasonal adjustment viewer | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/seasonalview) · [Docs](https://github.com/fentouxungui/seasonalview#readme) · [Release](https://github.com/fentouxungui/seasonalview/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/memapp.png" width="32" alt="memapp"> | **memapp**<br>Morphometric analysis app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/memapp) · [Docs](https://github.com/fentouxungui/memapp#readme) · [Release](https://github.com/fentouxungui/memapp/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/elaborator.png" width="32" alt="elaborator"> | **elaborator**<br>Visual exploration of laboratory data | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/elaborator) · [Docs](https://github.com/fentouxungui/elaborator#readme) · [Release](https://github.com/fentouxungui/elaborator/releases/tag/v0.2.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/dqcheckrgui.png" width="32" alt="dqcheckrGUI"> | **dqcheckrGUI**<br>Data quality checks GUI | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/dqcheckrGUI) · [Docs](https://github.com/fentouxungui/dqcheckrGUI#readme) · [Release](https://github.com/fentouxungui/dqcheckrGUI/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/visxhclust.png" width="32" alt="visxhclust"> | **visxhclust**<br>Visual exploration of hierarchical clustering | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/visxhclust) · [Docs](https://github.com/fentouxungui/visxhclust#readme) · [Release](https://github.com/fentouxungui/visxhclust/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/phecodemap.png" width="32" alt="phecodemap"> | **phecodemap**<br>Phenotype code mapping | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/phecodemap) · [Docs](https://github.com/fentouxungui/phecodemap#readme) · [Release](https://github.com/fentouxungui/phecodemap/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/fdapaceshiny.png" width="32" alt="fdapaceShiny"> | **fdapaceShiny**<br>Functional data analysis app | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/fdapaceShiny) · [Docs](https://github.com/fentouxungui/fdapaceShiny#readme) · [Release](https://github.com/fentouxungui/fdapaceShiny/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/glossa.png" width="32" alt="glossa"> | **glossa**<br>Glossary and ontology exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/glossa) · [Docs](https://github.com/fentouxungui/glossa#readme) · [Release](https://github.com/fentouxungui/glossa/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/anca.png" width="32" alt="aNCA"> | **aNCA**<br>Non-compartmental analysis | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/aNCA) · [Docs](https://github.com/fentouxungui/aNCA#readme) · [Release](https://github.com/fentouxungui/aNCA/releases/tag/v0.2.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinymixr.png" width="32" alt="shinyMixR"> | **shinyMixR**<br>Interactive mixed-effects model exploration | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/shinyMixR) · [Docs](https://github.com/fentouxungui/shinyMixR#readme) · [Release](https://github.com/fentouxungui/shinyMixR/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/kesernetwork.png" width="32" alt="kesernetwork"> | **kesernetwork**<br>Knowledge graph network explorer | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/kesernetwork) · [Docs](https://github.com/fentouxungui/kesernetwork#readme) · [Release](https://github.com/fentouxungui/kesernetwork/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinykgode.png" width="32" alt="shinyKGode"> | **shinyKGode**<br>Interactive ODE parameter estimation | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/shinyKGode) · [Docs](https://github.com/fentouxungui/shinyKGode#readme) · [Release](https://github.com/fentouxungui/shinyKGode/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/viewpoly.png" width="32" alt="viewpoly"> | **viewpoly**<br>Visualize polyploid genetic data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/viewpoly) · [Docs](https://github.com/fentouxungui/viewpoly#readme) · [Release](https://github.com/fentouxungui/viewpoly/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/normalityassessment.png" width="32" alt="NormalityAssessment"> | **NormalityAssessment**<br>Assess normality of data | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/NormalityAssessment) · [Docs](https://github.com/fentouxungui/NormalityAssessment#readme) · [Release](https://github.com/fentouxungui/NormalityAssessment/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/assumpsure.png" width="32" alt="AssumpSure"> | **AssumpSure**<br>Check statistical assumptions | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/AssumpSure) · [Docs](https://github.com/fentouxungui/AssumpSure#readme) · [Release](https://github.com/fentouxungui/AssumpSure/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/activanalyzer.png" width="32" alt="activAnalyzer"> | **activAnalyzer**<br>Analyze accelerometer-measured daily physical behavior data | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/activAnalyzer) · [Docs](https://github.com/fentouxungui/activAnalyzer#readme) · [Release](https://github.com/fentouxungui/activAnalyzer/releases/tag/v0.2.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/catascience.png" width="32" alt="cataScience"> | **cataScience**<br>Interactive training app for data science and AI skills | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/cataScience) · [Docs](https://github.com/fentouxungui/cataScience#readme) · [Release](https://github.com/fentouxungui/cataScience/releases/tag/v0.2.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinysbm.png" width="32" alt="shinySbm"> | **shinySbm**<br>Shiny interface for the stochastic block model | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/shinySbm) · [Docs](https://github.com/fentouxungui/shinySbm#readme) · [Release](https://github.com/fentouxungui/shinySbm/releases/tag/v0.2.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/complexr.png" width="32" alt="complexr"> | **complexr**<br>Interactive survey data analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/complexr) · [Docs](https://github.com/fentouxungui/complexr#readme) · [Release](https://github.com/fentouxungui/complexr/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/dataviewr.png" width="32" alt="dataviewR"> | **dataviewR**<br>Interactive viewer for data frames | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/dataviewR) · [Docs](https://github.com/fentouxungui/dataviewR#readme) · [Release](https://github.com/fentouxungui/dataviewR/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/drdata.png" width="32" alt="DrData"> | **DrData**<br>End-to-end interactive data science platform | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/DrData) · [Docs](https://github.com/fentouxungui/DrData#readme) · [Release](https://github.com/fentouxungui/DrData/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/exmort.png" width="32" alt="exmort"> | **exmort**<br>All-cause and excess mortality calculator | ✅ 可用 | `0.1.1` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/exmort) · [Docs](https://github.com/fentouxungui/exmort#readme) · [Release](https://github.com/fentouxungui/exmort/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/monobinshiny.png" width="32" alt="monobinShiny"> | **monobinShiny**<br>Shiny interface for the monobin package | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/monobinShiny) · [Docs](https://github.com/fentouxungui/monobinShiny#readme) · [Release](https://github.com/fentouxungui/monobinShiny/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/paramgui.png" width="32" alt="paramGUI"> | **paramGUI**<br>Shiny GUI for parameter estimation examples | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/paramGUI) · [Docs](https://github.com/fentouxungui/paramGUI#readme) · [Release](https://github.com/fentouxungui/paramGUI/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/statteacherassistant.png" width="32" alt="StatTeacherAssistant"> | **StatTeacherAssistant**<br>Teaching assistant for introductory statistics | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/StatTeacherAssistant) · [Docs](https://github.com/fentouxungui/StatTeacherAssistant#readme) · [Release](https://github.com/fentouxungui/StatTeacherAssistant/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/vosondash.png" width="32" alt="VOSONDash"> | **VOSONDash**<br>Visualise and analyse social networks | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/VOSONDash) · [Docs](https://github.com/fentouxungui/VOSONDash#readme) · [Release](https://github.com/fentouxungui/VOSONDash/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/zscorer.png" width="32" alt="zscorer"> | **zscorer**<br>Child anthropometry z-score calculator | ✅ 可用 | `0.3.2` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/zscorer) · [Docs](https://github.com/fentouxungui/zscorer#readme) · [Release](https://github.com/fentouxungui/zscorer/releases/tag/v0.3.2) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/earthui.png" width="32" alt="earthUI"> | **earthUI**<br>Interactive GUI for the earth package | ✅ 可用 | `0.12.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/earthui) · [Docs](https://github.com/fentouxungui/earthui#readme) · [Release](https://github.com/fentouxungui/earthui/releases/tag/v0.12.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/statnetweb.png" width="32" alt="statnetWeb"> | **statnetWeb**<br>Network modeling with statnet | ✅ 可用 | `0.7.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/statnetWeb) · [Docs](https://github.com/fentouxungui/statnetWeb#readme) · [Release](https://github.com/fentouxungui/statnetWeb/releases/tag/v0.7.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/parcc.png" width="32" alt="ParCC"> | **ParCC**<br>Parameter converter and calculator for health technology assessment | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/ParCC) · [Docs](https://github.com/fentouxungui/ParCC#readme) · [Release](https://github.com/fentouxungui/ParCC/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/holomics.png" width="32" alt="Holomics"> | **Holomics**<br>Multi-omics data integration and analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/Holomics) · [Docs](https://github.com/fentouxungui/Holomics#readme) · [Release](https://github.com/fentouxungui/Holomics/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/testanaapp.png" width="32" alt="TestAnaAPP"> | **TestAnaAPP**<br>Interactive test analysis and visualization | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/TestAnaAPP) · [Docs](https://github.com/fentouxungui/TestAnaAPP#readme) · [Release](https://github.com/fentouxungui/TestAnaAPP/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/datacompare.png" width="32" alt="dataCompare"> | **dataCompare**<br>Compare two data frames | ✅ 可用 | `0.2.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/dataCompare) · [Docs](https://github.com/fentouxungui/dataCompare#readme) · [Release](https://github.com/fentouxungui/dataCompare/releases/tag/v0.2.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/projectlsa.png" width="32" alt="projectLSA"> | **projectLSA**<br>Latent structure analysis with a graphical interface | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/projectLSA) · [Docs](https://github.com/fentouxungui/projectLSA#readme) · [Release](https://github.com/fentouxungui/projectLSA/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/southparkrshiny.png" width="32" alt="SouthParkRshiny"> | **SouthParkRshiny**<br>Explore data from the TV show South Park | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/SouthParkRshiny) · [Docs](https://github.com/fentouxungui/SouthParkRshiny#readme) · [Release](https://github.com/fentouxungui/SouthParkRshiny/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/handwriterapp.png" width="32" alt="handwriterApp"> | **handwriterApp**<br>Handwriting analysis | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/handwriterApp) · [Docs](https://github.com/fentouxungui/handwriterApp#readme) · [Release](https://github.com/fentouxungui/handwriterApp/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png" width="32" alt="tfrmtbuilder"> | **tfrmtbuilder**<br>Build and modify tfrmt table specifications | ✅ 可用 | `0.1.0` | `mac-arm64`, `win-x64` | [Home](https://github.com/fentouxungui/tfrmtbuilder-1) · [Docs](https://github.com/GSK-Biostatistics/tfrmtbuilder#readme) · [Release](https://github.com/fentouxungui/tfrmtbuilder-1/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/scrnatoolvis.png" width="32" alt="scRNAtoolVis"> | **scRNAtoolVis**<br>Interactive parameter exploration and publication-ready visualization of single-cell RNA-seq data | ✅ 可用 | `0.1.1` | `win-x64` | [Home](https://github.com/fentouxungui/scRNAtoolVis) · [Docs](https://github.com/fentouxungui/scRNAtoolVis#readme) · [Release](https://github.com/fentouxungui/scRNAtoolVis/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png" width="32" alt="SeuratExplorer"> | **SeuratExplorer**<br>Explore scRNA-seq data processed in Seurat | ✅ Available | `0.1.9` | [Windows x64](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-mac-arm64.zip) | [Home](https://github.com/fentouxungui/SeuratExplorer) · [Docs](https://github.com/fentouxungui/SeuratExplorer/wiki) · [Release](https://github.com/fentouxungui/SeuratExplorer/releases/tag/v0.1.9) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/scconvert.png" width="32" alt="scConvertShiny"> | **scConvertShiny**<br>Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCellExperiment / Zarr etc.) | ✅ Available | `0.1.3` | [Windows x64](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-mac-arm64.zip) | [Home](https://github.com/fentouxungui/scConvertShiny) · [Docs](https://github.com/fentouxungui/scConvertShiny#readme) · [Release](https://github.com/fentouxungui/scConvertShiny/releases/tag/v0.1.3) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/isee.png" width="32" alt="iSEE"> | **iSEE**<br>Interactive SummarizedExperiment Explorer | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/iSEE/releases/download/v0.1.1/isee-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/iSEE/releases/download/v0.1.1/isee-0.1.1-mac-arm64.zip) | [Home](https://github.com/fentouxungui/iSEE) · [Docs](https://isee.github.io/iSEE/) · [Release](https://github.com/fentouxungui/iSEE/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png" width="32" alt="UCSCXenaShiny"> | **UCSCXenaShiny**<br>Interactive analysis and visualization of UCSC Xena cancer genomics data | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/UCSCXenaShiny/releases/download/v0.1.0/xenashiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/UCSCXenaShiny/releases/download/v0.1.0/xenashiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/UCSCXenaShiny) · [Docs](https://openbiox.github.io/UCSCXenaShiny/) · [Release](https://github.com/fentouxungui/UCSCXenaShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png" width="32" alt="spatialLIBD"> | **spatialLIBD**<br>Interactive visualization of spatially-resolved transcriptomics data (10x Genomics Visium) from the LIBD human DLPFC project | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/spatialLIBD/releases/download/v0.1.0/spatiallibd-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/spatialLIBD/releases/download/v0.1.0/spatiallibd-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/spatialLIBD) · [Docs](http://research.libd.org/spatialLIBD/) · [Release](https://github.com/fentouxungui/spatialLIBD/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/beerapp.png" width="32" alt="beeRapp"> | **beeRapp**<br>Automated high-throughput explorative analysis of multivariate behavioral data (clustering, boxplots, PCA, heatmaps, correlations) | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/beeRapp/releases/download/v0.1.0/beerapp-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/beeRapp/releases/download/v0.1.0/beerapp-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/beeRapp) · [Docs](https://github.com/anmabu/beeRapp#readme) · [Release](https://github.com/fentouxungui/beeRapp/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png" width="32" alt="CSBB-Shiny"> | **CSBB-Shiny**<br>Computational Suite for Bioinformaticians and Biologists (CSBB): 8 downstream NGS modules - normalization, basic stats, differential expression, correlation profiles, functional/pathway enrichment, ChIP-ATAC seq and single-cell RNA-seq | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/CSBB-Shiny/releases/download/v0.1.1/csbb-shiny-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/CSBB-Shiny/releases/download/v0.1.1/csbb-shiny-0.1.1-mac-arm64.zip) | [Home](https://github.com/fentouxungui/CSBB-Shiny) · [Docs](https://github.com/praneet1988/CSBB-Shiny#readme) · [Release](https://github.com/fentouxungui/CSBB-Shiny/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/bestdeg.png" width="32" alt="bestDEG"> | **bestDEG**<br>Automated precise prediction of differentially expressed genes (DEGs) from RNA-seq data by combining edgeR, DESeq2, NOISeq and EBSeq | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/bestDEG/releases/download/v0.1.0/bestdeg-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/bestDEG/releases/download/v0.1.0/bestdeg-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/bestDEG) · [Docs](https://github.com/unitsa-sangket/bestDEG#readme) · [Release](https://github.com/fentouxungui/bestDEG/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinycircos.png" width="32" alt="shinyCircos-V2.0"> | **shinyCircos-V2.0**<br>Interactive creation of Circos plots from genomic data - chromosome ideograms, tracks (bar/line/point/heatmap/rect), links and labels | ✅ Available | `0.1.0` | [Windows x64](https://github.com/YaoLab-Bioinfo/shinyCircos-V2.0/releases/download/v0.1.0/shinycircos-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/YaoLab-Bioinfo/shinyCircos-V2.0/releases/download/v0.1.0/shinycircos-0.1.0-mac-arm64.zip) | [Home](https://github.com/YaoLab-Bioinfo/shinyCircos-V2.0) · [Docs](https://github.com/YaoLab-Bioinfo/shinyCircos-V2.0#readme) · [Release](https://github.com/YaoLab-Bioinfo/shinyCircos-V2.0/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/upsetr-shiny.png" width="32" alt="UpSetR-shiny"> | **UpSetR-shiny**<br>Interactive UpSet plots of set intersections from file, list, or expression input (Shiny wrapper for the UpSetR R package) | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/UpSetR-shiny/releases/download/v0.1.0/upsetr-shiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/UpSetR-shiny/releases/download/v0.1.0/upsetr-shiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/UpSetR-shiny) · [Docs](https://github.com/hms-dbmi/UpSetR-shiny#readme) · [Release](https://github.com/fentouxungui/UpSetR-shiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/graphbio.png" width="32" alt="GraphBio"> | **GraphBio**<br>Modular Shiny dashboard for popular omics-data visualizations - heatmap, volcano, Venn, PCA, survival curve, ROC, GO dot plots, network, chord and more (15 modules) | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/GraphBio/releases/download/v0.1.0/graphbio-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/GraphBio/releases/download/v0.1.0/graphbio-0.1.0-mac-arm64.zip) | [Home](http://www.graphbio1.com/en/) · [Docs](https://github.com/databio2022/GraphBio#readme) · [Release](http://www.graphbio1.com/en/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/splitkbcompare.png" width="32" alt="splitKbCompare"> | **splitKbCompare**<br>Interactive comparison of split ergonomic keyboard layouts - filter by specs, overlay layouts at true scale with distinct colors, and export printable PDFs | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/splitKbCompare/releases/download/v0.1.0/splitkbcompare-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/splitKbCompare/releases/download/v0.1.0/splitkbcompare-0.1.0-mac-arm64.zip) | [Home](https://github.com/jhelvy/splitKbCompare) · [Docs](https://github.com/jhelvy/splitKbCompare#readme) · [Release](https://github.com/jhelvy/splitKbCompare/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinystan.png" width="32" alt="ShinyStan"> | **ShinyStan**<br>Interactive visual and numerical diagnostics and posterior analysis for Bayesian models (MCMC), with extended support for Stan models | ✅ Available | `0.3.0` | [Windows x64](https://github.com/fentouxungui/shinystan/releases/download/v0.3.0/shinystan-0.3.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/shinystan/releases/download/v0.3.0/shinystan-0.3.0-mac-arm64.zip) | [Home](https://mc-stan.org/shinystan/) · [Docs](https://mc-stan.org/shinystan/) · [Release](https://mc-stan.org/shinystan/releases/tag/v0.3.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/esquisse.png" width="32" alt="esquisse"> | **esquisse**<br>Explore and visualize your data interactively - build ggplot2 figures with drag-and-drop mapping, then export or copy the reproducible code | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/esquisse/releases/download/v0.1.0/esquisse-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/esquisse/releases/download/v0.1.0/esquisse-0.1.0-mac-arm64.zip) | [Home](https://dreamrs.github.io/esquisse/) · [Docs](https://dreamrs.github.io/esquisse/) · [Release](https://dreamrs.github.io/esquisse/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/plotsofdata.png" width="32" alt="PlotsOfData"> | **PlotsOfData**<br>Visualize and compare data distributions - dot plots with summary statistics and 95% confidence intervals, from spreadsheet or tidy data | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/PlotsOfData/releases/download/v0.1.0/plotsofdata-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/PlotsOfData/releases/download/v0.1.0/plotsofdata-0.1.0-mac-arm64.zip) | [Home](https://huygens.science.uva.nl/PlotsOfData/) · [Docs](https://github.com/JoachimGoedhart/PlotsOfData#readme) · [Release](https://huygens.science.uva.nl/PlotsOfData/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/hexmake.png" width="32" alt="hexmake"> | **hexmake**<br>Create hex stickers for R packages - design a hex, add a logo and text, and export the sticker as PNG/PDF | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/hexmake/releases/download/v0.1.0/hexmake-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/hexmake/releases/download/v0.1.0/hexmake-0.1.0-mac-arm64.zip) | [Home](https://github.com/ColinFay/hexmake) · [Docs](https://github.com/ColinFay/hexmake#readme) · [Release](https://github.com/ColinFay/hexmake/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/explor.png" width="32" alt="explor"> | **explor**<br>Interactive exploration of multivariate analysis results (PCA, MCA, CA) - a Shiny interface for FactoMineR / ade4 / MASS outputs | ✅ Available | `0.1.2` | [Windows x64](https://github.com/fentouxungui/explor/releases/download/v0.1.2/explor-0.1.2-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/explor/releases/download/v0.1.2/explor-0.1.2-mac-arm64.zip) | [Home](https://juba.github.io/explor/) · [Docs](https://juba.github.io/explor/) · [Release](https://juba.github.io/explor/releases/tag/v0.1.2) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/biodosetools.png" width="32" alt="biodosetools"> | **biodosetools**<br>Statistical tools for biological dosimetry - chromosome aberration and micronucleus assays with dose estimation | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/biodosetools/releases/download/v0.1.0/biodosetools-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/biodosetools/releases/download/v0.1.0/biodosetools-0.1.0-mac-arm64.zip) | [Home](https://biodosetools-team.github.io/biodosetools/) · [Docs](https://biodosetools-team.github.io/biodosetools/) · [Release](https://biodosetools-team.github.io/biodosetools/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/phyloprofile.png" width="32" alt="PhyloProfile"> | **PhyloProfile**<br>Phylogenetic profile analysis - compare presence/absence and domain architecture of genes across species | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/PhyloProfile/releases/download/v0.1.1/phyloprofile-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/PhyloProfile/releases/download/v0.1.1/phyloprofile-0.1.1-mac-arm64.zip) | [Home](https://github.com/BIONF/PhyloProfile) · [Docs](https://github.com/BIONF/PhyloProfile#readme) · [Release](https://github.com/BIONF/PhyloProfile/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/deseq2shiny.png" width="32" alt="deseq2shiny"> | **deseq2shiny**<br>Web app for DESeq2 differential expression analysis with boxplots, heatmaps and volcano plots | ✅ Available | `0.1.3` | [Windows x64](https://github.com/fentouxungui/deseq2shiny/releases/download/v0.1.3/deseq2shiny-0.1.3-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/deseq2shiny/releases/download/v0.1.3/deseq2shiny-0.1.3-mac-arm64.zip) | [Home](https://github.com/nasqar/deseq2shiny) · [Docs](https://github.com/nasqar/deseq2shiny#readme) · [Release](https://github.com/nasqar/deseq2shiny/releases/tag/v0.1.3) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png" width="32" alt="ClusterProfShinyORA"> | **ClusterProfShinyORA**<br>Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plus Pathview plots and wordcloud | ✅ Available | `0.1.6` | [Windows x64](https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.6/clusterprofshinyora-0.1.6-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/ClusterProfShinyORA/releases/download/v0.1.6/clusterprofshinyora-0.1.6-mac-arm64.zip) | [Home](https://github.com/nasqar/ClusterProfShinyORA) · [Docs](https://github.com/nasqar/ClusterProfShinyORA#readme) · [Release](https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.6) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/stminsights.png" width="32" alt="stminsights"> | **stminsights**<br>Interactive validation and visualization of structural topic models (stm) | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/stminsights/releases/download/v0.1.0/stminsights-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/stminsights/releases/download/v0.1.0/stminsights-0.1.0-mac-arm64.zip) | [Home](https://cschwem2er.github.io/stminsights) · [Docs](https://cschwem2er.github.io/stminsights) · [Release](https://cschwem2er.github.io/stminsights/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/pomashiny.png" width="32" alt="POMAShiny"> | **POMAShiny**<br>Web-based workflow for metabolomics and proteomics data analysis | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/POMAShiny/releases/download/v0.1.0/pomashiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/POMAShiny/releases/download/v0.1.0/pomashiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/pcastellanoescuder/POMAShiny) · [Docs](https://github.com/pcastellanoescuder/POMAShiny#readme) · [Release](https://github.com/pcastellanoescuder/POMAShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/portfoliooptimizer.png" width="32" alt="Portfolio Optimizer"> | **Portfolio Optimizer**<br>Portfolio optimization and Black-Litterman allocation | ✅ Available | `0.1.4` | [Windows x64](https://github.com/fentouxungui/portfoliooptimizer/releases/download/v0.1.4/portfoliooptimizer-0.1.4-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/portfoliooptimizer/releases/download/v0.1.4/portfoliooptimizer-0.1.4-mac-arm64.zip) | [Home](https://github.com/mschoenhart/portfoliooptimizer) · [Docs](https://github.com/mschoenhart/portfoliooptimizer#readme) · [Release](https://github.com/mschoenhart/portfoliooptimizer/releases/tag/v0.1.4) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/pepfunk.png" width="32" alt="pepFunk"> | **pepFunk**<br>Peptide-centric functional enrichment workflow for metaproteomics | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/pepFunk/releases/download/v0.1.1/pepfunk-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/pepFunk/releases/download/v0.1.1/pepfunk-0.1.1-mac-arm64.zip) | [Home](https://github.com/northomics/pepFunk) · [Docs](https://github.com/northomics/pepFunk#readme) · [Release](https://github.com/northomics/pepFunk/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/miadash.png" width="32" alt="miaDash"> | **miaDash**<br>Dashboard for interactive analysis and exploration of microbiome data (mia + iSEE) | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/miaDash/releases/download/v0.1.1/miadash-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/miaDash/releases/download/v0.1.1/miadash-0.1.1-mac-arm64.zip) | [Home](https://github.com/microbiome/miaDash) · [Docs](https://microbiome.github.io/miaDash/) · [Release](https://github.com/microbiome/miaDash/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png" width="32" alt="shiny-genome-stats"> | **shiny-genome-stats**<br>Interactive visualization of basic microbial genome features | ✅ Available | `0.1.7` | [Windows x64](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-mac-arm64.zip) | [Home](https://github.com/MPUSP/shiny-genome-stats) · [Docs](https://github.com/MPUSP/shiny-genome-stats#readme) · [Release](https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.7) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png" width="32" alt="Metaboseek"> | **Metaboseek**<br>Interactive analysis and browsing of mass spectrometry data | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/Metaboseek/releases/download/v0.1.0/metaboseek-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/Metaboseek/releases/download/v0.1.0/metaboseek-0.1.0-mac-arm64.zip) | [Home](https://metaboseek.com) · [Docs](https://github.com/mjhelf/Metaboseek#readme) · [Release](https://metaboseek.com/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png" width="32" alt="GateLabR"> | **GateLabR**<br>Interactive manual gating of flow / mass cytometry on SingleCellExperiment objects | ✅ Available | `0.2.1` | [Windows x64](https://github.com/fentouxungui/GateLabR/releases/download/v0.2.1/gatelabr-0.2.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/GateLabR/releases/download/v0.2.1/gatelabr-0.2.1-mac-arm64.zip) | [Home](https://david-priest.github.io/GateLabR) · [Docs](https://david-priest.github.io/GateLabR) · [Release](https://david-priest.github.io/GateLabR/releases/tag/v0.2.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/familia.png" width="32" alt="Familia"> | **Familia**<br>Shiny application for population structure and ancestry assessments | ✅ Available | `2.2.0` | [Windows x64](https://github.com/fentouxungui/familia/releases/download/v2.2.0/familia-2.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/familia/releases/download/v2.2.0/familia-2.2.0-mac-arm64.zip) | [Home](https://github.com/Breeding-Insight/Familia) · [Docs](https://github.com/Breeding-Insight/Familia#readme) · [Release](https://github.com/Breeding-Insight/Familia/releases/tag/v2.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/fieldhub.png" width="32" alt="FielDHub"> | **FielDHub**<br>A Shiny app for design of experiments in life sciences | ✅ Available | `0.1.6` | [Windows x64](https://github.com/fentouxungui/FielDHub/releases/download/v0.1.6/fieldhub-0.1.6-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/FielDHub/releases/download/v0.1.6/fieldhub-0.1.6-mac-arm64.zip) | [Home](https://github.com/DidierMurilloF/FielDHub) · [Docs](https://didier-murillo.com/FielDHub/) · [Release](https://github.com/DidierMurilloF/FielDHub/releases/tag/v0.1.6) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/fluxtools.png" width="32" alt="fluxtools"> | **fluxtools**<br>Shiny app for reproducible QA/QC of eddy covariance data | ✅ Available | `0.1.3` | [Windows x64](https://github.com/fentouxungui/fluxtools/releases/download/v0.1.3/fluxtools-0.1.3-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/fluxtools/releases/download/v0.1.3/fluxtools-0.1.3-mac-arm64.zip) | [Home](https://github.com/kesondrakey/fluxtools) · [Docs](https://github.com/kesondrakey/fluxtools#readme) · [Release](https://github.com/kesondrakey/fluxtools/releases/tag/v0.1.3) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/biascorrector.png" width="32" alt="BiasCorrector"> | **BiasCorrector**<br>GUI to correct measurement bias in DNA methylation analyses | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/BiasCorrector/releases/download/v0.1.0/biascorrector-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/BiasCorrector/releases/download/v0.1.0/biascorrector-0.1.0-mac-arm64.zip) | [Home](https://github.com/kapsner/BiasCorrector) · [Docs](https://github.com/kapsner/BiasCorrector#readme) · [Release](https://github.com/kapsner/BiasCorrector/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/quickexplore.png" width="32" alt="QuickExplore"> | **QuickExplore**<br>Interactive dataset explorer for R, SAS and other data formats | ✅ Available | `0.1.2` | [Windows x64](https://github.com/fentouxungui/QuickExplore/releases/download/v0.1.2/quickexplore-0.1.2-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/QuickExplore/releases/download/v0.1.2/quickexplore-0.1.2-mac-arm64.zip) | [Home](https://github.com/ramsas88/QuickExplore) · [Docs](https://github.com/ramsas88/QuickExplore#readme) · [Release](https://github.com/ramsas88/QuickExplore/releases/tag/v0.1.2) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/associationexplorer2.png" width="32" alt="AssociationExplorer2"> | **AssociationExplorer2**<br>Shiny application for exploring associations and visual patterns | ✅ Available | `0.1.2` | [Windows x64](https://github.com/fentouxungui/AssociationExplorer2/releases/download/v0.1.2/associationexplorer2-0.1.2-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/AssociationExplorer2/releases/download/v0.1.2/associationexplorer2-0.1.2-mac-arm64.zip) | [Home](https://github.com/AntoineSoetewey/AssociationExplorer2) · [Docs](https://github.com/AntoineSoetewey/AssociationExplorer2#readme) · [Release](https://github.com/AntoineSoetewey/AssociationExplorer2/releases/tag/v0.1.2) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/hiviz.png" width="32" alt="HIViz"> | **HIViz**<br>Interactive dashboard for HIV data visualization | ✅ Available | `0.1.2` | [Windows x64](https://github.com/fentouxungui/HIViz/releases/download/v0.1.2/hiviz-0.1.2-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/HIViz/releases/download/v0.1.2/hiviz-0.1.2-mac-arm64.zip) | [Home](https://github.com/Atefehrashidi/HIViz) · [Docs](https://github.com/Atefehrashidi/HIViz#readme) · [Release](https://github.com/Atefehrashidi/HIViz/releases/tag/v0.1.2) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/distplotter.png" width="32" alt="DistPlotter"> | **DistPlotter**<br>Graphical user interface for plotting common univariate distributions | ✅ Available | `0.1.2` | [Windows x64](https://github.com/fentouxungui/DistPlotter/releases/download/v0.1.2/distplotter-0.1.2-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/DistPlotter/releases/download/v0.1.2/distplotter-0.1.2-mac-arm64.zip) | [Home](https://github.com/ccasement/DistPlotter) · [Docs](https://github.com/ccasement/DistPlotter#readme) · [Release](https://github.com/ccasement/DistPlotter/releases/tag/v0.1.2) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/ngstoolkit.png" width="32" alt="NGSToolKit"> | **NGSToolKit**<br>RNA-Seq analysis and genome visualization Shiny platform | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/NGS-Tool-Kit/releases/download/v0.1.1/ngstoolkit-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/NGS-Tool-Kit/releases/download/v0.1.1/ngstoolkit-0.1.1-mac-arm64.zip) | [Home](https://github.com/bigfacilityiisr/NGS-Tool-Kit) · [Docs](https://github.com/bigfacilityiisr/NGS-Tool-Kit#readme) · [Release](https://github.com/bigfacilityiisr/NGS-Tool-Kit/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/dqagui.png" width="32" alt="DQAgui"> | **DQAgui**<br>Graphical user interface for data quality assessment | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/dqa-dqagui/releases/download/v0.1.0/dqagui-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/dqa-dqagui/releases/download/v0.1.0/dqagui-0.1.0-mac-arm64.zip) | [Home](https://github.com/miracum/dqa-dqagui) · [Docs](https://github.com/miracum/dqa-dqagui#readme) · [Release](https://github.com/miracum/dqa-dqagui/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/taipan.png" width="32" alt="taipan"> | **taipan**<br>Tool for annotating images in preparation for analysis | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/taipan/releases/download/v0.1.1/taipan-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/taipan/releases/download/v0.1.1/taipan-0.1.1-mac-arm64.zip) | [Home](https://github.com/srkobakian/taipan) · [Docs](https://github.com/srkobakian/taipan#readme) · [Release](https://github.com/srkobakian/taipan/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/allelobin.png" width="32" alt="AlleloBin"> | **AlleloBin**<br>Shiny application for allele binning in microsatellite markers | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/AlleloBin/releases/download/v0.1.1/allelobin-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/AlleloBin/releases/download/v0.1.1/allelobin-0.1.1-mac-arm64.zip) | [Home](https://github.com/vpprasanth/AlleloBin) · [Docs](https://github.com/vpprasanth/AlleloBin#readme) · [Release](https://github.com/vpprasanth/AlleloBin/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/metaanalyser.png" width="32" alt="MetaAnalyser"> | **MetaAnalyser**<br>Interactive visualisation of meta-analysis | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/MetaAnalyser/releases/download/v0.1.1/metaanalyser-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/MetaAnalyser/releases/download/v0.1.1/metaanalyser-0.1.1-mac-arm64.zip) | [Home](https://github.com/chjackson/MetaAnalyser) · [Docs](https://github.com/chjackson/MetaAnalyser#readme) · [Release](https://github.com/chjackson/MetaAnalyser/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/reliashiny.png" width="32" alt="ReliaShiny"> | **ReliaShiny**<br>Shiny app for reliability analysis | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/ReliaShiny/releases/download/v0.1.1/reliashiny-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/ReliaShiny/releases/download/v0.1.1/reliashiny-0.1.1-mac-arm64.zip) | [Home](https://github.com/paulgovan/ReliaShiny) · [Docs](https://github.com/paulgovan/ReliaShiny#readme) · [Release](https://github.com/paulgovan/ReliaShiny/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png" width="32" alt="shinyMergely"> | **shinyMergely**<br>Compare and merge two files with a Shiny app | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/shinyMergely/releases/download/v0.1.1/shinymergely-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/shinyMergely/releases/download/v0.1.1/shinymergely-0.1.1-mac-arm64.zip) | [Home](https://github.com/stla/shinyMergely) · [Docs](https://github.com/stla/shinyMergely#readme) · [Release](https://github.com/stla/shinyMergely/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png" width="32" alt="DiagnostySize"> | **DiagnostySize**<br>App for calculating the sample size in a diagnostic study | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/DiagnostySize_App/releases/download/v0.1.0/diagnostysize-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/DiagnostySize_App/releases/download/v0.1.0/diagnostysize-0.1.0-mac-arm64.zip) | [Home](https://github.com/JanaW09/DiagnostySize_App) · [Docs](https://github.com/JanaW09/DiagnostySize_App#readme) · [Release](https://github.com/JanaW09/DiagnostySize_App/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/lavaanshiny.png" width="32" alt="lavaan.shiny"> | **lavaan.shiny**<br>Latent variable analysis with Shiny | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/lavaan.shiny/releases/download/v0.1.1/lavaanshiny-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/lavaan.shiny/releases/download/v0.1.1/lavaanshiny-0.1.1-mac-arm64.zip) | [Home](https://github.com/kylehamilton/lavaan.shiny) · [Docs](https://github.com/kylehamilton/lavaan.shiny#readme) · [Release](https://github.com/kylehamilton/lavaan.shiny/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/greymodels.png" width="32" alt="Greymodels"> | **Greymodels**<br>Shiny app for Grey forecasting models | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/Greymodels/releases/download/v0.1.0/greymodels-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/Greymodels/releases/download/v0.1.0/greymodels-0.1.0-mac-arm64.zip) | [Home](https://github.com/havishaJ/Greymodels) · [Docs](https://github.com/havishaJ/Greymodels#readme) · [Release](https://github.com/havishaJ/Greymodels/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/fossilsimshiny.png" width="32" alt="FossilSimShiny"> | **FossilSimShiny**<br>Shiny app for FossilSim | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/FossilSimShiny/releases/download/v0.1.0/fossilsimshiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/FossilSimShiny/releases/download/v0.1.0/fossilsimshiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/fossilsim/FossilSimShiny) · [Docs](https://github.com/fossilsim/FossilSimShiny#readme) · [Release](https://github.com/fossilsim/FossilSimShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/genest.png" width="32" alt="GenEst"> | **GenEst**<br>Generalized mortality estimator | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/GenEst/releases/download/v0.1.0/genest-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/GenEst/releases/download/v0.1.0/genest-0.1.0-mac-arm64.zip) | [Home](https://github.com/ddalthorp/GenEst) · [Docs](https://github.com/ddalthorp/GenEst#readme) · [Release](https://github.com/ddalthorp/GenEst/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/icsshiny.png" width="32" alt="ICSShiny"> | **ICSShiny**<br>ICS via a Shiny application | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/ICSShiny/releases/download/v0.1.0/icsshiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/ICSShiny/releases/download/v0.1.0/icsshiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/cran/ICSShiny) · [Docs](https://github.com/cran/ICSShiny#readme) · [Release](https://github.com/cran/ICSShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/irtshiny.png" width="32" alt="IRTShiny"> | **IRTShiny**<br>Item response theory via Shiny | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/IRTShiny/releases/download/v0.1.0/irtshiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/IRTShiny/releases/download/v0.1.0/irtshiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/kylehamilton/IRTShiny) · [Docs](https://github.com/kylehamilton/IRTShiny#readme) · [Release](https://github.com/kylehamilton/IRTShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/kappagui.png" width="32" alt="KappaGUI"> | **KappaGUI**<br>Shiny application for Cohen and Fleiss kappa | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/KappaGUI/releases/download/v0.1.0/kappagui-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/KappaGUI/releases/download/v0.1.0/kappagui-0.1.0-mac-arm64.zip) | [Home](https://github.com/cran/KappaGUI) · [Docs](https://github.com/cran/KappaGUI#readme) · [Release](https://github.com/cran/KappaGUI/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/metsizer.png" width="32" alt="MetSizeR"> | **MetSizeR**<br>Shiny app for sample size estimation in metabolomic experiments | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/MetSizeR/releases/download/v0.1.0/metsizer-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/MetSizeR/releases/download/v0.1.0/metsizer-0.1.0-mac-arm64.zip) | [Home](https://github.com/1danjordan/MetSizeR) · [Docs](https://github.com/1danjordan/MetSizeR#readme) · [Release](https://github.com/1danjordan/MetSizeR/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/repplabshiny.png" width="32" alt="REPPlabShiny"> | **REPPlabShiny**<br>REPPlab via a Shiny application | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/REPPlabShiny/releases/download/v0.1.0/repplabshiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/REPPlabShiny/releases/download/v0.1.0/repplabshiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/cran/REPPlabShiny) · [Docs](https://github.com/cran/REPPlabShiny#readme) · [Release](https://github.com/cran/REPPlabShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/stmgui.png" width="32" alt="stmgui"> | **stmgui**<br>Shiny application for creating STM models | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/stmGUI/releases/download/v0.1.0/stmgui-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/stmGUI/releases/download/v0.1.0/stmgui-0.1.0-mac-arm64.zip) | [Home](https://github.com/dzangri/stmGUI) · [Docs](https://github.com/dzangri/stmGUI#readme) · [Release](https://github.com/dzangri/stmGUI/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/difshiny.png" width="32" alt="DIFshiny"> | **DIFshiny**<br>Differential item functioning via a Shiny application | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/DIFshiny/releases/download/v0.1.0/difshiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/DIFshiny/releases/download/v0.1.0/difshiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/cran/DIFshiny) · [Docs](https://github.com/cran/DIFshiny#readme) · [Release](https://github.com/cran/DIFshiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/channelattributionapp.png" width="32" alt="ChannelAttributionApp"> | **ChannelAttributionApp**<br>Shiny web application for the multichannel attribution problem | ✅ Available | `0.3.0` | [Windows x64](https://github.com/fentouxungui/ChannelAttributionApp/releases/download/v0.3.0/channelattributionapp-0.3.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/ChannelAttributionApp/releases/download/v0.3.0/channelattributionapp-0.3.0-mac-arm64.zip) | [Home](https://github.com/cran/ChannelAttributionApp) · [Docs](https://github.com/cran/ChannelAttributionApp#readme) · [Release](https://github.com/cran/ChannelAttributionApp/releases/tag/v0.3.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/squeakr.png" width="32" alt="SqueakR"> | **SqueakR**<br>Shiny dashboard for SqueakR behavioural analysis | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/SqueakR/releases/download/v0.1.0/squeakr-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/SqueakR/releases/download/v0.1.0/squeakr-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/SqueakR) · [Docs](https://github.com/fentouxungui/SqueakR#readme) · [Release](https://github.com/fentouxungui/SqueakR/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/html2r.png" width="32" alt="html2R"> | **html2R**<br>Convert HTML to R Shiny applications | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/html2R/releases/download/v0.1.0/html2r-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/html2R/releases/download/v0.1.0/html2r-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/html2R) · [Docs](https://github.com/fentouxungui/html2R#readme) · [Release](https://github.com/fentouxungui/html2R/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/sombrero.png" width="32" alt="SOMbrero"> | **SOMbrero**<br>SOMbrero self-organizing map GUI | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/SOMbrero/releases/download/v0.1.0/sombrero-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/SOMbrero/releases/download/v0.1.0/sombrero-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/SOMbrero) · [Docs](https://github.com/fentouxungui/SOMbrero#readme) · [Release](https://github.com/fentouxungui/SOMbrero/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/somenv.png" width="32" alt="SOMEnv"> | **SOMEnv**<br>Self-organizing map environment analysis GUI | ✅ Available | `0.2.0` | [Windows x64](https://github.com/fentouxungui/SOMEnv/releases/download/v0.2.0/somenv-0.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/SOMEnv/releases/download/v0.2.0/somenv-0.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/SOMEnv) · [Docs](https://github.com/fentouxungui/SOMEnv#readme) · [Release](https://github.com/fentouxungui/SOMEnv/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/gwsdat.png" width="32" alt="GWSDAT"> | **GWSDAT**<br>GroundWater Spatiotemporal Data Analysis Tool | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/GWSDAT/releases/download/v0.1.0/gwsdat-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/GWSDAT/releases/download/v0.1.0/gwsdat-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/GWSDAT) · [Docs](https://github.com/fentouxungui/GWSDAT#readme) · [Release](https://github.com/fentouxungui/GWSDAT/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/expandar.png" width="32" alt="ExPanDaR"> | **ExPanDaR**<br>Interactive exploratory panel data analysis | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/ExPanDaR/releases/download/v0.1.0/expandar-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/ExPanDaR/releases/download/v0.1.0/expandar-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/ExPanDaR) · [Docs](https://github.com/fentouxungui/ExPanDaR#readme) · [Release](https://github.com/fentouxungui/ExPanDaR/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/deepdep.png" width="32" alt="deepdep"> | **deepdep**<br>Visualise and explore the deep dependencies of R packages | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/deepdep/releases/download/v0.1.0/deepdep-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/deepdep/releases/download/v0.1.0/deepdep-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/deepdep) · [Docs](https://github.com/fentouxungui/deepdep#readme) · [Release](https://github.com/fentouxungui/deepdep/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/r3dmol.png" width="32" alt="r3dmol"> | **r3dmol**<br>Interactive 3D visualization of molecular data | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/r3dmol/releases/download/v0.1.0/r3dmol-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/r3dmol/releases/download/v0.1.0/r3dmol-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/r3dmol) · [Docs](https://github.com/fentouxungui/r3dmol#readme) · [Release](https://github.com/fentouxungui/r3dmol/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinyinvoice.png" width="32" alt="shinyInvoice"> | **shinyInvoice**<br>Generate a PDF invoice with Rmarkdown | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/invoice-public/releases/download/v0.1.0/shinyinvoice-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/invoice-public/releases/download/v0.1.0/shinyinvoice-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/invoice-public) · [Docs](https://github.com/fentouxungui/invoice-public#readme) · [Release](https://github.com/fentouxungui/invoice-public/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/olympicrshiny.png" width="32" alt="OlympicRshiny"> | **OlympicRshiny**<br>Shiny application for Olympic data | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/OlympicRshiny/releases/download/v0.1.0/olympicrshiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/OlympicRshiny/releases/download/v0.1.0/olympicrshiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/OlympicRshiny) · [Docs](https://github.com/fentouxungui/OlympicRshiny#readme) · [Release](https://github.com/fentouxungui/OlympicRshiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/easysdctable.png" width="32" alt="easySdcTable"> | **easySdcTable**<br>Easy interface to statistical disclosure control | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/ssb-easysdctable/releases/download/v0.1.0/easysdctable-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/ssb-easysdctable/releases/download/v0.1.0/easysdctable-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/ssb-easysdctable) · [Docs](https://github.com/fentouxungui/ssb-easysdctable#readme) · [Release](https://github.com/fentouxungui/ssb-easysdctable/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/mmirestriktor.png" width="32" alt="mmirestriktor"> | **mmirestriktor**<br>Informative hypothesis testing web applications | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/mmirestriktor/releases/download/v0.1.0/mmirestriktor-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/mmirestriktor/releases/download/v0.1.0/mmirestriktor-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/mmirestriktor) · [Docs](https://github.com/fentouxungui/mmirestriktor#readme) · [Release](https://github.com/fentouxungui/mmirestriktor/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/holi.png" width="32" alt="holi"> | **holi**<br>Higher order likelihood inference web applications | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/holi/releases/download/v0.1.0/holi-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/holi/releases/download/v0.1.0/holi-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/holi) · [Docs](https://github.com/fentouxungui/holi#readme) · [Release](https://github.com/fentouxungui/holi/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinybrms.png" width="32" alt="shinybrms"> | **shinybrms**<br>Shiny interface for brms Bayesian models | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/shinybrms/releases/download/v0.1.0/shinybrms-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/shinybrms/releases/download/v0.1.0/shinybrms-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/shinybrms) · [Docs](https://github.com/fentouxungui/shinybrms#readme) · [Release](https://github.com/fentouxungui/shinybrms/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/lande.png" width="32" alt="lande"> | **lande**<br>Landscape analysis and visualization | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/lande/releases/download/v0.1.0/lande-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/lande/releases/download/v0.1.0/lande-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/lande) · [Docs](https://github.com/fentouxungui/lande#readme) · [Release](https://github.com/fentouxungui/lande/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/mispitools.png" width="32" alt="mispitools"> | **mispitools**<br>Missing person identification tools | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/mispitools/releases/download/v0.1.0/mispitools-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/mispitools/releases/download/v0.1.0/mispitools-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/mispitools) · [Docs](https://github.com/fentouxungui/mispitools#readme) · [Release](https://github.com/fentouxungui/mispitools/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/ggplotgui.png" width="32" alt="ggplotgui"> | **ggplotgui**<br>Create ggplot2 plots interactively | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/ggplotgui/releases/download/v0.1.0/ggplotgui-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/ggplotgui/releases/download/v0.1.0/ggplotgui-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/ggplotgui) · [Docs](https://github.com/fentouxungui/ggplotgui#readme) · [Release](https://github.com/fentouxungui/ggplotgui/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/mmibain.png" width="32" alt="mmibain"> | **mmibain**<br>Bayes factors for informed hypotheses | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/mmibain/releases/download/v0.1.0/mmibain-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/mmibain/releases/download/v0.1.0/mmibain-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/mmibain) · [Docs](https://github.com/fentouxungui/mmibain#readme) · [Release](https://github.com/fentouxungui/mmibain/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/archeofrag-gui.png" width="32" alt="archeofrag.gui"> | **archeofrag.gui**<br>GUI for the archeofrag fragmentation analysis | ✅ Available | `0.2.0` | [Windows x64](https://github.com/fentouxungui/archeofrag.gui/releases/download/v0.2.0/archeofrag-gui-0.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/archeofrag.gui/releases/download/v0.2.0/archeofrag-gui-0.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/archeofrag.gui) · [Docs](https://github.com/fentouxungui/archeofrag.gui#readme) · [Release](https://github.com/fentouxungui/archeofrag.gui/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/cocktailapp.png" width="32" alt="cocktailApp"> | **cocktailApp**<br>Cocktail party effect visualization | ✅ Available | `0.2.0` | [Windows x64](https://github.com/fentouxungui/cocktailApp/releases/download/v0.2.0/cocktailapp-0.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/cocktailApp/releases/download/v0.2.0/cocktailapp-0.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/cocktailApp) · [Docs](https://github.com/fentouxungui/cocktailApp#readme) · [Release](https://github.com/fentouxungui/cocktailApp/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/vvdoctor.png" width="32" alt="vvdoctor"> | **vvdoctor**<br>Diagnose data and model problems | ✅ Available | `0.2.0` | [Windows x64](https://github.com/fentouxungui/vvdoctor/releases/download/v0.2.0/vvdoctor-0.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/vvdoctor/releases/download/v0.2.0/vvdoctor-0.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/vvdoctor) · [Docs](https://github.com/fentouxungui/vvdoctor#readme) · [Release](https://github.com/fentouxungui/vvdoctor/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/sdstudio.png" width="32" alt="sdstudio"> | **sdstudio**<br>Interactive survey data studio | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/sdstudio/releases/download/v0.1.0/sdstudio-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/sdstudio/releases/download/v0.1.0/sdstudio-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/sdstudio) · [Docs](https://github.com/fentouxungui/sdstudio#readme) · [Release](https://github.com/fentouxungui/sdstudio/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/quallmer-app.png" width="32" alt="quallmer.app"> | **quallmer.app**<br>Qualitative coding comparison app | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/quallmer.app/releases/download/v0.1.0/quallmer-app-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/quallmer.app/releases/download/v0.1.0/quallmer-app-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/quallmer.app) · [Docs](https://github.com/fentouxungui/quallmer.app#readme) · [Release](https://github.com/fentouxungui/quallmer.app/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/pressfreedom.png" width="32" alt="pressfreedom"> | **pressfreedom**<br>Press freedom data explorer | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/pressfreedom/releases/download/v0.1.0/pressfreedom-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/pressfreedom/releases/download/v0.1.0/pressfreedom-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/pressfreedom) · [Docs](https://github.com/fentouxungui/pressfreedom#readme) · [Release](https://github.com/fentouxungui/pressfreedom/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/ggraptr.png" width="32" alt="ggraptR"> | **ggraptR**<br>Interactive ggplot2 exploration | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/ggraptR/releases/download/v0.1.0/ggraptr-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/ggraptR/releases/download/v0.1.0/ggraptr-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/ggraptR) · [Docs](https://github.com/fentouxungui/ggraptR#readme) · [Release](https://github.com/fentouxungui/ggraptR/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/yuima-gui.png" width="32" alt="yuimaGUI"> | **yuimaGUI**<br>GUI for the yuima stochastic process package | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/yuimaGUI/releases/download/v0.1.0/yuima-gui-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/yuimaGUI/releases/download/v0.1.0/yuima-gui-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/yuimaGUI) · [Docs](https://github.com/fentouxungui/yuimaGUI#readme) · [Release](https://github.com/fentouxungui/yuimaGUI/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/censuspyrid.png" width="32" alt="censuspyrID"> | **censuspyrID**<br>Census data explorer for Puerto Rico | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/censuspyrID/releases/download/v0.1.0/censuspyrid-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/censuspyrID/releases/download/v0.1.0/censuspyrid-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/censuspyrID) · [Docs](https://github.com/fentouxungui/censuspyrID#readme) · [Release](https://github.com/fentouxungui/censuspyrID/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/fitodbodrshiny.png" width="32" alt="fitODBODRshiny"> | **fitODBODRshiny**<br>Fit ODBOD distributions interactively | ✅ Available | `0.2.0` | [Windows x64](https://github.com/fentouxungui/fitODBODRshiny/releases/download/v0.2.0/fitodbodrshiny-0.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/fitODBODRshiny/releases/download/v0.2.0/fitodbodrshiny-0.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/fitODBODRshiny) · [Docs](https://github.com/fentouxungui/fitODBODRshiny#readme) · [Release](https://github.com/fentouxungui/fitODBODRshiny/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/esdm.png" width="32" alt="eSDM"> | **eSDM**<br>Species distribution models for marine data | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/eSDM/releases/download/v0.1.0/esdm-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/eSDM/releases/download/v0.1.0/esdm-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/eSDM) · [Docs](https://github.com/fentouxungui/eSDM#readme) · [Release](https://github.com/fentouxungui/eSDM/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/adverseevents.png" width="32" alt="AdverseEvents"> | **AdverseEvents**<br>Adverse event data exploration | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/AdverseEvents/releases/download/v0.1.0/adverseevents-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/AdverseEvents/releases/download/v0.1.0/adverseevents-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/AdverseEvents) · [Docs](https://github.com/fentouxungui/AdverseEvents#readme) · [Release](https://github.com/fentouxungui/AdverseEvents/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/isocor.png" width="32" alt="IsoCor"> | **IsoCor**<br>Isotope correction for mass spectrometry | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/IsoCor/releases/download/v0.1.0/isocor-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/IsoCor/releases/download/v0.1.0/isocor-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/IsoCor) · [Docs](https://github.com/fentouxungui/IsoCor#readme) · [Release](https://github.com/fentouxungui/IsoCor/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/minmeta.png" width="32" alt="miniMeta"> | **miniMeta**<br>Minimal meta-analysis app | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/miniMeta/releases/download/v0.1.0/minmeta-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/miniMeta/releases/download/v0.1.0/minmeta-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/miniMeta) · [Docs](https://github.com/fentouxungui/miniMeta#readme) · [Release](https://github.com/fentouxungui/miniMeta/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/gde.png" width="32" alt="gde"> | **gde**<br>Graphical data exploration | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/gde/releases/download/v0.1.0/gde-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/gde/releases/download/v0.1.0/gde-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/gde) · [Docs](https://github.com/fentouxungui/gde#readme) · [Release](https://github.com/fentouxungui/gde/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/seasonalview.png" width="32" alt="seasonalview"> | **seasonalview**<br>Seasonal adjustment viewer | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/seasonalview/releases/download/v0.1.0/seasonalview-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/seasonalview/releases/download/v0.1.0/seasonalview-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/seasonalview) · [Docs](https://github.com/fentouxungui/seasonalview#readme) · [Release](https://github.com/fentouxungui/seasonalview/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/memapp.png" width="32" alt="memapp"> | **memapp**<br>Morphometric analysis app | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/memapp/releases/download/v0.1.0/memapp-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/memapp/releases/download/v0.1.0/memapp-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/memapp) · [Docs](https://github.com/fentouxungui/memapp#readme) · [Release](https://github.com/fentouxungui/memapp/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/elaborator.png" width="32" alt="elaborator"> | **elaborator**<br>Visual exploration of laboratory data | ✅ Available | `0.2.0` | [Windows x64](https://github.com/fentouxungui/elaborator/releases/download/v0.2.0/elaborator-0.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/elaborator/releases/download/v0.2.0/elaborator-0.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/elaborator) · [Docs](https://github.com/fentouxungui/elaborator#readme) · [Release](https://github.com/fentouxungui/elaborator/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/dqcheckrgui.png" width="32" alt="dqcheckrGUI"> | **dqcheckrGUI**<br>Data quality checks GUI | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/dqcheckrGUI/releases/download/v0.1.0/dqcheckrgui-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/dqcheckrGUI/releases/download/v0.1.0/dqcheckrgui-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/dqcheckrGUI) · [Docs](https://github.com/fentouxungui/dqcheckrGUI#readme) · [Release](https://github.com/fentouxungui/dqcheckrGUI/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/visxhclust.png" width="32" alt="visxhclust"> | **visxhclust**<br>Visual exploration of hierarchical clustering | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/visxhclust/releases/download/v0.1.0/visxhclust-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/visxhclust/releases/download/v0.1.0/visxhclust-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/visxhclust) · [Docs](https://github.com/fentouxungui/visxhclust#readme) · [Release](https://github.com/fentouxungui/visxhclust/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/phecodemap.png" width="32" alt="phecodemap"> | **phecodemap**<br>Phenotype code mapping | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/phecodemap/releases/download/v0.1.0/phecodemap-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/phecodemap/releases/download/v0.1.0/phecodemap-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/phecodemap) · [Docs](https://github.com/fentouxungui/phecodemap#readme) · [Release](https://github.com/fentouxungui/phecodemap/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/fdapaceshiny.png" width="32" alt="fdapaceShiny"> | **fdapaceShiny**<br>Functional data analysis app | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/fdapaceShiny/releases/download/v0.1.0/fdapaceshiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/fdapaceShiny/releases/download/v0.1.0/fdapaceshiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/fdapaceShiny) · [Docs](https://github.com/fentouxungui/fdapaceShiny#readme) · [Release](https://github.com/fentouxungui/fdapaceShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/glossa.png" width="32" alt="glossa"> | **glossa**<br>Glossary and ontology exploration | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/glossa/releases/download/v0.1.0/glossa-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/glossa/releases/download/v0.1.0/glossa-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/glossa) · [Docs](https://github.com/fentouxungui/glossa#readme) · [Release](https://github.com/fentouxungui/glossa/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/anca.png" width="32" alt="aNCA"> | **aNCA**<br>Non-compartmental analysis | ✅ Available | `0.2.0` | [Windows x64](https://github.com/fentouxungui/aNCA/releases/download/v0.2.0/anca-0.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/aNCA/releases/download/v0.2.0/anca-0.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/aNCA) · [Docs](https://github.com/fentouxungui/aNCA#readme) · [Release](https://github.com/fentouxungui/aNCA/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinymixr.png" width="32" alt="shinyMixR"> | **shinyMixR**<br>Interactive mixed-effects model exploration | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/shinyMixR/releases/download/v0.1.0/shinymixr-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/shinyMixR/releases/download/v0.1.0/shinymixr-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/shinyMixR) · [Docs](https://github.com/fentouxungui/shinyMixR#readme) · [Release](https://github.com/fentouxungui/shinyMixR/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/kesernetwork.png" width="32" alt="kesernetwork"> | **kesernetwork**<br>Knowledge graph network explorer | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/kesernetwork/releases/download/v0.1.0/kesernetwork-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/kesernetwork/releases/download/v0.1.0/kesernetwork-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/kesernetwork) · [Docs](https://github.com/fentouxungui/kesernetwork#readme) · [Release](https://github.com/fentouxungui/kesernetwork/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinykgode.png" width="32" alt="shinyKGode"> | **shinyKGode**<br>Interactive ODE parameter estimation | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/shinyKGode/releases/download/v0.1.0/shinykgode-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/shinyKGode/releases/download/v0.1.0/shinykgode-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/shinyKGode) · [Docs](https://github.com/fentouxungui/shinyKGode#readme) · [Release](https://github.com/fentouxungui/shinyKGode/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/viewpoly.png" width="32" alt="viewpoly"> | **viewpoly**<br>Visualize polyploid genetic data | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/viewpoly/releases/download/v0.1.0/viewpoly-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/viewpoly/releases/download/v0.1.0/viewpoly-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/viewpoly) · [Docs](https://github.com/fentouxungui/viewpoly#readme) · [Release](https://github.com/fentouxungui/viewpoly/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/normalityassessment.png" width="32" alt="NormalityAssessment"> | **NormalityAssessment**<br>Assess normality of data | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/NormalityAssessment/releases/download/v0.1.0/normalityassessment-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/NormalityAssessment/releases/download/v0.1.0/normalityassessment-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/NormalityAssessment) · [Docs](https://github.com/fentouxungui/NormalityAssessment#readme) · [Release](https://github.com/fentouxungui/NormalityAssessment/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/assumpsure.png" width="32" alt="AssumpSure"> | **AssumpSure**<br>Check statistical assumptions | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/AssumpSure/releases/download/v0.1.0/assumpsure-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/AssumpSure/releases/download/v0.1.0/assumpsure-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/AssumpSure) · [Docs](https://github.com/fentouxungui/AssumpSure#readme) · [Release](https://github.com/fentouxungui/AssumpSure/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/activanalyzer.png" width="32" alt="activAnalyzer"> | **activAnalyzer**<br>Analyze accelerometer-measured daily physical behavior data | ✅ Available | `0.2.0` | [Windows x64](https://github.com/fentouxungui/activAnalyzer/releases/download/v0.2.0/activanalyzer-0.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/activAnalyzer/releases/download/v0.2.0/activanalyzer-0.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/activAnalyzer) · [Docs](https://github.com/fentouxungui/activAnalyzer#readme) · [Release](https://github.com/fentouxungui/activAnalyzer/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/catascience.png" width="32" alt="cataScience"> | **cataScience**<br>Interactive training app for data science and AI skills | ✅ Available | `0.2.0` | [Windows x64](https://github.com/fentouxungui/cataScience/releases/download/v0.2.0/catascience-0.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/cataScience/releases/download/v0.2.0/catascience-0.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/cataScience) · [Docs](https://github.com/fentouxungui/cataScience#readme) · [Release](https://github.com/fentouxungui/cataScience/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/shinysbm.png" width="32" alt="shinySbm"> | **shinySbm**<br>Shiny interface for the stochastic block model | ✅ Available | `0.2.0` | [Windows x64](https://github.com/fentouxungui/shinySbm/releases/download/v0.2.0/shinysbm-0.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/shinySbm/releases/download/v0.2.0/shinysbm-0.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/shinySbm) · [Docs](https://github.com/fentouxungui/shinySbm#readme) · [Release](https://github.com/fentouxungui/shinySbm/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/complexr.png" width="32" alt="complexr"> | **complexr**<br>Interactive survey data analysis | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/complexr/releases/download/v0.1.0/complexr-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/complexr/releases/download/v0.1.0/complexr-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/complexr) · [Docs](https://github.com/fentouxungui/complexr#readme) · [Release](https://github.com/fentouxungui/complexr/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/dataviewr.png" width="32" alt="dataviewR"> | **dataviewR**<br>Interactive viewer for data frames | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/dataviewR/releases/download/v0.1.0/dataviewr-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/dataviewR/releases/download/v0.1.0/dataviewr-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/dataviewR) · [Docs](https://github.com/fentouxungui/dataviewR#readme) · [Release](https://github.com/fentouxungui/dataviewR/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/drdata.png" width="32" alt="DrData"> | **DrData**<br>End-to-end interactive data science platform | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/DrData/releases/download/v0.1.0/drdata-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/DrData/releases/download/v0.1.0/drdata-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/DrData) · [Docs](https://github.com/fentouxungui/DrData#readme) · [Release](https://github.com/fentouxungui/DrData/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/exmort.png" width="32" alt="exmort"> | **exmort**<br>All-cause and excess mortality calculator | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/exmort/releases/download/v0.1.1/exmort-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/exmort/releases/download/v0.1.1/exmort-0.1.1-mac-arm64.zip) | [Home](https://github.com/fentouxungui/exmort) · [Docs](https://github.com/fentouxungui/exmort#readme) · [Release](https://github.com/fentouxungui/exmort/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/monobinshiny.png" width="32" alt="monobinShiny"> | **monobinShiny**<br>Shiny interface for the monobin package | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/monobinShiny/releases/download/v0.1.0/monobinshiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/monobinShiny/releases/download/v0.1.0/monobinshiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/monobinShiny) · [Docs](https://github.com/fentouxungui/monobinShiny#readme) · [Release](https://github.com/fentouxungui/monobinShiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/paramgui.png" width="32" alt="paramGUI"> | **paramGUI**<br>Shiny GUI for parameter estimation examples | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/paramGUI/releases/download/v0.1.0/paramgui-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/paramGUI/releases/download/v0.1.0/paramgui-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/paramGUI) · [Docs](https://github.com/fentouxungui/paramGUI#readme) · [Release](https://github.com/fentouxungui/paramGUI/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/statteacherassistant.png" width="32" alt="StatTeacherAssistant"> | **StatTeacherAssistant**<br>Teaching assistant for introductory statistics | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/StatTeacherAssistant/releases/download/v0.1.0/statteacherassistant-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/StatTeacherAssistant/releases/download/v0.1.0/statteacherassistant-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/StatTeacherAssistant) · [Docs](https://github.com/fentouxungui/StatTeacherAssistant#readme) · [Release](https://github.com/fentouxungui/StatTeacherAssistant/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/vosondash.png" width="32" alt="VOSONDash"> | **VOSONDash**<br>Visualise and analyse social networks | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/VOSONDash/releases/download/v0.1.0/vosondash-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/VOSONDash/releases/download/v0.1.0/vosondash-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/VOSONDash) · [Docs](https://github.com/fentouxungui/VOSONDash#readme) · [Release](https://github.com/fentouxungui/VOSONDash/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/zscorer.png" width="32" alt="zscorer"> | **zscorer**<br>Child anthropometry z-score calculator | ✅ Available | `0.3.2` | [Windows x64](https://github.com/fentouxungui/zscorer/releases/download/v0.3.2/zscorer-0.3.2-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/zscorer/releases/download/v0.3.2/zscorer-0.3.2-mac-arm64.zip) | [Home](https://github.com/fentouxungui/zscorer) · [Docs](https://github.com/fentouxungui/zscorer#readme) · [Release](https://github.com/fentouxungui/zscorer/releases/tag/v0.3.2) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/earthui.png" width="32" alt="earthUI"> | **earthUI**<br>Interactive GUI for the earth package | ✅ Available | `0.12.0` | [Windows x64](https://github.com/fentouxungui/earthui/releases/download/v0.12.0/earthui-0.12.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/earthui/releases/download/v0.12.0/earthui-0.12.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/earthui) · [Docs](https://github.com/fentouxungui/earthui#readme) · [Release](https://github.com/fentouxungui/earthui/releases/tag/v0.12.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/statnetweb.png" width="32" alt="statnetWeb"> | **statnetWeb**<br>Network modeling with statnet | ✅ Available | `0.7.0` | [Windows x64](https://github.com/fentouxungui/statnetWeb/releases/download/v0.7.0/statnetweb-0.7.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/statnetWeb/releases/download/v0.7.0/statnetweb-0.7.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/statnetWeb) · [Docs](https://github.com/fentouxungui/statnetWeb#readme) · [Release](https://github.com/fentouxungui/statnetWeb/releases/tag/v0.7.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/parcc.png" width="32" alt="ParCC"> | **ParCC**<br>Parameter converter and calculator for health technology assessment | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/ParCC/releases/download/v0.1.0/parcc-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/ParCC/releases/download/v0.1.0/parcc-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/ParCC) · [Docs](https://github.com/fentouxungui/ParCC#readme) · [Release](https://github.com/fentouxungui/ParCC/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/holomics.png" width="32" alt="Holomics"> | **Holomics**<br>Multi-omics data integration and analysis | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/Holomics/releases/download/v0.1.0/holomics-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/Holomics/releases/download/v0.1.0/holomics-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/Holomics) · [Docs](https://github.com/fentouxungui/Holomics#readme) · [Release](https://github.com/fentouxungui/Holomics/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/testanaapp.png" width="32" alt="TestAnaAPP"> | **TestAnaAPP**<br>Interactive test analysis and visualization | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/TestAnaAPP/releases/download/v0.1.0/testanaapp-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/TestAnaAPP/releases/download/v0.1.0/testanaapp-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/TestAnaAPP) · [Docs](https://github.com/fentouxungui/TestAnaAPP#readme) · [Release](https://github.com/fentouxungui/TestAnaAPP/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/datacompare.png" width="32" alt="dataCompare"> | **dataCompare**<br>Compare two data frames | ✅ Available | `0.2.0` | [Windows x64](https://github.com/fentouxungui/dataCompare/releases/download/v0.2.0/datacompare-0.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/dataCompare/releases/download/v0.2.0/datacompare-0.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/dataCompare) · [Docs](https://github.com/fentouxungui/dataCompare#readme) · [Release](https://github.com/fentouxungui/dataCompare/releases/tag/v0.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/projectlsa.png" width="32" alt="projectLSA"> | **projectLSA**<br>Latent structure analysis with a graphical interface | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/projectLSA/releases/download/v0.1.0/projectlsa-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/projectLSA/releases/download/v0.1.0/projectlsa-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/projectLSA) · [Docs](https://github.com/fentouxungui/projectLSA#readme) · [Release](https://github.com/fentouxungui/projectLSA/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/southparkrshiny.png" width="32" alt="SouthParkRshiny"> | **SouthParkRshiny**<br>Explore data from the TV show South Park | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/SouthParkRshiny/releases/download/v0.1.0/southparkrshiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/SouthParkRshiny/releases/download/v0.1.0/southparkrshiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/SouthParkRshiny) · [Docs](https://github.com/fentouxungui/SouthParkRshiny#readme) · [Release](https://github.com/fentouxungui/SouthParkRshiny/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/handwriterapp.png" width="32" alt="handwriterApp"> | **handwriterApp**<br>Handwriting analysis | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/handwriterApp/releases/download/v0.1.0/handwriterapp-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/handwriterApp/releases/download/v0.1.0/handwriterapp-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/handwriterApp) · [Docs](https://github.com/fentouxungui/handwriterApp#readme) · [Release](https://github.com/fentouxungui/handwriterApp/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png" width="32" alt="tfrmtbuilder"> | **tfrmtbuilder**<br>Build and modify tfrmt table specifications | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/tfrmtbuilder-1) · [Docs](https://github.com/GSK-Biostatistics/tfrmtbuilder#readme) · [Release](https://github.com/fentouxungui/tfrmtbuilder-1/releases/tag/v0.1.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/scrnatoolvis.png" width="32" alt="scRNAtoolVis"> | **scRNAtoolVis**<br>Interactive parameter exploration and publication-ready visualization of single-cell RNA-seq data | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-win-x64.zip) | [Home](https://github.com/fentouxungui/scRNAtoolVis) · [Docs](https://github.com/fentouxungui/scRNAtoolVis#readme) · [Release](https://github.com/fentouxungui/scRNAtoolVis/releases/tag/v0.1.1) |
+
+Windows bundles are x64. macOS bundles are arm64 (Apple Silicon, macOS 14+); Intel Macs are not supported.
 
 ---
 
@@ -157,7 +172,7 @@ Explore scRNA-seq data processed in Seurat
 
 Release: https://github.com/fentouxungui/SeuratExplorer/releases/tag/v0.1.9
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -180,7 +195,7 @@ Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCe
 
 Release: https://github.com/fentouxungui/scConvertShiny/releases/tag/v0.1.3
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -203,7 +218,7 @@ Interactive SummarizedExperiment Explorer
 
 Release: https://github.com/fentouxungui/iSEE/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -226,7 +241,7 @@ Interactive analysis and visualization of UCSC Xena cancer genomics data
 
 Release: https://github.com/fentouxungui/UCSCXenaShiny/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -249,7 +264,7 @@ Interactive visualization of spatially-resolved transcriptomics data (10x Genomi
 
 Release: https://github.com/fentouxungui/spatialLIBD/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -271,7 +286,7 @@ Automated high-throughput explorative analysis of multivariate behavioral data (
 
 Release: https://github.com/fentouxungui/beeRapp/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -293,7 +308,7 @@ Computational Suite for Bioinformaticians and Biologists (CSBB): 8 downstream NG
 
 Release: https://github.com/fentouxungui/CSBB-Shiny/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -315,7 +330,7 @@ Automated precise prediction of differentially expressed genes (DEGs) from RNA-s
 
 Release: https://github.com/fentouxungui/bestDEG/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -338,7 +353,7 @@ Interactive creation of Circos plots from genomic data - chromosome ideograms, t
 
 Release: https://github.com/YaoLab-Bioinfo/shinyCircos-V2.0/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -360,7 +375,7 @@ Interactive UpSet plots of set intersections from file, list, or expression inpu
 
 Release: https://github.com/fentouxungui/UpSetR-shiny/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -383,7 +398,7 @@ Modular Shiny dashboard for popular omics-data visualizations - heatmap, volcano
 
 Release: http://www.graphbio1.com/en/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -405,7 +420,7 @@ Interactive comparison of split ergonomic keyboard layouts - filter by specs, ov
 
 Release: https://github.com/jhelvy/splitKbCompare/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -428,7 +443,7 @@ Interactive visual and numerical diagnostics and posterior analysis for Bayesian
 
 Release: https://mc-stan.org/shinystan/releases/tag/v0.3.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -451,7 +466,7 @@ Explore and visualize your data interactively - build ggplot2 figures with drag-
 
 Release: https://dreamrs.github.io/esquisse/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -473,7 +488,7 @@ Visualize and compare data distributions - dot plots with summary statistics and
 
 Release: https://huygens.science.uva.nl/PlotsOfData/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -495,7 +510,7 @@ Create hex stickers for R packages - design a hex, add a logo and text, and expo
 
 Release: https://github.com/ColinFay/hexmake/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -518,7 +533,7 @@ Interactive exploration of multivariate analysis results (PCA, MCA, CA) - a Shin
 
 Release: https://juba.github.io/explor/releases/tag/v0.1.2
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -540,7 +555,7 @@ Statistical tools for biological dosimetry - chromosome aberration and micronucl
 
 Release: https://biodosetools-team.github.io/biodosetools/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -562,7 +577,7 @@ Phylogenetic profile analysis - compare presence/absence and domain architecture
 
 Release: https://github.com/BIONF/PhyloProfile/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -584,7 +599,7 @@ Web app for DESeq2 differential expression analysis with boxplots, heatmaps and 
 
 Release: https://github.com/nasqar/deseq2shiny/releases/tag/v0.1.3
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -606,7 +621,7 @@ Over-representation analysis (ORA) with clusterProfiler - GO/KEGG enrichment plu
 
 Release: https://github.com/nasqar/ClusterProfShinyORA/releases/tag/v0.1.6
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -628,7 +643,7 @@ Interactive validation and visualization of structural topic models (stm)
 
 Release: https://cschwem2er.github.io/stminsights/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -650,7 +665,7 @@ Web-based workflow for metabolomics and proteomics data analysis
 
 Release: https://github.com/pcastellanoescuder/POMAShiny/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -672,7 +687,7 @@ Portfolio optimization and Black-Litterman allocation
 
 Release: https://github.com/mschoenhart/portfoliooptimizer/releases/tag/v0.1.4
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -694,7 +709,7 @@ Peptide-centric functional enrichment workflow for metaproteomics
 
 Release: https://github.com/northomics/pepFunk/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -716,7 +731,7 @@ Dashboard for interactive analysis and exploration of microbiome data (mia + iSE
 
 Release: https://github.com/microbiome/miaDash/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -738,7 +753,7 @@ Interactive visualization of basic microbial genome features
 
 Release: https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.7
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -760,7 +775,7 @@ Interactive analysis and browsing of mass spectrometry data
 
 Release: https://metaboseek.com/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -782,7 +797,7 @@ Interactive manual gating of flow / mass cytometry on SingleCellExperiment objec
 
 Release: https://david-priest.github.io/GateLabR/releases/tag/v0.2.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -804,7 +819,7 @@ Shiny application for population structure and ancestry assessments
 
 Release: https://github.com/Breeding-Insight/Familia/releases/tag/v2.2.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -826,7 +841,7 @@ A Shiny app for design of experiments in life sciences
 
 Release: https://github.com/DidierMurilloF/FielDHub/releases/tag/v0.1.6
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -848,7 +863,7 @@ Shiny app for reproducible QA/QC of eddy covariance data
 
 Release: https://github.com/kesondrakey/fluxtools/releases/tag/v0.1.3
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -870,7 +885,7 @@ GUI to correct measurement bias in DNA methylation analyses
 
 Release: https://github.com/kapsner/BiasCorrector/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -892,7 +907,7 @@ Interactive dataset explorer for R, SAS and other data formats
 
 Release: https://github.com/ramsas88/QuickExplore/releases/tag/v0.1.2
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -914,7 +929,7 @@ Shiny application for exploring associations and visual patterns
 
 Release: https://github.com/AntoineSoetewey/AssociationExplorer2/releases/tag/v0.1.2
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -936,7 +951,7 @@ Interactive dashboard for HIV data visualization
 
 Release: https://github.com/Atefehrashidi/HIViz/releases/tag/v0.1.2
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -958,7 +973,7 @@ Graphical user interface for plotting common univariate distributions
 
 Release: https://github.com/ccasement/DistPlotter/releases/tag/v0.1.2
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -980,7 +995,7 @@ RNA-Seq analysis and genome visualization Shiny platform
 
 Release: https://github.com/bigfacilityiisr/NGS-Tool-Kit/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1002,7 +1017,7 @@ Graphical user interface for data quality assessment
 
 Release: https://github.com/miracum/dqa-dqagui/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1024,7 +1039,7 @@ Tool for annotating images in preparation for analysis
 
 Release: https://github.com/srkobakian/taipan/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1046,7 +1061,7 @@ Shiny application for allele binning in microsatellite markers
 
 Release: https://github.com/vpprasanth/AlleloBin/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1068,7 +1083,7 @@ Interactive visualisation of meta-analysis
 
 Release: https://github.com/chjackson/MetaAnalyser/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1090,7 +1105,7 @@ Shiny app for reliability analysis
 
 Release: https://github.com/paulgovan/ReliaShiny/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1112,7 +1127,7 @@ Compare and merge two files with a Shiny app
 
 Release: https://github.com/stla/shinyMergely/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1134,7 +1149,7 @@ App for calculating the sample size in a diagnostic study
 
 Release: https://github.com/JanaW09/DiagnostySize_App/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1156,7 +1171,7 @@ Latent variable analysis with Shiny
 
 Release: https://github.com/kylehamilton/lavaan.shiny/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1178,7 +1193,7 @@ Shiny app for Grey forecasting models
 
 Release: https://github.com/havishaJ/Greymodels/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1200,7 +1215,7 @@ Shiny app for FossilSim
 
 Release: https://github.com/fossilsim/FossilSimShiny/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1222,7 +1237,7 @@ Generalized mortality estimator
 
 Release: https://github.com/ddalthorp/GenEst/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1244,7 +1259,7 @@ ICS via a Shiny application
 
 Release: https://github.com/cran/ICSShiny/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1266,7 +1281,7 @@ Item response theory via Shiny
 
 Release: https://github.com/kylehamilton/IRTShiny/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1288,7 +1303,7 @@ Shiny application for Cohen and Fleiss kappa
 
 Release: https://github.com/cran/KappaGUI/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1310,7 +1325,7 @@ Shiny app for sample size estimation in metabolomic experiments
 
 Release: https://github.com/1danjordan/MetSizeR/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1332,7 +1347,7 @@ REPPlab via a Shiny application
 
 Release: https://github.com/cran/REPPlabShiny/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1354,7 +1369,7 @@ Shiny application for creating STM models
 
 Release: https://github.com/dzangri/stmGUI/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1376,7 +1391,7 @@ Differential item functioning via a Shiny application
 
 Release: https://github.com/cran/DIFshiny/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1398,7 +1413,7 @@ Shiny web application for the multichannel attribution problem
 
 Release: https://github.com/cran/ChannelAttributionApp/releases/tag/v0.3.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1420,7 +1435,7 @@ Shiny dashboard for SqueakR behavioural analysis
 
 Release: https://github.com/fentouxungui/SqueakR/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1442,7 +1457,7 @@ Convert HTML to R Shiny applications
 
 Release: https://github.com/fentouxungui/html2R/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1464,7 +1479,7 @@ SOMbrero self-organizing map GUI
 
 Release: https://github.com/fentouxungui/SOMbrero/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1486,7 +1501,7 @@ Self-organizing map environment analysis GUI
 
 Release: https://github.com/fentouxungui/SOMEnv/releases/tag/v0.2.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1508,7 +1523,7 @@ GroundWater Spatiotemporal Data Analysis Tool
 
 Release: https://github.com/fentouxungui/GWSDAT/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1530,7 +1545,7 @@ Interactive exploratory panel data analysis
 
 Release: https://github.com/fentouxungui/ExPanDaR/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1552,7 +1567,7 @@ Visualise and explore the deep dependencies of R packages
 
 Release: https://github.com/fentouxungui/deepdep/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1574,7 +1589,7 @@ Interactive 3D visualization of molecular data
 
 Release: https://github.com/fentouxungui/r3dmol/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1596,7 +1611,7 @@ Generate a PDF invoice with Rmarkdown
 
 Release: https://github.com/fentouxungui/invoice-public/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1618,7 +1633,7 @@ Shiny application for Olympic data
 
 Release: https://github.com/fentouxungui/OlympicRshiny/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1640,7 +1655,7 @@ Easy interface to statistical disclosure control
 
 Release: https://github.com/fentouxungui/ssb-easysdctable/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1662,7 +1677,7 @@ Informative hypothesis testing web applications
 
 Release: https://github.com/fentouxungui/mmirestriktor/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1684,7 +1699,7 @@ Higher order likelihood inference web applications
 
 Release: https://github.com/fentouxungui/holi/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1706,7 +1721,7 @@ Shiny interface for brms Bayesian models
 
 Release: https://github.com/fentouxungui/shinybrms/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1728,7 +1743,7 @@ Landscape analysis and visualization
 
 Release: https://github.com/fentouxungui/lande/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1750,7 +1765,7 @@ Missing person identification tools
 
 Release: https://github.com/fentouxungui/mispitools/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1772,7 +1787,7 @@ Create ggplot2 plots interactively
 
 Release: https://github.com/fentouxungui/ggplotgui/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1794,7 +1809,7 @@ Bayes factors for informed hypotheses
 
 Release: https://github.com/fentouxungui/mmibain/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1816,7 +1831,7 @@ GUI for the archeofrag fragmentation analysis
 
 Release: https://github.com/fentouxungui/archeofrag.gui/releases/tag/v0.2.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1838,7 +1853,7 @@ Cocktail party effect visualization
 
 Release: https://github.com/fentouxungui/cocktailApp/releases/tag/v0.2.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1860,7 +1875,7 @@ Diagnose data and model problems
 
 Release: https://github.com/fentouxungui/vvdoctor/releases/tag/v0.2.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1882,7 +1897,7 @@ Interactive survey data studio
 
 Release: https://github.com/fentouxungui/sdstudio/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1904,7 +1919,7 @@ Qualitative coding comparison app
 
 Release: https://github.com/fentouxungui/quallmer.app/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1926,7 +1941,7 @@ Press freedom data explorer
 
 Release: https://github.com/fentouxungui/pressfreedom/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1948,7 +1963,7 @@ Interactive ggplot2 exploration
 
 Release: https://github.com/fentouxungui/ggraptR/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1970,7 +1985,7 @@ GUI for the yuima stochastic process package
 
 Release: https://github.com/fentouxungui/yuimaGUI/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -1992,7 +2007,7 @@ Census data explorer for Puerto Rico
 
 Release: https://github.com/fentouxungui/censuspyrID/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2014,7 +2029,7 @@ Fit ODBOD distributions interactively
 
 Release: https://github.com/fentouxungui/fitODBODRshiny/releases/tag/v0.2.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2036,7 +2051,7 @@ Species distribution models for marine data
 
 Release: https://github.com/fentouxungui/eSDM/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2058,7 +2073,7 @@ Adverse event data exploration
 
 Release: https://github.com/fentouxungui/AdverseEvents/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2080,7 +2095,7 @@ Isotope correction for mass spectrometry
 
 Release: https://github.com/fentouxungui/IsoCor/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2102,7 +2117,7 @@ Minimal meta-analysis app
 
 Release: https://github.com/fentouxungui/miniMeta/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2124,7 +2139,7 @@ Graphical data exploration
 
 Release: https://github.com/fentouxungui/gde/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2146,7 +2161,7 @@ Seasonal adjustment viewer
 
 Release: https://github.com/fentouxungui/seasonalview/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2168,7 +2183,7 @@ Morphometric analysis app
 
 Release: https://github.com/fentouxungui/memapp/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2190,7 +2205,7 @@ Visual exploration of laboratory data
 
 Release: https://github.com/fentouxungui/elaborator/releases/tag/v0.2.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2212,7 +2227,7 @@ Data quality checks GUI
 
 Release: https://github.com/fentouxungui/dqcheckrGUI/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2234,7 +2249,7 @@ Visual exploration of hierarchical clustering
 
 Release: https://github.com/fentouxungui/visxhclust/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2256,7 +2271,7 @@ Phenotype code mapping
 
 Release: https://github.com/fentouxungui/phecodemap/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2278,7 +2293,7 @@ Functional data analysis app
 
 Release: https://github.com/fentouxungui/fdapaceShiny/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2300,7 +2315,7 @@ Glossary and ontology exploration
 
 Release: https://github.com/fentouxungui/glossa/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2322,7 +2337,7 @@ Non-compartmental analysis
 
 Release: https://github.com/fentouxungui/aNCA/releases/tag/v0.2.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2344,7 +2359,7 @@ Interactive mixed-effects model exploration
 
 Release: https://github.com/fentouxungui/shinyMixR/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2366,7 +2381,7 @@ Knowledge graph network explorer
 
 Release: https://github.com/fentouxungui/kesernetwork/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2388,7 +2403,7 @@ Interactive ODE parameter estimation
 
 Release: https://github.com/fentouxungui/shinyKGode/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2410,7 +2425,7 @@ Visualize polyploid genetic data
 
 Release: https://github.com/fentouxungui/viewpoly/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2432,7 +2447,7 @@ Assess normality of data
 
 Release: https://github.com/fentouxungui/NormalityAssessment/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2454,7 +2469,7 @@ Check statistical assumptions
 
 Release: https://github.com/fentouxungui/AssumpSure/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2476,7 +2491,7 @@ Analyze accelerometer-measured daily physical behavior data
 
 Release: https://github.com/fentouxungui/activAnalyzer/releases/tag/v0.2.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2498,7 +2513,7 @@ Interactive training app for data science and AI skills
 
 Release: https://github.com/fentouxungui/cataScience/releases/tag/v0.2.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2520,7 +2535,7 @@ Shiny interface for the stochastic block model
 
 Release: https://github.com/fentouxungui/shinySbm/releases/tag/v0.2.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2542,7 +2557,7 @@ Interactive survey data analysis
 
 Release: https://github.com/fentouxungui/complexr/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2564,7 +2579,7 @@ Interactive viewer for data frames
 
 Release: https://github.com/fentouxungui/dataviewR/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2586,7 +2601,7 @@ End-to-end interactive data science platform
 
 Release: https://github.com/fentouxungui/DrData/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2608,7 +2623,7 @@ All-cause and excess mortality calculator
 
 Release: https://github.com/fentouxungui/exmort/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2630,7 +2645,7 @@ Shiny interface for the monobin package
 
 Release: https://github.com/fentouxungui/monobinShiny/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2652,7 +2667,7 @@ Shiny GUI for parameter estimation examples
 
 Release: https://github.com/fentouxungui/paramGUI/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2674,7 +2689,7 @@ Teaching assistant for introductory statistics
 
 Release: https://github.com/fentouxungui/StatTeacherAssistant/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2696,7 +2711,7 @@ Visualise and analyse social networks
 
 Release: https://github.com/fentouxungui/VOSONDash/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2718,7 +2733,7 @@ Child anthropometry z-score calculator
 
 Release: https://github.com/fentouxungui/zscorer/releases/tag/v0.3.2
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2740,7 +2755,7 @@ Interactive GUI for the earth package
 
 Release: https://github.com/fentouxungui/earthui/releases/tag/v0.12.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2762,7 +2777,7 @@ Network modeling with statnet
 
 Release: https://github.com/fentouxungui/statnetWeb/releases/tag/v0.7.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2784,7 +2799,7 @@ Parameter converter and calculator for health technology assessment
 
 Release: https://github.com/fentouxungui/ParCC/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2806,7 +2821,7 @@ Multi-omics data integration and analysis
 
 Release: https://github.com/fentouxungui/Holomics/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2828,7 +2843,7 @@ Interactive test analysis and visualization
 
 Release: https://github.com/fentouxungui/TestAnaAPP/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2850,7 +2865,7 @@ Compare two data frames
 
 Release: https://github.com/fentouxungui/dataCompare/releases/tag/v0.2.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2872,7 +2887,7 @@ Latent structure analysis with a graphical interface
 
 Release: https://github.com/fentouxungui/projectLSA/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2894,7 +2909,7 @@ Explore data from the TV show South Park
 
 Release: https://github.com/fentouxungui/SouthParkRshiny/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2916,7 +2931,7 @@ Handwriting analysis
 
 Release: https://github.com/fentouxungui/handwriterApp/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2938,7 +2953,7 @@ Build and modify tfrmt table specifications
 
 Release: https://github.com/fentouxungui/tfrmtbuilder-1/releases/tag/v0.1.0
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
@@ -2961,7 +2976,7 @@ Interactive parameter exploration and publication-ready visualization of single-
 
 Release: https://github.com/fentouxungui/scRNAtoolVis/releases/tag/v0.1.1
 
-<details><summary>Downloads &amp; checksums</summary>
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
