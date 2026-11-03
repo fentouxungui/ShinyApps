@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-02T13:52:58Z",
+  "updated_at": "2026-11-03T13:16:53Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -786,13 +786,13 @@
       "artifacts": {
         "mac-arm64": {
           "url": "https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-mac-arm64.zip",
-          "size": 202082478,
-          "sha256": "e4548c9a798a17881e47b0ef1c1c73008a495b0c22ee4d672cd35f900b48d6aa"
+          "size": 202250896,
+          "sha256": "5c0ee276b9aceb91dac86f194b7b1c9d90b2f370b6518248f028ca45daebe830"
         },
         "win-x64": {
           "url": "https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-win-x64.zip",
-          "size": 226582740,
-          "sha256": "908966589f74624d758fd980400f13acaa779fcb3133a4218c530b2df168a561"
+          "size": 226713072,
+          "sha256": "f835ac7fa054191ef1c5a21ce47448e4037dfbe8fd70534572066270cb38cdf0"
         }
       }
     },

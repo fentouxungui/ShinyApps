@@ -4,7 +4,7 @@ A desktop app store for Shiny apps. This page lists every app in the catalog and
 
 - **Apps:** 128
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-11-03 12:21:32 UTC
+- **Catalog last updated:** 2026-11-03 13:16:53 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -757,8 +757,8 @@ Release: https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.7
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
-| `mac-arm64` | [genome-stats-0.1.7-mac-arm64.zip](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-mac-arm64.zip) | 192.7 MB | `e4548c9a798a17881e47b0ef1c1c73008a495b0c22ee4d672cd35f900b48d6aa` |
-| `win-x64` | [genome-stats-0.1.7-win-x64.zip](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-win-x64.zip) | 216.1 MB | `908966589f74624d758fd980400f13acaa779fcb3133a4218c530b2df168a561` |
+| `mac-arm64` | [genome-stats-0.1.7-mac-arm64.zip](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-mac-arm64.zip) | 192.9 MB | `5c0ee276b9aceb91dac86f194b7b1c9d90b2f370b6518248f028ca45daebe830` |
+| `win-x64` | [genome-stats-0.1.7-win-x64.zip](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-win-x64.zip) | 216.2 MB | `f835ac7fa054191ef1c5a21ce47448e4037dfbe8fd70534572066270cb38cdf0` |
 
 </details>
 
