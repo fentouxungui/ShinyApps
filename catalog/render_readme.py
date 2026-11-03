@@ -7,7 +7,7 @@ latest GitHub release).
 
 An app entry with no published release (or no matching bundle asset) stays in
 the catalog with `"version": ""` and `"artifacts": {}`, and is rendered here as
-unavailable ("不可用") instead of being dropped.
+unavailable instead of being dropped.
 
 Usage
 -----
@@ -27,8 +27,8 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 HOME_REPO = "https://github.com/fentouxungui/ShinyApps"
 
-STATUS_OK = "✅ 可用"
-STATUS_NO = "⛔ 不可用"
+STATUS_OK = "✅ Available"
+STATUS_NO = "⛔ Unavailable"
 
 
 def human_size(n) -> str:
@@ -49,6 +49,27 @@ def esc(s) -> str:
 
 def link(label: str, url: str) -> str:
     return f"[{label}]({url})" if url else ""
+
+
+PLATFORM_LABELS = {
+    "win-x64": "Windows x64",
+    "win-arm64": "Windows arm64",
+    "mac-arm64": "macOS arm64",
+    "mac-x64": "macOS Intel",
+    "linux-x64": "Linux x64",
+}
+
+
+def download_links(art: dict) -> str:
+    """Direct artifact links for the platforms this app publishes."""
+    art = art or {}
+    order = list(PLATFORM_LABELS) + [p for p in art if p not in PLATFORM_LABELS]
+    links = []
+    for plat in order:
+        url = (art.get(plat) or {}).get("url")
+        if url:
+            links.append(link(PLATFORM_LABELS.get(plat, plat), url))
+    return " · ".join(links) or "—"
 
 
 def is_available(app: dict) -> bool:
@@ -93,20 +114,37 @@ def render(cat: dict) -> str:
         "Icons are served from [`icons/`](icons)."
     )
     out.append("")
+    out.append("## How to install an app")
+    out.append("")
+    out.append("1. Download the ZIP for your platform from the table below.")
+    out.append("2. Open ShinyApps.")
+    out.append("3. Go to **Apps → Install from Bundle…** and select the ZIP "
+               "(or drag it onto the launcher).")
+    out.append("4. The app appears in the launcher and runs locally — no R "
+               "installation and no data upload.")
+    out.append("")
+    out.append("The ZIP is a ShinyApps app bundle, not a standalone application.")
+    out.append("")
+    out.append("Windows: Windows 10/11 x64. macOS: Apple Silicon (M1 or newer), "
+               "macOS 14+; Intel Macs are not supported.")
+    out.append("")
+    out.append(f"Don't have ShinyApps yet? Download it from the "
+               f"[latest release]({HOME_REPO}/releases/latest).")
+    out.append("")
 
     if not apps:
         out.append("_The catalog is currently empty._")
         out.append("")
         return "\n".join(out)
 
-    out.append("| Icon | App | Status | Version | Platforms | Links |")
+    out.append("| Icon | App | Status | Version | Download | Links |")
     out.append("|:---:|---|:---:|---:|---|---|")
     for a in apps:
         art = a.get("artifacts", {}) or {}
         status = STATUS_OK if art else STATUS_NO
         ver = esc(a.get("version"))
         ver_cell = f"`{ver}`" if ver else "—"
-        plats = ", ".join(f"`{p}`" for p in art) if art else "—"
+        downloads = download_links(art)
         links = " · ".join(
             x for x in (
                 link("Home", a.get("homepage")),
@@ -118,8 +156,11 @@ def render(cat: dict) -> str:
         img = f'<img src="{icon}" width="32" alt="{esc(a.get("name"))}">' if icon else ""
         out.append(
             f"| {img} | **{esc(a.get('name'))}**<br>{esc(a.get('description'))} "
-            f"| {status} | {ver_cell} | {plats} | {links} |"
+            f"| {status} | {ver_cell} | {downloads} | {links} |"
         )
+    out.append("")
+    out.append("Windows bundles are x64. macOS bundles are arm64 (Apple Silicon, "
+               "macOS 14+); Intel Macs are not supported.")
     out.append("")
     out.append("---")
     out.append("")
@@ -155,7 +196,7 @@ def render(cat: dict) -> str:
             out.append(f"Release: {rel}")
             out.append("")
         if art:
-            out.append("<details><summary>Downloads &amp; checksums</summary>")
+            out.append('<details markdown="1"><summary>Downloads &amp; checksums</summary>')
             out.append("")
             out.append("| Platform | File | Size | SHA-256 |")
             out.append("|---|---|---:|---|")
