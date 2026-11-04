@@ -92,10 +92,10 @@ def render(cat: dict) -> str:
     n_unavail = sum(1 for a in apps if not is_available(a))
 
     out: list[str] = []
-    out.append("# ShinyApps Catalog")
+    out.append("# ShinyApps Store Catalog")
     out.append("")
     out.append(
-        "A desktop app store for Shiny apps. This page lists every app in the "
+        "ShinyApps Store is a desktop app store for Shiny apps. This page lists every app in the "
         "catalog and is regenerated automatically by the "
         f"[`Publish catalog`]({HOME_REPO}/blob/main/.github/workflows/publish-catalog.yml) workflow."
     )
@@ -117,18 +117,18 @@ def render(cat: dict) -> str:
     out.append("## How to install an app")
     out.append("")
     out.append("1. Download the ZIP for your platform from the table below.")
-    out.append("2. Open ShinyApps.")
+    out.append("2. Open ShinyApps Store.")
     out.append("3. Go to **Apps → Install from Bundle…** and select the ZIP "
                "(or drag it onto the launcher).")
     out.append("4. The app appears in the launcher and runs locally — no R "
                "installation and no data upload.")
     out.append("")
-    out.append("The ZIP is a ShinyApps app bundle, not a standalone application.")
+    out.append("The ZIP is a ShinyApps Store app bundle, not a standalone application.")
     out.append("")
     out.append("Windows: Windows 10/11 x64. macOS: Apple Silicon (M1 or newer), "
                "macOS 14+; Intel Macs are not supported.")
     out.append("")
-    out.append(f"Don't have ShinyApps yet? Download it from the "
+    out.append(f"Don't have ShinyApps Store yet? Download it from the "
                f"[latest release]({HOME_REPO}/releases/latest).")
     out.append("")
 

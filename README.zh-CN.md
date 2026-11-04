@@ -1,14 +1,14 @@
-# ShinyApps
+# ShinyApps Store
 
 [English](README.md) | **简体中文** | [Wiki](https://github.com/fentouxungui/ShinyApps/wiki)
 
 [![平台](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blue)](#) [![R](https://img.shields.io/badge/R-4.6.1-276DC3?logo=r)](#) [![基于](https://img.shields.io/badge/built%20on-shinyelectron-8A2BE2)](https://github.com/coatless-rpkg/shinyelectron) [![应用目录](https://img.shields.io/badge/apps-%E5%9C%A8%E7%BA%BF%E7%9B%AE%E5%BD%95-blue)](https://fentouxungui.github.io/ShinyApps/)
 
-> **ShinyApps 是一个面向 R/Shiny 应用的桌面「应用商店」。** 它只装一个轻量 Electron
+> **ShinyApps Store 是一个面向 R/Shiny 应用的桌面「应用商店」。** 它只装一个轻量 Electron
 > 外壳，用户从在线 catalog 按需**安装、运行、更新、卸载**打包好的 Shiny 应用，一次运行
 > 一个，共用一套 R 运行时。
 
-它不再把每个应用都做成一个庞大的独立桌面安装包，而是把**薄壳**与**可安装的应用 bundle**
+ShinyApps Store 不再把每个应用都做成一个庞大的独立桌面安装包，而是把**薄壳**与**可安装的应用 bundle**
 拆开：以后新增任何 Shiny 应用都无需重新构建、重新分发外壳。
 
 当前可用应用见 **[在线应用目录](https://fentouxungui.github.io/ShinyApps/)**。
@@ -37,9 +37,9 @@
 ## 🚀 快速开始（用户）
 
 1. 从 [**Releases**](https://github.com/fentouxungui/ShinyApps/releases) 下载 `shinyapps-Setup-<version>-x64.exe`（Windows）或 `.dmg`（macOS）。
-2. 打开 **ShinyApps** —— 启动页为每个可用应用显示一张卡片。
+2. 打开 **ShinyApps Store** —— 启动页为每个可用应用显示一张卡片。
 3. 点 **Install**，再 **Run**。返回用 **Apps → Back to Launcher**（或 `Ctrl/Cmd+L`）；有未保存内容会先确认。
-4. **每次打开软件，ShinyApps 都会自动检测每个 app 的最新版本**（与线上 catalog 比对）。若有新版，卡片会显示 **Update**，点一下即可一键升级（暂停应用 → 下载 → 校验 → 原子替换）。
+4. **每次打开软件，ShinyApps Store 都会自动检测每个 app 的最新版本**（与线上 catalog 比对）。若有新版，卡片会显示 **Update**，点一下即可一键升级（暂停应用 → 下载 → 校验 → 原子替换）。
 
 > 外壳自动更新只在**已签名**的构建上才真正安装；未签名构建可以下载，但 Windows/macOS 会拒绝应用更新。
 
@@ -84,7 +84,7 @@ Tier 2  私有 R 库     <userData>/private/<id>   单应用或版本冲突的�
 ```
 应用仓库 CI ──发布──▶ GitHub Release  （bundle zip + sha256）
                           │
-ShinyApps catalog/apps.yml ─▶ publish-catalog.yml ─▶ gh-pages/catalog.json
+catalog/apps.yml ─▶ publish-catalog.yml ─▶ gh-pages/catalog.json
                           │
 客户端外壳 ──拉取 catalog──▶ 安装 bundle ─▶ 以 R_LIBS(私有:共享) 运行
 ```
@@ -113,7 +113,7 @@ schemas/*.json              # catalog / manifest / state 三份契约
 
 | Workflow | 触发 | 产物 |
 |---|---|---|
-| **Build ShinyApps desktop** | tag `v*` / 手动 | 外壳安装器 + `latest*.yml` → Release |
+| **Build ShinyApps Store desktop** | tag `v*` / 手动 | 外壳安装器 + `latest*.yml` → Release |
 | **Publish catalog** | 每 10 分钟 / 手动 / `bundle-updated` 事件 / 改 `apps.yml` 或 `icons/` | `gh-pages` 上的 `catalog.json` + `icons/` |
 | **Build app bundle**（各应用仓库） | 发布 Release / 手动 | `<id>-<version>-<platform>.zip` → 该应用的 Release |
 

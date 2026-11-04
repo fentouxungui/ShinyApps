@@ -1,4 +1,4 @@
-# ShinyApps suite -- root of the ShinyApps repo.
+# ShinyApps Store suite -- root of the ShinyApps repo.
 # Option 1: the app tarballs are COMMITTED under dependency/ (no CI `prepare` job).
 # Build via build-suite.R, which the CI's `build` job runs.
 #
@@ -7,12 +7,12 @@
 # working directory, so these repo-relative paths resolve correctly.
 
 app:
-  name: "ShinyApps"
-  launcher_title: "Shiny Applications"   # heading on the launcher page
+  name: "ShinyApps Store"
+  launcher_title: "ShinyApps Store"   # heading on the launcher page
   version: "0.1.0"                 # shell version
-  slug: "shinyapps"
+  slug: "shinyapps"                # keep: app identity, data dir, installer id
   log_level: "info"
-  description: "Desktop launcher for Shiny Applications"
+  description: "Desktop app store for Shiny applications"
   author: "Zhang Yongchao"
   email: "zhangyongchao@nibs.ac.cn"
   homepage: "https://github.com/fentouxungui/ShinyApps"
@@ -73,10 +73,10 @@ apps:
   # store bundles (catalog/apps.yml), not baked into the shell.
   - id: welcome
     name: "Welcome"
-    description: "ShinyApps launcher welcome"
+    description: "ShinyApps Store launcher welcome"
     path: "./apps/welcome"
 
   - id: about
     name: "About"
-    description: "About ShinyApps"
+    description: "About ShinyApps Store"
     path: "./apps/about"

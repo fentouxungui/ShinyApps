@@ -1,4 +1,4 @@
-# Build the ShinyApps suite (root of the ShinyApps repo).
+# Build the ShinyApps Store suite (root of the ShinyApps repo).
 # Runs locally (Rscript build-suite.R) and in GitHub Actions.
 #
 # Prep (must exist before running):
@@ -56,7 +56,7 @@ if (.Platform$OS.type == "windows") {
 export(
   appdir    = ws,                    # suite root; find_config() reads _shinyelectron.yml here
   destdir   = file.path(ws, "build"),
-  app_name  = "ShinyApps",
+  app_name  = "ShinyApps Store",
   icon = icon,
   run_after = FALSE,
   overwrite = TRUE

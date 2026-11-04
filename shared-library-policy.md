@@ -1,4 +1,4 @@
-# ShinyApps shared-library and compatibility policy
+# ShinyApps Store shared-library and compatibility policy
 
 Scope: how Phase 2 (catalog-driven app store) places R packages, shares them across
 installed apps, and reference-counts them. This is the contract the per-app bundle

@@ -1,4 +1,4 @@
-# ShinyApps app registry -- the single source of app metadata for the catalog.
+# ShinyApps Store app registry -- the single source of app metadata for the catalog.
 # Place at  ShinyApps/catalog/apps.yml
 # The publish-catalog workflow expands each entry with the latest release's
 # version + per-platform artifact url/size/sha256 and writes catalog.json.

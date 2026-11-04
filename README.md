@@ -1,15 +1,15 @@
-# ShinyApps
+# ShinyApps Store
 
 **English** | [简体中文](README.zh-CN.md) | [Wiki](https://github.com/fentouxungui/ShinyApps/wiki)
 
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blue)](#) [![R](https://img.shields.io/badge/R-4.6.1-276DC3?logo=r)](#) [![Built on](https://img.shields.io/badge/built%20on-shinyelectron-8A2BE2)](https://github.com/coatless-rpkg/shinyelectron) [![App catalog](https://img.shields.io/badge/apps-live%20catalog-blue)](https://fentouxungui.github.io/ShinyApps/)
 
-> **ShinyApps is a desktop app store for R/Shiny apps.** It ships one lightweight
+> **ShinyApps Store is a desktop app store for R/Shiny apps.** It ships one lightweight
 > Electron shell, lets users **install, run, update, and uninstall** bundled Shiny
 > apps on demand from an online catalog, and runs them one at a time inside a
 > shared R runtime.
 
-Instead of packaging every app into its own heavyweight desktop installer, ShinyApps
+Instead of packaging every app into its own heavyweight desktop installer, ShinyApps Store
 separates a **thin shell** from **installable app bundles**: any Shiny app can be
 added later without rebuilding or redistributing the shell.
 
@@ -25,7 +25,7 @@ Browse the **[live app catalog](https://fentouxungui.github.io/ShinyApps/)** for
 
 - **App-store model** — a card launcher with `Install → Run / Uninstall`, plus per-app `Update`.
 - **Bring any Shiny app** — bundle it as `app/ + rlib/ + manifest.json`, publish it as a GitHub Release asset, and register it in the catalog. No shell rebuild needed.
-- **Auto version check on every launch** — at startup ShinyApps compares each app's catalog version with what is installed, so new app versions show a one-click **Update**.
+- **Auto version check on every launch** — at startup ShinyApps Store compares each app's catalog version with what is installed, so new app versions show a one-click **Update**.
 - **Shared R library with reference counting** — packages used by ≥ 2 apps live once in a shared library; app-private/conflicting versions go to a private library. (In a real run, **133 of 160 packages** were shared between two apps.)
 - **Reproducible bundles** — apps ship **prebuilt binary R packages** pinned to **R 4.6.1**, each with a `sha256`. No compiler or R toolchain on the user's machine.
 - **Robust downloads** — HTTP Range resume, retries, idle timeout, size + `sha256` verification, real progress, zero-npm-dependency ZIP extractor.
@@ -39,9 +39,9 @@ Browse the **[live app catalog](https://fentouxungui.github.io/ShinyApps/)** for
 ## 🚀 Quick start (users)
 
 1. Download `shinyapps-Setup-<version>-x64.exe` (Windows) or `.dmg` (macOS) from [**Releases**](https://github.com/fentouxungui/ShinyApps/releases).
-2. Launch **ShinyApps** — the launcher shows a card per available app.
+2. Launch **ShinyApps Store** — the launcher shows a card per available app.
 3. Click **Install**, then **Run**. Use **Apps → Back to Launcher** (or `Ctrl/Cmd+L`) to return; unsaved work is confirmed first.
-4. **Every time ShinyApps starts, it automatically checks each app's latest version** against the online catalog. If a newer version is available, the card shows **Update** — click it for a one-click upgrade (the app is stopped, fetched, verified, and swapped in place).
+4. **Every time ShinyApps Store starts, it automatically checks each app's latest version** against the online catalog. If a newer version is available, the card shows **Update** — click it for a one-click upgrade (the app is stopped, fetched, verified, and swapped in place).
 
 > Shell auto-update only installs on signed builds; unsigned builds can download but Windows/macOS will refuse to apply the update.
 
@@ -87,7 +87,7 @@ At runtime: `R_LIBS = private lib : shared lib`.
 ```
 App repo CI ──publishes──▶ GitHub Release  (bundle zips + sha256)
                                 │
-ShinyApps catalog/apps.yml ─▶ publish-catalog.yml ─▶ gh-pages/catalog.json
+catalog/apps.yml ─▶ publish-catalog.yml ─▶ gh-pages/catalog.json
                                 │
 Client shell ──fetch catalog──▶ install bundle ─▶ run with R_LIBS(private:shared)
 ```
@@ -116,7 +116,7 @@ schemas/*.json              # catalog / manifest / state contracts
 
 | Workflow | Trigger | Output |
 |---|---|---|
-| **Build ShinyApps desktop** | tag `v*` / manual | Shell installers + `latest*.yml` → Release |
+| **Build ShinyApps Store desktop** | tag `v*` / manual | Shell installers + `latest*.yml` → Release |
 | **Publish catalog** | every 10 min / manual / `bundle-updated` dispatch / edits to `apps.yml` or `icons/` | `catalog.json` + `icons/` on `gh-pages` |
 | **Build app bundle** (each app repo) | Release published / manual | `<id>-<version>-<platform>.zip` → that app's Release |
 
@@ -172,7 +172,7 @@ Full manual on the **[Wiki](https://github.com/fentouxungui/ShinyApps/wiki)** �
 
 ## 🙏 Credits & license
 
-Built on [shinyelectron](https://github.com/coatless-rpkg/shinyelectron) (AGPL-3.0). The ShinyApps
+Built on [shinyelectron](https://github.com/coatless-rpkg/shinyelectron) (AGPL-3.0). This
 repository also bundles/calls third-party components — see `shared-library-policy.md` and each app
 repository for details. Add a top-level `LICENSE` and third-party notices before distributing.
 

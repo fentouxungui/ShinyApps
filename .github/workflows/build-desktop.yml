@@ -1,4 +1,4 @@
-# ShinyApps shell installers (Windows + macOS).
+# ShinyApps Store shell installers (Windows + macOS).
 # Place at ShinyApps/.github/workflows/build-desktop.yml
 #
 # The shell version is derived from the release tag (APP_VERSION) inside
@@ -7,7 +7,7 @@
 # Attach to a release either by pushing a v* tag, or by running this workflow
 # manually and supplying the target `tag`.
 
-name: Build ShinyApps desktop
+name: Build ShinyApps Store desktop
 
 on:
   push:
