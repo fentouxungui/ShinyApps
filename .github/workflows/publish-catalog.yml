@@ -133,6 +133,16 @@ jobs:
           #    when the app data changes (no volatile timestamp inside).
           cp catalog/README.md pages/README.md
 
+          # The GitHub Pages theme puts its own title above the Markdown
+          # content. Without _config.yml it falls back to the repository name
+          # ("ShinyApps"), which now differs from the product name and appears
+          # twice above the catalog. Pin the site header to the product name;
+          # the page's own H1 is just "App Catalog".
+          cat > pages/_config.yml <<'YAML'
+          title: "ShinyApps Store"
+          description: "Desktop app store for R/Shiny apps"
+          YAML
+
           # 3) icons: always sync so catalog icon URLs resolve.
           if [ -d icons ]; then rm -rf pages/icons; cp -r icons pages/icons; fi
 

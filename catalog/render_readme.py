@@ -92,7 +92,7 @@ def render(cat: dict) -> str:
     n_unavail = sum(1 for a in apps if not is_available(a))
 
     out: list[str] = []
-    out.append("# ShinyApps Store Catalog")
+    out.append("# App Catalog")
     out.append("")
     out.append(
         "ShinyApps Store is a desktop app store for Shiny apps. This page lists every app in the "
