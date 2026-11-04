@@ -1,25 +1,25 @@
-# ShinyApps Catalog
+# ShinyApps Store Catalog
 
-A desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
+ShinyApps Store is a desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
 - **Apps:** 128
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-11-04 03:19:42 UTC
+- **Catalog last updated:** 2026-11-04 07:26:28 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
 ## How to install an app
 
 1. Download the ZIP for your platform from the table below.
-2. Open ShinyApps.
+2. Open ShinyApps Store.
 3. Go to **Apps → Install from Bundle…** and select the ZIP (or drag it onto the launcher).
 4. The app appears in the launcher and runs locally — no R installation and no data upload.
 
-The ZIP is a ShinyApps app bundle, not a standalone application.
+The ZIP is a ShinyApps Store app bundle, not a standalone application.
 
 Windows: Windows 10/11 x64. macOS: Apple Silicon (M1 or newer), macOS 14+; Intel Macs are not supported.
 
-Don't have ShinyApps yet? Download it from the [latest release](https://github.com/fentouxungui/ShinyApps/releases/latest).
+Don't have ShinyApps Store yet? Download it from the [latest release](https://github.com/fentouxungui/ShinyApps/releases/latest).
 
 | Icon | App | Status | Version | Download | Links |
 |:---:|---|:---:|---:|---|---|
