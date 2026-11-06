@@ -66,6 +66,10 @@
 - [ ] ShinyApps and skills and shinyelectron
   
   让AI预测一下每个App运行时对硬件的需求，添加到catalog中，显示到ShinyApps卡片中
+  
+- [x] ShinyApps 名字改为ShinyApps Store
+  
+  Github仓库名字不变，只把软件名字改为ShinyApps Store
 
 # 备注
 
