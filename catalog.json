@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-06T02:42:44Z",
+  "updated_at": "2026-11-06T08:33:27Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -19,19 +19,8 @@
         "single-cell",
         "visualization"
       ],
-      "version": "0.1.9",
-      "artifacts": {
-        "mac-arm64": {
-          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-mac-arm64.zip",
-          "size": 326312847,
-          "sha256": "1e1489f1c76dd491caaf245e4f1003ce945d225617635a06a541f4635c45c097"
-        },
-        "win-x64": {
-          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.9/seurat-explorer-0.1.9-win-x64.zip",
-          "size": 351380830,
-          "sha256": "ac9653e8f38f782758d7eed23f4093c224765e1ff069e940c2ceebe61adb6f89"
-        }
-      }
+      "version": "0.1.10",
+      "artifacts": {}
     },
     {
       "id": "scconvert",
@@ -3219,13 +3208,13 @@
       "artifacts": {
         "mac-arm64": {
           "url": "https://github.com/fentouxungui/exmort/releases/download/v0.1.1/exmort-0.1.1-mac-arm64.zip",
-          "size": 152358081,
-          "sha256": "969405cfcd86770944458cad58cd5fc1314d100d8881bd6c049de9f52f6a7b92"
+          "size": 182244807,
+          "sha256": "827f4b9482fdf2f1f8756ecc1adbbb0cebb9c948e718a9825214973117d2ee6a"
         },
         "win-x64": {
           "url": "https://github.com/fentouxungui/exmort/releases/download/v0.1.1/exmort-0.1.1-win-x64.zip",
-          "size": 165969598,
-          "sha256": "1f4f8b01dfac6fc06f181b626c95cd1384b401688525c8ed3013001203531f41"
+          "size": 198126564,
+          "sha256": "fb50e00be59622b3b3ff13f5187c12e0ce65cc14dcb411565fbae5193efd9a9b"
         }
       }
     },
