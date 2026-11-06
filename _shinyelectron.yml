@@ -41,6 +41,9 @@ installer:
   app_id: "com.shinyapps.desktop"
   one_click: false
   allow_to_change_installation_directory: true
+  # Remove shortcuts left by the pre-rename product so the new shortcut is
+  # recreated with the current executable icon.
+  legacy_shortcut_names: ["ShinyApps", "shinyapps"]
 
 signing:
   sign: false                      # enable later with CSC_LINK / CSC_KEY_PASSWORD
