@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-03T13:16:53Z",
+  "updated_at": "2026-11-06T02:42:44Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -782,17 +782,17 @@
         "genomics",
         "visualization"
       ],
-      "version": "0.1.7",
+      "version": "1.1.1",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-mac-arm64.zip",
-          "size": 202250896,
-          "sha256": "5c0ee276b9aceb91dac86f194b7b1c9d90b2f370b6518248f028ca45daebe830"
+          "url": "https://github.com/MPUSP/shiny-genome-stats/releases/download/v1.1.1/genome-stats-1.1.1-mac-arm64.zip",
+          "size": 202251344,
+          "sha256": "8252b982c8448a1a3d648bd1b8bbfe1bc1976237a532c738790ff2efea19df74"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-win-x64.zip",
-          "size": 226713072,
-          "sha256": "f835ac7fa054191ef1c5a21ce47448e4037dfbe8fd70534572066270cb38cdf0"
+          "url": "https://github.com/MPUSP/shiny-genome-stats/releases/download/v1.1.1/genome-stats-1.1.1-win-x64.zip",
+          "size": 226713520,
+          "sha256": "5c2f7d55c0211fee57e261ddaf96280c5621958730f7ed86f954ec270aa58b16"
         }
       }
     },

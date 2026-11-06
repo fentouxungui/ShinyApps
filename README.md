@@ -4,7 +4,7 @@ ShinyApps Store is a desktop app store for Shiny apps. This page lists every app
 
 - **Apps:** 128
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-11-06 01:43:40 UTC
+- **Catalog last updated:** 2026-11-06 02:42:44 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -49,7 +49,7 @@ Don't have ShinyApps Store yet? Download it from the [latest release](https://gi
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/portfoliooptimizer.png" width="32" alt="Portfolio Optimizer"> | **Portfolio Optimizer**<br>Portfolio optimization and Black-Litterman allocation | ✅ Available | `0.1.4` | [Windows x64](https://github.com/fentouxungui/portfoliooptimizer/releases/download/v0.1.4/portfoliooptimizer-0.1.4-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/portfoliooptimizer/releases/download/v0.1.4/portfoliooptimizer-0.1.4-mac-arm64.zip) | [Home](https://github.com/mschoenhart/portfoliooptimizer) · [Docs](https://github.com/mschoenhart/portfoliooptimizer#readme) · [Release](https://github.com/mschoenhart/portfoliooptimizer/releases/tag/v0.1.4) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/pepfunk.png" width="32" alt="pepFunk"> | **pepFunk**<br>Peptide-centric functional enrichment workflow for metaproteomics | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/pepFunk/releases/download/v0.1.1/pepfunk-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/pepFunk/releases/download/v0.1.1/pepfunk-0.1.1-mac-arm64.zip) | [Home](https://github.com/northomics/pepFunk) · [Docs](https://github.com/northomics/pepFunk#readme) · [Release](https://github.com/northomics/pepFunk/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/miadash.png" width="32" alt="miaDash"> | **miaDash**<br>Dashboard for interactive analysis and exploration of microbiome data (mia + iSEE) | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/miaDash/releases/download/v0.1.1/miadash-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/miaDash/releases/download/v0.1.1/miadash-0.1.1-mac-arm64.zip) | [Home](https://github.com/microbiome/miaDash) · [Docs](https://microbiome.github.io/miaDash/) · [Release](https://github.com/microbiome/miaDash/releases/tag/v0.1.1) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png" width="32" alt="shiny-genome-stats"> | **shiny-genome-stats**<br>Interactive visualization of basic microbial genome features | ✅ Available | `0.1.7` | [Windows x64](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-mac-arm64.zip) | [Home](https://github.com/MPUSP/shiny-genome-stats) · [Docs](https://github.com/MPUSP/shiny-genome-stats#readme) · [Release](https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.7) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png" width="32" alt="shiny-genome-stats"> | **shiny-genome-stats**<br>Interactive visualization of basic microbial genome features | ✅ Available | `1.1.1` | [Windows x64](https://github.com/MPUSP/shiny-genome-stats/releases/download/v1.1.1/genome-stats-1.1.1-win-x64.zip) · [macOS arm64](https://github.com/MPUSP/shiny-genome-stats/releases/download/v1.1.1/genome-stats-1.1.1-mac-arm64.zip) | [Home](https://github.com/MPUSP/shiny-genome-stats) · [Docs](https://github.com/MPUSP/shiny-genome-stats#readme) · [Release](https://github.com/MPUSP/shiny-genome-stats/releases/tag/v1.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png" width="32" alt="Metaboseek"> | **Metaboseek**<br>Interactive analysis and browsing of mass spectrometry data | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/Metaboseek/releases/download/v0.1.0/metaboseek-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/Metaboseek/releases/download/v0.1.0/metaboseek-0.1.0-mac-arm64.zip) | [Home](https://metaboseek.com) · [Docs](https://github.com/mjhelf/Metaboseek#readme) · [Release](https://metaboseek.com/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png" width="32" alt="GateLabR"> | **GateLabR**<br>Interactive manual gating of flow / mass cytometry on SingleCellExperiment objects | ✅ Available | `0.2.1` | [Windows x64](https://github.com/fentouxungui/GateLabR/releases/download/v0.2.1/gatelabr-0.2.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/GateLabR/releases/download/v0.2.1/gatelabr-0.2.1-mac-arm64.zip) | [Home](https://david-priest.github.io/GateLabR) · [Docs](https://david-priest.github.io/GateLabR) · [Release](https://david-priest.github.io/GateLabR/releases/tag/v0.2.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/familia.png" width="32" alt="Familia"> | **Familia**<br>Shiny application for population structure and ancestry assessments | ✅ Available | `2.2.0` | [Windows x64](https://github.com/fentouxungui/familia/releases/download/v2.2.0/familia-2.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/familia/releases/download/v2.2.0/familia-2.2.0-mac-arm64.zip) | [Home](https://github.com/Breeding-Insight/Familia) · [Docs](https://github.com/Breeding-Insight/Familia#readme) · [Release](https://github.com/Breeding-Insight/Familia/releases/tag/v2.2.0) |
@@ -740,7 +740,7 @@ Release: https://github.com/microbiome/miaDash/releases/tag/v0.1.1
 
 </details>
 
-### shiny-genome-stats `0.1.7`
+### shiny-genome-stats `1.1.1`
 
 Interactive visualization of basic microbial genome features
 
@@ -751,14 +751,14 @@ Interactive visualization of basic microbial genome features
 | Copyright | (c) 2024 Michael Jahn |
 | R version | 4.6.1 |
 
-Release: https://github.com/MPUSP/shiny-genome-stats/releases/tag/v0.1.7
+Release: https://github.com/MPUSP/shiny-genome-stats/releases/tag/v1.1.1
 
 <details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
-| `mac-arm64` | [genome-stats-0.1.7-mac-arm64.zip](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-mac-arm64.zip) | 192.9 MB | `5c0ee276b9aceb91dac86f194b7b1c9d90b2f370b6518248f028ca45daebe830` |
-| `win-x64` | [genome-stats-0.1.7-win-x64.zip](https://github.com/fentouxungui/shiny-genome-stats/releases/download/v0.1.7/genome-stats-0.1.7-win-x64.zip) | 216.2 MB | `f835ac7fa054191ef1c5a21ce47448e4037dfbe8fd70534572066270cb38cdf0` |
+| `mac-arm64` | [genome-stats-1.1.1-mac-arm64.zip](https://github.com/MPUSP/shiny-genome-stats/releases/download/v1.1.1/genome-stats-1.1.1-mac-arm64.zip) | 192.9 MB | `8252b982c8448a1a3d648bd1b8bbfe1bc1976237a532c738790ff2efea19df74` |
+| `win-x64` | [genome-stats-1.1.1-win-x64.zip](https://github.com/MPUSP/shiny-genome-stats/releases/download/v1.1.1/genome-stats-1.1.1-win-x64.zip) | 216.2 MB | `5c2f7d55c0211fee57e261ddaf96280c5621958730f7ed86f954ec270aa58b16` |
 
 </details>
 
