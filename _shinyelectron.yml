@@ -26,6 +26,13 @@ window:
   width: 1200
   height: 800
 
+tray:
+  enabled: true
+  minimize_to_tray: true
+  # Closing the launcher asks Minimize to Tray / Quit / Cancel; the choice can
+  # be remembered with "Do not ask again" or Settings > Close Button.
+  close_to_tray: false
+
 menu:
   help_url: "https://github.com/fentouxungui/ShinyApps/wiki"
   user_guide: "userguide.html"
