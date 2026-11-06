@@ -376,7 +376,7 @@ apps:
     tags: [genomics, visualization]
 
   - id: genome-stats
-    repo: fentouxungui/shiny-genome-stats
+    repo: MPUSP/shiny-genome-stats
     name: shiny-genome-stats
     author: "Michael Jahn (MPUSP)"
     description: "Interactive visualization of basic microbial genome features"
