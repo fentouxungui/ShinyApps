@@ -4,7 +4,7 @@ ShinyApps Store is a desktop app store for Shiny apps. This page lists every app
 
 - **Apps:** 128
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-11-07 07:17:47 UTC
+- **Catalog last updated:** 2026-11-07 14:11:19 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
