@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-09T02:45:08Z",
+  "updated_at": "2026-11-09T10:25:42Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -3070,7 +3070,7 @@
         "education",
         "statistics"
       ],
-      "version": "",
+      "version": "2.2.0",
       "artifacts": {}
     },
     {
