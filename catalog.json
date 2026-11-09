@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-06T16:15:17Z",
+  "updated_at": "2026-11-09T02:45:08Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -3070,19 +3070,8 @@
         "education",
         "statistics"
       ],
-      "version": "0.2.0",
-      "artifacts": {
-        "mac-arm64": {
-          "url": "https://github.com/fentouxungui/cataScience/releases/download/v0.2.0/catascience-0.2.0-mac-arm64.zip",
-          "size": 227646784,
-          "sha256": "e882c9eff40a13e6aee6133602fb6fd8e22af57fe35a270d2164bd88a76907dc"
-        },
-        "win-x64": {
-          "url": "https://github.com/fentouxungui/cataScience/releases/download/v0.2.0/catascience-0.2.0-win-x64.zip",
-          "size": 205306185,
-          "sha256": "1272afac2f758f28afa2f9f351d339a0800114a49be92491a4cd1317ddbe5af9"
-        }
-      }
+      "version": "",
+      "artifacts": {}
     },
     {
       "id": "shinysbm",
