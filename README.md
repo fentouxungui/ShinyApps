@@ -2,9 +2,9 @@
 
 ShinyApps Store is a desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 128 — 127 ✅ Available / 1 ⛔ Unavailable
+- **Apps:** 128
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-11-10 03:24:53 UTC
+- **Catalog last updated:** 2026-11-10 05:01:16 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -129,7 +129,7 @@ Don't have ShinyApps Store yet? Download it from the [latest release](https://gi
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/normalityassessment.png" width="32" alt="NormalityAssessment"> | **NormalityAssessment**<br>Assess normality of data | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/NormalityAssessment/releases/download/v0.1.0/normalityassessment-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/NormalityAssessment/releases/download/v0.1.0/normalityassessment-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/NormalityAssessment) · [Docs](https://github.com/fentouxungui/NormalityAssessment#readme) · [Release](https://github.com/fentouxungui/NormalityAssessment/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/assumpsure.png" width="32" alt="AssumpSure"> | **AssumpSure**<br>Check statistical assumptions | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/AssumpSure/releases/download/v0.1.0/assumpsure-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/AssumpSure/releases/download/v0.1.0/assumpsure-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/AssumpSure) · [Docs](https://github.com/fentouxungui/AssumpSure#readme) · [Release](https://github.com/fentouxungui/AssumpSure/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/activanalyzer.png" width="32" alt="activAnalyzer"> | **activAnalyzer**<br>Analyze accelerometer-measured daily physical behavior data | ✅ Available | `0.2.0` | [Windows x64](https://github.com/fentouxungui/activAnalyzer/releases/download/v0.2.0/activanalyzer-0.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/activAnalyzer/releases/download/v0.2.0/activanalyzer-0.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/activAnalyzer) · [Docs](https://github.com/fentouxungui/activAnalyzer#readme) · [Release](https://github.com/fentouxungui/activAnalyzer/releases/tag/v0.2.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/catascience.png" width="32" alt="cataScience"> | **cataScience**<br>Interactive training app for data science and AI skills | ⛔ Unavailable | `2.2.0` | — | [Home](https://github.com/fentouxungui/cataScience) · [Docs](https://github.com/fentouxungui/cataScience#readme) · [Release](https://github.com/fentouxungui/cataScience/releases/tag/v2.2.0) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/catascience.png" width="32" alt="cataScience"> | **cataScience**<br>Interactive training app for data science and AI skills | ✅ Available | `2.2.0` | [Windows x64](https://github.com/fentouxungui/cataScience/releases/download/v2.2.0/catascience-2.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/cataScience/releases/download/v2.2.0/catascience-2.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/cataScience) · [Docs](https://github.com/fentouxungui/cataScience#readme) · [Release](https://github.com/fentouxungui/cataScience/releases/tag/v2.2.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/shinysbm.png" width="32" alt="shinySbm"> | **shinySbm**<br>Shiny interface for the stochastic block model | ✅ Available | `0.2.0` | [Windows x64](https://github.com/fentouxungui/shinySbm/releases/download/v0.2.0/shinysbm-0.2.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/shinySbm/releases/download/v0.2.0/shinysbm-0.2.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/shinySbm) · [Docs](https://github.com/fentouxungui/shinySbm#readme) · [Release](https://github.com/fentouxungui/shinySbm/releases/tag/v0.2.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/complexr.png" width="32" alt="complexr"> | **complexr**<br>Interactive survey data analysis | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/complexr/releases/download/v0.1.0/complexr-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/complexr/releases/download/v0.1.0/complexr-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/complexr) · [Docs](https://github.com/fentouxungui/complexr#readme) · [Release](https://github.com/fentouxungui/complexr/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/dataviewr.png" width="32" alt="dataviewR"> | **dataviewR**<br>Interactive viewer for data frames | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/dataviewR/releases/download/v0.1.0/dataviewr-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/dataviewR/releases/download/v0.1.0/dataviewr-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/dataviewR) · [Docs](https://github.com/fentouxungui/dataviewR#readme) · [Release](https://github.com/fentouxungui/dataviewR/releases/tag/v0.1.0) |
@@ -2502,8 +2502,6 @@ Release: https://github.com/fentouxungui/activAnalyzer/releases/tag/v0.2.0
 
 ### cataScience `2.2.0`
 
-**Status:** ⛔ Unavailable — no published release yet.
-
 Interactive training app for data science and AI skills
 
 | Field | Value |
@@ -2514,6 +2512,15 @@ Interactive training app for data science and AI skills
 | R version | 4.6.1 |
 
 Release: https://github.com/fentouxungui/cataScience/releases/tag/v2.2.0
+
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [catascience-2.2.0-mac-arm64.zip](https://github.com/fentouxungui/cataScience/releases/download/v2.2.0/catascience-2.2.0-mac-arm64.zip) | 154.5 MB | `dae31f832f032ff90e4676b69f6bdaec87561545553bf08aeb649e872ccd7ba5` |
+| `win-x64` | [catascience-2.2.0-win-x64.zip](https://github.com/fentouxungui/cataScience/releases/download/v2.2.0/catascience-2.2.0-win-x64.zip) | 163.4 MB | `c54cbe7d677b212e107cc2cb73c4d6075938901fa972a94c422580de113d8398` |
+
+</details>
 
 ### shinySbm `0.2.0`
 

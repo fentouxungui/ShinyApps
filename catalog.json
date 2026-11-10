@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-09T10:25:42Z",
+  "updated_at": "2026-11-10T05:01:16Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -3071,7 +3071,18 @@
         "statistics"
       ],
       "version": "2.2.0",
-      "artifacts": {}
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/cataScience/releases/download/v2.2.0/catascience-2.2.0-mac-arm64.zip",
+          "size": 162026663,
+          "sha256": "dae31f832f032ff90e4676b69f6bdaec87561545553bf08aeb649e872ccd7ba5"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/cataScience/releases/download/v2.2.0/catascience-2.2.0-win-x64.zip",
+          "size": 171358508,
+          "sha256": "c54cbe7d677b212e107cc2cb73c4d6075938901fa972a94c422580de113d8398"
+        }
+      }
     },
     {
       "id": "shinysbm",
