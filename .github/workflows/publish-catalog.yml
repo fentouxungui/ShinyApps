@@ -40,7 +40,7 @@ jobs:
         run: |
           python3 -c "import yaml" 2>/dev/null || pip install --quiet pyyaml
           python3 - <<'PY'
-          import json, os, subprocess, sys, datetime
+          import json, os, subprocess, sys, datetime, hashlib
           import yaml
 
           reg = yaml.safe_load(open("catalog/apps.yml"))
@@ -48,6 +48,21 @@ jobs:
           for a in reg["apps"]:
               repo = a["repo"]
               app = {k: a[k] for k in a if k != "repo"}
+
+              # The launcher caches catalog icons by URL and never re-fetches a
+              # URL it already has, so replacing a PNG in place leaves existing
+              # clients on the stale image. Append a short content hash to local
+              # icon URLs: the URL changes if and only if the bytes change, and
+              # every client re-downloads on the next catalog refresh.
+              icon = app.get("icon")
+              prefix = "https://fentouxungui.github.io/ShinyApps/icons/"
+              if icon and icon.startswith(prefix):
+                  fname = icon.split("?", 1)[0].rsplit("/", 1)[-1]
+                  icon_path = os.path.join("icons", fname)
+                  if os.path.isfile(icon_path):
+                      with open(icon_path, "rb") as fh:
+                          digest = hashlib.sha256(fh.read()).hexdigest()[:12]
+                      app["icon"] = icon.split("?", 1)[0] + "?v=" + digest
 
               # No published release -> keep the entry but mark it unavailable
               # instead of aborting the whole catalog build.
