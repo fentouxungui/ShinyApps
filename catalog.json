@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-10T05:01:16Z",
+  "updated_at": "2026-11-11T03:20:17Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -13,7 +13,7 @@
       "email": "zhangyongchao@nibs.ac.cn",
       "copyright": "(c) 2026 Zhang Yongchao",
       "license": "GPL-3.0-or-later",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png?v=a46e55ac979b",
       "r_version": "4.6.1",
       "tags": [
         "single-cell",
@@ -43,7 +43,7 @@
       "email": "zhangyongchao@nibs.ac.cn",
       "copyright": "(c) 2026 Zhang Yongchao",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/scconvert.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/scconvert.png?v=41fd0dc3eacd",
       "r_version": "4.6.1",
       "tags": [
         "single-cell",
@@ -73,7 +73,7 @@
       "email": "kevinrue67@gmail.com",
       "copyright": "(c) 2026 iSEE authors",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/isee.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/isee.png?v=bb98a07f83d4",
       "r_version": "4.6.1",
       "tags": [
         "single-cell",
@@ -103,7 +103,7 @@
       "email": "w_shixiang@163.com",
       "copyright": "(c) 2026 openbiox authors",
       "license": "GPL-3.0-or-later",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png?v=76a2f47d4a7f",
       "r_version": "4.6.1",
       "tags": [
         "clinical-health",
@@ -134,7 +134,7 @@
       "email": "lcolladotor@gmail.com",
       "copyright": "(c) 2026 spatialLIBD authors (Lieber Institute for Brain Development)",
       "license": "Artistic-2.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png?v=df924ab46a58",
       "r_version": "4.6.1",
       "tags": [
         "single-cell",
@@ -164,7 +164,7 @@
       "docs": "https://github.com/anmabu/beeRapp#readme",
       "copyright": "(c) 2026 beeRapp authors",
       "license": "GPL-3.0-or-later",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/beerapp.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/beerapp.png?v=efbf5982061b",
       "r_version": "4.6.1",
       "tags": [
         "statistics",
@@ -194,7 +194,7 @@
       "docs": "https://github.com/praneet1988/CSBB-Shiny#readme",
       "copyright": "(c) 2026 Praneet Chaturvedi",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png?v=5ec7c1adb721",
       "r_version": "4.6.1",
       "tags": [
         "single-cell",
@@ -224,7 +224,7 @@
       "docs": "https://github.com/unitsa-sangket/bestDEG#readme",
       "copyright": "(c) 2022 bestDEG authors",
       "license": "Unspecified (upstream declares no license)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/bestdeg.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/bestdeg.png?v=ef97b3b51e6b",
       "r_version": "4.6.1",
       "tags": [
         "transcriptomics",
@@ -254,7 +254,7 @@
       "email": "yaowen@henau.edu.cn",
       "copyright": "(c) 2026 Wen Yao (Yao Lab, Henan Agricultural University)",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinycircos.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinycircos.png?v=9fda4f2c8348",
       "r_version": "4.6.1",
       "tags": [
         "genomics",
@@ -283,7 +283,7 @@
       "docs": "https://github.com/hms-dbmi/UpSetR-shiny#readme",
       "copyright": "(c) 2026 UpSetR-shiny authors (Harvard Medical School Department of Biomedical Informatics)",
       "license": "Unspecified (upstream declares no license)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/upsetr-shiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/upsetr-shiny.png?v=9f5584e7d49e",
       "r_version": "4.6.1",
       "tags": [
         "visualization"
@@ -312,7 +312,7 @@
       "email": "databio@163.com",
       "copyright": "(c) 2022 Tao Zhao, Zhen Wang",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/graphbio.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/graphbio.png?v=83804c5bf921",
       "r_version": "4.6.1",
       "tags": [
         "visualization",
@@ -341,7 +341,7 @@
       "docs": "https://github.com/jhelvy/splitKbCompare#readme",
       "copyright": "(c) 2020 John Helveston",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/splitkbcompare.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/splitkbcompare.png?v=ea6e6595906b",
       "r_version": "4.6.1",
       "tags": [
         "visualization"
@@ -370,7 +370,7 @@
       "email": "jgabry@gmail.com",
       "copyright": "(c) 2025 Stan Development Team",
       "license": "GPL-3.0-or-later",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinystan.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinystan.png?v=221e5b031548",
       "r_version": "4.6.1",
       "tags": [
         "statistics",
@@ -400,7 +400,7 @@
       "email": "victor.perrier@dreamrs.fr",
       "copyright": "(c) 2018 dreamRs",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/esquisse.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/esquisse.png?v=8a0f0d0f1582",
       "r_version": "4.6.1",
       "tags": [
         "visualization"
@@ -428,7 +428,7 @@
       "docs": "https://github.com/JoachimGoedhart/PlotsOfData#readme",
       "copyright": "(c) 2018 Joachim Goedhart",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/plotsofdata.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/plotsofdata.png?v=b067ac32fc34",
       "r_version": "4.6.1",
       "tags": [
         "visualization",
@@ -458,7 +458,7 @@
       "docs": "https://github.com/ColinFay/hexmake#readme",
       "copyright": "(c) 2019 Colin Fay",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/hexmake.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/hexmake.png?v=6fe7f1195845",
       "r_version": "4.6.1",
       "tags": [
         "software-development"
@@ -487,7 +487,7 @@
       "email": "julien.barnier@cnrs.fr",
       "copyright": "(c) 2026 Julien Barnier",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/explor.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/explor.png?v=5a5f4b89db13",
       "r_version": "4.6.1",
       "tags": [
         "statistics",
@@ -516,7 +516,7 @@
       "docs": "https://biodosetools-team.github.io/biodosetools/",
       "copyright": "(c) 2026 biodosetools team",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/biodosetools.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/biodosetools.png?v=d1088b447e01",
       "r_version": "4.6.1",
       "tags": [
         "clinical-health",
@@ -545,7 +545,7 @@
       "docs": "https://github.com/BIONF/PhyloProfile#readme",
       "copyright": "(c) 2024 Vinh Tran",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/phyloprofile.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/phyloprofile.png?v=c2a9f10adcc1",
       "r_version": "4.6.1",
       "tags": [
         "genomics"
@@ -573,7 +573,7 @@
       "docs": "https://github.com/nasqar/deseq2shiny#readme",
       "copyright": "(c) Nasqar",
       "license": "Unspecified (upstream declares no license)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/deseq2shiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/deseq2shiny.png?v=c2c8fdaefe2b",
       "r_version": "4.6.1",
       "tags": [
         "transcriptomics",
@@ -602,7 +602,7 @@
       "docs": "https://github.com/nasqar/ClusterProfShinyORA#readme",
       "copyright": "(c) Nasqar",
       "license": "Unspecified (upstream declares no license)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png?v=9d884bd55571",
       "r_version": "4.6.1",
       "tags": [
         "genomics",
@@ -631,7 +631,7 @@
       "docs": "https://cschwem2er.github.io/stminsights",
       "copyright": "(c) 2016 Carsten Schwemmer",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/stminsights.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/stminsights.png?v=16933338f3a1",
       "r_version": "4.6.1",
       "tags": [
         "machine-learning",
@@ -660,7 +660,7 @@
       "docs": "https://github.com/pcastellanoescuder/POMAShiny#readme",
       "copyright": "(c) 2020 Pol Castellano-Escuder",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/pomashiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/pomashiny.png?v=d3cb0b75d2b2",
       "r_version": "4.6.1",
       "tags": [
         "proteomics-metabolomics",
@@ -689,7 +689,7 @@
       "docs": "https://github.com/mschoenhart/portfoliooptimizer#readme",
       "copyright": "(c) 2021 Marc Schoenhart",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/portfoliooptimizer.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/portfoliooptimizer.png?v=bfb66f3e4799",
       "r_version": "4.6.1",
       "tags": [
         "finance-economics",
@@ -718,7 +718,7 @@
       "docs": "https://github.com/northomics/pepFunk#readme",
       "copyright": "(c) 2021 pepFunk authors",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/pepfunk.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/pepfunk.png?v=ef334346b37a",
       "r_version": "4.6.1",
       "tags": [
         "proteomics-metabolomics",
@@ -747,7 +747,7 @@
       "docs": "https://microbiome.github.io/miaDash/",
       "copyright": "(c) 2024 Giulio Benedetti",
       "license": "Artistic-2.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/miadash.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/miadash.png?v=bdbcbf89449c",
       "r_version": "4.6.1",
       "tags": [
         "genomics",
@@ -776,7 +776,7 @@
       "docs": "https://github.com/MPUSP/shiny-genome-stats#readme",
       "copyright": "(c) 2024 Michael Jahn",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png?v=be7b31d44881",
       "r_version": "4.6.1",
       "tags": [
         "genomics",
@@ -805,7 +805,7 @@
       "docs": "https://github.com/mjhelf/Metaboseek#readme",
       "copyright": "(c) 2017 Maximilian Helf",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png?v=33a4318be0e8",
       "r_version": "4.6.1",
       "tags": [
         "proteomics-metabolomics",
@@ -834,7 +834,7 @@
       "docs": "https://david-priest.github.io/GateLabR",
       "copyright": "(c) 2026 David G. Priest",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png?v=e8925da93f66",
       "r_version": "4.6.1",
       "tags": [
         "single-cell",
@@ -863,7 +863,7 @@
       "docs": "https://github.com/Breeding-Insight/Familia#readme",
       "copyright": "(c) 2025 Breeding Insight",
       "license": "Apache-2.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/familia.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/familia.png?v=9fbb4f34940c",
       "r_version": "4.6.1",
       "tags": [
         "genomics"
@@ -891,7 +891,7 @@
       "docs": "https://didier-murillo.com/FielDHub/",
       "copyright": "(c) 2025 Didier Murillo",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fieldhub.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fieldhub.png?v=fbda792cf906",
       "r_version": "4.6.1",
       "tags": [
         "ecology-environment",
@@ -920,7 +920,7 @@
       "docs": "https://github.com/kesondrakey/fluxtools#readme",
       "copyright": "(c) 2025 Kesondra Key",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fluxtools.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fluxtools.png?v=a9ffddb89fa2",
       "r_version": "4.6.1",
       "tags": [
         "ecology-environment",
@@ -949,7 +949,7 @@
       "docs": "https://github.com/kapsner/BiasCorrector#readme",
       "copyright": "(c) 2025 Lorenz A. Kapsner",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/biascorrector.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/biascorrector.png?v=fd5f84e9ae42",
       "r_version": "4.6.1",
       "tags": [
         "genomics",
@@ -978,7 +978,7 @@
       "docs": "https://github.com/ramsas88/QuickExplore#readme",
       "copyright": "(c) 2025 Ramsas",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/quickexplore.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/quickexplore.png?v=a1268cbeef04",
       "r_version": "4.6.1",
       "tags": [
         "data-wrangling",
@@ -1007,7 +1007,7 @@
       "docs": "https://github.com/AntoineSoetewey/AssociationExplorer2#readme",
       "copyright": "(c) 2025 Antoine Soetewey",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/associationexplorer2.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/associationexplorer2.png?v=e002da2e4828",
       "r_version": "4.6.1",
       "tags": [
         "statistics",
@@ -1036,7 +1036,7 @@
       "docs": "https://github.com/Atefehrashidi/HIViz#readme",
       "copyright": "(c) 2025 Atefeh Rashidi",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/hiviz.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/hiviz.png?v=ada45403f68a",
       "r_version": "4.6.1",
       "tags": [
         "clinical-health",
@@ -1065,7 +1065,7 @@
       "docs": "https://github.com/ccasement/DistPlotter#readme",
       "copyright": "(c) 2025 DistPlotter authors",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/distplotter.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/distplotter.png?v=4374e61c408e",
       "r_version": "4.6.1",
       "tags": [
         "statistics",
@@ -1095,7 +1095,7 @@
       "docs": "https://github.com/bigfacilityiisr/NGS-Tool-Kit#readme",
       "copyright": "(c) 2025 Sona Charles",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/ngstoolkit.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/ngstoolkit.png?v=df3f3610919c",
       "r_version": "4.6.1",
       "tags": [
         "transcriptomics",
@@ -1125,7 +1125,7 @@
       "docs": "https://github.com/miracum/dqa-dqagui#readme",
       "copyright": "(c) 2025 miracum",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/dqagui.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/dqagui.png?v=9d3695f4e53a",
       "r_version": "4.6.1",
       "tags": [
         "data-wrangling"
@@ -1153,7 +1153,7 @@
       "docs": "https://github.com/srkobakian/taipan#readme",
       "copyright": "(c) 2025 Sam Cobain",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/taipan.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/taipan.png?v=c34cebdc2d07",
       "r_version": "4.6.1",
       "tags": [
         "imaging"
@@ -1181,7 +1181,7 @@
       "docs": "https://github.com/vpprasanth/AlleloBin#readme",
       "copyright": "(c) 2025 V. Prasanth",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/allelobin.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/allelobin.png?v=d8c67b5dac0e",
       "r_version": "4.6.1",
       "tags": [
         "genomics"
@@ -1209,7 +1209,7 @@
       "docs": "https://github.com/chjackson/MetaAnalyser#readme",
       "copyright": "(c) 2025 Christopher Jackson",
       "license": "GPL-2.0-or-later",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/metaanalyser.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/metaanalyser.png?v=c29b45df3732",
       "r_version": "4.6.1",
       "tags": [
         "statistics",
@@ -1238,7 +1238,7 @@
       "docs": "https://github.com/paulgovan/ReliaShiny#readme",
       "copyright": "(c) 2025 Paul Govan",
       "license": "CC-BY-4.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/reliashiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/reliashiny.png?v=539a8cbfd7ec",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -1266,7 +1266,7 @@
       "docs": "https://github.com/stla/shinyMergely#readme",
       "copyright": "(c) 2025 Stephane Laurent",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png?v=4fad0c4e2a26",
       "r_version": "4.6.1",
       "tags": [
         "data-wrangling"
@@ -1294,7 +1294,7 @@
       "docs": "https://github.com/JanaW09/DiagnostySize_App#readme",
       "copyright": "(c) 2025 Jana W.",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png?v=3e1f67b74404",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -1322,7 +1322,7 @@
       "docs": "https://github.com/kylehamilton/lavaan.shiny#readme",
       "copyright": "(c) 2025 William Kyle Hamilton",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/lavaanshiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/lavaanshiny.png?v=872ce3aaeaf4",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -1350,7 +1350,7 @@
       "docs": "https://github.com/havishaJ/Greymodels#readme",
       "copyright": "(c) 2025 Havisha J.",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/greymodels.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/greymodels.png?v=94b9a6de1629",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -1378,7 +1378,7 @@
       "docs": "https://github.com/fossilsim/FossilSimShiny#readme",
       "copyright": "(c) 2025 FossilSimShiny authors",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fossilsimshiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fossilsimshiny.png?v=00ab4dce640a",
       "r_version": "4.6.1",
       "tags": [
         "ecology-environment",
@@ -1407,7 +1407,7 @@
       "docs": "https://github.com/ddalthorp/GenEst#readme",
       "copyright": "(c) 2025 GenEst authors",
       "license": "CC0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/genest.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/genest.png?v=6a4500e3c732",
       "r_version": "4.6.1",
       "tags": [
         "ecology-environment",
@@ -1436,7 +1436,7 @@
       "docs": "https://github.com/cran/ICSShiny#readme",
       "copyright": "(c) 2025 ICSShiny authors",
       "license": "GPL-2.0-or-later",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/icsshiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/icsshiny.png?v=5b99350bbf96",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -1464,7 +1464,7 @@
       "docs": "https://github.com/kylehamilton/IRTShiny#readme",
       "copyright": "(c) 2025 IRTShiny authors",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/irtshiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/irtshiny.png?v=38cc0e2edd6f",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -1492,7 +1492,7 @@
       "docs": "https://github.com/cran/KappaGUI#readme",
       "copyright": "(c) 2025 KappaGUI authors",
       "license": "GPL-2.0-or-later",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/kappagui.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/kappagui.png?v=32d6ace6ba8a",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -1520,7 +1520,7 @@
       "docs": "https://github.com/1danjordan/MetSizeR#readme",
       "copyright": "(c) 2025 MetSizeR authors",
       "license": "GPL-2.0-or-later",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/metsizer.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/metsizer.png?v=696057acc660",
       "r_version": "4.6.1",
       "tags": [
         "proteomics-metabolomics",
@@ -1549,7 +1549,7 @@
       "docs": "https://github.com/cran/REPPlabShiny#readme",
       "copyright": "(c) 2025 REPPlabShiny authors",
       "license": "GPL-2.0-or-later",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/repplabshiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/repplabshiny.png?v=0ce30afa0b21",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -1577,7 +1577,7 @@
       "docs": "https://github.com/dzangri/stmGUI#readme",
       "copyright": "(c) 2025 stmgui authors",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/stmgui.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/stmgui.png?v=9c6af9bf38aa",
       "r_version": "4.6.1",
       "tags": [
         "machine-learning",
@@ -1606,7 +1606,7 @@
       "docs": "https://github.com/cran/DIFshiny#readme",
       "copyright": "(c) 2025 DIFshiny authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/difshiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/difshiny.png?v=78cd8305824f",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -1634,7 +1634,7 @@
       "docs": "https://github.com/cran/ChannelAttributionApp#readme",
       "copyright": "(c) 2020 Davide Altomare",
       "license": "GPL-3.0",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/channelattributionapp.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/channelattributionapp.png?v=494cb2d3d637",
       "r_version": "4.6.1",
       "tags": [
         "finance-economics",
@@ -1663,7 +1663,7 @@
       "docs": "https://github.com/fentouxungui/SqueakR#readme",
       "copyright": "(c) 2025 SqueakR authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/squeakr.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/squeakr.png?v=2c25dd55a723",
       "r_version": "4.6.1",
       "tags": [
         "social-science",
@@ -1693,7 +1693,7 @@
       "docs": "https://github.com/fentouxungui/html2R#readme",
       "copyright": "(c) 2025 html2R authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/html2r.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/html2r.png?v=bb0c6dfe2c84",
       "r_version": "4.6.1",
       "tags": [
         "software-development"
@@ -1721,7 +1721,7 @@
       "docs": "https://github.com/fentouxungui/SOMbrero#readme",
       "copyright": "(c) 2025 SOMbrero authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/sombrero.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/sombrero.png?v=21db94ab505d",
       "r_version": "4.6.1",
       "tags": [
         "machine-learning",
@@ -1750,7 +1750,7 @@
       "docs": "https://github.com/fentouxungui/SOMEnv#readme",
       "copyright": "(c) 2025 SOMEnv authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/somenv.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/somenv.png?v=e3429afaeef2",
       "r_version": "4.6.1",
       "tags": [
         "ecology-environment",
@@ -1779,7 +1779,7 @@
       "docs": "https://github.com/fentouxungui/GWSDAT#readme",
       "copyright": "(c) 2025 GWSDAT authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/gwsdat.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/gwsdat.png?v=66e2d420f753",
       "r_version": "4.6.1",
       "tags": [
         "ecology-environment",
@@ -1809,7 +1809,7 @@
       "docs": "https://github.com/fentouxungui/ExPanDaR#readme",
       "copyright": "(c) 2025 ExPanDaR authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/expandar.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/expandar.png?v=8cf40a3d5380",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -1837,7 +1837,7 @@
       "docs": "https://github.com/fentouxungui/deepdep#readme",
       "copyright": "(c) 2025 deepdep authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/deepdep.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/deepdep.png?v=56eb68ee374c",
       "r_version": "4.6.1",
       "tags": [
         "software-development",
@@ -1866,7 +1866,7 @@
       "docs": "https://github.com/fentouxungui/r3dmol#readme",
       "copyright": "(c) 2025 r3dmol authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/r3dmol.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/r3dmol.png?v=9fa93532a38c",
       "r_version": "4.6.1",
       "tags": [
         "structural-biology",
@@ -1895,7 +1895,7 @@
       "docs": "https://github.com/fentouxungui/invoice-public#readme",
       "copyright": "(c) 2025 shinyInvoice authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinyinvoice.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinyinvoice.png?v=2db04e6c35ac",
       "r_version": "4.6.1",
       "tags": [
         "software-development"
@@ -1923,7 +1923,7 @@
       "docs": "https://github.com/fentouxungui/OlympicRshiny#readme",
       "copyright": "(c) 2025 OlympicRshiny authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/olympicrshiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/olympicrshiny.png?v=dd4478666721",
       "r_version": "4.6.1",
       "tags": [
         "social-science",
@@ -1952,7 +1952,7 @@
       "docs": "https://github.com/fentouxungui/ssb-easysdctable#readme",
       "copyright": "(c) 2025 easySdcTable authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/easysdctable.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/easysdctable.png?v=d81a22c1f3e1",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -1980,7 +1980,7 @@
       "docs": "https://github.com/fentouxungui/mmirestriktor#readme",
       "copyright": "(c) 2025 mmirestriktor authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/mmirestriktor.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/mmirestriktor.png?v=1bc0f3730208",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -2008,7 +2008,7 @@
       "docs": "https://github.com/fentouxungui/holi#readme",
       "copyright": "(c) 2025 holi authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/holi.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/holi.png?v=12a272d7df91",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -2036,7 +2036,7 @@
       "docs": "https://github.com/fentouxungui/shinybrms#readme",
       "copyright": "(c) 2025 shinybrms authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinybrms.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinybrms.png?v=0adfdbbdf9c2",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -2064,7 +2064,7 @@
       "docs": "https://github.com/fentouxungui/lande#readme",
       "copyright": "(c) 2025 lande authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/lande.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/lande.png?v=aa4b046e0b86",
       "r_version": "4.6.1",
       "tags": [
         "ecology-environment",
@@ -2093,7 +2093,7 @@
       "docs": "https://github.com/fentouxungui/mispitools#readme",
       "copyright": "(c) 2025 mispitools authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/mispitools.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/mispitools.png?v=3c185c464338",
       "r_version": "4.6.1",
       "tags": [
         "social-science",
@@ -2122,7 +2122,7 @@
       "docs": "https://github.com/fentouxungui/ggplotgui#readme",
       "copyright": "(c) 2025 ggplotgui authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/ggplotgui.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/ggplotgui.png?v=0aa2061a9272",
       "r_version": "4.6.1",
       "tags": [
         "visualization"
@@ -2150,7 +2150,7 @@
       "docs": "https://github.com/fentouxungui/mmibain#readme",
       "copyright": "(c) 2025 mmibain authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/mmibain.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/mmibain.png?v=07b94ea77c01",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -2207,7 +2207,7 @@
       "docs": "https://github.com/fentouxungui/cocktailApp#readme",
       "copyright": "(c) 2025 cocktailApp authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/cocktailapp.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/cocktailapp.png?v=30cfbafa36e9",
       "r_version": "4.6.1",
       "tags": [
         "social-science",
@@ -2236,7 +2236,7 @@
       "docs": "https://github.com/fentouxungui/vvdoctor#readme",
       "copyright": "(c) 2025 vvdoctor authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/vvdoctor.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/vvdoctor.png?v=8d34a092e077",
       "r_version": "4.6.1",
       "tags": [
         "data-wrangling",
@@ -2265,7 +2265,7 @@
       "docs": "https://github.com/fentouxungui/sdstudio#readme",
       "copyright": "(c) 2025 sdstudio authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/sdstudio.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/sdstudio.png?v=23a4b4bdd8b5",
       "r_version": "4.6.1",
       "tags": [
         "social-science",
@@ -2294,7 +2294,7 @@
       "docs": "https://github.com/fentouxungui/quallmer.app#readme",
       "copyright": "(c) 2025 quallmer.app authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/quallmer-app.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/quallmer-app.png?v=d015f2baf3d7",
       "r_version": "4.6.1",
       "tags": [
         "social-science",
@@ -2323,7 +2323,7 @@
       "docs": "https://github.com/fentouxungui/pressfreedom#readme",
       "copyright": "(c) 2025 pressfreedom authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/pressfreedom.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/pressfreedom.png?v=50416b5abcca",
       "r_version": "4.6.1",
       "tags": [
         "social-science",
@@ -2352,7 +2352,7 @@
       "docs": "https://github.com/fentouxungui/ggraptR#readme",
       "copyright": "(c) 2025 ggraptR authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/ggraptr.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/ggraptr.png?v=b47e0de0a484",
       "r_version": "4.6.1",
       "tags": [
         "visualization"
@@ -2380,7 +2380,7 @@
       "docs": "https://github.com/fentouxungui/yuimaGUI#readme",
       "copyright": "(c) 2025 yuimaGUI authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/yuima-gui.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/yuima-gui.png?v=c0a6039ced64",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -2408,7 +2408,7 @@
       "docs": "https://github.com/fentouxungui/censuspyrID#readme",
       "copyright": "(c) 2025 censuspyrID authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/censuspyrid.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/censuspyrid.png?v=31a7ed2657b1",
       "r_version": "4.6.1",
       "tags": [
         "social-science",
@@ -2437,7 +2437,7 @@
       "docs": "https://github.com/fentouxungui/fitODBODRshiny#readme",
       "copyright": "(c) 2025 fitODBODRshiny authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fitodbodrshiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fitodbodrshiny.png?v=49d3a10aec77",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -2465,7 +2465,7 @@
       "docs": "https://github.com/fentouxungui/eSDM#readme",
       "copyright": "(c) 2025 eSDM authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/esdm.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/esdm.png?v=b152616b7ab1",
       "r_version": "4.6.1",
       "tags": [
         "ecology-environment",
@@ -2494,7 +2494,7 @@
       "docs": "https://github.com/fentouxungui/AdverseEvents#readme",
       "copyright": "(c) 2025 AdverseEvents authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/adverseevents.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/adverseevents.png?v=32b21b631c10",
       "r_version": "4.6.1",
       "tags": [
         "clinical-health"
@@ -2522,7 +2522,7 @@
       "docs": "https://github.com/fentouxungui/IsoCor#readme",
       "copyright": "(c) 2025 IsoCor authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/isocor.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/isocor.png?v=44592b12bdbe",
       "r_version": "4.6.1",
       "tags": [
         "proteomics-metabolomics",
@@ -2551,7 +2551,7 @@
       "docs": "https://github.com/fentouxungui/miniMeta#readme",
       "copyright": "(c) 2025 miniMeta authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/minmeta.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/minmeta.png?v=4d9d912016f1",
       "r_version": "4.6.1",
       "tags": [
         "statistics",
@@ -2580,7 +2580,7 @@
       "docs": "https://github.com/fentouxungui/gde#readme",
       "copyright": "(c) 2025 gde authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/gde.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/gde.png?v=6dc556e5ab45",
       "r_version": "4.6.1",
       "tags": [
         "visualization",
@@ -2609,7 +2609,7 @@
       "docs": "https://github.com/fentouxungui/seasonalview#readme",
       "copyright": "(c) 2025 seasonalview authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/seasonalview.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/seasonalview.png?v=08b6c1685143",
       "r_version": "4.6.1",
       "tags": [
         "statistics",
@@ -2638,7 +2638,7 @@
       "docs": "https://github.com/fentouxungui/memapp#readme",
       "copyright": "(c) 2025 memapp authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/memapp.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/memapp.png?v=4e3117137a24",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -2666,7 +2666,7 @@
       "docs": "https://github.com/fentouxungui/elaborator#readme",
       "copyright": "(c) 2025 elaborator authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/elaborator.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/elaborator.png?v=7c116a6093bf",
       "r_version": "4.6.1",
       "tags": [
         "visualization",
@@ -2695,7 +2695,7 @@
       "docs": "https://github.com/fentouxungui/dqcheckrGUI#readme",
       "copyright": "(c) 2025 dqcheckrGUI authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/dqcheckrgui.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/dqcheckrgui.png?v=b9ad07d36cb8",
       "r_version": "4.6.1",
       "tags": [
         "data-wrangling"
@@ -2723,7 +2723,7 @@
       "docs": "https://github.com/fentouxungui/visxhclust#readme",
       "copyright": "(c) 2025 visxhclust authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/visxhclust.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/visxhclust.png?v=c54931d9c57d",
       "r_version": "4.6.1",
       "tags": [
         "machine-learning",
@@ -2752,7 +2752,7 @@
       "docs": "https://github.com/fentouxungui/phecodemap#readme",
       "copyright": "(c) 2025 phecodemap authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/phecodemap.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/phecodemap.png?v=8005ec2570c0",
       "r_version": "4.6.1",
       "tags": [
         "clinical-health",
@@ -2781,7 +2781,7 @@
       "docs": "https://github.com/fentouxungui/fdapaceShiny#readme",
       "copyright": "(c) 2025 fdapaceShiny authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fdapaceshiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/fdapaceshiny.png?v=fede73d7cda0",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -2809,7 +2809,7 @@
       "docs": "https://github.com/fentouxungui/glossa#readme",
       "copyright": "(c) 2025 glossa authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/glossa.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/glossa.png?v=fbc61f3b3950",
       "r_version": "4.6.1",
       "tags": [
         "data-wrangling"
@@ -2837,7 +2837,7 @@
       "docs": "https://github.com/fentouxungui/aNCA#readme",
       "copyright": "(c) 2025 aNCA authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/anca.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/anca.png?v=b42a09b434cd",
       "r_version": "4.6.1",
       "tags": [
         "clinical-health"
@@ -2865,7 +2865,7 @@
       "docs": "https://github.com/fentouxungui/shinyMixR#readme",
       "copyright": "(c) 2025 shinyMixR authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinymixr.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinymixr.png?v=2b62438b4d6e",
       "r_version": "4.6.1",
       "tags": [
         "clinical-health",
@@ -2894,7 +2894,7 @@
       "docs": "https://github.com/fentouxungui/kesernetwork#readme",
       "copyright": "(c) 2025 kesernetwork authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/kesernetwork.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/kesernetwork.png?v=2e0302f0eb8c",
       "r_version": "4.6.1",
       "tags": [
         "visualization"
@@ -2922,7 +2922,7 @@
       "docs": "https://github.com/fentouxungui/shinyKGode#readme",
       "copyright": "(c) 2025 shinyKGode authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinykgode.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinykgode.png?v=655b3f0fbaa8",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -2950,7 +2950,7 @@
       "docs": "https://github.com/fentouxungui/viewpoly#readme",
       "copyright": "(c) 2025 viewpoly authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/viewpoly.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/viewpoly.png?v=e25ec2ba5a21",
       "r_version": "4.6.1",
       "tags": [
         "genomics",
@@ -2979,7 +2979,7 @@
       "docs": "https://github.com/fentouxungui/NormalityAssessment#readme",
       "copyright": "(c) 2025 NormalityAssessment authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/normalityassessment.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/normalityassessment.png?v=0b8c82ed512e",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -3007,7 +3007,7 @@
       "docs": "https://github.com/fentouxungui/AssumpSure#readme",
       "copyright": "(c) 2025 AssumpSure authors",
       "license": "See upstream",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/assumpsure.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/assumpsure.png?v=a7ba170f032b",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -3035,7 +3035,7 @@
       "docs": "https://github.com/fentouxungui/activAnalyzer#readme",
       "copyright": "(c) 2025 activAnalyzer authors",
       "license": "GPL (>= 3)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/activanalyzer.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/activanalyzer.png?v=04a31b6e73f9",
       "r_version": "4.6.1",
       "tags": [
         "clinical-health",
@@ -3064,7 +3064,7 @@
       "docs": "https://github.com/fentouxungui/cataScience#readme",
       "copyright": "(c) 2025 cataScience authors",
       "license": "MIT + file LICENSE",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/catascience.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/catascience.png?v=4ad99647991f",
       "r_version": "4.6.1",
       "tags": [
         "education",
@@ -3093,7 +3093,7 @@
       "docs": "https://github.com/fentouxungui/shinySbm#readme",
       "copyright": "(c) 2025 shinySbm authors",
       "license": "MIT + file LICENSE",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinysbm.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/shinysbm.png?v=46f2d8cf0bce",
       "r_version": "4.6.1",
       "tags": [
         "visualization",
@@ -3122,7 +3122,7 @@
       "docs": "https://github.com/fentouxungui/complexr#readme",
       "copyright": "(c) 2026 complexr authors",
       "license": "GPL (>= 3)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/complexr.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/complexr.png?v=59477fb1459b",
       "r_version": "4.6.1",
       "tags": [
         "social-science",
@@ -3151,7 +3151,7 @@
       "docs": "https://github.com/fentouxungui/dataviewR#readme",
       "copyright": "(c) 2026 dataviewR authors",
       "license": "MIT + file LICENSE",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/dataviewr.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/dataviewr.png?v=b81223fbeb30",
       "r_version": "4.6.1",
       "tags": [
         "data-wrangling",
@@ -3180,7 +3180,7 @@
       "docs": "https://github.com/fentouxungui/DrData#readme",
       "copyright": "(c) 2026 DrData authors",
       "license": "MIT + file LICENSE",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/drdata.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/drdata.png?v=18f1913db156",
       "r_version": "4.6.1",
       "tags": [
         "machine-learning",
@@ -3209,7 +3209,7 @@
       "docs": "https://github.com/fentouxungui/exmort#readme",
       "copyright": "(c) 2026 exmort authors",
       "license": "GPL-3",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/exmort.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/exmort.png?v=74dd815cf2dc",
       "r_version": "4.6.1",
       "tags": [
         "statistics",
@@ -3238,7 +3238,7 @@
       "docs": "https://github.com/fentouxungui/monobinShiny#readme",
       "copyright": "(c) 2026 monobinShiny authors",
       "license": "GPL (>= 3)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/monobinshiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/monobinshiny.png?v=08882852f446",
       "r_version": "4.6.1",
       "tags": [
         "finance-economics",
@@ -3268,7 +3268,7 @@
       "docs": "https://github.com/fentouxungui/paramGUI#readme",
       "copyright": "(c) 2026 paramGUI authors",
       "license": "GPL (>= 2)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/paramgui.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/paramgui.png?v=efdb85438ed3",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -3296,7 +3296,7 @@
       "docs": "https://github.com/fentouxungui/StatTeacherAssistant#readme",
       "copyright": "(c) 2026 StatTeacherAssistant authors",
       "license": "MIT + file LICENSE",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/statteacherassistant.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/statteacherassistant.png?v=2f12539a77a9",
       "r_version": "4.6.1",
       "tags": [
         "statistics",
@@ -3325,7 +3325,7 @@
       "docs": "https://github.com/fentouxungui/VOSONDash#readme",
       "copyright": "(c) 2026 VOSONDash authors",
       "license": "GPL (>= 3)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/vosondash.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/vosondash.png?v=afdf7b80d9e5",
       "r_version": "4.6.1",
       "tags": [
         "visualization"
@@ -3353,7 +3353,7 @@
       "docs": "https://github.com/fentouxungui/zscorer#readme",
       "copyright": "(c) 2026 zscorer authors",
       "license": "AGPL-3",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/zscorer.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/zscorer.png?v=9b484bf6308f",
       "r_version": "4.6.1",
       "tags": [
         "clinical-health"
@@ -3381,7 +3381,7 @@
       "docs": "https://github.com/fentouxungui/earthui#readme",
       "copyright": "(c) 2026 earthUI authors",
       "license": "AGPL (>= 3)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/earthui.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/earthui.png?v=aaf1426a8d59",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -3409,7 +3409,7 @@
       "docs": "https://github.com/fentouxungui/statnetWeb#readme",
       "copyright": "(c) 2026 statnetWeb authors",
       "license": "GPL-3",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/statnetweb.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/statnetweb.png?v=0791484f592c",
       "r_version": "4.6.1",
       "tags": [
         "visualization",
@@ -3438,7 +3438,7 @@
       "docs": "https://github.com/fentouxungui/ParCC#readme",
       "copyright": "(c) 2026 ParCC authors",
       "license": "MIT + file LICENSE",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/parcc.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/parcc.png?v=ccb159742b02",
       "r_version": "4.6.1",
       "tags": [
         "clinical-health",
@@ -3468,7 +3468,7 @@
       "docs": "https://github.com/fentouxungui/Holomics#readme",
       "copyright": "(c) 2026 Holomics authors",
       "license": "GPL (>= 3)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/holomics.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/holomics.png?v=3fd75fa1d7a4",
       "r_version": "4.6.1",
       "tags": [
         "genomics",
@@ -3498,7 +3498,7 @@
       "docs": "https://github.com/fentouxungui/TestAnaAPP#readme",
       "copyright": "(c) 2026 TestAnaAPP authors",
       "license": "GPL (>= 3)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/testanaapp.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/testanaapp.png?v=6bb19a0decea",
       "r_version": "4.6.1",
       "tags": [
         "statistics",
@@ -3527,7 +3527,7 @@
       "docs": "https://github.com/fentouxungui/dataCompare#readme",
       "copyright": "(c) 2026 dataCompare authors",
       "license": "MIT + file LICENSE",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/datacompare.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/datacompare.png?v=4ce30db5f342",
       "r_version": "4.6.1",
       "tags": [
         "data-wrangling",
@@ -3556,7 +3556,7 @@
       "docs": "https://github.com/fentouxungui/projectLSA#readme",
       "copyright": "(c) 2026 projectLSA authors",
       "license": "MIT + file LICENSE",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/projectlsa.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/projectlsa.png?v=0505f80e3df7",
       "r_version": "4.6.1",
       "tags": [
         "statistics"
@@ -3584,7 +3584,7 @@
       "docs": "https://github.com/fentouxungui/SouthParkRshiny#readme",
       "copyright": "(c) 2026 SouthParkRshiny authors",
       "license": "MIT + file LICENSE",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/southparkrshiny.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/southparkrshiny.png?v=5a6531e3a3ff",
       "r_version": "4.6.1",
       "tags": [
         "visualization",
@@ -3613,7 +3613,7 @@
       "docs": "https://github.com/fentouxungui/handwriterApp#readme",
       "copyright": "(c) 2026 handwriterApp authors",
       "license": "GPL (>= 3)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/handwriterapp.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/handwriterapp.png?v=deac751b579e",
       "r_version": "4.6.1",
       "tags": [
         "social-science",
@@ -3642,7 +3642,7 @@
       "docs": "https://github.com/GSK-Biostatistics/tfrmtbuilder#readme",
       "copyright": "(c) 2026 tfrmtbuilder authors",
       "license": "Apache License (>= 2)",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png?v=8a6bab7f6463",
       "r_version": "4.6.1",
       "tags": [
         "clinical-health",
@@ -3672,7 +3672,7 @@
       "email": "3219030654@stu.cpu.edu.cn",
       "copyright": "(c) 2026 Jun Zhang",
       "license": "MIT",
-      "icon": "https://fentouxungui.github.io/ShinyApps/icons/scrnatoolvis.png",
+      "icon": "https://fentouxungui.github.io/ShinyApps/icons/scrnatoolvis.png?v=9c91a360fe32",
       "r_version": "4.6.1",
       "tags": [
         "single-cell",
