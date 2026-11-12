@@ -9,12 +9,13 @@
 app:
   name: "ShinyApps Store"
   launcher_title: "ShinyApps Store"   # heading on the launcher page
-  version: "0.1.0"                 # shell version
+  version: "0.1.18"
   slug: "shinyapps"                # keep: app identity, data dir, installer id
   log_level: "info"
   description: "Desktop app store for Shiny applications"
-  author: "Zhang Yongchao"
-  email: "zhangyongchao@nibs.ac.cn"
+  author:
+    name: "Zhang Yongchao"
+    email: "zhangyongchao@nibs.ac.cn"
   homepage: "https://github.com/fentouxungui/ShinyApps"
   copyright: "Copyright (c) 2026 Zhang Yongchao."
 
@@ -73,9 +74,8 @@ updates:
     owner: "fentouxungui"
     repo: "ShinyApps"
 
-optimize:
-  r_library: true
-  r_runtime: true
+report:
+  endpoint: "https://shinyapps-report.shinyapps-report-fentouxungui.workers.dev/v1/report"
 
 apps:
   # Lightweight placeholder apps that keep the build a multi-app suite
