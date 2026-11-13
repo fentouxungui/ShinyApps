@@ -2,9 +2,9 @@
 
 ShinyApps Store is a desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 128 — 127 ✅ Available / 1 ⛔ Unavailable
+- **Apps:** 128
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-11-13 02:54:51 UTC
+- **Catalog last updated:** 2026-11-13 05:42:19 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -23,7 +23,7 @@ Don't have ShinyApps Store yet? Download it from the [latest release](https://gi
 
 | Icon | App | Status | Version | Download | Links |
 |:---:|---|:---:|---:|---|---|
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png?v=a46e55ac979b" width="32" alt="SeuratExplorer"> | **SeuratExplorer**<br>Explore scRNA-seq data processed in Seurat | ⛔ Unavailable | `0.1.11` | — | [Home](https://github.com/fentouxungui/SeuratExplorer) · [Docs](https://github.com/fentouxungui/SeuratExplorer/wiki) · [Release](https://github.com/fentouxungui/SeuratExplorer/releases/tag/v0.1.11) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png?v=a46e55ac979b" width="32" alt="SeuratExplorer"> | **SeuratExplorer**<br>Explore scRNA-seq data processed in Seurat | ✅ Available | `0.1.11` | [Windows x64](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-mac-arm64.zip) | [Home](https://github.com/fentouxungui/SeuratExplorer) · [Docs](https://github.com/fentouxungui/SeuratExplorer/wiki) · [Release](https://github.com/fentouxungui/SeuratExplorer/releases/tag/v0.1.11) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/scconvert.png?v=41fd0dc3eacd" width="32" alt="scConvertShiny"> | **scConvertShiny**<br>Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCellExperiment / Zarr etc.) | ✅ Available | `0.1.3` | [Windows x64](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-mac-arm64.zip) | [Home](https://github.com/fentouxungui/scConvertShiny) · [Docs](https://github.com/fentouxungui/scConvertShiny#readme) · [Release](https://github.com/fentouxungui/scConvertShiny/releases/tag/v0.1.3) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/isee.png?v=bb98a07f83d4" width="32" alt="iSEE"> | **iSEE**<br>Interactive SummarizedExperiment Explorer | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/iSEE/releases/download/v0.1.1/isee-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/iSEE/releases/download/v0.1.1/isee-0.1.1-mac-arm64.zip) | [Home](https://github.com/fentouxungui/iSEE) · [Docs](https://isee.github.io/iSEE/) · [Release](https://github.com/fentouxungui/iSEE/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png?v=76a2f47d4a7f" width="32" alt="UCSCXenaShiny"> | **UCSCXenaShiny**<br>Interactive analysis and visualization of UCSC Xena cancer genomics data | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/UCSCXenaShiny/releases/download/v0.1.0/xenashiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/UCSCXenaShiny/releases/download/v0.1.0/xenashiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/UCSCXenaShiny) · [Docs](https://openbiox.github.io/UCSCXenaShiny/) · [Release](https://github.com/fentouxungui/UCSCXenaShiny/releases/tag/v0.1.0) |
@@ -160,8 +160,6 @@ Windows bundles are x64. macOS bundles are arm64 (Apple Silicon, macOS 14+); Int
 
 ### SeuratExplorer `0.1.11`
 
-**Status:** ⛔ Unavailable — no published release yet.
-
 Explore scRNA-seq data processed in Seurat
 
 | Field | Value |
@@ -173,6 +171,15 @@ Explore scRNA-seq data processed in Seurat
 | R version | 4.6.1 |
 
 Release: https://github.com/fentouxungui/SeuratExplorer/releases/tag/v0.1.11
+
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [seurat-explorer-0.1.11-mac-arm64.zip](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-mac-arm64.zip) | 292.4 MB | `1a332299c66cd8659c8db267573bfe0b71f4cbf25c3b2ce19f357fed0a60977b` |
+| `win-x64` | [seurat-explorer-0.1.11-win-x64.zip](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-win-x64.zip) | 315.5 MB | `a1c38cddec0954e2411a44dfd6383f594046c1d9fcca04822e484fce82cec3a2` |
+
+</details>
 
 ### scConvertShiny `0.1.3`
 
