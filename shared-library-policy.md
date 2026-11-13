@@ -33,6 +33,23 @@ Each bundle ships its resolved dependency closure in `manifest.json` `packages[]
   app, **or** when an app needs a different version than the shared one.
 - **Runtime R_LIBS order at run time: `<app private lib> : <shared lib>`** (private wins).
 
+## 3a. Runtime-provided packages (never in lib/)
+
+`base` and `recommended` packages are provided by the bundled R runtime and must
+**never** be placed in `<userData>/lib` or `<userData>/private/<app-id>`. They must
+also not be shipped in an app bundle's `rlib/`.
+
+- The bundle build excludes `installed.packages(priority = c("base", "recommended"))`
+  and asserts that none slipped into `rlib/`.
+- The client skips them during install and does not record them in
+  `state.apps[id].packages`.
+- At startup the client removes legacy copies from `lib/` and `private/` (base
+  always; recommended only when the private/shared version matches the runtime).
+- `run()` treats them as satisfied by the runtime.
+
+This prevents a `KernSmooth`/`MASS`/`Matrix` copy built against another R's
+`/Library/Frameworks/R.framework` from shadowing the runtime copy on macOS.
+
 ## 4. Reference counting
 
 - **install**: for each package in the bundle closure — absent from shared -> copy in,

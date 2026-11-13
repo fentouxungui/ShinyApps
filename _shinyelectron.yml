@@ -9,7 +9,7 @@
 app:
   name: "ShinyApps Store"
   launcher_title: "ShinyApps Store"   # heading on the launcher page
-  version: "0.1.18"
+  version: "0.1.19"
   slug: "shinyapps"                # keep: app identity, data dir, installer id
   log_level: "info"
   description: "Desktop app store for Shiny applications"
