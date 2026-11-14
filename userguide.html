@@ -82,12 +82,13 @@
 
   <h2>3. The launcher at a glance</h2>
   <ul>
-    <li>Every catalog app is a <b>card</b> (or a <b>row</b> in <i>List</i> view).</li>
-    <li><b>Search</b> by name, description or author (<code>Ctrl/Cmd+F</code>).</li>
-    <li><b>Filters:</b> tag, <b>Sort</b> (Name / Recently used / Most used), <b>Favorites</b> (&starf;), <b>Clear</b>.</li>
-    <li>Favorites are pinned to the top; <b>Apps &rarr; Quick Run</b> lists favorites / most-used first.</li>
-    <li>Toggle <b>Cards / List</b> layout (remembered).</li>
-    <li><b>Manage apps</b> opens the manager (tabs: Installed / All / Updates / Running).</li>
+    <li>The left sidebar has <b>Discover / My Apps / Updates / Running / Installing</b>; <b>Install&hellip;</b> and <b>Settings</b> are at the bottom.</li>
+    <li>Discover opens first when nothing is installed; returning users open <b>My Apps</b>.</li>
+    <li>Browse by <b>category</b> in the sidebar; the list shows version, size and status.</li>
+    <li><b>Search all apps</b> by name, description or author (<code>Ctrl/Cmd+F</code> or <code>Ctrl/Cmd+K</code>); results are not limited to the current section.</li>
+    <li><b>Sort</b> (Name / Recently used / Most used) and <b>Favorites</b> are in the toolbar.</li>
+    <li>Toggle <b>Cards / List</b> layout (remembered). Click an app <b>name</b> for its detail drawer.</li>
+    <li><b>Apps &rarr; Quick Run</b> lists favorites / most-used first.</li>
   </ul>
 
   <h2>4. Installing apps</h2>
@@ -96,36 +97,37 @@
       <li>The card shows live progress: <b>download % &rarr; verify &rarr; install</b>.</li>
       <li>When it finishes, the card shows <b>Run</b>.</li></ol>
   <h3>From a file</h3>
-  <p><b>Apps &rarr; Install from Bundle&hellip;</b> (or <b>Install from file&hellip;</b> in the manager), then pick a <code>*.zip</code> bundle.</p>
+  <p><b>Install&hellip; &rarr; From file&hellip;</b> at the bottom of the sidebar (or <b>Apps &rarr; Install from Bundle&hellip;</b>), then pick a <code>*.zip</code> bundle.</p>
   <h3>From a URL</h3>
-  <p><b>Apps &rarr; Install from URL&hellip;</b>, paste a direct link to a bundle <code>.zip</code>.</p>
-  <div class="note">Downloads are resumable and verified (size + SHA-256) before installing. Only one
-  install/update/uninstall runs at a time; a banner lets you <b>Cancel</b> the current one.</div>
+  <p><b>Install&hellip; &rarr; From URL&hellip;</b> (or <b>Apps &rarr; Install from URL&hellip;</b>), paste a direct link to a bundle <code>.zip</code>.</p>
+  <div class="note">Downloads are resumable and verified (size + SHA-256) before installing. Up to two
+  installs download at once; extra requests queue. You can keep browsing and running apps while they work.
+  The <b>Installing</b> section shows progress and a <b>Cancel</b> action for each app.</div>
 
   <h2>5. Running apps</h2>
   <ul>
-    <li>Click <b>Run</b> (or <b>Open</b> if already loaded). Only <b>one app runs at a time</b>.</li>
-    <li>Return with <b>Apps &rarr; Back to Launcher</b> or <code>Ctrl/Cmd+L</code>; unsaved work is confirmed first.</li>
-    <li>Closing the app window / quitting ShinyApps Store stops the running app.</li>
+    <li>Click <b>Run</b> (or <b>Open</b> if already loaded). Only <b>one app runs at a time</b>; the other Run buttons are disabled until you stop it.</li>
+    <li>The app opens in its own window with a slim <b>Store / Stop</b> toolbar at the top; the store stays open.</li>
+    <li>Clicking the store window keeps the app running. Closing the app window stops it after an unsaved-work confirmation.</li>
   </ul>
 
   <h2>6. Updating apps</h2>
   <ul>
     <li>On every launch, ShinyApps Store compares each installed app with the catalog.</li>
-    <li>If a newer version exists, the card shows <b>Update</b> (and <b>Manage apps (N)</b> shows the count). Click it: the app is stopped, the new bundle is fetched and verified, then swapped in place.</li>
+    <li>If a newer version exists, the <b>Updates</b> section shows the count and the card shows <b>Update</b>. Use <b>Update all</b> for several apps; downloads continue in the background.</li>
     <li>Updating an app does <b>not</b> touch your app data.</li>
   </ul>
 
   <h2>7. Uninstalling apps</h2>
   <ul>
-    <li>Open the card's <b>&hellip;</b> menu &rarr; <b>Uninstall</b> (or use the manager), then confirm.</li>
+    <li>Open the app's <b>&hellip;</b> menu &rarr; <b>Uninstall</b> (or the detail drawer), then confirm.</li>
     <li>This removes the installed copy and its private packages. <b>Your app data is kept.</b></li>
     <li>To remove ShinyApps Store itself, see section 12.</li>
   </ul>
 
   <h2>8. Storage and clean-up</h2>
   <ul>
-    <li><b>Settings &rarr; Storage&hellip;</b> shows installed apps, shared packages, download cache, incomplete items and free disk.</li>
+    <li><b>Settings (sidebar) &rarr; Storage&hellip;</b> shows installed apps, shared packages, download cache, incomplete items and free disk.</li>
     <li><b>Clean up</b> removes the download cache and unused shared packages.</li>
     <li><b>Open folder</b> opens the data directory in your file manager.</li>
     <li><b>Reset local data&hellip;</b> removes all installed apps, shared packages, caches and logs (settings are kept); a progress overlay is shown.</li>
@@ -135,7 +137,7 @@
   <p>By default, apps and data live under <code>%LOCALAPPDATA%\ShinyApps</code> (Windows) or the app's
   application-support folder (macOS). To move them:</p>
   <ol>
-    <li><b>Settings &rarr; App Data Location&hellip;</b> (or <b>Storage&hellip; &rarr; Change data location&hellip;</b>).</li>
+    <li><b>Settings (sidebar) &rarr; App data location&hellip;</b> (or <b>Storage&hellip; &rarr; Change data location&hellip;</b>).</li>
     <li>Choose a folder.</li>
     <li><b>Move existing data</b> (copies apps and libraries) or <b>Use empty folder</b> (start fresh).
         If the folder already holds ShinyApps Store data: <b>Use existing data</b> or <b>Overwrite with current data</b>.</li>
@@ -144,8 +146,8 @@
 
   <h2>10. Appearance and privacy</h2>
   <ul>
-    <li><b>Settings &rarr; Theme:</b> System / Light / Dark.</li>
-    <li><b>Settings &rarr; Save Crash Reports Locally:</b> writes crash reports to the local <code>crashes</code> folder. They are <b>never uploaded automatically</b>.</li>
+    <li><b>Settings (sidebar) &rarr; Appearance:</b> System / Light / Dark.</li>
+    <li><b>Settings (sidebar) &rarr; Save crash reports locally:</b> writes crash reports to the local <code>crashes</code> folder. They are <b>never uploaded automatically</b>.</li>
   </ul>
 
   <h2>11. Logs and diagnostics</h2>
@@ -157,7 +159,7 @@
 
   <h2>12. Uninstalling ShinyApps Store</h2>
   <ul>
-    <li><b>Settings &rarr; Uninstall ShinyApps Store&hellip;</b>.</li>
+    <li><b>Settings (sidebar) &rarr; Local data &rarr; Uninstall ShinyApps&hellip;</b>.</li>
     <li>Choose <b>Uninstall</b> (keep apps &amp; data) or <b>Uninstall and remove all apps &amp; data</b>.</li>
     <li>If ShinyApps Store was not installed from a release, no uninstaller exists &mdash; remove the app folder manually.</li>
   </ul>
@@ -179,9 +181,9 @@
   <h2>14. Keyboard shortcuts</h2>
   <table>
     <tr><th>Shortcut</th><th>Action</th></tr>
-    <tr><td><code>Ctrl/Cmd+F</code></td><td>Focus search (opens the manager)</td></tr>
-    <tr><td><code>Ctrl/Cmd+L</code></td><td>Back to Launcher</td></tr>
-    <tr><td><code>Ctrl/Cmd+Shift+M</code></td><td>Manage apps</td></tr>
+    <tr><td><code>Ctrl/Cmd+F</code> / <code>Ctrl/Cmd+K</code></td><td>Focus search</td></tr>
+    <tr><td><code>Ctrl/Cmd+Shift+M</code></td><td>My Apps</td></tr>
+    <tr><td><code>Esc</code></td><td>Close a dialog or the app detail drawer</td></tr>
   </table>
 
   <h2>15. Where things are stored</h2>
@@ -232,12 +234,13 @@
 
   <h2>3. 启动页导览</h2>
   <ul>
-    <li>目录中的每个应用是一张<b>卡片</b>（<i>列表</i>视图下为一行）。</li>
-    <li>按名称、描述或作者<b>搜索</b>（<code>Ctrl/Cmd+F</code>）。</li>
-    <li><b>筛选：</b>标签、<b>排序</b>（名称 / 最近使用 / 最常用）、<b>收藏</b>（&starf;）、<b>清除</b>。</li>
-    <li>收藏会置顶；<b>Apps &rarr; Quick Run</b> 把收藏 / 最常用排在前面。</li>
-    <li>切换<b>卡片 / 列表</b>布局（会记住）。</li>
-    <li><b>Manage apps</b> 打开管理视图（标签页：Installed / All / Updates / Running）。</li>
+    <li>左侧栏包含 <b>Discover / My Apps / Updates / Running / Installing</b>；底部是 <b>Install&hellip;</b> 和 <b>Settings</b>。</li>
+    <li>没有已安装应用时默认进入 <b>Discover</b>；已有应用时默认进入 <b>My Apps</b>。</li>
+    <li>通过左侧分类浏览；列表会显示版本、大小和状态。</li>
+    <li><b>搜索全部应用</b>（名称、描述或作者，<code>Ctrl/Cmd+F</code> 或 <code>Ctrl/Cmd+K</code>）；结果不限于当前 section。</li>
+    <li><b>排序</b>（名称 / 最近使用 / 最常用）和<b>收藏</b>在工具栏。</li>
+    <li>切换<b>卡片 / 列表</b>布局（会记住）。点击应用<b>名称</b>打开详情抽屉。</li>
+    <li><b>Apps &rarr; Quick Run</b> 把收藏 / 最常用排在前面。</li>
   </ul>
 
   <h2>4. 安装应用</h2>
@@ -246,36 +249,36 @@
       <li>卡片显示实时进度：<b>下载 % &rarr; 校验 &rarr; 安装</b>。</li>
       <li>完成后卡片显示 <b>Run</b>。</li></ol>
   <h3>从文件安装</h3>
-  <p><b>Apps &rarr; Install from Bundle&hellip;</b>（或管理视图里的 <b>Install from file&hellip;</b>），选择 <code>*.zip</code> 捆绑包。</p>
+  <p><b>Install&hellip; &rarr; From file&hellip;</b>（左侧栏底部）或 <b>Apps &rarr; Install from Bundle&hellip;</b>，选择 <code>*.zip</code> 捆绑包。</p>
   <h3>从 URL 安装</h3>
-  <p><b>Apps &rarr; Install from URL&hellip;</b>，粘贴捆绑包 <code>.zip</code> 的直接链接。</p>
-  <div class="note">下载支持断点续传，并在安装前校验（大小 + SHA-256）。同一时刻只运行一个 安装/更新/卸载
-  任务；横幅上可 <b>Cancel</b> 当前任务。</div>
+  <p><b>Install&hellip; &rarr; From URL&hellip;</b>（或 <b>Apps &rarr; Install from URL&hellip;</b>），粘贴捆绑包 <code>.zip</code> 的直接链接。</p>
+  <div class="note">下载支持断点续传，并在安装前校验（大小 + SHA-256）。最多两个安装任务同时下载，其余排队；
+  下载期间可以继续浏览和运行应用。<b>Installing</b> 页显示每个应用的进度和 <b>Cancel</b>。</div>
 
   <h2>5. 运行应用</h2>
   <ul>
-    <li>点击 <b>Run</b>（若已加载则显示 <b>Open</b>）。同一时刻仅运行<b>一个应用</b>。</li>
-    <li>用 <b>Apps &rarr; Back to Launcher</b> 或 <code>Ctrl/Cmd+L</code> 返回；若有未保存内容会先确认。</li>
-    <li>关闭应用窗口 / 退出 ShinyApps Store 会停止正在运行的应用。</li>
+    <li>点击 <b>Run</b>（若已加载则显示 <b>Open</b>）。同一时刻仅运行<b>一个应用</b>；其它 Run 按钮会被禁用，直到停止当前应用。</li>
+    <li>应用在独立窗口中打开，顶部有 <b>Store / Stop</b> 细工具栏，商店保持可用。</li>
+    <li>点击商店窗口不会停止应用；关闭应用窗口会在确认未保存内容后停止它。</li>
   </ul>
 
   <h2>6. 更新应用</h2>
   <ul>
     <li>每次启动都会把已安装应用与目录对比。</li>
-    <li>若有新版本，卡片显示 <b>Update</b>（<b>Manage apps (N)</b> 显示数量）。点击后：停止该应用 &rarr; 拉取并校验新捆绑包 &rarr; 原地替换。</li>
+    <li>若有新版本，侧栏 <b>Updates</b> 显示数量，卡片显示 <b>Update</b>。多个应用可用 <b>Update all</b>，下载在后台继续。</li>
     <li>更新应用<b>不会</b>动到你的应用数据。</li>
   </ul>
 
   <h2>7. 卸载应用</h2>
   <ul>
-    <li>打开卡片的 <b>&hellip;</b> 菜单 &rarr; <b>Uninstall</b>（或用管理视图），然后确认。</li>
+    <li>打开应用的 <b>&hellip;</b> 菜单 &rarr; <b>Uninstall</b>（或详情抽屉），然后确认。</li>
     <li>会移除已安装副本及其私有包，<b>你的应用数据会保留</b>。</li>
     <li>卸载 ShinyApps Store 本身见第 12 节。</li>
   </ul>
 
   <h2>8. 存储与清理</h2>
   <ul>
-    <li><b>Settings &rarr; Storage&hellip;</b> 显示：已安装应用、共享包、下载缓存、未完成项、可用磁盘。</li>
+    <li><b>Settings（侧栏）&rarr; Storage&hellip;</b> 显示：已安装应用、共享包、下载缓存、未完成项、可用磁盘。</li>
     <li><b>Clean up</b> 清除下载缓存与未使用的共享包。</li>
     <li><b>Open folder</b> 在文件管理器中打开数据目录。</li>
     <li><b>Reset local data&hellip;</b> 移除所有已安装应用、共享包、缓存与日志（设置保留）；过程中显示进度遮罩。</li>
@@ -284,7 +287,7 @@
   <h2>9. 修改应用数据目录</h2>
   <p>默认数据位于 <code>%LOCALAPPDATA%\ShinyApps</code>（Windows）或应用的支持目录（macOS）。迁移方式：</p>
   <ol>
-    <li><b>Settings &rarr; App Data Location&hellip;</b>（或 <b>Storage&hellip; &rarr; Change data location&hellip;</b>）。</li>
+    <li><b>Settings（侧栏）&rarr; App data location&hellip;</b>（或 <b>Storage&hellip; &rarr; Change data location&hellip;</b>）。</li>
     <li>选择目标文件夹。</li>
     <li>选 <b>Move existing data</b>（复制应用与库）或 <b>Use empty folder</b>（全新开始）。
         若目标已有 ShinyApps Store 数据：<b>Use existing data</b> 或 <b>Overwrite with current data</b>。</li>
@@ -293,8 +296,8 @@
 
   <h2>10. 外观与隐私</h2>
   <ul>
-    <li><b>Settings &rarr; Theme：</b>System / Light / Dark。</li>
-    <li><b>Settings &rarr; Save Crash Reports Locally：</b>把崩溃报告写入本地 <code>crashes</code> 目录，<b>绝不自动上传</b>。</li>
+    <li><b>Settings（侧栏）&rarr; Appearance：</b>System / Light / Dark。</li>
+    <li><b>Settings（侧栏）&rarr; Save crash reports locally：</b>把崩溃报告写入本地 <code>crashes</code> 目录，<b>绝不自动上传</b>。</li>
   </ul>
 
   <h2>11. 日志与诊断</h2>
@@ -306,7 +309,7 @@
 
   <h2>12. 卸载 ShinyApps Store</h2>
   <ul>
-    <li><b>Settings &rarr; Uninstall ShinyApps Store&hellip;</b>。</li>
+    <li><b>Settings（侧栏）&rarr; Local data &rarr; Uninstall ShinyApps&hellip;</b>。</li>
     <li>可选 <b>Uninstall</b>（保留应用与数据）或 <b>Uninstall and remove all apps &amp; data</b>。</li>
     <li>若 ShinyApps Store 不是通过安装包安装（如从源码运行），没有卸载器 &mdash; 请手动删除程序目录。</li>
   </ul>
@@ -328,9 +331,9 @@
   <h2>14. 快捷键</h2>
   <table>
     <tr><th>快捷键</th><th>操作</th></tr>
-    <tr><td><code>Ctrl/Cmd+F</code></td><td>聚焦搜索框（进入管理视图）</td></tr>
-    <tr><td><code>Ctrl/Cmd+L</code></td><td>返回启动页</td></tr>
-    <tr><td><code>Ctrl/Cmd+Shift+M</code></td><td>打开管理视图</td></tr>
+    <tr><td><code>Ctrl/Cmd+F</code> / <code>Ctrl/Cmd+K</code></td><td>聚焦搜索框</td></tr>
+    <tr><td><code>Ctrl/Cmd+Shift+M</code></td><td>打开 My Apps</td></tr>
+    <tr><td><code>Esc</code></td><td>关闭对话框或应用详情抽屉</td></tr>
   </table>
 
   <h2>15. 数据存放位置</h2>

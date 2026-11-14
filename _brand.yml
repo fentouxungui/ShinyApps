@@ -1,0 +1,13 @@
+# ShinyApps Store visual identity.
+# The shell reads these roles through shinyelectron's brand.yml support.
+# Palette: warm paper, deep ink, cobalt signal.
+meta:
+  name: "ShinyApps Store"
+
+color:
+  palette:
+    cobalt: "#1e4fd8"
+    paper: "#f6f4ef"
+    ink: "#191b1c"
+  primary: cobalt
+  background: paper

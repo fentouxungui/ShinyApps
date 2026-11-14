@@ -30,7 +30,7 @@ Browse the **[live app catalog](https://fentouxungui.github.io/ShinyApps/)** for
 - **Reproducible bundles** — apps ship **prebuilt binary R packages** pinned to **R 4.6.1**, each with a `sha256`. No compiler or R toolchain on the user's machine.
 - **Robust downloads** — HTTP Range resume, retries, idle timeout, size + `sha256` verification, real progress, zero-npm-dependency ZIP extractor.
 - **Two independent update channels** — the shell updates via `electron-updater`; each app updates via the catalog.
-- **Clean process lifecycle** — only one app runs at a time; returning to the launcher kills the whole R process tree (Windows `taskkill /T /F`).
+- **Clean process lifecycle** — only one app runs at a time; closing its window stops the whole R process tree (Windows `taskkill /T /F`), while the store stays available.
 - **Cross-platform** — Windows (`win-x64`) and macOS (`mac-arm64`).
 - **Card links to each app's homepage** — hover an app name for “click to learn more”; click it to open the app's `homepage` in your browser.
 - **Visible install pipeline** — the card shows the current step (download % → verify → install) and, on failure, exactly which step failed and why (e.g. “size mismatch: catalog 12934112 bytes, downloaded 0 bytes”).
@@ -40,7 +40,7 @@ Browse the **[live app catalog](https://fentouxungui.github.io/ShinyApps/)** for
 
 1. Download `shinyapps-Setup-<version>-x64.exe` (Windows) or `.dmg` (macOS) from [**Releases**](https://github.com/fentouxungui/ShinyApps/releases).
 2. Launch **ShinyApps Store** — the launcher shows a card per available app.
-3. Click **Install**, then **Run**. Use **Apps → Back to Launcher** (or `Ctrl/Cmd+L`) to return; unsaved work is confirmed first.
+3. Click **Install**, then **Run**. Apps open in their own window with a slim **Store / Stop** toolbar at the top; the store stays open. Closing the app window stops it after an unsaved-work confirmation.
 4. **Every time ShinyApps Store starts, it automatically checks each app's latest version** against the online catalog. If a newer version is available, the card shows **Update** — click it for a one-click upgrade (the app is stopped, fetched, verified, and swapped in place).
 
 > Shell auto-update only installs on signed builds; unsigned builds can download but Windows/macOS will refuse to apply the update.
@@ -133,7 +133,7 @@ schemas/*.json              # catalog / manifest / state contracts
 
 ### ⚠️ Cons and trade-offs
 
-- **One app at a time** — returning to the launcher stops the current app; **unsaved analysis is lost** (a confirmation dialog guards this). It is not a multi-window hub.
+- **One app at a time** — another app's Run button stays disabled until you stop the current one; closing the app window stops it and **unsaved analysis is lost** (a confirmation dialog guards this). The store itself stays open.
 - **Install-time downloads can be large** — each app bundle is tens to hundreds of MB (it contains compiled dependencies). Shared packages reduce the incremental cost for later apps, but the first install of a heavy app is still large.
 - **Per-platform builds required** — Windows binaries must be built on Windows; each platform needs its own bundle. Only `win-x64` and `mac-arm64` are produced today.
 - **Tight version coupling** — every bundle must be built against the same R version as the shell (currently 4.6.1).
