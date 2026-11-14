@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-13T05:42:19Z",
+  "updated_at": "2026-11-14T16:53:23Z",
   "shell_min_version": "0.1.0",
   "apps": [
     {
@@ -23,13 +23,13 @@
       "artifacts": {
         "mac-arm64": {
           "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-mac-arm64.zip",
-          "size": 306626541,
-          "sha256": "1a332299c66cd8659c8db267573bfe0b71f4cbf25c3b2ce19f357fed0a60977b"
+          "size": 306877876,
+          "sha256": "aa303885abddfaa93309025b0e7d0c6db5c733c0ab64797de4ec6e674b961993"
         },
         "win-x64": {
           "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-win-x64.zip",
-          "size": 330824256,
-          "sha256": "a1c38cddec0954e2411a44dfd6383f594046c1d9fcca04822e484fce82cec3a2"
+          "size": 331384444,
+          "sha256": "c4702ff0dd9d7ddbdde82f5053846fe14a65597a17640e1b9028e180b3ef1827"
         }
       }
     },
