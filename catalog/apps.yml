@@ -8,6 +8,13 @@
 
 schema: 1
 shell_min_version: "0.1.0"
+runtimes: []
+# Optional per-app `r_abi: "4.6"` (major.minor) selects the R runtime. It
+# defaults to the `r_version` minor; set it explicitly for new entries.
+#
+# Optional top-level `runtimes: []` will publish downloadable R runtime packs
+# (id, abi, version, platform, arch, url, sha256, min_os). See
+# R-RUNTIME-COMPATIBILITY.md; the shell-side pack manager is still Phase 1.
 
 # Controlled tag vocabulary -- keep the launcher filter short. Use 1-3 tags per app.
 #   Domain: single-cell, genomics, transcriptomics, proteomics-metabolomics,
@@ -31,6 +38,7 @@ apps:
     license: "GPL-3.0-or-later"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [single-cell, visualization]
 
   - id: scconvert
@@ -45,6 +53,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/scconvert.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [single-cell, data-wrangling]
 
   - id: isee
@@ -59,6 +68,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/isee.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [single-cell, visualization]
 
   - id: xenashiny
@@ -73,6 +83,7 @@ apps:
     license: "GPL-3.0-or-later"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [clinical-health, genomics, visualization]
 
   - id: spatiallibd
@@ -87,6 +98,7 @@ apps:
     license: "Artistic-2.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [single-cell, transcriptomics, visualization]
 
   - id: beerapp
@@ -100,6 +112,7 @@ apps:
     license: "GPL-3.0-or-later"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/beerapp.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics, machine-learning, visualization]
 
   - id: csbb-shiny
@@ -113,6 +126,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/csbb-shiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [single-cell, transcriptomics, genomics]
 
   - id: bestdeg
@@ -126,6 +140,7 @@ apps:
     license: "Unspecified (upstream declares no license)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/bestdeg.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [transcriptomics, statistics]
 
   - id: shinycircos
@@ -140,6 +155,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/shinycircos.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [genomics, visualization]
 
   - id: upsetr-shiny
@@ -153,6 +169,7 @@ apps:
     license: "Unspecified (upstream declares no license)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/upsetr-shiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization]
 
   - id: graphbio
@@ -167,6 +184,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/graphbio.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization, statistics]
 
   - id: splitkbcompare
@@ -180,6 +198,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/splitkbcompare.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization]
 
   - id: shinystan
@@ -194,6 +213,7 @@ apps:
     license: "GPL-3.0-or-later"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/shinystan.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics, visualization]
 
   - id: esquisse
@@ -208,6 +228,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/esquisse.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization]
 
   - id: plotsofdata
@@ -221,6 +242,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/plotsofdata.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization, statistics, data-wrangling]
 
   - id: hexmake
@@ -234,6 +256,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/hexmake.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [software-development]
 
   - id: explor
@@ -248,6 +271,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/explor.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics, visualization]
 
   - id: biodosetools
@@ -261,6 +285,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/biodosetools.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [clinical-health, statistics]
 
   - id: phyloprofile
@@ -274,6 +299,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/phyloprofile.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [genomics]
 
   - id: deseq2shiny
@@ -287,6 +313,7 @@ apps:
     license: "Unspecified (upstream declares no license)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/deseq2shiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [transcriptomics, visualization]
 
   - id: clusterprofshinyora
@@ -300,6 +327,7 @@ apps:
     license: "Unspecified (upstream declares no license)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/clusterprofshinyora.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [genomics, data-wrangling]
 
 # Append this block under `apps:` in ShinyApps/catalog/apps.yml
@@ -317,6 +345,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/stminsights.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [machine-learning, visualization]
 
 # Append this block under `apps:` in ShinyApps/catalog/apps.yml
@@ -334,6 +363,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/pomashiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [proteomics-metabolomics, statistics]
 
   - id: portfoliooptimizer
@@ -347,6 +377,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/portfoliooptimizer.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [finance-economics, statistics]
 
   - id: pepfunk
@@ -360,6 +391,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/pepfunk.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [proteomics-metabolomics, genomics]
 
   - id: miadash
@@ -373,6 +405,7 @@ apps:
     license: "Artistic-2.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/miadash.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [genomics, visualization]
 
   - id: genome-stats
@@ -386,6 +419,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/genome-stats.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [genomics, visualization]
 
 # Append this block under `apps:` in ShinyApps/catalog/apps.yml
@@ -403,6 +437,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/metaboseek.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [proteomics-metabolomics, visualization]
 
   - id: gatelabr
@@ -416,6 +451,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/gatelabr.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [single-cell, visualization]
 
 # Append this block under `apps:` in ShinyApps/catalog/apps.yml
@@ -433,6 +469,7 @@ apps:
     license: "Apache-2.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/familia.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [genomics]
 
   - id: fieldhub
@@ -446,6 +483,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/fieldhub.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [ecology-environment, statistics]
 
 # Append this block under `apps:` in ShinyApps/catalog/apps.yml
@@ -463,6 +501,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/fluxtools.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [ecology-environment, data-wrangling]
 
   - id: biascorrector
@@ -476,6 +515,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/biascorrector.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [genomics, data-wrangling]
 
   - id: quickexplore
@@ -489,6 +529,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/quickexplore.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [data-wrangling, visualization]
 
   - id: associationexplorer2
@@ -502,6 +543,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/associationexplorer2.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics, visualization]
 
   - id: hiviz
@@ -515,6 +557,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/hiviz.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [clinical-health, visualization]
 
   - id: distplotter
@@ -528,6 +571,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/distplotter.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics, visualization, education]
 
   - id: ngstoolkit
@@ -541,6 +585,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/ngstoolkit.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [transcriptomics, genomics, visualization]
 
   - id: dqagui
@@ -554,6 +599,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/dqagui.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [data-wrangling]
 
 # Append this block under `apps:` in ShinyApps/catalog/apps.yml
@@ -571,6 +617,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/taipan.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [imaging]
 
   - id: allelobin
@@ -584,6 +631,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/allelobin.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [genomics]
 
   - id: metaanalyser
@@ -597,6 +645,7 @@ apps:
     license: "GPL-2.0-or-later"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/metaanalyser.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics, visualization]
 
   - id: reliashiny
@@ -610,6 +659,7 @@ apps:
     license: "CC-BY-4.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/reliashiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: shinymergely
@@ -623,6 +673,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/shinymergely.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [data-wrangling]
 
 # Append this block under `apps:` in ShinyApps/catalog/apps.yml
@@ -640,6 +691,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/diagnostysize.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: lavaanshiny
@@ -653,6 +705,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/lavaanshiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
 # Append this block under `apps:` in ShinyApps/catalog/apps.yml
@@ -670,6 +723,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/greymodels.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: fossilsimshiny
@@ -683,6 +737,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/fossilsimshiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [ecology-environment, statistics]
 
   - id: genest
@@ -696,6 +751,7 @@ apps:
     license: "CC0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/genest.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [ecology-environment, statistics]
 
   - id: icsshiny
@@ -709,6 +765,7 @@ apps:
     license: "GPL-2.0-or-later"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/icsshiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: irtshiny
@@ -722,6 +779,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/irtshiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: kappagui
@@ -735,6 +793,7 @@ apps:
     license: "GPL-2.0-or-later"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/kappagui.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: metsizer
@@ -748,6 +807,7 @@ apps:
     license: "GPL-2.0-or-later"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/metsizer.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [proteomics-metabolomics, statistics]
 
   - id: repplabshiny
@@ -761,6 +821,7 @@ apps:
     license: "GPL-2.0-or-later"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/repplabshiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: stmgui
@@ -774,6 +835,7 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/stmgui.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [machine-learning, social-science]
 
 # Append this block under `apps:` in ShinyApps/catalog/apps.yml
@@ -791,6 +853,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/difshiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: channelattributionapp
@@ -804,6 +867,7 @@ apps:
     license: "GPL-3.0"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/channelattributionapp.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [finance-economics, statistics]
 
   - id: squeakr
@@ -817,6 +881,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/squeakr.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [social-science, statistics, visualization]
 
   - id: html2r
@@ -830,6 +895,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/html2r.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [software-development]
 
   - id: sombrero
@@ -843,6 +909,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/sombrero.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [machine-learning, visualization]
 
   - id: somenv
@@ -856,6 +923,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/somenv.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [ecology-environment, machine-learning]
 
   - id: gwsdat
@@ -869,6 +937,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/gwsdat.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [ecology-environment, statistics, visualization]
 
   - id: expandar
@@ -882,6 +951,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/expandar.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: deepdep
@@ -895,6 +965,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/deepdep.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [software-development, visualization]
 
   - id: r3dmol
@@ -908,6 +979,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/r3dmol.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [structural-biology, visualization]
 
   - id: shinyinvoice
@@ -921,6 +993,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/shinyinvoice.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [software-development]
 
   - id: olympicrshiny
@@ -934,6 +1007,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/olympicrshiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [social-science, visualization]
 
   - id: easysdctable
@@ -947,6 +1021,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/easysdctable.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: mmirestriktor
@@ -960,6 +1035,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/mmirestriktor.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: holi
@@ -973,6 +1049,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/holi.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: shinybrms
@@ -986,6 +1063,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/shinybrms.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: lande
@@ -999,6 +1077,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/lande.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [ecology-environment, visualization]
 
   - id: mispitools
@@ -1012,6 +1091,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/mispitools.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [social-science, statistics]
 
   - id: ggplotgui
@@ -1025,6 +1105,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/ggplotgui.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization]
 
   - id: mmibain
@@ -1038,6 +1119,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/mmibain.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: archeofrag-gui
@@ -1051,6 +1133,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/archeofrag-gui.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [social-science, visualization]
 
   - id: cocktailapp
@@ -1064,6 +1147,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/cocktailapp.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [social-science, visualization]
 
   - id: vvdoctor
@@ -1077,6 +1161,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/vvdoctor.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [data-wrangling, statistics]
 
   - id: sdstudio
@@ -1090,6 +1175,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/sdstudio.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [social-science, data-wrangling]
 
   - id: quallmer-app
@@ -1103,6 +1189,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/quallmer-app.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [social-science, data-wrangling]
 
   - id: pressfreedom
@@ -1116,6 +1203,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/pressfreedom.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [social-science, data-wrangling]
 
   - id: ggraptr
@@ -1129,6 +1217,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/ggraptr.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization]
 
   - id: yuima-gui
@@ -1142,6 +1231,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/yuima-gui.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: censuspyrid
@@ -1155,6 +1245,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/censuspyrid.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [social-science, data-wrangling]
 
   - id: fitodbodrshiny
@@ -1168,6 +1259,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/fitodbodrshiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: esdm
@@ -1181,6 +1273,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/esdm.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [ecology-environment, statistics]
 
   - id: adverseevents
@@ -1194,6 +1287,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/adverseevents.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [clinical-health]
 
   - id: isocor
@@ -1207,6 +1301,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/isocor.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [proteomics-metabolomics, data-wrangling]
 
   - id: minmeta
@@ -1220,6 +1315,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/minmeta.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics, visualization]
 
   - id: gde
@@ -1233,6 +1329,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/gde.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization, data-wrangling]
 
   - id: seasonalview
@@ -1246,6 +1343,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/seasonalview.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics, visualization]
 
   - id: memapp
@@ -1259,6 +1357,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/memapp.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: elaborator
@@ -1272,6 +1371,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/elaborator.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization, data-wrangling]
 
   - id: dqcheckrgui
@@ -1285,6 +1385,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/dqcheckrgui.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [data-wrangling]
 
   - id: visxhclust
@@ -1298,6 +1399,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/visxhclust.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [machine-learning, visualization]
 
   - id: phecodemap
@@ -1311,6 +1413,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/phecodemap.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [clinical-health, data-wrangling]
 
   - id: fdapaceshiny
@@ -1324,6 +1427,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/fdapaceshiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: glossa
@@ -1337,6 +1441,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/glossa.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [data-wrangling]
 
   - id: anca
@@ -1350,6 +1455,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/anca.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [clinical-health]
 
   - id: shinymixr
@@ -1363,6 +1469,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/shinymixr.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [clinical-health, statistics]
 
   - id: kesernetwork
@@ -1376,6 +1483,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/kesernetwork.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization]
 
   - id: shinykgode
@@ -1389,6 +1497,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/shinykgode.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: viewpoly
@@ -1402,6 +1511,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/viewpoly.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [genomics, visualization]
 
   - id: normalityassessment
@@ -1415,6 +1525,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/normalityassessment.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: assumpsure
@@ -1428,6 +1539,7 @@ apps:
     license: "See upstream"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/assumpsure.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: activanalyzer
@@ -1441,6 +1553,7 @@ apps:
     license: "GPL (>= 3)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/activanalyzer.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [clinical-health, statistics]
 
   - id: catascience
@@ -1454,6 +1567,7 @@ apps:
     license: "MIT + file LICENSE"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/catascience.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [education, statistics]
 
   - id: shinysbm
@@ -1467,6 +1581,7 @@ apps:
     license: "MIT + file LICENSE"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/shinysbm.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization, machine-learning]
 
   - id: complexr
@@ -1480,6 +1595,7 @@ apps:
     license: "GPL (>= 3)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/complexr.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [social-science, statistics]
 
   - id: dataviewr
@@ -1493,6 +1609,7 @@ apps:
     license: "MIT + file LICENSE"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/dataviewr.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [data-wrangling, visualization]
 
   - id: drdata
@@ -1506,6 +1623,7 @@ apps:
     license: "MIT + file LICENSE"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/drdata.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [machine-learning, education]
 
   - id: exmort
@@ -1519,6 +1637,7 @@ apps:
     license: "GPL-3"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/exmort.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics, clinical-health]
 
   - id: monobinshiny
@@ -1532,6 +1651,7 @@ apps:
     license: "GPL (>= 3)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/monobinshiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [finance-economics, statistics, data-wrangling]
 
   - id: paramgui
@@ -1545,6 +1665,7 @@ apps:
     license: "GPL (>= 2)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/paramgui.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: statteacherassistant
@@ -1558,6 +1679,7 @@ apps:
     license: "MIT + file LICENSE"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/statteacherassistant.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics, education]
 
   - id: vosondash
@@ -1571,6 +1693,7 @@ apps:
     license: "GPL (>= 3)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/vosondash.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization]
 
   - id: zscorer
@@ -1584,6 +1707,7 @@ apps:
     license: "AGPL-3"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/zscorer.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [clinical-health]
 
   - id: earthui
@@ -1597,6 +1721,7 @@ apps:
     license: "AGPL (>= 3)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/earthui.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: statnetweb
@@ -1610,6 +1735,7 @@ apps:
     license: "GPL-3"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/statnetweb.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization, statistics]
 
   - id: parcc
@@ -1623,6 +1749,7 @@ apps:
     license: "MIT + file LICENSE"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/parcc.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [clinical-health, finance-economics, statistics]
 
   - id: holomics
@@ -1636,6 +1763,7 @@ apps:
     license: "GPL (>= 3)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/holomics.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [genomics, proteomics-metabolomics, data-wrangling]
 
   - id: testanaapp
@@ -1649,6 +1777,7 @@ apps:
     license: "GPL (>= 3)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/testanaapp.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics, education]
 
   - id: datacompare
@@ -1662,6 +1791,7 @@ apps:
     license: "MIT + file LICENSE"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/datacompare.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [data-wrangling, visualization]
 
   - id: projectlsa
@@ -1675,6 +1805,7 @@ apps:
     license: "MIT + file LICENSE"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/projectlsa.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [statistics]
 
   - id: southparkrshiny
@@ -1688,6 +1819,7 @@ apps:
     license: "MIT + file LICENSE"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/southparkrshiny.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [visualization, education]
 
   - id: handwriterapp
@@ -1701,6 +1833,7 @@ apps:
     license: "GPL (>= 3)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/handwriterapp.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [social-science, statistics]
 
   - id: tfrmtbuilder
@@ -1714,6 +1847,7 @@ apps:
     license: "Apache License (>= 2)"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [clinical-health, data-wrangling]
 
   - id: scrnatoolvis
@@ -1728,4 +1862,5 @@ apps:
     license: "MIT"
     icon: "https://fentouxungui.github.io/ShinyApps/icons/scrnatoolvis.png"
     r_version: "4.6.1"
+    r_abi: "4.6"
     tags: [single-cell, visualization]

@@ -50,11 +50,13 @@ Browse the **[live app catalog](https://fentouxungui.github.io/ShinyApps/)** for
 Two ways to integrate:
 
 **A. Store / on-demand (recommended).** In your own repo, add a bundle workflow that produces
-`<id>-<version>-<platform>.zip` (per platform) and publishes it to a Release, then register the app
-in this repo's `catalog/apps.yml`. Users install it on demand. **No change to the shell.**
+`<id>-<version>-<platform>-r<abi>.zip` (per platform, e.g. `-r4.6`) and publishes it
+to a Release, then register the app in this repo's `catalog/apps.yml`. Users install it
+on demand. **No change to the shell.** Legacy unsuffixed
+`<id>-<version>-<platform>.zip` assets remain supported.
 
 ```
-<id>-<version>-<platform>.zip
+<id>-<version>-<platform>-r<abi>.zip
 └─ app/         # your Shiny entry (app.R)
 └─ rlib/        # prebuilt dependency closure (binary R packages)
 └─ manifest.json
@@ -168,6 +170,7 @@ Full manual on the **[Wiki](https://github.com/fentouxungui/ShinyApps/wiki)** �
 - **Maintainer Guide** — repository layout and each workflow
 - **Release process** — ship a shell, ship an app, update icons
 - **FAQ / Troubleshooting** — known issues and fixes
+- **R runtime compatibility** — how to add a new R version without breaking installed apps ([`R-RUNTIME-COMPATIBILITY.md`](R-RUNTIME-COMPATIBILITY.md))
 - **Known limits / roadmap** — open issues and planned work
 
 ## 🙏 Credits & license

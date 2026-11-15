@@ -18,6 +18,7 @@
     "entry": { "type": "string", "description": "Path to app.R/app.py inside the bundle, e.g. app/app.R" },
     "platform": { "type": "string", "enum": ["win-x64", "win-arm64", "mac-x64", "mac-arm64", "linux-x64"] },
     "r_version": { "type": "string", "description": "R version the packages were built against; MUST match the shell runtime" },
+    "r_abi": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$", "description": "R major.minor ABI; defaults to the r_version minor" },
     "min_shell_version": { "type": "string" },
     "notes": { "type": "string", "description": "Free-text build/known-issue notes, e.g. platform limitations" },
     "packages": {

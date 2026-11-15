@@ -40,7 +40,7 @@ jobs:
         run: |
           python3 -c "import yaml" 2>/dev/null || pip install --quiet pyyaml
           python3 - <<'PY'
-          import json, os, subprocess, sys, datetime, hashlib
+          import json, os, re, subprocess, sys, datetime, hashlib
           import yaml
 
           reg = yaml.safe_load(open("catalog/apps.yml"))
@@ -78,33 +78,69 @@ jobs:
 
               ver = ""
               arts = {}
+              arts_by_runtime = {}
+              app_abi = str(a.get("r_abi") or "")
+              if not app_abi and a.get("r_version"):
+                  app_abi = ".".join(str(a["r_version"]).split(".")[:2])
+              asset_re = re.compile(
+                  r"^" + re.escape(a["id"]) +
+                  r"-(.+)-(win-x64|win-arm64|mac-x64|mac-arm64|linux-x64)"
+                  r"(?:-r([0-9]+\.[0-9]+))?\.zip$"
+              )
               if rel is not None:
                   ver = (rel.get("tag_name") or "").lstrip("v")
+                  parsed = []
                   for asset in rel.get("assets", []):
                       n = asset["name"]
-                      if not n.endswith(".zip") or not n.startswith(a["id"] + "-"):
+                      m = asset_re.match(n)
+                      if not m:
                           continue
-                      toks = n[:-4][len(a["id"]) + 1:].split("-")
-                      if len(toks) < 3:
-                          continue
-                      plat = "-".join(toks[-2:])
-                      v = "-".join(toks[:-2])
+                      v, plat, abi = m.group(1), m.group(2), (m.group(3) or "")
                       if v != ver:
                           continue
-                      arts[plat] = {
+                      parsed.append((abi, plat, asset))
+                  available_abis = sorted(
+                      {p[0] for p in parsed if p[0]},
+                      key=lambda x: tuple(int(part) for part in x.split(".")),
+                  )
+                  if not app_abi and available_abis:
+                      app_abi = available_abis[0]
+                  if app_abi:
+                      app["r_abi"] = app_abi
+                  for abi, plat, asset in parsed:
+                      art = {
                           "url": asset["browser_download_url"],
                           "size": asset["size"],
                           "sha256": (asset.get("digest") or "").replace("sha256:", ""),
                       }
+                      effective_abi = abi or app_abi
+                      if effective_abi:
+                          art["r_abi"] = effective_abi
+                          arts_by_runtime.setdefault(plat, {})["r-" + effective_abi] = art
+                      # Older shells only read the flat artifacts map. Keep it
+                      # pointed at the app's declared/default ABI; do not offer a
+                      # 4.7 bundle to a 4.6 shell merely because it is the only one.
+                      if effective_abi == app_abi:
+                          arts[plat] = art
+                  # If the default ABI came from the artifacts (no explicit
+                  # app-level r_abi), fill the legacy map from that runtime.
+                  if app_abi:
+                      app["r_abi"] = app_abi
+                      for plat, by_runtime in arts_by_runtime.items():
+                          preferred = by_runtime.get("r-" + app_abi)
+                          if preferred:
+                              arts[plat] = preferred
 
               app["version"] = ver
               app["artifacts"] = arts
+              app["artifacts_by_runtime"] = arts_by_runtime
               apps.append(app)
 
           cat = {
               "schema": 1,
               "updated_at": datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
               "shell_min_version": reg.get("shell_min_version", "0.1.0"),
+              "runtimes": reg.get("runtimes", []),
               "apps": apps,
           }
           os.makedirs("catalog", exist_ok=True)

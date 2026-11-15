@@ -9,7 +9,7 @@
 app:
   name: "ShinyApps Store"
   launcher_title: "ShinyApps Store"   # heading on the launcher page
-  version: "0.1.19"
+  version: "0.1.21"
   slug: "shinyapps"                # keep: app identity, data dir, installer id
   log_level: "info"
   description: "Desktop app store for Shiny applications"
@@ -60,8 +60,9 @@ dependencies:
     - shiny
     - zip
   r:
-    # Lock the runtime R so the shell stays ABI-compatible with the app-layer
-    # bundles published by build-app-bundle.yml (which uses the same 4.6.1).
+    # Lock the baseline runtime R. App bundles record r_abi = major.minor
+    # ("4.6"); a future R minor gets its own runtime pack and library, not an
+    # in-place replacement of this one.
     version: "4.6.1"
 
 updates:

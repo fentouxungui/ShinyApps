@@ -9,6 +9,7 @@
     "schema": { "const": 1 },
     "updated_at": { "type": "string", "format": "date-time" },
     "shell_min_version": { "type": "string" },
+    "runtimes": { "type": "array", "items": { "$ref": "#/definitions/runtime" } },
     "apps": { "type": "array", "items": { "$ref": "#/definitions/app" } }
   },
   "definitions": {
@@ -30,14 +31,44 @@
         "tags": { "type": "array", "items": { "type": "string" } },
         "icon": { "type": "string", "description": "Absolute URL to a PNG shown on the launcher card" },
         "r_version": { "type": "string" },
+        "r_abi": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$", "description": "R major.minor ABI this app bundle targets; defaults to the r_version minor" },
         "min_shell_version": { "type": "string" },
         "changelog": { "type": "string" },
         "artifacts": {
           "type": "object",
-          "description": "One entry per platform that has a published bundle",
+          "description": "Legacy/default bundle per platform (for older shells); defaults to the app-level r_abi",
           "propertyNames": { "enum": ["win-x64", "win-arm64", "mac-x64", "mac-arm64", "linux-x64"] },
           "additionalProperties": { "$ref": "#/definitions/artifact" }
+        },
+        "artifacts_by_runtime": {
+          "type": "object",
+          "description": "Bundles per platform and runtime id (e.g. mac-arm64 -> r-4.6 -> artifact)",
+          "propertyNames": { "enum": ["win-x64", "win-arm64", "mac-x64", "mac-arm64", "linux-x64"] },
+          "additionalProperties": {
+            "type": "object",
+            "propertyNames": { "pattern": "^r-[0-9]+\\.[0-9]+$" },
+            "additionalProperties": { "$ref": "#/definitions/artifact" }
+          }
         }
+      }
+    },
+    "runtime": {
+      "type": "object",
+      "description": "Downloadable portable R runtime pack",
+      "required": ["id", "abi", "version", "platform", "arch", "url", "sha256"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^r-[0-9]+\\.[0-9]+$" },
+        "abi": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
+        "version": { "type": "string" },
+        "platform": { "type": "string", "enum": ["win-x64", "win-arm64", "mac-x64", "mac-arm64", "linux-x64"] },
+        "arch": { "type": "string", "enum": ["x64", "arm64"] },
+        "url": { "type": "string", "format": "uri" },
+        "size": { "type": "integer", "minimum": 0 },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "min_shell_version": { "type": "string" },
+        "min_os": { "type": "string", "description": "Minimum macOS/Windows version, informational" },
+        "schema": { "type": "integer", "const": 1 }
       }
     },
     "artifact": {
@@ -48,6 +79,8 @@
         "url": { "type": "string", "format": "uri" },
         "size": { "type": "integer", "minimum": 0 },
         "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "r_abi": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
+        "r_version": { "type": "string" },
         "min_shell_version": { "type": "string" }
       }
     }

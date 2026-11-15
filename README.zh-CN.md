@@ -48,11 +48,12 @@ ShinyApps Store 不再把每个应用都做成一个庞大的独立桌面安装�
 两种接入方式：
 
 **A. 商店 / 按需安装（推荐）。** 在你自己的仓库里加一个 bundle workflow，产出各平台的
-`<id>-<version>-<platform>.zip` 并发布到 Release，然后在本仓库的 `catalog/apps.yml` 登记。
-用户按需安装，**完全不需要改外壳**。
+`<id>-<version>-<platform>-r<abi>.zip`（按平台，例如 `-r4.6`）并发布到 Release，然后
+在本仓库的 `catalog/apps.yml` 登记。用户按需安装，**完全不需要改外壳**。旧的无后缀
+`<id>-<version>-<platform>.zip` 仍然兼容。
 
 ```
-<id>-<version>-<platform>.zip
+<id>-<version>-<platform>-r<abi>.zip
 └─ app/         # 你的 Shiny 入口（app.R）
 └─ rlib/        # 预编译的依赖闭包（二进制 R 包）
 └─ manifest.json
@@ -165,6 +166,7 @@ schemas/*.json              # catalog / manifest / state 三份契约
 - **维护者指南** —— 仓库结构与每个 workflow
 - **发布流程** —— 发壳、发 app、更新图标
 - **FAQ / 故障排查** —— 已知问题与解决
+- **R 运行时兼容性** —— 如何在不破坏已安装应用的前提下升级 R 版本（[`R-RUNTIME-COMPATIBILITY.md`](R-RUNTIME-COMPATIBILITY.md)）
 - **已知限制 / 路线图** —— 未解决问题与计划
 
 ## 🙏 致谢与许可

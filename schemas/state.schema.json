@@ -6,7 +6,7 @@
   "required": ["schema", "apps", "shared"],
   "additionalProperties": false,
   "properties": {
-    "schema": { "const": 1 },
+    "schema": { "enum": [1, 2], "description": "2 adds runtime-scoped libraries and runtimes" },
     "apps": {
       "type": "object",
       "description": "Installed apps keyed by app id",
@@ -18,20 +18,45 @@
           "version": { "type": "string" },
           "platform": { "type": "string", "enum": ["win-x64", "win-arm64", "mac-x64", "mac-arm64", "linux-x64"] },
           "dir": { "type": "string", "description": "Absolute path to the unpacked bundle version dir" },
-          "packages": { "type": "array", "items": { "type": "string" }, "description": "Package names this app depends on (bundle manifest closure)" }
+          "packages": { "type": "array", "items": { "type": "string" }, "description": "Package names this app depends on (bundle manifest closure)" },
+          "runtime": { "type": "string", "pattern": "^r-[0-9]+\\.[0-9]+$", "description": "Runtime id that owns this install's packages" },
+          "r_abi": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$", "description": "R major.minor ABI of the bundle" }
         }
       }
     },
     "shared": {
       "type": "object",
-      "description": "Reference-counted shared R package library, keyed by package name",
+      "description": "Reference-counted shared R package library, keyed by <runtime>/<package>",
       "additionalProperties": {
         "type": "object",
         "required": ["version", "refs"],
         "additionalProperties": false,
         "properties": {
           "version": { "type": "string" },
-          "refs": { "type": "array", "items": { "type": "string" }, "description": "App ids that currently reference this package" }
+          "refs": { "type": "array", "items": { "type": "string" }, "description": "App ids that currently reference this package" },
+          "runtime": { "type": "string", "pattern": "^r-[0-9]+\\.[0-9]+$" },
+          "r_abi": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" }
+        }
+      }
+    },
+    "runtimes": {
+      "type": "object",
+      "description": "Installed R runtimes keyed by runtime id (e.g. r-4.6)",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["abi", "version"],
+        "additionalProperties": false,
+        "properties": {
+          "abi": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
+          "version": { "type": "string" },
+          "path": { "type": "string", "description": "Runtime root; the runtime library is <path>/library" },
+          "rscript": { "type": "string" },
+          "library": { "type": "string" },
+          "source": { "type": "string", "enum": ["shell", "downloaded"] },
+          "schema": { "type": "integer" },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "size": { "type": "integer", "minimum": 0 },
+          "min_os": { "type": "string" }
         }
       }
     }
