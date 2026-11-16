@@ -2,9 +2,9 @@
 
 ShinyApps Store is a desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 128
+- **Apps:** 128 — 127 ✅ Available / 1 ⛔ Unavailable
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-11-16 06:47:13 UTC
+- **Catalog last updated:** 2026-11-16 16:30:36 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -23,8 +23,8 @@ Don't have ShinyApps Store yet? Download it from the [latest release](https://gi
 
 | Icon | App | Status | Version | Download | Links |
 |:---:|---|:---:|---:|---|---|
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png?v=a46e55ac979b" width="32" alt="SeuratExplorer"> | **SeuratExplorer**<br>Explore scRNA-seq data processed in Seurat | ✅ Available | `0.1.11` | [Windows x64](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-win-x64-r4.6.zip) · [macOS arm64](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-mac-arm64-r4.6.zip) | [Home](https://github.com/fentouxungui/SeuratExplorer) · [Docs](https://github.com/fentouxungui/SeuratExplorer/wiki) · [Release](https://github.com/fentouxungui/SeuratExplorer/releases/tag/v0.1.11) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/scconvert.png?v=41fd0dc3eacd" width="32" alt="scConvertShiny"> | **scConvertShiny**<br>Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCellExperiment / Zarr etc.) | ✅ Available | `0.1.3` | [Windows x64](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-mac-arm64.zip) | [Home](https://github.com/fentouxungui/scConvertShiny) · [Docs](https://github.com/fentouxungui/scConvertShiny#readme) · [Release](https://github.com/fentouxungui/scConvertShiny/releases/tag/v0.1.3) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/seurat-explorer.png?v=a46e55ac979b" width="32" alt="SeuratExplorer"> | **SeuratExplorer**<br>Explore scRNA-seq data processed in Seurat | ⛔ Unavailable | `0.1.11` | — | [Home](https://github.com/fentouxungui/SeuratExplorer) · [Docs](https://github.com/fentouxungui/SeuratExplorer/wiki) · [Release](https://github.com/fentouxungui/SeuratExplorer/releases/tag/v0.1.11) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/scconvert.png?v=41fd0dc3eacd" width="32" alt="scConvertShiny"> | **scConvertShiny**<br>Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCellExperiment / Zarr etc.) | ✅ Available | `0.3.0` | [Windows x64](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.3.0/scconvert-0.3.0-win-x64-r4.6.zip) · [macOS arm64](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.3.0/scconvert-0.3.0-mac-arm64-r4.6.zip) | [Home](https://github.com/fentouxungui/scConvertShiny) · [Docs](https://github.com/fentouxungui/scConvertShiny#readme) · [Release](https://github.com/fentouxungui/scConvertShiny/releases/tag/v0.3.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/isee.png?v=bb98a07f83d4" width="32" alt="iSEE"> | **iSEE**<br>Interactive SummarizedExperiment Explorer | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/iSEE/releases/download/v0.1.1/isee-0.1.1-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/iSEE/releases/download/v0.1.1/isee-0.1.1-mac-arm64.zip) | [Home](https://github.com/fentouxungui/iSEE) · [Docs](https://isee.github.io/iSEE/) · [Release](https://github.com/fentouxungui/iSEE/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/xenashiny.png?v=76a2f47d4a7f" width="32" alt="UCSCXenaShiny"> | **UCSCXenaShiny**<br>Interactive analysis and visualization of UCSC Xena cancer genomics data | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/UCSCXenaShiny/releases/download/v0.1.0/xenashiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/UCSCXenaShiny/releases/download/v0.1.0/xenashiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/UCSCXenaShiny) · [Docs](https://openbiox.github.io/UCSCXenaShiny/) · [Release](https://github.com/fentouxungui/UCSCXenaShiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/spatiallibd.png?v=df924ab46a58" width="32" alt="spatialLIBD"> | **spatialLIBD**<br>Interactive visualization of spatially-resolved transcriptomics data (10x Genomics Visium) from the LIBD human DLPFC project | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/spatialLIBD/releases/download/v0.1.0/spatiallibd-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/spatialLIBD/releases/download/v0.1.0/spatiallibd-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/spatialLIBD) · [Docs](http://research.libd.org/spatialLIBD/) · [Release](https://github.com/fentouxungui/spatialLIBD/releases/tag/v0.1.0) |
@@ -160,6 +160,8 @@ Windows bundles are x64. macOS bundles are arm64 (Apple Silicon, macOS 14+); Int
 
 ### SeuratExplorer `0.1.11`
 
+**Status:** ⛔ Unavailable — no published release yet.
+
 Explore scRNA-seq data processed in Seurat
 
 | Field | Value |
@@ -172,16 +174,7 @@ Explore scRNA-seq data processed in Seurat
 
 Release: https://github.com/fentouxungui/SeuratExplorer/releases/tag/v0.1.11
 
-<details markdown="1"><summary>Downloads &amp; checksums</summary>
-
-| Platform | File | Size | SHA-256 |
-|---|---|---:|---|
-| `mac-arm64` | [seurat-explorer-0.1.11-mac-arm64-r4.6.zip](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-mac-arm64-r4.6.zip) | 292.7 MB | `7fd4558e46a6c63c0c7297968eb5c7d1cf81b1a479a0211f6aa827c9e20d7b4b` |
-| `win-x64` | [seurat-explorer-0.1.11-win-x64-r4.6.zip](https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-win-x64-r4.6.zip) | 316.0 MB | `3f407ca6d2bc68bdfafeb7d715978f43a2dcbde6cceaf595105665c507ace0d0` |
-
-</details>
-
-### scConvertShiny `0.1.3`
+### scConvertShiny `0.3.0`
 
 Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCellExperiment / Zarr etc.)
 
@@ -193,14 +186,14 @@ Convert single-cell formats (h5ad / h5Seurat / Loom / MuData / Seurat / SingleCe
 | Copyright | (c) 2026 Zhang Yongchao |
 | R version | 4.6.1 |
 
-Release: https://github.com/fentouxungui/scConvertShiny/releases/tag/v0.1.3
+Release: https://github.com/fentouxungui/scConvertShiny/releases/tag/v0.3.0
 
 <details markdown="1"><summary>Downloads &amp; checksums</summary>
 
 | Platform | File | Size | SHA-256 |
 |---|---|---:|---|
-| `mac-arm64` | [scconvert-0.1.3-mac-arm64.zip](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-mac-arm64.zip) | 195.8 MB | `f67806abf764d9fc2c347938c05698e57d52b692deed916e156833a40ae00b23` |
-| `win-x64` | [scconvert-0.1.3-win-x64.zip](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-win-x64.zip) | 211.2 MB | `9e05f88613d11c528a734647e07eeb8884955b0cd330d3d0c3db2b1c1c6552fc` |
+| `mac-arm64` | [scconvert-0.3.0-mac-arm64-r4.6.zip](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.3.0/scconvert-0.3.0-mac-arm64-r4.6.zip) | 165.1 MB | `266c6149b197476c90414a1baae74fcf64ae85a550488eee5efff1af615078c6` |
+| `win-x64` | [scconvert-0.3.0-win-x64-r4.6.zip](https://github.com/fentouxungui/scConvertShiny/releases/download/v0.3.0/scconvert-0.3.0-win-x64-r4.6.zip) | 179.3 MB | `0ae7e54e45333f947d4423318829175df886ec3a12216bb2d49f9ed205856174` |
 
 </details>
 

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-15T15:02:02Z",
+  "updated_at": "2026-11-16T16:30:36Z",
   "shell_min_version": "0.1.0",
   "runtimes": [],
   "apps": [
@@ -22,38 +22,8 @@
         "visualization"
       ],
       "version": "0.1.11",
-      "artifacts": {
-        "mac-arm64": {
-          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-mac-arm64-r4.6.zip",
-          "size": 306878062,
-          "sha256": "7fd4558e46a6c63c0c7297968eb5c7d1cf81b1a479a0211f6aa827c9e20d7b4b",
-          "r_abi": "4.6"
-        },
-        "win-x64": {
-          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-win-x64-r4.6.zip",
-          "size": 331384592,
-          "sha256": "3f407ca6d2bc68bdfafeb7d715978f43a2dcbde6cceaf595105665c507ace0d0",
-          "r_abi": "4.6"
-        }
-      },
-      "artifacts_by_runtime": {
-        "mac-arm64": {
-          "r-4.6": {
-            "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-mac-arm64-r4.6.zip",
-            "size": 306878062,
-            "sha256": "7fd4558e46a6c63c0c7297968eb5c7d1cf81b1a479a0211f6aa827c9e20d7b4b",
-            "r_abi": "4.6"
-          }
-        },
-        "win-x64": {
-          "r-4.6": {
-            "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-win-x64-r4.6.zip",
-            "size": 331384592,
-            "sha256": "3f407ca6d2bc68bdfafeb7d715978f43a2dcbde6cceaf595105665c507ace0d0",
-            "r_abi": "4.6"
-          }
-        }
-      }
+      "artifacts": {},
+      "artifacts_by_runtime": {}
     },
     {
       "id": "scconvert",
@@ -72,35 +42,35 @@
         "single-cell",
         "data-wrangling"
       ],
-      "version": "0.1.3",
+      "version": "0.3.0",
       "artifacts": {
         "mac-arm64": {
-          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-mac-arm64.zip",
-          "size": 205331201,
-          "sha256": "f67806abf764d9fc2c347938c05698e57d52b692deed916e156833a40ae00b23",
+          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.3.0/scconvert-0.3.0-mac-arm64-r4.6.zip",
+          "size": 173091097,
+          "sha256": "266c6149b197476c90414a1baae74fcf64ae85a550488eee5efff1af615078c6",
           "r_abi": "4.6"
         },
         "win-x64": {
-          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-win-x64.zip",
-          "size": 221413257,
-          "sha256": "9e05f88613d11c528a734647e07eeb8884955b0cd330d3d0c3db2b1c1c6552fc",
+          "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.3.0/scconvert-0.3.0-win-x64-r4.6.zip",
+          "size": 187987607,
+          "sha256": "0ae7e54e45333f947d4423318829175df886ec3a12216bb2d49f9ed205856174",
           "r_abi": "4.6"
         }
       },
       "artifacts_by_runtime": {
         "mac-arm64": {
           "r-4.6": {
-            "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-mac-arm64.zip",
-            "size": 205331201,
-            "sha256": "f67806abf764d9fc2c347938c05698e57d52b692deed916e156833a40ae00b23",
+            "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.3.0/scconvert-0.3.0-mac-arm64-r4.6.zip",
+            "size": 173091097,
+            "sha256": "266c6149b197476c90414a1baae74fcf64ae85a550488eee5efff1af615078c6",
             "r_abi": "4.6"
           }
         },
         "win-x64": {
           "r-4.6": {
-            "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.1.3/scconvert-0.1.3-win-x64.zip",
-            "size": 221413257,
-            "sha256": "9e05f88613d11c528a734647e07eeb8884955b0cd330d3d0c3db2b1c1c6552fc",
+            "url": "https://github.com/fentouxungui/scConvertShiny/releases/download/v0.3.0/scconvert-0.3.0-win-x64-r4.6.zip",
+            "size": 187987607,
+            "sha256": "0ae7e54e45333f947d4423318829175df886ec3a12216bb2d49f9ed205856174",
             "r_abi": "4.6"
           }
         }
