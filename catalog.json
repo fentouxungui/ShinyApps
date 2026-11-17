@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-17T05:02:35Z",
+  "updated_at": "2026-11-17T08:22:36Z",
   "shell_min_version": "0.1.0",
   "runtimes": [],
   "apps": [
@@ -6348,24 +6348,8 @@
         "visualization"
       ],
       "version": "0.1.1",
-      "artifacts": {
-        "win-x64": {
-          "url": "https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-win-x64.zip",
-          "size": 343478327,
-          "sha256": "0e8ff9d45299deadc4849572a944f35715d9d2682a962fb1c1a46849469ce2e7",
-          "r_abi": "4.6"
-        }
-      },
-      "artifacts_by_runtime": {
-        "win-x64": {
-          "r-4.6": {
-            "url": "https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-win-x64.zip",
-            "size": 343478327,
-            "sha256": "0e8ff9d45299deadc4849572a944f35715d9d2682a962fb1c1a46849469ce2e7",
-            "r_abi": "4.6"
-          }
-        }
-      }
+      "artifacts": {},
+      "artifacts_by_runtime": {}
     }
   ]
 }
