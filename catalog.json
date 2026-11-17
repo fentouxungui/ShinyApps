@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-17T08:22:36Z",
+  "updated_at": "2026-11-17T17:47:32Z",
   "shell_min_version": "0.1.0",
   "runtimes": [],
   "apps": [
@@ -6348,8 +6348,38 @@
         "visualization"
       ],
       "version": "0.1.1",
-      "artifacts": {},
-      "artifacts_by_runtime": {}
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-mac-arm64-r4.6.zip",
+          "size": 377578211,
+          "sha256": "aa27dd866b0b4324254fd63803705fb60ee70c41b5836de0c5b61e8e9ff8e48a",
+          "r_abi": "4.6"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-win-x64-r4.6.zip",
+          "size": 322128690,
+          "sha256": "611addbea7d1198d6b4e27a3d154e8eea564006d62221168642c39f9a09bca3f",
+          "r_abi": "4.6"
+        }
+      },
+      "artifacts_by_runtime": {
+        "mac-arm64": {
+          "r-4.6": {
+            "url": "https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-mac-arm64-r4.6.zip",
+            "size": 377578211,
+            "sha256": "aa27dd866b0b4324254fd63803705fb60ee70c41b5836de0c5b61e8e9ff8e48a",
+            "r_abi": "4.6"
+          }
+        },
+        "win-x64": {
+          "r-4.6": {
+            "url": "https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-win-x64-r4.6.zip",
+            "size": 322128690,
+            "sha256": "611addbea7d1198d6b4e27a3d154e8eea564006d62221168642c39f9a09bca3f",
+            "r_abi": "4.6"
+          }
+        }
+      }
     }
   ]
 }

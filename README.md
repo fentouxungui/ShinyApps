@@ -4,9 +4,9 @@
 
 ShinyApps Store is a desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 128 — 127 ✅ Available / 1 ⛔ Unavailable
+- **Apps:** 128
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-11-17 08:22:36 UTC
+- **Catalog last updated:** 2026-11-17 17:47:32 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -152,7 +152,7 @@ Don't have ShinyApps Store yet? Download it from the [latest release](https://gi
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/southparkrshiny.png?v=5a6531e3a3ff" width="32" alt="SouthParkRshiny"> | **SouthParkRshiny**<br>Explore data from the TV show South Park | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/SouthParkRshiny/releases/download/v0.1.0/southparkrshiny-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/SouthParkRshiny/releases/download/v0.1.0/southparkrshiny-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/SouthParkRshiny) · [Docs](https://github.com/fentouxungui/SouthParkRshiny#readme) · [Release](https://github.com/fentouxungui/SouthParkRshiny/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/handwriterapp.png?v=deac751b579e" width="32" alt="handwriterApp"> | **handwriterApp**<br>Handwriting analysis | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/handwriterApp/releases/download/v0.1.0/handwriterapp-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/handwriterApp/releases/download/v0.1.0/handwriterapp-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/handwriterApp) · [Docs](https://github.com/fentouxungui/handwriterApp#readme) · [Release](https://github.com/fentouxungui/handwriterApp/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png?v=8a6bab7f6463" width="32" alt="tfrmtbuilder"> | **tfrmtbuilder**<br>Build and modify tfrmt table specifications | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/tfrmtbuilder-1) · [Docs](https://github.com/GSK-Biostatistics/tfrmtbuilder#readme) · [Release](https://github.com/fentouxungui/tfrmtbuilder-1/releases/tag/v0.1.0) |
-| <img src="https://fentouxungui.github.io/ShinyApps/icons/scrnatoolvis.png?v=9c91a360fe32" width="32" alt="scRNAtoolVis"> | **scRNAtoolVis**<br>Interactive parameter exploration and publication-ready visualization of single-cell RNA-seq data | ⛔ Unavailable | `0.1.1` | — | [Home](https://github.com/fentouxungui/scRNAtoolVis) · [Docs](https://github.com/fentouxungui/scRNAtoolVis#readme) · [Release](https://github.com/fentouxungui/scRNAtoolVis/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/scrnatoolvis.png?v=9c91a360fe32" width="32" alt="scRNAtoolVis"> | **scRNAtoolVis**<br>Interactive parameter exploration and publication-ready visualization of single-cell RNA-seq data | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-win-x64-r4.6.zip) · [macOS arm64](https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-mac-arm64-r4.6.zip) | [Home](https://github.com/fentouxungui/scRNAtoolVis) · [Docs](https://github.com/fentouxungui/scRNAtoolVis#readme) · [Release](https://github.com/fentouxungui/scRNAtoolVis/releases/tag/v0.1.1) |
 
 Windows bundles are x64. macOS bundles are arm64 (Apple Silicon, macOS 14+); Intel Macs are not supported.
 
@@ -2966,8 +2966,6 @@ Release: https://github.com/fentouxungui/tfrmtbuilder-1/releases/tag/v0.1.0
 
 ### scRNAtoolVis `0.1.1`
 
-**Status:** ⛔ Unavailable — no published release yet.
-
 Interactive parameter exploration and publication-ready visualization of single-cell RNA-seq data
 
 | Field | Value |
@@ -2979,6 +2977,15 @@ Interactive parameter exploration and publication-ready visualization of single-
 | R version | 4.6.1 |
 
 Release: https://github.com/fentouxungui/scRNAtoolVis/releases/tag/v0.1.1
+
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [scrnatoolvis-0.1.1-mac-arm64-r4.6.zip](https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-mac-arm64-r4.6.zip) | 360.1 MB | `aa27dd866b0b4324254fd63803705fb60ee70c41b5836de0c5b61e8e9ff8e48a` |
+| `win-x64` | [scrnatoolvis-0.1.1-win-x64-r4.6.zip](https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-win-x64-r4.6.zip) | 307.2 MB | `611addbea7d1198d6b4e27a3d154e8eea564006d62221168642c39f9a09bca3f` |
+
+</details>
 
 ---
 
