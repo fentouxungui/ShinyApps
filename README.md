@@ -1,10 +1,12 @@
+<p align="center"><img src="brand/shinyapps-lockup-light.svg" width="420" alt="ShinyApps Store"></p>
+
 # App Catalog
 
 ShinyApps Store is a desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
 - **Apps:** 128 — 127 ✅ Available / 1 ⛔ Unavailable
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-11-17 00:26:58 UTC
+- **Catalog last updated:** 2026-11-17 03:24:46 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
