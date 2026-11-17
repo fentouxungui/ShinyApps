@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-16T16:30:36Z",
+  "updated_at": "2026-11-17T05:02:35Z",
   "shell_min_version": "0.1.0",
   "runtimes": [],
   "apps": [
@@ -22,8 +22,38 @@
         "visualization"
       ],
       "version": "0.1.11",
-      "artifacts": {},
-      "artifacts_by_runtime": {}
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-mac-arm64-r4.6.zip",
+          "size": 306885066,
+          "sha256": "542ffb4d48b71374d26c99f87092d7bbc811f8901f2b51aae8079651f1a7d74b",
+          "r_abi": "4.6"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-win-x64-r4.6.zip",
+          "size": 331391523,
+          "sha256": "e8d0ea9864073aa76e7f904ae24c19fcf747be1d39c98593216cad74e67dce06",
+          "r_abi": "4.6"
+        }
+      },
+      "artifacts_by_runtime": {
+        "mac-arm64": {
+          "r-4.6": {
+            "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-mac-arm64-r4.6.zip",
+            "size": 306885066,
+            "sha256": "542ffb4d48b71374d26c99f87092d7bbc811f8901f2b51aae8079651f1a7d74b",
+            "r_abi": "4.6"
+          }
+        },
+        "win-x64": {
+          "r-4.6": {
+            "url": "https://github.com/fentouxungui/SeuratExplorer/releases/download/v0.1.11/seurat-explorer-0.1.11-win-x64-r4.6.zip",
+            "size": 331391523,
+            "sha256": "e8d0ea9864073aa76e7f904ae24c19fcf747be1d39c98593216cad74e67dce06",
+            "r_abi": "4.6"
+          }
+        }
+      }
     },
     {
       "id": "scconvert",
