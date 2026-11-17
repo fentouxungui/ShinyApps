@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="280" viewBox="0 0 880 280" role="img" aria-label="ShinyApps Store">
+  <title>ShinyApps Store — primary lockup (dark background)</title>
+  <defs>
+    <linearGradient id="hex" gradientUnits="userSpaceOnUse" x1="-110" y1="-132" x2="112" y2="112">
+      <stop offset="0" stop-color="#79DCFF"/>
+      <stop offset="0.5" stop-color="#2F6BFF"/>
+      <stop offset="1" stop-color="#1A3BB4"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE39A"/>
+      <stop offset="1" stop-color="#FFB03A"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(120 152) scale(0.92)">
+    <path d="M -40 -84 A 40 40 0 0 1 40 -84" fill="none" stroke="url(#hex)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M -50 -86.6 L -100 0 L -50 86.6 L 50 86.6 L 100 0 L 50 -86.6 Z" fill="url(#hex)" stroke="url(#hex)" stroke-width="22" stroke-linejoin="round"/>
+    <path d="M -100 0 L -50 -86.6 L -50 0 Z" fill="#FFFFFF" opacity="0.12"/>
+    <path d="M 100 0 L 50 -86.6 L 50 0 Z" fill="#000000" opacity="0.12"/>
+    <path d="M -88 7 L -38 -79" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="5" stroke-linecap="round"/>
+    <text x="-3" y="32" text-anchor="middle" font-size="92" font-weight="800" fill="#FFFFFF">R</text>
+    <path transform="translate(50 -56) scale(0.72)" d="M 0 -22 C 3 -8 8 -3 22 0 C 8 3 3 8 0 22 C -3 8 -8 3 -22 0 C -8 -3 -3 -8 0 -22 Z" fill="url(#gold)"/>
+  </g>
+  <text x="280" y="170" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="92" font-weight="700" letter-spacing="-2.5" textLength="427.5" lengthAdjust="spacing" fill="#F2F7FF"><tspan font-style="italic">Shiny</tspan><tspan font-weight="600">Apps</tspan></text>
+  <text x="280" y="216" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="22" textLength="427.5" lengthAdjust="spacing" fill="#7FA6D9">THE APP STORE FOR R SHINY</text>
+</svg>

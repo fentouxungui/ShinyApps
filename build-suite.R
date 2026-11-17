@@ -19,6 +19,7 @@ options(timeout = 3600)   # bundled installs pull a lot of packages; be patient
 # ---- Version from the tag (do not edit _shinyelectron.yml manually) ----------
 cfg_path <- file.path(ws, "_shinyelectron.yml")
 ver <- sub("^v", "", Sys.getenv("APP_VERSION", unset = ""))
+ver <- '0.2.0'
 if (grepl("^[0-9]+([.][0-9]+)*$", ver)) {
   lines <- readLines(cfg_path, warn = FALSE)
   in_app <- FALSE

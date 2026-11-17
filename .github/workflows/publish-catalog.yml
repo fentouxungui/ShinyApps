@@ -23,7 +23,7 @@ on:
     types: [bundle-updated]
   push:
     branches: [main]
-    paths: ["catalog/apps.yml", "catalog/render_readme.py", "icons/**"]
+    paths: ["catalog/apps.yml", "catalog/render_readme.py", "icons/**", "brand/**"]
 
 permissions:
   contents: write
@@ -196,6 +196,10 @@ jobs:
 
           # 3) icons: always sync so catalog icon URLs resolve.
           if [ -d icons ]; then rm -rf pages/icons; cp -r icons pages/icons; fi
+
+          # 4) brand: the catalog header (see catalog/render_readme.py) references
+          #    brand/shinyapps-lockup-light.svg, so it must exist on gh-pages.
+          if [ -d brand ]; then rm -rf pages/brand; cp -r brand pages/brand; fi
 
           cd pages
           git add -A

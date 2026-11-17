@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="brand/shinyapps-lockup-dark.svg">
+    <img src="brand/shinyapps-lockup-light.svg" width="440" alt="ShinyApps Store">
+  </picture>
+</p>
+
 # ShinyApps Store
 
 [English](README.md) | **简体中文** | [Wiki](https://github.com/fentouxungui/ShinyApps/wiki)

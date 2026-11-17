@@ -1,13 +1,17 @@
 # ShinyApps Store visual identity.
 # The shell reads these roles through shinyelectron's brand.yml support.
-# Palette: warm paper, deep ink, cobalt signal.
+# Palette: ink base, R blue signal, shiny cyan gradient, paper surface; the
+# gold spark is reserved for "featured / just published" and never used as a
+# general UI accent.
 meta:
   name: "ShinyApps Store"
 
 color:
   palette:
-    cobalt: "#1e4fd8"
-    paper: "#f6f4ef"
-    ink: "#191b1c"
-  primary: cobalt
+    ink: "#0B1626"
+    r-blue: "#2F6BFF"
+    shiny-cyan: "#4FD1FF"
+    spark-gold: "#FFC85C"
+    paper: "#F4F8FF"
+  primary: r-blue
   background: paper

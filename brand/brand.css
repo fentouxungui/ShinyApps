@@ -1,0 +1,73 @@
+/* ShinyApps Store — brand tokens and reusable brand components.
+ * Import from the launcher / catalog UI. Class names are prefixed `sa-`.
+ */
+
+:root {
+  --sa-ink: #0B1626;
+  --sa-ink-raised: #0E2038;
+  --sa-ink-deep: #08111F;
+  --sa-r-blue: #2F6BFF;
+  --sa-r-blue-deep: #1A3BB4;
+  --sa-shiny-cyan: #4FD1FF;
+  --sa-spark-gold: #FFC85C;
+  --sa-paper: #F4F8FF;
+  --sa-text: #EAF2FF;
+  --sa-text-muted: #8FB0D8;
+  --sa-text-faint: #55718F;
+  --sa-border: #1A2E49;
+
+  --sa-gradient: linear-gradient(135deg, #79DCFF 0%, #2F6BFF 52%, #1A3BB4 100%);
+  --sa-gradient-surface: linear-gradient(180deg, #0C1A2C 0%, #0A1424 100%);
+
+  --sa-font-sans: "Segoe UI", "Inter", "Helvetica Neue", Arial, sans-serif;
+  --sa-font-mono: "Cascadia Mono", "Consolas", "SF Mono", monospace;
+  --sa-radius-sm: 10px;
+  --sa-radius-md: 16px;
+  --sa-radius-lg: 24px;
+}
+
+/* Brand hero: mark + wordmark + positioning line. */
+.sa-hero {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 20px 24px;
+  border: 1px solid var(--sa-border);
+  border-radius: var(--sa-radius-lg);
+  background: var(--sa-gradient-surface);
+  color: var(--sa-text);
+  font-family: var(--sa-font-sans);
+}
+
+.sa-hero .sa-mark {
+  width: 72px;
+  height: 72px;
+  flex: none;
+}
+
+.sa-hero .sa-name {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  line-height: 1.15;
+  color: var(--sa-text);
+}
+
+.sa-hero .sa-name em {
+  font-style: italic;
+}
+
+.sa-hero .sa-tag {
+  margin: 6px 0 0;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--sa-text-muted);
+}
+
+/* Gold is reserved for "featured / just published"; never for decoration. */
+.sa-spark {
+  color: var(--sa-spark-gold);
+}

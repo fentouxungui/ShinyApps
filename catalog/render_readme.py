@@ -92,6 +92,11 @@ def render(cat: dict) -> str:
     n_unavail = sum(1 for a in apps if not is_available(a))
 
     out: list[str] = []
+    # Brand header. brand/ is published next to README.md on gh-pages by
+    # .github/workflows/publish-catalog.yml, so this relative path resolves.
+    out.append('<p align="center"><img src="brand/shinyapps-lockup-light.svg" '
+               'width="420" alt="ShinyApps Store"></p>')
+    out.append("")
     out.append("# App Catalog")
     out.append("")
     out.append(
