@@ -1,0 +1,20 @@
+# PENDING catalog entry for ScRDAVis.
+# Do not merge into catalog/apps.yml until fentouxungui/ScRDAVis has a
+# published v1.1.3 Release with both platform zip assets.
+# License: the user explicitly chose "Unspecified (upstream declares no
+# license)" after reviewing that GudaLab/ScRDAVis ships no LICENSE file.
+# The store icon is a generated text placeholder (upstream has no app logo).
+
+  - id: scrdavis
+    repo: "fentouxungui/ScRDAVis"
+    name: "ScRDAVis"
+    author: "Jagadesan S, Guda C (GudaLab)"
+    description: "Interactive single-cell RNA-seq data analysis and visualization"
+    homepage: "https://www.gudalab-rtools.net/ScRDAVis"
+    docs: "https://www.gudalab-rtools.net/ScRDAVis"
+    copyright: "(c) 2025 GudaLab"
+    license: "Unspecified (upstream declares no license)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/scrdavis.png"
+    r_version: "4.6.1"
+    r_abi: "4.6"
+    tags: [single-cell, visualization]
