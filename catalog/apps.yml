@@ -1864,3 +1864,17 @@ apps:
     r_version: "4.6.1"
     r_abi: "4.6"
     tags: [single-cell, visualization]
+
+  - id: scrdavis
+    repo: "fentouxungui/ScRDAVis"
+    name: "ScRDAVis"
+    author: "Jagadesan S, Guda C (GudaLab)"
+    description: "Interactive single-cell RNA-seq data analysis and visualization"
+    homepage: "https://www.gudalab-rtools.net/ScRDAVis"
+    docs: "https://www.gudalab-rtools.net/ScRDAVis"
+    copyright: "(c) 2025 GudaLab"
+    license: "Unspecified (upstream declares no license)"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/scrdavis.png"
+    r_version: "4.6.1"
+    r_abi: "4.6"
+    tags: [single-cell, visualization]
