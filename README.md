@@ -4,9 +4,9 @@
 
 ShinyApps Store is a desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 128
+- **Apps:** 129
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-11-18 03:21:18 UTC
+- **Catalog last updated:** 2026-11-18 03:31:55 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -153,6 +153,7 @@ Don't have ShinyApps Store yet? Download it from the [latest release](https://gi
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/handwriterapp.png?v=deac751b579e" width="32" alt="handwriterApp"> | **handwriterApp**<br>Handwriting analysis | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/handwriterApp/releases/download/v0.1.0/handwriterapp-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/handwriterApp/releases/download/v0.1.0/handwriterapp-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/handwriterApp) · [Docs](https://github.com/fentouxungui/handwriterApp#readme) · [Release](https://github.com/fentouxungui/handwriterApp/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png?v=8a6bab7f6463" width="32" alt="tfrmtbuilder"> | **tfrmtbuilder**<br>Build and modify tfrmt table specifications | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/tfrmtbuilder-1) · [Docs](https://github.com/GSK-Biostatistics/tfrmtbuilder#readme) · [Release](https://github.com/fentouxungui/tfrmtbuilder-1/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/scrnatoolvis.png?v=9c91a360fe32" width="32" alt="scRNAtoolVis"> | **scRNAtoolVis**<br>Interactive parameter exploration and publication-ready visualization of single-cell RNA-seq data | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-win-x64-r4.6.zip) · [macOS arm64](https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-mac-arm64-r4.6.zip) | [Home](https://github.com/fentouxungui/scRNAtoolVis) · [Docs](https://github.com/fentouxungui/scRNAtoolVis#readme) · [Release](https://github.com/fentouxungui/scRNAtoolVis/releases/tag/v0.1.1) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/scrdavis.png?v=3c99cd679ff3" width="32" alt="ScRDAVis"> | **ScRDAVis**<br>Interactive single-cell RNA-seq data analysis and visualization | ✅ Available | `1.1.3` | [Windows x64](https://github.com/fentouxungui/ScRDAVis/releases/download/v1.1.3/scrdavis-1.1.3-win-x64-r4.6.zip) · [macOS arm64](https://github.com/fentouxungui/ScRDAVis/releases/download/v1.1.3/scrdavis-1.1.3-mac-arm64-r4.6.zip) | [Home](https://www.gudalab-rtools.net/ScRDAVis) · [Docs](https://www.gudalab-rtools.net/ScRDAVis) · [Release](https://www.gudalab-rtools.net/ScRDAVis/releases/tag/v1.1.3) |
 
 Windows bundles are x64. macOS bundles are arm64 (Apple Silicon, macOS 14+); Intel Macs are not supported.
 
@@ -2984,6 +2985,28 @@ Release: https://github.com/fentouxungui/scRNAtoolVis/releases/tag/v0.1.1
 |---|---|---:|---|
 | `mac-arm64` | [scrnatoolvis-0.1.1-mac-arm64-r4.6.zip](https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-mac-arm64-r4.6.zip) | 360.1 MB | `aa27dd866b0b4324254fd63803705fb60ee70c41b5836de0c5b61e8e9ff8e48a` |
 | `win-x64` | [scrnatoolvis-0.1.1-win-x64-r4.6.zip](https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-win-x64-r4.6.zip) | 307.2 MB | `611addbea7d1198d6b4e27a3d154e8eea564006d62221168642c39f9a09bca3f` |
+
+</details>
+
+### ScRDAVis `1.1.3`
+
+Interactive single-cell RNA-seq data analysis and visualization
+
+| Field | Value |
+|---|---|
+| Author | Jagadesan S, Guda C (GudaLab) |
+| License | Unspecified (upstream declares no license) |
+| Copyright | (c) 2025 GudaLab |
+| R version | 4.6.1 |
+
+Release: https://www.gudalab-rtools.net/ScRDAVis/releases/tag/v1.1.3
+
+<details markdown="1"><summary>Downloads &amp; checksums</summary>
+
+| Platform | File | Size | SHA-256 |
+|---|---|---:|---|
+| `mac-arm64` | [scrdavis-1.1.3-mac-arm64-r4.6.zip](https://github.com/fentouxungui/ScRDAVis/releases/download/v1.1.3/scrdavis-1.1.3-mac-arm64-r4.6.zip) | 1.6 GB | `0cb858735ff3d24ef3f9f6818c3240e63801aaa69c673326b966eb291499e8d6` |
+| `win-x64` | [scrdavis-1.1.3-win-x64-r4.6.zip](https://github.com/fentouxungui/ScRDAVis/releases/download/v1.1.3/scrdavis-1.1.3-win-x64-r4.6.zip) | 1.6 GB | `a9654d02820f127043f9c9f35ecd2ef82eeae9cb376c6aef0b84b09ba889b5bf` |
 
 </details>
 
