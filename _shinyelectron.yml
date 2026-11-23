@@ -9,7 +9,7 @@
 app:
   name: "ShinyApps Store"
   launcher_title: "ShinyApps Store"   # heading on the launcher page
-  version: "0.2.0"
+  version: "0.2.2"
   slug: "shinyapps"                # keep: app identity, data dir, installer id
   log_level: "info"
   description: "Desktop app store for Shiny applications"
@@ -22,6 +22,10 @@ app:
 build:
   type: "r-shiny"
   runtime_strategy: "bundled"
+  # Ship only the Chromium locales the store needs (~45 MB unpacked) and let
+  # electron-builder compress the installer as hard as it can.
+  compression: "maximum"
+  electron_languages: ["en-US", "zh-CN"]
 
 window:
   width: 1200
