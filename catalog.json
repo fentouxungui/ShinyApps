@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-23T03:03:29Z",
+  "updated_at": "2026-11-23T03:07:50Z",
   "shell_min_version": "0.1.0",
   "runtimes": [],
   "apps": [
@@ -6450,8 +6450,38 @@
         "visualization"
       ],
       "version": "1.6.7",
-      "artifacts": {},
-      "artifacts_by_runtime": {}
+      "artifacts": {
+        "mac-arm64": {
+          "url": "https://github.com/fentouxungui/radiant/releases/download/v1.6.7/radiant-1.6.7-mac-arm64-r4.6.zip",
+          "size": 243933778,
+          "sha256": "523c28bf8e23da225eb30714617900f972c5c7afaed2c14458bc8ebf72dd971d",
+          "r_abi": "4.6"
+        },
+        "win-x64": {
+          "url": "https://github.com/fentouxungui/radiant/releases/download/v1.6.7/radiant-1.6.7-win-x64-r4.6.zip",
+          "size": 202362337,
+          "sha256": "bf7287be2b9a313fca09f3f32c21cb0f7d1dd1f31e79e8d0692e6fdfb6ee0524",
+          "r_abi": "4.6"
+        }
+      },
+      "artifacts_by_runtime": {
+        "mac-arm64": {
+          "r-4.6": {
+            "url": "https://github.com/fentouxungui/radiant/releases/download/v1.6.7/radiant-1.6.7-mac-arm64-r4.6.zip",
+            "size": 243933778,
+            "sha256": "523c28bf8e23da225eb30714617900f972c5c7afaed2c14458bc8ebf72dd971d",
+            "r_abi": "4.6"
+          }
+        },
+        "win-x64": {
+          "r-4.6": {
+            "url": "https://github.com/fentouxungui/radiant/releases/download/v1.6.7/radiant-1.6.7-win-x64-r4.6.zip",
+            "size": 202362337,
+            "sha256": "bf7287be2b9a313fca09f3f32c21cb0f7d1dd1f31e79e8d0692e6fdfb6ee0524",
+            "r_abi": "4.6"
+          }
+        }
+      }
     }
   ]
 }
