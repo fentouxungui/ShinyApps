@@ -4,9 +4,9 @@
 
 ShinyApps Store is a desktop app store for Shiny apps. This page lists every app in the catalog and is regenerated automatically by the [`Publish catalog`](https://github.com/fentouxungui/ShinyApps/blob/main/.github/workflows/publish-catalog.yml) workflow.
 
-- **Apps:** 129
+- **Apps:** 130 — 129 ✅ Available / 1 ⛔ Unavailable
 - **Shell minimum version:** `0.1.0`
-- **Catalog last updated:** 2026-11-23 02:25:25 UTC
+- **Catalog last updated:** 2026-11-23 03:03:29 UTC
 
 > Machine-readable manifest: [`catalog.json`](catalog.json) · Icons are served from [`icons/`](icons).
 
@@ -154,6 +154,7 @@ Don't have ShinyApps Store yet? Download it from the [latest release](https://gi
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/tfrmtbuilder.png?v=8a6bab7f6463" width="32" alt="tfrmtbuilder"> | **tfrmtbuilder**<br>Build and modify tfrmt table specifications | ✅ Available | `0.1.0` | [Windows x64](https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-win-x64.zip) · [macOS arm64](https://github.com/fentouxungui/tfrmtbuilder-1/releases/download/v0.1.0/tfrmtbuilder-0.1.0-mac-arm64.zip) | [Home](https://github.com/fentouxungui/tfrmtbuilder-1) · [Docs](https://github.com/GSK-Biostatistics/tfrmtbuilder#readme) · [Release](https://github.com/fentouxungui/tfrmtbuilder-1/releases/tag/v0.1.0) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/scrnatoolvis.png?v=9c91a360fe32" width="32" alt="scRNAtoolVis"> | **scRNAtoolVis**<br>Interactive parameter exploration and publication-ready visualization of single-cell RNA-seq data | ✅ Available | `0.1.1` | [Windows x64](https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-win-x64-r4.6.zip) · [macOS arm64](https://github.com/fentouxungui/scRNAtoolVis/releases/download/v0.1.1/scrnatoolvis-0.1.1-mac-arm64-r4.6.zip) | [Home](https://github.com/fentouxungui/scRNAtoolVis) · [Docs](https://github.com/fentouxungui/scRNAtoolVis#readme) · [Release](https://github.com/fentouxungui/scRNAtoolVis/releases/tag/v0.1.1) |
 | <img src="https://fentouxungui.github.io/ShinyApps/icons/scrdavis.png?v=3c99cd679ff3" width="32" alt="ScRDAVis"> | **ScRDAVis**<br>Interactive single-cell RNA-seq data analysis and visualization | ✅ Available | `1.1.3` | [Windows x64](https://github.com/fentouxungui/ScRDAVis/releases/download/v1.1.3/scrdavis-1.1.3-win-x64-r4.6.zip) · [macOS arm64](https://github.com/fentouxungui/ScRDAVis/releases/download/v1.1.3/scrdavis-1.1.3-mac-arm64-r4.6.zip) | [Home](https://www.gudalab-rtools.net/ScRDAVis) · [Docs](https://www.gudalab-rtools.net/ScRDAVis) · [Release](https://www.gudalab-rtools.net/ScRDAVis/releases/tag/v1.1.3) |
+| <img src="https://fentouxungui.github.io/ShinyApps/icons/radiant.png?v=7e98fa4fea35" width="32" alt="Radiant"> | **Radiant**<br>Business analytics using R and Shiny | ⛔ Unavailable | `1.6.7` | — | [Home](https://radiant-rstats.github.io/docs/) · [Docs](https://radiant-rstats.github.io/docs/) · [Release](https://radiant-rstats.github.io/docs/releases/tag/v1.6.7) |
 
 Windows bundles are x64. macOS bundles are arm64 (Apple Silicon, macOS 14+); Intel Macs are not supported.
 
@@ -3009,6 +3010,22 @@ Release: https://www.gudalab-rtools.net/ScRDAVis/releases/tag/v1.1.3
 | `win-x64` | [scrdavis-1.1.3-win-x64-r4.6.zip](https://github.com/fentouxungui/ScRDAVis/releases/download/v1.1.3/scrdavis-1.1.3-win-x64-r4.6.zip) | 1.6 GB | `a9654d02820f127043f9c9f35ecd2ef82eeae9cb376c6aef0b84b09ba889b5bf` |
 
 </details>
+
+### Radiant `1.6.7`
+
+**Status:** ⛔ Unavailable — no published release yet.
+
+Business analytics using R and Shiny
+
+| Field | Value |
+|---|---|
+| Author | Vincent Nijs |
+| License | AGPL-3 |
+| Contact | radiant@rady.ucsd.edu |
+| Copyright | (c) 2026 Vincent Nijs |
+| R version | 4.6.1 |
+
+Release: https://radiant-rstats.github.io/docs/releases/tag/v1.6.7
 
 ---
 
