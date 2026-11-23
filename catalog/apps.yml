@@ -1878,3 +1878,17 @@ apps:
     r_version: "4.6.1"
     r_abi: "4.6"
     tags: [single-cell, visualization]
+  - id: radiant
+    repo: "fentouxungui/radiant"
+    name: "Radiant"
+    author: "Vincent Nijs"
+    description: "Business analytics using R and Shiny"
+    homepage: "https://radiant-rstats.github.io/docs/"
+    docs: "https://radiant-rstats.github.io/docs/"
+    email: "radiant@rady.ucsd.edu"
+    copyright: "(c) 2026 Vincent Nijs"
+    license: "AGPL-3"
+    icon: "https://fentouxungui.github.io/ShinyApps/icons/radiant.png"
+    r_version: "4.6.1"
+    r_abi: "4.6"
+    tags: [finance-economics, statistics, visualization]
