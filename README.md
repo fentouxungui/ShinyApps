@@ -47,7 +47,7 @@ Browse the **[live app catalog](https://fentouxungui.github.io/ShinyApps/)** for
 
 1. Download `shinyapps-Setup-<version>-x64.exe` (Windows) or `.dmg` (macOS) from [**Releases**](https://github.com/fentouxungui/ShinyApps/releases).
 2. Launch **ShinyApps Store** — the launcher shows a card per available app.
-3. Click **Install**, then **Run**. Apps open in their own window with a slim **Store / Stop** toolbar at the top; the store stays open. Closing the app window stops it after an unsaved-work confirmation.
+3. Click **Install**, then **Run**. Apps open in their own window and fill it: no status bar, progress, **Store** or **Stop** controls sit under the title, and the store stays open behind it. Closing the app window stops it after an unsaved-work confirmation. Quitting ShinyApps Store while an app runs or an install is in progress lists those tasks and asks for confirmation first.
 4. **Every time ShinyApps Store starts, it automatically checks each app's latest version** against the online catalog. If a newer version is available, the card shows **Update** — click it for a one-click upgrade (the app is stopped, fetched, verified, and swapped in place).
 
 > Shell auto-update only installs on signed builds; unsigned builds can download but Windows/macOS will refuse to apply the update.

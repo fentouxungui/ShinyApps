@@ -45,7 +45,7 @@ ShinyApps Store 不再把每个应用都做成一个庞大的独立桌面安装�
 
 1. 从 [**Releases**](https://github.com/fentouxungui/ShinyApps/releases) 下载 `shinyapps-Setup-<version>-x64.exe`（Windows）或 `.dmg`（macOS）。
 2. 打开 **ShinyApps Store** —— 启动页为每个可用应用显示一张卡片。
-3. 点 **Install**，再 **Run**。应用在独立窗口运行，顶部有 **Store / Stop** 细工具栏，商店窗口保持可用；关闭应用窗口会在确认未保存内容后停止应用。
+3. 点 **Install**，再 **Run**。应用在独立窗口运行并铺满窗口，标题下方不再显示状态栏、进度或 **Store / Stop** 控件，商店窗口保持可用；关闭应用窗口会在确认未保存内容后停止应用。退出 ShinyApps Store 时，若仍有应用在运行或安装任务未完成，会先列出这些任务并请你确认是否强制退出。
 4. **每次打开软件，ShinyApps Store 都会自动检测每个 app 的最新版本**（与线上 catalog 比对）。若有新版，卡片会显示 **Update**，点一下即可一键升级（暂停应用 → 下载 → 校验 → 原子替换）。
 
 > 外壳自动更新只在**已签名**的构建上才真正安装；未签名构建可以下载，但 Windows/macOS 会拒绝应用更新。
